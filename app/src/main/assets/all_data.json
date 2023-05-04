@@ -1,22 +1,23 @@
 [
   {
-    "name": "java基础",
+    "name": "均线回踩",
     "data": [
       {
-        "title": "string在使用时会创建几个对象",
-        "content": "String str1 = \"abc\"; // 在常量池中，如果有不需要创建  1个\n\nString str2 = new String(\"abc\"); // 在堆上 str2 常量池中“abc” abc如果有不需要创建   1或2个\n\nString str = \"abc\" + \"def\"; //在编译时已经被合并成“abcdef”字符串，因此，只会创建1个对象。\n\nString str = \"abc\" + new String(\"def\"); //“abc”和“def”，堆中对象new String(\"def\")和“abcdef”。还会创建一个StringBuilder来进行字符串的拼接\u2028  字符串、new、builder"
+        "title": "前提",
+        "content": "回避退潮，是所有操作的前提。"
       },
       {
-        "title": "int和integer的区别",
-        "content": "Integer是int提供的封装类，而int是java的基本数据类型，Integer的默认值是null，而int的默认值是0，声明Integer的变量需要实例化，而int不需要，Integer是对象，是一个引用指向这个对象，而int是基本数据类型，直接存储数据。"
+        "title": "均线回踩的逻辑",
+        "content": "短线买的就是势、惯性，所以短期均线要向上。"
       },
       {
-        "title": "基础类型多少字节，取值范围多少",
-        "content": "计算机的基本单位：bit .　　一个bit代表一个0或1\n\n　　byte：1byte = 8bit // 1个字节是8个bit -2^7 ~ 2^7-1，即-128 ~ 127\n\n　　short：2byte(字节)  -2^15 ~ 2^15-1，即-32768 ~ 32767。\n\n　　int：4byte    -2^31 ~ 2^31-1，即-2147483648 ~ 2147483647\n\n　　long：8byte    -2^63 ~ 2^63-1\n\n　　float：4byte   末尾加F。（也可以不加F）\n\n　　double：8byte\n\n　　boolean：1byte\n\n　　char：2byte"
+        "title": "此操作的标的",
+        "content": "近期趋势、板块龙头，最强者，必须有辨识度。"
       },
       {
-        "title": "抽像类与接口的差别",
-        "content": "抽象类是对整个类进行抽象，包括属性和方法，是一种模板设计。我们可以有选择地重写需要用到的方法。而接口是对行为的抽象，实现接口的一定要实现接口里定义的所有方法，里面不能有私有的方法或变量，是用于让别人使用的。还有就是一个具体类只能extends一个抽象类，可以implements多个接口。\n\n还有些就是定义上的区别，比如抽像类可以有构造器，但接口没有，访问修饰符抽像类可以有public protected  default等，但接口默认修饰符是public，不可以用其他修饰符。"
+        "title": "股票的参与度",
+        "content": "超级牛股，回踩要积极参与，23/4/18 剑桥回踩20日线，涨停",
+        "image": "mvc_image"
       },
       {
         "title": "什么是内部类？内部类的作用是什么？",
