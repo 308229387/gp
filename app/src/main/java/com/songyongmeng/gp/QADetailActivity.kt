@@ -5,6 +5,7 @@ import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import com.bumptech.glide.Glide
 import kotlinx.android.synthetic.main.q_a_detail_layout.*
+import java.lang.reflect.Field
 
 /**
  * Author: sym
@@ -23,13 +24,14 @@ class QADetailActivity : AppCompatActivity() {
 
             if (null != intent.getStringExtra("image")) {
                 answer_image.visibility = View.VISIBLE
-                val resId: Int = this.resources.getIdentifier(intent.getStringExtra("image"), "drawable", this.packageName)
-                Glide.with(this).load(resId).into(answer_image)
+//                val resId: Int = this.resources.getIdentifier(intent.getStringExtra("image"), "drawable", this.packageName)
+                Glide.with(this).load(ToolUtils.getImages("jian_qiao")).into(answer_image)
                 answer_image.setOnClickListener(View.OnClickListener {
                 })
             }
 
         }
     }
+
 
 }
