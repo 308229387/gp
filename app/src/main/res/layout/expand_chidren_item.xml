@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/chidren_item"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:text="子项目"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:textColor="@color/black"
+        android:layout_height="50dp" />
+
+    <ImageView
+        android:id="@+id/learn_icon"
+        android:layout_width="wrap_content"
+        android:layout_marginEnd="10dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="10dp"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/comment_up"/>
+
+</LinearLayout>

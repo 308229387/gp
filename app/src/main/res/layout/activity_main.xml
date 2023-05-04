@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#2589FA"
+        android:theme="@style/ThemeOverlay.AppCompat.Light"
+        app:contentInsetEnd="0dp"
+        app:contentInsetStart="0dp">
+
+        <TextView
+            android:id="@+id/toolbar_title"
+            style="@style/ToolbarTitleStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            tools:text="here is title" />
+
+        <FrameLayout
+            android:id="@+id/person_detail"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="end">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|end"
+                android:layout_marginEnd="16dp"
+                android:text="展开关闭"
+                android:textColor="#ffffff"
+                android:textSize="14sp" />
+        </FrameLayout>
+
+    </androidx.appcompat.widget.Toolbar>
+    <ExpandableListView
+        android:id="@+id/expand_list_id"
+        android:layout_width="match_parent"
+        android:groupIndicator="@null"
+        android:layout_below="@id/toolbar_layout"
+        android:layout_height="match_parent">
+    </ExpandableListView>
+</RelativeLayout>
