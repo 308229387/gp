@@ -1,5 +1,6 @@
 package com.songyongmeng.gp;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ExpandableListView;
@@ -54,6 +55,34 @@ public class MainActivity extends AppCompatActivity {
         });
 
         MainListAdapter adapter = new MainListAdapter(this, allData);
+        expandListId.setAdapter(adapter);
 
+        //默认展开第一个数组
+        expandListId.expandGroup(0);
+
+        expandListId.setOnGroupClickListener(new ExpandableListView.OnGroupClickListener() {
+            @Override
+            public boolean onGroupClick(ExpandableListView expandableListView, View view, int groupPosition, long l) {
+                return false;
+            }
+        });
+
+        expandListId.setOnChildClickListener(new ExpandableListView.OnChildClickListener() {
+            @Override
+            public boolean onChildClick(ExpandableListView expandableListView, View view, int groupPosition, int childPosition, long l) {
+                toDetail(allData.get(groupPosition).getData().get(childPosition).getTitle(), allData.get(groupPosition).getData().get(childPosition).getContent(), allData.get(groupPosition).getData().get(childPosition).getImage());
+                return true;
+            }
+        });
+
+
+
+    }
+    private void toDetail(String title, String content, String image) {
+        Intent intent = new Intent(MainActivity.this, QADetailActivity.class);
+        intent.putExtra("title", title);
+        intent.putExtra("answer", content);
+        intent.putExtra("image", image);
+        startActivity(intent);
     }
 }
