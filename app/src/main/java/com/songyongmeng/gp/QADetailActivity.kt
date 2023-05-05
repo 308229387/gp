@@ -25,7 +25,7 @@ class QADetailActivity : AppCompatActivity() {
             if (null != intent.getStringExtra("image")) {
                 answer_image.visibility = View.VISIBLE
 //                val resId: Int = this.resources.getIdentifier(intent.getStringExtra("image"), "drawable", this.packageName)
-                Glide.with(this).load(ToolUtils.getImages("jian_qiao")).into(answer_image)
+                Glide.with(this).load(ToolUtils.getImages(intent.getStringExtra("image"))).into(answer_image)
                 answer_image.setOnClickListener(View.OnClickListener {
                 })
             }
