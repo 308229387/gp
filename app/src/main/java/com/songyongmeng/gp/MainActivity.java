@@ -57,8 +57,9 @@ public class MainActivity extends AppCompatActivity {
         MainListAdapter adapter = new MainListAdapter(this, allData);
         expandListId.setAdapter(adapter);
 
-        //默认展开第一个数组
-        expandListId.expandGroup(0);
+        for(int i =0;i<allData.size();i++){
+            expandListId.expandGroup(i);
+        }
 
         expandListId.setOnGroupClickListener(new ExpandableListView.OnGroupClickListener() {
             @Override
@@ -70,7 +71,13 @@ public class MainActivity extends AppCompatActivity {
         expandListId.setOnChildClickListener(new ExpandableListView.OnChildClickListener() {
             @Override
             public boolean onChildClick(ExpandableListView expandableListView, View view, int groupPosition, int childPosition, long l) {
-                toDetail(allData.get(groupPosition).getData().get(childPosition).getTitle(), allData.get(groupPosition).getData().get(childPosition).getContent(), allData.get(groupPosition).getData().get(childPosition).getImage());
+                toDetail(allData.get(groupPosition).getData().get(childPosition).getTitle(),
+                        allData.get(groupPosition).getData().get(childPosition).getContent(),
+                        allData.get(groupPosition).getData().get(childPosition).getImage(),
+                        allData.get(groupPosition).getData().get(childPosition).getImage1(),
+                        allData.get(groupPosition).getData().get(childPosition).getImage2(),
+                        allData.get(groupPosition).getData().get(childPosition).getImage3(),
+                        allData.get(groupPosition).getData().get(childPosition).getImage4());
                 return true;
             }
         });
@@ -78,11 +85,15 @@ public class MainActivity extends AppCompatActivity {
 
 
     }
-    private void toDetail(String title, String content, String image) {
+    private void toDetail(String title, String content, String image, String image1, String image2, String image3, String image4) {
         Intent intent = new Intent(MainActivity.this, QADetailActivity.class);
         intent.putExtra("title", title);
         intent.putExtra("answer", content);
         intent.putExtra("image", image);
+        intent.putExtra("image1", image1);
+        intent.putExtra("image2", image2);
+        intent.putExtra("image3", image3);
+        intent.putExtra("image4", image4);
         startActivity(intent);
     }
 }
