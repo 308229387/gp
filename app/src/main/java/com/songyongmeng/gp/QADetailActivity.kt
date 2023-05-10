@@ -22,6 +22,7 @@ class QADetailActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.q_a_detail_layout)
+        Utility.setActionBar(this,R.color.white)
         if (intent != null) {
 
             question_text.text = intent.getStringExtra("title")

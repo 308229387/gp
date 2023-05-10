@@ -118,7 +118,7 @@ public class MainListAdapter extends BaseExpandableListAdapter {
             QABean tmp = Hawk.get(data.get(groupPosition).getData().get(childPosition).getTitle());
             switch (tmp.getCount()) {
                 case 0:
-                    childViewHolder.parent_view.setBackgroundColor(Color.parseColor("#63A1E6"));
+                    childViewHolder.parent_view.setBackgroundColor(Color.parseColor("#ffffff"));
                     break;
                 case 1:
                     childViewHolder.parent_view.setBackgroundColor(Color.parseColor("#FF0000"));
@@ -138,6 +138,32 @@ public class MainListAdapter extends BaseExpandableListAdapter {
         } else {
             childViewHolder.parent_view.setBackgroundColor(Color.parseColor("#FFFFFF"));
         }
+        childViewHolder.chidren_item.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View view) {
+
+
+                RememberDialog dialog = new RememberDialog(context,"清除此条状态");
+                dialog.setListener(new RememberDialog.RememberDialogCallBack() {
+                    @Override
+                    public void result() {
+                        QABean tmp = Hawk.get(data.get(groupPosition).getData().get(childPosition).getTitle());
+                        tmp.setCount(0);
+                        Hawk.put(data.get(groupPosition).getData().get(childPosition).getTitle(), tmp);
+                        notifyDataSetChanged();
+                        dialog.dismiss();
+                    }
+
+                    @Override
+                    public void cancel() {
+                        dialog.dismiss();
+                    }
+                }).show();
+
+
+                return false;
+            }
+        });
         childViewHolder.learn_icon.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

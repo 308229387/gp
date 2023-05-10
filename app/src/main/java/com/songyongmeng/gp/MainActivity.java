@@ -5,30 +5,33 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ExpandableListView;
 import android.widget.FrameLayout;
-import android.widget.ImageView;
-import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
+import com.orhanobut.hawk.Hawk;
+import com.songyongmeng.gp.dialog.RememberDialog;
 
 import java.util.ArrayList;
-import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
     ArrayList<MainBean> allData;
     boolean allOpenTag = false;
     FrameLayout personDetail;
+    FrameLayout clear;
     ExpandableListView expandListId;
+    MainListAdapter adapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        Utility.setActionBar(this);
         personDetail = findViewById(R.id.person_detail);
         expandListId = findViewById(R.id.expand_list_id);
+        clear = findViewById(R.id.clear);
 
         AssetsUtils assetsUtils = new AssetsUtils();
         String name = "all_data.json";
@@ -57,10 +60,30 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        MainListAdapter adapter = new MainListAdapter(this, allData);
+        clear.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                RememberDialog dialog = new RememberDialog(MainActivity.this, "是否要清除全部状态");
+                dialog.setListener(new RememberDialog.RememberDialogCallBack() {
+                    @Override
+                    public void result() {
+                        Hawk.deleteAll();
+                        adapter.notifyDataSetChanged();
+                        dialog.dismiss();
+                    }
+
+                    @Override
+                    public void cancel() {
+                        dialog.dismiss();
+                    }
+                }).show();
+            }
+        });
+
+        adapter = new MainListAdapter(this, allData);
         expandListId.setAdapter(adapter);
 
-        for(int i =0;i<allData.size();i++){
+        for (int i = 0; i < allData.size(); i++) {
             expandListId.expandGroup(i);
         }
 
@@ -82,13 +105,13 @@ public class MainActivity extends AppCompatActivity {
         });
 
 
-
     }
+
     private void toDetail(String title, String content, ArrayList<String> imageList) {
         Intent intent = new Intent(MainActivity.this, QADetailActivity.class);
         intent.putExtra("title", title);
         intent.putExtra("answer", content);
-        intent.putStringArrayListExtra("imageList",  imageList);
+        intent.putStringArrayListExtra("imageList", imageList);
         startActivity(intent);
     }
 }

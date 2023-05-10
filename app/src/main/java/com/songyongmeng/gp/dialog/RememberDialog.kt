@@ -4,18 +4,23 @@ import android.content.Context
 import android.os.Bundle
 import android.view.View
 import android.widget.Button
+import android.widget.TextView
 import com.songyongmeng.gp.R
-import com.songyongmeng.gp.dialog.BaseDialog
 
 class RememberDialog : BaseDialog, View.OnClickListener {
     private var listener: RememberDialogCallBack? = null
     private var leftStr: String? = null
     private var rightStr: String? = null
+    private var textInfo: String? = null
 
     constructor(context: Context) : super(context, R.style.SimpleDialog) {
     }
 
     constructor(context: Context, themeResId: Int) : super(context, themeResId) {}
+
+    constructor(context: Context, text: String) : super(context, R.style.SimpleDialog) {
+        textInfo = text
+    }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState ?: Bundle())
@@ -29,12 +34,16 @@ class RememberDialog : BaseDialog, View.OnClickListener {
         leftTv.setOnClickListener(this)
         val rightTv = findViewById<Button>(R.id.btn_virtual_right)
         rightTv.setOnClickListener(this)
+        val textLayout = findViewById<TextView>(R.id.btn_text_info)
 
         if (leftStr != null) {
             leftTv.text = leftStr
         }
         if (rightStr != null) {
             rightTv.text = rightStr
+        }
+        if (textInfo != null) {
+            textLayout.text = textInfo
         }
     }
 
