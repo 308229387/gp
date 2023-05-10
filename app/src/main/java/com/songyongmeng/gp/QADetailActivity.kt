@@ -1,11 +1,16 @@
 package com.songyongmeng.gp
 
 import android.os.Bundle
+import android.util.Log
 import android.view.View
+import android.view.ViewGroup
+import android.widget.FrameLayout
+import android.widget.ImageView
+import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import com.bumptech.glide.Glide
 import kotlinx.android.synthetic.main.q_a_detail_layout.*
-import java.lang.reflect.Field
+import java.util.*
 
 /**
  * Author: sym
@@ -22,47 +27,39 @@ class QADetailActivity : AppCompatActivity() {
             question_text.text = intent.getStringExtra("title")
             answer_text.text = intent.getStringExtra("answer")
 
-            if (null != intent.getStringExtra("image")) {
-                answer_image.visibility = View.VISIBLE
-//                val resId: Int = this.resources.getIdentifier(intent.getStringExtra("image"), "drawable", this.packageName)
-                Glide.with(this).load(ToolUtils.getImages(intent.getStringExtra("image"))).into(answer_image)
-                answer_image.setOnClickListener(View.OnClickListener {
-                })
+            if (null != intent.getStringArrayListExtra("imageList")) {
+                image_parent.visibility = View.VISIBLE
+                var imageList =
+                    intent.getStringArrayListExtra("imageList") as ArrayList<String>
+
+                if (imageList != null) {
+                    for (i in 0..(imageList.size-1)) {
+                        var tmp = imageList[i]
+                        if(ToolUtils.startWithText(tmp)){
+                            val lp = FrameLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT)
+                            lp.bottomMargin = 70
+                            val textView = TextView(this)
+                            textView.text = ToolUtils.replaceText(tmp)
+                            textView.textSize = 20f
+                            textView.setTextColor(resources.getColor(R.color.grey))
+                            textView.layoutParams = lp
+                            image_parent.addView(textView)
+                        }else if(ToolUtils.startWithImage(tmp)){
+                            val lp = FrameLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT)
+                            lp.bottomMargin = 70
+                            val imageView = ImageView(this)
+                            imageView.layoutParams = lp
+                            Glide.with(this).load(ToolUtils.getImages(ToolUtils.replaceImage(tmp))).into(imageView)
+                            image_parent.addView(imageView)
+                        }
+
+                    }
+                }
             }
 
-            if (null != intent.getStringExtra("image1")) {
-                answer_image1.visibility = View.VISIBLE
-//                val resId: Int = this.resources.getIdentifier(intent.getStringExtra("image"), "drawable", this.packageName)
-                Glide.with(this).load(ToolUtils.getImages(intent.getStringExtra("image1"))).into(answer_image1)
-                answer_image.setOnClickListener(View.OnClickListener {
-                })
-            }
-
-            if (null != intent.getStringExtra("image2")) {
-                answer_image2.visibility = View.VISIBLE
-//                val resId: Int = this.resources.getIdentifier(intent.getStringExtra("image"), "drawable", this.packageName)
-                Glide.with(this).load(ToolUtils.getImages(intent.getStringExtra("image2"))).into(answer_image2)
-                answer_image.setOnClickListener(View.OnClickListener {
-                })
-            }
-
-            if (null != intent.getStringExtra("image3")) {
-                answer_image3.visibility = View.VISIBLE
-//                val resId: Int = this.resources.getIdentifier(intent.getStringExtra("image"), "drawable", this.packageName)
-                Glide.with(this).load(ToolUtils.getImages(intent.getStringExtra("image3"))).into(answer_image3)
-                answer_image.setOnClickListener(View.OnClickListener {
-                })
-            }
-
-            if (null != intent.getStringExtra("image4")) {
-                answer_image4.visibility = View.VISIBLE
-//                val resId: Int = this.resources.getIdentifier(intent.getStringExtra("image"), "drawable", this.packageName)
-                Glide.with(this).load(ToolUtils.getImages(intent.getStringExtra("image4"))).into(answer_image4)
-                answer_image.setOnClickListener(View.OnClickListener {
-                })
-            }
 
         }
+
     }
 
 

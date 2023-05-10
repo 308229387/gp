@@ -5,6 +5,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ExpandableListView;
 import android.widget.FrameLayout;
+import android.widget.ImageView;
+import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -12,6 +14,7 @@ import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
     ArrayList<MainBean> allData;
@@ -73,11 +76,7 @@ public class MainActivity extends AppCompatActivity {
             public boolean onChildClick(ExpandableListView expandableListView, View view, int groupPosition, int childPosition, long l) {
                 toDetail(allData.get(groupPosition).getData().get(childPosition).getTitle(),
                         allData.get(groupPosition).getData().get(childPosition).getContent(),
-                        allData.get(groupPosition).getData().get(childPosition).getImage(),
-                        allData.get(groupPosition).getData().get(childPosition).getImage1(),
-                        allData.get(groupPosition).getData().get(childPosition).getImage2(),
-                        allData.get(groupPosition).getData().get(childPosition).getImage3(),
-                        allData.get(groupPosition).getData().get(childPosition).getImage4());
+                        (ArrayList<String>) allData.get(groupPosition).getData().get(childPosition).getImage());
                 return true;
             }
         });
@@ -85,15 +84,11 @@ public class MainActivity extends AppCompatActivity {
 
 
     }
-    private void toDetail(String title, String content, String image, String image1, String image2, String image3, String image4) {
+    private void toDetail(String title, String content, ArrayList<String> imageList) {
         Intent intent = new Intent(MainActivity.this, QADetailActivity.class);
         intent.putExtra("title", title);
         intent.putExtra("answer", content);
-        intent.putExtra("image", image);
-        intent.putExtra("image1", image1);
-        intent.putExtra("image2", image2);
-        intent.putExtra("image3", image3);
-        intent.putExtra("image4", image4);
+        intent.putStringArrayListExtra("imageList",  imageList);
         startActivity(intent);
     }
 }
