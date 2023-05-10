@@ -138,19 +138,21 @@ public class MainListAdapter extends BaseExpandableListAdapter {
         } else {
             childViewHolder.parent_view.setBackgroundColor(Color.parseColor("#FFFFFF"));
         }
-        childViewHolder.chidren_item.setOnLongClickListener(new View.OnLongClickListener() {
+        childViewHolder.learn_icon.setOnLongClickListener(new View.OnLongClickListener() {
             @Override
             public boolean onLongClick(View view) {
 
 
-                RememberDialog dialog = new RememberDialog(context,"清除此条状态");
+                RememberDialog dialog = new RememberDialog(context, "清除此条状态");
                 dialog.setListener(new RememberDialog.RememberDialogCallBack() {
                     @Override
                     public void result() {
-                        QABean tmp = Hawk.get(data.get(groupPosition).getData().get(childPosition).getTitle());
-                        tmp.setCount(0);
-                        Hawk.put(data.get(groupPosition).getData().get(childPosition).getTitle(), tmp);
-                        notifyDataSetChanged();
+                        if (Hawk.contains(data.get(groupPosition).getData().get(childPosition).getTitle())) {
+                            QABean tmp = Hawk.get(data.get(groupPosition).getData().get(childPosition).getTitle());
+                            tmp.setCount(0);
+                            Hawk.put(data.get(groupPosition).getData().get(childPosition).getTitle(), tmp);
+                            notifyDataSetChanged();
+                        }
                         dialog.dismiss();
                     }
 
