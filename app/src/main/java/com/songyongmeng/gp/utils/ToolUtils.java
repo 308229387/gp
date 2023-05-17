@@ -1,6 +1,8 @@
-package com.songyongmeng.gp;
+package com.songyongmeng.gp.utils;
 
 import android.util.Log;
+
+import com.songyongmeng.gp.R;
 
 import java.lang.reflect.Field;
 

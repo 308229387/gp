@@ -12,6 +12,8 @@ import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 import com.orhanobut.hawk.Hawk;
 import com.songyongmeng.gp.dialog.RememberDialog;
+import com.songyongmeng.gp.utils.AssetsUtils;
+import com.songyongmeng.gp.utils.Utility;
 
 import java.util.ArrayList;
 
