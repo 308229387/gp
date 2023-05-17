@@ -1,4 +1,5 @@
 package com.songyongmeng.gp.utils;
+
 import android.content.Context;
 import android.graphics.Matrix;
 import android.graphics.PointF;
@@ -8,9 +9,8 @@ import android.util.Log;
 import android.view.MotionEvent;
 import android.view.ScaleGestureDetector;
 import android.view.View;
-import android.widget.ImageView;
 
-public class ZoomableImageView extends ImageView {
+public class ZoomableImageView extends androidx.appcompat.widget.AppCompatImageView {
 
     Matrix matrix;
 
