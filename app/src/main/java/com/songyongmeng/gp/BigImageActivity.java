@@ -5,6 +5,8 @@ import android.content.pm.ActivityInfo;
 import android.hardware.SensorManager;
 import android.os.Bundle;
 import android.view.OrientationEventListener;
+import android.view.View;
+import android.widget.TextView;
 
 import androidx.annotation.Nullable;
 
@@ -14,6 +16,7 @@ import com.songyongmeng.gp.utils.ZoomableImageView;
 public class BigImageActivity extends Activity {
 
     private OrientationEventListener mOrientationEventListener;
+    private boolean isVertical = true;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -22,37 +25,24 @@ public class BigImageActivity extends Activity {
         int image = getIntent().getIntExtra("image", 0);
 
         ZoomableImageView imageView = findViewById(R.id.image_view);
+        TextView change = findViewById(R.id.change_layout);
 //        Bitmap bitmap = BitmapFactory.decodeResource(getResources(),image);
 //        imageView.setImageBitmap(bitmap);
         Glide.with(this).load(image).into(imageView);
 
-
-        mOrientationEventListener = new OrientationEventListener(this, SensorManager.SENSOR_DELAY_NORMAL) {
+        change.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onOrientationChanged(int orientation) {
-                if (orientation == ORIENTATION_UNKNOWN) {
-                    return;
-                }
-
-                // 判断设备的方向
-                if (orientation >= 0 && orientation < 45 || orientation > 315) {
-                    setVertical();
-                } else if (orientation >= 45 && orientation < 135) {
-                    setReverseHorizontal();
-                } else if (orientation >= 135 && orientation < 225) {
-                    setVertical();
-                } else if (orientation >= 225 && orientation < 315) {
+            public void onClick(View view) {
+                if(isVertical){
                     setHorizontal();
+                    isVertical = false;
+                }else{
+                    setVertical();
+                    isVertical = true;
                 }
             }
-        };
+        });
 
-
-        if (mOrientationEventListener.canDetectOrientation()) {
-            mOrientationEventListener.enable();
-        } else {
-            mOrientationEventListener.disable();
-        }
 
     }
 
@@ -67,20 +57,10 @@ public class BigImageActivity extends Activity {
     }
 
 
-
-
     // 切换成竖屏展示
     public void setVertical() {
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
     }
-
-
-    @Override
-    protected void onDestroy() {
-        super.onDestroy();
-        mOrientationEventListener.disable();
-    }
-
 
 }
 

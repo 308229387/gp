@@ -58,6 +58,9 @@ class QADetailActivity : AppCompatActivity() {
                                 ViewGroup.LayoutParams.WRAP_CONTENT
                             )
                             lp.bottomMargin = 70
+                            lp.leftMargin = 30
+                            lp.rightMargin = 30
+
                             val imageView = ImageView(this)
                             imageView.layoutParams = lp
 
