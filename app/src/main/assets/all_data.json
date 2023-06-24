@@ -3,25 +3,23 @@
     "name": "失败反思",
     "data": [
       {
-        "title": "没耐心",
-        "content": "睿能科技，大均线，死在黎明前，现在看来，是离场条件没设立好。",
+        "title": "盈利总结",
+        "content": "太杂，手法不纯粹，后面主要以主升为主，大均线为辅",
         "image": [
-          "image:rndjx"
+          "image:suc_1",
+          "image:suc_2",
+          "image:suc_3",
+          "image:suc_4",
+          "image:suc_5",
+          "image:suc_6",
+          "image:suc_7",
+          "image:suc_8"
         ]
       },
       {
-        "title": "设好离场条件，别太纠结",
-        "content": "太纠结反而错失良机，看好就干，触发离场条件就走。融发核电大均线，发现趋势好也没上，丰立智能到箱体底部也没上。等等这些都是太纠结了。"
-      },
-      {
-        "title": "心态颠倒",
-        "content": "主升时候胆小，见顶后，手闲不下来了，开始堆仓位了。美其名曰积极尝试。"
-      },
-      {
-        "title": "重塑自我",
-        "content": "连续11次亏损，即使蒙也很难有这概率。之前总结的方法都是在下降区间折腾，买卖点稍纵即逝，很容易出错。还是要市场周期与手法结合，理解力与技术手法兼修，否则会走火入魔",
+        "title": "失败总结",
+        "content": "连续13次亏损，即使蒙也很难有这概率。之前总结的方法都是在下降区间折腾，买卖点稍纵即逝，很容易出错。还是要市场周期与手法结合，理解力与技术手法兼修，否则会走火入魔",
         "image": [
-          "image:fail_1",
           "image:fail_2",
           "image:fail_3",
           "image:fail_4",
@@ -36,8 +34,34 @@
           "image:fail_13",
           "image:fail_14",
           "image:fail_15",
-          "image:fail_16"
+          "image:fail_16",
+          "image:fail_17",
+          "image:fail_18",
+          "image:fail_19",
+          "image:fail_20",
+          "image:fail_21",
+          "image:fail_22",
+          "image:fail_23",
+          "image:fail_24",
+          "image:fail_25",
+          "image:fail_26",
+          "image:fail_27"
         ]
+      },
+      {
+        "title": "没耐心",
+        "content": "睿能科技，大均线，死在黎明前，现在看来，是离场条件没设立好。",
+        "image": [
+          "image:rndjx"
+        ]
+      },
+      {
+        "title": "设好离场条件，别太纠结",
+        "content": "太纠结反而错失良机，看好就干，触发离场条件就走。融发核电大均线，发现趋势好也没上，丰立智能到箱体底部也没上。等等这些都是太纠结了。"
+      },
+      {
+        "title": "心态颠倒",
+        "content": "主升时候胆小，见顶后，手闲不下来了，开始堆仓位了。美其名曰积极尝试。"
       },
       {
         "title": "不能逃避交易",
