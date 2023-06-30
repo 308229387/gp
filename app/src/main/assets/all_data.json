@@ -114,7 +114,7 @@
       },
       {
         "title": "大均线合集",
-        "content": "版块共振、回踩均线、5日线拐头、阳线放量",
+        "content": "阳线放量、版块共振、回踩均线、5日线拐头，其中阳线放量成功率最高，能够共振最好",
         "image": [
           "image:djx_demo_1",
           "image:djx_demo_2",
@@ -125,7 +125,16 @@
           "image:djx_demo_7",
           "image:djx_demo_8",
           "image:djx_demo_9",
-          "image:djx_demo_10"
+          "image:djx_demo_10",
+          "image:djx_demo_11",
+          "image:djx_demo_12",
+          "image:djx_demo_13",
+          "image:djx_demo_14",
+          "image:djx_demo_15",
+          "image:djx_demo_16",
+          "image:djx_demo_17",
+          "text:再看一个反倒",
+          "image:djx_demo_fanli1"
         ]
       },
       {
@@ -134,7 +143,7 @@
           "text:杭州热电因为有版块加持，回踩涨停后第二天还有冲高",
           "image:miss_1",
           "text:而深南电，电力龙头，因为版块下跌，同板块个股均表现很差，果然冲高回落",
-          "image:miss_1",
+          "image:miss_1"
         ]
       },
       {
@@ -351,7 +360,9 @@
           "text:中国出版",
           "image:zgcb_djx",
           "text:睿能科技，因为没耐心，又卖早了。",
-          "image:rndjx"
+          "image:rndjx",
+          "text:章盟主买了3个亿，可见是认可回踩20日均线的，还有92科比也是从均线吃反弹",
+          "image:djx_zmz"
         ]
       }
     ]
