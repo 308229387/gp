@@ -113,7 +113,7 @@ public class MainListAdapter extends BaseExpandableListAdapter {
         } else {
             childViewHolder = (ChildViewHolder) convertView.getTag();
         }
-        String title = data.get(groupPosition).getData().get(childPosition).getImage().get(0).replace("title:","");
+        String title = data.get(groupPosition).getData().get(childPosition).getRichText().get(0).replace("title:","");
         childViewHolder.chidren_item.setText(title);
         if (Hawk.contains(title)) {
             QABean tmp = Hawk.get(title);
@@ -148,10 +148,10 @@ public class MainListAdapter extends BaseExpandableListAdapter {
                 dialog.setListener(new RememberDialog.RememberDialogCallBack() {
                     @Override
                     public void result() {
-                        if (Hawk.contains(data.get(groupPosition).getData().get(childPosition).getImage().get(0).replace("title:",""))) {
-                            QABean tmp = Hawk.get(data.get(groupPosition).getData().get(childPosition).getImage().get(0).replace("title:",""));
+                        if (Hawk.contains(data.get(groupPosition).getData().get(childPosition).getRichText().get(0).replace("title:",""))) {
+                            QABean tmp = Hawk.get(data.get(groupPosition).getData().get(childPosition).getRichText().get(0).replace("title:",""));
                             tmp.setCount(0);
-                            Hawk.put(data.get(groupPosition).getData().get(childPosition).getImage().get(0).replace("title:",""), tmp);
+                            Hawk.put(data.get(groupPosition).getData().get(childPosition).getRichText().get(0).replace("title:",""), tmp);
                             notifyDataSetChanged();
                         }
                         dialog.dismiss();
@@ -175,9 +175,9 @@ public class MainListAdapter extends BaseExpandableListAdapter {
                 dialog.setListener(new RememberDialog.RememberDialogCallBack() {
                     @Override
                     public void result() {
-                        QABean tmp = Hawk.get(data.get(groupPosition).getData().get(childPosition).getImage().get(0).replace("title:",""), new QABean());
+                        QABean tmp = Hawk.get(data.get(groupPosition).getData().get(childPosition).getRichText().get(0).replace("title:",""), new QABean());
                         tmp.setCount(tmp.getCount() + 1);
-                        Hawk.put(data.get(groupPosition).getData().get(childPosition).getImage().get(0).replace("title:",""), tmp);
+                        Hawk.put(data.get(groupPosition).getData().get(childPosition).getRichText().get(0).replace("title:",""), tmp);
                         notifyDataSetChanged();
                         dialog.dismiss();
                     }

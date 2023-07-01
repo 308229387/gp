@@ -26,14 +26,14 @@ public class MainBean implements Serializable {
     }
 
     public static class DataDTO implements Serializable {
-        private List<String> image;
+        private List<String> richText;
 
-        public List<String> getImage() {
-            return image;
+        public List<String> getRichText() {
+            return richText;
         }
 
-        public void setImage(List<String> image) {
-            this.image = image;
+        public void setImage(List<String> rich) {
+            this.richText = rich;
         }
     }
 }

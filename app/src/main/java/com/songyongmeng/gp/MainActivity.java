@@ -99,7 +99,7 @@ public class MainActivity extends AppCompatActivity {
         expandListId.setOnChildClickListener(new ExpandableListView.OnChildClickListener() {
             @Override
             public boolean onChildClick(ExpandableListView expandableListView, View view, int groupPosition, int childPosition, long l) {
-                toDetail((ArrayList<String>) allData.get(groupPosition).getData().get(childPosition).getImage());
+                toDetail((ArrayList<String>) allData.get(groupPosition).getData().get(childPosition).getRichText());
                 return true;
             }
         });
