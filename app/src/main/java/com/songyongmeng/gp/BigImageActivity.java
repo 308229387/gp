@@ -8,7 +8,6 @@ import android.view.OrientationEventListener;
 import android.view.View;
 import android.widget.TextView;
 
-import androidx.annotation.Nullable;
 
 import com.bumptech.glide.Glide;
 import com.songyongmeng.gp.utils.ZoomableImageView;
@@ -19,7 +18,7 @@ public class BigImageActivity extends Activity {
     private boolean isVertical = true;
 
     @Override
-    protected void onCreate(@Nullable Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.big_image_layout);
         int image = getIntent().getIntExtra("image", 0);

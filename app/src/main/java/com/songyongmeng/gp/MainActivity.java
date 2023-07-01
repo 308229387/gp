@@ -99,9 +99,7 @@ public class MainActivity extends AppCompatActivity {
         expandListId.setOnChildClickListener(new ExpandableListView.OnChildClickListener() {
             @Override
             public boolean onChildClick(ExpandableListView expandableListView, View view, int groupPosition, int childPosition, long l) {
-                toDetail(allData.get(groupPosition).getData().get(childPosition).getTitle(),
-                        allData.get(groupPosition).getData().get(childPosition).getContent(),
-                        (ArrayList<String>) allData.get(groupPosition).getData().get(childPosition).getImage());
+                toDetail((ArrayList<String>) allData.get(groupPosition).getData().get(childPosition).getImage());
                 return true;
             }
         });
@@ -109,10 +107,8 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    private void toDetail(String title, String content, ArrayList<String> imageList) {
+    private void toDetail( ArrayList<String> imageList) {
         Intent intent = new Intent(MainActivity.this, QADetailActivity.class);
-        intent.putExtra("title", title);
-        intent.putExtra("answer", content);
         intent.putStringArrayListExtra("imageList", imageList);
         startActivity(intent);
     }
