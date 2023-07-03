@@ -116,36 +116,44 @@
       },
       {
         "richText": [
-          "title:大均线成功合集",
+          "title:20日均线合集",
           "text:评估的指标有很多，但还是要客观的去评估，强不强一看就知道，不能因为买了，就去找强的理由来说服自己。\n\n阳线放量、版块共振、回踩均线、5日线拐头、站上均线，其中阳线放量成功率最高，能够共振最好\n\n结论点：1、如果在反弹成功中去复盘，放量后几乎第二天都有利润。2、在下跌的途中，5日线不会拐头的概率达到90%\n综合以上两点，只要有拐头的可能",
-          "image:djx_demo_1",
           "image:djx_demo_2",
-          "image:djx_demo_3",
-          "image:djx_demo_4",
-          "image:djx_demo_5",
-          "image:djx_demo_6",
-          "image:djx_demo_7",
           "image:djx_demo_8",
           "image:djx_demo_9",
           "image:djx_demo_10",
           "image:djx_demo_11",
           "image:djx_demo_12",
           "image:djx_demo_13",
-          "image:djx_demo_14",
           "image:djx_demo_15",
-          "image:djx_demo_16",
-          "image:djx_demo_17",
           "image:djx_demo_18",
-          "image:djx_demo_19",
           "image:djx_demo_20",
           "image:djx_demo_21",
           "image:djx_demo_22",
           "image:djx_demo_23",
           "image:djx_demo_24",
           "image:djx_demo_25",
-          "image:djx_demo_26",
-          "image:djx_demo_27"
+          "image:djx_demo_28",
+          "image:djx_demo_30",
+          "image:djx_demo_31"
         ]
+      },
+      {
+        "richText": [
+          "title:30日均线合集",
+          "image:djx_demo_1",
+          "image:djx_demo_3",
+          "image:djx_demo_4",
+          "image:djx_demo_5",
+          "image:djx_demo_6",
+          "image:djx_demo_7",
+          "image:djx_demo_14",
+          "image:djx_demo_16",
+          "image:djx_demo_17",
+          "image:djx_demo_19",
+          "image:djx_demo_26",
+          "image:djx_demo_27",
+          "image:djx_demo_29"        ]
       },
       {
         "richText": [
@@ -159,7 +167,12 @@
           "image:djx_demo_fanli7",
           "image:djx_demo_fanli8",
           "image:djx_demo_fanli9",
-          "image:djx_demo_fanli10"
+          "image:djx_demo_fanli10",
+          "image:djx_demo_fanli11",
+          "image:djx_demo_fanli12",
+          "image:djx_demo_fanli13",
+          "image:djx_demo_fanli14",
+          "image:djx_demo_fanli15"
         ]
       },
       {
