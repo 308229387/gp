@@ -19,6 +19,7 @@ import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
     ArrayList<MainBean> allData;
+    ArrayList<StatisticsBean> statisticsData;
     boolean allOpenTag = false;
     FrameLayout personDetail;
     FrameLayout clear;
@@ -39,6 +40,11 @@ public class MainActivity extends AppCompatActivity {
         String name = "all_data.json";
         String tmp = assetsUtils.readAssetsText(this, name);
         allData = new Gson().fromJson(tmp, new TypeToken<ArrayList<MainBean>>() {
+        }.getType());
+
+        String statisticsName = "statistics.json";
+        String tmp1 = assetsUtils.readAssetsText(this, statisticsName);
+        statisticsData = new Gson().fromJson(tmp1, new TypeToken<ArrayList<StatisticsBean>>() {
         }.getType());
 
         initView();
@@ -99,7 +105,12 @@ public class MainActivity extends AppCompatActivity {
         expandListId.setOnChildClickListener(new ExpandableListView.OnChildClickListener() {
             @Override
             public boolean onChildClick(ExpandableListView expandableListView, View view, int groupPosition, int childPosition, long l) {
-                toDetail((ArrayList<String>) allData.get(groupPosition).getData().get(childPosition).getRichText());
+                if(allData.get(groupPosition).getName().equals("概率总结")){
+                    toStatistics(statisticsData);
+                }else{
+                    toDetail((ArrayList<String>) allData.get(groupPosition).getData().get(childPosition).getRichText());
+
+                }
                 return true;
             }
         });
@@ -110,6 +121,12 @@ public class MainActivity extends AppCompatActivity {
     private void toDetail( ArrayList<String> imageList) {
         Intent intent = new Intent(MainActivity.this, QADetailActivity.class);
         intent.putStringArrayListExtra("imageList", imageList);
+        startActivity(intent);
+    }
+
+    private void toStatistics(ArrayList<StatisticsBean> allStatistics) {
+        Intent intent = new Intent(MainActivity.this, StatisticsActivity.class);
+        intent.putExtra("statistics", allStatistics);
         startActivity(intent);
     }
 }
