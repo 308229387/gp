@@ -3,6 +3,7 @@ package com.songyongmeng.gp;
 import java.io.Serializable;
 
 public class StatisticsBean implements Serializable {
+
     /**
      * gpName : 睿能科技                 股票名称
      * suc : false                      是否盈利
@@ -24,6 +25,7 @@ public class StatisticsBean implements Serializable {
      * reboundLine : 0                  反弹均线数
      * buyBanNum : 3                    购买当天是几板
      * buyKTop : true                   是不是买在了k线顶部
+     * isMoreBuy : false                是否做T，补仓
      * sellAfterMiss : false            卖后大涨，卖飞
      * hasTopButMiss : false            有高点没卖错过了
      * beforeThought : 版块涨的好         买前怎么想的
@@ -33,8 +35,6 @@ public class StatisticsBean implements Serializable {
      * environment : 7                  给环境打分0-10，差到很强
      * image : fail_38                  交易图
      */
-
-
 
     private String gpName;
     private boolean suc;
@@ -56,6 +56,7 @@ public class StatisticsBean implements Serializable {
     private int reboundLine;
     private int buyBanNum;
     private boolean buyKTop;
+    private boolean isMoreBuy;
     private boolean sellAfterMiss;
     private boolean hasTopButMiss;
     private String beforeThought;
@@ -223,6 +224,14 @@ public class StatisticsBean implements Serializable {
 
     public void setBuyKTop(boolean buyKTop) {
         this.buyKTop = buyKTop;
+    }
+
+    public boolean isIsMoreBuy() {
+        return isMoreBuy;
+    }
+
+    public void setIsMoreBuy(boolean isMoreBuy) {
+        this.isMoreBuy = isMoreBuy;
     }
 
     public boolean isSellAfterMiss() {
