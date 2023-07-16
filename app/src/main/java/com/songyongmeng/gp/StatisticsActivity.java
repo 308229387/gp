@@ -27,7 +27,7 @@ public class StatisticsActivity extends AppCompatActivity {
             ArrayList<StatisticsBean> receivedList = (ArrayList<StatisticsBean>) intent.getSerializableExtra("statistics");
             if (receivedList != null) {
                 RecyclerView recyclerView = findViewById(R.id.statistics_grid);
-                recyclerView.setLayoutManager(new GridLayoutManager(this, 3 )); // 设置布局管理器
+                recyclerView.setLayoutManager(new GridLayoutManager(this, 4 )); // 设置布局管理器
                 recyclerView.setAdapter(new GridAdapter(this, receivedList)); // 设置适配器
                 // 处理接收到的对象 bean 列表
 

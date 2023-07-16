@@ -1,9 +1,9 @@
 package com.songyongmeng.gp;
+
 import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
@@ -16,7 +16,7 @@ public class GridAdapter extends RecyclerView.Adapter<GridAdapter.ViewHolder> {
     private Context context;
     private ArrayList<StatisticsBean> data;
 
-    private List<String> itemList= new ArrayList<>();
+    private List<String> itemList = new ArrayList<>();
 
     public GridAdapter(Context context, ArrayList<StatisticsBean> data) {
         this.context = context;
@@ -25,21 +25,97 @@ public class GridAdapter extends RecyclerView.Adapter<GridAdapter.ViewHolder> {
     }
 
     private void modifyData() {
-        for(int i = 0;i<data.size();i++){
-            itemList.add(data.get(i).getName());
-            itemList.add("总数："+data.get(i).getData().size());
-            int suc = 0;
-            for (StatisticsBean.DataBean tmp:data.get(i).getData()){
-                if(tmp.isSuc()){
-                    suc++;
+        int allNum = 0;
+        int allNumSuc = 0;
+
+        int pullUpNum = 0;
+        int pullUpSucNum = 0;
+
+        int turnedToOneNum = 0;
+        int turnedToOneSucNum = 0;
+
+        int isHot = 0;
+        int isHotSuc = 0;
+
+        int isBan = 0;
+        int isBanSuc = 0;
+
+        int isTimeBottom = 0;
+        int isTimeBottomSuc = 0;
+
+        for (StatisticsBean tmp : data) {
+            allNum++;
+            if (tmp.isSuc()) {
+                allNumSuc++;
+            }
+            if (tmp.isIsPullUp()) {
+                pullUpNum++;
+                if (tmp.isSuc()) {
+                    pullUpSucNum++;
                 }
             }
-            int dividend = suc; // 被除数
-            int divisor = data.get(i).getData().size(); // 除数
-            int result = (dividend * 100) / divisor;
-
-            itemList.add("胜率："+ result + "%");
+            if (tmp.isWhenBuyIsTurnedToOne()) {
+                turnedToOneNum++;
+                if (tmp.isSuc()) {
+                    turnedToOneSucNum++;
+                }
+            }
+            if (tmp.isWhenBuyIsHot()) {
+                isHot++;
+                if (tmp.isSuc()) {
+                    isHotSuc++;
+                }
+            }
+            if (tmp.isIsBuyBan()) {
+                isBan++;
+                if (tmp.isSuc()) {
+                    isBanSuc++;
+                }
+            }
+            if (tmp.isIsBuyTimeKBottom()) {
+                isTimeBottom++;
+                if (tmp.isSuc()) {
+                    isTimeBottomSuc++;
+                }
+            }
         }
+
+        itemList.add("总计");
+        itemList.add("总数：" + allNum + "次");
+        itemList.add("盈利：" + allNumSuc + "次");
+        itemList.add(getResult(allNum, allNumSuc));
+
+        itemList.add("主升模式");
+        itemList.add("总数：" + pullUpNum + "次");
+        itemList.add("盈利：" + pullUpSucNum + "次");
+        itemList.add(getResult(pullUpNum, pullUpSucNum));
+
+        itemList.add("分歧转一致");
+        itemList.add("总数：" + turnedToOneNum + "次");
+        itemList.add("盈利：" + turnedToOneSucNum + "次");
+        itemList.add(getResult(turnedToOneNum, turnedToOneSucNum));
+
+        itemList.add("当日追热点");
+        itemList.add("总数：" + isHot + "次");
+        itemList.add("盈利：" + isHotSuc + "次");
+        itemList.add(getResult(isHot, isHotSuc));
+
+        itemList.add("打板买入");
+        itemList.add("总数：" + isBan + "次");
+        itemList.add("盈利：" + isBanSuc + "次");
+        itemList.add(getResult(isBan, isBanSuc));
+
+        itemList.add("分时低点买");
+        itemList.add("总数：" + isTimeBottom + "次");
+        itemList.add("盈利：" + isTimeBottomSuc + "次");
+        itemList.add(getResult(isTimeBottom, isTimeBottomSuc));
+    }
+
+    public String getResult(int all, int suc) {
+        int dividend = suc; // 被除数
+        int divisor = all; // 除数
+        int result = (dividend * 100) / divisor;
+        return "胜率：" + result + "%";
     }
 
     @NonNull
