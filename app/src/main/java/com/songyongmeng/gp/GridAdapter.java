@@ -34,6 +34,9 @@ public class GridAdapter extends RecyclerView.Adapter<GridAdapter.ViewHolder> {
         int turnedToOneNum = 0;
         int turnedToOneSucNum = 0;
 
+        int isRebound = 0;
+        int isReboundSuc = 0;
+
         int isHot = 0;
         int isHotSuc = 0;
 
@@ -66,6 +69,12 @@ public class GridAdapter extends RecyclerView.Adapter<GridAdapter.ViewHolder> {
                     isHotSuc++;
                 }
             }
+            if (tmp.isWhenBuyIsRebound()) {
+                isRebound++;
+                if (tmp.isSuc()) {
+                    isReboundSuc++;
+                }
+            }
             if (tmp.isIsBuyBan()) {
                 isBan++;
                 if (tmp.isSuc()) {
@@ -83,39 +92,44 @@ public class GridAdapter extends RecyclerView.Adapter<GridAdapter.ViewHolder> {
         itemList.add("总计");
         itemList.add("总数：" + allNum + "次");
         itemList.add("盈利：" + allNumSuc + "次");
-        itemList.add(getResult(allNum, allNumSuc));
+        itemList.add("胜率：" +getResult(allNum, allNumSuc));
 
         itemList.add("主升模式");
         itemList.add("总数：" + pullUpNum + "次");
         itemList.add("盈利：" + pullUpSucNum + "次");
-        itemList.add(getResult(pullUpNum, pullUpSucNum));
+        itemList.add("胜率：" +getResult(pullUpNum, pullUpSucNum));
 
         itemList.add("分歧转一致");
         itemList.add("总数：" + turnedToOneNum + "次");
         itemList.add("盈利：" + turnedToOneSucNum + "次");
-        itemList.add(getResult(turnedToOneNum, turnedToOneSucNum));
+        itemList.add("胜率：" +getResult(turnedToOneNum, turnedToOneSucNum));
+
+        itemList.add("反弹");
+        itemList.add("总数：" + isRebound + "次");
+        itemList.add("盈利：" + isReboundSuc + "次");
+        itemList.add("胜率：" +getResult(isRebound, isReboundSuc));
 
         itemList.add("当日追热点");
         itemList.add("总数：" + isHot + "次");
         itemList.add("盈利：" + isHotSuc + "次");
-        itemList.add(getResult(isHot, isHotSuc));
+        itemList.add("胜率：" +getResult(isHot, isHotSuc));
 
         itemList.add("打板买入");
         itemList.add("总数：" + isBan + "次");
         itemList.add("盈利：" + isBanSuc + "次");
-        itemList.add(getResult(isBan, isBanSuc));
+        itemList.add("胜率：" +getResult(isBan, isBanSuc));
 
         itemList.add("分时低点买");
         itemList.add("总数：" + isTimeBottom + "次");
         itemList.add("盈利：" + isTimeBottomSuc + "次");
-        itemList.add(getResult(isTimeBottom, isTimeBottomSuc));
+        itemList.add("胜率：" +getResult(isTimeBottom, isTimeBottomSuc));
     }
 
     public String getResult(int all, int suc) {
         int dividend = suc; // 被除数
         int divisor = all; // 除数
         int result = (dividend * 100) / divisor;
-        return "胜率：" + result + "%";
+        return result + "%";
     }
 
     @NonNull

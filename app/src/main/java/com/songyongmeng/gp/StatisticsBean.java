@@ -20,11 +20,12 @@ public class StatisticsBean implements Serializable {
      * whenBuyIsRebound : false         买入逻辑是不是反弹
      * whenBuyIsHot : false             当天是不是追的热点
      * isBuyBan : false                 是不是打板买的
-     * isBuyTimeKBottom : false              是不是想分时内低点
+     * isBuyTimeKBottom : false         是不是想分时内低点
      * reboundLine : 0                  反弹均线数
      * buyBanNum : 3                    购买当天是几板
      * buyKTop : true                   是不是买在了k线顶部
-     * sellAfterMiss : false            卖后有没有涨
+     * sellAfterMiss : false            卖后大涨，卖飞
+     * hasTopButMiss : false            有高点没卖错过了
      * beforeThought : 版块涨的好         买前怎么想的
      * afterThought : 弱并未转强          卖后怎么想的
      * buyQuantity : 6                  买时成交量0-10，无量到爆量
@@ -32,6 +33,7 @@ public class StatisticsBean implements Serializable {
      * environment : 7                  给环境打分0-10，差到很强
      * image : fail_38                  交易图
      */
+
 
 
     private String gpName;
@@ -55,6 +57,7 @@ public class StatisticsBean implements Serializable {
     private int buyBanNum;
     private boolean buyKTop;
     private boolean sellAfterMiss;
+    private boolean hasTopButMiss;
     private String beforeThought;
     private String afterThought;
     private int buyQuantity;
@@ -228,6 +231,14 @@ public class StatisticsBean implements Serializable {
 
     public void setSellAfterMiss(boolean sellAfterMiss) {
         this.sellAfterMiss = sellAfterMiss;
+    }
+
+    public boolean isHasTopButMiss() {
+        return hasTopButMiss;
+    }
+
+    public void setHasTopButMiss(boolean hasTopButMiss) {
+        this.hasTopButMiss = hasTopButMiss;
     }
 
     public String getBeforeThought() {
