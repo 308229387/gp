@@ -1,5 +1,6 @@
 package com.songyongmeng.gp;
 
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -9,12 +10,22 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.songyongmeng.gp.utils.OnItemClickListener;
+
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
 import java.util.List;
 
 public class StatisticsAdapter extends RecyclerView.Adapter<StatisticsAdapter.ViewHolder> {
+
+    boolean all ;
+    boolean suc ;
+    boolean radio ;
     private Context context;
     private ArrayList<StatisticsBean> data;
+
+    private OnItemClickListener mListener;
 
     private List<ShowBean> itemList = new ArrayList<>();
 
@@ -185,31 +196,31 @@ public class StatisticsAdapter extends RecyclerView.Adapter<StatisticsAdapter.Vi
 
         }
 
-        itemList.add(new ShowBean("总计", "总数：" + allNum + "次", "盈利：" + allNumSuc + "次", "胜率：" + getResult(allNum, allNumSuc)));
-        itemList.add(new ShowBean("主升模式", "总数：" + pullUpNum + "次", "盈利：" + pullUpSucNum + "次", "胜率：" + getResult(pullUpNum, pullUpSucNum)));
-        itemList.add(new ShowBean("分歧转一致", "总数：" + turnedToOneNum + "次", "盈利：" + turnedToOneSucNum + "次", "胜率：" + getResult(turnedToOneNum, turnedToOneSucNum)));
-        itemList.add(new ShowBean("反弹", "总数：" + isRebound + "次", "盈利：" + isReboundSuc + "次", "胜率：" + getResult(isRebound, isReboundSuc)));
-        itemList.add(new ShowBean("当日追热点", "总数：" + isHot + "次", "盈利：" + isHotSuc + "次", "胜率：" + getResult(isHot, isHotSuc)));
-        itemList.add(new ShowBean("打板买入", "总数：" + isBan + "次", "盈利：" + isBanSuc + "次", "胜率：" + getResult(isBan, isBanSuc)));
-        itemList.add(new ShowBean("分时低点买", "总数：" + isTimeBottom + "次", "盈利：" + isTimeBottomSuc + "次", "胜率：" + getResult(isTimeBottom, isTimeBottomSuc)));
-        itemList.add(new ShowBean("5日线反弹", "总数：" + isRebound5 + "次", "盈利：" + isRebound5Suc + "次", "胜率：" + getResult(isRebound5, isRebound5Suc)));
-        itemList.add(new ShowBean("10日线反弹", "总数：" + isRebound10 + "次", "盈利：" + isRebound10Suc + "次", "胜率：" + getResult(isRebound10, isRebound10Suc)));
-        itemList.add(new ShowBean("20日线反弹", "总数：" + isRebound20 + "次", "盈利：" + isRebound20Suc + "次", "胜率：" + getResult(isRebound20, isRebound20Suc)));
-        itemList.add(new ShowBean("30日线反弹", "总数：" + isRebound30 + "次", "盈利：" + isRebound30Suc + "次", "胜率：" + getResult(isRebound30, isRebound30Suc)));
-        itemList.add(new ShowBean("沪深缩量", "总数：" + reduceAllTurnover + "次", "盈利：" + reduceAllTurnoverSuc + "次", "胜率：" + getResult(reduceAllTurnover, reduceAllTurnoverSuc)));
-        itemList.add(new ShowBean("沪深平量", "总数：" + isAllTurnover + "次", "盈利：" + isAllTurnoverSuc + "次", "胜率：" + getResult(isAllTurnover, isAllTurnoverSuc)));
-        itemList.add(new ShowBean("沪深增量", "总数：" + addAllTurnover + "次", "盈利：" + addAllTurnoverSuc + "次", "胜率：" + getResult(addAllTurnover, addAllTurnoverSuc)));
-        itemList.add(new ShowBean("二板", "总数：" + twoBan + "次", "盈利：" + twoBanSuc + "次", "胜率：" + getResult(twoBan, twoBanSuc)));
-        itemList.add(new ShowBean("三板", "总数：" + threeBan + "次", "盈利：" + threeBanSuc + "次", "胜率：" + getResult(threeBan, threeBanSuc)));
-        itemList.add(new ShowBean("高位板", "总数：" + highBan + "次", "盈利：" + highBanSuc + "次", "胜率：" + getResult(highBan, highBanSuc)));
+        itemList.add(new ShowBean("总计", allNum,  allNumSuc , getResult(allNum, allNumSuc)));
+        itemList.add(new ShowBean("主升模式",  pullUpNum ,  pullUpSucNum , getResult(pullUpNum, pullUpSucNum)));
+        itemList.add(new ShowBean("分歧转一致",  turnedToOneNum ,  turnedToOneSucNum , getResult(turnedToOneNum, turnedToOneSucNum)));
+        itemList.add(new ShowBean("反弹",  isRebound ,  isReboundSuc , getResult(isRebound, isReboundSuc)));
+        itemList.add(new ShowBean("当日追热点",  isHot ,  isHotSuc , getResult(isHot, isHotSuc)));
+        itemList.add(new ShowBean("打板买入",  isBan ,  isBanSuc , getResult(isBan, isBanSuc)));
+        itemList.add(new ShowBean("分时低点买",  isTimeBottom ,  isTimeBottomSuc , getResult(isTimeBottom, isTimeBottomSuc)));
+        itemList.add(new ShowBean("5日线反弹",  isRebound5 ,  isRebound5Suc , getResult(isRebound5, isRebound5Suc)));
+        itemList.add(new ShowBean("10日线反弹",  isRebound10 ,  isRebound10Suc , getResult(isRebound10, isRebound10Suc)));
+        itemList.add(new ShowBean("20日线反弹",  isRebound20 ,  isRebound20Suc , getResult(isRebound20, isRebound20Suc)));
+        itemList.add(new ShowBean("30日线反弹",  isRebound30 ,  isRebound30Suc , getResult(isRebound30, isRebound30Suc)));
+        itemList.add(new ShowBean("沪深缩量",  reduceAllTurnover ,  reduceAllTurnoverSuc , getResult(reduceAllTurnover, reduceAllTurnoverSuc)));
+        itemList.add(new ShowBean("沪深平量",  isAllTurnover ,  isAllTurnoverSuc , getResult(isAllTurnover, isAllTurnoverSuc)));
+        itemList.add(new ShowBean("沪深增量",  addAllTurnover ,  addAllTurnoverSuc , getResult(addAllTurnover, addAllTurnoverSuc)));
+        itemList.add(new ShowBean("二板",  twoBan ,  twoBanSuc , getResult(twoBan, twoBanSuc)));
+        itemList.add(new ShowBean("三板",  threeBan ,  threeBanSuc , getResult(threeBan, threeBanSuc)));
+        itemList.add(new ShowBean("高位板",  highBan ,  highBanSuc , getResult(highBan, highBanSuc)));
 
     }
 
-    public String getResult(int all, int suc) {
+    public int getResult(int all, int suc) {
         int dividend = suc; // 被除数
         int divisor = all; // 除数
         int result = (dividend * 100) / divisor;
-        return result + "%";
+        return result ;
     }
 
     @NonNull
@@ -220,17 +231,79 @@ public class StatisticsAdapter extends RecyclerView.Adapter<StatisticsAdapter.Vi
     }
 
     @Override
-    public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
+    public void onBindViewHolder(@NonNull ViewHolder holder, @SuppressLint("RecyclerView") int position) {
         holder.name.setText(itemList.get(position).model);
-        holder.all_time.setText(itemList.get(position).allTime);
-        holder.suc_time.setText(itemList.get(position).sucTime);
-        holder.radio.setText(itemList.get(position).ratio);
+        holder.all_time.setText("总数：" + itemList.get(position).allTime+ "次");
+        holder.suc_time.setText("盈利："+itemList.get(position).sucTime+ "次");
+        holder.radio.setText("胜率：" +itemList.get(position).ratio+ "%");
+        // 为 item 设置点击事件
+        holder.itemView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if (mListener != null) {
+                    mListener.onItemClick(position);
+                }
+            }
+        });
     }
 
     @Override
     public int getItemCount() {
         return itemList.size();
     }
+
+    public void changeAllTimeData() {
+        Collections.sort(itemList, new Comparator<ShowBean>() {
+            @Override
+            public int compare(ShowBean bean1, ShowBean bean2) {
+                if(all){
+                    return bean2.allTime - bean1.allTime;
+                }else{
+                    return bean1.allTime - bean2.allTime;
+                }
+            }
+        });
+        all = !all;
+        notifyDataSetChanged();
+
+    }
+
+    public void changeSucTimeData() {
+        Collections.sort(itemList, new Comparator<ShowBean>() {
+            @Override
+            public int compare(ShowBean bean1, ShowBean bean2) {
+                if(suc){
+                    return bean2.sucTime - bean1.sucTime;
+                }else{
+                    return bean1.sucTime - bean2.sucTime;
+                }
+            }
+        });
+        suc = !suc;
+        notifyDataSetChanged();
+
+    }
+
+    public void changeRadioData() {
+        Collections.sort(itemList, new Comparator<ShowBean>() {
+            @Override
+            public int compare(ShowBean bean1, ShowBean bean2) {
+                if(radio){
+                    return bean2.ratio - bean1.ratio;
+                }else {
+                    return bean1.ratio - bean2.ratio;
+                }
+            }
+        });
+        radio = !radio;
+        notifyDataSetChanged();
+
+    }
+
+    public void setOnItemClickListener(OnItemClickListener listener) {
+        mListener = listener;
+    }
+
 
     public class ViewHolder extends RecyclerView.ViewHolder {
         TextView name;
@@ -249,11 +322,11 @@ public class StatisticsAdapter extends RecyclerView.Adapter<StatisticsAdapter.Vi
 
     private class ShowBean {
         private String model;
-        private String allTime;
-        private String sucTime;
-        private String ratio;
+        private int allTime;
+        private int sucTime;
+        private int ratio;
 
-        private ShowBean(String model, String allTime, String sucTime, String ratio) {
+        private ShowBean(String model, int allTime, int sucTime,int ratio) {
             this.model = model;
             this.allTime = allTime;
             this.sucTime = sucTime;

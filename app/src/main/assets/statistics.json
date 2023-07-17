@@ -792,7 +792,7 @@
     "endQuantity": 5,
     "allTurnover": -1,
     "buyPoint": 3,
-    "sellPoint": 2,
+    "sellPoint": 3,
     "holdDays": 1,
     "buyDate": "2023-07-14",
     "autoStopSuc": false,
@@ -803,6 +803,6 @@
     "sellTime": "10:00",
     "isBuyBan": false,
     "isBuyTimeKBottom": false,
-    "image": "suc_4"
+    "image": "suc_12"
   }
 ]
