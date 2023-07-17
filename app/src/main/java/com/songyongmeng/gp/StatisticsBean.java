@@ -63,7 +63,7 @@ public class StatisticsBean implements Serializable {
     private String afterThought;
     private int buyQuantity;
     private int endQuantity;
-    private int environment;
+    private int allTurnover;
     private String image;
 
     public String getGpName() {
@@ -282,12 +282,12 @@ public class StatisticsBean implements Serializable {
         this.endQuantity = endQuantity;
     }
 
-    public int getEnvironment() {
-        return environment;
+    public int getAllTurnover() {
+        return allTurnover;
     }
 
-    public void setEnvironment(int environment) {
-        this.environment = environment;
+    public void setAllTurnover(int allTurnover) {
+        this.allTurnover = allTurnover;
     }
 
     public String getImage() {
