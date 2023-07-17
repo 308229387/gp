@@ -62,6 +62,12 @@ public class StatisticsActivity extends AppCompatActivity {
                 adapter.changeAverageSucData();
             }
         });
+        findViewById(R.id.average_fai_btn).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                adapter.changeAverageFaiData();
+            }
+        });
 
 
         Intent intent = getIntent();
