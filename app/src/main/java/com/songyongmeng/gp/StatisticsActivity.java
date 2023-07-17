@@ -11,10 +11,12 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.google.gson.Gson;
 import com.songyongmeng.gp.utils.OnItemClickListener;
 import com.songyongmeng.gp.utils.Utility;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class StatisticsActivity extends AppCompatActivity {
 
@@ -54,6 +56,12 @@ public class StatisticsActivity extends AppCompatActivity {
                 adapter.changeRadioData();
             }
         });
+        findViewById(R.id.average_suc_btn).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                adapter.changeAverageSucData();
+            }
+        });
 
 
         Intent intent = getIntent();
@@ -69,9 +77,9 @@ public class StatisticsActivity extends AppCompatActivity {
                 // 处理接收到的对象 bean 列表
                 adapter.setOnItemClickListener(new OnItemClickListener() {
                     @Override
-                    public void onItemClick(int position) {
+                    public void onItemClick(List<StatisticsBean> position) {
                         // 处理 item 点击事件
-                        Toast.makeText(StatisticsActivity.this,position+"",Toast.LENGTH_LONG).show();
+                        Toast.makeText(StatisticsActivity.this,new Gson().toJson(position),Toast.LENGTH_LONG).show();
                     }
                 });
 
