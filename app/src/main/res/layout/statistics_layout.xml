@@ -11,11 +11,12 @@
         android:background="#0000ff"
         android:orientation="horizontal">
 
-        <TextView
+        <Button
+            android:id="@+id/recover_btn"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
- />
+            android:text="恢复" />
 
         <Button
             android:id="@+id/all_time_btn"

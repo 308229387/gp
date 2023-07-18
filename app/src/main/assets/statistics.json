@@ -335,8 +335,8 @@
     "autoStopLoss": false,
     "sellAfterMiss": true,
     "hasTopButMiss": false,
-    "buyTime": "10.06",
-    "sellTime": "14.12",
+    "buyTime": "10:06",
+    "sellTime": "14:12",
     "isBuyBan": false,
     "image": "-"
   },
