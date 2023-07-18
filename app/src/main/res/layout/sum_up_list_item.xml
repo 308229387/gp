@@ -11,6 +11,8 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_weight="1"
+        android:layout_gravity="center"
+        android:gravity="center"
         android:text="TextView 1"
         android:textColor="@android:color/black" />
 
@@ -19,34 +21,48 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_weight="1"
+        android:layout_gravity="center"
+        android:gravity="center"
         android:text="TextView 2"
         android:textColor="@android:color/black" />
 
     <TextView
+        android:id="@+id/self_turnover_text"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_weight="1"
+        android:layout_gravity="center"
+        android:gravity="center"
         android:text="TextView 3"
         android:textColor="@android:color/black" />
 
     <TextView
+        android:id="@+id/sell_open_text"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_weight="1"
-        android:text="TextView 4"
-        android:textColor="@android:color/black" />
-
-    <TextView
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:gravity="center"
         android:text="TextView 5"
         android:textColor="@android:color/black" />
 
     <TextView
+        android:id="@+id/all_turnover_text"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_weight="1"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="TextView 4"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/is_ban_text"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:gravity="center"
         android:text="TextView 6"
         android:textColor="@android:color/black" />
 

@@ -7,7 +7,7 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="60dp"
+        android:layout_height="80dp"
         android:background="#0000ff"
         android:orientation="horizontal">
 
@@ -23,35 +23,34 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:text="共计" />
+            android:text="盈亏点位" />
 
         <Button
             android:id="@+id/sum_suc_time_btn"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:text="盈利" />
+            android:text="当日个股量能" />
 
         <Button
             android:id="@+id/sum_radio_btn"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:text="占比" />
-
+            android:text="卖日开盘点位" />
 
         <Button
             android:id="@+id/sum_average_suc_btn"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:text="盈平均" />
+            android:text="市场量能变化" />
         <Button
             android:id="@+id/sum_average_fai_btn"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:text="亏平均" />
+            android:text="是否打板" />
 
     </LinearLayout>
 
