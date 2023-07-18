@@ -23,6 +23,7 @@
         <activity android:name=".MainActivity" />
         <activity android:name="QADetailActivity" />
         <activity android:name="StatisticsActivity" />
+        <activity android:name="SumUpListActivity" />
         <activity
             android:name="BigImageActivity"
             android:configChanges="orientation|screenSize"

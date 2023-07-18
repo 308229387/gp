@@ -15,6 +15,7 @@ import com.google.gson.Gson;
 import com.songyongmeng.gp.utils.OnItemClickListener;
 import com.songyongmeng.gp.utils.Utility;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -91,7 +92,9 @@ public class StatisticsActivity extends AppCompatActivity {
                     @Override
                     public void onItemClick(List<StatisticsBean> position) {
                         // 处理 item 点击事件
-                        Toast.makeText(StatisticsActivity.this,new Gson().toJson(position),Toast.LENGTH_LONG).show();
+                        Intent intent = new Intent(StatisticsActivity.this,SumUpListActivity.class);
+                        intent.putExtra("sumUpListData", (Serializable) position);
+                        startActivity(intent);
                     }
                 });
 
