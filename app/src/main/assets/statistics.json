@@ -7,6 +7,7 @@
     "autoStopLoss": false,
     "buyPoint": 7,
     "sellPoint": -8,
+    "sellOpen": -5,
     "holdDays": 1,
     "buyDate": "2023-07-13",
     "buyTime": "10:02",
@@ -16,7 +17,6 @@
     "whenBuyIsRebound": false,
     "whenBuyIsHot": true,
     "isBuyBan": false,
-    "isBuyTimeKBottom": false,
     "reboundLine": 0,
     "buyBanNum": 3,
     "buyKTop": true,
@@ -38,6 +38,7 @@
     "autoStopLoss": true,
     "buyPoint": 10,
     "sellPoint": -4,
+    "sellOpen": -2,
     "holdDays": 1,
     "buyDate": "2023-07-12",
     "buyTime": "09:34",
@@ -47,7 +48,6 @@
     "whenBuyIsRebound": false,
     "whenBuyIsHot": false,
     "isBuyBan": true,
-    "isBuyTimeKBottom": false,
     "reboundLine": 0,
     "buyBanNum": 3,
     "buyKTop": false,
@@ -69,6 +69,7 @@
     "autoStopLoss": false,
     "buyPoint": 6,
     "sellPoint": 0,
+    "sellOpen": 1,
     "holdDays": 1,
     "buyDate": "2023-07-11",
     "buyTime": "11:11",
@@ -78,7 +79,6 @@
     "whenBuyIsRebound": false,
     "whenBuyIsHot": true,
     "isBuyBan": false,
-    "isBuyTimeKBottom": false,
     "reboundLine": 0,
     "buyBanNum": 1,
     "buyKTop": false,
@@ -100,6 +100,7 @@
     "autoStopLoss": false,
     "buyPoint": 2,
     "sellPoint": -6,
+    "sellOpen": -5,
     "holdDays": 1,
     "buyDate": "2023-07-10",
     "buyTime": "09:45",
@@ -109,7 +110,6 @@
     "whenBuyIsRebound": false,
     "whenBuyIsHot": true,
     "isBuyBan": false,
-    "isBuyTimeKBottom": true,
     "reboundLine": 0,
     "buyBanNum": 1,
     "buyKTop": true,
@@ -131,6 +131,7 @@
     "autoStopLoss": false,
     "buyPoint": 10,
     "sellPoint": -3,
+    "sellOpen": -3,
     "holdDays": 1,
     "buyDate": "2023-07-10",
     "buyTime": "10:24",
@@ -140,7 +141,6 @@
     "whenBuyIsRebound": false,
     "whenBuyIsHot": true,
     "isBuyBan": true,
-    "isBuyTimeKBottom": false,
     "reboundLine": 0,
     "buyBanNum": 1,
     "buyKTop": false,
@@ -173,6 +173,7 @@
     "allTurnover": -1,
     "buyPoint": 10,
     "sellPoint": -3,
+    "sellOpen": -5,
     "holdDays": 1,
     "buyDate": "2023-07-07",
     "autoStopSuc": false,
@@ -182,7 +183,6 @@
     "buyTime": "09:37",
     "sellTime": "09:33",
     "isBuyBan": true,
-    "isBuyTimeKBottom": false,
     "image": "fail_33"
   },
   {
@@ -204,6 +204,7 @@
     "allTurnover": -1,
     "buyPoint": 3,
     "sellPoint": -2,
+    "sellOpen": 0,
     "holdDays": 1,
     "buyDate": "2023-07-06",
     "autoStopSuc": false,
@@ -213,7 +214,6 @@
     "buyTime": "14:57",
     "sellTime": "09:35",
     "isBuyBan": false,
-    "isBuyTimeKBottom": false,
     "image": "fail_32"
   },
   {
@@ -235,6 +235,7 @@
     "allTurnover": -1,
     "buyPoint": 1,
     "sellPoint": -3,
+    "sellOpen": -1,
     "holdDays": 2,
     "buyDate": "2023-07-04",
     "autoStopSuc": false,
@@ -244,7 +245,6 @@
     "buyTime": "14:08",
     "sellTime": "14:17",
     "isBuyBan": false,
-    "isBuyTimeKBottom": false,
     "image": "fail_32"
   },
   {
@@ -266,6 +266,7 @@
     "allTurnover": -1,
     "buyPoint": 10,
     "sellPoint": -2,
+    "sellOpen": 10,
     "holdDays": 1,
     "buyDate": "2023-07-04",
     "autoStopSuc": false,
@@ -275,7 +276,6 @@
     "buyTime": "09:48",
     "sellTime": "10:27",
     "isBuyBan": true,
-    "isBuyTimeKBottom": false,
     "image": "fail_30"
   },
   {
@@ -297,6 +297,7 @@
     "allTurnover": -1,
     "buyPoint": 5,
     "sellPoint": -2,
+    "sellOpen": -3,
     "holdDays": 1,
     "buyDate": "2023-07-03",
     "autoStopSuc": false,
@@ -306,7 +307,6 @@
     "buyTime": "14:57",
     "sellTime": "11:06",
     "isBuyBan": false,
-    "isBuyTimeKBottom": false,
     "image": "fail_29"
   },
   {
@@ -328,6 +328,7 @@
     "allTurnover": 1,
     "buyPoint": 0,
     "sellPoint": 1,
+    "sellOpen": 1,
     "holdDays": 2,
     "buyDate": "2023-06-29",
     "autoStopSuc": false,
@@ -337,7 +338,6 @@
     "buyTime": "10.06",
     "sellTime": "14.12",
     "isBuyBan": false,
-    "isBuyTimeKBottom": false,
     "image": "-"
   },
   {
@@ -359,6 +359,7 @@
     "allTurnover": 0,
     "buyPoint": 9,
     "sellPoint": 7,
+    "sellOpen": 5,
     "holdDays": 1,
     "buyDate": "2023-06-28",
     "autoStopSuc": false,
@@ -368,7 +369,6 @@
     "buyTime": "09:35",
     "sellTime": "09:31",
     "isBuyBan": true,
-    "isBuyTimeKBottom": false,
     "image": "suc_10"
   },
   {
@@ -390,6 +390,7 @@
     "allTurnover": -1,
     "buyPoint": 3,
     "sellPoint": 1,
+    "sellOpen": 0,
     "holdDays": 2,
     "buyDate": "2023-06-26",
     "autoStopSuc": false,
@@ -399,7 +400,6 @@
     "buyTime": "14:50",
     "sellTime": "09:31",
     "isBuyBan": false,
-    "isBuyTimeKBottom": false,
     "image": "fail_28"
   },
   {
@@ -421,6 +421,7 @@
     "allTurnover": -1,
     "buyPoint": 3,
     "sellPoint": 5,
+    "sellOpen": -2,
     "holdDays": 1,
     "buyDate": "2023-06-21",
     "autoStopSuc": false,
@@ -430,7 +431,6 @@
     "buyTime": "14:50",
     "sellTime": "09:37",
     "isBuyBan": false,
-    "isBuyTimeKBottom": false,
     "image": "suc_9"
   },
   {
@@ -452,6 +452,7 @@
     "allTurnover": -1,
     "buyPoint": 8,
     "sellPoint": 3,
+    "sellOpen": -3,
     "holdDays": 1,
     "buyDate": "2023-06-20",
     "autoStopSuc": false,
@@ -461,7 +462,6 @@
     "buyTime": "13:33",
     "sellTime": "09:55",
     "isBuyBan": false,
-    "isBuyTimeKBottom": false,
     "image": "-"
   },
   {
@@ -483,6 +483,7 @@
     "allTurnover": 0,
     "buyPoint": 10,
     "sellPoint": -3,
+    "sellOpen": -3,
     "holdDays": 1,
     "buyDate": "2023-06-19",
     "autoStopSuc": false,
@@ -492,7 +493,6 @@
     "buyTime": "13:20",
     "sellTime": "09:30",
     "isBuyBan": true,
-    "isBuyTimeKBottom": false,
     "image": "fail_2"
   },
   {
@@ -514,6 +514,7 @@
     "allTurnover": 1,
     "buyPoint": 3,
     "sellPoint": 7,
+    "sellOpen": 6,
     "holdDays": 1,
     "buyDate": "2023-06-16",
     "autoStopSuc": false,
@@ -523,7 +524,6 @@
     "buyTime": "14:55",
     "sellTime": "09:30",
     "isBuyBan": false,
-    "isBuyTimeKBottom": false,
     "image": "suc_1"
   },
   {
@@ -545,6 +545,7 @@
     "allTurnover": 0,
     "buyPoint": 9,
     "sellPoint": 3,
+    "sellOpen": -1,
     "holdDays": 1,
     "buyDate": "2023-06-15",
     "autoStopSuc": false,
@@ -554,7 +555,6 @@
     "buyTime": "09:36",
     "sellTime": "11:04",
     "isBuyBan": true,
-    "isBuyTimeKBottom": false,
     "image": "suc_1"
   },
   {
@@ -576,6 +576,7 @@
     "allTurnover": 1,
     "buyPoint": -6,
     "sellPoint": -5,
+    "sellOpen": 1,
     "holdDays": 1,
     "buyDate": "2023-06-14",
     "autoStopSuc": false,
@@ -585,7 +586,6 @@
     "buyTime": "09:44",
     "sellTime": "09:32",
     "isBuyBan": false,
-    "isBuyTimeKBottom": true,
     "image": "fail_3"
   },
   {
@@ -607,6 +607,7 @@
     "allTurnover": 1,
     "buyPoint": 0,
     "sellPoint": -3,
+    "sellOpen": -3,
     "holdDays": 1,
     "buyDate": "2023-06-14",
     "autoStopSuc": false,
@@ -616,7 +617,6 @@
     "buyTime": "09:40",
     "sellTime": "09:30",
     "isBuyBan": false,
-    "isBuyTimeKBottom": false,
     "image": "-"
   },
   {
@@ -638,6 +638,7 @@
     "allTurnover": 1,
     "buyPoint": 10,
     "sellPoint": 0,
+    "sellOpen": 0,
     "holdDays": 1,
     "buyDate": "2023-06-13",
     "autoStopSuc": false,
@@ -647,7 +648,6 @@
     "buyTime": "10:16",
     "sellTime": "09:30",
     "isBuyBan": true,
-    "isBuyTimeKBottom": false,
     "image": "-"
   },
   {
@@ -669,6 +669,7 @@
     "allTurnover": 0,
     "buyPoint": 4,
     "sellPoint": -3,
+    "sellOpen": -2,
     "holdDays": 2,
     "buyDate": "2023-06-12",
     "autoStopSuc": false,
@@ -678,7 +679,6 @@
     "buyTime": "14:57",
     "sellTime": "14:10",
     "isBuyBan": false,
-    "isBuyTimeKBottom": false,
     "image": "-"
   },
   {
@@ -700,6 +700,7 @@
     "allTurnover": 1,
     "buyPoint": 2,
     "sellPoint": -4,
+    "sellOpen": -2,
     "holdDays": 1,
     "buyDate": "2023-06-13",
     "autoStopSuc": false,
@@ -709,7 +710,6 @@
     "buyTime": "14:57",
     "sellTime": "09:32",
     "isBuyBan": false,
-    "isBuyTimeKBottom": false,
     "image": "fail_4"
   },
   {
@@ -731,6 +731,7 @@
     "allTurnover": 0,
     "buyPoint": 10,
     "sellPoint": 7,
+    "sellOpen": 4,
     "holdDays": 1,
     "buyDate": "2023-06-09",
     "autoStopSuc": false,
@@ -740,7 +741,6 @@
     "buyTime": "10:03",
     "sellTime": "09:35",
     "isBuyBan": true,
-    "isBuyTimeKBottom": false,
     "image": "suc_3"
   },
   {
@@ -762,6 +762,7 @@
     "allTurnover": 0,
     "buyPoint": 9,
     "sellPoint": 4,
+    "sellOpen": 5,
     "holdDays": 1,
     "buyDate": "2023-06-09",
     "autoStopSuc": false,
@@ -771,7 +772,6 @@
     "buyTime": "09:31",
     "sellTime": "09:36",
     "isBuyBan": true,
-    "isBuyTimeKBottom": false,
     "image": "suc_4"
   },
   {
@@ -793,6 +793,7 @@
     "allTurnover": -1,
     "buyPoint": 3,
     "sellPoint": 3,
+    "sellOpen": -1,
     "holdDays": 1,
     "buyDate": "2023-07-14",
     "autoStopSuc": false,
@@ -802,7 +803,68 @@
     "buyTime": "13:42",
     "sellTime": "10:00",
     "isBuyBan": false,
-    "isBuyTimeKBottom": false,
+    "image": "suc_12"
+  },
+  {
+    "gpName": "大连热电",
+    "suc": true,
+    "resultPoint": 1,
+    "isPullUp": false,
+    "whenBuyIsTurnedToOne": false,
+    "whenBuyIsRebound": true,
+    "whenBuyIsHot": false,
+    "reboundLine": 5,
+    "buyBanNum": 0,
+    "buyKTop": false,
+    "isMoreBuy": false,
+    "beforeThought": "觉得版块会有20日线反弹，个股当天涨的也还行",
+    "afterThought": "第二天拉跨，勉强保本",
+    "buyQuantity": 2,
+    "endQuantity": 4,
+    "allTurnover": -1,
+    "buyPoint": 6,
+    "sellPoint": -1,
+    "sellOpen": -4,
+    "holdDays": 1,
+    "buyDate": "2023-07-17",
+    "autoStopSuc": false,
+    "autoStopLoss": false,
+    "sellAfterMiss": false,
+    "hasTopButMiss": false,
+    "buyTime": "10:18",
+    "sellTime": "09:44",
+    "isBuyBan": false,
+    "image": "suc_12"
+  },
+  {
+    "gpName": "中通客车",
+    "suc": false,
+    "resultPoint": -1,
+    "isPullUp": false,
+    "whenBuyIsTurnedToOne": false,
+    "whenBuyIsRebound": true,
+    "whenBuyIsHot": false,
+    "reboundLine": 10,
+    "buyBanNum": 0,
+    "buyKTop": false,
+    "isMoreBuy": false,
+    "beforeThought": "汽车众泰上板，就条件反射的买了中通",
+    "afterThought": "开盘比较差最低点离场",
+    "buyQuantity": 4,
+    "endQuantity": 7,
+    "allTurnover": -1,
+    "buyPoint": 2,
+    "sellPoint": -4,
+    "sellOpen": -2,
+    "buyTime": "14:30",
+    "sellTime": "09:50",
+    "holdDays": 1,
+    "buyDate": "2023-07-17",
+    "autoStopSuc": false,
+    "autoStopLoss": false,
+    "sellAfterMiss": false,
+    "hasTopButMiss": false,
+    "isBuyBan": false,
     "image": "suc_12"
   }
 ]

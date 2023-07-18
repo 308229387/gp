@@ -3,7 +3,6 @@ package com.songyongmeng.gp;
 import java.io.Serializable;
 
 public class StatisticsBean implements Serializable {
-
     /**
      * gpName : 睿能科技                 股票名称
      * suc : false                      是否盈利
@@ -12,6 +11,7 @@ public class StatisticsBean implements Serializable {
      * autoStopLoss:false,              是不是自动止损
      * buyPoint : 7                     买点
      * sellPoint : -8                   卖点
+     * sellOpen : 0                     卖出当天开盘点位
      * holdDays : 1                     持有天数
      * buyDate : 2022-07-13             买入日期
      * buyTime : 10:02                  买入时间点
@@ -36,6 +36,7 @@ public class StatisticsBean implements Serializable {
      * image : fail_38                  交易图
      */
 
+
     private String gpName;
     private boolean suc;
     private int resultPoint;
@@ -43,6 +44,7 @@ public class StatisticsBean implements Serializable {
     private boolean autoStopLoss;
     private int buyPoint;
     private int sellPoint;
+    private int sellOpen;
     private int holdDays;
     private String buyDate;
     private String buyTime;
@@ -120,6 +122,14 @@ public class StatisticsBean implements Serializable {
 
     public void setSellPoint(int sellPoint) {
         this.sellPoint = sellPoint;
+    }
+
+    public int getSellOpen() {
+        return sellOpen;
+    }
+
+    public void setSellOpen(int sellOpen) {
+        this.sellOpen = sellOpen;
     }
 
     public int getHoldDays() {
