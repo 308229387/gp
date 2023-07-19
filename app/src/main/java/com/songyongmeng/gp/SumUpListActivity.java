@@ -9,13 +9,17 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.google.gson.Gson;
+import com.songyongmeng.gp.utils.OnDetailItemClickListener;
 import com.songyongmeng.gp.utils.OnItemClickListener;
 import com.songyongmeng.gp.utils.Utility;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
 public class SumUpListActivity extends AppCompatActivity {
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -25,11 +29,22 @@ public class SumUpListActivity extends AppCompatActivity {
         if (getIntent() != null) {
             ArrayList<StatisticsBean> receivedList = (ArrayList<StatisticsBean>) intent.getSerializableExtra("sumUpListData");
             if (receivedList != null) {
+                SumUpListAdapter detailAdapter = new SumUpListAdapter(receivedList);
                 RecyclerView recyclerView = findViewById(R.id.sum_up_list);
                 RecyclerView.LayoutManager verticalLayoutManager = new LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false);
                 recyclerView.setLayoutManager(verticalLayoutManager);
 
-                recyclerView.setAdapter(new SumUpListAdapter(receivedList));
+                recyclerView.setAdapter(detailAdapter);
+
+                detailAdapter.setOnDetailItemClickListener(new OnDetailItemClickListener() {
+                    @Override
+                    public void onItemClick(StatisticsBean position) {
+                        // 处理 item 点击事件
+                        Intent intent = new Intent(SumUpListActivity.this,GPDetailActivity.class);
+                        intent.putExtra("gpDetailData", (Serializable) position);
+                        startActivity(intent);
+                    }
+                });
             }
         }
     }

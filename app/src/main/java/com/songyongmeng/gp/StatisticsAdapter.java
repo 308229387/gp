@@ -218,7 +218,7 @@ public class StatisticsAdapter extends RecyclerView.Adapter<StatisticsAdapter.Vi
                 allAverageFai = allAverageFai + tmp.getResultPoint();
             }
 
-            if (isClockBefore(tmp.getBuyTime(),9,40)) {
+            if (isClockBefore(tmp.getBuyTime(), 9, 40)) {
                 before10Buy++;
                 if (tmp.isSuc()) {
                     before10BuySuc++;
@@ -229,7 +229,7 @@ public class StatisticsAdapter extends RecyclerView.Adapter<StatisticsAdapter.Vi
                 }
             }
 
-            if (isClockBefore(tmp.getBuyTime(),13,0)) {
+            if (isClockBefore(tmp.getBuyTime(), 13, 0)) {
                 amBuy++;
                 if (tmp.isSuc()) {
                     amBuySuc++;
@@ -240,7 +240,7 @@ public class StatisticsAdapter extends RecyclerView.Adapter<StatisticsAdapter.Vi
                 }
             }
 
-            if (isClockAfter(tmp.getBuyTime(),11,30)) {
+            if (isClockAfter(tmp.getBuyTime(), 11, 30)) {
                 pmBuy++;
                 if (tmp.isSuc()) {
                     pmBuySuc++;
@@ -435,7 +435,7 @@ public class StatisticsAdapter extends RecyclerView.Adapter<StatisticsAdapter.Vi
                 }
             }
 
-            if (tmp.getYesterdayAllTurnover() ==1) {
+            if (tmp.getYesterdayAllTurnover() == 1) {
                 yesterdayAllTurnoverAdd++;
                 if (tmp.isSuc()) {
                     yesterdayAllTurnoverAddSuc++;
@@ -447,7 +447,7 @@ public class StatisticsAdapter extends RecyclerView.Adapter<StatisticsAdapter.Vi
 
             }
 
-            if (tmp.getYesterdayAllTurnover() ==0) {
+            if (tmp.getYesterdayAllTurnover() == 0) {
                 yesterdayAllTurnover++;
                 if (tmp.isSuc()) {
                     yesterdayAllTurnoverSuc++;
@@ -459,7 +459,7 @@ public class StatisticsAdapter extends RecyclerView.Adapter<StatisticsAdapter.Vi
 
             }
 
-            if (tmp.getYesterdayAllTurnover() ==-1) {
+            if (tmp.getYesterdayAllTurnover() == -1) {
                 yesterdayAllTurnoverReduce++;
                 if (tmp.isSuc()) {
                     yesterdayAllTurnoverReduceSuc++;
@@ -539,7 +539,7 @@ public class StatisticsAdapter extends RecyclerView.Adapter<StatisticsAdapter.Vi
     public int getResult(int all, int suc) {
         int dividend = suc; // 被除数
         int divisor = all; // 除数
-        if(all==0){
+        if (all == 0) {
             return 0;
         }
         int result = (dividend * 100) / divisor;
@@ -554,9 +554,9 @@ public class StatisticsAdapter extends RecyclerView.Adapter<StatisticsAdapter.Vi
 
     @Override
     public void onBindViewHolder(ViewHolder holder, @SuppressLint("RecyclerView") int position) {
-        if(itemList.get(position).ratio>49){
+        if (itemList.get(position).ratio > 49) {
             holder.itemView.setBackgroundColor(Color.parseColor("#FFC0CB"));
-        }else{
+        } else {
             holder.itemView.setBackgroundColor(Color.parseColor("#90EE90"));
         }
         holder.name.setText(itemList.get(position).model);
@@ -653,19 +653,54 @@ public class StatisticsAdapter extends RecyclerView.Adapter<StatisticsAdapter.Vi
                 return data.stream()
                         .filter(bean -> bean.getEndQuantity() >= 5)
                         .collect(Collectors.toList());
-                case "高开1点":
+            case "高开1点":
                 return data.stream()
                         .filter(bean -> bean.getSellOpen() > 0)
                         .collect(Collectors.toList());
-                case "平低开":
+            case "平低开":
                 return data.stream()
-                        .filter(bean -> bean.getEndQuantity() <=0)
+                        .filter(bean -> bean.getEndQuantity() <= 0)
                         .collect(Collectors.toList());
-                case "9点40前买":
+            case "9点40前买":
                 return data.stream()
-                        .filter(bean -> isClockBefore(bean.getBuyTime(),9,40))
+                        .filter(bean -> isClockBefore(bean.getBuyTime(), 9, 40))
                         .collect(Collectors.toList());
-
+            case "上午买":
+                return data.stream()
+                        .filter(bean -> isClockBefore(bean.getBuyTime(), 13, 0))
+                        .collect(Collectors.toList());
+            case "下午买":
+                return data.stream()
+                        .filter(bean -> isClockAfter(bean.getBuyTime(), 11, 30))
+                        .collect(Collectors.toList());
+            case "5点下买":
+                return data.stream()
+                        .filter(bean -> bean.getBuyPoint() < 5)
+                        .collect(Collectors.toList());
+            case "昨沪深增量":
+                return data.stream()
+                        .filter(bean -> bean.getYesterdayAllTurnover() == 1)
+                        .collect(Collectors.toList());
+            case "昨沪深平量":
+                return data.stream()
+                        .filter(bean -> bean.getYesterdayAllTurnover() == 0)
+                        .collect(Collectors.toList());
+            case "昨沪深缩量":
+                return data.stream()
+                        .filter(bean -> bean.getYesterdayAllTurnover() == -1)
+                        .collect(Collectors.toList());
+            case "全增量高开":
+                return data.stream()
+                        .filter(bean -> bean.getAllTurnover() == 1 && bean.getSellOpen() > 0)
+                        .collect(Collectors.toList());
+            case "全平量高开":
+                return data.stream()
+                        .filter(bean -> bean.getAllTurnover() == 0 && bean.getSellOpen() > 0)
+                        .collect(Collectors.toList());
+            case "全缩量高开":
+                return data.stream()
+                        .filter(bean -> bean.getAllTurnover() == -1 && bean.getSellOpen() > 0)
+                        .collect(Collectors.toList());
 
 
             default:
@@ -763,19 +798,19 @@ public class StatisticsAdapter extends RecyclerView.Adapter<StatisticsAdapter.Vi
         notifyDataSetChanged();
     }
 
-    public boolean isClockBefore(String tmp,int targetHour,int targetMinutes) {
+    public boolean isClockBefore(String tmp, int targetHour, int targetMinutes) {
         String[] timeParts = tmp.split(":"); // 拆分小时和分钟部分
         int hour = Integer.parseInt(timeParts[0]); // 小时
         int minute = Integer.parseInt(timeParts[1]); // 分钟
 
-        if (hour<targetHour||(hour == targetHour && minute < targetMinutes)) {
+        if (hour < targetHour || (hour == targetHour && minute < targetMinutes)) {
             return true;
         } else {
             return false;
         }
     }
 
-    public boolean isClockAfter(String tmp,int targetHour,int targetMinutes) {
+    public boolean isClockAfter(String tmp, int targetHour, int targetMinutes) {
         String[] timeParts = tmp.split(":");
         String hourString = timeParts[0]; // 小时部分
         String minuteString = timeParts[1]; // 分钟部分

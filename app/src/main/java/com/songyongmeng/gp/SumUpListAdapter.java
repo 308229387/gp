@@ -8,12 +8,17 @@ import android.widget.TextView;
 
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.songyongmeng.gp.utils.OnDetailItemClickListener;
+import com.songyongmeng.gp.utils.OnItemClickListener;
+
 import java.util.List;
 
 public class SumUpListAdapter extends RecyclerView.Adapter<SumUpListAdapter.VerticalScrollViewHolder> {
 
 
     private List<StatisticsBean> dataList; // 数据列表
+    private OnDetailItemClickListener mListener;
+
 
     public SumUpListAdapter(List<StatisticsBean> dataList) {
         this.dataList = dataList;
@@ -50,6 +55,15 @@ public class SumUpListAdapter extends RecyclerView.Adapter<SumUpListAdapter.Vert
             allTurnover = "放量";
         }
         holder.all_turnover_text.setText(allTurnover);
+        holder.itemView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if (mListener != null) {
+                    mListener.onItemClick(dataList.get(position));
+                }
+            }
+        });
+
         holder.is_ban_text.setText(dataList.get(position).isIsBuyBan() ? "是" : "否");
     }
 
@@ -59,7 +73,12 @@ public class SumUpListAdapter extends RecyclerView.Adapter<SumUpListAdapter.Vert
         return dataList.size();
     }
 
-    protected static class VerticalScrollViewHolder extends RecyclerView.ViewHolder {
+    public void setOnDetailItemClickListener(OnDetailItemClickListener listener) {
+        mListener = listener;
+    }
+
+
+    protected  class VerticalScrollViewHolder extends RecyclerView.ViewHolder {
         TextView sumNameText;
         TextView sumResultPointText;
         TextView self_turnover_text;
