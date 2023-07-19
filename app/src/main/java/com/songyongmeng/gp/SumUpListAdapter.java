@@ -1,5 +1,6 @@
 package com.songyongmeng.gp;
 
+import android.graphics.Color;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -29,22 +30,27 @@ public class SumUpListAdapter extends RecyclerView.Adapter<SumUpListAdapter.Vert
 
     @Override
     public void onBindViewHolder(VerticalScrollViewHolder holder, int position) {
+        if (dataList.get(position).getResultPoint() > 0) {
+            holder.itemView.setBackgroundColor(Color.parseColor("#FFC0CB"));
+        } else {
+            holder.itemView.setBackgroundColor(Color.parseColor("#90EE90"));
+        }
         holder.sumNameText.setText(dataList.get(position).getGpName());
-        holder.sumResultPointText.setText(dataList.get(position).getResultPoint()+"");
-        holder.self_turnover_text.setText(dataList.get(position).getEndQuantity()<5?"缩量":"平放量");
-        holder.sell_open_text.setText(dataList.get(position).getSellOpen()+"");
+        holder.sumResultPointText.setText(dataList.get(position).getResultPoint() + "");
+        holder.self_turnover_text.setText(dataList.get(position).getEndQuantity() < 5 ? "缩量" : "平放量");
+        holder.sell_open_text.setText(dataList.get(position).getSellOpen() + "");
         String allTurnover = "";
-        if(dataList.get(position).getAllTurnover()==-1){
+        if (dataList.get(position).getAllTurnover() == -1) {
             allTurnover = "缩量";
         }
-        if(dataList.get(position).getAllTurnover()==0){
+        if (dataList.get(position).getAllTurnover() == 0) {
             allTurnover = "平量";
         }
-        if(dataList.get(position).getAllTurnover()==1){
+        if (dataList.get(position).getAllTurnover() == 1) {
             allTurnover = "放量";
         }
         holder.all_turnover_text.setText(allTurnover);
-        holder.is_ban_text.setText(dataList.get(position).isIsBuyBan()?"是":"否");
+        holder.is_ban_text.setText(dataList.get(position).isIsBuyBan() ? "是" : "否");
     }
 
 

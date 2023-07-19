@@ -2,6 +2,7 @@ package com.songyongmeng.gp;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
+import android.graphics.Color;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -124,6 +125,24 @@ public class StatisticsAdapter extends RecyclerView.Adapter<StatisticsAdapter.Vi
         int isAllTurnoverFai = 0;
         int allTurAverageSuc = 0;
         int allTurAverageFai = 0;
+
+        int yesterdayAllTurnover = 0;
+        int yesterdayAllTurnoverSuc = 0;
+        int yesterdayAllTurnoverFai = 0;
+        int yesterdayAllTurnoverAverageSuc = 0;
+        int yesterdayAllTurnoverAverageFai = 0;
+
+        int yesterdayAllTurnoverAdd = 0;
+        int yesterdayAllTurnoverAddSuc = 0;
+        int yesterdayAllTurnoverAddFai = 0;
+        int yesterdayAllTurnoverAddAverageSuc = 0;
+        int yesterdayAllTurnoverAddAverageFai = 0;
+
+        int yesterdayAllTurnoverReduce = 0;
+        int yesterdayAllTurnoverReduceSuc = 0;
+        int yesterdayAllTurnoverReduceFai = 0;
+        int yesterdayAllTurnoverReduceAverageSuc = 0;
+        int yesterdayAllTurnoverReduceAverageFai = 0;
 
         int reduceAllTurnover = 0;
         int reduceAllTurnoverSuc = 0;
@@ -416,6 +435,42 @@ public class StatisticsAdapter extends RecyclerView.Adapter<StatisticsAdapter.Vi
                 }
             }
 
+            if (tmp.getYesterdayAllTurnover() ==1) {
+                yesterdayAllTurnoverAdd++;
+                if (tmp.isSuc()) {
+                    yesterdayAllTurnoverAddSuc++;
+                    yesterdayAllTurnoverAddAverageSuc = yesterdayAllTurnoverAddAverageSuc + tmp.getResultPoint();
+                } else {
+                    yesterdayAllTurnoverAddFai++;
+                    yesterdayAllTurnoverAddAverageFai = yesterdayAllTurnoverAddAverageFai + tmp.getResultPoint();
+                }
+
+            }
+
+            if (tmp.getYesterdayAllTurnover() ==0) {
+                yesterdayAllTurnover++;
+                if (tmp.isSuc()) {
+                    yesterdayAllTurnoverSuc++;
+                    yesterdayAllTurnoverAverageSuc = yesterdayAllTurnoverAverageSuc + tmp.getResultPoint();
+                } else {
+                    yesterdayAllTurnoverFai++;
+                    yesterdayAllTurnoverAverageFai = yesterdayAllTurnoverAverageFai + tmp.getResultPoint();
+                }
+
+            }
+
+            if (tmp.getYesterdayAllTurnover() ==-1) {
+                yesterdayAllTurnoverReduce++;
+                if (tmp.isSuc()) {
+                    yesterdayAllTurnoverReduceSuc++;
+                    yesterdayAllTurnoverReduceAverageSuc = yesterdayAllTurnoverReduceAverageSuc + tmp.getResultPoint();
+                } else {
+                    yesterdayAllTurnoverReduceFai++;
+                    yesterdayAllTurnoverReduceAverageFai = yesterdayAllTurnoverReduceAverageFai + tmp.getResultPoint();
+                }
+
+            }
+
             if (tmp.isIsPullUp() && tmp.getBuyBanNum() == 2) {
                 twoBan++;
                 if (tmp.isSuc()) {
@@ -469,6 +524,9 @@ public class StatisticsAdapter extends RecyclerView.Adapter<StatisticsAdapter.Vi
         itemList.add(new ShowBean("沪深缩量", reduceAllTurnover, reduceAllTurnoverSuc, getResult(reduceAllTurnover, reduceAllTurnoverSuc), reduceAllTurnoverSuc == 0 ? 0 : reduceAllTurnoverAverageSuc / reduceAllTurnoverSuc, reduceAllTurnoverFai == 0 ? 0 : reduceAllTurnoverAverageFai / reduceAllTurnoverFai));
         itemList.add(new ShowBean("沪深平量", isAllTurnover, isAllTurnoverSuc, getResult(isAllTurnover, isAllTurnoverSuc), isAllTurnoverSuc == 0 ? 0 : allTurAverageSuc / isAllTurnoverSuc, isAllTurnoverFai == 0 ? 0 : allTurAverageFai / isAllTurnoverFai));
         itemList.add(new ShowBean("沪深增量", addAllTurnover, addAllTurnoverSuc, getResult(addAllTurnover, addAllTurnoverSuc), addAllTurnoverSuc == 0 ? 0 : addAllTurnoverAverageSuc / addAllTurnoverSuc, addAllTurnoverFai == 0 ? 0 : addAllTurnoverAverageFai / addAllTurnoverFai));
+        itemList.add(new ShowBean("昨沪深增量", yesterdayAllTurnoverAdd, yesterdayAllTurnoverAddSuc, getResult(yesterdayAllTurnoverAdd, yesterdayAllTurnoverAddSuc), yesterdayAllTurnoverAddSuc == 0 ? 0 : yesterdayAllTurnoverAddAverageSuc / yesterdayAllTurnoverAddSuc, yesterdayAllTurnoverAddFai == 0 ? 0 : yesterdayAllTurnoverAddAverageFai / yesterdayAllTurnoverAddFai));
+        itemList.add(new ShowBean("昨沪深平量", yesterdayAllTurnover, yesterdayAllTurnoverSuc, getResult(yesterdayAllTurnover, yesterdayAllTurnoverSuc), yesterdayAllTurnoverSuc == 0 ? 0 : yesterdayAllTurnoverAverageSuc / yesterdayAllTurnoverSuc, yesterdayAllTurnoverFai == 0 ? 0 : yesterdayAllTurnoverAverageFai / yesterdayAllTurnoverFai));
+        itemList.add(new ShowBean("昨沪深缩量", yesterdayAllTurnoverReduce, yesterdayAllTurnoverReduceSuc, getResult(yesterdayAllTurnoverReduce, yesterdayAllTurnoverReduceSuc), yesterdayAllTurnoverReduceSuc == 0 ? 0 : yesterdayAllTurnoverReduceAverageSuc / yesterdayAllTurnoverReduceSuc, yesterdayAllTurnoverReduceFai == 0 ? 0 : yesterdayAllTurnoverReduceAverageFai / yesterdayAllTurnoverReduceFai));
         itemList.add(new ShowBean("全增量高开", addAllTurnover, addAllTurnoverSellOpenHigh, getResult(addAllTurnover, addAllTurnoverSellOpenHigh), 0, 0));
         itemList.add(new ShowBean("全平量高开", isAllTurnover, isTurnoverSellOpenHigh, getResult(isAllTurnover, isTurnoverSellOpenHigh), 0, 0));
         itemList.add(new ShowBean("全缩量高开", reduceAllTurnover, reduceTurnoverSellOpenHigh, getResult(reduceAllTurnover, reduceTurnoverSellOpenHigh), 0, 0));
@@ -496,6 +554,11 @@ public class StatisticsAdapter extends RecyclerView.Adapter<StatisticsAdapter.Vi
 
     @Override
     public void onBindViewHolder(ViewHolder holder, @SuppressLint("RecyclerView") int position) {
+        if(itemList.get(position).ratio>49){
+            holder.itemView.setBackgroundColor(Color.parseColor("#FFC0CB"));
+        }else{
+            holder.itemView.setBackgroundColor(Color.parseColor("#90EE90"));
+        }
         holder.name.setText(itemList.get(position).model);
         holder.all_time.setText(itemList.get(position).allTime + "次");
         holder.suc_time.setText(itemList.get(position).sucTime + "次");
@@ -582,6 +645,27 @@ public class StatisticsAdapter extends RecyclerView.Adapter<StatisticsAdapter.Vi
                 return data.stream()
                         .filter(bean -> bean.isIsPullUp() && bean.getBuyBanNum() > 3)
                         .collect(Collectors.toList());
+            case "个股缩量":
+                return data.stream()
+                        .filter(bean -> bean.getEndQuantity() < 5)
+                        .collect(Collectors.toList());
+            case "个股平放量":
+                return data.stream()
+                        .filter(bean -> bean.getEndQuantity() >= 5)
+                        .collect(Collectors.toList());
+                case "高开1点":
+                return data.stream()
+                        .filter(bean -> bean.getSellOpen() > 0)
+                        .collect(Collectors.toList());
+                case "平低开":
+                return data.stream()
+                        .filter(bean -> bean.getEndQuantity() <=0)
+                        .collect(Collectors.toList());
+                case "9点40前买":
+                return data.stream()
+                        .filter(bean -> isClockBefore(bean.getBuyTime(),9,40))
+                        .collect(Collectors.toList());
+
 
 
             default:

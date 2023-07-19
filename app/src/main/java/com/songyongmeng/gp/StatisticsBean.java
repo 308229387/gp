@@ -34,6 +34,7 @@ public class StatisticsBean implements Serializable {
      * endQuantity : 9                  当天成交量0-10，无量到爆量
      * environment : 7                  给环境打分0-10，差到很强
      * image : fail_38                  交易图
+     * yesterdayAllTurnover             昨日沪深变化
      */
 
 
@@ -67,6 +68,7 @@ public class StatisticsBean implements Serializable {
     private int endQuantity;
     private int allTurnover;
     private String image;
+    private int yesterdayAllTurnover;
 
     public String getGpName() {
         return gpName;
@@ -308,4 +310,11 @@ public class StatisticsBean implements Serializable {
         this.image = image;
     }
 
+    public int getYesterdayAllTurnover() {
+        return yesterdayAllTurnover;
+    }
+
+    public void setYesterdayAllTurnover(int yesterdayAllTurnover) {
+        this.yesterdayAllTurnover = yesterdayAllTurnover;
+    }
 }
