@@ -2,6 +2,7 @@ package com.songyongmeng.gp;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -43,6 +44,44 @@ public class SumUpListActivity extends AppCompatActivity {
                         Intent intent = new Intent(SumUpListActivity.this,GPDetailActivity.class);
                         intent.putExtra("gpDetailData", (Serializable) position);
                         startActivity(intent);
+                    }
+                });
+
+                findViewById(R.id.sum_recover_btn).setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        detailAdapter.recoverData();
+                    }
+                });
+
+                findViewById(R.id.sum_self_btn).setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        detailAdapter.changeSelfData();
+                    }
+                });
+                findViewById(R.id.sum_result_btn).setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        detailAdapter.changeResultData();
+                    }
+                });
+                findViewById(R.id.sum_sell_btn).setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        detailAdapter.changeSellData();
+                    }
+                });
+                findViewById(R.id.sum_turnover_btn).setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        detailAdapter.changeTurnoverData();
+                    }
+                });
+                findViewById(R.id.sum_buy_btn).setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        detailAdapter.changeBuyPointData();
                     }
                 });
             }

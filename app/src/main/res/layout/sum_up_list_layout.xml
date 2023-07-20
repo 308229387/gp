@@ -19,38 +19,38 @@
             android:text="恢复" />
 
         <Button
-            android:id="@+id/sum_all_time_btn"
+            android:id="@+id/sum_result_btn"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:text="盈亏点位" />
 
         <Button
-            android:id="@+id/sum_suc_time_btn"
+            android:id="@+id/sum_self_btn"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:text="当日个股量能" />
 
         <Button
-            android:id="@+id/sum_radio_btn"
+            android:id="@+id/sum_sell_btn"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:text="卖日开盘点位" />
 
         <Button
-            android:id="@+id/sum_average_suc_btn"
+            android:id="@+id/sum_turnover_btn"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:text="市场量能变化" />
         <Button
-            android:id="@+id/sum_average_fai_btn"
+            android:id="@+id/sum_buy_btn"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:text="是否打板" />
+            android:text="买入点位" />
 
     </LinearLayout>
 

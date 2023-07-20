@@ -172,6 +172,12 @@ public class StatisticsAdapter extends RecyclerView.Adapter<StatisticsAdapter.Vi
         int addSelfGpAverageSuc = 0;
         int addSelfGpAverageFai = 0;
 
+        int firstBan = 0;
+        int firstBanSuc = 0;
+        int firstBanFai = 0;
+        int firstBanAverageSuc = 0;
+        int firstBanAverageFai = 0;
+
         int twoBan = 0;
         int twoBanSuc = 0;
         int twoBanFai = 0;
@@ -471,6 +477,16 @@ public class StatisticsAdapter extends RecyclerView.Adapter<StatisticsAdapter.Vi
 
             }
 
+            if (tmp.isIsPullUp() && tmp.getBuyBanNum() == 1) {
+                firstBan++;
+                if (tmp.isSuc()) {
+                    firstBanSuc++;
+                    firstBanAverageSuc = firstBanAverageSuc + tmp.getResultPoint();
+                } else {
+                    firstBanFai++;
+                    firstBanAverageFai = firstBanAverageFai + tmp.getResultPoint();
+                }
+            }
             if (tmp.isIsPullUp() && tmp.getBuyBanNum() == 2) {
                 twoBan++;
                 if (tmp.isSuc()) {
@@ -530,6 +546,7 @@ public class StatisticsAdapter extends RecyclerView.Adapter<StatisticsAdapter.Vi
         itemList.add(new ShowBean("全增量高开", addAllTurnover, addAllTurnoverSellOpenHigh, getResult(addAllTurnover, addAllTurnoverSellOpenHigh), 0, 0));
         itemList.add(new ShowBean("全平量高开", isAllTurnover, isTurnoverSellOpenHigh, getResult(isAllTurnover, isTurnoverSellOpenHigh), 0, 0));
         itemList.add(new ShowBean("全缩量高开", reduceAllTurnover, reduceTurnoverSellOpenHigh, getResult(reduceAllTurnover, reduceTurnoverSellOpenHigh), 0, 0));
+        itemList.add(new ShowBean("首板", twoBan, twoBanSuc, getResult(twoBan, twoBanSuc), twoBanSuc == 0 ? 0 : twoBanAverageSuc / twoBanSuc, twoBanFai == 0 ? 0 : twoBanAverageFai / twoBanFai));
         itemList.add(new ShowBean("二板", twoBan, twoBanSuc, getResult(twoBan, twoBanSuc), twoBanSuc == 0 ? 0 : twoBanAverageSuc / twoBanSuc, twoBanFai == 0 ? 0 : twoBanAverageFai / twoBanFai));
         itemList.add(new ShowBean("三板", threeBan, threeBanSuc, getResult(threeBan, threeBanSuc), threeBanSuc == 0 ? 0 : threeBanAverageSuc / threeBanSuc, threeBanFai == 0 ? 0 : threeBanAverageFai / threeBanFai));
         itemList.add(new ShowBean("高位板", highBan, highBanSuc, getResult(highBan, highBanSuc), highBanSuc == 0 ? 0 : highBanAverageSuc / highBanSuc, highBanFai == 0 ? 0 : highBanAverageFai / highBanFai));
@@ -631,7 +648,11 @@ public class StatisticsAdapter extends RecyclerView.Adapter<StatisticsAdapter.Vi
                         .collect(Collectors.toList());
             case "沪深增量":
                 return data.stream()
-                        .filter(bean -> bean.getReboundLine() == 1)
+                        .filter(bean -> bean.getAllTurnover() == 1)
+                        .collect(Collectors.toList());
+            case "首板":
+                return data.stream()
+                        .filter(bean -> bean.getBuyBanNum() == 1)
                         .collect(Collectors.toList());
             case "二板":
                 return data.stream()
@@ -659,7 +680,7 @@ public class StatisticsAdapter extends RecyclerView.Adapter<StatisticsAdapter.Vi
                         .collect(Collectors.toList());
             case "平低开":
                 return data.stream()
-                        .filter(bean -> bean.getEndQuantity() <= 0)
+                        .filter(bean -> bean.getSellOpen() <= 0)
                         .collect(Collectors.toList());
             case "9点40前买":
                 return data.stream()

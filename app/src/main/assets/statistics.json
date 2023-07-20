@@ -253,7 +253,7 @@
     "buyTime": "14:08",
     "sellTime": "14:17",
     "isBuyBan": false,
-    "image": "fail_32"
+    "image": "rmw_7_20"
   },
   {
     "gpName": "圣龙股份",
@@ -349,7 +349,7 @@
     "buyTime": "10:06",
     "sellTime": "14:12",
     "isBuyBan": false,
-    "image": "-"
+    "image": "shwm1_7_20"
   },
   {
     "gpName": "深南电A",
@@ -477,7 +477,7 @@
     "buyTime": "13:33",
     "sellTime": "09:55",
     "isBuyBan": false,
-    "image": "-"
+    "image": "twxx1_7_20"
   },
   {
     "gpName": "久远银海",
@@ -573,7 +573,7 @@
     "buyTime": "09:36",
     "sellTime": "11:04",
     "isBuyBan": true,
-    "image": "suc_1"
+    "image": "suc_2"
   },
   {
     "gpName": "拓维信息",
@@ -605,7 +605,7 @@
     "buyTime": "09:44",
     "sellTime": "09:32",
     "isBuyBan": false,
-    "image": "fail_3"
+    "image": "twxx_7_20"
   },
   {
     "gpName": "意华股份",
@@ -637,7 +637,7 @@
     "buyTime": "09:40",
     "sellTime": "09:30",
     "isBuyBan": false,
-    "image": "-"
+    "image": "yhgf_7_20"
   },
   {
     "gpName": "上海物贸",
@@ -669,7 +669,7 @@
     "buyTime": "10:16",
     "sellTime": "09:30",
     "isBuyBan": true,
-    "image": "-"
+    "image": "shwm_7_20"
   },
   {
     "gpName": "睿能科技",
@@ -701,7 +701,7 @@
     "buyTime": "14:57",
     "sellTime": "14:10",
     "isBuyBan": false,
-    "image": "-"
+    "image": "rnkj_7_20"
   },
   {
     "gpName": "杭州热电",
@@ -861,7 +861,7 @@
     "buyTime": "10:18",
     "sellTime": "09:44",
     "isBuyBan": false,
-    "image": "suc_12"
+    "image": "dlrd_7_20"
   },
   {
     "gpName": "中通客车",
@@ -893,7 +893,7 @@
     "sellAfterMiss": true,
     "hasTopButMiss": false,
     "isBuyBan": false,
-    "image": "suc_12"
+    "image": "ztkc_7_20"
   },
   {
     "gpName": "巨轮智能",
@@ -923,6 +923,38 @@
     "autoStopSuc": false,
     "autoStopLoss": false,
     "sellAfterMiss": true,
+    "hasTopButMiss": false,
+    "isBuyBan": false,
+    "image": "jlzn_7_20"
+  },
+  {
+    "gpName": "江铃汽车",
+    "suc": false,
+    "resultPoint": -4,
+    "isPullUp": true,
+    "whenBuyIsTurnedToOne": true,
+    "whenBuyIsRebound": false,
+    "whenBuyIsHot": false,
+    "reboundLine": 0,
+    "buyBanNum": 3,
+    "buyKTop": true,
+    "isMoreBuy": false,
+    "beforeThought": "当天低开震荡一会后，快速拉升，量能未释放，觉得像分歧转一致，上车",
+    "afterThought": "当天未板，高位震荡，第二天大幅低开，拉升减损",
+    "buyQuantity": 3,
+    "endQuantity": 7,
+    "allTurnover": -1,
+    "yesterdayAllTurnover": -1,
+    "buyPoint": 9,
+    "sellPoint": -4,
+    "sellOpen": -6,
+    "buyTime": "09:44",
+    "sellTime": "09:34",
+    "holdDays": 1,
+    "buyDate": "2023-07-19",
+    "autoStopSuc": false,
+    "autoStopLoss": false,
+    "sellAfterMiss": false,
     "hasTopButMiss": false,
     "isBuyBan": false,
     "image": "suc_12"
