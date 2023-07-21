@@ -105,9 +105,11 @@ public class MainActivity extends AppCompatActivity {
         expandListId.setOnChildClickListener(new ExpandableListView.OnChildClickListener() {
             @Override
             public boolean onChildClick(ExpandableListView expandableListView, View view, int groupPosition, int childPosition, long l) {
-                if(allData.get(groupPosition).getName().equals("概率总结")){
+                if (allData.get(groupPosition).getData().get(childPosition).getRichText().get(0).equals("title:概率总结")) {
                     toStatistics(statisticsData);
-                }else{
+                } else if (allData.get(groupPosition).getData().get(childPosition).getRichText().get(0).equals("title:卖出决策器")) {
+                    toSell();
+                } else {
                     toDetail((ArrayList<String>) allData.get(groupPosition).getData().get(childPosition).getRichText());
 
                 }
@@ -118,7 +120,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    private void toDetail( ArrayList<String> imageList) {
+    private void toDetail(ArrayList<String> imageList) {
         Intent intent = new Intent(MainActivity.this, QADetailActivity.class);
         intent.putStringArrayListExtra("imageList", imageList);
         startActivity(intent);
@@ -127,6 +129,11 @@ public class MainActivity extends AppCompatActivity {
     private void toStatistics(ArrayList<StatisticsBean> allStatistics) {
         Intent intent = new Intent(MainActivity.this, StatisticsActivity.class);
         intent.putExtra("statistics", allStatistics);
+        startActivity(intent);
+    }
+
+    private void toSell() {
+        Intent intent = new Intent(MainActivity.this, SellActivity.class);
         startActivity(intent);
     }
 }
