@@ -109,7 +109,9 @@ public class MainActivity extends AppCompatActivity {
                     toStatistics(statisticsData);
                 } else if (allData.get(groupPosition).getData().get(childPosition).getRichText().get(0).equals("title:卖出决策器")) {
                     toSell();
-                } else {
+                }else if(allData.get(groupPosition).getData().get(childPosition).getRichText().get(0).equals("title:分歧转一致")){
+                    toFenQi();
+                }else {
                     toDetail((ArrayList<String>) allData.get(groupPosition).getData().get(childPosition).getRichText());
 
                 }
@@ -120,6 +122,11 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+
+    private void toFenQi() {
+        Intent intent = new Intent(MainActivity.this, FenQiActivity.class);
+        startActivity(intent);
+    }
     private void toDetail(ArrayList<String> imageList) {
         Intent intent = new Intent(MainActivity.this, QADetailActivity.class);
         intent.putStringArrayListExtra("imageList", imageList);
