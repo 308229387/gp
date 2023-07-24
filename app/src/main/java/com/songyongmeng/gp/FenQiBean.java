@@ -33,12 +33,10 @@ public class FenQiBean implements Serializable {
      * formerImage : fail_38                当天图
      * latterImage : fail_38                次日图
      */
-
-
     private String gpName;
     private double formerAllValue;
     private String formerDate;
-    private int afterHigh;
+    private double afterHigh;
     private String formerBanTime;
     private double lastPrice;
     private boolean banHasOpen;
@@ -88,11 +86,11 @@ public class FenQiBean implements Serializable {
         this.formerDate = formerDate;
     }
 
-    public int getAfterHigh() {
+    public double getAfterHigh() {
         return afterHigh;
     }
 
-    public void setAfterHigh(int afterHigh) {
+    public void setAfterHigh(double afterHigh) {
         this.afterHigh = afterHigh;
     }
 
@@ -287,6 +285,7 @@ public class FenQiBean implements Serializable {
     public void setLatterImage(String latterImage) {
         this.latterImage = latterImage;
     }
+
 
 
 }
