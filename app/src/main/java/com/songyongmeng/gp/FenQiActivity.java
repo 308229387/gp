@@ -29,10 +29,10 @@ public class FenQiActivity extends AppCompatActivity {
         setContentView(R.layout.fen_qi_layout);
 
         LinearLayout buttonLayout = findViewById(R.id.fen_qi_top_button_layout);
-        for (int i = 0; i < 26; i++) {
+        for (int i = 0; i < 27; i++) {
             Button button = new Button(this);
             LinearLayout.LayoutParams layoutParams;
-            if(i ==25){
+            if(i ==26){
                 layoutParams = new LinearLayout.LayoutParams(260, 300);
 
             }else{
@@ -122,18 +122,21 @@ public class FenQiActivity extends AppCompatActivity {
                     button.setText("前一天股票几板");
                     break;
                 case 21:
-                    button.setText("前一天市场有几个涨停");
+                    button.setText("昨天涨停板质量分数");
                     break;
                 case 22:
-                    button.setText("前一天最高板");
+                    button.setText("前一天市场有几个涨停");
                     break;
                 case 23:
-                    button.setText("当天市场量能与前一天对比");
+                    button.setText("前一天最高板");
                     break;
                 case 24:
-                    button.setText("流通市场");
+                    button.setText("当天市场量能与前一天对比");
                     break;
                 case 25:
+                    button.setText("流通市场");
+                    break;
+                case 26:
                     button.setText("当天日期");
                     break;
 

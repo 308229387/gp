@@ -23,16 +23,19 @@ public class FenQiBean implements Serializable {
      * hasHighLevelLinePin : false          是否有高级别均线压制
      * selfTurnover : 68                    股票当天量与前一天对比
      * yesterdaySelfTurnover : 217          前一天量与大前天对比
-     * yesterdayAllTurnover : 112          前一天市场量与大前天对比
+     * yesterdayAllTurnover : 112           前一天市场量与大前天对比
      * yesterdaySelfBanNum : 2              前一天股票几板
+     * yesterdaySelfBanScore : 7            昨天涨停板质量分数
      * yesterdayAllBanNum : 29              前一天市场有几个涨停
      * yesterdayAllTopBanNum : 5            前一天最高板
      * formerAllTurnover : 1.12             当天市场量能与前一天对比
      * formerDate : 2023-07-21              当天日期
      * formerAllValue : 92.74               触发当天总流通市场
+     * describe: test                       描述
      * formerImage : fail_38                当天图
      * latterImage : fail_38                次日图
      */
+
     private String gpName;
     private double formerAllValue;
     private String formerDate;
@@ -56,6 +59,7 @@ public class FenQiBean implements Serializable {
     private double yesterdaySelfTurnover;
     private double yesterdayAllTurnover;
     private int yesterdaySelfBanNum;
+    private int yesterdaySelfBanScore;
     private int yesterdayAllBanNum;
     private int yesterdayAllTopBanNum;
     private double formerAllTurnover;
@@ -244,6 +248,14 @@ public class FenQiBean implements Serializable {
 
     public void setYesterdaySelfBanNum(int yesterdaySelfBanNum) {
         this.yesterdaySelfBanNum = yesterdaySelfBanNum;
+    }
+
+    public int getYesterdaySelfBanScore() {
+        return yesterdaySelfBanScore;
+    }
+
+    public void setYesterdaySelfBanScore(int yesterdaySelfBanScore) {
+        this.yesterdaySelfBanScore = yesterdaySelfBanScore;
     }
 
     public int getYesterdayAllBanNum() {

@@ -49,7 +49,7 @@ public class FenQiAdapter extends RecyclerView.Adapter<FenQiAdapter.MyViewHolder
             linearLayout.removeAllViews();
 
             // 动态添加 TextView
-            for (int i = 0; i < 26; i++) {
+            for (int i = 0; i < 27; i++) {
                 TextView textView = new TextView(itemView.getContext());
                 if(i == 25){
                     textView.setWidth(270); // 设置宽度为200像素
@@ -123,18 +123,21 @@ public class FenQiAdapter extends RecyclerView.Adapter<FenQiAdapter.MyViewHolder
                         textView.setText(data.getYesterdaySelfBanNum() + "板");
                         break;
                     case 21:
-                        textView.setText(data.getYesterdayAllBanNum() + "个");
+                        textView.setText(data.getYesterdaySelfBanScore() + "分");
                         break;
                     case 22:
-                        textView.setText(data.getYesterdayAllTopBanNum() + "板");
+                        textView.setText(data.getYesterdayAllBanNum() + "个");
                         break;
                     case 23:
-                        textView.setText(data.getFormerAllTurnover() + "%");
+                        textView.setText(data.getYesterdayAllTopBanNum() + "板");
                         break;
                     case 24:
-                        textView.setText(data.getFormerAllValue() + "亿");
+                        textView.setText(data.getFormerAllTurnover() + "%");
                         break;
                     case 25:
+                        textView.setText(data.getFormerAllValue() + "亿");
+                        break;
+                    case 26:
                         textView.setText(data.getFormerDate());
                         break;
                 }
