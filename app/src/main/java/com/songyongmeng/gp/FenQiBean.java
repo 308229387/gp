@@ -8,7 +8,9 @@ public class FenQiBean implements Serializable {
      * formerBanTime : 10:01                当天上板时间
      * lastPrice : 11.6                     当天最终封单(亿)
      * banHasOpen : false                   是否开板过
-     * formerOpenPoint : -1.85              当天开盘点位
+     * formerStartPoint : -1.85             当天开盘点位
+     * formerAveragePoint : -1.85           当天均线点位
+     * formerEndPoint : -1.85               当天收盘点位
      * latterOpenPoint : 0.0                次日开盘点位
      * latterStartPullUp : false            开盘就拉升
      * latterTopPoint : 0.0                 次日最高点位
@@ -36,6 +38,8 @@ public class FenQiBean implements Serializable {
      * latterImage : fail_38                次日图
      */
 
+
+
     private String gpName;
     private double formerAllValue;
     private String formerDate;
@@ -43,8 +47,10 @@ public class FenQiBean implements Serializable {
     private String formerBanTime;
     private double lastPrice;
     private boolean banHasOpen;
-    private double formerOpenPoint;
-    private double latterOpenPoint;
+    private double formerStartPoint;
+    private double formerAveragePoint;
+    private double formerEndPoint;
+    private double latterStartPoint;
     private double latterTopPoint;
     private String latterTopPointTime;
     private double latterAveragePoint;
@@ -63,6 +69,7 @@ public class FenQiBean implements Serializable {
     private int yesterdayAllBanNum;
     private int yesterdayAllTopBanNum;
     private double formerAllTurnover;
+    private String describe;
     private String formerImage;
     private String latterImage;
 
@@ -122,20 +129,36 @@ public class FenQiBean implements Serializable {
         this.banHasOpen = banHasOpen;
     }
 
-    public double getFormerOpenPoint() {
-        return formerOpenPoint;
+    public double getFormerStartPoint() {
+        return formerStartPoint;
     }
 
-    public void setFormerOpenPoint(double formerOpenPoint) {
-        this.formerOpenPoint = formerOpenPoint;
+    public void setFormerStartPoint(double formerStartPoint) {
+        this.formerStartPoint = formerStartPoint;
     }
 
-    public double getLatterOpenPoint() {
-        return latterOpenPoint;
+    public double getFormerAveragePoint() {
+        return formerAveragePoint;
     }
 
-    public void setLatterOpenPoint(double latterOpenPoint) {
-        this.latterOpenPoint = latterOpenPoint;
+    public void setFormerAveragePoint(double formerAveragePoint) {
+        this.formerAveragePoint = formerAveragePoint;
+    }
+
+    public double getFormerEndPoint() {
+        return formerEndPoint;
+    }
+
+    public void setFormerEndPoint(double formerEndPoint) {
+        this.formerEndPoint = formerEndPoint;
+    }
+
+    public double getLatterStartPoint() {
+        return latterStartPoint;
+    }
+
+    public void setLatterStartPoint(double latterStartPoint) {
+        this.latterStartPoint = latterStartPoint;
     }
 
     public double getLatterTopPoint() {
@@ -282,6 +305,14 @@ public class FenQiBean implements Serializable {
         this.formerAllTurnover = formerAllTurnover;
     }
 
+    public String getDescribe() {
+        return describe;
+    }
+
+    public void setDescribe(String describe) {
+        this.describe = describe;
+    }
+
     public String getFormerImage() {
         return formerImage;
     }
@@ -297,7 +328,5 @@ public class FenQiBean implements Serializable {
     public void setLatterImage(String latterImage) {
         this.latterImage = latterImage;
     }
-
-
 
 }
