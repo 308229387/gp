@@ -75,9 +75,21 @@ public class FenQiActivity extends AppCompatActivity {
                     break;
                 case 3:
                     button.setText("次日最高点位");
+                    button.setOnClickListener(new View.OnClickListener() {
+                        @Override
+                        public void onClick(View view) {
+                            adapter.changeLatterTopPointData();
+                        }
+                    });
                     break;
                 case 4:
                     button.setText("最高点出现时间");
+                    button.setOnClickListener(new View.OnClickListener() {
+                        @Override
+                        public void onClick(View view) {
+                            adapter.changeLastTopPointTimeData();
+                        }
+                    });
                     break;
                 case 5:
                     button.setText("当天上板时间");
@@ -99,51 +111,147 @@ public class FenQiActivity extends AppCompatActivity {
                     break;
                 case 7:
                     button.setText("是否开板过");
+                    button.setOnClickListener(new View.OnClickListener() {
+                        @Override
+                        public void onClick(View view) {
+                            adapter.changeHasOpenData();
+                        }
+                    });
                     break;
                 case 8:
                     button.setText("当日开盘点位");
+                    button.setOnClickListener(new View.OnClickListener() {
+                        @Override
+                        public void onClick(View view) {
+                            adapter.changeFormerStartData();
+                        }
+                    });
                     break;
                 case 9:
                     button.setText("当日均线点位");
+                    button.setOnClickListener(new View.OnClickListener() {
+                        @Override
+                        public void onClick(View view) {
+                            adapter.changeFormerAveragePointData();
+                        }
+                    });
                     break;
                 case 10:
                     button.setText("当日收盘点位");
+                    button.setOnClickListener(new View.OnClickListener() {
+                        @Override
+                        public void onClick(View view) {
+                            adapter.changeFormerEndPointData();
+                        }
+                    });
                     break;
                 case 11:
                     button.setText("开盘就拉升");
+                    button.setOnClickListener(new View.OnClickListener() {
+                        @Override
+                        public void onClick(View view) {
+                            adapter.changeLatterStartPullUpData();
+                        }
+                    });
                     break;
                 case 12:
                     button.setText("次日最低点位");
+                    button.setOnClickListener(new View.OnClickListener() {
+                        @Override
+                        public void onClick(View view) {
+                            adapter.changeLatterLowPoint();
+                        }
+                    });
                     break;
                 case 13:
                     button.setText("次日最低点位出现时间");
+                    button.setOnClickListener(new View.OnClickListener() {
+                        @Override
+                        public void onClick(View view) {
+                            adapter.changeLatterLowPointTime();
+                        }
+                    });
                     break;
                 case 14:
                     button.setText("后期空间");
+                    button.setOnClickListener(new View.OnClickListener() {
+                        @Override
+                        public void onClick(View view) {
+                            adapter.changeAfterHigh();
+                        }
+                    });
                     break;
                 case 15:
                     button.setText("当天版块点位");
+                    button.setOnClickListener(new View.OnClickListener() {
+                        @Override
+                        public void onClick(View view) {
+                            adapter.changeFormerGroupPoint();
+                        }
+                    });
                     break;
                 case 16:
                     button.setText("当天版块量与前天对比");
+                    button.setOnClickListener(new View.OnClickListener() {
+                        @Override
+                        public void onClick(View view) {
+                            adapter.changeFormerGroupTurnover();
+                        }
+                    });
                     break;
                 case 17:
                     button.setText("是否有前高");
+                    button.setOnClickListener(new View.OnClickListener() {
+                        @Override
+                        public void onClick(View view) {
+                            adapter.changeHasBeforeTop();
+                        }
+                    });
                     break;
                 case 18:
                     button.setText("是否有高级别均线压制");
+                    button.setOnClickListener(new View.OnClickListener() {
+                        @Override
+                        public void onClick(View view) {
+                            adapter.changeHasHighLevelLinePin();
+                        }
+                    });
                     break;
                 case 19:
                     button.setText("股票当天量与前一天对比");
+                    button.setOnClickListener(new View.OnClickListener() {
+                        @Override
+                        public void onClick(View view) {
+                            adapter.changeSelfTurnover();
+                        }
+                    });
                     break;
                 case 20:
                     button.setText("前一天量与大前天对比");
+                    button.setOnClickListener(new View.OnClickListener() {
+                        @Override
+                        public void onClick(View view) {
+                            adapter.changeYesterdaySelfTurnover();
+                        }
+                    });
                     break;
                 case 21:
                     button.setText("前一天市场量与大前天对比");
+                    button.setOnClickListener(new View.OnClickListener() {
+                        @Override
+                        public void onClick(View view) {
+                            adapter.changeYesterdayAllTurnover();
+                        }
+                    });
                     break;
                 case 22:
                     button.setText("前一天股票几板");
+                    button.setOnClickListener(new View.OnClickListener() {
+                        @Override
+                        public void onClick(View view) {
+                            adapter.changeYesterdaySelfBanNum();
+                        }
+                    });
                     break;
                 case 23:
                     button.setText("昨天涨停板质量分数");
@@ -156,18 +264,48 @@ public class FenQiActivity extends AppCompatActivity {
                     break;
                 case 24:
                     button.setText("前一天市场有几个涨停");
+                    button.setOnClickListener(new View.OnClickListener() {
+                        @Override
+                        public void onClick(View view) {
+                            adapter.changeYesterdayAllBanNum();
+                        }
+                    });
                     break;
                 case 25:
                     button.setText("前一天最高板");
+                    button.setOnClickListener(new View.OnClickListener() {
+                        @Override
+                        public void onClick(View view) {
+                            adapter.changeYesterdayAllTopBanNum();
+                        }
+                    });
                     break;
                 case 26:
                     button.setText("当天市场量能与前一天对比");
+                    button.setOnClickListener(new View.OnClickListener() {
+                        @Override
+                        public void onClick(View view) {
+                            adapter.changeFormerAllTurnover();
+                        }
+                    });
                     break;
                 case 27:
                     button.setText("流通市场");
+                    button.setOnClickListener(new View.OnClickListener() {
+                        @Override
+                        public void onClick(View view) {
+                            adapter.changeFormerAllValue();
+                        }
+                    });
                     break;
                 case 28:
                     button.setText("当天日期");
+                    button.setOnClickListener(new View.OnClickListener() {
+                        @Override
+                        public void onClick(View view) {
+                            adapter.changeFormerDate();
+                        }
+                    });
                     break;
 
             }
