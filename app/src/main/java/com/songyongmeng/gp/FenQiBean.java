@@ -23,7 +23,7 @@ public class FenQiBean implements Serializable {
      * formerGroupTurnover : 1.25           当天版块量与前天对比
      * hasBeforeTop : false                 是否有前高
      * hasHighLevelLinePin : false          是否有高级别均线压制
-     * whenWillFirstBanTurnover : 63.98     第一次上板时量能比
+     * whenWillFirstBanTurnover : 63.98     股票当天量与前一天对比
      * selfTurnover : 68                    股票当天量与前一天对比
      * EnvironmentScore : 43                当日环境分
      * yesterdayEnvironmentScore : 33       昨日环境分

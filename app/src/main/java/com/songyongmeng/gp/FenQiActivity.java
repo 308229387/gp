@@ -30,10 +30,10 @@ public class FenQiActivity extends AppCompatActivity {
         setContentView(R.layout.fen_qi_layout);
 
         LinearLayout buttonLayout = findViewById(R.id.fen_qi_top_button_layout);
-        for (int i = 0; i < 31; i++) {
+        for (int i = 0; i < 32; i++) {
             Button button = new Button(this);
             LinearLayout.LayoutParams layoutParams;
-            if(i ==30){
+            if(i ==31){
                 layoutParams = new LinearLayout.LayoutParams(260, 180);
 
             }else{
@@ -236,6 +236,15 @@ public class FenQiActivity extends AppCompatActivity {
                     });
                     break;
                 case 21:
+                    button.setText("首次上板量与前一天对比");
+                    button.setOnClickListener(new View.OnClickListener() {
+                        @Override
+                        public void onClick(View view) {
+                            adapter.changeWhenWillFirstBanTurnover();
+                        }
+                    });
+                    break;
+                case 22:
                     button.setText("股票当天量与前一天对比");
                     button.setOnClickListener(new View.OnClickListener() {
                         @Override
@@ -244,7 +253,7 @@ public class FenQiActivity extends AppCompatActivity {
                         }
                     });
                     break;
-                case 22:
+                case 23:
                     button.setText("前一天量与大前天对比");
                     button.setOnClickListener(new View.OnClickListener() {
                         @Override
@@ -253,7 +262,7 @@ public class FenQiActivity extends AppCompatActivity {
                         }
                     });
                     break;
-                case 23:
+                case 24:
                     button.setText("前一天市场量与大前天对比");
                     button.setOnClickListener(new View.OnClickListener() {
                         @Override
@@ -262,7 +271,7 @@ public class FenQiActivity extends AppCompatActivity {
                         }
                     });
                     break;
-                case 24:
+                case 25:
                     button.setText("前一天股票几板");
                     button.setOnClickListener(new View.OnClickListener() {
                         @Override
@@ -271,7 +280,7 @@ public class FenQiActivity extends AppCompatActivity {
                         }
                     });
                     break;
-                case 25:
+                case 26:
                     button.setText("昨天涨停板质量分数");
                     button.setOnClickListener(new View.OnClickListener() {
                         @Override
@@ -280,7 +289,7 @@ public class FenQiActivity extends AppCompatActivity {
                         }
                     });
                     break;
-                case 26:
+                case 27:
                     button.setText("前一天市场有几个涨停");
                     button.setOnClickListener(new View.OnClickListener() {
                         @Override
@@ -289,7 +298,7 @@ public class FenQiActivity extends AppCompatActivity {
                         }
                     });
                     break;
-                case 27:
+                case 28:
                     button.setText("前一天最高板");
                     button.setOnClickListener(new View.OnClickListener() {
                         @Override
@@ -298,7 +307,7 @@ public class FenQiActivity extends AppCompatActivity {
                         }
                     });
                     break;
-                case 28:
+                case 29:
                     button.setText("当天市场量能与前一天对比");
                     button.setOnClickListener(new View.OnClickListener() {
                         @Override
@@ -307,7 +316,7 @@ public class FenQiActivity extends AppCompatActivity {
                         }
                     });
                     break;
-                case 29:
+                case 30:
                     button.setText("流通市场");
                     button.setOnClickListener(new View.OnClickListener() {
                         @Override
@@ -316,7 +325,7 @@ public class FenQiActivity extends AppCompatActivity {
                         }
                     });
                     break;
-                case 30:
+                case 31:
                     button.setText("当天日期");
                     button.setOnClickListener(new View.OnClickListener() {
                         @Override
