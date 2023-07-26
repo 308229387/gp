@@ -25,6 +25,8 @@ public class FenQiAdapter extends RecyclerView.Adapter<FenQiAdapter.MyViewHolder
     private boolean formerBanTime;
     private boolean lastPrice;
     private boolean banScore;
+    private boolean yesterdayEnvironmentScore;
+    private boolean environmentScore;
     private boolean formerDate;
     private boolean latterLowPointTime;
     private boolean latterTopPointTime;
@@ -542,6 +544,36 @@ public class FenQiAdapter extends RecyclerView.Adapter<FenQiAdapter.MyViewHolder
 
     }
 
+    public void changeYesterdayEnvironmentScore() {
+        Collections.sort(mDataList, new Comparator<FenQiBean>() {
+            @Override
+            public int compare(FenQiBean bean1, FenQiBean bean2) {
+                if (yesterdayEnvironmentScore) {
+                    return bean2.getYesterdayEnvironmentScore() - bean1.getYesterdayEnvironmentScore();
+                } else {
+                    return bean1.getYesterdayEnvironmentScore() - bean2.getYesterdayEnvironmentScore();
+                }
+            }
+        });
+        yesterdayEnvironmentScore = !yesterdayEnvironmentScore;
+        notifyDataSetChanged();
+    }
+
+    public void changeEnvironmentScore() {
+        Collections.sort(mDataList, new Comparator<FenQiBean>() {
+            @Override
+            public int compare(FenQiBean bean1, FenQiBean bean2) {
+                if (environmentScore) {
+                    return bean2.getEnvironmentScore() - bean1.getEnvironmentScore();
+                } else {
+                    return bean1.getEnvironmentScore() - bean2.getEnvironmentScore();
+                }
+            }
+        });
+        environmentScore = !environmentScore;
+        notifyDataSetChanged();
+    }
+
     public class MyViewHolder extends RecyclerView.ViewHolder {
         private LinearLayout linearLayout;
 
@@ -556,9 +588,9 @@ public class FenQiAdapter extends RecyclerView.Adapter<FenQiAdapter.MyViewHolder
             linearLayout.removeAllViews();
 
             // 动态添加 TextView
-            for (int i = 0; i < 29; i++) {
+            for (int i = 0; i < 31; i++) {
                 TextView textView = new TextView(itemView.getContext());
-                if (i == 28) {
+                if (i == 30) {
                     textView.setWidth(270); // 设置宽度为200像素
                 } else {
                     textView.setWidth(250); // 设置宽度为200像素
@@ -617,45 +649,51 @@ public class FenQiAdapter extends RecyclerView.Adapter<FenQiAdapter.MyViewHolder
                         textView.setText(data.getAfterHigh() + "%");
                         break;
                     case 15:
-                        textView.setText(data.getFormerGroupPoint() + "%");
+                        textView.setText(data.getYesterdayEnvironmentScore() + "分");
                         break;
                     case 16:
-                        textView.setText(data.getFormerGroupTurnover() + "%");
+                        textView.setText(data.getEnvironmentScore() + "分");
                         break;
                     case 17:
-                        textView.setText(data.isHasBeforeTop() ? "有" : "无");
+                        textView.setText(data.getFormerGroupPoint() + "%");
                         break;
                     case 18:
-                        textView.setText(data.isHasHighLevelLinePin() ? "有" : "无");
+                        textView.setText(data.getFormerGroupTurnover() + "%");
                         break;
                     case 19:
-                        textView.setText(data.getSelfTurnover() + "%");
+                        textView.setText(data.isHasBeforeTop() ? "有" : "无");
                         break;
                     case 20:
-                        textView.setText(data.getYesterdaySelfTurnover() + "%");
+                        textView.setText(data.isHasHighLevelLinePin() ? "有" : "无");
                         break;
                     case 21:
-                        textView.setText(data.getYesterdayAllTurnover() + "%");
+                        textView.setText(data.getSelfTurnover() + "%");
                         break;
                     case 22:
-                        textView.setText(data.getYesterdaySelfBanNum() + "板");
+                        textView.setText(data.getYesterdaySelfTurnover() + "%");
                         break;
                     case 23:
-                        textView.setText(data.getYesterdaySelfBanScore() + "分");
+                        textView.setText(data.getYesterdayAllTurnover() + "%");
                         break;
                     case 24:
-                        textView.setText(data.getYesterdayAllBanNum() + "个");
+                        textView.setText(data.getYesterdaySelfBanNum() + "板");
                         break;
                     case 25:
-                        textView.setText(data.getYesterdayAllTopBanNum() + "板");
+                        textView.setText(data.getYesterdaySelfBanScore() + "分");
                         break;
                     case 26:
-                        textView.setText(data.getFormerAllTurnover() + "%");
+                        textView.setText(data.getYesterdayAllBanNum() + "个");
                         break;
                     case 27:
-                        textView.setText(data.getFormerAllValue() + "亿");
+                        textView.setText(data.getYesterdayAllTopBanNum() + "板");
                         break;
                     case 28:
+                        textView.setText(data.getFormerAllTurnover() + "%");
+                        break;
+                    case 29:
+                        textView.setText(data.getFormerAllValue() + "亿");
+                        break;
+                    case 30:
                         textView.setText(data.getFormerDate());
                         break;
                 }

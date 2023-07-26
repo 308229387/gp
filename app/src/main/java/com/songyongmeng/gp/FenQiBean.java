@@ -3,6 +3,7 @@ package com.songyongmeng.gp;
 import java.io.Serializable;
 
 public class FenQiBean implements Serializable {
+
     /**
      * gpName : 荣盛发展                     股票名称
      * formerBanTime : 10:01                当天上板时间
@@ -24,6 +25,8 @@ public class FenQiBean implements Serializable {
      * hasBeforeTop : false                 是否有前高
      * hasHighLevelLinePin : false          是否有高级别均线压制
      * selfTurnover : 68                    股票当天量与前一天对比
+     * EnvironmentScore : 43                当日环境分
+     * yesterdayEnvironmentScore : 33       昨日环境分
      * yesterdaySelfTurnover : 217          前一天量与大前天对比
      * yesterdayAllTurnover : 112           前一天市场量与大前天对比
      * yesterdaySelfBanNum : 2              前一天股票几板
@@ -37,8 +40,6 @@ public class FenQiBean implements Serializable {
      * formerImage : fail_38                当天图
      * latterImage : fail_38                次日图
      */
-
-
 
     private String gpName;
     private double formerAllValue;
@@ -62,6 +63,8 @@ public class FenQiBean implements Serializable {
     private boolean hasBeforeTop;
     private boolean hasHighLevelLinePin;
     private double selfTurnover;
+    private int EnvironmentScore;
+    private int yesterdayEnvironmentScore;
     private double yesterdaySelfTurnover;
     private double yesterdayAllTurnover;
     private int yesterdaySelfBanNum;
@@ -249,6 +252,22 @@ public class FenQiBean implements Serializable {
         this.selfTurnover = selfTurnover;
     }
 
+    public int getEnvironmentScore() {
+        return EnvironmentScore;
+    }
+
+    public void setEnvironmentScore(int EnvironmentScore) {
+        this.EnvironmentScore = EnvironmentScore;
+    }
+
+    public int getYesterdayEnvironmentScore() {
+        return yesterdayEnvironmentScore;
+    }
+
+    public void setYesterdayEnvironmentScore(int yesterdayEnvironmentScore) {
+        this.yesterdayEnvironmentScore = yesterdayEnvironmentScore;
+    }
+
     public double getYesterdaySelfTurnover() {
         return yesterdaySelfTurnover;
     }
@@ -328,5 +347,6 @@ public class FenQiBean implements Serializable {
     public void setLatterImage(String latterImage) {
         this.latterImage = latterImage;
     }
+
 
 }
