@@ -3,7 +3,6 @@ package com.songyongmeng.gp;
 import java.io.Serializable;
 
 public class FenQiBean implements Serializable {
-
     /**
      * gpName : 荣盛发展                     股票名称
      * formerBanTime : 10:01                当天上板时间
@@ -24,6 +23,7 @@ public class FenQiBean implements Serializable {
      * formerGroupTurnover : 1.25           当天版块量与前天对比
      * hasBeforeTop : false                 是否有前高
      * hasHighLevelLinePin : false          是否有高级别均线压制
+     * whenWillFirstBanTurnover : 63.98     第一次上板时量能比
      * selfTurnover : 68                    股票当天量与前一天对比
      * EnvironmentScore : 43                当日环境分
      * yesterdayEnvironmentScore : 33       昨日环境分
@@ -39,6 +39,44 @@ public class FenQiBean implements Serializable {
      * describe: test                       描述
      * formerImage : fail_38                当天图
      * latterImage : fail_38                次日图
+     */
+
+
+    /**
+     * gpName : 荣盛发展
+     * formerAllValue : 84.16
+     * formerDate : 2023-07-21
+     * afterHigh : 10.08
+     * formerBanTime : 10:01
+     * lastPrice : 1.16
+     * banHasOpen : false
+     * formerStartPoint : -1.85
+     * formerAveragePoint : 5.56
+     * formerEndPoint : 10.19
+     * latterStartPoint : 5.46
+     * latterTopPoint : 10.08
+     * latterTopPointTime : 09:32
+     * latterAveragePoint : 2.1
+     * latterLowPoint : -6.3
+     * latterLowPointTime : 09:39
+     * formerGroupPoint : 2.52
+     * formerGroupTurnover : 140.99
+     * latterStartPullUp : true
+     * hasBeforeTop : false
+     * hasHighLevelLinePin : true
+     * selfTurnover : 68.24
+     * EnvironmentScore : 43
+     * yesterdayEnvironmentScore : 33
+     * yesterdaySelfTurnover : 216.82
+     * yesterdayAllTurnover : 111.85
+     * yesterdaySelfBanNum : 2
+     * yesterdaySelfBanScore : 4
+     * yesterdayAllBanNum : 29
+     * yesterdayAllTopBanNum : 5
+     * formerAllTurnover : 90.5
+     * describe :
+     * formerImage : fail_38
+     * latterImage : fail_38
      */
 
     private String gpName;
@@ -62,6 +100,7 @@ public class FenQiBean implements Serializable {
     private boolean latterStartPullUp;
     private boolean hasBeforeTop;
     private boolean hasHighLevelLinePin;
+    private double whenWillFirstBanTurnover;
     private double selfTurnover;
     private int EnvironmentScore;
     private int yesterdayEnvironmentScore;
@@ -242,6 +281,14 @@ public class FenQiBean implements Serializable {
 
     public void setHasHighLevelLinePin(boolean hasHighLevelLinePin) {
         this.hasHighLevelLinePin = hasHighLevelLinePin;
+    }
+
+    public double getWhenWillFirstBanTurnover() {
+        return whenWillFirstBanTurnover;
+    }
+
+    public void setWhenWillFirstBanTurnover(double whenWillFirstBanTurnover) {
+        this.whenWillFirstBanTurnover = whenWillFirstBanTurnover;
     }
 
     public double getSelfTurnover() {
