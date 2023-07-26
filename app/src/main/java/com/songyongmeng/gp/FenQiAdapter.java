@@ -596,6 +596,7 @@ public class FenQiAdapter extends RecyclerView.Adapter<FenQiAdapter.MyViewHolder
                     textView.setWidth(250); // 设置宽度为200像素
                 }
                 textView.setHeight(100);
+                textView.setTextColor(Color.parseColor("#ff000000"));
                 textView.setGravity(Gravity.CENTER);
                 if (data.getLatterAveragePoint() > 0&&data.getLastPrice()>0) {
                     textView.setBackgroundColor(Color.parseColor("#FFC0CB"));
