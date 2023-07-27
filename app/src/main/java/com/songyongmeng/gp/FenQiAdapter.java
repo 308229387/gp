@@ -199,9 +199,9 @@ public class FenQiAdapter extends RecyclerView.Adapter<FenQiAdapter.MyViewHolder
             @Override
             public int compare(FenQiBean bean1, FenQiBean bean2) {
                 if (hasOpen) {
-                    return Boolean.compare(bean2.isBanHasOpen(), bean1.isBanHasOpen());
+                    return bean2.getBanHasOpen() - bean1.getBanHasOpen();
                 } else {
-                    return Boolean.compare(bean1.isBanHasOpen(), bean2.isBanHasOpen());
+                    return bean1.getBanHasOpen() - bean2.getBanHasOpen();
                 }
             }
         };
@@ -608,10 +608,12 @@ public class FenQiAdapter extends RecyclerView.Adapter<FenQiAdapter.MyViewHolder
             // 动态添加 TextView
             for (int i = 0; i < 32; i++) {
                 TextView textView = new TextView(itemView.getContext());
-                if (i == 31) {
-                    textView.setWidth(270); // 设置宽度为200像素
+                if (i == 0) {
+                    textView.setWidth(250); // 名称
+                } else if (i == 31) {
+                    textView.setWidth(270); // 日期
                 } else {
-                    textView.setWidth(250); // 设置宽度为200像素
+                    textView.setWidth(230); // 设置宽度为200像素
                 }
                 textView.setHeight(100);
                 textView.setTextColor(Color.parseColor("#ff000000"));
@@ -626,82 +628,90 @@ public class FenQiAdapter extends RecyclerView.Adapter<FenQiAdapter.MyViewHolder
                         textView.setText(data.getGpName());
                         break;
                     case 1:
-                        textView.setText(data.getLatterStartPoint() + "%");
-                        break;
-                    case 2:
-                        textView.setText(data.getLatterAveragePoint() + "%");
-                        break;
-                    case 3:
-                        textView.setText(data.getLatterTopPoint() + "%");
-                        break;
-                    case 4:
-                        textView.setText(data.getLatterTopPointTime());
-                        break;
-                    case 5:
-                        textView.setText(data.getFormerBanTime());
-                        break;
-                    case 6:
-                        textView.setText(data.getLastPrice() + "亿");
-                        break;
-                    case 7:
-                        textView.setText(data.isBanHasOpen() ? "开过板" : "封死未开");
-                        break;
-                    case 8:
-                        textView.setText(data.getFormerStartPoint() + "%");
-                        break;
-                    case 9:
-                        textView.setText(data.getFormerAveragePoint() + "%");
-                        break;
-                    case 10:
-                        textView.setText(data.getFormerEndPoint() + "%");
-                        break;
-                    case 11:
-                        textView.setText(data.isLatterStartPullUp() ? "是" : "否");
-                        break;
-                    case 12:
-                        textView.setText(data.getLatterLowPoint() + "%");
-                        break;
-                    case 13:
-                        textView.setText(data.getLatterLowPointTime());
-                        break;
-                    case 14:
-                        textView.setText(data.getAfterHigh() + "%");
-                        break;
-                    case 15:
-                        textView.setText(data.getYesterdayEnvironmentScore() + "分");
-                        break;
-                    case 16:
-                        textView.setText(data.getEnvironmentScore() + "分");
-                        break;
-                    case 17:
-                        textView.setText(data.getFormerGroupPoint() + "%");
-                        break;
-                    case 18:
-                        textView.setText(data.getFormerGroupTurnover() + "%");
-                        break;
-                    case 19:
-                        textView.setText(data.isHasBeforeTop() ? "有" : "无");
-                        break;
-                    case 20:
-                        textView.setText(data.isHasHighLevelLinePin() ? "有" : "无");
-                        break;
-                    case 21:
-                        textView.setText(data.getWhenWillFirstBanTurnover() + "%");
-                        break;
-                    case 22:
                         textView.setText(data.getSelfTurnover() + "%");
                         break;
-                    case 23:
+                    case 2:
+                        textView.setText(data.getLastPrice() + "亿");
+                        break;
+                    case 3:
+                        textView.setText(data.getFormerStartPoint() + "%");
+                        break;
+                    case 4:
+                        textView.setText(data.getFormerAveragePoint() + "%");
+                        break;
+                    case 5:
+                        textView.setText(data.getFormerGroupPoint() + "%");
+                        break;
+                    case 6:
+                        textView.setText(data.getLatterStartPoint() + "%");
+                        break;
+                    case 7:
+                        textView.setText(data.getLatterAveragePoint() + "%");
+                        break;
+                    case 8:
+                        textView.setText(data.getLatterTopPoint() + "%");
+                        break;
+                    case 9:
+                        textView.setText(data.getLatterTopPointTime());
+                        break;
+                    case 10:
+                        textView.setText(data.getWhenWillFirstBanTurnover() + "%");
+                        break;
+                    case 11:
+                        textView.setText(data.isHasBeforeTop() ? "有" : "无");
+                        break;
+                    case 12:
                         textView.setText(data.getYesterdaySelfTurnover() + "%");
+                        break;
+                    case 13:
+                        textView.setText(data.getYesterdaySelfBanScore() + "分");
+                        break;
+                    case 14:
+                        textView.setText(data.getLatterLowPoint() + "%");
+                        break;
+                    case 15:
+                        textView.setText(data.getLatterLowPointTime());
+                        break;
+                    case 16:
+                        textView.setText(data.getAfterHigh() + "%");
+                        break;
+                    case 17:
+                        textView.setText(data.getYesterdayEnvironmentScore() + "分");
+                        break;
+                    case 18:
+                        textView.setText(data.getEnvironmentScore() + "分");
+                        break;
+                    case 19:
+                        String tmp = "";
+                        if (data.getBanHasOpen() == 1) {
+                            tmp = "未开板";
+                        } else if (data.getBanHasOpen() == 0) {
+                            tmp = "开板回封";
+                        } else {
+                            tmp = "炸板";
+                        }
+                        textView.setText(tmp);
+                        break;
+                    case 20:
+                        textView.setText(data.getFormerEndPoint() + "%");
+                        break;
+                    case 21:
+                        textView.setText(data.getFormerGroupTurnover() + "%");
+                        break;
+                    case 22:
+                        textView.setText(data.isLatterStartPullUp() ? "是" : "否");
+                        break;
+                    case 23:
+                        textView.setText(data.isHasHighLevelLinePin() ? "有" : "无");
                         break;
                     case 24:
                         textView.setText(data.getYesterdayAllTurnover() + "%");
                         break;
                     case 25:
-                        textView.setText(data.getYesterdaySelfBanNum() + "板");
+                        textView.setText(data.getFormerBanTime());
                         break;
                     case 26:
-                        textView.setText(data.getYesterdaySelfBanScore() + "分");
+                        textView.setText(data.getYesterdaySelfBanNum() + "板");
                         break;
                     case 27:
                         textView.setText(data.getYesterdayAllBanNum() + "个");
