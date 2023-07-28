@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ExpandableListView;
 import android.widget.FrameLayout;
+import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -13,6 +14,7 @@ import com.google.gson.reflect.TypeToken;
 import com.orhanobut.hawk.Hawk;
 import com.songyongmeng.gp.dialog.RememberDialog;
 import com.songyongmeng.gp.utils.AssetsUtils;
+import com.songyongmeng.gp.utils.SPManager;
 import com.songyongmeng.gp.utils.Utility;
 
 import java.util.ArrayList;
@@ -48,6 +50,7 @@ public class MainActivity extends AppCompatActivity {
         }.getType());
 
         initView();
+
     }
 
     private void initView() {
