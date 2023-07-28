@@ -594,10 +594,10 @@ public class FenQiAdapter extends RecyclerView.Adapter<FenQiAdapter.MyViewHolder
                         textView.setText(data.getGpName());
                         break;
                     case 1:
-                        textView.setText(data.getSelfTurnover() + "%");
+                        textView.setText(data.getLastPrice() + "亿");
                         break;
                     case 2:
-                        textView.setText(data.getLastPrice() + "亿");
+                        textView.setText(data.getSelfTurnover() + "%");
                         break;
                     case 3:
                         textView.setText(data.getFormerGroupPoint() + "%");
@@ -686,7 +686,7 @@ public class FenQiAdapter extends RecyclerView.Adapter<FenQiAdapter.MyViewHolder
                         textView.setText(data.getFormerDate());
                         break;
                     case 29:
-                        textView.setText(data.getYesterdayLastPrice()+"亿");
+                        textView.setText(data.getYesterdayLastPrice() + "亿");
                         break;
                 }
                 linearLayout.addView(textView);
