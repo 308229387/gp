@@ -29,12 +29,12 @@ public class FenQiActivity extends AppCompatActivity {
         setContentView(R.layout.fen_qi_layout);
 
         LinearLayout buttonLayout = findViewById(R.id.fen_qi_top_button_layout);
-        for (int i = 0; i < 32; i++) {
+        for (int i = 0; i < 31; i++) {
             Button button = new Button(this);
             LinearLayout.LayoutParams layoutParams;
             if (i == 0) {
                 layoutParams = new LinearLayout.LayoutParams(230, 180);
-            } else if (i == 31) {
+            } else if (i == 30) {
                 layoutParams = new LinearLayout.LayoutParams(260, 180);
             } else {
                 layoutParams = new LinearLayout.LayoutParams(210, 180);
@@ -311,16 +311,7 @@ public class FenQiActivity extends AppCompatActivity {
                     });
                     break;
                 case 29:
-                    button.setText("当天市场量能与前一天对比");
-                    button.setOnClickListener(new View.OnClickListener() {
-                        @Override
-                        public void onClick(View view) {
-                            adapter.changeFormerAllTurnover();
-                        }
-                    });
-                    break;
-                case 30:
-                    button.setText("流通市场");
+                    button.setText("流通市值");
                     button.setOnClickListener(new View.OnClickListener() {
                         @Override
                         public void onClick(View view) {
@@ -328,7 +319,7 @@ public class FenQiActivity extends AppCompatActivity {
                         }
                     });
                     break;
-                case 31:
+                case 30:
                     button.setText("当天日期");
                     button.setOnClickListener(new View.OnClickListener() {
                         @Override
@@ -337,6 +328,7 @@ public class FenQiActivity extends AppCompatActivity {
                         }
                     });
                     break;
+
 
             }
             buttonLayout.addView(button);

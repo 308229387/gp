@@ -26,6 +26,7 @@ public class FenQiAdapter extends RecyclerView.Adapter<FenQiAdapter.MyViewHolder
     private boolean lastPrice;
     private boolean banScore;
     private boolean yesterdayEnvironmentScore;
+    private boolean allTurnoverAddOrReduce;
     private boolean environmentScore;
     private boolean formerDate;
     private boolean latterLowPointTime;
@@ -494,23 +495,6 @@ public class FenQiAdapter extends RecyclerView.Adapter<FenQiAdapter.MyViewHolder
         notifyDataSetChanged();
     }
 
-    public void changeFormerAllTurnover() {
-        comparator = new Comparator<FenQiBean>() {
-            @Override
-            public int compare(FenQiBean bean1, FenQiBean bean2) {
-                if (formerAllTurnover) {
-                    return Double.compare(bean1.getFormerAllTurnover(), bean2.getFormerAllTurnover());
-                } else {
-                    return Double.compare(bean2.getFormerAllTurnover(), bean1.getFormerAllTurnover());
-                }
-            }
-        };
-
-        Collections.sort(mDataList, comparator);
-        formerAllTurnover = !formerAllTurnover;
-        notifyDataSetChanged();
-    }
-
     public void changeFormerAllValue() {
         comparator = new Comparator<FenQiBean>() {
             @Override
@@ -606,11 +590,11 @@ public class FenQiAdapter extends RecyclerView.Adapter<FenQiAdapter.MyViewHolder
             linearLayout.removeAllViews();
 
             // 动态添加 TextView
-            for (int i = 0; i < 32; i++) {
+            for (int i = 0; i < 31; i++) {
                 TextView textView = new TextView(itemView.getContext());
                 if (i == 0) {
                     textView.setWidth(250); // 名称
-                } else if (i == 31) {
+                } else if (i == 30) {
                     textView.setWidth(270); // 日期
                 } else {
                     textView.setWidth(230); // 设置宽度为200像素
@@ -720,12 +704,9 @@ public class FenQiAdapter extends RecyclerView.Adapter<FenQiAdapter.MyViewHolder
                         textView.setText(data.getYesterdayAllTopBanNum() + "板");
                         break;
                     case 29:
-                        textView.setText(data.getFormerAllTurnover() + "%");
-                        break;
-                    case 30:
                         textView.setText(data.getFormerAllValue() + "亿");
                         break;
-                    case 31:
+                    case 30:
                         textView.setText(data.getFormerDate());
                         break;
                 }
