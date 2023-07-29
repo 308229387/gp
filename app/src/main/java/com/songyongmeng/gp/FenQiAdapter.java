@@ -594,13 +594,14 @@ public class FenQiAdapter extends RecyclerView.Adapter<FenQiAdapter.MyViewHolder
                         textView.setText(data.getGpName());
                         break;
                     case 1:
-                        textView.setText(data.getLastPrice() + "亿");
+                        textView.setText(data.getSelfTurnover() + "%");
+
                         break;
                     case 2:
-                        textView.setText(data.getSelfTurnover() + "%");
+                        textView.setText(data.getFormerGroupPoint() + "%");
                         break;
                     case 3:
-                        textView.setText(data.getFormerGroupPoint() + "%");
+                        textView.setText(data.getLastPrice() + "亿");
                         break;
                     case 4:
                         textView.setText(data.getFormerAveragePoint() + "%");
