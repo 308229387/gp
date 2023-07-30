@@ -65,21 +65,20 @@ public class FenQiActivity extends AppCompatActivity {
                     });
                     break;
                 case 2:
-                    button.setText("当天版块点位");
-                    button.setOnClickListener(new View.OnClickListener() {
-                        @Override
-                        public void onClick(View view) {
-                            adapter.changeFormerGroupPoint();
-                        }
-                    });
-                    break;
-
-                case 3:
                     button.setText("当天最终封单");
                     button.setOnClickListener(new View.OnClickListener() {
                         @Override
                         public void onClick(View view) {
                             adapter.changeLastPriceData();
+                        }
+                    });
+                    break;
+                case 3:
+                    button.setText("当天版块点位");
+                    button.setOnClickListener(new View.OnClickListener() {
+                        @Override
+                        public void onClick(View view) {
+                            adapter.changeFormerGroupPoint();
                         }
                     });
                     break;
@@ -101,53 +100,7 @@ public class FenQiActivity extends AppCompatActivity {
                         }
                     });
                     break;
-
                 case 6:
-                    button.setText("次日开盘点位");
-                    button.setOnClickListener(new View.OnClickListener() {
-                        @Override
-                        public void onClick(View view) {
-                            adapter.changeLatterStartPointData();
-                        }
-                    });
-                    break;
-                case 7:
-                    button.setText("次日平均点位");
-                    button.setOnClickListener(new View.OnClickListener() {
-                        @Override
-                        public void onClick(View view) {
-                            adapter.changeLatterAverageData();
-                        }
-                    });
-                    break;
-                case 8:
-                    button.setText("次日最高点位");
-                    button.setOnClickListener(new View.OnClickListener() {
-                        @Override
-                        public void onClick(View view) {
-                            adapter.changeLatterTopPointData();
-                        }
-                    });
-                    break;
-                case 9:
-                    button.setText("最高点出现时间");
-                    button.setOnClickListener(new View.OnClickListener() {
-                        @Override
-                        public void onClick(View view) {
-                            adapter.changeLastTopPointTimeData();
-                        }
-                    });
-                    break;
-                case 10:
-                    button.setText("首次上板量与前一天对比");
-                    button.setOnClickListener(new View.OnClickListener() {
-                        @Override
-                        public void onClick(View view) {
-                            adapter.changeWhenWillFirstBanTurnover();
-                        }
-                    });
-                    break;
-                case 11:
                     button.setText("是否有前高");
                     button.setOnClickListener(new View.OnClickListener() {
                         @Override
@@ -156,12 +109,57 @@ public class FenQiActivity extends AppCompatActivity {
                         }
                     });
                     break;
-                case 12:
+                case 7:
                     button.setText("前一天量与大前天对比");
                     button.setOnClickListener(new View.OnClickListener() {
                         @Override
                         public void onClick(View view) {
                             adapter.changeYesterdaySelfTurnover();
+                        }
+                    });
+                    break;
+                case 8:
+                    button.setText("次日开盘点位");
+                    button.setOnClickListener(new View.OnClickListener() {
+                        @Override
+                        public void onClick(View view) {
+                            adapter.changeLatterStartPointData();
+                        }
+                    });
+                    break;
+                case 9:
+                    button.setText("次日平均点位");
+                    button.setOnClickListener(new View.OnClickListener() {
+                        @Override
+                        public void onClick(View view) {
+                            adapter.changeLatterAverageData();
+                        }
+                    });
+                    break;
+                case 10:
+                    button.setText("次日最高点位");
+                    button.setOnClickListener(new View.OnClickListener() {
+                        @Override
+                        public void onClick(View view) {
+                            adapter.changeLatterTopPointData();
+                        }
+                    });
+                    break;
+                case 11:
+                    button.setText("最高点出现时间");
+                    button.setOnClickListener(new View.OnClickListener() {
+                        @Override
+                        public void onClick(View view) {
+                            adapter.changeLastTopPointTimeData();
+                        }
+                    });
+                    break;
+                case 12:
+                    button.setText("首次上板量与前一天对比");
+                    button.setOnClickListener(new View.OnClickListener() {
+                        @Override
+                        public void onClick(View view) {
+                            adapter.changeWhenWillFirstBanTurnover();
                         }
                     });
                     break;

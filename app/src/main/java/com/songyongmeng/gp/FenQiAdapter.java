@@ -598,10 +598,10 @@ public class FenQiAdapter extends RecyclerView.Adapter<FenQiAdapter.MyViewHolder
 
                         break;
                     case 2:
-                        textView.setText(data.getFormerGroupPoint() + "%");
+                        textView.setText(data.getLastPrice() + "亿");
                         break;
                     case 3:
-                        textView.setText(data.getLastPrice() + "亿");
+                        textView.setText(data.getFormerGroupPoint() + "%");
                         break;
                     case 4:
                         textView.setText(data.getFormerAveragePoint() + "%");
@@ -610,25 +610,25 @@ public class FenQiAdapter extends RecyclerView.Adapter<FenQiAdapter.MyViewHolder
                         textView.setText(data.getFormerStartPoint() + "%");
                         break;
                     case 6:
-                        textView.setText(data.getLatterStartPoint() + "%");
-                        break;
-                    case 7:
-                        textView.setText(data.getLatterAveragePoint() + "%");
-                        break;
-                    case 8:
-                        textView.setText(data.getLatterTopPoint() + "%");
-                        break;
-                    case 9:
-                        textView.setText(data.getLatterTopPointTime());
-                        break;
-                    case 10:
-                        textView.setText(data.getWhenWillFirstBanTurnover() + "%");
-                        break;
-                    case 11:
                         textView.setText(data.isHasBeforeTop() ? "有" : "无");
                         break;
-                    case 12:
+                    case 7:
                         textView.setText(data.getYesterdaySelfTurnover() + "%");
+                        break;
+                    case 8:
+                        textView.setText(data.getLatterStartPoint() + "%");
+                        break;
+                    case 9:
+                        textView.setText(data.getLatterAveragePoint() + "%");
+                        break;
+                    case 10:
+                        textView.setText(data.getLatterTopPoint() + "%");
+                        break;
+                    case 11:
+                        textView.setText(data.getLatterTopPointTime());
+                        break;
+                    case 12:
+                        textView.setText(data.getWhenWillFirstBanTurnover() + "%");
                         break;
                     case 13:
                         textView.setText(data.getYesterdaySelfBanScore() + "分");
