@@ -50,10 +50,12 @@ public class FenQiAdapter extends RecyclerView.Adapter<FenQiAdapter.MyViewHolder
     private boolean isHasBeforeTop;
     private boolean isHasHighLevelLinePin;
     private boolean isLatterStartPullUp;
+    private int where = 0;
 
-    public FenQiAdapter(List<FenQiBean> dataList) {
+    public FenQiAdapter(List<FenQiBean> dataList, int where) {
         this.mDataList = dataList;
         originalFenQiList = new ArrayList<>(mDataList);
+        this.where = where;
     }
 
     @Override
@@ -65,7 +67,11 @@ public class FenQiAdapter extends RecyclerView.Adapter<FenQiAdapter.MyViewHolder
     @Override
     public void onBindViewHolder(MyViewHolder holder, int position) {
         FenQiBean data = mDataList.get(position);
-        holder.bindData(data);
+        if (where == 3) {
+            holder.bindData(data);
+        } else if (where == 2) {
+            holder.bind1Data(data);
+        }
     }
 
     @Override
@@ -688,6 +694,76 @@ public class FenQiAdapter extends RecyclerView.Adapter<FenQiAdapter.MyViewHolder
                         break;
                     case 29:
                         textView.setText(data.getYesterdayLastPrice() + "亿");
+                        break;
+                }
+                linearLayout.addView(textView);
+            }
+        }
+
+        public void bind1Data(FenQiBean data) {
+            // 清空容器中的所有子视图
+            linearLayout.removeAllViews();
+
+            // 动态添加 TextView
+            for (int i = 0; i <14; i++) {
+                TextView textView = new TextView(itemView.getContext());
+                if (i == 0) {
+                    textView.setWidth(250); // 名称
+                } else if (i == 13) {
+                    textView.setWidth(270); // 日期
+                } else {
+                    textView.setWidth(230); // 设置宽度为200像素
+                }
+                textView.setHeight(100);
+                textView.setTextColor(Color.parseColor("#ff000000"));
+                textView.setGravity(Gravity.CENTER);
+                if (data.getLatterAveragePoint() > 0 && data.getLastPrice() > 0) {
+                    textView.setBackgroundColor(Color.parseColor("#FFC0CB"));
+                } else {
+                    textView.setBackgroundColor(Color.parseColor("#90EE90"));
+                }
+                switch (i) {
+                    case 0:
+                        textView.setText(data.getGpName());
+                        break;
+                    case 1:
+                        textView.setText(data.getSelfTurnover() + "%");
+                        break;
+                    case 2:
+                        textView.setText(data.getYesterdaySelfTurnover() + "%");
+                        break;
+                    case 3:
+                        textView.setText(data.getLastPrice() + "亿");
+                        break;
+                    case 4:
+                        textView.setText(data.getFormerGroupPoint() + "%");
+                        break;
+                    case 5:
+                        textView.setText(data.getFormerStartPoint() + "%");
+                        break;
+                    case 6:
+                        textView.setText(data.getFormerAveragePoint() + "%");
+                        break;
+                    case 7:
+                        textView.setText(data.getLatterStartPoint() + "%");
+                        break;
+                    case 8:
+                        textView.setText(data.getLatterAveragePoint() + "%");
+                        break;
+                    case 9:
+                        textView.setText(data.getLatterTopPoint() + "%");
+                        break;
+                    case 10:
+                        textView.setText(data.getLatterLowPoint() + "%");
+                        break;
+                    case 11:
+                        textView.setText(data.getAfterHigh() + "%");
+                        break;
+                    case 12:
+                        textView.setText(data.getFormerAllValue() + "亿");
+                        break;
+                    case 13:
+                        textView.setText(data.getFormerDate());
                         break;
                 }
                 linearLayout.addView(textView);
