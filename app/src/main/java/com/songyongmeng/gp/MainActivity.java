@@ -110,10 +110,12 @@ public class MainActivity extends AppCompatActivity {
             public boolean onChildClick(ExpandableListView expandableListView, View view, int groupPosition, int childPosition, long l) {
                 if (allData.get(groupPosition).getData().get(childPosition).getRichText().get(0).equals("title:概率总结")) {
                     toStatistics(statisticsData);
-                } else if (allData.get(groupPosition).getData().get(childPosition).getRichText().get(0).equals("title:卖出决策器")) {
+                } else if (allData.get(groupPosition).getData().get(childPosition).getRichText().get(0).equals("title:数据分析")) {
                     toSell();
                 }else if(allData.get(groupPosition).getData().get(childPosition).getRichText().get(0).equals("title:分歧转一致")){
                     toFenQi();
+                }else if(allData.get(groupPosition).getData().get(childPosition).getRichText().get(0).equals("title:打二板")){
+                    toFenQiEr();
                 }else {
                     toDetail((ArrayList<String>) allData.get(groupPosition).getData().get(childPosition).getRichText());
 
@@ -122,12 +124,17 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-
     }
 
 
+    private void toFenQiEr() {
+        Intent intent = new Intent(MainActivity.this, FenQiActivity.class);
+        intent.putExtra("from","2");
+        startActivity(intent);
+    }
     private void toFenQi() {
         Intent intent = new Intent(MainActivity.this, FenQiActivity.class);
+        intent.putExtra("from","3");
         startActivity(intent);
     }
     private void toDetail(ArrayList<String> imageList) {

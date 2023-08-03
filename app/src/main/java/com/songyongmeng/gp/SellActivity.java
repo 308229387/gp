@@ -77,7 +77,7 @@ public class SellActivity extends AppCompatActivity {
         long tmp2 = (groupPointSuc * 100) / groupPoint;
 
 
-        String text5 = "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;版块的大涨会形成团体效应，给投资者带来更强的信心，所以<b><font color='red'>" + "当天版块大涨超过1%，会极大增加成功率。" + "</font></b>";
+        String text5 = "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;版块的大涨会形成团体效应，给投资者带来更强的信心，所以<b><font color='red'>" + "当天版块大涨超过1%，会极大增加成功率,一些条件不太够的票，也会有不错的表现。" + "</font></b>";
         String text6 = "当天版块大于1%的共有" + groupPoint + "个，当天封板且次日均线点位大于0%的有" + groupPointSuc + "个，概率为" + "<b><font color='black'>" + tmp2 + "%</font></b>，";
 
         long groupPointOther = fenQiData.stream()
@@ -216,7 +216,7 @@ public class SellActivity extends AppCompatActivity {
                 })
                 .count();
         long tmp12 = (yesterdaySelfTurnoverSuc * 100) / yesterdaySelfTurnover;
-        String text21 = "成交量比在此区间的票有" + yesterdaySelfTurnover + "支，当天封板且次日均线点位大于0%的有" + yesterdaySelfTurnoverSuc + "支，概率为 <b><font color='black'>" + tmp12 + "%</font></b>";
+        String text21 = "成交量比在此区间的票有" + yesterdaySelfTurnover + "支，当天封板且次日均线点位大于0%的有" + yesterdaySelfTurnoverSuc + "支，概率为 <b><font color='black'>" + tmp12 + "%</font></b>。";
         long yesterdaySelfTurnoverOther = fenQiData.stream()
                 .filter(bean -> {
                     return bean.getYesterdaySelfTurnover() < 140 || bean.getYesterdaySelfTurnover() > 230;
@@ -229,7 +229,23 @@ public class SellActivity extends AppCompatActivity {
                 .count();
         long tmp13 = (yesterdaySelfTurnoverOtherSuc * 100) / yesterdaySelfTurnoverOther;
         String text22 = "成交量比不在此区间的票有" + yesterdaySelfTurnoverOther + "支，当天封板且次日均线点位大于0%的有" + yesterdaySelfTurnoverOtherSuc + "支，概率为 <b><font color='black'>" + tmp13 + "%</font></b><br><br>";
-        result = text1 + text2 + text3 + text4 + text8 + text9 + text10 + text5 + text6 + text7 + tex11 + text12 + text13 + tex14 + text15 + text16 + text17 + text18 + text19 + text20 + text21 + text22;
+
+        String text23 = "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b><font color='red'>" + "除非开一字有大封单，不然高开就要跑" + "</font></b>";
+        long afterHigh = fenQiData.stream()
+                .filter(bean -> {
+                    return bean.getBanHasOpen() != -1;
+                })
+                .count();
+        long afterHighSuc = fenQiData.stream()
+                .filter(bean -> {
+                    return bean.getBanHasOpen() != -1 && bean.getAfterHigh() > 10;
+                })
+                .count();
+        long tmp14 = (afterHighSuc * 100) / afterHigh;
+        String text24 = "当日封版的票有" + afterHigh + "支，后面涨幅大于10%的有" + afterHighSuc + "支，能够穿越的概率为 <b><font color='black'>" + tmp14 + "%</font></b><br><br>";
+
+
+        result = text1 + text2 + text3 + text4 + text8 + text9 + text10 + text5 + text6 + text7 + tex11 + text12 + text13 + tex14 + text15 + text16 + text17 + text18 + text19 + text20 + text21 + text22 + text23 + text24;
         textView.setText(Html.fromHtml(result));
     }
 }

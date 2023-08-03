@@ -23,12 +23,34 @@ public class FenQiActivity extends AppCompatActivity {
     List<FenQiBean> fenQiData;
     FenQiAdapter adapter;
 
+    String dataName;
+
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.fen_qi_layout);
 
+        if (getIntent().getStringExtra("from").equals("3")) {
+            dataName = "fen_qi.json";
+        } else if (getIntent().getStringExtra("from").equals("2")) {
+            dataName = "er_ban.json";
+        }
+
         LinearLayout buttonLayout = findViewById(R.id.fen_qi_top_button_layout);
+        threeOrHigh(buttonLayout);
+
+        AssetsUtils assetsUtils = new AssetsUtils();
+        String tmp1 = assetsUtils.readAssetsText(this, dataName);
+        fenQiData = new Gson().fromJson(tmp1, new TypeToken<ArrayList<FenQiBean>>() {
+        }.getType());
+
+        adapter = new FenQiAdapter(fenQiData);
+        RecyclerView recyclerView = findViewById(R.id.fen_qi_list);
+        recyclerView.setLayoutManager(new LinearLayoutManager(this)); // 设置布局管理器
+        recyclerView.setAdapter(adapter);
+    }
+
+    private void threeOrHigh(LinearLayout buttonLayout) {
         for (int i = 0; i < 30; i++) {
             Button button = new Button(this);
             LinearLayout.LayoutParams layoutParams;
@@ -263,8 +285,6 @@ public class FenQiActivity extends AppCompatActivity {
                         }
                     });
                     break;
-
-
                 case 24:
                     button.setText("前一天股票几板");
                     button.setOnClickListener(new View.OnClickListener() {
@@ -274,7 +294,6 @@ public class FenQiActivity extends AppCompatActivity {
                         }
                     });
                     break;
-
                 case 25:
                     button.setText("前一天市场有几个涨停");
                     button.setOnClickListener(new View.OnClickListener() {
@@ -321,21 +340,9 @@ public class FenQiActivity extends AppCompatActivity {
                     });
                     break;
 
-
             }
             buttonLayout.addView(button);
         }
-
-        AssetsUtils assetsUtils = new AssetsUtils();
-        String statisticsName = "fen_qi.json";
-        String tmp1 = assetsUtils.readAssetsText(this, statisticsName);
-        fenQiData = new Gson().fromJson(tmp1, new TypeToken<ArrayList<FenQiBean>>() {
-        }.getType());
-
-        adapter = new FenQiAdapter(fenQiData);
-        RecyclerView recyclerView = findViewById(R.id.fen_qi_list);
-        recyclerView.setLayoutManager(new LinearLayoutManager(this)); // 设置布局管理器
-        recyclerView.setAdapter(adapter);
     }
 
 
