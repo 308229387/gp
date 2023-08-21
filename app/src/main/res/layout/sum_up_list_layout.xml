@@ -44,7 +44,7 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:text="市场量能变化" />
+            android:text="空" />
         <Button
             android:id="@+id/sum_buy_btn"
             android:layout_width="0dp"
