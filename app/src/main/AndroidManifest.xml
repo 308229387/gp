@@ -28,6 +28,7 @@
         <activity android:name="GPDetailActivity" />
         <activity android:name=".FenQiActivity" />
         <activity android:name=".ErBanShangYingXianActivity" />
+        <activity android:name=".FenQiSucActivity" />
         <activity
             android:name="BigImageActivity"
             android:configChanges="orientation|screenSize"

@@ -16,7 +16,8 @@
         "richText": [
           "title:打二板"
         ]
-      },      {
+      },
+      {
         "richText": [
           "title:二板上影线"
         ]
@@ -24,6 +25,11 @@
       {
         "richText": [
           "title:分歧转一致"
+        ]
+      },
+      {
+        "richText": [
+          "title:分歧转一致成功"
         ]
       }
     ]

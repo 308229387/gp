@@ -118,6 +118,8 @@ public class MainActivity extends AppCompatActivity {
                     toFenQiEr();
                 }else if(allData.get(groupPosition).getData().get(childPosition).getRichText().get(0).equals("title:二板上影线")){
                     toShangYing();
+                }else if(allData.get(groupPosition).getData().get(childPosition).getRichText().get(0).equals("title:分歧转一致成功")){
+                    toFenQiSuc();
                 }else {
                     toDetail((ArrayList<String>) allData.get(groupPosition).getData().get(childPosition).getRichText());
                 }
@@ -132,8 +134,13 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(MainActivity.this, FenQiActivity.class);
         intent.putExtra("from","2");
         startActivity(intent);
-    }    private void toShangYing() {
+    }
+    private void toShangYing() {
         Intent intent = new Intent(MainActivity.this, ErBanShangYingXianActivity.class);
+        startActivity(intent);
+    }
+    private void toFenQiSuc() {
+        Intent intent = new Intent(MainActivity.this, FenQiSucActivity.class);
         startActivity(intent);
     }
     private void toFenQi() {
