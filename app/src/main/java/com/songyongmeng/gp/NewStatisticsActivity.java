@@ -1,5 +1,6 @@
 package com.songyongmeng.gp;
 
+import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.view.Gravity;
@@ -15,7 +16,10 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 import com.songyongmeng.gp.utils.AssetsUtils;
+import com.songyongmeng.gp.utils.OnItemClickListener;
+import com.songyongmeng.gp.utils.OnNewItemClickListener;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -44,6 +48,17 @@ public class NewStatisticsActivity extends AppCompatActivity {
         RecyclerView recyclerView = findViewById(R.id.fen_qi_list);
         recyclerView.setLayoutManager(new LinearLayoutManager(this)); // 设置布局管理器
         recyclerView.setAdapter(adapter);
+
+        adapter.setOnItemClickListener(new OnNewItemClickListener() {
+            @Override
+            public void onItemClick(List<NewStatisticsBean> position) {
+                // 处理 item 点击事件
+                Intent intent = new Intent(NewStatisticsActivity.this,NewSumUpListActivity.class);
+                intent.putExtra("newSumUpListData", (Serializable) position);
+                startActivity(intent);
+            }
+        });
+
     }
 
     private void addHeaderButton(LinearLayout buttonLayout) {

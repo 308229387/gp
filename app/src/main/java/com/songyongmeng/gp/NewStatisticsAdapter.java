@@ -13,6 +13,7 @@ import android.widget.TextView;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.songyongmeng.gp.utils.OnItemClickListener;
+import com.songyongmeng.gp.utils.OnNewItemClickListener;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -30,7 +31,7 @@ public class NewStatisticsAdapter extends RecyclerView.Adapter<NewStatisticsAdap
     private Context context;
     private List<NewStatisticsBean> dataList;
 
-    private OnItemClickListener mListener;
+    private OnNewItemClickListener mListener;
 
     private List<ShowBean> itemList = new ArrayList<>();
     List<ShowBean> originalList;
@@ -467,7 +468,7 @@ public class NewStatisticsAdapter extends RecyclerView.Adapter<NewStatisticsAdap
             @Override
             public void onClick(View v) {
                 if (mListener != null) {
-//                    mListener.onItemClick(returnData(itemList.get(position)));
+                    mListener.onItemClick(returnData(itemList.get(position)));
 
                 }
             }
@@ -645,7 +646,7 @@ public class NewStatisticsAdapter extends RecyclerView.Adapter<NewStatisticsAdap
 
     }
 
-    public void setOnItemClickListener(OnItemClickListener listener) {
+    public void setOnItemClickListener(OnNewItemClickListener listener) {
         mListener = listener;
     }
 

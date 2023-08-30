@@ -56,10 +56,9 @@ public class ErBanShangYingXianAdapter extends RecyclerView.Adapter<ErBanShangYi
     private boolean isLatterStartPullUp;
     private int where = 0;
 
-    public ErBanShangYingXianAdapter(List<ErBanShangYingXianBean> dataList, int where) {
+    public ErBanShangYingXianAdapter(List<ErBanShangYingXianBean> dataList) {
         this.mDataList = dataList;
         originalFenQiList = new ArrayList<>(mDataList);
-        this.where = where;
     }
 
     @Override

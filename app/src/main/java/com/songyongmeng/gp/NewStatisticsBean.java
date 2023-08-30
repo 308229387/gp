@@ -8,7 +8,8 @@ public class NewStatisticsBean implements Serializable {
      * buyDate : 2023-08-28
      * mode : 2
      * lastPrice : 0.64亿
-     * resultPoint : 5.21
+     * isBanBuy : false
+     * resultPoint : -4.54
      * buyReason : 当时冲高拉涨停时，看着量能是平量，也有些大单，上午环境也还行就上了，后面没有再放量，平量+有前高，第二天直接下跌，4个多点止损离场
      * image_k :
      * image_buy :
@@ -19,6 +20,7 @@ public class NewStatisticsBean implements Serializable {
     private String buyDate;
     private int mode;
     private String lastPrice;
+    private boolean isBanBuy;
     private double resultPoint;
     private String buyReason;
     private String image_k;
@@ -55,6 +57,14 @@ public class NewStatisticsBean implements Serializable {
 
     public void setLastPrice(String lastPrice) {
         this.lastPrice = lastPrice;
+    }
+
+    public boolean isIsBanBuy() {
+        return isBanBuy;
+    }
+
+    public void setIsBanBuy(boolean isBanBuy) {
+        this.isBanBuy = isBanBuy;
     }
 
     public double getResultPoint() {
@@ -96,6 +106,7 @@ public class NewStatisticsBean implements Serializable {
     public void setImage_sell(String image_sell) {
         this.image_sell = image_sell;
     }
+
 
 /*    mode购买类型解释
     1: 首板

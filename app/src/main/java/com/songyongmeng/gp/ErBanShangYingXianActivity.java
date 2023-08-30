@@ -46,7 +46,7 @@ public class ErBanShangYingXianActivity extends AppCompatActivity {
         erBanShangYingXianData = new Gson().fromJson(tmp1, new TypeToken<ArrayList<ErBanShangYingXianBean>>() {
         }.getType());
 
-        adapter = new ErBanShangYingXianAdapter(erBanShangYingXianData, where);
+        adapter = new ErBanShangYingXianAdapter(erBanShangYingXianData);
         RecyclerView recyclerView = findViewById(R.id.fen_qi_list);
         recyclerView.setLayoutManager(new LinearLayoutManager(this)); // 设置布局管理器
         recyclerView.setAdapter(adapter);
