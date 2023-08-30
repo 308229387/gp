@@ -120,43 +120,9 @@ public class StatisticsAdapter extends RecyclerView.Adapter<StatisticsAdapter.Vi
         int sellOpenLowAverageSuc = 0;
         int sellOpenLowAverageFai = 0;
 
-        int isAllTurnover = 0;
-        int isAllTurnoverSuc = 0;
-        int isAllTurnoverFai = 0;
         int allTurAverageSuc = 0;
         int allTurAverageFai = 0;
 
-        int yesterdayAllTurnover = 0;
-        int yesterdayAllTurnoverSuc = 0;
-        int yesterdayAllTurnoverFai = 0;
-        int yesterdayAllTurnoverAverageSuc = 0;
-        int yesterdayAllTurnoverAverageFai = 0;
-
-        int yesterdayAllTurnoverAdd = 0;
-        int yesterdayAllTurnoverAddSuc = 0;
-        int yesterdayAllTurnoverAddFai = 0;
-        int yesterdayAllTurnoverAddAverageSuc = 0;
-        int yesterdayAllTurnoverAddAverageFai = 0;
-
-        int yesterdayAllTurnoverReduce = 0;
-        int yesterdayAllTurnoverReduceSuc = 0;
-        int yesterdayAllTurnoverReduceFai = 0;
-        int yesterdayAllTurnoverReduceAverageSuc = 0;
-        int yesterdayAllTurnoverReduceAverageFai = 0;
-
-        int reduceAllTurnover = 0;
-        int reduceAllTurnoverSuc = 0;
-        int reduceAllTurnoverFai = 0;
-        int reduceAllTurnoverAverageSuc = 0;
-        int reduceAllTurnoverAverageFai = 0;
-
-        int addAllTurnover = 0;
-        int addAllTurnoverSuc = 0;
-        int addAllTurnoverFai = 0;
-        int addAllTurnoverAverageSuc = 0;
-        int addAllTurnoverAverageFai = 0;
-
-        int addAllTurnoverSellOpenHigh = 0;
         int isTurnoverSellOpenHigh = 0;
         int reduceTurnoverSellOpenHigh = 0;
 
@@ -216,7 +182,7 @@ public class StatisticsAdapter extends RecyclerView.Adapter<StatisticsAdapter.Vi
 
         for (StatisticsBean tmp : data) {
             allNum++;
-            if (tmp.isSuc()) {
+            if (tmp.getResultPoint()>0) {
                 allNumSuc++;
                 allAverageSuc = allAverageSuc + tmp.getResultPoint();
             } else {
@@ -226,7 +192,7 @@ public class StatisticsAdapter extends RecyclerView.Adapter<StatisticsAdapter.Vi
 
             if (isClockBefore(tmp.getBuyTime(), 9, 40)) {
                 before10Buy++;
-                if (tmp.isSuc()) {
+                if (tmp.getResultPoint()>0) {
                     before10BuySuc++;
                     before10BuyAverageSuc = before10BuyAverageSuc + tmp.getResultPoint();
                 } else {
@@ -237,7 +203,7 @@ public class StatisticsAdapter extends RecyclerView.Adapter<StatisticsAdapter.Vi
 
             if (isClockBefore(tmp.getBuyTime(), 13, 0)) {
                 amBuy++;
-                if (tmp.isSuc()) {
+                if (tmp.getResultPoint()>0) {
                     amBuySuc++;
                     amBuyAverageSuc = amBuyAverageSuc + tmp.getResultPoint();
                 } else {
@@ -248,7 +214,7 @@ public class StatisticsAdapter extends RecyclerView.Adapter<StatisticsAdapter.Vi
 
             if (isClockAfter(tmp.getBuyTime(), 11, 30)) {
                 pmBuy++;
-                if (tmp.isSuc()) {
+                if (tmp.getResultPoint()>0) {
                     pmBuySuc++;
                     pmBuyAverageSuc = pmBuyAverageSuc + tmp.getResultPoint();
                 } else {
@@ -259,7 +225,7 @@ public class StatisticsAdapter extends RecyclerView.Adapter<StatisticsAdapter.Vi
 
             if (tmp.getEndQuantity() < 5) {
                 reduceSelfGp++;
-                if (tmp.isSuc()) {
+                if (tmp.getResultPoint()>0) {
                     reduceSelfGpSuc++;
                     reduceSelfGpAverageSuc = reduceSelfGpAverageSuc + tmp.getResultPoint();
                 } else {
@@ -268,7 +234,7 @@ public class StatisticsAdapter extends RecyclerView.Adapter<StatisticsAdapter.Vi
                 }
             } else {
                 addSelfGp++;
-                if (tmp.isSuc()) {
+                if (tmp.getResultPoint()>0) {
                     addSelfGpSuc++;
                     addSelfGpAverageSuc = addSelfGpAverageSuc + tmp.getResultPoint();
                 } else {
@@ -279,7 +245,7 @@ public class StatisticsAdapter extends RecyclerView.Adapter<StatisticsAdapter.Vi
 
             if (tmp.getSellOpen() > 0) {
                 sellOpenHigh++;
-                if (tmp.isSuc()) {
+                if (tmp.getResultPoint()>0) {
                     sellOpenHighSuc++;
                     sellOpenHighAverageSuc = sellOpenHighAverageSuc + tmp.getResultPoint();
                 } else {
@@ -288,7 +254,7 @@ public class StatisticsAdapter extends RecyclerView.Adapter<StatisticsAdapter.Vi
                 }
             } else {
                 sellOpenLow++;
-                if (tmp.isSuc()) {
+                if (tmp.getResultPoint()>0) {
                     sellOpenLowSuc++;
                     sellOpenLowAverageSuc = sellOpenLowAverageSuc + tmp.getResultPoint();
                 } else {
@@ -299,7 +265,7 @@ public class StatisticsAdapter extends RecyclerView.Adapter<StatisticsAdapter.Vi
 
             if (tmp.isIsPullUp()) {
                 pullUpNum++;
-                if (tmp.isSuc()) {
+                if (tmp.getResultPoint()>0) {
                     pullUpSucNum++;
                     pullAverageSuc = pullAverageSuc + tmp.getResultPoint();
                 } else {
@@ -309,7 +275,7 @@ public class StatisticsAdapter extends RecyclerView.Adapter<StatisticsAdapter.Vi
             }
             if (tmp.isWhenBuyIsTurnedToOne()) {
                 turnedToOneNum++;
-                if (tmp.isSuc()) {
+                if (tmp.getResultPoint()>0) {
                     turnedToOneSucNum++;
                     turnedAverageSuc = turnedAverageSuc + tmp.getResultPoint();
                 } else {
@@ -319,7 +285,7 @@ public class StatisticsAdapter extends RecyclerView.Adapter<StatisticsAdapter.Vi
             }
             if (tmp.isWhenBuyIsHot()) {
                 isHot++;
-                if (tmp.isSuc()) {
+                if (tmp.getResultPoint()>0) {
                     isHotSuc++;
                     hotAverageSuc = hotAverageSuc + tmp.getResultPoint();
                 } else {
@@ -329,7 +295,7 @@ public class StatisticsAdapter extends RecyclerView.Adapter<StatisticsAdapter.Vi
             }
             if (tmp.isWhenBuyIsRebound()) {
                 isRebound++;
-                if (tmp.isSuc()) {
+                if (tmp.getResultPoint()>0) {
                     isReboundSuc++;
                     reboundAverageSuc = reboundAverageSuc + tmp.getResultPoint();
                 } else {
@@ -339,7 +305,7 @@ public class StatisticsAdapter extends RecyclerView.Adapter<StatisticsAdapter.Vi
 
                 if (tmp.getReboundLine() == 5) {
                     isRebound5++;
-                    if (tmp.isSuc()) {
+                    if (tmp.getResultPoint()>0) {
                         isRebound5Suc++;
                         rebound5AverageSuc = rebound5AverageSuc + tmp.getResultPoint();
                     } else {
@@ -350,7 +316,7 @@ public class StatisticsAdapter extends RecyclerView.Adapter<StatisticsAdapter.Vi
 
                 if (tmp.getReboundLine() == 10) {
                     isRebound10++;
-                    if (tmp.isSuc()) {
+                    if (tmp.getResultPoint()>0) {
                         isRebound10Suc++;
                         rebound10AverageSuc = rebound10AverageSuc + tmp.getResultPoint();
                     } else {
@@ -361,7 +327,7 @@ public class StatisticsAdapter extends RecyclerView.Adapter<StatisticsAdapter.Vi
 
                 if (tmp.getReboundLine() == 20) {
                     isRebound20++;
-                    if (tmp.isSuc()) {
+                    if (tmp.getResultPoint()>0) {
                         isRebound20Suc++;
                         rebound20AverageSuc = rebound20AverageSuc + tmp.getResultPoint();
                     } else {
@@ -372,7 +338,7 @@ public class StatisticsAdapter extends RecyclerView.Adapter<StatisticsAdapter.Vi
 
                 if (tmp.getReboundLine() == 30) {
                     isRebound30++;
-                    if (tmp.isSuc()) {
+                    if (tmp.getResultPoint()>0) {
                         isRebound30Suc++;
                         rebound30AverageSuc = rebound30AverageSuc + tmp.getResultPoint();
                     } else {
@@ -383,7 +349,7 @@ public class StatisticsAdapter extends RecyclerView.Adapter<StatisticsAdapter.Vi
             }
             if (tmp.isIsBuyBan()) {
                 isBan++;
-                if (tmp.isSuc()) {
+                if (tmp.getResultPoint()>0) {
                     isBanSuc++;
                     banAverageSuc = banAverageSuc + tmp.getResultPoint();
                 } else {
@@ -393,7 +359,7 @@ public class StatisticsAdapter extends RecyclerView.Adapter<StatisticsAdapter.Vi
             }
             if (tmp.getBuyPoint() < 5) {
                 low5buy++;
-                if (tmp.isSuc()) {
+                if (tmp.getResultPoint()>0) {
                     low5buySuc++;
                     low5buyAverageSuc = low5buyAverageSuc + tmp.getResultPoint();
                 } else {
@@ -401,85 +367,9 @@ public class StatisticsAdapter extends RecyclerView.Adapter<StatisticsAdapter.Vi
                     low5buyAverageFai = low5buyAverageFai + tmp.getResultPoint();
                 }
             }
-            if (tmp.getAllTurnover() == 0) {
-                isAllTurnover++;
-                if (tmp.isSuc()) {
-                    isAllTurnoverSuc++;
-                    allTurAverageSuc = allTurAverageSuc + tmp.getResultPoint();
-                } else {
-                    isAllTurnoverFai++;
-                    allTurAverageFai = allTurAverageFai + tmp.getResultPoint();
-                }
-                if (tmp.getSellOpen() > 0) {
-                    isTurnoverSellOpenHigh++;
-                }
-            }
-            if (tmp.getAllTurnover() == -1) {
-                reduceAllTurnover++;
-                if (tmp.isSuc()) {
-                    reduceAllTurnoverSuc++;
-                    reduceAllTurnoverAverageSuc = reduceAllTurnoverAverageSuc + tmp.getResultPoint();
-                } else {
-                    reduceAllTurnoverFai++;
-                    reduceAllTurnoverAverageFai = reduceAllTurnoverAverageFai + tmp.getResultPoint();
-                }
-                if (tmp.getSellOpen() > 0) {
-                    reduceTurnoverSellOpenHigh++;
-                }
-            }
-            if (tmp.getAllTurnover() == 1) {
-                addAllTurnover++;
-                if (tmp.isSuc()) {
-                    addAllTurnoverSuc++;
-                    addAllTurnoverAverageSuc = addAllTurnoverAverageSuc + tmp.getResultPoint();
-                } else {
-                    addAllTurnoverFai++;
-                    addAllTurnoverAverageFai = addAllTurnoverAverageFai + tmp.getResultPoint();
-                }
-                if (tmp.getSellOpen() > 0) {
-                    addAllTurnoverSellOpenHigh++;
-                }
-            }
-
-            if (tmp.getYesterdayAllTurnover() == 1) {
-                yesterdayAllTurnoverAdd++;
-                if (tmp.isSuc()) {
-                    yesterdayAllTurnoverAddSuc++;
-                    yesterdayAllTurnoverAddAverageSuc = yesterdayAllTurnoverAddAverageSuc + tmp.getResultPoint();
-                } else {
-                    yesterdayAllTurnoverAddFai++;
-                    yesterdayAllTurnoverAddAverageFai = yesterdayAllTurnoverAddAverageFai + tmp.getResultPoint();
-                }
-
-            }
-
-            if (tmp.getYesterdayAllTurnover() == 0) {
-                yesterdayAllTurnover++;
-                if (tmp.isSuc()) {
-                    yesterdayAllTurnoverSuc++;
-                    yesterdayAllTurnoverAverageSuc = yesterdayAllTurnoverAverageSuc + tmp.getResultPoint();
-                } else {
-                    yesterdayAllTurnoverFai++;
-                    yesterdayAllTurnoverAverageFai = yesterdayAllTurnoverAverageFai + tmp.getResultPoint();
-                }
-
-            }
-
-            if (tmp.getYesterdayAllTurnover() == -1) {
-                yesterdayAllTurnoverReduce++;
-                if (tmp.isSuc()) {
-                    yesterdayAllTurnoverReduceSuc++;
-                    yesterdayAllTurnoverReduceAverageSuc = yesterdayAllTurnoverReduceAverageSuc + tmp.getResultPoint();
-                } else {
-                    yesterdayAllTurnoverReduceFai++;
-                    yesterdayAllTurnoverReduceAverageFai = yesterdayAllTurnoverReduceAverageFai + tmp.getResultPoint();
-                }
-
-            }
-
             if (tmp.isIsPullUp() && tmp.getBuyBanNum() == 1) {
                 firstBan++;
-                if (tmp.isSuc()) {
+                if (tmp.getResultPoint()>0) {
                     firstBanSuc++;
                     firstBanAverageSuc = firstBanAverageSuc + tmp.getResultPoint();
                 } else {
@@ -489,7 +379,7 @@ public class StatisticsAdapter extends RecyclerView.Adapter<StatisticsAdapter.Vi
             }
             if (tmp.isIsPullUp() && tmp.getBuyBanNum() == 2) {
                 twoBan++;
-                if (tmp.isSuc()) {
+                if (tmp.getResultPoint()>0) {
                     twoBanSuc++;
                     twoBanAverageSuc = twoBanAverageSuc + tmp.getResultPoint();
                 } else {
@@ -499,7 +389,7 @@ public class StatisticsAdapter extends RecyclerView.Adapter<StatisticsAdapter.Vi
             }
             if (tmp.isIsPullUp() && tmp.getBuyBanNum() == 3) {
                 threeBan++;
-                if (tmp.isSuc()) {
+                if (tmp.getResultPoint()>0) {
                     threeBanSuc++;
                     threeBanAverageSuc = threeBanAverageSuc + tmp.getResultPoint();
                 } else {
@@ -509,7 +399,7 @@ public class StatisticsAdapter extends RecyclerView.Adapter<StatisticsAdapter.Vi
             }
             if (tmp.isIsPullUp() && tmp.getBuyBanNum() > 3) {
                 highBan++;
-                if (tmp.isSuc()) {
+                if (tmp.getResultPoint()>0) {
                     highBanSuc++;
                     highBanAverageSuc = highBanAverageSuc + tmp.getResultPoint();
                 } else {
@@ -537,15 +427,6 @@ public class StatisticsAdapter extends RecyclerView.Adapter<StatisticsAdapter.Vi
         itemList.add(new ShowBean("10日线反弹", isRebound10, isRebound10Suc, getResult(isRebound10, isRebound10Suc), isRebound10Suc == 0 ? 0 : rebound10AverageSuc / isRebound10Suc, isRebound10Fai == 0 ? 0 : rebound10AverageFai / isRebound10Fai));
         itemList.add(new ShowBean("20日线反弹", isRebound20, isRebound20Suc, getResult(isRebound20, isRebound20Suc), isRebound20Suc == 0 ? 0 : rebound20AverageSuc / isRebound20Suc, isRebound20Fai == 0 ? 0 : rebound20AverageFai / isRebound20Fai));
         itemList.add(new ShowBean("30日线反弹", isRebound30, isRebound30Suc, getResult(isRebound30, isRebound30Suc), isRebound30Suc == 0 ? 0 : rebound30AverageSuc / isRebound30Suc, isRebound30Fai == 0 ? 0 : rebound30AverageFai / isRebound30Fai));
-        itemList.add(new ShowBean("沪深缩量", reduceAllTurnover, reduceAllTurnoverSuc, getResult(reduceAllTurnover, reduceAllTurnoverSuc), reduceAllTurnoverSuc == 0 ? 0 : reduceAllTurnoverAverageSuc / reduceAllTurnoverSuc, reduceAllTurnoverFai == 0 ? 0 : reduceAllTurnoverAverageFai / reduceAllTurnoverFai));
-        itemList.add(new ShowBean("沪深平量", isAllTurnover, isAllTurnoverSuc, getResult(isAllTurnover, isAllTurnoverSuc), isAllTurnoverSuc == 0 ? 0 : allTurAverageSuc / isAllTurnoverSuc, isAllTurnoverFai == 0 ? 0 : allTurAverageFai / isAllTurnoverFai));
-        itemList.add(new ShowBean("沪深增量", addAllTurnover, addAllTurnoverSuc, getResult(addAllTurnover, addAllTurnoverSuc), addAllTurnoverSuc == 0 ? 0 : addAllTurnoverAverageSuc / addAllTurnoverSuc, addAllTurnoverFai == 0 ? 0 : addAllTurnoverAverageFai / addAllTurnoverFai));
-        itemList.add(new ShowBean("昨沪深增量", yesterdayAllTurnoverAdd, yesterdayAllTurnoverAddSuc, getResult(yesterdayAllTurnoverAdd, yesterdayAllTurnoverAddSuc), yesterdayAllTurnoverAddSuc == 0 ? 0 : yesterdayAllTurnoverAddAverageSuc / yesterdayAllTurnoverAddSuc, yesterdayAllTurnoverAddFai == 0 ? 0 : yesterdayAllTurnoverAddAverageFai / yesterdayAllTurnoverAddFai));
-        itemList.add(new ShowBean("昨沪深平量", yesterdayAllTurnover, yesterdayAllTurnoverSuc, getResult(yesterdayAllTurnover, yesterdayAllTurnoverSuc), yesterdayAllTurnoverSuc == 0 ? 0 : yesterdayAllTurnoverAverageSuc / yesterdayAllTurnoverSuc, yesterdayAllTurnoverFai == 0 ? 0 : yesterdayAllTurnoverAverageFai / yesterdayAllTurnoverFai));
-        itemList.add(new ShowBean("昨沪深缩量", yesterdayAllTurnoverReduce, yesterdayAllTurnoverReduceSuc, getResult(yesterdayAllTurnoverReduce, yesterdayAllTurnoverReduceSuc), yesterdayAllTurnoverReduceSuc == 0 ? 0 : yesterdayAllTurnoverReduceAverageSuc / yesterdayAllTurnoverReduceSuc, yesterdayAllTurnoverReduceFai == 0 ? 0 : yesterdayAllTurnoverReduceAverageFai / yesterdayAllTurnoverReduceFai));
-        itemList.add(new ShowBean("全增量高开", addAllTurnover, addAllTurnoverSellOpenHigh, getResult(addAllTurnover, addAllTurnoverSellOpenHigh), 0, 0));
-        itemList.add(new ShowBean("全平量高开", isAllTurnover, isTurnoverSellOpenHigh, getResult(isAllTurnover, isTurnoverSellOpenHigh), 0, 0));
-        itemList.add(new ShowBean("全缩量高开", reduceAllTurnover, reduceTurnoverSellOpenHigh, getResult(reduceAllTurnover, reduceTurnoverSellOpenHigh), 0, 0));
         itemList.add(new ShowBean("首板", twoBan, twoBanSuc, getResult(twoBan, twoBanSuc), twoBanSuc == 0 ? 0 : twoBanAverageSuc / twoBanSuc, twoBanFai == 0 ? 0 : twoBanAverageFai / twoBanFai));
         itemList.add(new ShowBean("二板", twoBan, twoBanSuc, getResult(twoBan, twoBanSuc), twoBanSuc == 0 ? 0 : twoBanAverageSuc / twoBanSuc, twoBanFai == 0 ? 0 : twoBanAverageFai / twoBanFai));
         itemList.add(new ShowBean("三板", threeBan, threeBanSuc, getResult(threeBan, threeBanSuc), threeBanSuc == 0 ? 0 : threeBanAverageSuc / threeBanSuc, threeBanFai == 0 ? 0 : threeBanAverageFai / threeBanFai));

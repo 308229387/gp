@@ -31,8 +31,8 @@ public class FenQiSucAdapter extends RecyclerView.Adapter<FenQiSucAdapter.MyView
     private boolean yesterdayLastPrice;
     private boolean yesterdayStartPoint;
     private boolean yesterdayAveragePoint;
-    private boolean allTurnoverAddOrReduce;
-    private boolean environmentScore;
+    private boolean formerLargeOrder;
+    private boolean yesterdayLargeOrder;
     private boolean formerDate;
     private boolean latterLowPointTime;
     private boolean latterTopPointTime;
@@ -85,6 +85,16 @@ public class FenQiSucAdapter extends RecyclerView.Adapter<FenQiSucAdapter.MyView
                 mContext.startActivity(intent);
             }
         });
+        holder.itemView.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View view) {
+                Intent intent = new Intent(mContext,BigImageActivity.class);
+                int id = ToolUtils.getImages(data.getImage_2().replace("image:", ""));
+                intent.putExtra("image",id);
+                mContext.startActivity(intent);
+                return false;
+            }
+        });
         holder.bindData(data);
     }
 
@@ -134,7 +144,39 @@ public class FenQiSucAdapter extends RecyclerView.Adapter<FenQiSucAdapter.MyView
         lastPrice = !lastPrice;
         notifyDataSetChanged();
     }
+    public void changeFormerLargeOrder() {
+        comparator = new Comparator<FenQiSucBean>() {
+            @Override
+            public int compare(FenQiSucBean bean1, FenQiSucBean bean2) {
+                if (formerLargeOrder) {
+                    return Double.compare(bean1.getFormerLargeOrder(), bean2.getFormerLargeOrder());
+                } else {
+                    return Double.compare(bean2.getFormerLargeOrder(), bean1.getFormerLargeOrder());
+                }
+            }
+        };
 
+        Collections.sort(mDataList, comparator);
+        formerLargeOrder = !formerLargeOrder;
+        notifyDataSetChanged();
+    }
+
+    public void changeYesterdayLargeOrder() {
+        comparator = new Comparator<FenQiSucBean>() {
+            @Override
+            public int compare(FenQiSucBean bean1, FenQiSucBean bean2) {
+                if (yesterdayLargeOrder) {
+                    return Double.compare(bean1.getYesterdayLargeOrder(), bean2.getYesterdayLargeOrder());
+                } else {
+                    return Double.compare(bean2.getYesterdayLargeOrder(), bean1.getYesterdayLargeOrder());
+                }
+            }
+        };
+
+        Collections.sort(mDataList, comparator);
+        yesterdayLargeOrder = !yesterdayLargeOrder;
+        notifyDataSetChanged();
+    }
 
 
 
@@ -387,11 +429,11 @@ public class FenQiSucAdapter extends RecyclerView.Adapter<FenQiSucAdapter.MyView
             linearLayout.removeAllViews();
 
             // 动态添加 TextView
-            for (int i = 0; i < 17; i++) {
+            for (int i = 0; i < 19; i++) {
                 TextView textView = new TextView(itemView.getContext());
                 if (i == 0) {
                     textView.setWidth(250); // 名称
-                } else if (i == 16) {
+                } else if (i == 18) {
                     textView.setWidth(270); // 日期
                 } else {
                     textView.setWidth(230); // 设置宽度为200像素
@@ -454,15 +496,21 @@ public class FenQiSucAdapter extends RecyclerView.Adapter<FenQiSucAdapter.MyView
                         textView.setText(data.getYesterdayAveragePoint() + "%");
                         break;
                     case 13:
-                        textView.setText(data.getLastPrice() + "亿");
+                        textView.setText(data.getYesterdayLargeOrder() + "千万");
                         break;
                     case 14:
-                        textView.setText(data.getYesterdayLastPrice() + "亿");
+                        textView.setText(data.getFormerLargeOrder() + "千万");
                         break;
                     case 15:
-                        textView.setText(data.getFormerAllValue() + "亿");
+                        textView.setText(data.getLastPrice() + "亿");
                         break;
                     case 16:
+                        textView.setText(data.getYesterdayLastPrice() + "亿");
+                        break;
+                    case 17:
+                        textView.setText(data.getFormerAllValue() + "亿");
+                        break;
+                    case 18:
                         textView.setText(data.getFormerDate());
                         break;
                 }

@@ -15,8 +15,11 @@
     "yesterdayAveragePoint": 9.19,
     "lastPrice": 0.76,
     "yesterdayLastPrice": 0.4,
+    "formerLargeOrder": 0.23,
+    "yesterdayLargeOrder": 1.56,
     "formerAllValue": 59.71,
     "formerDate": "2023-08-21",
+    "image_2": "qdhj_2_bid",
     "image": "qdhj_3_bid"
   },
   {
@@ -34,9 +37,12 @@
     "yesterdayLastPrice": 0.4,
     "lastPrice": 0.6,
     "bidStrong": 1,
+    "formerLargeOrder": 2.05,
+    "yesterdayLargeOrder": 2.15,
     "bidBreakTime": "09:24",
     "formerBanTime": "09:32",
     "lastHasBuy": false,
+    "image_2": "hfsp_2_bid",
     "image": "hfsp_3_bid"
   },
   {
@@ -54,9 +60,12 @@
     "yesterdayLastPrice": 0.62,
     "lastPrice": 1.22,
     "bidStrong": 1,
+    "formerLargeOrder": 6.54,
+    "yesterdayLargeOrder": -2.03,
     "bidBreakTime": "09:24",
     "formerBanTime": "09:33",
     "lastHasBuy": false,
+    "image_2": "hmqc_2_bid",
     "image": "hmqc_3_bid"
   },
   {
@@ -73,10 +82,13 @@
     "afterHigh": 30.0,
     "yesterdayLastPrice": 2.61,
     "lastPrice": 1.81,
+    "formerLargeOrder": 4.77,
+    "yesterdayLargeOrder":1.9,
     "bidBreakTime": "09:21",
     "formerBanTime": "09:31",
     "lastHasBuy": true,
     "bidStrong": 0,
+    "image_2": "gcgx_2_bid",
     "image": "gcgx_3_bid"
   },
   {
@@ -93,10 +105,13 @@
     "afterHigh": 20.0,
     "yesterdayLastPrice": 0.61,
     "lastPrice": 2.76,
+    "formerLargeOrder": -7.51,
+    "yesterdayLargeOrder": 13.0,
     "bidBreakTime": "09:17",
     "formerBanTime": "09:42",
     "lastHasBuy": true,
     "bidStrong": -1,
+    "image_2": "jkgf_2_bid",
     "image": "jkgf_3_bid"
   },
   {
@@ -113,10 +128,13 @@
     "afterHigh": 37.0,
     "yesterdayLastPrice": 0.34,
     "lastPrice": 0.78,
+    "formerLargeOrder": 0.52,
+    "yesterdayLargeOrder": 0.45,
     "bidBreakTime": "09:24",
     "formerBanTime": "09:32",
     "lastHasBuy": false,
     "bidStrong": 1,
+    "image_2": "zysc_2_bid",
     "image": "zysc_3_bid"
   },
   {
@@ -133,10 +151,13 @@
     "afterHigh": 10.0,
     "yesterdayLastPrice": 0.72,
     "lastPrice": 1.02,
+    "formerLargeOrder": 2.86,
+    "yesterdayLargeOrder": -8.41,
     "bidBreakTime": "09:23",
     "formerBanTime": "09:37",
     "lastHasBuy": true,
     "bidStrong": 0,
+    "image_2": "wakj_2_bid",
     "image": "wakj_3_bid"
   },
   {
@@ -153,10 +174,13 @@
     "afterHigh": 9.98,
     "yesterdayLastPrice": 0.52,
     "lastPrice": 1.04,
+    "formerLargeOrder": 4.25,
+    "yesterdayLargeOrder": 3.04,
     "bidBreakTime": "09:16",
     "formerBanTime": "09:39",
     "lastHasBuy": true,
     "bidStrong": -1,
+    "image_2": "jcgf_2_bid",
     "image": "jcgf_3_bid"
   },
   {
@@ -173,10 +197,13 @@
     "afterHigh": 37,
     "yesterdayLastPrice": 0.29,
     "lastPrice": 0.7,
+    "formerLargeOrder": 0.08,
+    "yesterdayLargeOrder": 2.68,
     "bidBreakTime": "09:23",
     "formerBanTime": "09:31",
     "lastHasBuy": true,
     "bidStrong": 1,
+    "image_2": "zmcd_2_bid",
     "image": "zmcd_3_bid"
   },
   {
@@ -193,10 +220,13 @@
     "afterHigh": 7.53,
     "yesterdayLastPrice": 0.63,
     "lastPrice": 0.67,
+    "formerLargeOrder": 1.61,
+    "yesterdayLargeOrder": 5.22,
     "bidBreakTime": "09:24",
     "formerBanTime": "09:35",
     "lastHasBuy": false,
     "bidStrong": 0,
+    "image_2": "rdyl_2_bid",
     "image": "rdyl_3_bid"
   },
   {
@@ -213,10 +243,13 @@
     "afterHigh": 10.0,
     "yesterdayLastPrice": 0.21,
     "lastPrice": 0.43,
+    "formerLargeOrder": 0.21,
+    "yesterdayLargeOrder": -1.99,
     "bidBreakTime": "09:19",
     "formerBanTime": "09:31",
     "lastHasBuy": true,
     "bidStrong": 0,
+    "image_2": "lmgf_2_bid",
     "image": "lmgf_3_bid"
   },
   {
@@ -233,10 +266,13 @@
     "afterHigh": 20.0,
     "yesterdayLastPrice": 0.18,
     "lastPrice": 0.84,
+    "formerLargeOrder": 5.17,
+    "yesterdayLargeOrder": -3.7,
     "bidBreakTime": "09:17",
     "formerBanTime": "09:32",
     "lastHasBuy": true,
     "bidStrong": -1,
+    "image_2": "shwm_4_bid",
     "image": "shwm_5_bid"
   }
 ]

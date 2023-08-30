@@ -2,12 +2,10 @@ package com.songyongmeng.gp;
 
 import android.app.Activity;
 import android.content.pm.ActivityInfo;
-import android.hardware.SensorManager;
 import android.os.Bundle;
 import android.view.OrientationEventListener;
 import android.view.View;
 import android.widget.TextView;
-
 
 import com.bumptech.glide.Glide;
 import com.songyongmeng.gp.utils.ZoomableImageView;
@@ -28,17 +26,16 @@ public class BigImageActivity extends Activity {
 //        Bitmap bitmap = BitmapFactory.decodeResource(getResources(),image);
 //        imageView.setImageBitmap(bitmap);
         Glide.with(this).load(image).into(imageView);
-
+        setHorizontal();
         change.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if(isVertical){
+                if (isVertical) {
                     setHorizontal();
-                    isVertical = false;
-                }else{
+                } else {
                     setVertical();
-                    isVertical = true;
                 }
+                isVertical = !isVertical;
             }
         });
 

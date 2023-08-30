@@ -110,7 +110,9 @@ public class MainActivity extends AppCompatActivity {
             public boolean onChildClick(ExpandableListView expandableListView, View view, int groupPosition, int childPosition, long l) {
                 if (allData.get(groupPosition).getData().get(childPosition).getRichText().get(0).equals("title:概率总结")) {
                     toStatistics(statisticsData);
-                } else if (allData.get(groupPosition).getData().get(childPosition).getRichText().get(0).equals("title:数据分析")) {
+                } else if (allData.get(groupPosition).getData().get(childPosition).getRichText().get(0).equals("title:新概率总结")) {
+                    toNewStatistics();
+                }else if (allData.get(groupPosition).getData().get(childPosition).getRichText().get(0).equals("title:数据分析")) {
                     toSell();
                 }else if(allData.get(groupPosition).getData().get(childPosition).getRichText().get(0).equals("title:分歧转一致")){
                     toFenQi();
@@ -127,6 +129,11 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+    }
+
+    private void toNewStatistics() {
+        Intent intent = new Intent(MainActivity.this, NewStatisticsActivity.class);
+        startActivity(intent);
     }
 
 

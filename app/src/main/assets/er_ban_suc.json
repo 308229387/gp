@@ -1,0 +1,24 @@
+[
+  {
+    "gpName": "启迪环境",
+    "afterHigh": 10.01,
+    "bidStrong": 1,
+    "compareHigh": 2.27,
+    "lastHasBuy": false,
+    "selfTurnover": 37.97,
+    "bidBreakTime": "09:24",
+    "formerBanTime": "09:31",
+    "formerStartPoint": 6.21,
+    "formerAveragePoint": 8.35,
+    "yesterdaySelfTurnover": 265.13,
+    "yesterdayStartPoint": 3.94,
+    "yesterdayAveragePoint": 9.19,
+    "lastPrice": 0.76,
+    "yesterdayLastPrice": 0.4,
+    "formerAllValue": 59.71,
+    "formerDate": "2023-08-21",
+    "image_k": "qdhj_2_bid",
+    "image_2": "qdhj_2_bid",
+    "image": "qdhj_3_bid"
+  }
+]
