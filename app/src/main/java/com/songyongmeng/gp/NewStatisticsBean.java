@@ -4,22 +4,22 @@ import java.io.Serializable;
 
 public class NewStatisticsBean implements Serializable {
     /**
-     * gpName : 美丽生态
-     * buyDate : 2023-08-28
+     * gpName : 金科股份
+     * formerDate : 2023-08-29
      * mode : 2
-     * lastPrice : 0.64亿
+     * lastPrice : 1.55
      * isBanBuy : false
-     * resultPoint : -4.54
-     * buyReason : 当时冲高拉涨停时，看着量能是平量，也有些大单，上午环境也还行就上了，后面没有再放量，平量+有前高，第二天直接下跌，4个多点止损离场
+     * resultPoint : 4.5
+     * buyReason :
      * image_k :
      * image_buy :
      * image_sell :
      */
 
     private String gpName;
-    private String buyDate;
+    private String formerDate;
     private int mode;
-    private String lastPrice;
+    private double lastPrice;
     private boolean isBanBuy;
     private double resultPoint;
     private String buyReason;
@@ -35,12 +35,12 @@ public class NewStatisticsBean implements Serializable {
         this.gpName = gpName;
     }
 
-    public String getBuyDate() {
-        return buyDate;
+    public String getFormerDate() {
+        return formerDate;
     }
 
-    public void setBuyDate(String buyDate) {
-        this.buyDate = buyDate;
+    public void setFormerDate(String formerDate) {
+        this.formerDate = formerDate;
     }
 
     public int getMode() {
@@ -51,11 +51,11 @@ public class NewStatisticsBean implements Serializable {
         this.mode = mode;
     }
 
-    public String getLastPrice() {
+    public double getLastPrice() {
         return lastPrice;
     }
 
-    public void setLastPrice(String lastPrice) {
+    public void setLastPrice(double lastPrice) {
         this.lastPrice = lastPrice;
     }
 

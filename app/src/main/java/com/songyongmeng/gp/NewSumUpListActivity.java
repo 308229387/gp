@@ -91,7 +91,7 @@ public class NewSumUpListActivity extends AppCompatActivity {
                     button.setOnClickListener(new View.OnClickListener() {
                         @Override
                         public void onClick(View view) {
-//                            adapter.changeFormerAmPm();
+                            adapter.changeLastPriceData();
                         }
                     });
                     break;
@@ -100,8 +100,7 @@ public class NewSumUpListActivity extends AppCompatActivity {
                     button.setOnClickListener(new View.OnClickListener() {
                         @Override
                         public void onClick(View view) {
-//                            adapter.changeFormerStartData();
-                        }
+                            adapter.changeFormerDate();                        }
                     });
                     break;
 //                case 5:

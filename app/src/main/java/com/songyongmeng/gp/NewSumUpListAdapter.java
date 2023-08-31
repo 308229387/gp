@@ -153,22 +153,23 @@ public class NewSumUpListAdapter extends RecyclerView.Adapter<NewSumUpListAdapte
         isIsBanBuy = !isIsBanBuy;
         notifyDataSetChanged();
     }
-//    public void changeLastPriceData() {
-//        comparator = new Comparator<NewStatisticsBean>() {
-//            @Override
-//            public int compare(NewStatisticsBean bean1, NewStatisticsBean bean2) {
-//                if (lastPrice) {
-//                    return Double.compare(bean1.getLastPrice(), bean2.getLastPrice());
-//                } else {
-//                    return Double.compare(bean2.getLastPrice(), bean1.getLastPrice());
-//                }
-//            }
-//        };
-//
-//        Collections.sort(mDataList, comparator);
-//        lastPrice = !lastPrice;
-//        notifyDataSetChanged();
-//    }
+
+    public void changeLastPriceData() {
+        comparator = new Comparator<NewStatisticsBean>() {
+            @Override
+            public int compare(NewStatisticsBean bean1, NewStatisticsBean bean2) {
+                if (lastPrice) {
+                    return Double.compare(bean1.getLastPrice(), bean2.getLastPrice());
+                } else {
+                    return Double.compare(bean2.getLastPrice(), bean1.getLastPrice());
+                }
+            }
+        };
+
+        Collections.sort(mDataList, comparator);
+        lastPrice = !lastPrice;
+        notifyDataSetChanged();
+    }
 //
 //
 //    public void changeLatterTopPointData() {
@@ -380,22 +381,21 @@ public class NewSumUpListAdapter extends RecyclerView.Adapter<NewSumUpListAdapte
 //        notifyDataSetChanged();
 //    }
 //
-//    public void changeFormerDate() {
-//        comparator = new Comparator<NewStatisticsBean>() {
-//            @Override
-//            public int compare(NewStatisticsBean bean1, NewStatisticsBean bean2) {
-//                if (formerDate) {
-//                    return bean2.getFormerDate().compareTo(bean1.getFormerDate());
-//                } else {
-//                    return bean1.getFormerDate().compareTo(bean2.getFormerDate());
-//                }
-//            }
-//        };
-//        Collections.sort(mDataList, comparator);
-//        formerDate = !formerDate;
-//        notifyDataSetChanged();
-//
-//    }
+    public void changeFormerDate() {
+        comparator = new Comparator<NewStatisticsBean>() {
+            @Override
+            public int compare(NewStatisticsBean bean1, NewStatisticsBean bean2) {
+                if (formerDate) {
+                    return bean2.getFormerDate().compareTo(bean1.getFormerDate());
+                } else {
+                    return bean1.getFormerDate().compareTo(bean2.getFormerDate());
+                }
+            }
+        };
+        Collections.sort(mDataList, comparator);
+        formerDate = !formerDate;
+        notifyDataSetChanged();
+    }
 //
 //    public void changeFormerAmPm() {
 //        Collections.sort(mDataList, new Comparator<NewStatisticsBean>() {
@@ -455,10 +455,14 @@ public class NewSumUpListAdapter extends RecyclerView.Adapter<NewSumUpListAdapte
                         textView.setText(data.isIsBanBuy() ? "涨停买入" : "非涨停");
                         break;
                     case 3:
-                        textView.setText(data.getLastPrice());
+                        if(data.getLastPrice()>0){
+                            textView.setText(data.getLastPrice() + "亿");
+                        }else{
+                            textView.setText("-");
+                        }
                         break;
                     case 4:
-                        textView.setText(data.getBuyDate());
+                        textView.setText(data.getFormerDate());
                         break;
 //                    case 5:
 //                        textView.setText(data.getFormerTopPoint() + "%");
