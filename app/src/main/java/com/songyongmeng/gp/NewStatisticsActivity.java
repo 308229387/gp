@@ -62,7 +62,7 @@ public class NewStatisticsActivity extends AppCompatActivity {
     }
 
     private void addHeaderButton(LinearLayout buttonLayout) {
-        for (int i = 0; i < 6; i++) {
+        for (int i = 0; i < 7; i++) {
             Button button = new Button(this);
             LinearLayout.LayoutParams layoutParams;
             if (i == 0) {
@@ -104,7 +104,7 @@ public class NewStatisticsActivity extends AppCompatActivity {
                     });
                     break;
                 case 3:
-                    button.setText("占比");
+                    button.setText("盈利率");
                     button.setOnClickListener(new View.OnClickListener() {
                         @Override
                         public void onClick(View view) {
@@ -113,6 +113,15 @@ public class NewStatisticsActivity extends AppCompatActivity {
                     });
                     break;
                 case 4:
+                    button.setText("封板率");
+                    button.setOnClickListener(new View.OnClickListener() {
+                        @Override
+                        public void onClick(View view) {
+                            adapter.changeBanData();
+                        }
+                    });
+                    break;
+                case 5:
                     button.setText("盈平均");
                     button.setOnClickListener(new View.OnClickListener() {
                         @Override
@@ -121,7 +130,7 @@ public class NewStatisticsActivity extends AppCompatActivity {
                         }
                     });
                     break;
-                case 5:
+                case 6:
                     button.setText("亏平均");
                     button.setOnClickListener(new View.OnClickListener() {
                         @Override

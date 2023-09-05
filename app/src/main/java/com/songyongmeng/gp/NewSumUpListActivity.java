@@ -13,12 +13,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.google.gson.Gson;
-import com.google.gson.reflect.TypeToken;
-import com.songyongmeng.gp.utils.AssetsUtils;
-
 import java.util.ArrayList;
-import java.util.List;
 
 public class NewSumUpListActivity extends AppCompatActivity {
     NewSumUpListAdapter adapter;
@@ -43,12 +38,12 @@ public class NewSumUpListActivity extends AppCompatActivity {
     }
 
     private void two(LinearLayout buttonLayout) {
-        for (int i = 0; i < 5; i++) {
+        for (int i = 0; i < 7; i++) {
             Button button = new Button(this);
             LinearLayout.LayoutParams layoutParams;
             if (i == 0) {
                 layoutParams = new LinearLayout.LayoutParams(230, 180);
-            } else if (i == 4) {
+            } else if (i == 6) {
                 layoutParams = new LinearLayout.LayoutParams(260, 180);
             } else {
                 layoutParams = new LinearLayout.LayoutParams(210, 180);
@@ -87,6 +82,24 @@ public class NewSumUpListActivity extends AppCompatActivity {
                     });
                     break;
                 case 3:
+                    button.setText("收盘是否涨停");
+                    button.setOnClickListener(new View.OnClickListener() {
+                        @Override
+                        public void onClick(View view) {
+                            adapter.changeIsHasBan();
+                        }
+                    });
+                    break;
+                case 4:
+                    button.setText("是否开融券");
+                    button.setOnClickListener(new View.OnClickListener() {
+                        @Override
+                        public void onClick(View view) {
+                            adapter.changeIsMarginTrading();
+                        }
+                    });
+                    break;
+                case 5:
                     button.setText("封单");
                     button.setOnClickListener(new View.OnClickListener() {
                         @Override
@@ -95,12 +108,13 @@ public class NewSumUpListActivity extends AppCompatActivity {
                         }
                     });
                     break;
-                case 4:
+                case 6:
                     button.setText("买入日期");
                     button.setOnClickListener(new View.OnClickListener() {
                         @Override
                         public void onClick(View view) {
-                            adapter.changeFormerDate();                        }
+                            adapter.changeFormerDate();
+                        }
                     });
                     break;
 //                case 5:

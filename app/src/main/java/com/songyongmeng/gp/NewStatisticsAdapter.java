@@ -26,6 +26,7 @@ public class NewStatisticsAdapter extends RecyclerView.Adapter<NewStatisticsAdap
     boolean all;
     boolean suc;
     boolean radio;
+    boolean ban;
     boolean averageSuc;
     boolean averageFai;
     private Context context;
@@ -44,6 +45,7 @@ public class NewStatisticsAdapter extends RecyclerView.Adapter<NewStatisticsAdap
 
     private void modifyData() {
         int allNum = 0;
+        int allNumNum = 0;
         int allNumSuc = 0;
         int allNumFai = 0;
         double allAverageSuc = 0;
@@ -141,18 +143,21 @@ public class NewStatisticsAdapter extends RecyclerView.Adapter<NewStatisticsAdap
         int addSelfGpAverageFai = 0;
 
         int firstBan = 0;
+        int firstBanNum = 0;
         int firstBanSuc = 0;
         int firstBanFai = 0;
         double firstBanAverageSuc = 0;
         double firstBanAverageFai = 0;
 
         int twoBan = 0;
+        int twoBanNum = 0;
         int twoBanSuc = 0;
         int twoBanFai = 0;
         double twoBanAverageSuc = 0;
         double twoBanAverageFai = 0;
 
         int threeBan = 0;
+        int threeBanNum = 0;
         int threeBanSuc = 0;
         int threeBanFai = 0;
         double threeBanAverageSuc = 0;
@@ -184,6 +189,9 @@ public class NewStatisticsAdapter extends RecyclerView.Adapter<NewStatisticsAdap
 
         for (NewStatisticsBean tmp : dataList) {
             allNum++;
+            if(tmp.getLastPrice()>0){
+                allNumNum++;
+            }
             if (tmp.getResultPoint() > 0) {
                 allNumSuc++;
                 allAverageSuc = allAverageSuc + tmp.getResultPoint();
@@ -371,6 +379,9 @@ public class NewStatisticsAdapter extends RecyclerView.Adapter<NewStatisticsAdap
 //            }
             if (tmp.getMode() == 1) {
                 firstBan++;
+                if(tmp.getLastPrice()>0){
+                    firstBanNum++;
+                }
                 if (tmp.getResultPoint() > 0) {
                     firstBanSuc++;
                     firstBanAverageSuc = firstBanAverageSuc + tmp.getResultPoint();
@@ -381,6 +392,9 @@ public class NewStatisticsAdapter extends RecyclerView.Adapter<NewStatisticsAdap
             }
             if (tmp.getMode() == 2) {
                 twoBan++;
+                if(tmp.getLastPrice()>0){
+                    twoBanNum++;
+                }
                 if (tmp.getResultPoint() > 0) {
                     twoBanSuc++;
                     twoBanAverageSuc = twoBanAverageSuc + tmp.getResultPoint();
@@ -391,6 +405,9 @@ public class NewStatisticsAdapter extends RecyclerView.Adapter<NewStatisticsAdap
             }
             if (tmp.getMode() == 3) {
                 threeBan++;
+                if(tmp.getLastPrice()>0){
+                    threeBanNum++;
+                }
                 if (tmp.getResultPoint() > 0) {
                     threeBanSuc++;
                     threeBanAverageSuc = threeBanAverageSuc + tmp.getResultPoint();
@@ -411,7 +428,7 @@ public class NewStatisticsAdapter extends RecyclerView.Adapter<NewStatisticsAdap
 //            }
         }
 
-        itemList.add(new ShowBean("总计", allNum, allNumSuc, getResult(allNum, allNumSuc), allNumSuc == 0 ? 0 : allAverageSuc / allNumSuc, allNumFai == 0 ? 0 : allAverageFai / allNumFai));
+        itemList.add(new ShowBean("总计", allNum, allNumSuc, getResult(allNum, allNumSuc),getResult(allNum, allNumNum), allNumSuc == 0 ? 0 : allAverageSuc / allNumSuc, allNumFai == 0 ? 0 : allAverageFai / allNumFai));
 //        itemList.add(new ShowBean("个股缩量", reduceSelfGp, reduceSelfGpSuc, getResult(reduceSelfGp, reduceSelfGpSuc), reduceSelfGpSuc == 0 ? 0 : reduceSelfGpAverageSuc / reduceSelfGpSuc, reduceSelfGpFai == 0 ? 0 : reduceSelfGpAverageFai / reduceSelfGpFai));
 //        itemList.add(new ShowBean("个股平放量", addSelfGp, addSelfGpSuc, getResult(addSelfGp, addSelfGpSuc), addSelfGpSuc == 0 ? 0 : addSelfGpAverageSuc / addSelfGpSuc, addSelfGpFai == 0 ? 0 : addSelfGpAverageFai / addSelfGpFai));
 //        itemList.add(new ShowBean("高开1点", sellOpenHigh, sellOpenHighSuc, getResult(sellOpenHigh, sellOpenHighSuc), sellOpenHighSuc == 0 ? 0 : sellOpenHighAverageSuc / sellOpenHighSuc, sellOpenHighFai == 0 ? 0 : sellOpenHighAverageFai / sellOpenHighFai));
@@ -429,9 +446,9 @@ public class NewStatisticsAdapter extends RecyclerView.Adapter<NewStatisticsAdap
 //        itemList.add(new ShowBean("10日线反弹", isRebound10, isRebound10Suc, getResult(isRebound10, isRebound10Suc), isRebound10Suc == 0 ? 0 : rebound10AverageSuc / isRebound10Suc, isRebound10Fai == 0 ? 0 : rebound10AverageFai / isRebound10Fai));
 //        itemList.add(new ShowBean("20日线反弹", isRebound20, isRebound20Suc, getResult(isRebound20, isRebound20Suc), isRebound20Suc == 0 ? 0 : rebound20AverageSuc / isRebound20Suc, isRebound20Fai == 0 ? 0 : rebound20AverageFai / isRebound20Fai));
 //        itemList.add(new ShowBean("30日线反弹", isRebound30, isRebound30Suc, getResult(isRebound30, isRebound30Suc), isRebound30Suc == 0 ? 0 : rebound30AverageSuc / isRebound30Suc, isRebound30Fai == 0 ? 0 : rebound30AverageFai / isRebound30Fai));
-        itemList.add(new ShowBean("首板", firstBan, firstBanSuc, getResult(firstBan, firstBanSuc), firstBanSuc == 0 ? 0 : firstBanAverageSuc / firstBanSuc, firstBanFai == 0 ? 0 : firstBanAverageFai / firstBanFai));
-        itemList.add(new ShowBean("二板", twoBan, twoBanSuc, getResult(twoBan, twoBanSuc), twoBanSuc == 0 ? 0 : twoBanAverageSuc / twoBanSuc, twoBanFai == 0 ? 0 : twoBanAverageFai / twoBanFai));
-        itemList.add(new ShowBean("三板", threeBan, threeBanSuc, getResult(threeBan, threeBanSuc), threeBanSuc == 0 ? 0 : threeBanAverageSuc / threeBanSuc, threeBanFai == 0 ? 0 : threeBanAverageFai / threeBanFai));
+        itemList.add(new ShowBean("首板", firstBan, firstBanSuc, getResult(firstBan, firstBanSuc), getResult(firstBan, firstBanNum),firstBanSuc == 0 ? 0 : firstBanAverageSuc / firstBanSuc, firstBanFai == 0 ? 0 : firstBanAverageFai / firstBanFai));
+        itemList.add(new ShowBean("二板", twoBan, twoBanSuc, getResult(twoBan, twoBanSuc), getResult(twoBan,twoBanNum),twoBanSuc == 0 ? 0 : twoBanAverageSuc / twoBanSuc, twoBanFai == 0 ? 0 : twoBanAverageFai / twoBanFai));
+        itemList.add(new ShowBean("三板", threeBan, threeBanSuc, getResult(threeBan, threeBanSuc), getResult(threeBan,threeBanNum),threeBanSuc == 0 ? 0 : threeBanAverageSuc / threeBanSuc, threeBanFai == 0 ? 0 : threeBanAverageFai / threeBanFai));
 //        itemList.add(new ShowBean("高位板", highBan, highBanSuc, getResult(highBan, highBanSuc), highBanSuc == 0 ? 0 : highBanAverageSuc / highBanSuc, highBanFai == 0 ? 0 : highBanAverageFai / highBanFai));
         originalList = new ArrayList<>(itemList); // 备份原始列表
     }
@@ -580,6 +597,20 @@ public class NewStatisticsAdapter extends RecyclerView.Adapter<NewStatisticsAdap
         radio = !radio;
         notifyDataSetChanged();
     }
+    public void changeBanData() {
+        Collections.sort(itemList, new Comparator<ShowBean>() {
+            @Override
+            public int compare(ShowBean bean1, ShowBean bean2) {
+                if (ban) {
+                    return bean2.ban - bean1.ban;
+                } else {
+                    return bean1.ban - bean2.ban;
+                }
+            }
+        });
+        ban = !ban;
+        notifyDataSetChanged();
+    }
 
     public void changeAverageSucData() {
         Collections.sort(itemList, new Comparator<ShowBean>() {
@@ -664,7 +695,7 @@ public class NewStatisticsAdapter extends RecyclerView.Adapter<NewStatisticsAdap
             linearLayout.removeAllViews();
 
             // 动态添加 TextView
-            for (int i = 0; i < 6; i++) {
+            for (int i = 0; i < 7; i++) {
                 TextView textView = new TextView(itemView.getContext());
                 if (i == 0) {
                     textView.setWidth(250); // 名称
@@ -692,11 +723,14 @@ public class NewStatisticsAdapter extends RecyclerView.Adapter<NewStatisticsAdap
                     case 3:
                         textView.setText(data.ratio + "%");
                         break;
-                    case 4:
+                        case 4:
+                        textView.setText(data.ban + "%");
+                        break;
+                    case 5:
                         String formattedResult = String.format("%.2f", data.averageSuc) + "%";
                         textView.setText(formattedResult);
                         break;
-                    case 5:
+                    case 6:
                         String failResult = String.format("%.2f", data.averageFai) + "%";
                         textView.setText(failResult);
                         break;
@@ -712,6 +746,7 @@ public class NewStatisticsAdapter extends RecyclerView.Adapter<NewStatisticsAdap
         private int allTime;
         private int sucTime;
         private int ratio;
+        private int ban;
         private double averageSuc;
         private double averageFai;
 
@@ -729,6 +764,16 @@ public class NewStatisticsAdapter extends RecyclerView.Adapter<NewStatisticsAdap
             this.allTime = allTime;
             this.sucTime = sucTime;
             this.ratio = ratio;
+            this.averageSuc = averageSuc;
+            this.averageFai = averageFai;
+        }
+
+        private ShowBean(String model, int allTime, int sucTime, int ratio,int ban, double averageSuc, double averageFai) {
+            this.model = model;
+            this.allTime = allTime;
+            this.sucTime = sucTime;
+            this.ratio = ratio;
+            this.ban = ban;
             this.averageSuc = averageSuc;
             this.averageFai = averageFai;
         }

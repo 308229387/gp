@@ -4,13 +4,14 @@ import java.io.Serializable;
 
 public class NewStatisticsBean implements Serializable {
     /**
-     * gpName : 金科股份
-     * formerDate : 2023-08-29
-     * mode : 2
-     * lastPrice : 1.55
-     * isBanBuy : false
-     * resultPoint : 4.5
-     * buyReason :
+     * gpName : 中通客车
+     * formerDate : 2023-09-01
+     * mode : 1
+     * lastPrice : 0
+     * isBanBuy : true
+     * marginTrading : false
+     * resultPoint : 2.73
+     * buyReason : 有前高，买的时候比较谨慎，但封板了，非融资
      * image_k :
      * image_buy :
      * image_sell :
@@ -21,6 +22,7 @@ public class NewStatisticsBean implements Serializable {
     private int mode;
     private double lastPrice;
     private boolean isBanBuy;
+    private boolean marginTrading;
     private double resultPoint;
     private String buyReason;
     private String image_k;
@@ -67,6 +69,14 @@ public class NewStatisticsBean implements Serializable {
         this.isBanBuy = isBanBuy;
     }
 
+    public boolean isMarginTrading() {
+        return marginTrading;
+    }
+
+    public void setMarginTrading(boolean marginTrading) {
+        this.marginTrading = marginTrading;
+    }
+
     public double getResultPoint() {
         return resultPoint;
     }
@@ -106,7 +116,6 @@ public class NewStatisticsBean implements Serializable {
     public void setImage_sell(String image_sell) {
         this.image_sell = image_sell;
     }
-
 
 /*    mode购买类型解释
     1: 首板
