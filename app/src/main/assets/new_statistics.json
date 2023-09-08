@@ -37,8 +37,12 @@
     "isBanBuy": true,
     "marginTrading": false,
     "resultPoint": -2.3,
-    "buyReason": "高开震荡向上，排板进，后来后进的大单很多，第二天择机离场",
-    "image_list": []
+    "buyReason": "高开震荡向上，排板，炸时进，后来后进的大单很多，第二天择机离场",
+    "image_list": [
+      "csbm_k",
+      "csbm_b",
+      "csbm_s"
+    ]
   },
   {
     "gpName": "实益达",
@@ -49,7 +53,11 @@
     "marginTrading": false,
     "resultPoint": -6.71,
     "buyReason": "首板炸了，第二天跑的有点早，本来也就亏两三个点就行。",
-    "image_list": []
+    "image_list": [
+      "syd_k",
+      "syd_b",
+      "syd_s"
+    ]
   },
   {
     "gpName": "法狮龙",
@@ -60,7 +68,11 @@
     "marginTrading": false,
     "resultPoint": -1.20,
     "buyReason": "开盘快速上板，打的开板回封但没封住，好在后面没怎么跌，根据以往开盘下杀的规律，开盘就走了。",
-    "image_list": []
+    "image_list": [
+      "fsl_k",
+      "fsl_b",
+      "fsl_s"
+    ]
   },
   {
     "gpName": "中通客车",
@@ -71,7 +83,11 @@
     "marginTrading": true,
     "resultPoint": -3.69,
     "buyReason": "当天涨停气势很足，众泰先板，中通封单也3个亿左右，排单过一会一看排进去了，后炸开，第二天上午等了等，没拉升离场，下午又拉了些",
-    "image_list": []
+    "image_list": [
+      "ztkc_k",
+      "ztkc_b",
+      "ztkc_s"
+    ]
   },
   {
     "gpName": "柯力传感",
@@ -82,7 +98,11 @@
     "marginTrading": false,
     "resultPoint": 2.73,
     "buyReason": "有前高，买的时候比较谨慎，但封板了，非融资",
-    "image_list": []
+    "image_list": [
+      "klcg_k",
+      "klcg_b",
+      "klcg_s"
+    ]
   },
   {
     "gpName": "五洲新春",

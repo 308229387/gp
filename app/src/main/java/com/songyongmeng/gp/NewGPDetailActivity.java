@@ -23,8 +23,10 @@ public class NewGPDetailActivity extends AppCompatActivity {
         TextView name = findViewById(R.id.gp_name);
         TextView result = findViewById(R.id.result_point);
         TextView reason = findViewById(R.id.buy_reason);
+        TextView last = findViewById(R.id.gp_last_price);
         name.setText("股票名称： "+data.getGpName());
         result.setText("获利： "+data.getResultPoint() + "%");
+        last.setText(data.getLastPrice()==0?"未涨停":"封单: "+data.getLastPrice()+"亿");
         reason.setText("购买原因： "+data.getBuyReason());
         ViewPager viewPager = findViewById(R.id.viewPager);
         MyPagerAdapter adapter = new MyPagerAdapter(); // 你需要创建一个适配器
