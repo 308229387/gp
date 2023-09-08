@@ -1,20 +1,19 @@
 package com.songyongmeng.gp;
 
 import java.io.Serializable;
+import java.util.List;
 
 public class NewStatisticsBean implements Serializable {
     /**
-     * gpName : 中通客车
-     * formerDate : 2023-09-01
+     * gpName : 中国武夷
+     * formerDate : 2023-09-06
      * mode : 1
-     * lastPrice : 0
+     * lastPrice : 0.24
      * isBanBuy : true
      * marginTrading : false
-     * resultPoint : 2.73
-     * buyReason : 有前高，买的时候比较谨慎，但封板了，非融资
-     * image_k :
-     * image_buy :
-     * image_sell :
+     * resultPoint : 3.5
+     * buyReason : 下午快速上板，炸后排，上车后，第二天过高点离场，
+     * image_list : ["djx_demo_3","djx_demo_3"]
      */
 
     private String gpName;
@@ -25,9 +24,7 @@ public class NewStatisticsBean implements Serializable {
     private boolean marginTrading;
     private double resultPoint;
     private String buyReason;
-    private String image_k;
-    private String image_buy;
-    private String image_sell;
+    private List<String> image_list;
 
     public String getGpName() {
         return gpName;
@@ -93,29 +90,14 @@ public class NewStatisticsBean implements Serializable {
         this.buyReason = buyReason;
     }
 
-    public String getImage_k() {
-        return image_k;
+    public List<String> getImage_list() {
+        return image_list;
     }
 
-    public void setImage_k(String image_k) {
-        this.image_k = image_k;
+    public void setImage_list(List<String> image_list) {
+        this.image_list = image_list;
     }
 
-    public String getImage_buy() {
-        return image_buy;
-    }
-
-    public void setImage_buy(String image_buy) {
-        this.image_buy = image_buy;
-    }
-
-    public String getImage_sell() {
-        return image_sell;
-    }
-
-    public void setImage_sell(String image_sell) {
-        this.image_sell = image_sell;
-    }
 
 /*    mode购买类型解释
     1: 首板

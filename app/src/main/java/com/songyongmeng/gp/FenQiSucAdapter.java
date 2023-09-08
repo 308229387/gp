@@ -33,6 +33,7 @@ public class FenQiSucAdapter extends RecyclerView.Adapter<FenQiSucAdapter.MyView
     private boolean yesterdayAveragePoint;
     private boolean formerLargeOrder;
     private boolean yesterdayLargeOrder;
+    private boolean firstDayLargeOrder;
     private boolean formerDate;
     private boolean latterLowPointTime;
     private boolean latterTopPointTime;
@@ -175,6 +176,23 @@ public class FenQiSucAdapter extends RecyclerView.Adapter<FenQiSucAdapter.MyView
 
         Collections.sort(mDataList, comparator);
         yesterdayLargeOrder = !yesterdayLargeOrder;
+        notifyDataSetChanged();
+    }
+
+    public void changeFirstDayLargeOrder() {
+        comparator = new Comparator<FenQiSucBean>() {
+            @Override
+            public int compare(FenQiSucBean bean1, FenQiSucBean bean2) {
+                if (firstDayLargeOrder) {
+                    return Double.compare(bean1.getFirstDayLargeOrder(), bean2.getFirstDayLargeOrder());
+                } else {
+                    return Double.compare(bean2.getFirstDayLargeOrder(), bean1.getFirstDayLargeOrder());
+                }
+            }
+        };
+
+        Collections.sort(mDataList, comparator);
+        firstDayLargeOrder = !firstDayLargeOrder;
         notifyDataSetChanged();
     }
 
@@ -429,11 +447,11 @@ public class FenQiSucAdapter extends RecyclerView.Adapter<FenQiSucAdapter.MyView
             linearLayout.removeAllViews();
 
             // 动态添加 TextView
-            for (int i = 0; i < 19; i++) {
+            for (int i = 0; i < 20; i++) {
                 TextView textView = new TextView(itemView.getContext());
                 if (i == 0) {
                     textView.setWidth(250); // 名称
-                } else if (i == 18) {
+                } else if (i == 19) {
                     textView.setWidth(270); // 日期
                 } else {
                     textView.setWidth(230); // 设置宽度为200像素
@@ -496,21 +514,24 @@ public class FenQiSucAdapter extends RecyclerView.Adapter<FenQiSucAdapter.MyView
                         textView.setText(data.getYesterdayAveragePoint() + "%");
                         break;
                     case 13:
-                        textView.setText(data.getYesterdayLargeOrder() + "千万");
+                        textView.setText(data.getFirstDayLargeOrder() + "千万");
                         break;
                     case 14:
-                        textView.setText(data.getFormerLargeOrder() + "千万");
+                        textView.setText(data.getYesterdayLargeOrder() + "千万");
                         break;
                     case 15:
-                        textView.setText(data.getLastPrice() + "亿");
+                        textView.setText(data.getFormerLargeOrder() + "千万");
                         break;
                     case 16:
-                        textView.setText(data.getYesterdayLastPrice() + "亿");
+                        textView.setText(data.getLastPrice() + "亿");
                         break;
                     case 17:
-                        textView.setText(data.getFormerAllValue() + "亿");
+                        textView.setText(data.getYesterdayLastPrice() + "亿");
                         break;
                     case 18:
+                        textView.setText(data.getFormerAllValue() + "亿");
+                        break;
+                    case 19:
                         textView.setText(data.getFormerDate());
                         break;
                 }

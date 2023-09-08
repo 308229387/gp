@@ -23,6 +23,7 @@ public class FenQiSucBean implements Serializable {
      * yesterdayLastPrice : 0.4
      * formerLargeOrder : 0.23
      * yesterdayLargeOrder : 1.56
+     * firstDayLargeOrder : 9.18
      * formerAllValue : 59.71
      * formerDate : 2023-08-21
      * image_2 : qdhj_2_bid
@@ -46,6 +47,7 @@ public class FenQiSucBean implements Serializable {
     private double yesterdayLastPrice;
     private double formerLargeOrder;
     private double yesterdayLargeOrder;
+    private double firstDayLargeOrder;
     private double formerAllValue;
     private String formerDate;
     private String image_2;
@@ -185,6 +187,14 @@ public class FenQiSucBean implements Serializable {
 
     public void setYesterdayLargeOrder(double yesterdayLargeOrder) {
         this.yesterdayLargeOrder = yesterdayLargeOrder;
+    }
+
+    public double getFirstDayLargeOrder() {
+        return firstDayLargeOrder;
+    }
+
+    public void setFirstDayLargeOrder(double firstDayLargeOrder) {
+        this.firstDayLargeOrder = firstDayLargeOrder;
     }
 
     public double getFormerAllValue() {

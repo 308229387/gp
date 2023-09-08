@@ -1,5 +1,6 @@
 package com.songyongmeng.gp;
 
+import android.annotation.SuppressLint;
 import android.graphics.Color;
 import android.view.Gravity;
 import android.view.LayoutInflater;
@@ -9,6 +10,9 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import androidx.recyclerview.widget.RecyclerView;
+
+import com.songyongmeng.gp.utils.NewOnDetailItemClickListener;
+import com.songyongmeng.gp.utils.OnDetailItemClickListener;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -55,6 +59,7 @@ public class NewSumUpListAdapter extends RecyclerView.Adapter<NewSumUpListAdapte
     private boolean isIsBanBuy;
     private boolean isMarginTrading;
     private int where = 0;
+    private NewOnDetailItemClickListener mListener;
 
     public NewSumUpListAdapter(List<NewStatisticsBean> dataList) {
         this.mDataList = dataList;
@@ -68,9 +73,19 @@ public class NewSumUpListAdapter extends RecyclerView.Adapter<NewSumUpListAdapte
     }
 
     @Override
-    public void onBindViewHolder(MyViewHolder holder, int position) {
+    public void onBindViewHolder(MyViewHolder holder, @SuppressLint("RecyclerView") int position) {
         NewStatisticsBean data = mDataList.get(position);
+
         holder.bindData(data);
+
+        holder.itemView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if (mListener != null) {
+                    mListener.onItemClick(mDataList.get(position));
+                }
+            }
+        });
     }
 
     @Override
@@ -427,6 +442,10 @@ public class NewSumUpListAdapter extends RecyclerView.Adapter<NewSumUpListAdapte
         Collections.sort(mDataList, comparator);
         formerDate = !formerDate;
         notifyDataSetChanged();
+    }
+
+    public void setOnDetailItemClickListener(NewOnDetailItemClickListener listener) {
+        mListener = listener;
     }
 //
 //    public void changeFormerAmPm() {

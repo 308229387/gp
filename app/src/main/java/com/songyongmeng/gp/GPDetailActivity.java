@@ -21,6 +21,5 @@ public class GPDetailActivity extends AppCompatActivity {
         StatisticsBean data = (StatisticsBean) intent.getSerializableExtra("gpDetailData");
         int id = ToolUtils.getImages(data.getImage());
         Glide.with(this).load(id).into((ImageView) findViewById(R.id.gp_detail_image_view));
-
     }
 }

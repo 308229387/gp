@@ -13,6 +13,10 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.songyongmeng.gp.utils.NewOnDetailItemClickListener;
+import com.songyongmeng.gp.utils.OnDetailItemClickListener;
+
+import java.io.Serializable;
 import java.util.ArrayList;
 
 public class NewSumUpListActivity extends AppCompatActivity {
@@ -31,6 +35,17 @@ public class NewSumUpListActivity extends AppCompatActivity {
             LinearLayout buttonLayout = findViewById(R.id.fen_qi_top_button_layout);
             two(buttonLayout);
             adapter = new NewSumUpListAdapter(receivedList);
+
+            adapter.setOnDetailItemClickListener(new NewOnDetailItemClickListener() {
+                @Override
+                public void onItemClick(NewStatisticsBean position) {
+                    // 处理 item 点击事件
+                    Intent intent = new Intent(NewSumUpListActivity.this,NewGPDetailActivity.class);
+                    intent.putExtra("gpDetailData", (Serializable) position);
+                    startActivity(intent);
+                }
+            });
+
             RecyclerView recyclerView = findViewById(R.id.fen_qi_list);
             recyclerView.setLayoutManager(new LinearLayoutManager(this)); // 设置布局管理器
             recyclerView.setAdapter(adapter);
