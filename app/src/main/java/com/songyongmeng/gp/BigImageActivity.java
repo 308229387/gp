@@ -20,13 +20,18 @@ public class BigImageActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.big_image_layout);
         int image = getIntent().getIntExtra("image", 0);
+        isVertical = getIntent().getStringExtra("orientation").equals("vertical");
 
         ZoomableImageView imageView = findViewById(R.id.image_view);
         TextView change = findViewById(R.id.change_layout);
 //        Bitmap bitmap = BitmapFactory.decodeResource(getResources(),image);
 //        imageView.setImageBitmap(bitmap);
         Glide.with(this).load(image).into(imageView);
-        setHorizontal();
+        if (isVertical) {
+            setVertical();
+        } else {
+            setHorizontal();
+        }
         change.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

@@ -29,7 +29,7 @@ public class NewGPDetailActivity extends AppCompatActivity {
         last.setText(data.getLastPrice()==0?"未涨停":"封单: "+data.getLastPrice()+"亿");
         reason.setText("购买原因： "+data.getBuyReason());
         ViewPager viewPager = findViewById(R.id.viewPager);
-        MyPagerAdapter adapter = new MyPagerAdapter(); // 你需要创建一个适配器
+        MyPagerAdapter adapter = new MyPagerAdapter(this); // 你需要创建一个适配器
         adapter.setImageList(images);
         viewPager.setAdapter(adapter);
     }

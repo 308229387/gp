@@ -124,7 +124,11 @@
     "marginTrading": true,
     "resultPoint": 4.5,
     "buyReason": "开盘后快速涨停，大封单4个多亿，量能平量，几分钟后开板入手，后经过大幅震荡再度封板，让当天量能比较合适，龙虎榜有炒股养家",
-    "image_list": []
+    "image_list": [
+      "jkgf_2k",
+      "jkgf_2b",
+      "jkgf_2s"
+    ]
   },
   {
     "gpName": "新大正",
@@ -146,7 +150,11 @@
     "marginTrading": true,
     "resultPoint": 7.55,
     "buyReason": "3-4个点震荡1个多小时，后快速拉升到涨停，小幅释放空头后再度回封，封单从0.6加到1.21",
-    "image_list": []
+    "image_list": [
+      "dhkj_k",
+      "dhkj_b",
+      "dhkj_s"
+    ]
   },
   {
     "gpName": "美丽生态",
@@ -201,7 +209,11 @@
     "marginTrading": false,
     "resultPoint": 5.02,
     "buyReason": "快速涨停后排板排到，第二天冲高出，当天量能很合适",
-    "image_list": []
+    "image_list": [
+      "yhzn_k",
+      "yhzn_b",
+      "yhzn_s"
+    ]
   },
   {
     "gpName": "鸿博股份",
@@ -223,7 +235,11 @@
     "marginTrading": true,
     "resultPoint": -8.42,
     "buyReason": "骗线，8个多点就急急忙忙买了，结果大幅亏损",
-    "image_list": []
+    "image_list": [
+      "dhzn_k",
+      "dhzn_b",
+      "dhzn_s"
+    ]
   },
   {
     "gpName": "新时达",
@@ -234,7 +250,11 @@
     "marginTrading": true,
     "resultPoint": -8.74,
     "buyReason": "博缩量一致，后炸板",
-    "image_list": []
+    "image_list": [
+      "xsd_k",
+      "xsd_b",
+      "xsd_s"
+    ]
   },
   {
     "gpName": "启迪环境",
@@ -245,7 +265,12 @@
     "marginTrading": true,
     "resultPoint": 20.07,
     "buyReason": "骗线，8个多点就急急忙忙买了，结果大幅亏损",
-    "image_list": []
+    "image_list": [
+      "qdhj_k",
+      "qdhj_b",
+      "qdhj_2",
+      "qdhj_s"
+    ]
   },
   {
     "gpName": "东方园林",
@@ -311,7 +336,11 @@
     "marginTrading": true,
     "resultPoint": -7.68,
     "buyReason": "高开，后上板，板上入场，但遇顶就走了，第二天低开，有机会走，但走早了。",
-    "image_list": []
+    "image_list": [
+      "dzjk_k",
+      "dzjk_b",
+      "dzjk_s"
+    ]
   },
   {
     "gpName": "开开实业",
@@ -333,7 +362,11 @@
     "marginTrading": true,
     "resultPoint": 4.26,
     "buyReason": "分时形态看着不错，在洪都燃气和它之间，选择了贵州，辨识度高一些。第二天有议价离场。",
-    "image_list": []
+    "image_list": [
+      "gzrq_k",
+      "gzrq_b",
+      "gzrq_s"
+    ]
   },
   {
     "gpName": "竞业达",
@@ -388,7 +421,11 @@
     "marginTrading": true,
     "resultPoint": 6.33,
     "buyReason": "高开缩量上攻，斜线直接涨停，8个点左右上车",
-    "image_list": []
+    "image_list": [
+      "sczq_k",
+      "sczq_b",
+      "sczq_s"
+    ]
   },
   {
     "gpName": "柯利达",
@@ -421,7 +458,11 @@
     "resultPoint": -12.05,
     "marginTrading": false,
     "buyReason": "早盘调整后冲涨停，板上上车，但大幅回落，第二天开盘冲高后离场",
-    "image_list": []
+    "image_list": [
+      "rdqh_k",
+      "rdqh_b",
+      "rdqh_s"
+    ]
   },
   {
     "gpName": "西南证券",
@@ -432,7 +473,11 @@
     "marginTrading": true,
     "resultPoint": -7.06,
     "buyReason": "倒数第二档上车，开盘冲高失败，第二天开盘离场",
-    "image_list": []
+    "image_list": [
+      "xnzq_k",
+      "xnzq_b",
+      "xnzq_s"
+    ]
   },
   {
     "gpName": "金科股份",
@@ -443,6 +488,11 @@
     "marginTrading": true,
     "resultPoint": 13.29,
     "buyReason": "房地产热点，高开无下影线，开盘缩量上涨，冲板上车，后封死第二天一字",
-    "image_list": []
+    "image_list": [
+      "jkgf_k",
+      "jkgf_b",
+      "jkgf_2",
+      "jkgf_s"
+    ]
   }
 ]
