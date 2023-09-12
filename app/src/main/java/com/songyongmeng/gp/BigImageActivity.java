@@ -29,8 +29,6 @@ public class BigImageActivity extends Activity {
         Glide.with(this).load(image).into(imageView);
         if (isVertical) {
             setVertical();
-        } else {
-            setHorizontal();
         }
         change.setOnClickListener(new View.OnClickListener() {
             @Override

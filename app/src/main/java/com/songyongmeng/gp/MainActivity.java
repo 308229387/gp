@@ -5,7 +5,6 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ExpandableListView;
 import android.widget.FrameLayout;
-import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -14,7 +13,6 @@ import com.google.gson.reflect.TypeToken;
 import com.orhanobut.hawk.Hawk;
 import com.songyongmeng.gp.dialog.RememberDialog;
 import com.songyongmeng.gp.utils.AssetsUtils;
-import com.songyongmeng.gp.utils.SPManager;
 import com.songyongmeng.gp.utils.Utility;
 
 import java.util.ArrayList;
@@ -112,17 +110,17 @@ public class MainActivity extends AppCompatActivity {
                     toStatistics(statisticsData);
                 } else if (allData.get(groupPosition).getData().get(childPosition).getRichText().get(0).equals("title:新概率总结")) {
                     toNewStatistics();
-                }else if (allData.get(groupPosition).getData().get(childPosition).getRichText().get(0).equals("title:数据分析")) {
+                } else if (allData.get(groupPosition).getData().get(childPosition).getRichText().get(0).equals("title:数据分析")) {
                     toSell();
-                }else if(allData.get(groupPosition).getData().get(childPosition).getRichText().get(0).equals("title:分歧转一致")){
+                } else if (allData.get(groupPosition).getData().get(childPosition).getRichText().get(0).equals("title:分歧转一致")) {
                     toFenQi();
-                }else if(allData.get(groupPosition).getData().get(childPosition).getRichText().get(0).equals("title:打二板")){
+                } else if (allData.get(groupPosition).getData().get(childPosition).getRichText().get(0).equals("title:打二板")) {
                     toFenQiEr();
-                }else if(allData.get(groupPosition).getData().get(childPosition).getRichText().get(0).equals("title:二板上影线")){
+                } else if (allData.get(groupPosition).getData().get(childPosition).getRichText().get(0).equals("title:二板上影线")) {
                     toShangYing();
-                }else if(allData.get(groupPosition).getData().get(childPosition).getRichText().get(0).equals("title:分歧转一致成功")){
+                } else if (allData.get(groupPosition).getData().get(childPosition).getRichText().get(0).equals("title:分歧转一致成功")) {
                     toFenQiSuc();
-                }else {
+                } else {
                     toDetail((ArrayList<String>) allData.get(groupPosition).getData().get(childPosition).getRichText());
                 }
                 return true;
@@ -139,22 +137,26 @@ public class MainActivity extends AppCompatActivity {
 
     private void toFenQiEr() {
         Intent intent = new Intent(MainActivity.this, FenQiActivity.class);
-        intent.putExtra("from","2");
+        intent.putExtra("from", "2");
         startActivity(intent);
     }
+
     private void toShangYing() {
         Intent intent = new Intent(MainActivity.this, ErBanShangYingXianActivity.class);
         startActivity(intent);
     }
+
     private void toFenQiSuc() {
         Intent intent = new Intent(MainActivity.this, FenQiSucActivity.class);
         startActivity(intent);
     }
+
     private void toFenQi() {
         Intent intent = new Intent(MainActivity.this, FenQiActivity.class);
-        intent.putExtra("from","3");
+        intent.putExtra("from", "3");
         startActivity(intent);
     }
+
     private void toDetail(ArrayList<String> imageList) {
         Intent intent = new Intent(MainActivity.this, QADetailActivity.class);
         intent.putStringArrayListExtra("imageList", imageList);

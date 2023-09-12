@@ -21,7 +21,6 @@ public class NewStatisticsBean implements Serializable {
     private int mode;
     private double lastPrice;
     private boolean isBanBuy;
-    private boolean marginTrading;
     private double resultPoint;
     private String buyReason;
     private List<String> image_list;
@@ -64,14 +63,6 @@ public class NewStatisticsBean implements Serializable {
 
     public void setIsBanBuy(boolean isBanBuy) {
         this.isBanBuy = isBanBuy;
-    }
-
-    public boolean isMarginTrading() {
-        return marginTrading;
-    }
-
-    public void setMarginTrading(boolean marginTrading) {
-        this.marginTrading = marginTrading;
     }
 
     public double getResultPoint() {

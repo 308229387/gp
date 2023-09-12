@@ -1,11 +1,74 @@
 [
   {
+    "gpName": "奥普光电",
+    "formerDate": "2023-09-11",
+    "mode": 2,
+    "lastPrice": 0,
+    "isBanBuy": true,
+    "resultPoint": -10.0,
+    "buyReason": "断板接力后二板，位置比较高了，而且也到前高，强分歧，倍量，开了好几次板，量能并没有爆量，大单也从流出1个多亿，变成流出几千万，最后一个小时板都封不住，板上一直有成交。第二天低开5个点，越拿越低，最后实在不行，板上走了。",
+    "image_list": [
+      "apgd_k",
+      "apgd_b",
+      "apgd_s"
+    ]
+  },
+  {
+    "gpName": "云赛智联",
+    "formerDate": "2023-09-11",
+    "mode": 1,
+    "lastPrice": 0,
+    "isBanBuy": true,
+    "resultPoint": -1.64,
+    "buyReason": "上板时没怎么放量，前面有5亿多封单，100多亿流通盘，排了一会进去了，封单又3亿多，再过一会开了",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "铭普光磁",
+    "formerDate": "2023-09-11",
+    "mode": 1,
+    "lastPrice": 0.75,
+    "isBanBuy": true,
+    "resultPoint": 4.64,
+    "buyReason": "首板快速拉涨停，涨停附近调整几分钟后，再次回封，封板4个多亿，排队一会上车，当天看龙虎榜有上塘路，第二天到5个点附近就下车了，后涨停。。。",
+    "image_list": [
+      "mpgc_k",
+      "mpgc_b",
+      "mpgc_s"
+    ]
+  },
+  {
+    "gpName": "张江高科",
+    "formerDate": "2023-09-08",
+    "mode": 2,
+    "lastPrice": 1.27,
+    "isBanBuy": true,
+    "resultPoint": 18.64,
+    "buyReason": "首板那天版块就两只，张江和中国武夷，张江10点左右就封板了，封单也3、4个亿，很稳，那天买了同版块的中国武夷。张江二板表现也很强势，5个点左右震荡后直接拉涨停，涨停板上车，倍量，三板直接加速，四板开盘未涨停离场，顾虑是流通盘比较大，300多亿",
+    "image_list": [
+      "zjgk_b",
+      "zjgk_2",
+      "zjgk_s"
+    ]
+  },
+  {
+    "gpName": "高斯贝尔",
+    "formerDate": "2023-09-08",
+    "mode": 1,
+    "lastPrice": 0.45,
+    "isBanBuy": true,
+    "resultPoint": 3.4,
+    "buyReason": "开盘快速上板，前一天有冲高，排单时好像有7千多万了，后在10点多排上",
+    "image_list": [
+    ]
+  },
+  {
     "gpName": "中国武夷",
     "formerDate": "2023-09-06",
     "mode": 1,
     "lastPrice": 0.24,
     "isBanBuy": true,
-    "marginTrading": false,
     "resultPoint": 3.5,
     "buyReason": "下午快速上板，炸后排，上车后，第二天过高点离场，",
     "image_list": [
@@ -20,7 +83,6 @@
     "mode": 1,
     "lastPrice": 0,
     "isBanBuy": true,
-    "marginTrading": false,
     "resultPoint": -4.3,
     "buyReason": "高开下跌震荡半个多小时，后一笔拉涨停，排板上车，后炸，当天浮亏6个点。第二天卖在顶点",
     "image_list": [
@@ -35,7 +97,6 @@
     "mode": 2,
     "lastPrice": 0,
     "isBanBuy": true,
-    "marginTrading": false,
     "resultPoint": -2.3,
     "buyReason": "高开震荡向上，排板，炸时进，后来后进的大单很多，第二天择机离场",
     "image_list": [
@@ -50,7 +111,6 @@
     "mode": 1,
     "lastPrice": 0,
     "isBanBuy": true,
-    "marginTrading": false,
     "resultPoint": -6.71,
     "buyReason": "首板炸了，第二天跑的有点早，本来也就亏两三个点就行。",
     "image_list": [
@@ -65,7 +125,6 @@
     "mode": 1,
     "lastPrice": 0,
     "isBanBuy": true,
-    "marginTrading": false,
     "resultPoint": -1.20,
     "buyReason": "开盘快速上板，打的开板回封但没封住，好在后面没怎么跌，根据以往开盘下杀的规律，开盘就走了。",
     "image_list": [
@@ -80,7 +139,6 @@
     "mode": 1,
     "lastPrice": 0,
     "isBanBuy": true,
-    "marginTrading": true,
     "resultPoint": -3.69,
     "buyReason": "当天涨停气势很足，众泰先板，中通封单也3个亿左右，排单过一会一看排进去了，后炸开，第二天上午等了等，没拉升离场，下午又拉了些",
     "image_list": [
@@ -95,7 +153,6 @@
     "mode": 2,
     "lastPrice": 0.47,
     "isBanBuy": true,
-    "marginTrading": false,
     "resultPoint": 2.73,
     "buyReason": "有前高，买的时候比较谨慎，但封板了，非融资",
     "image_list": [
@@ -110,7 +167,6 @@
     "mode": 2,
     "lastPrice": 0,
     "isBanBuy": true,
-    "marginTrading": true,
     "resultPoint": -2.07,
     "buyReason": "高开，高走快速上板，竞价比较强，排板被炸进去了，融资标",
     "image_list": []
@@ -121,7 +177,6 @@
     "mode": 2,
     "lastPrice": 1.55,
     "isBanBuy": false,
-    "marginTrading": true,
     "resultPoint": 4.5,
     "buyReason": "开盘后快速涨停，大封单4个多亿，量能平量，几分钟后开板入手，后经过大幅震荡再度封板，让当天量能比较合适，龙虎榜有炒股养家",
     "image_list": [
@@ -136,7 +191,6 @@
     "mode": 2,
     "lastPrice": 0.36,
     "isBanBuy": true,
-    "marginTrading": false,
     "resultPoint": 0.79,
     "buyReason": "有均线压制，1板量能有点大，二板上板时约平量，后烂板，当天封单很小，第二天刚开盘调整，红盘卖掉，后中间有冲高到5-6个点。",
     "image_list": []
@@ -147,7 +201,6 @@
     "mode": 2,
     "lastPrice": 1.21,
     "isBanBuy": true,
-    "marginTrading": true,
     "resultPoint": 7.55,
     "buyReason": "3-4个点震荡1个多小时，后快速拉升到涨停，小幅释放空头后再度回封，封单从0.6加到1.21",
     "image_list": [
@@ -162,7 +215,6 @@
     "mode": 2,
     "lastPrice": 0.64,
     "isBanBuy": false,
-    "marginTrading": false,
     "resultPoint": -4.54,
     "buyReason": "当时冲高拉涨停时，看着量能是平量，也有些大单，上午环境也还行就上了，后面没有再放量，平量+有前高，第二天直接下跌，4个多点止损离场",
     "image_list": []
@@ -173,7 +225,6 @@
     "mode": 2,
     "lastPrice": 0.09,
     "isBanBuy": true,
-    "marginTrading": false,
     "resultPoint": 3.44,
     "buyReason": "买时倍量，但没封住，全天栏板，当时还有托单，以为要挂了，但第二天有冲高离场，尾盘2.30多拉到近乎涨停。",
     "image_list": []
@@ -184,7 +235,6 @@
     "mode": 3,
     "lastPrice": 0,
     "isBanBuy": false,
-    "marginTrading": false,
     "resultPoint": -4.05,
     "buyReason": "二板近乎倍量，三板高开上攻，涨停附近入手，后封板，0.8亿封单，后在尾盘炸板，第二天冲高失败后离场。",
     "image_list": []
@@ -195,7 +245,6 @@
     "mode": 2,
     "lastPrice": 0.36,
     "isBanBuy": true,
-    "marginTrading": false,
     "resultPoint": 1.59,
     "buyReason": "开盘急拉，回封入场。尾盘3千多万封单，大单-2千多万，加上环境差，第二天冒个头就一路下滑",
     "image_list": []
@@ -206,7 +255,6 @@
     "mode": 2,
     "lastPrice": 2.25,
     "isBanBuy": true,
-    "marginTrading": false,
     "resultPoint": 5.02,
     "buyReason": "快速涨停后排板排到，第二天冲高出，当天量能很合适",
     "image_list": [
@@ -221,7 +269,6 @@
     "mode": 2,
     "lastPrice": 3.18,
     "isBanBuy": false,
-    "marginTrading": true,
     "resultPoint": -6.34,
     "buyReason": "一字板开盘后买入，后封板，看着封单也不小，但第二天大幅低开，割",
     "image_list": []
@@ -232,7 +279,6 @@
     "mode": 2,
     "lastPrice": 0,
     "isBanBuy": false,
-    "marginTrading": true,
     "resultPoint": -8.42,
     "buyReason": "骗线，8个多点就急急忙忙买了，结果大幅亏损",
     "image_list": [
@@ -247,7 +293,6 @@
     "mode": 3,
     "lastPrice": 0,
     "isBanBuy": false,
-    "marginTrading": true,
     "resultPoint": -8.74,
     "buyReason": "博缩量一致，后炸板",
     "image_list": [
@@ -262,7 +307,6 @@
     "mode": 2,
     "lastPrice": 0.6,
     "isBanBuy": true,
-    "marginTrading": true,
     "resultPoint": 20.07,
     "buyReason": "骗线，8个多点就急急忙忙买了，结果大幅亏损",
     "image_list": [
@@ -278,7 +322,6 @@
     "mode": 1,
     "lastPrice": 0,
     "isBanBuy": false,
-    "marginTrading": true,
     "resultPoint": -4.09,
     "buyReason": "被骗线，最后几档9个多点回落,卖出后涨停",
     "image_list": []
@@ -289,7 +332,6 @@
     "mode": 1,
     "lastPrice": 0,
     "isBanBuy": false,
-    "marginTrading": true,
     "resultPoint": -3.46,
     "buyReason": "半路，高点入，第二天出后，尾盘涨停",
     "image_list": []
@@ -300,7 +342,6 @@
     "mode": 1,
     "lastPrice": 0.62,
     "isBanBuy": true,
-    "marginTrading": true,
     "resultPoint": -2.62,
     "buyReason": "首板栏板，第二天无议价，上午快过半抛",
     "image_list": []
@@ -311,7 +352,6 @@
     "mode": 1,
     "lastPrice": 0,
     "isBanBuy": false,
-    "marginTrading": true,
     "resultPoint": -2.56,
     "buyReason": "想打半路首板，未封板，第二天冲高5个点卖出",
     "image_list": []
@@ -322,7 +362,6 @@
     "mode": 1,
     "lastPrice": 0.04,
     "isBanBuy": true,
-    "marginTrading": true,
     "resultPoint": -3.79,
     "buyReason": "首板排板上车，下午烂板，第二天无上攻意图离场",
     "image_list": []
@@ -333,7 +372,6 @@
     "mode": 2,
     "lastPrice": 0,
     "isBanBuy": true,
-    "marginTrading": true,
     "resultPoint": -7.68,
     "buyReason": "高开，后上板，板上入场，但遇顶就走了，第二天低开，有机会走，但走早了。",
     "image_list": [
@@ -348,7 +386,6 @@
     "mode": 2,
     "lastPrice": 0,
     "isBanBuy": true,
-    "marginTrading": false,
     "resultPoint": -6.99,
     "buyReason": "微高开，快速拉升，释放下空头后上板，板上入场，后秒开，红上影线，第二天拉升了点就走了，后涨停，开启一波5板多的主升",
     "image_list": []
@@ -359,7 +396,6 @@
     "mode": 1,
     "lastPrice": 0.57,
     "isBanBuy": false,
-    "marginTrading": true,
     "resultPoint": 4.26,
     "buyReason": "分时形态看着不错，在洪都燃气和它之间，选择了贵州，辨识度高一些。第二天有议价离场。",
     "image_list": [
@@ -374,7 +410,6 @@
     "mode": 1,
     "lastPrice": 0.84,
     "isBanBuy": true,
-    "marginTrading": false,
     "resultPoint": 2.49,
     "buyReason": "版块表现不错，从中选择辨识度较高的竞业达，上板瞬间上车，上午小冲高离场",
     "image_list": []
@@ -385,7 +420,6 @@
     "mode": 3,
     "lastPrice": 0,
     "isBanBuy": true,
-    "marginTrading": true,
     "resultPoint": -7.03,
     "buyReason": "一板二板量能都倍量，三板开盘点不及二板，但有上攻动作，想做分歧转一致，就板上车了，后失败，第二天惨淡离场",
     "image_list": []
@@ -396,7 +430,6 @@
     "mode": 2,
     "lastPrice": 0,
     "isBanBuy": false,
-    "marginTrading": false,
     "resultPoint": -6.28,
     "buyReason": "首板量能约2倍，开盘高开后上攻7-8点震荡，拉升后还一两个档着急上车，第二天早上低开冲高卖。",
     "image_list": []
@@ -407,7 +440,6 @@
     "mode": 3,
     "lastPrice": 0,
     "isBanBuy": false,
-    "marginTrading": true,
     "resultPoint": -6.28,
     "buyReason": "二板放量，三板高开幅度不及二板，差1、2个档上车，震荡，中间封了一段时间，下午又烂板，最后未封住，差一点，第二天无上攻意图离场",
     "image_list": []
@@ -418,7 +450,6 @@
     "mode": 2,
     "lastPrice": 1.64,
     "isBanBuy": false,
-    "marginTrading": true,
     "resultPoint": 6.33,
     "buyReason": "高开缩量上攻，斜线直接涨停，8个点左右上车",
     "image_list": [
@@ -433,7 +464,6 @@
     "mode": 3,
     "lastPrice": 0.28,
     "isBanBuy": false,
-    "marginTrading": false,
     "resultPoint": -3.31,
     "buyReason": "开盘释放空头后，快速上板，9个点左右上车，当天本来应该转一至，结果中间炸了一次，第二天直接低开，稍等后离场",
     "image_list": []
@@ -444,7 +474,6 @@
     "mode": 3,
     "lastPrice": 0,
     "isBanBuy": false,
-    "marginTrading": false,
     "resultPoint": -7.01,
     "buyReason": "早上版块有热度，看有拉升，就想着做一致，当天有快触及涨停，但很快回落。第二天开盘离场",
     "image_list": []
@@ -456,7 +485,6 @@
     "lastPrice": 0,
     "isBanBuy": true,
     "resultPoint": -12.05,
-    "marginTrading": false,
     "buyReason": "早盘调整后冲涨停，板上上车，但大幅回落，第二天开盘冲高后离场",
     "image_list": [
       "rdqh_k",
@@ -470,7 +498,6 @@
     "mode": 3,
     "lastPrice": 0,
     "isBanBuy": false,
-    "marginTrading": true,
     "resultPoint": -7.06,
     "buyReason": "倒数第二档上车，开盘冲高失败，第二天开盘离场",
     "image_list": [
@@ -485,7 +512,6 @@
     "mode": 3,
     "lastPrice": 0,
     "isBanBuy": true,
-    "marginTrading": true,
     "resultPoint": 13.29,
     "buyReason": "房地产热点，高开无下影线，开盘缩量上涨，冲板上车，后封死第二天一字",
     "image_list": [

@@ -152,22 +152,6 @@ public class NewSumUpListAdapter extends RecyclerView.Adapter<NewSumUpListAdapte
         notifyDataSetChanged();
     }
 
-    public void changeIsMarginTrading() {
-        Comparator<NewStatisticsBean> comparator = new Comparator<NewStatisticsBean>() {
-            @Override
-            public int compare(NewStatisticsBean bean1, NewStatisticsBean bean2) {
-                if (isMarginTrading) {
-                    return Boolean.compare(bean2.isMarginTrading(), bean1.isMarginTrading());
-                } else {
-                    return Boolean.compare(bean1.isMarginTrading(), bean2.isMarginTrading());
-                }
-            }
-        };
-
-        Collections.sort(mDataList, comparator);
-        isMarginTrading = !isMarginTrading;
-        notifyDataSetChanged();
-    }
     public void changeIsBanBuy() {
         Comparator<NewStatisticsBean> comparator = new Comparator<NewStatisticsBean>() {
             @Override
@@ -478,11 +462,11 @@ public class NewSumUpListAdapter extends RecyclerView.Adapter<NewSumUpListAdapte
             linearLayout.removeAllViews();
 
             // 动态添加 TextView
-            for (int i = 0; i < 7; i++) {
+            for (int i = 0; i < 6; i++) {
                 TextView textView = new TextView(itemView.getContext());
                 if (i == 0) {
                     textView.setWidth(250); // 名称
-                } else if (i == 6) {
+                } else if (i == 5) {
                     textView.setWidth(270); // 日期
                 } else {
                     textView.setWidth(230); // 设置宽度为200像素
@@ -509,16 +493,13 @@ public class NewSumUpListAdapter extends RecyclerView.Adapter<NewSumUpListAdapte
                         textView.setText(data.getLastPrice()>0 ? "涨停" : "未涨停");
                         break;
                     case 4:
-                        textView.setText(data.isMarginTrading()?"融券":"非");
-                        break;
-                    case 5:
                         if(data.getLastPrice()>0){
                             textView.setText(data.getLastPrice() + "亿");
                         }else{
                             textView.setText("-");
                         }
                         break;
-                    case 6:
+                    case 5:
                         textView.setText(data.getFormerDate());
                         break;
 //                    case 5:
