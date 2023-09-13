@@ -120,6 +120,8 @@ public class MainActivity extends AppCompatActivity {
                     toShangYing();
                 } else if (allData.get(groupPosition).getData().get(childPosition).getRichText().get(0).equals("title:分歧转一致成功")) {
                     toFenQiSuc();
+                }else if (allData.get(groupPosition).getData().get(childPosition).getRichText().get(0).equals("title:统计有量竞价")) {
+                    toBidding();
                 } else {
                     toDetail((ArrayList<String>) allData.get(groupPosition).getData().get(childPosition).getRichText());
                 }
@@ -148,6 +150,10 @@ public class MainActivity extends AppCompatActivity {
 
     private void toFenQiSuc() {
         Intent intent = new Intent(MainActivity.this, FenQiSucActivity.class);
+        startActivity(intent);
+    }
+    private void toBidding() {
+        Intent intent = new Intent(MainActivity.this, BiddingStatisticsActivity.class);
         startActivity(intent);
     }
 

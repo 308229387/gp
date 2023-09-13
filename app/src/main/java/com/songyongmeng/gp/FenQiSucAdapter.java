@@ -83,6 +83,7 @@ public class FenQiSucAdapter extends RecyclerView.Adapter<FenQiSucAdapter.MyView
                 Intent intent = new Intent(mContext,BigImageActivity.class);
                 int id = ToolUtils.getImages(data.getImage().replace("image:", ""));
                 intent.putExtra("image",id);
+                intent.putExtra("orientation","horizontal");
                 mContext.startActivity(intent);
             }
         });
@@ -92,6 +93,7 @@ public class FenQiSucAdapter extends RecyclerView.Adapter<FenQiSucAdapter.MyView
                 Intent intent = new Intent(mContext,BigImageActivity.class);
                 int id = ToolUtils.getImages(data.getImage_2().replace("image:", ""));
                 intent.putExtra("image",id);
+                intent.putExtra("orientation","horizontal");
                 mContext.startActivity(intent);
                 return false;
             }

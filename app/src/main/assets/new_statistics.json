@@ -5,7 +5,7 @@
     "mode": 2,
     "lastPrice": 0,
     "isBanBuy": true,
-    "resultPoint": -10.0,
+    "resultPoint": -10.14,
     "buyReason": "断板接力后二板，位置比较高了，而且也到前高，强分歧，倍量，开了好几次板，量能并没有爆量，大单也从流出1个多亿，变成流出几千万，最后一个小时板都封不住，板上一直有成交。第二天低开5个点，越拿越低，最后实在不行，板上走了。",
     "image_list": [
       "apgd_k",
@@ -14,28 +14,28 @@
     ]
   },
   {
-    "gpName": "云赛智联",
-    "formerDate": "2023-09-11",
-    "mode": 1,
-    "lastPrice": 0,
-    "isBanBuy": true,
-    "resultPoint": -1.64,
-    "buyReason": "上板时没怎么放量，前面有5亿多封单，100多亿流通盘，排了一会进去了，封单又3亿多，再过一会开了",
-    "image_list": [
-    ]
-  },
-  {
     "gpName": "铭普光磁",
     "formerDate": "2023-09-11",
     "mode": 1,
     "lastPrice": 0.75,
     "isBanBuy": true,
-    "resultPoint": 4.64,
+    "resultPoint": 4.75,
     "buyReason": "首板快速拉涨停，涨停附近调整几分钟后，再次回封，封板4个多亿，排队一会上车，当天看龙虎榜有上塘路，第二天到5个点附近就下车了，后涨停。。。",
     "image_list": [
       "mpgc_k",
       "mpgc_b",
       "mpgc_s"
+    ]
+  },
+  {
+    "gpName": "云赛智联",
+    "formerDate": "2023-09-11",
+    "mode": 1,
+    "lastPrice": 0,
+    "isBanBuy": true,
+    "resultPoint": -1.68,
+    "buyReason": "上板时没怎么放量，前面有5亿多封单，100多亿流通盘，排了一会进去了，封单又3亿多，再过一会开了",
+    "image_list": [
     ]
   },
   {
