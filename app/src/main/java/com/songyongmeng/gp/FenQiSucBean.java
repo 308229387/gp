@@ -1,40 +1,39 @@
 package com.songyongmeng.gp;
 
 import java.io.Serializable;
+import java.util.List;
 
 public class FenQiSucBean implements Serializable {
 
+
     /**
-     * gpName : 启迪环境
-     * afterHigh : 10.01
-     * bidStrong : 1
-     * compareHigh : 2.27
-     * lastHasBuy : false
-     * selfTurnover : 37.97
-     * bidBreakTime : 09:24
-     * formerBanTime : 09:31
-     * formerStartPoint : 6.21
-     * formerAveragePoint : 8.35
-     * bidPrice : 5828.97
-     * yesterdaySelfTurnover : 265.13
-     * yesterdayStartPoint : 3.94
-     * yesterdayAveragePoint : 9.19
-     * lastPrice : 0.76
-     * yesterdayLastPrice : 0.4
-     * formerLargeOrder : 0.23
-     * yesterdayLargeOrder : 1.56
-     * firstDayLargeOrder : 9.18
-     * formerAllValue : 59.71
-     * formerDate : 2023-08-21
-     * image_2 : qdhj_2_bid
-     * image : qdhj_3_bid
+     * gpName : 张江高科
+     * afterHigh : 15.01
+     * bidStrong : 0
+     * compareHigh : -2.06
+     * selfTurnover : 49.09
+     * bidBreakTime : 09:18
+     * formerBanTime : 09:32
+     * formerStartPoint : 5.5
+     * formerAveragePoint : 7.9
+     * bidPrice : 23900.0
+     * yesterdaySelfTurnover : 172.64
+     * yesterdayStartPoint : 7.57
+     * yesterdayAveragePoint : 8.13
+     * lastPrice : 4.89
+     * yesterdayLastPrice : 1.27
+     * formerLargeOrder : 15.3
+     * yesterdayLargeOrder : 16.2
+     * firstDayLargeOrder : 44.0
+     * formerAllValue : 303.85
+     * formerDate : 2023-09-08
+     * image_list : ["apgd_k","qdhj_b","apgd_s"]
      */
 
     private String gpName;
     private double afterHigh;
     private int bidStrong;
     private double compareHigh;
-    private boolean lastHasBuy;
     private double selfTurnover;
     private String bidBreakTime;
     private String formerBanTime;
@@ -51,8 +50,7 @@ public class FenQiSucBean implements Serializable {
     private double firstDayLargeOrder;
     private double formerAllValue;
     private String formerDate;
-    private String image_2;
-    private String image;
+    private List<String> image_list;
 
     public String getGpName() {
         return gpName;
@@ -84,14 +82,6 @@ public class FenQiSucBean implements Serializable {
 
     public void setCompareHigh(double compareHigh) {
         this.compareHigh = compareHigh;
-    }
-
-    public boolean isLastHasBuy() {
-        return lastHasBuy;
-    }
-
-    public void setLastHasBuy(boolean lastHasBuy) {
-        this.lastHasBuy = lastHasBuy;
     }
 
     public double getSelfTurnover() {
@@ -222,19 +212,11 @@ public class FenQiSucBean implements Serializable {
         this.formerDate = formerDate;
     }
 
-    public String getImage_2() {
-        return image_2;
+    public List<String> getImage_list() {
+        return image_list;
     }
 
-    public void setImage_2(String image_2) {
-        this.image_2 = image_2;
-    }
-
-    public String getImage() {
-        return image;
-    }
-
-    public void setImage(String image) {
-        this.image = image;
+    public void setImage_list(List<String> image_list) {
+        this.image_list = image_list;
     }
 }

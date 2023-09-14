@@ -47,12 +47,12 @@ public class FenQiSucActivity extends AppCompatActivity {
     }
 
     private void addLayout(LinearLayout buttonLayout) {
-        for (int i = 0; i < 21; i++) {
+        for (int i = 0; i < 20; i++) {
             Button button = new Button(this);
             LinearLayout.LayoutParams layoutParams;
             if (i == 0) {
                 layoutParams = new LinearLayout.LayoutParams(230, 180);
-            } else if (i == 20) {
+            } else if (i == 19) {
                 layoutParams = new LinearLayout.LayoutParams(260, 180);
             } else {
                 layoutParams = new LinearLayout.LayoutParams(210, 180);
@@ -100,15 +100,6 @@ public class FenQiSucActivity extends AppCompatActivity {
                     });
                     break;
                 case 4:
-                    button.setText("竞价最后有无买入");
-                    button.setOnClickListener(new View.OnClickListener() {
-                        @Override
-                        public void onClick(View view) {
-                            adapter.changeLastHasBuy();
-                        }
-                    });
-                    break;
-                case 5:
                     button.setText("与昨日量比");
                     button.setOnClickListener(new View.OnClickListener() {
                         @Override
@@ -117,7 +108,7 @@ public class FenQiSucActivity extends AppCompatActivity {
                         }
                     });
                     break;
-                case 6:
+                case 5:
                     button.setText("竞价开板时间");
                     button.setOnClickListener(new View.OnClickListener() {
                         @Override
@@ -126,7 +117,7 @@ public class FenQiSucActivity extends AppCompatActivity {
                         }
                     });
                     break;
-                case 7:
+                case 6:
                     button.setText("最终上板时间");
                     button.setOnClickListener(new View.OnClickListener() {
                         @Override
@@ -135,7 +126,7 @@ public class FenQiSucActivity extends AppCompatActivity {
                         }
                     });
                     break;
-                case 8:
+                case 7:
                     button.setText("当天开盘点位");
                     button.setOnClickListener(new View.OnClickListener() {
                         @Override
@@ -144,7 +135,7 @@ public class FenQiSucActivity extends AppCompatActivity {
                         }
                     });
                     break;
-                case 9:
+                case 8:
                     button.setText("当天平均点位");
                     button.setOnClickListener(new View.OnClickListener() {
                         @Override
@@ -153,7 +144,7 @@ public class FenQiSucActivity extends AppCompatActivity {
                         }
                     });
                     break;
-                case 10:
+                case 9:
                     button.setText("昨天与前天成交比");
                     button.setOnClickListener(new View.OnClickListener() {
                         @Override
@@ -162,7 +153,7 @@ public class FenQiSucActivity extends AppCompatActivity {
                         }
                     });
                     break;
-                case 11:
+                case 10:
                     button.setText("昨天开盘点位");
                     button.setOnClickListener(new View.OnClickListener() {
                         @Override
@@ -171,7 +162,7 @@ public class FenQiSucActivity extends AppCompatActivity {
                         }
                     });
                     break;
-                case 12:
+                case 11:
                     button.setText("昨天平均点位");
                     button.setOnClickListener(new View.OnClickListener() {
                         @Override
@@ -180,7 +171,7 @@ public class FenQiSucActivity extends AppCompatActivity {
                         }
                     });
                     break;
-                case 13:
+                case 12:
                     button.setText("第一天大单金额");
                     button.setOnClickListener(new View.OnClickListener() {
                         @Override
@@ -189,7 +180,7 @@ public class FenQiSucActivity extends AppCompatActivity {
                         }
                     });
                     break;
-                case 14:
+                case 13:
                     button.setText("昨日大单金额");
                     button.setOnClickListener(new View.OnClickListener() {
                         @Override
@@ -198,7 +189,7 @@ public class FenQiSucActivity extends AppCompatActivity {
                         }
                     });
                     break;
-                case 15:
+                case 14:
                     button.setText("大单金额");
                     button.setOnClickListener(new View.OnClickListener() {
                         @Override
@@ -207,7 +198,7 @@ public class FenQiSucActivity extends AppCompatActivity {
                         }
                     });
                     break;
-                case 16:
+                case 15:
                     button.setText("竞价成交额");
                     button.setOnClickListener(new View.OnClickListener() {
                         @Override
@@ -216,7 +207,7 @@ public class FenQiSucActivity extends AppCompatActivity {
                         }
                     });
                     break;
-                case 17:
+                case 16:
                     button.setText("封单");
                     button.setOnClickListener(new View.OnClickListener() {
                         @Override
@@ -225,7 +216,7 @@ public class FenQiSucActivity extends AppCompatActivity {
                         }
                     });
                     break;
-                case 18:
+                case 17:
                     button.setText("昨日封单");
                     button.setOnClickListener(new View.OnClickListener() {
                         @Override
@@ -234,7 +225,7 @@ public class FenQiSucActivity extends AppCompatActivity {
                         }
                     });
                     break;
-                case 19:
+                case 18:
                     button.setText("市值");
                     button.setOnClickListener(new View.OnClickListener() {
                         @Override
@@ -243,7 +234,7 @@ public class FenQiSucActivity extends AppCompatActivity {
                         }
                     });
                     break;
-                case 20:
+                case 19:
                     button.setText("日期");
                     button.setOnClickListener(new View.OnClickListener() {
                         @Override

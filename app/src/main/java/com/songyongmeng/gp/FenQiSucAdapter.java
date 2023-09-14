@@ -81,22 +81,9 @@ public class FenQiSucAdapter extends RecyclerView.Adapter<FenQiSucAdapter.MyView
         holder.itemView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(mContext, BigImageActivity.class);
-                int id = ToolUtils.getImages(data.getImage().replace("image:", ""));
-                intent.putExtra("image", id);
-                intent.putExtra("orientation", "horizontal");
+                Intent intent = new Intent(mContext, FenQiSucDetailActivity.class);
+                intent.putExtra("data", data);
                 mContext.startActivity(intent);
-            }
-        });
-        holder.itemView.setOnLongClickListener(new View.OnLongClickListener() {
-            @Override
-            public boolean onLongClick(View view) {
-                Intent intent = new Intent(mContext, BigImageActivity.class);
-                int id = ToolUtils.getImages(data.getImage_2().replace("image:", ""));
-                intent.putExtra("image", id);
-                intent.putExtra("orientation", "horizontal");
-                mContext.startActivity(intent);
-                return false;
             }
         });
         holder.bindData(data);
@@ -248,24 +235,6 @@ public class FenQiSucAdapter extends RecyclerView.Adapter<FenQiSucAdapter.MyView
         compareHigh = !compareHigh;
         notifyDataSetChanged();
     }
-
-    public void changeLastHasBuy() {
-        Comparator<FenQiSucBean> comparator = new Comparator<FenQiSucBean>() {
-            @Override
-            public int compare(FenQiSucBean bean1, FenQiSucBean bean2) {
-                if (isLastHasBuy) {
-                    return Boolean.compare(bean2.isLastHasBuy(), bean1.isLastHasBuy());
-                } else {
-                    return Boolean.compare(bean1.isLastHasBuy(), bean2.isLastHasBuy());
-                }
-            }
-        };
-
-        Collections.sort(mDataList, comparator);
-        isLastHasBuy = !isLastHasBuy;
-        notifyDataSetChanged();
-    }
-
 
     public void changeAfterHigh() {
         comparator = new Comparator<FenQiSucBean>() {
@@ -470,11 +439,11 @@ public class FenQiSucAdapter extends RecyclerView.Adapter<FenQiSucAdapter.MyView
             linearLayout.removeAllViews();
 
             // 动态添加 TextView
-            for (int i = 0; i < 21; i++) {
+            for (int i = 0; i < 20; i++) {
                 TextView textView = new TextView(itemView.getContext());
                 if (i == 0) {
                     textView.setWidth(250); // 名称
-                } else if (i == 20) {
+                } else if (i == 19) {
                     textView.setWidth(270); // 日期
                 } else {
                     textView.setWidth(230); // 设置宽度为200像素
@@ -493,7 +462,6 @@ public class FenQiSucAdapter extends RecyclerView.Adapter<FenQiSucAdapter.MyView
                         break;
                     case 1:
                         textView.setText(data.getAfterHigh() + "%");
-
                         break;
                     case 2:
                         String res = "";
@@ -510,54 +478,51 @@ public class FenQiSucAdapter extends RecyclerView.Adapter<FenQiSucAdapter.MyView
                         textView.setText(data.getCompareHigh() + "%");
                         break;
                     case 4:
-                        textView.setText(data.isLastHasBuy() ? "有买入" : "无");
-                        break;
-                    case 5:
                         textView.setText(data.getSelfTurnover() + "%");
                         break;
-                    case 6:
+                    case 5:
                         textView.setText(data.getBidBreakTime());
                         break;
-                    case 7:
+                    case 6:
                         textView.setText(data.getFormerBanTime());
                         break;
-                    case 8:
+                    case 7:
                         textView.setText(data.getFormerStartPoint() + "%");
                         break;
-                    case 9:
+                    case 8:
                         textView.setText(data.getFormerAveragePoint() + "%");
                         break;
-                    case 10:
+                    case 9:
                         textView.setText(data.getYesterdaySelfTurnover() + "%");
                         break;
-                    case 11:
+                    case 10:
                         textView.setText(data.getYesterdayStartPoint() + "%");
                         break;
-                    case 12:
+                    case 11:
                         textView.setText(data.getYesterdayAveragePoint() + "%");
                         break;
-                    case 13:
+                    case 12:
                         textView.setText(data.getFirstDayLargeOrder() + "千万");
                         break;
-                    case 14:
+                    case 13:
                         textView.setText(data.getYesterdayLargeOrder() + "千万");
                         break;
-                    case 15:
+                    case 14:
                         textView.setText(data.getFormerLargeOrder() + "千万");
                         break;
-                    case 16:
+                    case 15:
                         textView.setText(data.getBidPrice() + "万");
                         break;
-                    case 17:
+                    case 16:
                         textView.setText(data.getLastPrice() + "亿");
                         break;
-                    case 18:
+                    case 17:
                         textView.setText(data.getYesterdayLastPrice() + "亿");
                         break;
-                    case 19:
+                    case 18:
                         textView.setText(data.getFormerAllValue() + "亿");
                         break;
-                    case 20:
+                    case 19:
                         textView.setText(data.getFormerDate());
                         break;
                 }

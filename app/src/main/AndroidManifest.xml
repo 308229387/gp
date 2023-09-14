@@ -29,6 +29,7 @@
         <activity android:name="NewSumUpListActivity" />
         <activity android:name="BiddingStatisticsActivity" />
         <activity android:name="GPDetailActivity" />
+        <activity android:name="FenQiSucDetailActivity" />
         <activity android:name="NewGPDetailActivity" />
         <activity android:name=".FenQiActivity" />
         <activity android:name=".ErBanShangYingXianActivity" />

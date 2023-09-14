@@ -20,8 +20,11 @@
     "firstDayLargeOrder": 44.0,
     "formerAllValue": 303.85,
     "formerDate": "2023-09-08",
-    "image_2": "qdhj_2_bid",
-    "image": "qdhj_3_bid"
+    "image_list": [
+      "apgd_k",
+      "qdhj_b",
+      "apgd_s"
+    ]
   },
   {
     "gpName": "启迪环境",
@@ -44,8 +47,11 @@
     "firstDayLargeOrder": 9.18,
     "formerAllValue": 59.71,
     "formerDate": "2023-08-21",
-    "image_2": "qdhj_2_bid",
-    "image": "qdhj_3_bid"
+    "image_list": [
+      "apgd_k",
+      "qdhj_2_bid",
+      "qdhj_3_bid"
+    ]
   },
   {
     "gpName": "惠发食品",
@@ -68,8 +74,11 @@
     "firstDayLargeOrder": 1.48,
     "bidBreakTime": "09:24",
     "formerBanTime": "09:32",
-    "image_2": "hfsp_2_bid",
-    "image": "hfsp_3_bid"
+    "image_list": [
+      "apgd_k",
+      "hfsp_2_bid",
+      "hfsp_3_bid"
+    ]
   },
   {
     "gpName": "海马汽车",
@@ -92,8 +101,11 @@
     "firstDayLargeOrder": 7.67,
     "bidBreakTime": "09:24",
     "formerBanTime": "09:33",
-    "image_2": "hmqc_2_bid",
-    "image": "hmqc_3_bid"
+    "image_list": [
+      "apgd_k",
+      "hmqc_2_bid",
+      "hmqc_3_bid"
+    ]
   },
   {
     "gpName": "国创高新",
@@ -116,8 +128,11 @@
     "bidBreakTime": "09:21",
     "formerBanTime": "09:31",
     "bidStrong": 0,
-    "image_2": "gcgx_2_bid",
-    "image": "gcgx_3_bid"
+    "image_list": [
+      "apgd_k",
+      "gcgx_2_bid",
+      "gcgx_3_bid"
+    ]
   },
   {
     "gpName": "金科股份",
@@ -140,8 +155,11 @@
     "bidBreakTime": "09:17",
     "formerBanTime": "09:42",
     "bidStrong": -1,
-    "image_2": "jkgf_2_bid",
-    "image": "jkgf_3_bid"
+    "image_list": [
+      "apgd_k",
+      "jkgf_2_bid",
+      "jkgf_3_bid"
+    ]
   },
   {
     "gpName": "中央商场",
@@ -164,8 +182,11 @@
     "bidBreakTime": "09:24",
     "formerBanTime": "09:32",
     "bidStrong": 1,
-    "image_2": "zysc_2_bid",
-    "image": "zysc_3_bid"
+    "image_list": [
+      "apgd_k",
+      "zysc_2_bid",
+      "zysc_3_bid"
+    ]
   },
   {
     "gpName": "万安科技",
@@ -188,8 +209,11 @@
     "bidBreakTime": "09:23",
     "formerBanTime": "09:37",
     "bidStrong": 0,
-    "image_2": "wakj_2_bid",
-    "image": "wakj_3_bid"
+    "image_list": [
+      "apgd_k",
+      "wakj_2_bid",
+      "wakj_3_bid"
+    ]
   },
   {
     "gpName": "京城股份",
@@ -212,8 +236,11 @@
     "bidBreakTime": "09:16",
     "formerBanTime": "09:39",
     "bidStrong": -1,
-    "image_2": "jcgf_2_bid",
-    "image": "jcgf_3_bid"
+    "image_list": [
+      "apgd_k",
+      "jcgf_2_bid",
+      "jcgf_3_bid"
+    ]
   },
   {
     "gpName": "中马传动",
@@ -236,8 +263,11 @@
     "bidBreakTime": "09:23",
     "formerBanTime": "09:31",
     "bidStrong": 1,
-    "image_2": "zmcd_2_bid",
-    "image": "zmcd_3_bid"
+    "image_list": [
+      "apgd_k",
+      "zmcd_2_bid",
+      "zmcd_3_bid"
+    ]
   },
   {
     "gpName": "润达医疗",
@@ -260,8 +290,11 @@
     "bidBreakTime": "09:24",
     "formerBanTime": "09:35",
     "bidStrong": 0,
-    "image_2": "rdyl_2_bid",
-    "image": "rdyl_3_bid"
+    "image_list": [
+      "apgd_k",
+      "rdyl_2_bid",
+      "rdyl_3_bid"
+    ]
   },
   {
     "gpName": "联明股份",
@@ -284,8 +317,11 @@
     "bidBreakTime": "09:19",
     "formerBanTime": "09:31",
     "bidStrong": 0,
-    "image_2": "lmgf_2_bid",
-    "image": "lmgf_3_bid"
+    "image_list": [
+      "apgd_k",
+      "lmgf_2_bid",
+      "lmgf_3_bid"
+    ]
   },
   {
     "gpName": "上海物贸",
@@ -308,7 +344,10 @@
     "bidBreakTime": "09:17",
     "formerBanTime": "09:32",
     "bidStrong": -1,
-    "image_2": "shwm_4_bid",
-    "image": "shwm_5_bid"
+    "image_list": [
+      "apgd_k",
+      "shwm_4_bid",
+      "shwm_5_bid"
+    ]
   }
 ]

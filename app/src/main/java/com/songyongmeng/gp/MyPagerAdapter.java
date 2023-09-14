@@ -18,8 +18,8 @@ public class MyPagerAdapter extends PagerAdapter {
     private List<String> images = new ArrayList<>(); // 添加你的图片资源
     private Context mContext;
 
-    public MyPagerAdapter(NewGPDetailActivity newGPDetailActivity) {
-        mContext = newGPDetailActivity;
+    public MyPagerAdapter(Context context) {
+        mContext = context;
     }
 
     @Override
