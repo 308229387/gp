@@ -59,12 +59,12 @@ public class BiddingStatisticsActivity extends AppCompatActivity {
     }
 
     private void addHeaderButton(LinearLayout buttonLayout) {
-        for (int i = 0; i < 5; i++) {
+        for (int i = 0; i < 7; i++) {
             Button button = new Button(this);
             LinearLayout.LayoutParams layoutParams;
             if (i == 0) {
                 layoutParams = new LinearLayout.LayoutParams(230, 180);
-            } else if (i == 4) {
+            } else if (i == 6) {
                 layoutParams = new LinearLayout.LayoutParams(260, 180);
             } else {
                 layoutParams = new LinearLayout.LayoutParams(210, 180);

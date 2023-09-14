@@ -4,7 +4,6 @@ import java.io.Serializable;
 
 public class FenQiSucBean implements Serializable {
 
-
     /**
      * gpName : 启迪环境
      * afterHigh : 10.01
@@ -16,6 +15,7 @@ public class FenQiSucBean implements Serializable {
      * formerBanTime : 09:31
      * formerStartPoint : 6.21
      * formerAveragePoint : 8.35
+     * bidPrice : 5828.97
      * yesterdaySelfTurnover : 265.13
      * yesterdayStartPoint : 3.94
      * yesterdayAveragePoint : 9.19
@@ -40,6 +40,7 @@ public class FenQiSucBean implements Serializable {
     private String formerBanTime;
     private double formerStartPoint;
     private double formerAveragePoint;
+    private double bidPrice;
     private double yesterdaySelfTurnover;
     private double yesterdayStartPoint;
     private double yesterdayAveragePoint;
@@ -131,6 +132,14 @@ public class FenQiSucBean implements Serializable {
 
     public void setFormerAveragePoint(double formerAveragePoint) {
         this.formerAveragePoint = formerAveragePoint;
+    }
+
+    public double getBidPrice() {
+        return bidPrice;
+    }
+
+    public void setBidPrice(double bidPrice) {
+        this.bidPrice = bidPrice;
     }
 
     public double getYesterdaySelfTurnover() {

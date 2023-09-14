@@ -47,12 +47,12 @@ public class FenQiSucActivity extends AppCompatActivity {
     }
 
     private void addLayout(LinearLayout buttonLayout) {
-        for (int i = 0; i < 20; i++) {
+        for (int i = 0; i < 21; i++) {
             Button button = new Button(this);
             LinearLayout.LayoutParams layoutParams;
             if (i == 0) {
                 layoutParams = new LinearLayout.LayoutParams(230, 180);
-            } else if (i == 19) {
+            } else if (i == 20) {
                 layoutParams = new LinearLayout.LayoutParams(260, 180);
             } else {
                 layoutParams = new LinearLayout.LayoutParams(210, 180);
@@ -208,6 +208,15 @@ public class FenQiSucActivity extends AppCompatActivity {
                     });
                     break;
                 case 16:
+                    button.setText("竞价成交额");
+                    button.setOnClickListener(new View.OnClickListener() {
+                        @Override
+                        public void onClick(View view) {
+                            adapter.changeCarryOnData();
+                        }
+                    });
+                    break;
+                case 17:
                     button.setText("封单");
                     button.setOnClickListener(new View.OnClickListener() {
                         @Override
@@ -216,7 +225,7 @@ public class FenQiSucActivity extends AppCompatActivity {
                         }
                     });
                     break;
-                case 17:
+                case 18:
                     button.setText("昨日封单");
                     button.setOnClickListener(new View.OnClickListener() {
                         @Override
@@ -225,7 +234,7 @@ public class FenQiSucActivity extends AppCompatActivity {
                         }
                     });
                     break;
-                case 18:
+                case 19:
                     button.setText("市值");
                     button.setOnClickListener(new View.OnClickListener() {
                         @Override
@@ -234,7 +243,7 @@ public class FenQiSucActivity extends AppCompatActivity {
                         }
                     });
                     break;
-                case 19:
+                case 20:
                     button.setText("日期");
                     button.setOnClickListener(new View.OnClickListener() {
                         @Override

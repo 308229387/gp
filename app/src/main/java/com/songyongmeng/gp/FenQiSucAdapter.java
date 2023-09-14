@@ -35,6 +35,7 @@ public class FenQiSucAdapter extends RecyclerView.Adapter<FenQiSucAdapter.MyView
     private boolean yesterdayLargeOrder;
     private boolean firstDayLargeOrder;
     private boolean formerDate;
+    private boolean carryOn;
     private boolean latterLowPointTime;
     private boolean latterTopPointTime;
     private boolean hasOpen;
@@ -80,20 +81,20 @@ public class FenQiSucAdapter extends RecyclerView.Adapter<FenQiSucAdapter.MyView
         holder.itemView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(mContext,BigImageActivity.class);
+                Intent intent = new Intent(mContext, BigImageActivity.class);
                 int id = ToolUtils.getImages(data.getImage().replace("image:", ""));
-                intent.putExtra("image",id);
-                intent.putExtra("orientation","horizontal");
+                intent.putExtra("image", id);
+                intent.putExtra("orientation", "horizontal");
                 mContext.startActivity(intent);
             }
         });
         holder.itemView.setOnLongClickListener(new View.OnLongClickListener() {
             @Override
             public boolean onLongClick(View view) {
-                Intent intent = new Intent(mContext,BigImageActivity.class);
+                Intent intent = new Intent(mContext, BigImageActivity.class);
                 int id = ToolUtils.getImages(data.getImage_2().replace("image:", ""));
-                intent.putExtra("image",id);
-                intent.putExtra("orientation","horizontal");
+                intent.putExtra("image", id);
+                intent.putExtra("orientation", "horizontal");
                 mContext.startActivity(intent);
                 return false;
             }
@@ -130,7 +131,6 @@ public class FenQiSucAdapter extends RecyclerView.Adapter<FenQiSucAdapter.MyView
     }
 
 
-
     public void changeLastPriceData() {
         comparator = new Comparator<FenQiSucBean>() {
             @Override
@@ -147,6 +147,7 @@ public class FenQiSucAdapter extends RecyclerView.Adapter<FenQiSucAdapter.MyView
         lastPrice = !lastPrice;
         notifyDataSetChanged();
     }
+
     public void changeFormerLargeOrder() {
         comparator = new Comparator<FenQiSucBean>() {
             @Override
@@ -197,7 +198,6 @@ public class FenQiSucAdapter extends RecyclerView.Adapter<FenQiSucAdapter.MyView
         firstDayLargeOrder = !firstDayLargeOrder;
         notifyDataSetChanged();
     }
-
 
 
     public void changeFormerStartData() {
@@ -283,6 +283,7 @@ public class FenQiSucAdapter extends RecyclerView.Adapter<FenQiSucAdapter.MyView
         afterHigh = !afterHigh;
         notifyDataSetChanged();
     }
+
     public void changeFormerAveragePoint() {
         comparator = new Comparator<FenQiSucBean>() {
             @Override
@@ -299,6 +300,7 @@ public class FenQiSucAdapter extends RecyclerView.Adapter<FenQiSucAdapter.MyView
         formerAveragePoint = !formerAveragePoint;
         notifyDataSetChanged();
     }
+
     public void changeYesterdayAveragePoint() {
         comparator = new Comparator<FenQiSucBean>() {
             @Override
@@ -315,6 +317,7 @@ public class FenQiSucAdapter extends RecyclerView.Adapter<FenQiSucAdapter.MyView
         yesterdayAveragePoint = !yesterdayAveragePoint;
         notifyDataSetChanged();
     }
+
     public void changeYesterdayStartPoint() {
         comparator = new Comparator<FenQiSucBean>() {
             @Override
@@ -417,6 +420,7 @@ public class FenQiSucAdapter extends RecyclerView.Adapter<FenQiSucAdapter.MyView
         notifyDataSetChanged();
 
     }
+
     public void changeFormerDate() {
         comparator = new Comparator<FenQiSucBean>() {
             @Override
@@ -434,6 +438,23 @@ public class FenQiSucAdapter extends RecyclerView.Adapter<FenQiSucAdapter.MyView
 
     }
 
+    public void changeCarryOnData() {
+        comparator = new Comparator<FenQiSucBean>() {
+            @Override
+            public int compare(FenQiSucBean bean1, FenQiSucBean bean2) {
+                if (carryOn) {
+                    return Double.compare(bean1.getBidPrice(), bean2.getBidPrice());
+                } else {
+                    return Double.compare(bean2.getBidPrice(), bean1.getBidPrice());
+                }
+            }
+        };
+
+        Collections.sort(mDataList, comparator);
+        carryOn = !carryOn;
+        notifyDataSetChanged();
+    }
+
 
     public class MyViewHolder extends RecyclerView.ViewHolder {
         private LinearLayout linearLayout;
@@ -449,11 +470,11 @@ public class FenQiSucAdapter extends RecyclerView.Adapter<FenQiSucAdapter.MyView
             linearLayout.removeAllViews();
 
             // 动态添加 TextView
-            for (int i = 0; i < 20; i++) {
+            for (int i = 0; i < 21; i++) {
                 TextView textView = new TextView(itemView.getContext());
                 if (i == 0) {
                     textView.setWidth(250); // 名称
-                } else if (i == 19) {
+                } else if (i == 20) {
                     textView.setWidth(270); // 日期
                 } else {
                     textView.setWidth(230); // 设置宽度为200像素
@@ -462,7 +483,7 @@ public class FenQiSucAdapter extends RecyclerView.Adapter<FenQiSucAdapter.MyView
                 textView.setTextColor(Color.parseColor("#ff000000"));
                 textView.setGravity(Gravity.CENTER);
 //                if (data.getLatterAveragePoint() > 0 && data.getLastPrice() > 0) {
-                    textView.setBackgroundColor(Color.parseColor("#FFC0CB"));
+                textView.setBackgroundColor(Color.parseColor("#FFC0CB"));
 //                } else {
 //                    textView.setBackgroundColor(Color.parseColor("#90EE90"));
 //                }
@@ -476,11 +497,11 @@ public class FenQiSucAdapter extends RecyclerView.Adapter<FenQiSucAdapter.MyView
                         break;
                     case 2:
                         String res = "";
-                        if(data.getBidStrong() == 1){
+                        if (data.getBidStrong() == 1) {
                             res = "强";
-                        }else if(data.getBidStrong() == 0){
+                        } else if (data.getBidStrong() == 0) {
                             res = "一般";
-                        }else if(data.getBidStrong()==-1){
+                        } else if (data.getBidStrong() == -1) {
                             res = "弱";
                         }
                         textView.setText(res);
@@ -489,7 +510,7 @@ public class FenQiSucAdapter extends RecyclerView.Adapter<FenQiSucAdapter.MyView
                         textView.setText(data.getCompareHigh() + "%");
                         break;
                     case 4:
-                        textView.setText(data.isLastHasBuy()?"有买入":"无");
+                        textView.setText(data.isLastHasBuy() ? "有买入" : "无");
                         break;
                     case 5:
                         textView.setText(data.getSelfTurnover() + "%");
@@ -525,15 +546,18 @@ public class FenQiSucAdapter extends RecyclerView.Adapter<FenQiSucAdapter.MyView
                         textView.setText(data.getFormerLargeOrder() + "千万");
                         break;
                     case 16:
-                        textView.setText(data.getLastPrice() + "亿");
+                        textView.setText(data.getBidPrice() + "万");
                         break;
                     case 17:
-                        textView.setText(data.getYesterdayLastPrice() + "亿");
+                        textView.setText(data.getLastPrice() + "亿");
                         break;
                     case 18:
-                        textView.setText(data.getFormerAllValue() + "亿");
+                        textView.setText(data.getYesterdayLastPrice() + "亿");
                         break;
                     case 19:
+                        textView.setText(data.getFormerAllValue() + "亿");
+                        break;
+                    case 20:
                         textView.setText(data.getFormerDate());
                         break;
                 }

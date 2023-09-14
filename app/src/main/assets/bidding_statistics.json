@@ -1,5 +1,15 @@
 [
   {
+    "gpName": "华映科技",
+    "formerDate": "2023-09-13",
+    "banNum": 2,
+    "howHigh": 10,
+    "yesterdayLastPrice": 4223,
+    "afterHigh": 10,
+    "description": "",
+    "image_list": []
+  },
+  {
     "gpName": "亚太股份",
     "formerDate": "2023-09-11",
     "banNum": 2,
@@ -107,7 +117,7 @@
     "formerDate": "2023-8-28",
     "banNum": 2,
     "howHigh": 10,
-    "yesterdayLastPrice":1385,
+    "yesterdayLastPrice": 1385,
     "afterHigh": 0,
     "description": "",
     "image_list": []
@@ -190,6 +200,16 @@
     "yesterdayLastPrice": 1065,
     "afterHigh": 0,
     "description": "",
+    "image_list": []
+  },
+  {
+    "gpName": "启迪环境",
+    "formerDate": "2023-8-17",
+    "banNum": 3,
+    "howHigh": 10,
+    "yesterdayLastPrice": 6027,
+    "afterHigh": 13,
+    "description": "8分板",
     "image_list": []
   },
   {
