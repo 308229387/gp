@@ -122,6 +122,8 @@ public class MainActivity extends AppCompatActivity {
                     toFenQiSuc();
                 }else if (allData.get(groupPosition).getData().get(childPosition).getRichText().get(0).equals("title:统计有量竞价")) {
                     toBidding();
+                } else if (allData.get(groupPosition).getData().get(childPosition).getRichText().get(0).equals("title:北京炒家")) {
+                    toBigImage();
                 } else {
                     toDetail((ArrayList<String>) allData.get(groupPosition).getData().get(childPosition).getRichText());
                 }
@@ -129,6 +131,12 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+    }
+
+    private void toBigImage() {
+        Intent intent = new Intent(MainActivity.this, EmptyBigImageActivity.class);
+        intent.putExtra("image_list","bei_jing_chao_jia.json");
+        startActivity(intent);
     }
 
     private void toNewStatistics() {
