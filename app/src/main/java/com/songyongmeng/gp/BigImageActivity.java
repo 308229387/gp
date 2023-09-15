@@ -34,7 +34,7 @@ public class BigImageActivity extends Activity {
         }else {
             setHorizontal();
         }
-        change.setOnClickListener(new View.OnClickListener() {
+        imageView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 if (isVertical) {

@@ -1,23 +1,25 @@
 package com.songyongmeng.gp;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 
-import androidx.appcompat.app.AppCompatActivity;
 import androidx.viewpager.widget.ViewPager;
 
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 import com.songyongmeng.gp.utils.AssetsUtils;
 
-public class EmptyBigImageActivity extends AppCompatActivity {
+public class EmptyBigImageActivity extends Activity {
     BigImageListBean imageList;
     String name;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        new StatusBar(this).hide();
         setContentView(R.layout.image_pagerl_layout);
+
 
         Intent intent = getIntent();
         name = intent.getStringExtra("image_list");

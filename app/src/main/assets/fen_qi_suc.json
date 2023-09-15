@@ -21,9 +21,10 @@
     "formerAllValue": 303.85,
     "formerDate": "2023-09-08",
     "image_list": [
-      "apgd_k",
-      "qdhj_b",
-      "apgd_s"
+      "zjgk_2k",
+      "zjgk_2_bid",
+      "zjgk_3_bid",
+      "zjgk_4_bid"
     ]
   },
   {
@@ -48,7 +49,7 @@
     "formerAllValue": 59.71,
     "formerDate": "2023-08-21",
     "image_list": [
-      "apgd_k",
+      "qdhj_2k",
       "qdhj_2_bid",
       "qdhj_3_bid"
     ]
@@ -75,36 +76,9 @@
     "bidBreakTime": "09:24",
     "formerBanTime": "09:32",
     "image_list": [
-      "apgd_k",
+      "hfsp_k",
       "hfsp_2_bid",
       "hfsp_3_bid"
-    ]
-  },
-  {
-    "gpName": "海马汽车",
-    "formerDate": "2023-07-31",
-    "formerAllValue": 84.74,
-    "yesterdaySelfTurnover": 484.60,
-    "selfTurnover": 57.61,
-    "yesterdayStartPoint": 0.00,
-    "yesterdayAveragePoint": 5.54,
-    "formerStartPoint": 6.59,
-    "formerAveragePoint": 8.91,
-    "compareHigh": 6.59,
-    "bidPrice": 5518.04,
-    "afterHigh": 10.04,
-    "yesterdayLastPrice": 0.62,
-    "lastPrice": 1.22,
-    "bidStrong": 1,
-    "formerLargeOrder": 6.54,
-    "yesterdayLargeOrder": -2.03,
-    "firstDayLargeOrder": 7.67,
-    "bidBreakTime": "09:24",
-    "formerBanTime": "09:33",
-    "image_list": [
-      "apgd_k",
-      "hmqc_2_bid",
-      "hmqc_3_bid"
     ]
   },
   {
@@ -129,7 +103,7 @@
     "formerBanTime": "09:31",
     "bidStrong": 0,
     "image_list": [
-      "apgd_k",
+      "gcgx_k",
       "gcgx_2_bid",
       "gcgx_3_bid"
     ]
@@ -156,7 +130,7 @@
     "formerBanTime": "09:42",
     "bidStrong": -1,
     "image_list": [
-      "apgd_k",
+      "jkgf_3k",
       "jkgf_2_bid",
       "jkgf_3_bid"
     ]
@@ -183,7 +157,7 @@
     "formerBanTime": "09:32",
     "bidStrong": 1,
     "image_list": [
-      "apgd_k",
+      "zysc_k",
       "zysc_2_bid",
       "zysc_3_bid"
     ]
@@ -210,7 +184,7 @@
     "formerBanTime": "09:37",
     "bidStrong": 0,
     "image_list": [
-      "apgd_k",
+      "wakj_k",
       "wakj_2_bid",
       "wakj_3_bid"
     ]
@@ -237,7 +211,7 @@
     "formerBanTime": "09:39",
     "bidStrong": -1,
     "image_list": [
-      "apgd_k",
+      "jcgf_k",
       "jcgf_2_bid",
       "jcgf_3_bid"
     ]
@@ -264,7 +238,7 @@
     "formerBanTime": "09:31",
     "bidStrong": 1,
     "image_list": [
-      "apgd_k",
+      "zmcd_k",
       "zmcd_2_bid",
       "zmcd_3_bid"
     ]
@@ -291,7 +265,7 @@
     "formerBanTime": "09:35",
     "bidStrong": 0,
     "image_list": [
-      "apgd_k",
+      "rdyl_k",
       "rdyl_2_bid",
       "rdyl_3_bid"
     ]
@@ -318,7 +292,7 @@
     "formerBanTime": "09:31",
     "bidStrong": 0,
     "image_list": [
-      "apgd_k",
+      "lmgf_k",
       "lmgf_2_bid",
       "lmgf_3_bid"
     ]
@@ -345,7 +319,7 @@
     "formerBanTime": "09:32",
     "bidStrong": -1,
     "image_list": [
-      "apgd_k",
+      "shwm_k",
       "shwm_4_bid",
       "shwm_5_bid"
     ]

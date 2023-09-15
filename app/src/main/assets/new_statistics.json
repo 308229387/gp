@@ -1,5 +1,33 @@
 [
   {
+    "gpName": "东方嘉盛",
+    "formerDate": "2023-09-15",
+    "mode": 2,
+    "lastPrice": 0,
+    "isBanBuy": true,
+    "resultPoint": 5.14,
+    "buyReason": "开盘冲涨停，调整后再度回封，看涨停力度比较强，外加当时已经与昨天平量，版块红的，就上车了",
+    "image_list": [
+      "apgd_k",
+      "apgd_b",
+      "apgd_s"
+    ]
+  },
+  {
+    "gpName": "萃华珠宝",
+    "formerDate": "2023-09-15",
+    "mode": 1,
+    "lastPrice": 0,
+    "isBanBuy": true,
+    "resultPoint": -4.14,
+    "buyReason": "非主流小杂鱼，开盘秒板，排了一会，板块未跟进，想撤的时候发现已经炸了",
+    "image_list": [
+      "apgd_k",
+      "apgd_b",
+      "apgd_s"
+    ]
+  },
+  {
     "gpName": "奥普光电",
     "formerDate": "2023-09-11",
     "mode": 2,
@@ -40,7 +68,7 @@
   },
   {
     "gpName": "张江高科",
-    "formerDate": "2023-09-08",
+    "formerDate": "2023-09-07",
     "mode": 2,
     "lastPrice": 1.27,
     "isBanBuy": true,
@@ -61,7 +89,8 @@
     "isBanBuy": true,
     "resultPoint": 3.4,
     "buyReason": "开盘快速上板，前一天有冲高，排单时好像有7千多万了，后在10点多排上",
-    "image_list": ["gsbe_k"
+    "image_list": [
+      "gsbe_k"
     ]
   },
   {
