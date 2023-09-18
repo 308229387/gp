@@ -1,12 +1,54 @@
 [
   {
-    "gpName": "东方嘉盛",
-    "formerDate": "2023-09-15",
+    "gpName": "通化金马",
+    "formerDate": "2023-09-18",
+    "mode": 0,
+    "lastPrice": 0,
+    "isBanBuy": true,
+    "resultPoint": -5.14,
+    "buyReason": "华为芯片代表联合精密开盘跳水，当天环境还可以，放量，没到退潮期，金马如果拉涨停就是空间龙，开盘大跳后徐徐拉起，板两回后感觉能板，上车。全天烂板，封单很弱。",
+    "image_list": [
+      "apgd_k",
+      "apgd_b",
+      "apgd_s"
+    ]
+  },
+  {
+    "gpName": "东方钽业",
+    "formerDate": "2023-09-18",
     "mode": 2,
     "lastPrice": 0,
     "isBanBuy": true,
-    "resultPoint": 5.14,
-    "buyReason": "开盘冲涨停，调整后再度回封，看涨停力度比较强，外加当时已经与昨天平量，版块红的，就上车了",
+    "resultPoint": -5.14,
+    "buyReason": "一字板，开板后盯着回封，有点搞笑，手指头离的有点近，误触成交，全天烂板，下午炸板。",
+    "image_list": [
+      "apgd_k",
+      "apgd_b",
+      "apgd_s"
+    ]
+  },
+  {
+    "gpName": "双诚药业",
+    "formerDate": "2023-09-18",
+    "mode": 2,
+    "lastPrice": 0.63,
+    "isBanBuy": true,
+    "resultPoint": 9.14,
+    "buyReason": "开盘拉升，涨停处量能不够，均线也低，再调整回封时入场，当时量能比昨天微少，中途炸板回封",
+    "image_list": [
+      "apgd_k",
+      "apgd_b",
+      "apgd_s"
+    ]
+  },
+  {
+    "gpName": "东方嘉盛",
+    "formerDate": "2023-09-15",
+    "mode": 2,
+    "lastPrice": 0.63,
+    "isBanBuy": true,
+    "resultPoint": 9.14,
+    "buyReason": "开盘冲涨停，调整后再度回封，看涨停力度比较强，外加当时已经与昨天平量，版块红的，就上车了，第二天早盘微开板就离场了，后面又封上了",
     "image_list": [
       "apgd_k",
       "apgd_b",
@@ -19,7 +61,7 @@
     "mode": 1,
     "lastPrice": 0,
     "isBanBuy": true,
-    "resultPoint": -4.14,
+    "resultPoint": -8.14,
     "buyReason": "非主流小杂鱼，开盘秒板，排了一会，板块未跟进，想撤的时候发现已经炸了",
     "image_list": [
       "apgd_k",
@@ -31,7 +73,7 @@
     "gpName": "奥普光电",
     "formerDate": "2023-09-11",
     "mode": 2,
-    "lastPrice": 0,
+    "lastPrice": 0.2,
     "isBanBuy": true,
     "resultPoint": -10.14,
     "buyReason": "断板接力后二板，位置比较高了，而且也到前高，强分歧，倍量，开了好几次板，量能并没有爆量，大单也从流出1个多亿，变成流出几千万，最后一个小时板都封不住，板上一直有成交。第二天低开5个点，越拿越低，最后实在不行，板上走了。",
@@ -418,7 +460,11 @@
     "isBanBuy": true,
     "resultPoint": -6.99,
     "buyReason": "微高开，快速拉升，释放下空头后上板，板上入场，后秒开，红上影线，第二天拉升了点就走了，后涨停，开启一波5板多的主升",
-    "image_list": []
+    "image_list": [
+      "kksy_k",
+      "kksy_b",
+      "kksy_s"
+    ]
   },
   {
     "gpName": "贵州燃气",

@@ -142,6 +142,13 @@ public class NewStatisticsAdapter extends RecyclerView.Adapter<NewStatisticsAdap
         int addSelfGpAverageSuc = 0;
         int addSelfGpAverageFai = 0;
 
+        int longHeader = 0;
+        int longHeaderNum = 0;
+        int longHeaderSuc = 0;
+        int longHeaderFai = 0;
+        double longHeaderAverageSuc = 0;
+        double longHeaderAverageFai = 0;
+
         int firstBan = 0;
         int firstBanNum = 0;
         int firstBanSuc = 0;
@@ -377,6 +384,19 @@ public class NewStatisticsAdapter extends RecyclerView.Adapter<NewStatisticsAdap
 //                    low5buyAverageFai = low5buyAverageFai + tmp.getResultPoint();
 //                }
 //            }
+            if (tmp.getMode() == 0) {
+                longHeader++;
+                if(tmp.getLastPrice()>0){
+                    longHeaderNum++;
+                }
+                if (tmp.getResultPoint() > 0) {
+                    longHeaderSuc++;
+                    longHeaderAverageSuc = longHeaderAverageSuc + tmp.getResultPoint();
+                } else {
+                    longHeaderFai++;
+                    longHeaderAverageFai = longHeaderAverageFai + tmp.getResultPoint();
+                }
+            }
             if (tmp.getMode() == 1) {
                 firstBan++;
                 if(tmp.getLastPrice()>0){
@@ -445,7 +465,7 @@ public class NewStatisticsAdapter extends RecyclerView.Adapter<NewStatisticsAdap
 //        itemList.add(new ShowBean("5日线反弹", isRebound5, isRebound5Suc, getResult(isRebound5, isRebound5Suc), isRebound5Suc == 0 ? 0 : rebound5AverageSuc / isRebound5Suc, isRebound5Fai == 0 ? 0 : rebound5AverageFai / isRebound5Fai));
 //        itemList.add(new ShowBean("10日线反弹", isRebound10, isRebound10Suc, getResult(isRebound10, isRebound10Suc), isRebound10Suc == 0 ? 0 : rebound10AverageSuc / isRebound10Suc, isRebound10Fai == 0 ? 0 : rebound10AverageFai / isRebound10Fai));
 //        itemList.add(new ShowBean("20日线反弹", isRebound20, isRebound20Suc, getResult(isRebound20, isRebound20Suc), isRebound20Suc == 0 ? 0 : rebound20AverageSuc / isRebound20Suc, isRebound20Fai == 0 ? 0 : rebound20AverageFai / isRebound20Fai));
-//        itemList.add(new ShowBean("30日线反弹", isRebound30, isRebound30Suc, getResult(isRebound30, isRebound30Suc), isRebound30Suc == 0 ? 0 : rebound30AverageSuc / isRebound30Suc, isRebound30Fai == 0 ? 0 : rebound30AverageFai / isRebound30Fai));
+        itemList.add(new ShowBean("龙头战法", longHeader, longHeaderSuc, getResult(longHeader, longHeaderSuc), longHeaderSuc == 0 ? 0 : rebound30AverageSuc / longHeaderSuc, longHeaderFai == 0 ? 0 : longHeaderAverageFai / longHeaderFai));
         itemList.add(new ShowBean("首板", firstBan, firstBanSuc, getResult(firstBan, firstBanSuc), getResult(firstBan, firstBanNum),firstBanSuc == 0 ? 0 : firstBanAverageSuc / firstBanSuc, firstBanFai == 0 ? 0 : firstBanAverageFai / firstBanFai));
         itemList.add(new ShowBean("二板", twoBan, twoBanSuc, getResult(twoBan, twoBanSuc), getResult(twoBan,twoBanNum),twoBanSuc == 0 ? 0 : twoBanAverageSuc / twoBanSuc, twoBanFai == 0 ? 0 : twoBanAverageFai / twoBanFai));
         itemList.add(new ShowBean("三板", threeBan, threeBanSuc, getResult(threeBan, threeBanSuc), getResult(threeBan,threeBanNum),threeBanSuc == 0 ? 0 : threeBanAverageSuc / threeBanSuc, threeBanFai == 0 ? 0 : threeBanAverageFai / threeBanFai));
@@ -520,10 +540,10 @@ public class NewStatisticsAdapter extends RecyclerView.Adapter<NewStatisticsAdap
 //                return data.stream()
 //                        .filter(bean -> bean.getAllTurnover() == 0)
 //                        .collect(Collectors.toList());
-//            case "沪深增量":
-//                return data.stream()
-//                        .filter(bean -> bean.getAllTurnover() == 1)
-//                        .collect(Collectors.toList());
+            case "龙头战法":
+                return dataList.stream()
+                        .filter(bean -> bean.getMode() == 0)
+                        .collect(Collectors.toList());
             case "首板":
                 return dataList.stream()
                         .filter(bean -> bean.getMode() == 1)

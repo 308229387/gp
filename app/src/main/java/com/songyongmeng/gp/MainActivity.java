@@ -15,7 +15,9 @@ import com.songyongmeng.gp.dialog.RememberDialog;
 import com.songyongmeng.gp.utils.AssetsUtils;
 import com.songyongmeng.gp.utils.Utility;
 
+import java.io.Serializable;
 import java.util.ArrayList;
+import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
     ArrayList<MainBean> allData;
@@ -116,11 +118,15 @@ public class MainActivity extends AppCompatActivity {
                     toFenQi();
                 } else if (allData.get(groupPosition).getData().get(childPosition).getRichText().get(0).equals("title:打二板")) {
                     toFenQiEr();
+                } else if (allData.get(groupPosition).getData().get(childPosition).getRichText().get(0).equals("title:二板分歧转一至 K 线形态")) {
+                    toErBanFenQiBigImage();
                 } else if (allData.get(groupPosition).getData().get(childPosition).getRichText().get(0).equals("title:二板上影线")) {
                     toShangYing();
                 } else if (allData.get(groupPosition).getData().get(childPosition).getRichText().get(0).equals("title:分歧转一致成功")) {
                     toFenQiSuc();
-                }else if (allData.get(groupPosition).getData().get(childPosition).getRichText().get(0).equals("title:统计有量竞价")) {
+                } else if (allData.get(groupPosition).getData().get(childPosition).getRichText().get(0).equals("title:分歧转一致成功 K 线集合")) {
+                    toFenQiSucK();
+                } else if (allData.get(groupPosition).getData().get(childPosition).getRichText().get(0).equals("title:统计有量竞价")) {
                     toBidding();
                 } else if (allData.get(groupPosition).getData().get(childPosition).getRichText().get(0).equals("title:北京炒家")) {
                     toBigImage();
@@ -134,8 +140,28 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void toBigImage() {
+        AssetsUtils assetsUtils = new AssetsUtils();
+        String tmp1 = assetsUtils.readAssetsText(this, "bei_jing_chao_jia.json");
+        BigImageListBean bean = new Gson().fromJson(tmp1, new TypeToken<BigImageListBean>() {
+        }.getType());
+
+        List<String> list = bean.getImage_list();
+
         Intent intent = new Intent(MainActivity.this, EmptyBigImageActivity.class);
-        intent.putExtra("image_list","bei_jing_chao_jia.json");
+        intent.putExtra("image_list", (Serializable) list);
+        startActivity(intent);
+    }
+
+    private void toErBanFenQiBigImage() {
+        AssetsUtils assetsUtils = new AssetsUtils();
+        String tmp1 = assetsUtils.readAssetsText(this, "er_ban_fen_qi.json");
+        BigImageListBean bean = new Gson().fromJson(tmp1, new TypeToken<BigImageListBean>() {
+        }.getType());
+
+        List<String> list = bean.getImage_list();
+
+        Intent intent = new Intent(MainActivity.this, EmptyBigImageActivity.class);
+        intent.putExtra("image_list", (Serializable) list);
         startActivity(intent);
     }
 
@@ -160,6 +186,22 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(MainActivity.this, FenQiSucActivity.class);
         startActivity(intent);
     }
+
+    private void toFenQiSucK() {
+        AssetsUtils assetsUtils = new AssetsUtils();
+        String tmp1 = assetsUtils.readAssetsText(this, "fen_qi_suc.json");
+        List<FenQiSucBean> erBanShangYingXianData = new Gson().fromJson(tmp1, new TypeToken<ArrayList<FenQiSucBean>>() {
+        }.getType());
+        List<String> list = new ArrayList<>();
+        for (FenQiSucBean tmp : erBanShangYingXianData) {
+            list.add(tmp.getImage_list().get(0));
+        }
+
+        Intent intent = new Intent(MainActivity.this, EmptyBigImageActivity.class);
+        intent.putExtra("image_list", (Serializable) list);
+        startActivity(intent);
+    }
+
     private void toBidding() {
         Intent intent = new Intent(MainActivity.this, BiddingStatisticsActivity.class);
         startActivity(intent);

@@ -10,9 +10,12 @@ import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 import com.songyongmeng.gp.utils.AssetsUtils;
 
+import java.util.List;
+
 public class EmptyBigImageActivity extends Activity {
     BigImageListBean imageList;
     String name;
+    List<String> list;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,16 +25,11 @@ public class EmptyBigImageActivity extends Activity {
 
 
         Intent intent = getIntent();
-        name = intent.getStringExtra("image_list");
-
-        AssetsUtils assetsUtils = new AssetsUtils();
-        String tmp1 = assetsUtils.readAssetsText(this, name);
-        imageList = new Gson().fromJson(tmp1, new TypeToken<BigImageListBean>() {
-        }.getType());
+        list = intent.getStringArrayListExtra("image_list");
 
         ViewPager viewPager = findViewById(R.id.viewPager);
         ImagePagerAdapter adapter = new ImagePagerAdapter(this); // 你需要创建一个适配器
-        adapter.setImageList(imageList.getImage_list());
+        adapter.setImageList(list);
         viewPager.setAdapter(adapter);
     }
 }
