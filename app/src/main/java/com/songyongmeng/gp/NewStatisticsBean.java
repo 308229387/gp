@@ -5,15 +5,15 @@ import java.util.List;
 
 public class NewStatisticsBean implements Serializable {
     /**
-     * gpName : 中国武夷
-     * formerDate : 2023-09-06
-     * mode : 1
-     * lastPrice : 0.24
+     * gpName : 哈空调
+     * formerDate : 2023-09-18
+     * mode : 2
+     * lastPrice : 0.036
+     * failureReason : [2]
      * isBanBuy : true
-     * marginTrading : false
-     * resultPoint : 3.5
-     * buyReason : 下午快速上板，炸后排，上车后，第二天过高点离场，
-     * image_list : ["djx_demo_3","djx_demo_3"]
+     * resultPoint : -1.14
+     * buyReason : 环境很差，几乎所有二板都不顺利，哈空调早盘拉板，形态也还可以，有1个亿的封单，炸板回封上车，但也很弱。自己明明已经预测了冰点的到来，还是上了仓位。
+     * image_list : ["apgd_k","apgd_b","apgd_s"]
      */
 
     private String gpName;
@@ -23,6 +23,7 @@ public class NewStatisticsBean implements Serializable {
     private boolean isBanBuy;
     private double resultPoint;
     private String buyReason;
+    private List<Integer> failureReason;
     private List<String> image_list;
 
     public String getGpName() {
@@ -79,6 +80,14 @@ public class NewStatisticsBean implements Serializable {
 
     public void setBuyReason(String buyReason) {
         this.buyReason = buyReason;
+    }
+
+    public List<Integer> getFailureReason() {
+        return failureReason;
+    }
+
+    public void setFailureReason(List<Integer> failureReason) {
+        this.failureReason = failureReason;
     }
 
     public List<String> getImage_list() {

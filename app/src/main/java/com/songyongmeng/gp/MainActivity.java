@@ -122,9 +122,9 @@ public class MainActivity extends AppCompatActivity {
                     toErBanFenQiBigImage();
                 } else if (allData.get(groupPosition).getData().get(childPosition).getRichText().get(0).equals("title:二板上影线")) {
                     toShangYing();
-                } else if (allData.get(groupPosition).getData().get(childPosition).getRichText().get(0).equals("title:分歧转一致成功")) {
+                } else if (allData.get(groupPosition).getData().get(childPosition).getRichText().get(0).equals("title:分歧转一致成功样例")) {
                     toFenQiSuc();
-                } else if (allData.get(groupPosition).getData().get(childPosition).getRichText().get(0).equals("title:分歧转一致成功 K 线集合")) {
+                } else if (allData.get(groupPosition).getData().get(childPosition).getRichText().get(0).equals("title:分歧转一致 K 线集合")) {
                     toFenQiSucK();
                 } else if (allData.get(groupPosition).getData().get(childPosition).getRichText().get(0).equals("title:统计有量竞价")) {
                     toBidding();

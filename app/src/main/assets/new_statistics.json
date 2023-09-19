@@ -1,11 +1,42 @@
 [
   {
+    "gpName": "哈空调",
+    "formerDate": "2023-09-18",
+    "mode": 2,
+    "lastPrice": 0.036,
+    "failureReason": [2],
+    "isBanBuy": true,
+    "resultPoint": 1.14,
+    "buyReason": "退潮，二板几乎没有好的，哈空调早盘拉板，形态也还可以，有1个亿的封单，炸板回封上车，但也很弱。自己明明已经预测了冰点的到来，还是上了仓位。",
+    "image_list": [
+      "apgd_k",
+      "apgd_b",
+      "apgd_s"
+    ]
+  },
+  {
+    "gpName": "金帝股份",
+    "formerDate": "2023-09-18",
+    "mode": 2,
+    "lastPrice": 0.67,
+    "failureReason": [8],
+    "isBanBuy": true,
+    "resultPoint": 1.14,
+    "buyReason": "退潮，挺热门的一个票，融通融券被爆光，要求本月28号全部赎回，被抖音博主忽悠拉爆融券，然后看第二天也有量，也高开，释放下冲板就上了。结果秒炸。在尾盘又封板。",
+    "image_list": [
+      "apgd_k",
+      "apgd_b",
+      "apgd_s"
+    ]
+  },
+  {
     "gpName": "通化金马",
     "formerDate": "2023-09-18",
     "mode": 0,
     "lastPrice": 0,
     "isBanBuy": true,
-    "resultPoint": -5.14,
+    "failureReason": [2],
+    "resultPoint": -1.14,
     "buyReason": "华为芯片代表联合精密开盘跳水，当天环境还可以，放量，没到退潮期，金马如果拉涨停就是空间龙，开盘大跳后徐徐拉起，板两回后感觉能板，上车。全天烂板，封单很弱。",
     "image_list": [
       "apgd_k",
@@ -18,9 +49,10 @@
     "formerDate": "2023-09-18",
     "mode": 2,
     "lastPrice": 0,
+    "failureReason": [8,11],
     "isBanBuy": true,
-    "resultPoint": -5.14,
-    "buyReason": "一字板，开板后盯着回封，有点搞笑，手指头离的有点近，误触成交，全天烂板，下午炸板。",
+    "resultPoint": -14.14,
+    "buyReason": "一字板，开板后盯着回封，有点搞笑，手指头离的有点近，误触成交，全天烂板，下午炸板。第二天低开7 8个点，没有出逃机会，板附近割了",
     "image_list": [
       "apgd_k",
       "apgd_b",
@@ -31,9 +63,10 @@
     "gpName": "双诚药业",
     "formerDate": "2023-09-18",
     "mode": 2,
-    "lastPrice": 0.63,
+    "lastPrice": 0.61,
+    "failureReason": [],
     "isBanBuy": true,
-    "resultPoint": 9.14,
+    "resultPoint": 7.14,
     "buyReason": "开盘拉升，涨停处量能不够，均线也低，再调整回封时入场，当时量能比昨天微少，中途炸板回封",
     "image_list": [
       "apgd_k",
@@ -46,13 +79,14 @@
     "formerDate": "2023-09-15",
     "mode": 2,
     "lastPrice": 0.63,
+    "failureReason": [],
     "isBanBuy": true,
-    "resultPoint": 9.14,
-    "buyReason": "开盘冲涨停，调整后再度回封，看涨停力度比较强，外加当时已经与昨天平量，版块红的，就上车了，第二天早盘微开板就离场了，后面又封上了",
+    "resultPoint": 9.7,
+    "buyReason": "开盘冲涨停，调整后再度回封，看涨停力度比较强，外加当时已经与昨天平量，版块红的，就上车了，第二天早盘微开板就离场了，后面又封上了,第三天跌停",
     "image_list": [
-      "apgd_k",
-      "apgd_b",
-      "apgd_s"
+      "dfjs_k",
+      "dfjs_b",
+      "dfjs_s"
     ]
   },
   {
@@ -60,13 +94,14 @@
     "formerDate": "2023-09-15",
     "mode": 1,
     "lastPrice": 0,
+    "failureReason": [1,10],
     "isBanBuy": true,
-    "resultPoint": -8.14,
+    "resultPoint": -8.3,
     "buyReason": "非主流小杂鱼，开盘秒板，排了一会，板块未跟进，想撤的时候发现已经炸了",
     "image_list": [
-      "apgd_k",
-      "apgd_b",
-      "apgd_s"
+      "chzb_k",
+      "chzb_b",
+      "chzb_s"
     ]
   },
   {
@@ -74,6 +109,7 @@
     "formerDate": "2023-09-11",
     "mode": 2,
     "lastPrice": 0.2,
+    "failureReason": [5],
     "isBanBuy": true,
     "resultPoint": -10.14,
     "buyReason": "断板接力后二板，位置比较高了，而且也到前高，强分歧，倍量，开了好几次板，量能并没有爆量，大单也从流出1个多亿，变成流出几千万，最后一个小时板都封不住，板上一直有成交。第二天低开5个点，越拿越低，最后实在不行，板上走了。",
@@ -88,6 +124,7 @@
     "formerDate": "2023-09-11",
     "mode": 1,
     "lastPrice": 0.75,
+    "failureReason": [],
     "isBanBuy": true,
     "resultPoint": 4.75,
     "buyReason": "首板快速拉涨停，涨停附近调整几分钟后，再次回封，封板4个多亿，排队一会上车，当天看龙虎榜有上塘路，第二天到5个点附近就下车了，后涨停。。。",
@@ -101,6 +138,7 @@
     "gpName": "云赛智联",
     "formerDate": "2023-09-11",
     "mode": 1,
+    "failureReason": [],
     "lastPrice": 0,
     "isBanBuy": true,
     "resultPoint": -1.68,
@@ -113,6 +151,7 @@
     "formerDate": "2023-09-07",
     "mode": 2,
     "lastPrice": 1.27,
+    "failureReason": [],
     "isBanBuy": true,
     "resultPoint": 18.64,
     "buyReason": "首板那天版块就两只，张江和中国武夷，张江10点左右就封板了，封单也3、4个亿，很稳，那天买了同版块的中国武夷。张江二板表现也很强势，5个点左右震荡后直接拉涨停，涨停板上车，倍量，三板直接加速，四板开盘未涨停离场，顾虑是流通盘比较大，300多亿",
@@ -128,6 +167,7 @@
     "formerDate": "2023-09-08",
     "mode": 1,
     "lastPrice": 0.45,
+    "failureReason": [],
     "isBanBuy": true,
     "resultPoint": 3.4,
     "buyReason": "开盘快速上板，前一天有冲高，排单时好像有7千多万了，后在10点多排上",
@@ -140,6 +180,7 @@
     "formerDate": "2023-09-06",
     "mode": 1,
     "lastPrice": 0.24,
+    "failureReason": [],
     "isBanBuy": true,
     "resultPoint": 3.5,
     "buyReason": "下午快速上板，炸后排，上车后，第二天过高点离场，",
@@ -154,6 +195,7 @@
     "formerDate": "2023-09-06",
     "mode": 1,
     "lastPrice": 0,
+    "failureReason": [],
     "isBanBuy": true,
     "resultPoint": -4.3,
     "buyReason": "高开下跌震荡半个多小时，后一笔拉涨停，排板上车，后炸，当天浮亏6个点。第二天卖在顶点",
@@ -167,6 +209,7 @@
     "gpName": "常山北明",
     "formerDate": "2023-09-05",
     "mode": 2,
+    "failureReason": [],
     "lastPrice": 0,
     "isBanBuy": true,
     "resultPoint": -2.3,
@@ -181,6 +224,7 @@
     "gpName": "实益达",
     "formerDate": "2023-09-05",
     "mode": 1,
+    "failureReason": [],
     "lastPrice": 0,
     "isBanBuy": true,
     "resultPoint": -6.71,
@@ -196,6 +240,7 @@
     "formerDate": "2023-09-04",
     "mode": 1,
     "lastPrice": 0,
+    "failureReason": [],
     "isBanBuy": true,
     "resultPoint": -1.20,
     "buyReason": "开盘快速上板，打的开板回封但没封住，好在后面没怎么跌，根据以往开盘下杀的规律，开盘就走了。",
@@ -209,6 +254,7 @@
     "gpName": "中通客车",
     "formerDate": "2023-09-01",
     "mode": 1,
+    "failureReason": [],
     "lastPrice": 0,
     "isBanBuy": true,
     "resultPoint": -3.69,
@@ -224,6 +270,7 @@
     "formerDate": "2023-08-30",
     "mode": 2,
     "lastPrice": 0.47,
+    "failureReason": [],
     "isBanBuy": true,
     "resultPoint": 2.73,
     "buyReason": "有前高，买的时候比较谨慎，但封板了，非融资",
@@ -340,16 +387,22 @@
     "formerDate": "2023-08-22",
     "mode": 2,
     "lastPrice": 3.18,
+    "failureReason": [8],
     "isBanBuy": false,
     "resultPoint": -6.34,
     "buyReason": "一字板开盘后买入，后封板，看着封单也不小，但第二天大幅低开，割",
-    "image_list": []
+    "image_list": [
+      "hbgf_k",
+      "hbgf_b",
+      "hbgf_s"
+    ]
   },
   {
     "gpName": "达华智能",
     "formerDate": "2023-08-22",
     "mode": 2,
     "lastPrice": 0,
+    "failureReason": [3],
     "isBanBuy": false,
     "resultPoint": -8.42,
     "buyReason": "骗线，8个多点就急急忙忙买了，结果大幅亏损",
@@ -505,10 +558,15 @@
     "formerDate": "2023-08-08",
     "mode": 2,
     "lastPrice": 0,
+    "failureReason": [4],
     "isBanBuy": false,
     "resultPoint": -6.28,
     "buyReason": "首板量能约2倍，开盘高开后上攻7-8点震荡，拉升后还一两个档着急上车，第二天早上低开冲高卖。",
-    "image_list": []
+    "image_list": [
+      "angf_k",
+      "angf_b",
+      "angf_s"
+    ]
   },
   {
     "gpName": "顶点软件",
