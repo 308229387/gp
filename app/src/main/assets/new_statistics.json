@@ -1,12 +1,27 @@
 [
   {
+    "gpName": "远东传动",
+    "formerDate": "2023-09-20",
+    "mode": 1,
+    "lastPrice": 0.6,
+    "failureReason": [],
+    "isBanBuy": true,
+    "resultPoint": 5.5,
+    "buyReason": "没有二板标的，找到远东，有一定辨识度，K线形态也比较不错，买的时候其实是被炸进去的，但看形态感觉能板。中途开过一两次，但还是有封单顶上去了。",
+    "image_list": [
+      "apgd_k",
+      "apgd_b",
+      "apgd_s"
+    ]
+  },
+  {
     "gpName": "哈空调",
-    "formerDate": "2023-09-18",
+    "formerDate": "2023-09-19",
     "mode": 2,
     "lastPrice": 0.036,
     "failureReason": [2],
     "isBanBuy": true,
-    "resultPoint": 1.14,
+    "resultPoint": -6.5,
     "buyReason": "退潮，二板几乎没有好的，哈空调早盘拉板，形态也还可以，有1个亿的封单，炸板回封上车，但也很弱。自己明明已经预测了冰点的到来，还是上了仓位。",
     "image_list": [
       "apgd_k",
@@ -16,12 +31,12 @@
   },
   {
     "gpName": "金帝股份",
-    "formerDate": "2023-09-18",
+    "formerDate": "2023-09-19",
     "mode": 2,
     "lastPrice": 0.67,
     "failureReason": [8],
     "isBanBuy": true,
-    "resultPoint": 1.14,
+    "resultPoint": 6.14,
     "buyReason": "退潮，挺热门的一个票，融通融券被爆光，要求本月28号全部赎回，被抖音博主忽悠拉爆融券，然后看第二天也有量，也高开，释放下冲板就上了。结果秒炸。在尾盘又封板。",
     "image_list": [
       "apgd_k",
@@ -36,7 +51,7 @@
     "lastPrice": 0,
     "isBanBuy": true,
     "failureReason": [2],
-    "resultPoint": -1.14,
+    "resultPoint": -1.52,
     "buyReason": "华为芯片代表联合精密开盘跳水，当天环境还可以，放量，没到退潮期，金马如果拉涨停就是空间龙，开盘大跳后徐徐拉起，板两回后感觉能板，上车。全天烂板，封单很弱。",
     "image_list": [
       "apgd_k",
@@ -51,7 +66,7 @@
     "lastPrice": 0,
     "failureReason": [8,11],
     "isBanBuy": true,
-    "resultPoint": -14.14,
+    "resultPoint": -15.3,
     "buyReason": "一字板，开板后盯着回封，有点搞笑，手指头离的有点近，误触成交，全天烂板，下午炸板。第二天低开7 8个点，没有出逃机会，板附近割了",
     "image_list": [
       "apgd_k",
@@ -66,7 +81,7 @@
     "lastPrice": 0.61,
     "failureReason": [],
     "isBanBuy": true,
-    "resultPoint": 7.14,
+    "resultPoint": 8.31,
     "buyReason": "开盘拉升，涨停处量能不够，均线也低，再调整回封时入场，当时量能比昨天微少，中途炸板回封",
     "image_list": [
       "apgd_k",
@@ -288,7 +303,11 @@
     "isBanBuy": true,
     "resultPoint": -2.07,
     "buyReason": "高开，高走快速上板，竞价比较强，排板被炸进去了，融资标",
-    "image_list": []
+    "image_list": [
+      "wzxc_k",
+      "wzxc_b",
+      "wzxc_s"
+    ]
   },
   {
     "gpName": "金科股份",
@@ -336,7 +355,10 @@
     "isBanBuy": false,
     "resultPoint": -4.54,
     "buyReason": "当时冲高拉涨停时，看着量能是平量，也有些大单，上午环境也还行就上了，后面没有再放量，平量+有前高，第二天直接下跌，4个多点止损离场",
-    "image_list": []
+    "image_list": [
+      "mlst_k",
+      "mlst_b",
+      "mlst_s"]
   },
   {
     "gpName": "播恩集团",

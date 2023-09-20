@@ -1,0 +1,823 @@
+package com.songyongmeng.gp;
+
+import android.annotation.SuppressLint;
+import android.content.Context;
+import android.graphics.Color;
+import android.view.Gravity;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.LinearLayout;
+import android.widget.TextView;
+
+import androidx.recyclerview.widget.RecyclerView;
+
+import com.songyongmeng.gp.utils.OnNewItemClickListener;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.List;
+import java.util.Map;
+import java.util.stream.Collectors;
+
+public class MonthStatisticsAdapter extends RecyclerView.Adapter<MonthStatisticsAdapter.ViewHolder> {
+
+    boolean all;
+    boolean suc;
+    boolean radio;
+    boolean ban;
+    boolean averageSuc;
+    boolean averageFai;
+    private Context context;
+    private Map<String, List<NewStatisticsBean>> dataMap;
+
+    private OnNewItemClickListener mListener;
+
+    private List<MonthShowBean> itemList = new ArrayList<>();
+    List<MonthShowBean> originalList;
+
+    public MonthStatisticsAdapter(Context context, Map<String, List<NewStatisticsBean>> data) {
+        this.context = context;
+        this.dataMap = data;
+        modifyData();
+    }
+
+    private void modifyData() {
+        int allNum = 0;
+        int allNumNum = 0;
+        int allNumSuc = 0;
+        int allNumFai = 0;
+        double allAverageSuc = 0;
+        double allAverageFai = 0;
+
+        int pullUpNum = 0;
+        int pullUpSucNum = 0;
+        int pullUpFaiNum = 0;
+        int pullAverageSuc = 0;
+        int pullAverageFai = 0;
+
+
+        int turnedToOneNum = 0;
+        int turnedToOneSucNum = 0;
+        int turnedToOneFaiNum = 0;
+        int turnedAverageSuc = 0;
+        int turnedAverageFai = 0;
+
+        int isRebound = 0;
+        int isReboundSuc = 0;
+        int isReboundFai = 0;
+        int reboundAverageSuc = 0;
+        int reboundAverageFai = 0;
+
+        int isRebound5 = 0;
+        int isRebound5Suc = 0;
+        int isRebound5Fai = 0;
+        int rebound5AverageSuc = 0;
+        int rebound5AverageFai = 0;
+
+        int isRebound10 = 0;
+        int isRebound10Suc = 0;
+        int isRebound10Fai = 0;
+        int rebound10AverageSuc = 0;
+        int rebound10AverageFai = 0;
+
+        int isRebound20 = 0;
+        int isRebound20Suc = 0;
+        int isRebound20Fai = 0;
+        int rebound20AverageSuc = 0;
+        int rebound20AverageFai = 0;
+
+        int isRebound30 = 0;
+        int isRebound30Suc = 0;
+        int isRebound30Fai = 0;
+        int rebound30AverageSuc = 0;
+        int rebound30AverageFai = 0;
+
+        int isHot = 0;
+        int isHotSuc = 0;
+        int isHotFai = 0;
+        int hotAverageSuc = 0;
+        int hotAverageFai = 0;
+
+        int isBan = 0;
+        int isBanSuc = 0;
+        int isBanFai = 0;
+        int banAverageSuc = 0;
+        int banAverageFai = 0;
+
+        int low5buy = 0;
+        int low5buySuc = 0;
+        int low5buyFai = 0;
+        int low5buyAverageSuc = 0;
+        int low5buyAverageFai = 0;
+
+        int sellOpenHigh = 0;
+        int sellOpenHighSuc = 0;
+        int sellOpenHighFai = 0;
+        int sellOpenHighAverageSuc = 0;
+        int sellOpenHighAverageFai = 0;
+
+        int sellOpenLow = 0;
+        int sellOpenLowSuc = 0;
+        int sellOpenLowFai = 0;
+        int sellOpenLowAverageSuc = 0;
+        int sellOpenLowAverageFai = 0;
+
+        int allTurAverageSuc = 0;
+        int allTurAverageFai = 0;
+
+        int isTurnoverSellOpenHigh = 0;
+        int reduceTurnoverSellOpenHigh = 0;
+
+        int reduceSelfGp = 0;
+        int reduceSelfGpSuc = 0;
+        int reduceSelfGpFai = 0;
+        int reduceSelfGpAverageSuc = 0;
+        int reduceSelfGpAverageFai = 0;
+
+        int addSelfGp = 0;
+        int addSelfGpSuc = 0;
+        int addSelfGpFai = 0;
+        int addSelfGpAverageSuc = 0;
+        int addSelfGpAverageFai = 0;
+
+        int longHeader = 0;
+        int longHeaderNum = 0;
+        int longHeaderSuc = 0;
+        int longHeaderFai = 0;
+        double longHeaderAverageSuc = 0;
+        double longHeaderAverageFai = 0;
+
+
+        int highBan = 0;
+        int highBanSuc = 0;
+        int highBanFai = 0;
+        int highBanAverageSuc = 0;
+        int highBanAverageFai = 0;
+
+        int before10Buy = 0;
+        int before10BuySuc = 0;
+        int before10BuyFai = 0;
+        int before10BuyAverageSuc = 0;
+        int before10BuyAverageFai = 0;
+
+        int amBuy = 0;
+        int amBuySuc = 0;
+        int amBuyFai = 0;
+        int amBuyAverageSuc = 0;
+        int amBuyAverageFai = 0;
+
+        int pmBuy = 0;
+        int pmBuySuc = 0;
+        int pmBuyFai = 0;
+        int pmBuyAverageSuc = 0;
+        int pmBuyAverageFai = 0;
+
+//        for (NewStatisticsBean tmp : dataList) {
+//            allNum++;
+//            if(tmp.getLastPrice()>0){
+//                allNumNum++;
+//            }
+//            if (tmp.getResultPoint() > 0) {
+//                allNumSuc++;
+//                allAverageSuc = allAverageSuc + tmp.getResultPoint();
+//            } else {
+//                allNumFai++;
+//                allAverageFai = allAverageFai + tmp.getResultPoint();
+//            }
+////
+////            if (isClockBefore(tmp.getBuyTime(), 9, 40)) {
+////                before10Buy++;
+////                if (tmp.getResultPoint()>0) {
+////                    before10BuySuc++;
+////                    before10BuyAverageSuc = before10BuyAverageSuc + tmp.getResultPoint();
+////                } else {
+////                    before10BuyFai++;
+////                    before10BuyAverageFai = before10BuyAverageFai + tmp.getResultPoint();
+////                }
+////            }
+////
+////            if (isClockBefore(tmp.getBuyTime(), 13, 0)) {
+////                amBuy++;
+////                if (tmp.getResultPoint()>0) {
+////                    amBuySuc++;
+////                    amBuyAverageSuc = amBuyAverageSuc + tmp.getResultPoint();
+////                } else {
+////                    amBuyFai++;
+////                    amBuyAverageFai = amBuyAverageFai + tmp.getResultPoint();
+////                }
+////            }
+////
+////            if (isClockAfter(tmp.getBuyTime(), 11, 30)) {
+////                pmBuy++;
+////                if (tmp.getResultPoint()>0) {
+////                    pmBuySuc++;
+////                    pmBuyAverageSuc = pmBuyAverageSuc + tmp.getResultPoint();
+////                } else {
+////                    pmBuyFai++;
+////                    pmBuyAverageFai = pmBuyAverageFai + tmp.getResultPoint();
+////                }
+////            }
+////
+////            if (tmp.getEndQuantity() < 5) {
+////                reduceSelfGp++;
+////                if (tmp.getResultPoint()>0) {
+////                    reduceSelfGpSuc++;
+////                    reduceSelfGpAverageSuc = reduceSelfGpAverageSuc + tmp.getResultPoint();
+////                } else {
+////                    reduceSelfGpFai++;
+////                    reduceSelfGpAverageFai = reduceSelfGpAverageFai + tmp.getResultPoint();
+////                }
+////            } else {
+////                addSelfGp++;
+////                if (tmp.getResultPoint()>0) {
+////                    addSelfGpSuc++;
+////                    addSelfGpAverageSuc = addSelfGpAverageSuc + tmp.getResultPoint();
+////                } else {
+////                    addSelfGpFai++;
+////                    addSelfGpAverageFai = addSelfGpAverageFai + tmp.getResultPoint();
+////                }
+////            }
+////
+////            if (tmp.getSellOpen() > 0) {
+////                sellOpenHigh++;
+////                if (tmp.getResultPoint()>0) {
+////                    sellOpenHighSuc++;
+////                    sellOpenHighAverageSuc = sellOpenHighAverageSuc + tmp.getResultPoint();
+////                } else {
+////                    sellOpenHighFai++;
+////                    sellOpenHighAverageFai = sellOpenHighAverageFai + tmp.getResultPoint();
+////                }
+////            } else {
+////                sellOpenLow++;
+////                if (tmp.getResultPoint()>0) {
+////                    sellOpenLowSuc++;
+////                    sellOpenLowAverageSuc = sellOpenLowAverageSuc + tmp.getResultPoint();
+////                } else {
+////                    sellOpenLowFai++;
+////                    sellOpenLowAverageFai = sellOpenLowAverageFai + tmp.getResultPoint();
+////                }
+////            }
+////
+////            if (tmp.isIsPullUp()) {
+////                pullUpNum++;
+////                if (tmp.getResultPoint()>0) {
+////                    pullUpSucNum++;
+////                    pullAverageSuc = pullAverageSuc + tmp.getResultPoint();
+////                } else {
+////                    pullUpFaiNum++;
+////                    pullAverageFai = pullAverageFai + tmp.getResultPoint();
+////                }
+////            }
+////            if (tmp.isWhenBuyIsTurnedToOne()) {
+////                turnedToOneNum++;
+////                if (tmp.getResultPoint()>0) {
+////                    turnedToOneSucNum++;
+////                    turnedAverageSuc = turnedAverageSuc + tmp.getResultPoint();
+////                } else {
+////                    turnedToOneFaiNum++;
+////                    turnedAverageFai = turnedAverageFai + tmp.getResultPoint();
+////                }
+////            }
+////            if (tmp.isWhenBuyIsHot()) {
+////                isHot++;
+////                if (tmp.getResultPoint()>0) {
+////                    isHotSuc++;
+////                    hotAverageSuc = hotAverageSuc + tmp.getResultPoint();
+////                } else {
+////                    isHotFai++;
+////                    hotAverageFai = hotAverageFai + tmp.getResultPoint();
+////                }
+////            }
+////            if (tmp.isWhenBuyIsRebound()) {
+////                isRebound++;
+////                if (tmp.getResultPoint()>0) {
+////                    isReboundSuc++;
+////                    reboundAverageSuc = reboundAverageSuc + tmp.getResultPoint();
+////                } else {
+////                    isReboundFai++;
+////                    reboundAverageFai = reboundAverageFai + tmp.getResultPoint();
+////                }
+////
+////                if (tmp.getReboundLine() == 5) {
+////                    isRebound5++;
+////                    if (tmp.getResultPoint()>0) {
+////                        isRebound5Suc++;
+////                        rebound5AverageSuc = rebound5AverageSuc + tmp.getResultPoint();
+////                    } else {
+////                        isRebound5Fai++;
+////                        rebound5AverageFai = rebound5AverageFai + tmp.getResultPoint();
+////                    }
+////                }
+////
+////                if (tmp.getReboundLine() == 10) {
+////                    isRebound10++;
+////                    if (tmp.getResultPoint()>0) {
+////                        isRebound10Suc++;
+////                        rebound10AverageSuc = rebound10AverageSuc + tmp.getResultPoint();
+////                    } else {
+////                        isRebound10Fai++;
+////                        rebound10AverageFai = rebound10AverageFai + tmp.getResultPoint();
+////                    }
+////                }
+////
+////                if (tmp.getReboundLine() == 20) {
+////                    isRebound20++;
+////                    if (tmp.getResultPoint()>0) {
+////                        isRebound20Suc++;
+////                        rebound20AverageSuc = rebound20AverageSuc + tmp.getResultPoint();
+////                    } else {
+////                        isRebound20Fai++;
+////                        rebound20AverageFai = rebound20AverageFai + tmp.getResultPoint();
+////                    }
+////                }
+////
+////                if (tmp.getReboundLine() == 30) {
+////                    isRebound30++;
+////                    if (tmp.getResultPoint()>0) {
+////                        isRebound30Suc++;
+////                        rebound30AverageSuc = rebound30AverageSuc + tmp.getResultPoint();
+////                    } else {
+////                        isRebound30Fai++;
+////                        rebound30AverageFai = rebound30AverageFai + tmp.getResultPoint();
+////                    }
+////                }
+////            }
+////            if (tmp.isIsBuyBan()) {
+////                isBan++;
+////                if (tmp.getResultPoint()>0) {
+////                    isBanSuc++;
+////                    banAverageSuc = banAverageSuc + tmp.getResultPoint();
+////                } else {
+////                    isBanFai++;
+////                    banAverageFai = banAverageFai + tmp.getResultPoint();
+////                }
+////            }
+////            if (tmp.getBuyPoint() < 5) {
+////                low5buy++;
+////                if (tmp.getResultPoint()>0) {
+////                    low5buySuc++;
+////                    low5buyAverageSuc = low5buyAverageSuc + tmp.getResultPoint();
+////                } else {
+////                    low5buyFai++;
+////                    low5buyAverageFai = low5buyAverageFai + tmp.getResultPoint();
+////                }
+////            }
+//            if (tmp.getMode() == 0) {
+//                longHeader++;
+//                if(tmp.getLastPrice()>0){
+//                    longHeaderNum++;
+//                }
+//                if (tmp.getResultPoint() > 0) {
+//                    longHeaderSuc++;
+//                    longHeaderAverageSuc = longHeaderAverageSuc + tmp.getResultPoint();
+//                } else {
+//                    longHeaderFai++;
+//                    longHeaderAverageFai = longHeaderAverageFai + tmp.getResultPoint();
+//                }
+//            }
+//            if (tmp.getMode() == 1) {
+//                firstBan++;
+//                if(tmp.getLastPrice()>0){
+//                    firstBanNum++;
+//                }
+//                if (tmp.getResultPoint() > 0) {
+//                    firstBanSuc++;
+//                    firstBanAverageSuc = firstBanAverageSuc + tmp.getResultPoint();
+//                } else {
+//                    firstBanFai++;
+//                    firstBanAverageFai = firstBanAverageFai + tmp.getResultPoint();
+//                }
+//            }
+//            if (tmp.getMode() == 2) {
+//                twoBan++;
+//                if(tmp.getLastPrice()>0){
+//                    twoBanNum++;
+//                }
+//                if (tmp.getResultPoint() > 0) {
+//                    twoBanSuc++;
+//                    twoBanAverageSuc = twoBanAverageSuc + tmp.getResultPoint();
+//                } else {
+//                    twoBanFai++;
+//                    twoBanAverageFai = twoBanAverageFai + tmp.getResultPoint();
+//                }
+//            }
+//            if (tmp.getMode() == 3) {
+//                threeBan++;
+//                if(tmp.getLastPrice()>0){
+//                    threeBanNum++;
+//                }
+//                if (tmp.getResultPoint() > 0) {
+//                    threeBanSuc++;
+//                    threeBanAverageSuc = threeBanAverageSuc + tmp.getResultPoint();
+//                } else {
+//                    threeBanFai++;
+//                    threeBanAverageFai = threeBanAverageFai + tmp.getResultPoint();
+//                }
+//            }
+////            if (tmp.isIsPullUp() && tmp.getBuyBanNum() > 3) {
+////                highBan++;
+////                if (tmp.getResultPoint()>0) {
+////                    highBanSuc++;
+////                    highBanAverageSuc = highBanAverageSuc + tmp.getResultPoint();
+////                } else {
+////                    highBanFai++;
+////                    highBanAverageFai = highBanAverageFai + tmp.getResultPoint();
+////                }
+////            }
+//        }
+
+        for (String month : dataMap.keySet()) {
+
+            int firstBan = 0;
+            int firstBanNum = 0;
+            int firstBanSuc = 0;
+            int firstBanFai = 0;
+            double firstBanAverageSuc = 0;
+            double firstBanAverageFai = 0;
+
+            int twoBan = 0;
+            int twoBanNum = 0;
+            int twoBanSuc = 0;
+            int twoBanFai = 0;
+            double twoBanAverageSuc = 0;
+            double twoBanAverageFai = 0;
+
+            int threeBan = 0;
+            int threeBanNum = 0;
+            int threeBanSuc = 0;
+            int threeBanFai = 0;
+            double threeBanAverageSuc = 0;
+            double threeBanAverageFai = 0;
+
+            List<NewStatisticsBean> monthItems = dataMap.get(month);
+
+            for (NewStatisticsBean item : monthItems) {
+                if (item.getMode() == 1) {
+                    firstBan++;
+                    if (item.getLastPrice() > 0) {
+                        firstBanNum++;
+                    }
+                    if (item.getResultPoint() > 0) {
+                        firstBanSuc++;
+                        firstBanAverageSuc = firstBanAverageSuc + item.getResultPoint();
+                    } else {
+                        firstBanFai++;
+                        firstBanAverageFai = firstBanAverageFai + item.getResultPoint();
+                    }
+                }
+
+                if (item.getMode() == 2) {
+                    twoBan++;
+                    if (item.getLastPrice() > 0) {
+                        twoBanNum++;
+                    }
+                    if (item.getResultPoint() > 0) {
+                        twoBanSuc++;
+                        twoBanAverageSuc = twoBanAverageSuc + item.getResultPoint();
+                    } else {
+                        twoBanFai++;
+                        twoBanAverageFai = twoBanAverageFai + item.getResultPoint();
+                    }
+                }
+
+                if (item.getMode() == 3) {
+                    threeBan++;
+                    if (item.getLastPrice() > 0) {
+                        threeBanNum++;
+                    }
+                    if (item.getResultPoint() > 0) {
+                        threeBanSuc++;
+                        threeBanAverageSuc = threeBanAverageSuc + item.getResultPoint();
+                    } else {
+                        threeBanFai++;
+                        threeBanAverageFai = threeBanAverageFai + item.getResultPoint();
+                    }
+                }
+
+
+//                System.out.println("  Name: " + item.getGpName() + ", Date: " + item.getFormerDate());
+            }
+
+            itemList.add(new MonthShowBean(month, getResult(firstBan, firstBanSuc),  getResult(twoBan, twoBanSuc), getResult(threeBan, threeBanSuc)));
+
+        }
+
+//        itemList.add(new ShowBean("总计", allNum, allNumSuc, getResult(allNum, allNumSuc), getResult(allNum, allNumNum), allNumSuc == 0 ? 0 : allAverageSuc / allNumSuc, allNumFai == 0 ? 0 : allAverageFai / allNumFai));
+//        itemList.add(new ShowBean("个股缩量", reduceSelfGp, reduceSelfGpSuc, getResult(reduceSelfGp, reduceSelfGpSuc), reduceSelfGpSuc == 0 ? 0 : reduceSelfGpAverageSuc / reduceSelfGpSuc, reduceSelfGpFai == 0 ? 0 : reduceSelfGpAverageFai / reduceSelfGpFai));
+//        itemList.add(new ShowBean("个股平放量", addSelfGp, addSelfGpSuc, getResult(addSelfGp, addSelfGpSuc), addSelfGpSuc == 0 ? 0 : addSelfGpAverageSuc / addSelfGpSuc, addSelfGpFai == 0 ? 0 : addSelfGpAverageFai / addSelfGpFai));
+//        itemList.add(new ShowBean("高开1点", sellOpenHigh, sellOpenHighSuc, getResult(sellOpenHigh, sellOpenHighSuc), sellOpenHighSuc == 0 ? 0 : sellOpenHighAverageSuc / sellOpenHighSuc, sellOpenHighFai == 0 ? 0 : sellOpenHighAverageFai / sellOpenHighFai));
+//        itemList.add(new ShowBean("平低开", sellOpenLow, sellOpenLowSuc, getResult(sellOpenLow, sellOpenLowSuc), sellOpenLowSuc == 0 ? 0 : sellOpenLowAverageSuc / sellOpenLowSuc, sellOpenLowFai == 0 ? 0 : sellOpenLowAverageFai / sellOpenLowFai));
+//        itemList.add(new ShowBean("9点40前买", before10Buy, before10BuySuc, getResult(before10Buy, before10BuySuc), before10BuySuc == 0 ? 0 : before10BuyAverageSuc / before10BuySuc, before10BuyFai == 0 ? 0 : before10BuyAverageFai / before10BuyFai));
+//        itemList.add(new ShowBean("上午买", amBuy, amBuySuc, getResult(amBuy, amBuySuc), amBuySuc == 0 ? 0 : amBuyAverageSuc / amBuySuc, amBuyFai == 0 ? 0 : amBuyAverageFai / amBuyFai));
+//        itemList.add(new ShowBean("下午买", pmBuy, pmBuySuc, getResult(pmBuy, pmBuySuc), pmBuySuc == 0 ? 0 : pmBuyAverageSuc / pmBuySuc, pmBuyFai == 0 ? 0 : pmBuyAverageFai / pmBuyFai));
+//        itemList.add(new ShowBean("主升模式", pullUpNum, pullUpSucNum, getResult(pullUpNum, pullUpSucNum), pullUpSucNum == 0 ? 0 : pullAverageSuc / pullUpSucNum, pullUpFaiNum == 0 ? 0 : pullAverageFai / pullUpFaiNum));
+//        itemList.add(new ShowBean("反弹", isRebound, isReboundSuc, getResult(isRebound, isReboundSuc), isReboundSuc == 0 ? 0 : reboundAverageSuc / isReboundSuc, isReboundFai == 0 ? 0 : reboundAverageFai / isReboundFai));
+//        itemList.add(new ShowBean("分歧转一致", turnedToOneNum, turnedToOneSucNum, getResult(turnedToOneNum, turnedToOneSucNum), turnedToOneSucNum == 0 ? 0 : turnedAverageSuc / turnedToOneSucNum, turnedToOneFaiNum == 0 ? 0 : turnedAverageFai / turnedToOneFaiNum));
+//        itemList.add(new ShowBean("当日追热点", isHot, isHotSuc, getResult(isHot, isHotSuc), isHotSuc == 0 ? 0 : hotAverageSuc / isHotSuc, isHotFai == 0 ? 0 : hotAverageFai / isHotFai));
+//        itemList.add(new ShowBean("打板买入", isBan, isBanSuc, getResult(isBan, isBanSuc), isBanSuc == 0 ? 0 : banAverageSuc / isBanSuc, isBanFai == 0 ? 0 : banAverageFai / isBanFai));
+//        itemList.add(new ShowBean("5点下买", low5buy, low5buySuc, getResult(low5buy, low5buySuc), low5buySuc == 0 ? 0 : low5buyAverageSuc / low5buySuc, low5buyFai == 0 ? 0 : low5buyAverageFai / low5buyFai));
+//        itemList.add(new ShowBean("5日线反弹", isRebound5, isRebound5Suc, getResult(isRebound5, isRebound5Suc), isRebound5Suc == 0 ? 0 : rebound5AverageSuc / isRebound5Suc, isRebound5Fai == 0 ? 0 : rebound5AverageFai / isRebound5Fai));
+//        itemList.add(new ShowBean("10日线反弹", isRebound10, isRebound10Suc, getResult(isRebound10, isRebound10Suc), isRebound10Suc == 0 ? 0 : rebound10AverageSuc / isRebound10Suc, isRebound10Fai == 0 ? 0 : rebound10AverageFai / isRebound10Fai));
+//        itemList.add(new ShowBean("20日线反弹", isRebound20, isRebound20Suc, getResult(isRebound20, isRebound20Suc), isRebound20Suc == 0 ? 0 : rebound20AverageSuc / isRebound20Suc, isRebound20Fai == 0 ? 0 : rebound20AverageFai / isRebound20Fai));
+//        itemList.add(new ShowBean("龙头战法", longHeader, longHeaderSuc, getResult(longHeader, longHeaderSuc), longHeaderSuc == 0 ? 0 : rebound30AverageSuc / longHeaderSuc, longHeaderFai == 0 ? 0 : longHeaderAverageFai / longHeaderFai));
+//        itemList.add(new ShowBean("首板", firstBan, firstBanSuc, getResult(firstBan, firstBanSuc), getResult(firstBan, firstBanNum), firstBanSuc == 0 ? 0 : firstBanAverageSuc / firstBanSuc, firstBanFai == 0 ? 0 : firstBanAverageFai / firstBanFai));
+//        itemList.add(new ShowBean("二板", twoBan, twoBanSuc, getResult(twoBan, twoBanSuc), getResult(twoBan, twoBanNum), twoBanSuc == 0 ? 0 : twoBanAverageSuc / twoBanSuc, twoBanFai == 0 ? 0 : twoBanAverageFai / twoBanFai));
+//        itemList.add(new ShowBean("三板", threeBan, threeBanSuc, getResult(threeBan, threeBanSuc), getResult(threeBan, threeBanNum), threeBanSuc == 0 ? 0 : threeBanAverageSuc / threeBanSuc, threeBanFai == 0 ? 0 : threeBanAverageFai / threeBanFai));
+//        itemList.add(new ShowBean("高位板", highBan, highBanSuc, getResult(highBan, highBanSuc), highBanSuc == 0 ? 0 : highBanAverageSuc / highBanSuc, highBanFai == 0 ? 0 : highBanAverageFai / highBanFai));
+        originalList = new ArrayList<>(itemList); // 备份原始列表
+    }
+
+    public int getResult(int all, int suc) {
+        int dividend = suc; // 被除数
+        int divisor = all; // 除数
+        if (all == 0) {
+            return 0;
+        }
+        int result = (dividend * 100) / divisor;
+        return result;
+    }
+
+    @Override
+    public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
+        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.fen_qi_item_layout, parent, false);
+        return new ViewHolder(view);
+    }
+
+    @Override
+    public void onBindViewHolder(ViewHolder holder, @SuppressLint("RecyclerView") int position) {
+//        if (itemList.get(position).ratio > 49) {
+            holder.itemView.setBackgroundColor(Color.parseColor("#FFC0CB"));
+//        } else {
+//            holder.itemView.setBackgroundColor(Color.parseColor("#90EE90"));
+//        }
+        MonthShowBean data = itemList.get(position);
+
+        holder.bindData(data);
+
+        // 为 item 设置点击事件
+        holder.itemView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+//                if (mListener != null) {
+//                    mListener.onItemClick(returnData(itemList.get(position)));
+//
+//                }
+            }
+        });
+    }
+
+//    private List<NewStatisticsBean> returnData(ShowBean showBean) {
+//        switch (showBean.model) {
+//            case "总计":
+//                return dataList;
+////            case "5日线反弹":
+////                return data.stream()
+////                        .filter(bean -> bean.getReboundLine() == 5)
+////                        .collect(Collectors.toList());
+////            case "10日线反弹":
+////                return data.stream()
+////                        .filter(bean -> bean.getReboundLine() == 10)
+////                        .collect(Collectors.toList());
+////            case "20日线反弹":
+////                return data.stream()
+////                        .filter(bean -> bean.getReboundLine() == 20)
+////                        .collect(Collectors.toList());
+////            case "30日线反弹":
+////                return data.stream()
+////                        .filter(bean -> bean.getReboundLine() == 30)
+////                        .collect(Collectors.toList());
+////            case "沪深缩量":
+////                return data.stream()
+////                        .filter(bean -> bean.getAllTurnover() == -1)
+////                        .collect(Collectors.toList());
+////            case "沪深平量":
+////                return data.stream()
+////                        .filter(bean -> bean.getAllTurnover() == 0)
+////                        .collect(Collectors.toList());
+//            case "龙头战法":
+//                return dataList.stream()
+//                        .filter(bean -> bean.getMode() == 0)
+//                        .collect(Collectors.toList());
+//            case "首板":
+//                return dataList.stream()
+//                        .filter(bean -> bean.getMode() == 1)
+//                        .collect(Collectors.toList());
+//            case "二板":
+//                return dataList.stream()
+//                        .filter(bean -> bean.getMode() == 2)
+//                        .collect(Collectors.toList());
+//            case "三板":
+//                return dataList.stream()
+//                        .filter(bean -> bean.getMode() == 3)
+//                        .collect(Collectors.toList());
+////            case "高位板":
+////                return data.stream()
+////                        .filter(bean -> bean.getMode() && bean.getBuyBanNum() > 3)
+////                        .collect(Collectors.toList());
+//            default:
+//                return new ArrayList<>();
+//
+//        }
+//    }
+
+    @Override
+    public int getItemCount() {
+        return itemList.size();
+    }
+
+//    public void changeAllTimeData() {
+//        Collections.sort(itemList, new Comparator<ShowBean>() {
+//            @Override
+//            public int compare(ShowBean bean1, ShowBean bean2) {
+//                if (all) {
+//                    return bean2.allTime - bean1.allTime;
+//                } else {
+//                    return bean1.allTime - bean2.allTime;
+//                }
+//            }
+//        });
+//        all = !all;
+//        notifyDataSetChanged();
+//
+//    }
+
+//    public void changeSucTimeData() {
+//        Collections.sort(itemList, new Comparator<ShowBean>() {
+//            @Override
+//            public int compare(ShowBean bean1, ShowBean bean2) {
+//                if (suc) {
+//                    return bean2.sucTime - bean1.sucTime;
+//                } else {
+//                    return bean1.sucTime - bean2.sucTime;
+//                }
+//            }
+//        });
+//        suc = !suc;
+//        notifyDataSetChanged();
+//
+//    }
+
+//    public void changeRadioData() {
+//        Collections.sort(itemList, new Comparator<ShowBean>() {
+//            @Override
+//            public int compare(ShowBean bean1, ShowBean bean2) {
+//                if (radio) {
+//                    return bean2.ratio - bean1.ratio;
+//                } else {
+//                    return bean1.ratio - bean2.ratio;
+//                }
+//            }
+//        });
+//        radio = !radio;
+//        notifyDataSetChanged();
+//    }
+
+//    public void changeBanData() {
+//        Collections.sort(itemList, new Comparator<ShowBean>() {
+//            @Override
+//            public int compare(ShowBean bean1, ShowBean bean2) {
+//                if (ban) {
+//                    return bean2.ban - bean1.ban;
+//                } else {
+//                    return bean1.ban - bean2.ban;
+//                }
+//            }
+//        });
+//        ban = !ban;
+//        notifyDataSetChanged();
+//    }
+
+//    public void changeAverageSucData() {
+//        Collections.sort(itemList, new Comparator<ShowBean>() {
+//            @Override
+//            public int compare(ShowBean bean1, ShowBean bean2) {
+//                if (averageSuc) {
+//                    return Double.compare(bean1.averageSuc, bean2.averageSuc);
+//                } else {
+//                    return Double.compare(bean2.averageSuc, bean1.averageSuc);
+//                }
+//            }
+//        });
+//        averageSuc = !averageSuc;
+//        notifyDataSetChanged();
+//    }
+
+
+    public void recoverData() {
+        itemList.clear();
+        itemList.addAll(originalList);
+        notifyDataSetChanged();
+    }
+
+//    public void changeAverageFaiData() {
+//        Collections.sort(itemList, new Comparator<ShowBean>() {
+//            @Override
+//            public int compare(ShowBean bean1, ShowBean bean2) {
+//                if (averageSuc) {
+//                    return Double.compare(bean1.averageFai, bean2.averageFai);
+//                } else {
+//                    return Double.compare(bean2.averageFai, bean1.averageFai);
+//                }
+//            }
+//        });
+//        averageFai = !averageFai;
+//        notifyDataSetChanged();
+//    }
+
+    public boolean isClockBefore(String tmp, int targetHour, int targetMinutes) {
+        String[] timeParts = tmp.split(":"); // 拆分小时和分钟部分
+        int hour = Integer.parseInt(timeParts[0]); // 小时
+        int minute = Integer.parseInt(timeParts[1]); // 分钟
+
+        if (hour < targetHour || (hour == targetHour && minute < targetMinutes)) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+
+    public boolean isClockAfter(String tmp, int targetHour, int targetMinutes) {
+        String[] timeParts = tmp.split(":");
+        String hourString = timeParts[0]; // 小时部分
+        String minuteString = timeParts[1]; // 分钟部分
+
+        int hour = Integer.parseInt(hourString);
+        int minute = Integer.parseInt(minuteString);
+
+        if (hour > targetHour || (hour == targetHour && minute >= targetMinutes)) {
+            return true;
+        } else {
+            return false;
+        }
+
+    }
+
+    public void setOnItemClickListener(OnNewItemClickListener listener) {
+        mListener = listener;
+    }
+
+
+    public class ViewHolder extends RecyclerView.ViewHolder {
+        private LinearLayout linearLayout;
+
+        public ViewHolder(View itemView) {
+            super(itemView);
+            linearLayout = itemView.findViewById(R.id.linearLayout);
+        }
+
+        public void bindData(MonthShowBean data) {
+            // 清空容器中的所有子视图
+            linearLayout.removeAllViews();
+
+            // 动态添加 TextView
+            for (int i = 0; i < 4; i++) {
+                TextView textView = new TextView(itemView.getContext());
+//                if (i == 0) {
+//                    textView.setWidth(250); // 名称
+//                } else {
+                    textView.setWidth(230); // 设置宽度为200像素
+//                }
+                textView.setHeight(100);
+                textView.setTextColor(Color.parseColor("#ff000000"));
+                textView.setGravity(Gravity.CENTER);
+//                if (data.getResultPoint() > 0) {
+//                    textView.setBackgroundColor(Color.parseColor("#FFC0CB"));
+//                } else {
+//                    textView.setBackgroundColor(Color.parseColor("#90EE90"));
+//                }
+                switch (i) {
+                    case 0:
+                        textView.setText(data.month);
+                        break;
+                    case 1:
+                        textView.setText(data.shouBan + "%");
+                        break;
+                    case 2:
+                        textView.setText(data.erBan + "%");
+                        break;
+                    case 3:
+                        textView.setText(data.sanBan + "%");
+                        break;
+                }
+                linearLayout.addView(textView);
+            }
+
+        }
+    }
+
+    private class MonthShowBean {
+        private String month;
+        private int shouBan;
+        private int erBan;
+        private int sanBan;
+
+        public MonthShowBean(String month, int shouBan, int erBan, int sanBan) {
+            this.month = month;
+            this.shouBan = shouBan;
+            this.erBan = erBan;
+            this.sanBan = sanBan;
+        }
+    }
+}
