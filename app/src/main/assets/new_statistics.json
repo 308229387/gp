@@ -1,13 +1,28 @@
 [
   {
-    "gpName": "远东传动",
-    "formerDate": "2023-09-20",
-    "mode": 1,
-    "lastPrice": 0.6,
+    "gpName": "罗普斯金",
+    "formerDate": "2023-09-21",
+    "mode": -1,
+    "lastPrice": 1.93,
     "failureReason": [],
     "isBanBuy": true,
     "resultPoint": 5.5,
-    "buyReason": "没有二板标的，找到远东，有一定辨识度，K线形态也比较不错，买的时候其实是被炸进去的，但看形态感觉能板。中途开过一两次，但还是有封单顶上去了。",
+    "buyReason": "昨天封单在一板中最大2.4亿，今天开盘高开，放量上冲，上板时接近平量，至此来看承接很好，但缺点是这票有前高，回落了半小时左右，后花2000万直接拉涨停，封板，2个多亿封单、倍量。",
+    "image_list": [
+      "apgd_k",
+      "apgd_b",
+      "apgd_s"
+    ]
+  },
+  {
+    "gpName": "远东传动",
+    "formerDate": "2023-09-20",
+    "mode": 1,
+    "lastPrice": 0.39,
+    "failureReason": [4],
+    "isBanBuy": true,
+    "resultPoint": -4.5,
+    "buyReason": "没有二板标的，找到远东，有一定辨识度，K线形态也比较不错，买的时候其实是被炸进去的，但看形态感觉能板。中途开过一两次，但还是有封单顶上去了。第二天平开向下。",
     "image_list": [
       "apgd_k",
       "apgd_b",
@@ -21,12 +36,12 @@
     "lastPrice": 0.036,
     "failureReason": [2],
     "isBanBuy": true,
-    "resultPoint": -6.5,
+    "resultPoint": -6.81,
     "buyReason": "退潮，二板几乎没有好的，哈空调早盘拉板，形态也还可以，有1个亿的封单，炸板回封上车，但也很弱。自己明明已经预测了冰点的到来，还是上了仓位。",
     "image_list": [
-      "apgd_k",
-      "apgd_b",
-      "apgd_s"
+      "hkt_k",
+      "hkt_b",
+      "hkt_s"
     ]
   },
   {
@@ -36,12 +51,12 @@
     "lastPrice": 0.67,
     "failureReason": [8],
     "isBanBuy": true,
-    "resultPoint": 6.14,
+    "resultPoint": 6.93,
     "buyReason": "退潮，挺热门的一个票，融通融券被爆光，要求本月28号全部赎回，被抖音博主忽悠拉爆融券，然后看第二天也有量，也高开，释放下冲板就上了。结果秒炸。在尾盘又封板。",
     "image_list": [
-      "apgd_k",
-      "apgd_b",
-      "apgd_s"
+      "jdgf_k",
+      "jdgf_b",
+      "jdgf_s"
     ]
   },
   {
@@ -69,13 +84,13 @@
     "resultPoint": -15.3,
     "buyReason": "一字板，开板后盯着回封，有点搞笑，手指头离的有点近，误触成交，全天烂板，下午炸板。第二天低开7 8个点，没有出逃机会，板附近割了",
     "image_list": [
-      "apgd_k",
-      "apgd_b",
-      "apgd_s"
+      "dfty_k",
+      "dfty_b",
+      "dfty_s"
     ]
   },
   {
-    "gpName": "双诚药业",
+    "gpName": "双成药业",
     "formerDate": "2023-09-18",
     "mode": 2,
     "lastPrice": 0.61,
@@ -84,9 +99,9 @@
     "resultPoint": 8.31,
     "buyReason": "开盘拉升，涨停处量能不够，均线也低，再调整回封时入场，当时量能比昨天微少，中途炸板回封",
     "image_list": [
-      "apgd_k",
-      "apgd_b",
-      "apgd_s"
+      "scyy_k",
+      "scyy_b",
+      "scyy_s"
     ]
   },
   {
@@ -187,7 +202,9 @@
     "resultPoint": 3.4,
     "buyReason": "开盘快速上板，前一天有冲高，排单时好像有7千多万了，后在10点多排上",
     "image_list": [
-      "gsbe_k"
+      "gsbe_k",
+      "gsbe_b",
+      "gsbe_s"
     ]
   },
   {

@@ -12,7 +12,6 @@ import android.widget.TextView;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.songyongmeng.gp.utils.NewOnDetailItemClickListener;
-import com.songyongmeng.gp.utils.OnDetailItemClickListener;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -26,7 +25,7 @@ public class NewSumUpListAdapter extends RecyclerView.Adapter<NewSumUpListAdapte
     private boolean latterAverage;
     private boolean formerAllValue;
     private boolean latterStart;
-    private boolean formerBanTime;
+    private boolean mode;
     private boolean lastPrice;
     private boolean resultPoint;
     private boolean banScore;
@@ -152,20 +151,20 @@ public class NewSumUpListAdapter extends RecyclerView.Adapter<NewSumUpListAdapte
         notifyDataSetChanged();
     }
 
-    public void changeIsBanBuy() {
-        Comparator<NewStatisticsBean> comparator = new Comparator<NewStatisticsBean>() {
+    public void changeMode() {
+        changeResultPoint();
+//        Comparator<NewStatisticsBean> comparator = new Comparator<NewStatisticsBean>() {
+        Collections.sort(mDataList, new Comparator<NewStatisticsBean>() {
             @Override
             public int compare(NewStatisticsBean bean1, NewStatisticsBean bean2) {
-                if (isIsBanBuy) {
-                    return Boolean.compare(bean2.isIsBanBuy(), bean1.isIsBanBuy());
+                if (mode) {
+                    return bean2.getMode() - bean1.getMode();
                 } else {
-                    return Boolean.compare(bean1.isIsBanBuy(), bean2.isIsBanBuy());
+                    return bean1.getMode() - bean2.getMode();
                 }
             }
-        };
-
-        Collections.sort(mDataList, comparator);
-        isIsBanBuy = !isIsBanBuy;
+        });
+        mode = !mode;
         notifyDataSetChanged();
     }
 
@@ -185,6 +184,7 @@ public class NewSumUpListAdapter extends RecyclerView.Adapter<NewSumUpListAdapte
         lastPrice = !lastPrice;
         notifyDataSetChanged();
     }
+
     public void changeIsHasBan() {
         comparator = new Comparator<NewStatisticsBean>() {
             @Override
@@ -201,7 +201,8 @@ public class NewSumUpListAdapter extends RecyclerView.Adapter<NewSumUpListAdapte
         lastPrice = !lastPrice;
         notifyDataSetChanged();
     }
-//
+
+    //
 //
 //    public void changeLatterTopPointData() {
 //        comparator = new Comparator<NewStatisticsBean>() {
@@ -487,15 +488,27 @@ public class NewSumUpListAdapter extends RecyclerView.Adapter<NewSumUpListAdapte
                         textView.setText(data.getResultPoint() + "%");
                         break;
                     case 2:
-                        textView.setText(data.isIsBanBuy() ? "涨停买入" : "非涨停");
+                        String tmp = "";
+                        if (data.getMode() == -1) {
+                            tmp = "进行中";
+                        } else if (data.getMode() == 0) {
+                            tmp = "龙头";
+                        } else if (data.getMode() == 1) {
+                            tmp = "首板";
+                        } else if (data.getMode() == 2) {
+                            tmp = "一进二";
+                        } else if (data.getMode() == 3) {
+                            tmp = "二进三";
+                        }
+                        textView.setText(tmp);
                         break;
                     case 3:
-                        textView.setText(data.getLastPrice()>0 ? "涨停" : "未涨停");
+                        textView.setText(data.getLastPrice() > 0 ? "涨停" : "未涨停");
                         break;
                     case 4:
-                        if(data.getLastPrice()>0){
+                        if (data.getLastPrice() > 0) {
                             textView.setText(data.getLastPrice() + "亿");
-                        }else{
+                        } else {
                             textView.setText("-");
                         }
                         break;

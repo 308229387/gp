@@ -14,12 +14,11 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.songyongmeng.gp.utils.OnNewItemClickListener;
 
+import java.text.DecimalFormat;
 import java.util.ArrayList;
 import java.util.Collections;
-import java.util.Comparator;
 import java.util.List;
 import java.util.Map;
-import java.util.stream.Collectors;
 
 public class MonthStatisticsAdapter extends RecyclerView.Adapter<MonthStatisticsAdapter.ViewHolder> {
 
@@ -427,8 +426,10 @@ public class MonthStatisticsAdapter extends RecyclerView.Adapter<MonthStatistics
 ////                }
 ////            }
 //        }
+        List<String> keyList = new ArrayList<>(dataMap.keySet());
+        Collections.reverse(keyList);
 
-        for (String month : dataMap.keySet()) {
+        for (String month : keyList) {
 
             int firstBan = 0;
             int firstBanNum = 0;
@@ -500,7 +501,7 @@ public class MonthStatisticsAdapter extends RecyclerView.Adapter<MonthStatistics
 //                System.out.println("  Name: " + item.getGpName() + ", Date: " + item.getFormerDate());
             }
 
-            itemList.add(new MonthShowBean(month, getResult(firstBan, firstBanSuc),  getResult(twoBan, twoBanSuc), getResult(threeBan, threeBanSuc)));
+            itemList.add(new MonthShowBean(month, twoBan, getResult(twoBan, twoBanNum), getResult(twoBan, twoBanSuc), twoPoint(twoBanSuc == 0 ? 0 : twoBanAverageSuc / twoBanSuc), twoPoint(twoBanFai == 0 ? 0 : twoBanAverageFai / twoBanFai),firstBan, getResult(firstBan, firstBanNum), getResult(firstBan, firstBanSuc), twoPoint(firstBanSuc == 0 ? 0 : firstBanAverageSuc / firstBanSuc), twoPoint(firstBanFai == 0 ? 0 : firstBanAverageFai / firstBanFai), threeBan, getResult(threeBan, threeBanSuc)));
 
         }
 
@@ -548,7 +549,7 @@ public class MonthStatisticsAdapter extends RecyclerView.Adapter<MonthStatistics
     @Override
     public void onBindViewHolder(ViewHolder holder, @SuppressLint("RecyclerView") int position) {
 //        if (itemList.get(position).ratio > 49) {
-            holder.itemView.setBackgroundColor(Color.parseColor("#FFC0CB"));
+        holder.itemView.setBackgroundColor(Color.parseColor("#FFC0CB"));
 //        } else {
 //            holder.itemView.setBackgroundColor(Color.parseColor("#90EE90"));
 //        }
@@ -560,13 +561,18 @@ public class MonthStatisticsAdapter extends RecyclerView.Adapter<MonthStatistics
         holder.itemView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-//                if (mListener != null) {
-//                    mListener.onItemClick(returnData(itemList.get(position)));
-//
-//                }
+                if (mListener != null) {
+                    mListener.onItemClick(returnData(itemList.get(position)));
+
+                }
             }
         });
     }
+
+    private List<NewStatisticsBean> returnData(MonthShowBean showBean) {
+        return dataMap.get(showBean.month);
+    }
+
 
 //    private List<NewStatisticsBean> returnData(ShowBean showBean) {
 //        switch (showBean.model) {
@@ -772,13 +778,13 @@ public class MonthStatisticsAdapter extends RecyclerView.Adapter<MonthStatistics
             linearLayout.removeAllViews();
 
             // 动态添加 TextView
-            for (int i = 0; i < 4; i++) {
+            for (int i = 0; i < 13; i++) {
                 TextView textView = new TextView(itemView.getContext());
-//                if (i == 0) {
-//                    textView.setWidth(250); // 名称
-//                } else {
-                    textView.setWidth(230); // 设置宽度为200像素
-//                }
+                if (i == 0) {
+                    textView.setWidth(250); // 日期
+                } else {
+                    textView.setWidth(200); // 设置宽度为200像素
+                }
                 textView.setHeight(100);
                 textView.setTextColor(Color.parseColor("#ff000000"));
                 textView.setGravity(Gravity.CENTER);
@@ -792,13 +798,40 @@ public class MonthStatisticsAdapter extends RecyclerView.Adapter<MonthStatistics
                         textView.setText(data.month);
                         break;
                     case 1:
-                        textView.setText(data.shouBan + "%");
+                        textView.setText(data.shouBanTime == 0 ? "-" : data.shouBanTime + "次");
                         break;
                     case 2:
-                        textView.setText(data.erBan + "%");
+                        textView.setText((data.shouBanTime == 0 && data.shouBanRate == 0) ? "-" : data.shouBanRate + "%");
                         break;
                     case 3:
-                        textView.setText(data.sanBan + "%");
+                        textView.setText(data.shouBanTime == 0 ? "-" : data.shouBanNum + "%");
+                        break;
+                    case 4:
+                        textView.setText(data.shouBanTime == 0 ? "-" : data.shouBanAverageSuc + "%");
+                        break;
+                    case 5:
+                        textView.setText(data.shouBanTime == 0 ? "-" : data.shouBanAverageFai + "%");
+                        break;
+                    case 6:
+                        textView.setText(data.erBanTime == 0 ? "-" : data.erBanTime + "次");
+                        break;
+                    case 7:
+                        textView.setText((data.erBanTime == 0 && data.erBanRate == 0) ? "-" : data.erBanRate + "%");
+                        break;
+                    case 8:
+                        textView.setText(data.erBanTime == 0 ? "-" : data.erBanNum + "%");
+                        break;
+                    case 9:
+                        textView.setText((data.erBanTime == 0) ? "-" : data.erBanAverageSuc + "%");
+                        break;
+                    case 10:
+                        textView.setText((data.erBanTime == 0) ? "-" : data.erBanAverageFai + "%");
+                        break;
+                    case 11:
+                        textView.setText(data.sanBanTime == 0 ? "-" : data.sanBanTime + "次");
+                        break;
+                    case 12:
+                        textView.setText((data.sanBanTime == 0 && data.sanBanRate == 0) ? "-" : data.sanBanRate + "%");
                         break;
                 }
                 linearLayout.addView(textView);
@@ -807,17 +840,40 @@ public class MonthStatisticsAdapter extends RecyclerView.Adapter<MonthStatistics
         }
     }
 
+    public String twoPoint(double num) {
+        DecimalFormat df = new DecimalFormat("#.##");
+        return df.format(num);
+    }
+
     private class MonthShowBean {
         private String month;
-        private int shouBan;
-        private int erBan;
-        private int sanBan;
+        private int shouBanTime;
+        private int shouBanRate;
+        private int erBanTime;
+        private int erBanRate;
+        private int sanBanTime;
+        private int sanBanRate;
+        private int shouBanNum;
+        private int erBanNum;
+        private String shouBanAverageSuc;
+        private String erBanAverageSuc;
+        private String shouBanAverageFai;
+        private String erBanAverageFai;
 
-        public MonthShowBean(String month, int shouBan, int erBan, int sanBan) {
+        public MonthShowBean(String month, int shouBanTime, int shouBanNum, int shouBanRate, String shouBanAverageSuc, String shouBanAverageFai, int erBanTime, int erBanNum, int erBanRate, String erBanAverageSuc, String erBanAverageFai, int sanBanTime, int sanBanRate) {
             this.month = month;
-            this.shouBan = shouBan;
-            this.erBan = erBan;
-            this.sanBan = sanBan;
+            this.shouBanTime = shouBanTime;
+            this.shouBanRate = shouBanRate;
+            this.shouBanAverageSuc = shouBanAverageSuc;
+            this.shouBanAverageFai = shouBanAverageFai;
+            this.erBanAverageSuc = erBanAverageSuc;
+            this.erBanAverageFai = erBanAverageFai;
+            this.erBanTime = erBanTime;
+            this.erBanRate = erBanRate;
+            this.sanBanTime = sanBanTime;
+            this.sanBanRate = sanBanRate;
+            this.shouBanNum = shouBanNum;
+            this.erBanNum = erBanNum;
         }
     }
 }

@@ -23,6 +23,7 @@ import java.lang.reflect.Type;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
@@ -58,28 +59,28 @@ MonthStatisticsAdapter adapter;
         RecyclerView recyclerView = findViewById(R.id.fen_qi_list);
         recyclerView.setLayoutManager(new LinearLayoutManager(this)); // 设置布局管理器
         recyclerView.setAdapter(adapter);
-//
-//        adapter.setOnItemClickListener(new OnNewItemClickListener() {
-//            @Override
-//            public void onItemClick(List<NewStatisticsBean> position) {
-//                // 处理 item 点击事件
-//                Intent intent = new Intent(MonthStatisticsActivity.this,NewSumUpListActivity.class);
-//                intent.putExtra("newSumUpListData", (Serializable) position);
-//                startActivity(intent);
-//            }
-//        });
+
+        adapter.setOnItemClickListener(new OnNewItemClickListener() {
+            @Override
+            public void onItemClick(List<NewStatisticsBean> position) {
+                // 处理 item 点击事件
+                Intent intent = new Intent(MonthStatisticsActivity.this,NewSumUpListActivity.class);
+                intent.putExtra("newSumUpListData", (Serializable) position);
+                startActivity(intent);
+            }
+        });
 
     }
 
     private void addHeaderButton(LinearLayout buttonLayout) {
-        for (int i = 0; i < 5; i++) {
+        for (int i = 0; i <13; i++) {
             Button button = new Button(this);
             LinearLayout.LayoutParams layoutParams;
-//            if (i == 0) {
-//                layoutParams = new LinearLayout.LayoutParams(230, 180);
-//            } else {
-                layoutParams = new LinearLayout.LayoutParams(210, 180);
-//            }
+            if (i == 0) {
+                layoutParams = new LinearLayout.LayoutParams(230, 180);
+            } else {
+                layoutParams = new LinearLayout.LayoutParams(180, 180);
+            }
             layoutParams.gravity = Gravity.CENTER; // 控制位置
             layoutParams.setMargins(10, 10, 10, 10); // 设置与下方控件的距离为 16 像素
             button.setLayoutParams(layoutParams);
@@ -96,7 +97,8 @@ MonthStatisticsAdapter adapter;
                     });
                     break;
                 case 1:
-                    button.setText("首板");
+                    button.setBackgroundColor(Color.parseColor("#00ff00"));
+                    button.setText("二板次数");
                     button.setOnClickListener(new View.OnClickListener() {
                         @Override
                         public void onClick(View view) {
@@ -105,7 +107,44 @@ MonthStatisticsAdapter adapter;
                     });
                     break;
                 case 2:
-                    button.setText("一进二");
+                    button.setText("二板胜率");
+                    button.setOnClickListener(new View.OnClickListener() {
+                        @Override
+                        public void onClick(View view) {
+//                            adapter.changeAllTimeData();
+                        }
+                    });
+                    break;
+                case 3:
+                    button.setText("二板封板率");
+                    button.setOnClickListener(new View.OnClickListener() {
+                        @Override
+                        public void onClick(View view) {
+//                            adapter.changeAllTimeData();
+                        }
+                    });
+                    break;
+                case 4:
+                    button.setText("二板均盈利");
+                    button.setOnClickListener(new View.OnClickListener() {
+                        @Override
+                        public void onClick(View view) {
+//                            adapter.changeAllTimeData();
+                        }
+                    });
+                    break;
+                case 5:
+                    button.setText("二板均亏损");
+                    button.setOnClickListener(new View.OnClickListener() {
+                        @Override
+                        public void onClick(View view) {
+//                            adapter.changeAllTimeData();
+                        }
+                    });
+                    break;
+                case 6:
+                    button.setBackgroundColor(Color.parseColor("#00ff00"));
+                    button.setText("首板次数");
                     button.setOnClickListener(new View.OnClickListener() {
                         @Override
                         public void onClick(View view) {
@@ -113,8 +152,55 @@ MonthStatisticsAdapter adapter;
                         }
                     });
                     break;
-                case 3:
-                    button.setText("二进三");
+                case 7:
+                    button.setText("首板胜率");
+                    button.setOnClickListener(new View.OnClickListener() {
+                        @Override
+                        public void onClick(View view) {
+//                            adapter.changeSucTimeData();
+                        }
+                    });
+                    break;
+                case 8:
+                    button.setText("首板封板率");
+                    button.setOnClickListener(new View.OnClickListener() {
+                        @Override
+                        public void onClick(View view) {
+//                            adapter.changeSucTimeData();
+                        }
+                    });
+                    break;
+                case 9:
+                    button.setText("首板均盈利");
+                    button.setOnClickListener(new View.OnClickListener() {
+                        @Override
+                        public void onClick(View view) {
+//                            adapter.changeSucTimeData();
+                        }
+                    });
+                    break;
+                    case 10:
+                    button.setText("首板均亏损");
+                    button.setOnClickListener(new View.OnClickListener() {
+                        @Override
+                        public void onClick(View view) {
+//                            adapter.changeSucTimeData();
+                        }
+                    });
+                    break;
+                case 11:
+                    button.setBackgroundColor(Color.parseColor("#00ff00"));
+
+                    button.setText("三板次数");
+                    button.setOnClickListener(new View.OnClickListener() {
+                        @Override
+                        public void onClick(View view) {
+//                            adapter.changeRadioData();
+                        }
+                    });
+                    break;
+                case 12:
+                    button.setText("三板胜率");
                     button.setOnClickListener(new View.OnClickListener() {
                         @Override
                         public void onClick(View view) {
@@ -133,7 +219,6 @@ MonthStatisticsAdapter adapter;
         Gson gson = new Gson();
         Type itemType = new TypeToken<List<NewStatisticsBean>>() {}.getType();
         List<NewStatisticsBean> items = gson.fromJson(jsonString, itemType);
-
         Map<String, List<NewStatisticsBean>> groupedItems = new HashMap<>();
 
         for (NewStatisticsBean item : items) {

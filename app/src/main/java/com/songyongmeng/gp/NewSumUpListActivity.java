@@ -88,11 +88,11 @@ public class NewSumUpListActivity extends AppCompatActivity {
                     });
                     break;
                 case 2:
-                    button.setText("买入价格");
+                    button.setText("模式");
                     button.setOnClickListener(new View.OnClickListener() {
                         @Override
                         public void onClick(View view) {
-                            adapter.changeIsBanBuy();
+                            adapter.changeMode();
                         }
                     });
                     break;
