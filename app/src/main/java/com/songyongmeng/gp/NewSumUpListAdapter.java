@@ -463,11 +463,11 @@ public class NewSumUpListAdapter extends RecyclerView.Adapter<NewSumUpListAdapte
             linearLayout.removeAllViews();
 
             // 动态添加 TextView
-            for (int i = 0; i < 6; i++) {
+            for (int i = 0; i < 5; i++) {
                 TextView textView = new TextView(itemView.getContext());
                 if (i == 0) {
                     textView.setWidth(250); // 名称
-                } else if (i == 5) {
+                } else if (i == 4) {
                     textView.setWidth(270); // 日期
                 } else {
                     textView.setWidth(230); // 设置宽度为200像素
@@ -503,16 +503,13 @@ public class NewSumUpListAdapter extends RecyclerView.Adapter<NewSumUpListAdapte
                         textView.setText(tmp);
                         break;
                     case 3:
-                        textView.setText(data.getLastPrice() > 0 ? "涨停" : "未涨停");
-                        break;
-                    case 4:
                         if (data.getLastPrice() > 0) {
                             textView.setText(data.getLastPrice() + "亿");
                         } else {
                             textView.setText("-");
                         }
                         break;
-                    case 5:
+                    case 4:
                         textView.setText(data.getFormerDate());
                         break;
 //                    case 5:

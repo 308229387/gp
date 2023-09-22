@@ -25,17 +25,17 @@ public class NewGPDetailActivity extends AppCompatActivity {
         TextView reason = findViewById(R.id.buy_reason);
         TextView failureReason = findViewById(R.id.failure_reason);
         TextView last = findViewById(R.id.gp_last_price);
-        name.setText("股票名称： "+data.getGpName());
-        result.setText("获利： "+data.getResultPoint() + "%");
-        last.setText(data.getLastPrice()==0?"未涨停":"封单: "+data.getLastPrice()+"亿");
-        reason.setText("购买原因： "+data.getBuyReason());
-        if(data.getFailureReason()!=null&&data.getFailureReason().size()>0){
+        name.setText("股票名称： " + data.getGpName());
+        result.setText("获利： " + data.getResultPoint() + "%");
+        last.setText(data.getLastPrice() == 0 ? "未涨停" : "封单: " + data.getLastPrice() + "亿");
+        reason.setText("购买原因： " + data.getBuyReason());
+        if (data.getFailureReason() != null && data.getFailureReason().size() > 0) {
             StringBuilder builder = new StringBuilder("亏损原因：");
-            for(int a : data.getFailureReason()){
-                if(!builder.toString().equals("亏损原因：")){
+            for (int a : data.getFailureReason()) {
+                if (!builder.toString().equals("亏损原因：")) {
                     builder.append(" + ");
                 }
-                switch (a){
+                switch (a) {
                     case 1:
                         builder.append(ReasonForFailure.REASON_1);
                         break;
@@ -68,6 +68,9 @@ public class NewGPDetailActivity extends AppCompatActivity {
                         break;
                     case 11:
                         builder.append(ReasonForFailure.REASON_11);
+                        break;
+                    case 12:
+                        builder.append(ReasonForFailure.REASON_12);
                         break;
 
                 }
