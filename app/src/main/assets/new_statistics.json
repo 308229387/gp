@@ -1,24 +1,93 @@
 [
   {
+    "gpName": "荣联科技",
+    "formerDate": "2023-09-27",
+    "mode": -1,
+    "lastPrice": 0.66,
+    "failureReason": [],
+    "resultPoint": 3.5,
+    "buyReason": "从反包首板中关注，破前高，当天前两个票都封住了，下午1点多上的车，觉得能封住，高位震荡1个多小时后上板到尾盘",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "德展健康",
+    "formerDate": "2023-09-27",
+    "mode": -1,
+    "lastPrice": 0.6,
+    "failureReason": [],
+    "resultPoint": 3.5,
+    "buyReason": "从反包首板中关注，竞价跌停，竞价成交4522万，快速上板，当天医药版块比较强，外加当天环境还可以，回封上车。",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "远东传动",
+    "formerDate": "2023-09-27",
+    "mode": -1,
+    "lastPrice": 0.8,
+    "failureReason": [],
+    "resultPoint": 3.5,
+    "buyReason": "竞价很强势，高开竞价量7470万，开盘上拉，8个点左右上车",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "亚威股份",
+    "formerDate": "2023-09-26",
+    "mode": 2,
+    "lastPrice": 0.51,
+    "failureReason": [
+      4,
+      13
+    ],
+    "resultPoint": -3.5,
+    "buyReason": "竞价金额1亿，开盘快带上板，炸板回封时上车，但秒开，后大幅震荡，下午1点多再次上板。运气好，踩准了板块，被板块带了起来，第二天能否涨停存疑",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "中贝通信",
+    "formerDate": "2023-09-25",
+    "mode": 2,
+    "lastPrice": 0,
+    "failureReason": [
+      4
+    ],
+    "resultPoint": -0.85,
+    "buyReason": "当天环境不好，拘谨了，卖出了恒为和德展，错过了百花，就排了中贝通信，买时前面1亿多，觉得能排到，没撤，后来下午就炸开了",
+    "image_list": [
+      "zbtx_k",
+      "zbtx_b",
+      "zbtx_s"
+    ]
+  },
+  {
     "gpName": "德展健康",
     "formerDate": "2023-09-22",
-    "mode": -1,
+    "mode": 1,
     "lastPrice": 0.39,
     "failureReason": [],
-    "resultPoint": 5.5,
-    "buyReason": "恒为封板后，找到德展回封时上车，后面微微开了2次板，下午行情好封住。",
+    "resultPoint": 9.86,
+    "buyReason": "卖出当天是竞价抢筹加速，开盘成交5000多万。要好好研究下，恒为封板后，找到德展回封时上车，后面微微开了2次板，下午行情好封住。开盘直线拉升上板，在板上封单变小离场，后来又板住了，与炒家同车，卖出看缩量就离场了。",
     "image_list": [
+      "dzjk_2k",
+      "dzjk_2b",
+      "dzjk_2s"
     ]
   },
   {
     "gpName": "恒为科技",
     "formerDate": "2023-09-22",
-    "mode": -1,
+    "mode": 1,
     "lastPrice": 0.64,
     "failureReason": [],
-    "resultPoint": 5.5,
+    "resultPoint": 9.28,
     "buyReason": "开盘急拉，触及涨停后回封排板上车，封单6 7千万，后炸进去了。中间又微微了开了几次板，下午行情好转，彻底封住。",
     "image_list": [
+      "hwkj_k",
+      "hwkj_b",
+      "hwkj_s"
     ]
   },
   {
@@ -27,12 +96,16 @@
     "mode": 2,
     "lastPrice": 1.93,
     "failureReason": [
+      13,
       4,
       12
     ],
     "resultPoint": -5.5,
     "buyReason": "昨天封单在一板中最大2.4亿，今天开盘高开，放量上冲，上板时接近平量，至此来看承接很好，但缺点是这票有前高，回落了半小时左右，后花2000万直接拉涨停，封板，2个多亿封单、倍量。第二天开盘竞价直接到-9个多，最后-5个多开盘，直接离场，后跌停",
     "image_list": [
+      "lpsj_k",
+      "lpsj_b",
+      "lpsj_s"
     ]
   },
   {
@@ -56,6 +129,7 @@
     "mode": 2,
     "lastPrice": 0.036,
     "failureReason": [
+      13,
       2
     ],
     "resultPoint": -6.81,
@@ -93,9 +167,9 @@
     "resultPoint": -1.52,
     "buyReason": "华为芯片代表联合精密开盘跳水，当天环境还可以，放量，没到退潮期，金马如果拉涨停就是空间龙，开盘大跳后徐徐拉起，板两回后感觉能板，上车。全天烂板，封单很弱。",
     "image_list": [
-      "apgd_k",
-      "apgd_b",
-      "apgd_s"
+      "thjm_k",
+      "thjm_b",
+      "thjm_s"
     ]
   },
   {

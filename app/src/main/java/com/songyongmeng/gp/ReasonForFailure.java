@@ -13,6 +13,7 @@ public class ReasonForFailure {
     public static final String REASON_10= "均线压制，大级别均线压制";//对应编号10
     public static final String REASON_11= "误操作";//对应编号11
     public static final String REASON_12= "庄股";//对应编号12
+    public static final String REASON_13= "股性差";//对应编号13
 
     public static final int REQUEST_CODE = 1001;
 
