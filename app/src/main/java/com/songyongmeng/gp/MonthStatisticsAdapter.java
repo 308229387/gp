@@ -452,8 +452,9 @@ public class MonthStatisticsAdapter extends RecyclerView.Adapter<MonthStatistics
             double threeBanAverageSuc = 0;
             double threeBanAverageFai = 0;
 
-            List<NewStatisticsBean> monthItems = dataMap.get(month);
+            int monthAllNum = 0;
 
+            List<NewStatisticsBean> monthItems = dataMap.get(month);
             for (NewStatisticsBean item : monthItems) {
                 if (item.getMode() == 1) {
                     firstBan++;
@@ -497,11 +498,10 @@ public class MonthStatisticsAdapter extends RecyclerView.Adapter<MonthStatistics
                     }
                 }
 
-
-//                System.out.println("  Name: " + item.getGpName() + ", Date: " + item.getFormerDate());
+                monthAllNum++;
             }
 
-            itemList.add(new MonthShowBean(month, twoBan, getResult(twoBan, twoBanNum), getResult(twoBan, twoBanSuc), twoPoint(twoBanSuc == 0 ? 0 : twoBanAverageSuc / twoBanSuc), twoPoint(twoBanFai == 0 ? 0 : twoBanAverageFai / twoBanFai),firstBan, getResult(firstBan, firstBanNum), getResult(firstBan, firstBanSuc), twoPoint(firstBanSuc == 0 ? 0 : firstBanAverageSuc / firstBanSuc), twoPoint(firstBanFai == 0 ? 0 : firstBanAverageFai / firstBanFai), threeBan, getResult(threeBan, threeBanSuc)));
+            itemList.add(new MonthShowBean(month, twoBan, getResult(twoBan, twoBanNum), getResult(twoBan, twoBanSuc), twoPoint(twoBanSuc == 0 ? 0 : twoBanAverageSuc / twoBanSuc), twoPoint(twoBanFai == 0 ? 0 : twoBanAverageFai / twoBanFai), firstBan, getResult(firstBan, firstBanNum), getResult(firstBan, firstBanSuc), twoPoint(firstBanSuc == 0 ? 0 : firstBanAverageSuc / firstBanSuc), twoPoint(firstBanFai == 0 ? 0 : firstBanAverageFai / firstBanFai), threeBan, getResult(threeBan, threeBanSuc),monthAllNum));
 
         }
 
@@ -778,7 +778,7 @@ public class MonthStatisticsAdapter extends RecyclerView.Adapter<MonthStatistics
             linearLayout.removeAllViews();
 
             // 动态添加 TextView
-            for (int i = 0; i < 13; i++) {
+            for (int i = 0; i < 14; i++) {
                 TextView textView = new TextView(itemView.getContext());
                 if (i == 0) {
                     textView.setWidth(250); // 日期
@@ -833,6 +833,9 @@ public class MonthStatisticsAdapter extends RecyclerView.Adapter<MonthStatistics
                     case 12:
                         textView.setText((data.sanBanTime == 0 && data.sanBanRate == 0) ? "-" : data.sanBanRate + "%");
                         break;
+                    case 13:
+                        textView.setText(data.monthAllNum + "次");
+                        break;
                 }
                 linearLayout.addView(textView);
             }
@@ -855,12 +858,13 @@ public class MonthStatisticsAdapter extends RecyclerView.Adapter<MonthStatistics
         private int sanBanRate;
         private int shouBanNum;
         private int erBanNum;
+        private int monthAllNum;
         private String shouBanAverageSuc;
         private String erBanAverageSuc;
         private String shouBanAverageFai;
         private String erBanAverageFai;
 
-        public MonthShowBean(String month, int shouBanTime, int shouBanNum, int shouBanRate, String shouBanAverageSuc, String shouBanAverageFai, int erBanTime, int erBanNum, int erBanRate, String erBanAverageSuc, String erBanAverageFai, int sanBanTime, int sanBanRate) {
+        public MonthShowBean(String month, int shouBanTime, int shouBanNum, int shouBanRate, String shouBanAverageSuc, String shouBanAverageFai, int erBanTime, int erBanNum, int erBanRate, String erBanAverageSuc, String erBanAverageFai, int sanBanTime, int sanBanRate, int monthAllNum) {
             this.month = month;
             this.shouBanTime = shouBanTime;
             this.shouBanRate = shouBanRate;
@@ -874,6 +878,7 @@ public class MonthStatisticsAdapter extends RecyclerView.Adapter<MonthStatistics
             this.sanBanRate = sanBanRate;
             this.shouBanNum = shouBanNum;
             this.erBanNum = erBanNum;
+            this.monthAllNum = monthAllNum;
         }
     }
 }

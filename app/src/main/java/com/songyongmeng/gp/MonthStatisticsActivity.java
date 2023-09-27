@@ -73,7 +73,7 @@ MonthStatisticsAdapter adapter;
     }
 
     private void addHeaderButton(LinearLayout buttonLayout) {
-        for (int i = 0; i <13; i++) {
+        for (int i = 0; i <14; i++) {
             Button button = new Button(this);
             LinearLayout.LayoutParams layoutParams;
             if (i == 0) {
@@ -201,6 +201,15 @@ MonthStatisticsAdapter adapter;
                     break;
                 case 12:
                     button.setText("三板胜率");
+                    button.setOnClickListener(new View.OnClickListener() {
+                        @Override
+                        public void onClick(View view) {
+//                            adapter.changeRadioData();
+                        }
+                    });
+                    break;
+                    case 13:
+                    button.setText("本月交易次数");
                     button.setOnClickListener(new View.OnClickListener() {
                         @Override
                         public void onClick(View view) {
