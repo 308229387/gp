@@ -131,7 +131,9 @@ public class MainActivity extends AppCompatActivity {
                 } else if (allData.get(groupPosition).getData().get(childPosition).getRichText().get(0).equals("title:统计有量竞价")) {
                     toBidding();
                 } else if (allData.get(groupPosition).getData().get(childPosition).getRichText().get(0).equals("title:北京炒家")) {
-                    toBigImage();
+                    toBigImage("bei_jing_chao_jia.json");
+                }else if (allData.get(groupPosition).getData().get(childPosition).getRichText().get(0).equals("title:竞价抢筹跟踪")) {
+                    toBigImage("jing_jia_qiang_chou.json");
                 } else {
                     toDetail((ArrayList<String>) allData.get(groupPosition).getData().get(childPosition).getRichText());
                 }
@@ -141,9 +143,9 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    private void toBigImage() {
+    private void toBigImage(String str) {
         AssetsUtils assetsUtils = new AssetsUtils();
-        String tmp1 = assetsUtils.readAssetsText(this, "bei_jing_chao_jia.json");
+        String tmp1 = assetsUtils.readAssetsText(this, str);
         BigImageListBean bean = new Gson().fromJson(tmp1, new TypeToken<BigImageListBean>() {
         }.getType());
 
