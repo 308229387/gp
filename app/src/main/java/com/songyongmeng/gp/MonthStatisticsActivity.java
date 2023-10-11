@@ -2,6 +2,7 @@ package com.songyongmeng.gp;
 
 import android.content.Intent;
 import android.graphics.Color;
+import android.os.Build;
 import android.os.Bundle;
 import android.view.Gravity;
 import android.view.View;
@@ -24,6 +25,7 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Comparator;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
@@ -228,6 +230,7 @@ MonthStatisticsAdapter adapter;
         Gson gson = new Gson();
         Type itemType = new TypeToken<List<NewStatisticsBean>>() {}.getType();
         List<NewStatisticsBean> items = gson.fromJson(jsonString, itemType);
+   
         Map<String, List<NewStatisticsBean>> groupedItems = new HashMap<>();
 
         for (NewStatisticsBean item : items) {
@@ -242,16 +245,20 @@ MonthStatisticsAdapter adapter;
 
                 // 将项目添加到相应月份的列表中
                 List<NewStatisticsBean> monthItems = null;
-                if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.N) {
+                if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
                     monthItems = groupedItems.getOrDefault(monthKey, new ArrayList<>());
                 }
                 monthItems.add(item);
                 groupedItems.put(monthKey, monthItems);
+
             } catch (ParseException e) {
                 e.printStackTrace();
                 // 处理日期解析错误的情况
             }
         }
+
+        // 对月份键进行降序排序
+
 
         return groupedItems;
     }

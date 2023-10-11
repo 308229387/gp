@@ -15,8 +15,11 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.songyongmeng.gp.utils.OnNewItemClickListener;
 
 import java.text.DecimalFormat;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Comparator;
 import java.util.List;
 import java.util.Map;
 
@@ -427,7 +430,22 @@ public class MonthStatisticsAdapter extends RecyclerView.Adapter<MonthStatistics
 ////            }
 //        }
         List<String> keyList = new ArrayList<>(dataMap.keySet());
-        Collections.reverse(keyList);
+        Comparator<String> dateComparator = new Comparator<String>() {
+            SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM");
+
+            @Override
+            public int compare(String date1, String date2) {
+                try {
+                    return sdf.parse(date2).compareTo(sdf.parse(date1));
+                } catch (ParseException e) {
+                    e.printStackTrace();
+                }
+                return 0;
+            }
+        };
+
+        // 使用自定义比较器进行时间倒序排序
+        Collections.sort(keyList, dateComparator);
 
         for (String month : keyList) {
 

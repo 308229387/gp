@@ -1,12 +1,56 @@
 [
   {
-    "gpName": "荣联科技",
-    "formerDate": "2023-09-27",
-    "mode": 1,
-    "lastPrice": 0.66,
+    "gpName": "常山北明",
+    "formerDate": "2023-10-11",
+    "mode": -1,
+    "lastPrice": 0,
     "failureReason": [],
-    "resultPoint": -3.5,
-    "buyReason": "从反包首板中关注，破前高，当天前两个票都封住了，下午1点多上的车，觉得能封住，高位震荡1个多小时后上板到尾盘，开盘德展和远东传动快速奔跌停，慌忙卖了，后连板",
+    "resultPoint": 2.1,
+    "buyReason": "主流华为概念，开盘竞价很强，竞价量2.2亿高开5个多点，均线多头，竞价上车。",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "可立克",
+    "formerDate": "2023-10-10",
+    "mode": 1,
+    "lastPrice": 0,
+    "failureReason": [],
+    "resultPoint": -2.1,
+    "buyReason": "主流版块，上冲两回失败，觉得后面可能还会回封，忽略当天退潮，8个点左右上车，后来一直没回封，但因为是主流版块，第二天没怎么下跌，离场",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "传智教育",
+    "formerDate": "2023-10-10",
+    "mode": 1,
+    "lastPrice": 0,
+    "failureReason": [],
+    "resultPoint": -8.5,
+    "buyReason": "非主流版块，炸后在首板中算是大面了。首板还是吃回封好点",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "通化金马",
+    "formerDate": "2023-10-09",
+    "mode": 2,
+    "lastPrice": 0,
+    "failureReason": [],
+    "resultPoint": -1.84,
+    "buyReason": "本来不是太看好，有前高，但因为竞价有抢筹的迹象，外加分时比较有韧劲，反复上板，外加有一定量，下午盯盘时有一笔1.3亿的大单上板，受到影响，再回封时上车，后分析不是主流华为题材，而且是下午上车，外加版块无涨停，比较弱",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "达华智能",
+    "formerDate": "2023-10-09",
+    "mode": 2,
+    "lastPrice": 0.53,
+    "failureReason": [],
+    "resultPoint": 7.04,
+    "buyReason": "6-8个点震荡了20分钟左右，放量后上板，华为主流版块。",
     "image_list": [
     ]
   },
@@ -30,6 +74,23 @@
     "resultPoint": -8.5,
     "buyReason": "竞价很强势，高开竞价量7470万，开盘上拉，8个点左右上车,第二天竞价开始还行，后面大幅向下，这票是第二回这走势，挂向下卖单没挂出去，秒跌停，下回直接挂最下档",
     "image_list": [
+      "ydcd_1k",
+      "ydcd_1b",
+      "ydcd_1s"
+    ]
+  },
+  {
+    "gpName": "荣联科技",
+    "formerDate": "2023-09-27",
+    "mode": 1,
+    "lastPrice": 0.66,
+    "failureReason": [],
+    "resultPoint": -3.5,
+    "buyReason": "从反包首板中关注，破前高，当天前两个票都封住了，下午1点多上的车，觉得能封住，高位震荡1个多小时后上板到尾盘，开盘德展和远东传动快速奔跌停，慌忙卖了，后连板",
+    "image_list": [
+      "rlkj_k",
+      "rlkj_b",
+      "rlkj_s"
     ]
   },
   {
@@ -44,6 +105,9 @@
     "resultPoint": -3.5,
     "buyReason": "竞价金额1亿，开盘快带上板，炸板回封时上车，但秒开，后大幅震荡，下午1点多再次上板。运气好，踩准了板块，被板块带了起来，第二天能否涨停存疑",
     "image_list": [
+      "ywgf_k",
+      "ywgf_b",
+      "ywgf_s"
     ]
   },
   {
