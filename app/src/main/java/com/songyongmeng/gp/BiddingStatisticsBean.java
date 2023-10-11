@@ -5,13 +5,14 @@ import java.util.List;
 
 public class BiddingStatisticsBean implements Serializable {
 
+
     /**
-     * gpName : 亚太股份
-     * formerDate : 2023-09-11
-     * banNum : 2
-     * howHigh : 10
-     * yesterdayLastPrice : 1135
-     * afterHigh : 0
+     * gpName : 赛力斯
+     * formerDate : 2023-10-10
+     * banNum : 3
+     * openHighPoint : 8.83
+     * bidPrice : 55400
+     * afterHigh : 5
      * description :
      * image_list : []
      */
@@ -19,8 +20,8 @@ public class BiddingStatisticsBean implements Serializable {
     private String gpName;
     private String formerDate;
     private int banNum;
-    private int howHigh;
-    private int yesterdayLastPrice;
+    private double openHighPoint;
+    private int bidPrice;
     private int afterHigh;
     private String description;
     private List<?> image_list;
@@ -49,20 +50,20 @@ public class BiddingStatisticsBean implements Serializable {
         this.banNum = banNum;
     }
 
-    public int getHowHigh() {
-        return howHigh;
+    public double getOpenHighPoint() {
+        return openHighPoint;
     }
 
-    public void setHowHigh(int howHigh) {
-        this.howHigh = howHigh;
+    public void setOpenHighPoint(double openHighPoint) {
+        this.openHighPoint = openHighPoint;
     }
 
-    public int getYesterdayLastPrice() {
-        return yesterdayLastPrice;
+    public int getBidPrice() {
+        return bidPrice;
     }
 
-    public void setYesterdayLastPrice(int yesterdayLastPrice) {
-        this.yesterdayLastPrice = yesterdayLastPrice;
+    public void setBidPrice(int bidPrice) {
+        this.bidPrice = bidPrice;
     }
 
     public int getAfterHigh() {

@@ -1,425 +1,254 @@
 [
   {
-    "gpName": "华映科技",
-    "formerDate": "2023-09-13",
-    "banNum": 2,
-    "howHigh": 10,
-    "yesterdayLastPrice": 4223,
-    "afterHigh": 10,
+    "gpName": "赛力斯",
+    "formerDate": "2023-10-10",
+    "banNum": 3,
+    "openHighPoint": 8.83,
+    "bidPrice": 55400,
+    "afterHigh": 5,
     "description": "",
-    "image_list": []
+    "image_list": [
+    ]
   },
   {
-    "gpName": "亚太股份",
-    "formerDate": "2023-09-11",
+    "gpName": "通化金马",
+    "formerDate": "2023-10-10",
     "banNum": 2,
-    "howHigh": 10,
-    "yesterdayLastPrice": 1135,
-    "afterHigh": 0,
+    "openHighPoint": 6.3,
+    "bidPrice": 6128,
+    "afterHigh": 2,
     "description": "",
-    "image_list": []
+    "image_list": [
+      "jjqc_thjm_k",
+      "jjqc_thjm_fs"
+    ]
+  },
+  {
+    "gpName": "贝肯能源",
+    "formerDate": "2023-09-28",
+    "banNum": 3,
+    "openHighPoint": 8.92,
+    "bidPrice": 7020,
+    "afterHigh": 2,
+    "description": "",
+    "image_list": [
+      "jjqc_hwkj_k",
+      "jjqc_hwkj_fs"
+    ]
+  },
+  {
+    "gpName": "恒为科技",
+    "formerDate": "2023-09-28",
+    "banNum": 2,
+    "openHighPoint": 9.47,
+    "bidPrice": 9031,
+    "afterHigh": 13,
+    "description": "",
+    "image_list": [
+      "jjqc_hwkj_k",
+      "jjqc_hwkj_fs"
+    ]
+  },
+  {
+    "gpName": "远东传动",
+    "formerDate": "2023-09-27",
+    "banNum": 3,
+    "openHighPoint": 4.94,
+    "bidPrice": 7469,
+    "afterHigh": -10,
+    "description": "",
+    "image_list": [
+      "jjqc_ydcd_k",
+      "jjqc_ydcd_fs"
+    ]
+  },
+  {
+    "gpName": "德展健康",
+    "formerDate": "2023-09-25",
+    "banNum": 2,
+    "openHighPoint": 4.37,
+    "bidPrice": 5142,
+    "afterHigh": 6,
+    "description": "",
+    "image_list": [
+      "jjqc_dzjk_k",
+      "jjqc_dzjk_fs"
+    ]
+  },
+  {
+    "gpName": "华脉科技",
+    "formerDate": "2023-09-25",
+    "banNum": 3,
+    "openHighPoint": 7.51,
+    "bidPrice": 6436,
+    "afterHigh": 1,
+    "description": "",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "高鸿股份",
+    "formerDate": "2023-09-12",
+    "banNum": 3,
+    "openHighPoint": 3.5,
+    "bidPrice": 11800,
+    "afterHigh": 3,
+    "description": "",
+    "image_list": [
+    ]
   },
   {
     "gpName": "高鸿股份",
     "formerDate": "2023-09-11",
     "banNum": 2,
-    "howHigh": 10,
-    "yesterdayLastPrice": 6067,
+    "openHighPoint": 8.23,
+    "bidPrice": 14200,
     "afterHigh": 10,
     "description": "7分板",
     "image_list": [
-      "apgd_b",
-      "apgd_s"
     ]
-  },
-  {
-    "gpName": "华映科技",
-    "formerDate": "2023-09-08",
-    "banNum": 5,
-    "howHigh": 10,
-    "yesterdayLastPrice": 3222,
-    "afterHigh": 12,
-    "description": "",
-    "image_list": []
   },
   {
     "gpName": "张江高科",
     "formerDate": "2023-09-08",
     "banNum": 3,
-    "howHigh": 10,
-    "yesterdayLastPrice": 12700,
+    "openHighPoint": 7.57,
+    "bidPrice": 14700,
     "afterHigh": 20,
     "description": "10分好板",
-    "image_list": []
+    "image_list": [
+      "jjqc_zjgk_k",
+      "jjqc_zjgk_fs"
+    ]
   },
   {
-    "gpName": "长江材料",
-    "formerDate": "2023-09-08",
-    "banNum": 2,
-    "howHigh": 10,
-    "yesterdayLastPrice": 1407,
-    "afterHigh": 0,
+    "gpName": "精伦电子",
+    "formerDate": "2023-09-22",
+    "banNum": 3,
+    "openHighPoint": 5.63,
+    "bidPrice": 9242,
+    "afterHigh": 42,
     "description": "",
     "image_list": []
   },
   {
-    "gpName": "蓝箭电子",
-    "formerDate": "2023-09-07",
-    "banNum": 2,
-    "howHigh": 10,
-    "yesterdayLastPrice": 2012,
-    "afterHigh": 0,
-    "description": "",
-    "image_list": []
-  },
-  {
-    "gpName": "华力创通",
-    "formerDate": "2023-09-05",
-    "banNum": 2,
-    "howHigh": 10,
-    "yesterdayLastPrice": 9040,
-    "afterHigh": 35,
-    "description": "5、6分板",
-    "image_list": []
-  },
-  {
-    "gpName": "中马传动",
-    "formerDate": "2023-09-04",
-    "banNum": 5,
-    "howHigh": 10,
-    "yesterdayLastPrice": 2712,
-    "afterHigh": 15,
-    "description": "",
-    "image_list": []
-  },
-  {
-    "gpName": "珠江股份",
-    "formerDate": "2023-8-30",
-    "banNum": 4,
-    "howHigh": 10,
-    "yesterdayLastPrice": 1781,
-    "afterHigh": 0,
-    "description": "",
-    "image_list": []
-  },
-  {
-    "gpName": "荣盛发展",
-    "formerDate": "2023-8-29",
-    "banNum": 2,
-    "howHigh": 10,
-    "yesterdayLastPrice": 1425,
-    "afterHigh": 7,
-    "description": "",
-    "image_list": []
-  },
-  {
-    "gpName": "直真科技",
-    "formerDate": "2023-8-28",
-    "banNum": 2,
-    "howHigh": 10,
-    "yesterdayLastPrice": 1385,
-    "afterHigh": 0,
-    "description": "",
-    "image_list": []
-  },
-  {
-    "gpName": "江盐集团",
-    "formerDate": "2023-8-25",
-    "banNum": 4,
-    "howHigh": 10,
-    "yesterdayLastPrice": 3799,
-    "afterHigh": 0,
-    "description": "",
-    "image_list": []
-  },
-  {
-    "gpName": "中水渔业",
-    "formerDate": "2023-8-25",
-    "banNum": 2,
-    "howHigh": 10,
-    "yesterdayLastPrice": 1213,
-    "afterHigh": 0,
-    "description": "",
-    "image_list": []
-  },
-  {
-    "gpName": "实朴检测",
-    "formerDate": "2023-8-25",
-    "banNum": 2,
-    "howHigh": 20,
-    "yesterdayLastPrice": 1572,
+    "gpName": "日久光电",
+    "formerDate": "2023-09-21",
+    "banNum": 3,
+    "openHighPoint": 5.09,
+    "bidPrice": 9242,
     "afterHigh": 8,
     "description": "",
     "image_list": []
   },
   {
-    "gpName": "苏盐井神",
-    "formerDate": "2023-8-24",
-    "banNum": 2,
-    "howHigh": 10,
-    "yesterdayLastPrice": 2041,
-    "afterHigh": 0,
+    "gpName": "日久光电",
+    "formerDate": "2023-09-20",
+    "banNum": 3,
+    "openHighPoint": 5.69,
+    "bidPrice": 5185,
+    "afterHigh": 7,
     "description": "",
     "image_list": []
   },
   {
-    "gpName": "嘉戎技术",
-    "formerDate": "2023-8-24",
-    "banNum": 2,
-    "howHigh": 20,
-    "yesterdayLastPrice": 2142,
-    "afterHigh": 0,
+    "gpName": "春兴精工",
+    "formerDate": "2023-09-19",
+    "banNum": 3,
+    "openHighPoint": 4.1,
+    "bidPrice": 6814,
+    "afterHigh": -10,
     "description": "",
     "image_list": []
   },
   {
-    "gpName": "启迪环境",
-    "formerDate": "2023-8-23",
-    "banNum": 5,
-    "howHigh": 10,
-    "yesterdayLastPrice": 1803,
-    "afterHigh": 0,
+    "gpName": "龙江交通",
+    "formerDate": "2023-09-18",
+    "banNum": 3,
+    "openHighPoint": 8.93,
+    "bidPrice": 4991,
+    "afterHigh": 10,
+    "description": "",
+    "image_list": []
+  },
+  {
+    "gpName": "跃岭股份",
+    "formerDate": "2023-09-07",
+    "banNum": 3,
+    "openHighPoint": 9.62,
+    "bidPrice": 9822,
+    "afterHigh": -20,
+    "description": "",
+    "image_list": []
+  },
+  {
+    "gpName": "新赛股份",
+    "formerDate": "2023-09-04",
+    "banNum": 3,
+    "openHighPoint": 9.98,
+    "bidPrice": 5031,
+    "afterHigh": -13,
     "description": "",
     "image_list": []
   },
   {
     "gpName": "江盐集团",
-    "formerDate": "2023-8-23",
+    "formerDate": "2023-08-23",
     "banNum": 2,
-    "howHigh": 10,
-    "yesterdayLastPrice": 3486,
-    "afterHigh": 15,
-    "description": "",
-    "image_list": []
-  },
-  {
-    "gpName": "华是科技",
-    "formerDate": "2023-8-22",
-    "banNum": 2,
-    "howHigh": 20,
-    "yesterdayLastPrice": 1065,
-    "afterHigh": 0,
+    "openHighPoint": 5.54,
+    "bidPrice": 7066,
+    "afterHigh": 7,
     "description": "",
     "image_list": []
   },
   {
     "gpName": "启迪环境",
-    "formerDate": "2023-8-17",
+    "formerDate": "2023-08-21",
     "banNum": 3,
-    "howHigh": 10,
-    "yesterdayLastPrice": 6027,
-    "afterHigh": 13,
+    "openHighPoint": 6.21,
+    "bidPrice": 5829,
+    "afterHigh": 8,
     "description": "8分板",
     "image_list": []
   },
   {
-    "gpName": "开开实业",
-    "formerDate": "2023-8-17",
-    "banNum": 5,
-    "howHigh": 10,
-    "yesterdayLastPrice": 1962,
-    "afterHigh": 13,
-    "description": "",
-    "image_list": []
-  },
-  {
     "gpName": "首创证券",
-    "formerDate": "2023-8-16",
+    "formerDate": "2023-08-04",
     "banNum": 2,
-    "howHigh": 10,
-    "yesterdayLastPrice": 5049,
+    "openHighPoint": 4.98,
+    "bidPrice": 12400,
     "afterHigh": 10,
-    "description": "垃圾板",
-    "image_list": []
-  },
-  {
-    "gpName": "新时达",
-    "formerDate": "2023-8-14",
-    "banNum": 2,
-    "howHigh": 10,
-    "yesterdayLastPrice": 2841,
-    "afterHigh": 0,
-    "description": "",
-    "image_list": []
-  },
-  {
-    "gpName": "首创证券",
-    "formerDate": "2023-8-11",
-    "banNum": 2,
-    "howHigh": 10,
-    "yesterdayLastPrice": 6002,
-    "afterHigh": 0,
-    "description": "垃圾板",
-    "image_list": []
-  },
-  {
-    "gpName": "仁信新材",
-    "formerDate": "2023-8-11",
-    "banNum": 2,
-    "howHigh": 20,
-    "yesterdayLastPrice": 1711,
-    "afterHigh": 0,
-    "description": "",
-    "image_list": []
-  },
-  {
-    "gpName": "恒银科技",
-    "formerDate": "2023-8-9",
-    "banNum": 4,
-    "howHigh": 10,
-    "yesterdayLastPrice": 1798,
-    "afterHigh": 0,
-    "description": "",
-    "image_list": []
-  },
-  {
-    "gpName": "华西股份",
-    "formerDate": "2023-8-8",
-    "banNum": 3,
-    "howHigh": 10,
-    "yesterdayLastPrice": 3485,
-    "afterHigh": 0,
-    "description": "",
-    "image_list": []
-  },
-  {
-    "gpName": "国缆检测",
-    "formerDate": "2023-8-7",
-    "banNum": 2,
-    "howHigh": 20,
-    "yesterdayLastPrice": 1573,
-    "afterHigh": 15,
     "description": "",
     "image_list": []
   },
   {
     "gpName": "柯利达",
-    "formerDate": "2023-8-4",
+    "formerDate": "2023-08-04",
     "banNum": 3,
-    "howHigh": 10,
-    "yesterdayLastPrice": 2740,
-    "afterHigh": 0,
-    "description": "",
-    "image_list": []
-  },
-  {
-    "gpName": "天晟新材",
-    "formerDate": "2023-8-4",
-    "banNum": 2,
-    "howHigh": 20,
-    "yesterdayLastPrice": 3842,
-    "afterHigh": 0,
-    "description": "板一般",
-    "image_list": []
-  },
-  {
-    "gpName": "首创证券",
-    "formerDate": "2023-8-4",
-    "banNum": 2,
-    "howHigh": 10,
-    "yesterdayLastPrice": 6543,
-    "afterHigh": 14,
-    "description": "烂板",
-    "image_list": []
-  },
-  {
-    "gpName": "中孚实业",
-    "formerDate": "2023-8-3",
-    "banNum": 3,
-    "howHigh": 10,
-    "yesterdayLastPrice": 1991,
-    "afterHigh": 0,
-    "description": "",
-    "image_list": []
-  },
-  {
-    "gpName": "永辉超市",
-    "formerDate": "2023-8-3",
-    "banNum": 2,
-    "howHigh": 10,
-    "yesterdayLastPrice": 1697,
-    "afterHigh": 0,
-    "description": "",
-    "image_list": []
-  },
-  {
-    "gpName": "国缆检测",
-    "formerDate": "2023-8-3",
-    "banNum": 3,
-    "howHigh": 20,
-    "yesterdayLastPrice": 2677,
-    "afterHigh": 0,
+    "openHighPoint": 8.37,
+    "bidPrice": 5630,
+    "afterHigh": -5,
     "description": "",
     "image_list": []
   },
   {
     "gpName": "精达股份",
-    "formerDate": "2023-8-2",
+    "formerDate": "2023-08-02",
     "banNum": 2,
-    "howHigh": 10,
-    "yesterdayLastPrice": 1242,
-    "afterHigh": 0,
+    "openHighPoint": 8.77,
+    "bidPrice": 24400,
+    "afterHigh": -14,
     "description": "",
     "image_list": []
   },
   {
     "gpName": "永鼎股份",
-    "formerDate": "2023-8-2",
+    "formerDate": "2023-08-02",
     "banNum": 2,
-    "howHigh": 10,
-    "yesterdayLastPrice": 6214,
-    "afterHigh": 0,
+    "openHighPoint": 9.76,
+    "bidPrice": 17700,
+    "afterHigh": -14,
     "description": "烂板",
-    "image_list": []
-  },
-  {
-    "gpName": "中孚实业",
-    "formerDate": "2023-8-2",
-    "banNum": 2,
-    "howHigh": 10,
-    "yesterdayLastPrice": 2693,
-    "afterHigh": 0,
-    "description": "",
-    "image_list": []
-  },
-  {
-    "gpName": "创新新材",
-    "formerDate": "2023-8-2",
-    "banNum": 2,
-    "howHigh": 10,
-    "yesterdayLastPrice": 2518,
-    "afterHigh": 0,
-    "description": "",
-    "image_list": []
-  },
-  {
-    "gpName": "力帆科技",
-    "formerDate": "2023-8-2",
-    "banNum": 2,
-    "howHigh": 10,
-    "yesterdayLastPrice": 1213,
-    "afterHigh": 0,
-    "description": "",
-    "image_list": []
-  },
-  {
-    "gpName": "瑞达期货",
-    "formerDate": "2023-8-1",
-    "banNum": 3,
-    "howHigh": 10,
-    "yesterdayLastPrice": 1481,
-    "afterHigh": 0,
-    "description": "",
-    "image_list": []
-  },
-  {
-    "gpName": "苏州常规",
-    "formerDate": "2023-8-1",
-    "howHigh": 20,
-    "banNum": 2,
-    "yesterdayLastPrice": 1021,
-    "afterHigh": 0,
-    "description": "",
     "image_list": []
   }
 ]

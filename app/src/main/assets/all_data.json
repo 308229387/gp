@@ -44,7 +44,11 @@
       },
       {
         "richText": [
-          "title:竞价抢筹跟踪"
+          "title:竞价抢筹成功"
+        ]
+      },      {
+        "richText": [
+          "title:竞价抢筹失败"
         ]
       },
       {

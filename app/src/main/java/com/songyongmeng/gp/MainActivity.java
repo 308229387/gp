@@ -132,8 +132,10 @@ public class MainActivity extends AppCompatActivity {
                     toBidding();
                 } else if (allData.get(groupPosition).getData().get(childPosition).getRichText().get(0).equals("title:北京炒家")) {
                     toBigImage("bei_jing_chao_jia.json");
-                }else if (allData.get(groupPosition).getData().get(childPosition).getRichText().get(0).equals("title:竞价抢筹跟踪")) {
-                    toBigImage("jing_jia_qiang_chou.json");
+                }else if (allData.get(groupPosition).getData().get(childPosition).getRichText().get(0).equals("title:竞价抢筹成功")) {
+                    toBigImage("jing_jia_qiang_chou_suc.json");
+                }else if (allData.get(groupPosition).getData().get(childPosition).getRichText().get(0).equals("title:竞价抢筹失败")) {
+                    toBigImage("jing_jia_qiang_chou_fail.json");
                 } else {
                     toDetail((ArrayList<String>) allData.get(groupPosition).getData().get(childPosition).getRichText());
                 }

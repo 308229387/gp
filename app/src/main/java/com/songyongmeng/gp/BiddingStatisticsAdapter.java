@@ -43,6 +43,7 @@ public class BiddingStatisticsAdapter extends RecyclerView.Adapter<BiddingStatis
     private boolean yesterdayAllBanNum;
     private boolean formerAmPm;
     private boolean bidStrong;
+    private boolean getBanNum;
     private boolean yesterdayAllTopBanNum;
     private boolean yesterdaySelfTurnover;
     private boolean whenWillFirstBanTurnover;
@@ -100,22 +101,22 @@ public class BiddingStatisticsAdapter extends RecyclerView.Adapter<BiddingStatis
         notifyDataSetChanged();
     }
 
-    public void changeYesterdayLastPriceData() {
-        comparator = new Comparator<BiddingStatisticsBean>() {
-            @Override
-            public int compare(BiddingStatisticsBean bean1, BiddingStatisticsBean bean2) {
-                if (yesterdayLastPrice) {
-                    return Double.compare(bean1.getYesterdayLastPrice(), bean2.getYesterdayLastPrice());
-                } else {
-                    return Double.compare(bean2.getYesterdayLastPrice(), bean1.getYesterdayLastPrice());
-                }
-            }
-        };
-
-        Collections.sort(mDataList, comparator);
-        yesterdayLastPrice = !yesterdayLastPrice;
-        notifyDataSetChanged();
-    }
+//    public void changeYesterdayLastPriceData() {
+//        comparator = new Comparator<BiddingStatisticsBean>() {
+//            @Override
+//            public int compare(BiddingStatisticsBean bean1, BiddingStatisticsBean bean2) {
+//                if (yesterdayLastPrice) {
+//                    return Double.compare(bean1.getYesterdayLastPrice(), bean2.getYesterdayLastPrice());
+//                } else {
+//                    return Double.compare(bean2.getYesterdayLastPrice(), bean1.getYesterdayLastPrice());
+//                }
+//            }
+//        };
+//
+//        Collections.sort(mDataList, comparator);
+//        yesterdayLastPrice = !yesterdayLastPrice;
+//        notifyDataSetChanged();
+//    }
 
     public void setOnItemClickListener(OnBiddingItemClickListener listener) {
         mListener = listener;
@@ -191,37 +192,51 @@ public class BiddingStatisticsAdapter extends RecyclerView.Adapter<BiddingStatis
 //
 //
 //
-//    public void changeFormerStartData() {
-//        comparator = new Comparator<BiddingStatisticsBean>() {
-//            @Override
-//            public int compare(BiddingStatisticsBean bean1, BiddingStatisticsBean bean2) {
-//                if (formerStartPoint) {
-//                    return Double.compare(bean1.getFormerStartPoint(), bean2.getFormerStartPoint());
-//                } else {
-//                    return Double.compare(bean2.getFormerStartPoint(), bean1.getFormerStartPoint());
-//                }
-//            }
-//        };
+    public void changeOpenPtion() {
+        comparator = new Comparator<BiddingStatisticsBean>() {
+            @Override
+            public int compare(BiddingStatisticsBean bean1, BiddingStatisticsBean bean2) {
+                if (formerStartPoint) {
+                    return Double.compare(bean1.getOpenHighPoint(), bean2.getOpenHighPoint());
+                } else {
+                    return Double.compare(bean2.getOpenHighPoint(), bean1.getOpenHighPoint());
+                }
+            }
+        };
+
+        Collections.sort(mDataList, comparator);
+        formerStartPoint = !formerStartPoint;
+        notifyDataSetChanged();
+    }
 //
-//        Collections.sort(mDataList, comparator);
-//        formerStartPoint = !formerStartPoint;
-//        notifyDataSetChanged();
-//    }
-//
-//    public void changeBidStrong() {
-//        Collections.sort(mDataList, new Comparator<BiddingStatisticsBean>() {
-//            @Override
-//            public int compare(BiddingStatisticsBean bean1, BiddingStatisticsBean bean2) {
-//                if (bidStrong) {
-//                    return bean2.getBidStrong() - bean1.getBidStrong();
-//                } else {
-//                    return bean1.getBidStrong() - bean2.getBidStrong();
-//                }
-//            }
-//        });
-//        bidStrong = !bidStrong;
-//        notifyDataSetChanged();
-//    }
+    public void changeBiddingPriceData() {
+        Collections.sort(mDataList, new Comparator<BiddingStatisticsBean>() {
+            @Override
+            public int compare(BiddingStatisticsBean bean1, BiddingStatisticsBean bean2) {
+                if (bidStrong) {
+                    return bean2.getBidPrice() - bean1.getBidPrice();
+                } else {
+                    return bean1.getBidPrice() - bean2.getBidPrice();
+                }
+            }
+        });
+        bidStrong = !bidStrong;
+        notifyDataSetChanged();
+    }
+    public void changeBanData() {
+        Collections.sort(mDataList, new Comparator<BiddingStatisticsBean>() {
+            @Override
+            public int compare(BiddingStatisticsBean bean1, BiddingStatisticsBean bean2) {
+                if (getBanNum) {
+                    return bean2.getBanNum() - bean1.getBanNum();
+                } else {
+                    return bean1.getBanNum() - bean2.getBanNum();
+                }
+            }
+        });
+        getBanNum = !getBanNum;
+        notifyDataSetChanged();
+    }
 //
 //    public void changeCompareHigh() {
 //        comparator = new Comparator<BiddingStatisticsBean>() {
@@ -456,11 +471,11 @@ public class BiddingStatisticsAdapter extends RecyclerView.Adapter<BiddingStatis
             linearLayout.removeAllViews();
 
             // 动态添加 TextView
-            for (int i = 0; i < 7; i++) {
+            for (int i = 0; i < 6; i++) {
                 TextView textView = new TextView(itemView.getContext());
                 if (i == 0) {
                     textView.setWidth(250); // 名称
-                } else if (i == 6) {
+                } else if (i == 5) {
                     textView.setWidth(270); // 日期
                 } else {
                     textView.setWidth(230); // 设置宽度为200像素
@@ -478,27 +493,18 @@ public class BiddingStatisticsAdapter extends RecyclerView.Adapter<BiddingStatis
                         textView.setText(data.getGpName());
                         break;
                     case 1:
-                        String result = "";
-                        if (data.getAfterHigh() > 0) {
-                            result = data.getAfterHigh() + "%";
-                        } else {
-                            result = "-";
-                        }
-                        textView.setText(result);
+                        textView.setText(data.getAfterHigh() + "%");
                         break;
                     case 2:
-                        textView.setText(data.getYesterdayLastPrice() + "万");
+                        textView.setText(data.getBidPrice() + "万");
                         break;
                     case 3:
-                        textView.setText(data.getDescription().isEmpty() ? "-" : data.getDescription());
+                        textView.setText(data.getOpenHighPoint()+"%");
                         break;
                     case 4:
                         textView.setText(data.getBanNum() + "板");
                         break;
                     case 5:
-                        textView.setText(data.getHowHigh() + "cm");
-                        break;
-                    case 6:
                         textView.setText(data.getFormerDate());
                         break;
                 }

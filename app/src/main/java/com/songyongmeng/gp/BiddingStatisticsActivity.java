@@ -59,12 +59,12 @@ public class BiddingStatisticsActivity extends AppCompatActivity {
     }
 
     private void addHeaderButton(LinearLayout buttonLayout) {
-        for (int i = 0; i < 7; i++) {
+        for (int i = 0; i < 6; i++) {
             Button button = new Button(this);
             LinearLayout.LayoutParams layoutParams;
             if (i == 0) {
                 layoutParams = new LinearLayout.LayoutParams(230, 180);
-            } else if (i == 6) {
+            } else if (i == 5) {
                 layoutParams = new LinearLayout.LayoutParams(260, 180);
             } else {
                 layoutParams = new LinearLayout.LayoutParams(210, 180);
@@ -80,7 +80,7 @@ public class BiddingStatisticsActivity extends AppCompatActivity {
                     button.setOnClickListener(new View.OnClickListener() {
                         @Override
                         public void onClick(View view) {
-//                            adapter.recoverData();
+                            adapter.recoverFenQiData();
                         }
                     });
                     break;
@@ -94,20 +94,20 @@ public class BiddingStatisticsActivity extends AppCompatActivity {
                     });
                     break;
                 case 2:
-                    button.setText("昨日封单");
+                    button.setText("竞价金额");
                     button.setOnClickListener(new View.OnClickListener() {
                         @Override
                         public void onClick(View view) {
-                            adapter.changeYesterdayLastPriceData();
+                            adapter.changeBiddingPriceData();
                         }
                     });
                     break;
                 case 3:
-                    button.setText("板质量");
+                    button.setText("开盘点位");
                     button.setOnClickListener(new View.OnClickListener() {
                         @Override
                         public void onClick(View view) {
-                            adapter.changeDescription();
+                            adapter.changeOpenPtion();
                         }
                     });
                     break;
@@ -116,20 +116,11 @@ public class BiddingStatisticsActivity extends AppCompatActivity {
                     button.setOnClickListener(new View.OnClickListener() {
                         @Override
                         public void onClick(View view) {
-//                            adapter.changeRadioData();
+                            adapter.changeBanData();
                         }
                     });
                     break;
                 case 5:
-                    button.setText("涨停几cm");
-                    button.setOnClickListener(new View.OnClickListener() {
-                        @Override
-                        public void onClick(View view) {
-//                            adapter.changeBanData();
-                        }
-                    });
-                    break;
-                case 6:
                     button.setText("日期");
                     button.setOnClickListener(new View.OnClickListener() {
                         @Override
