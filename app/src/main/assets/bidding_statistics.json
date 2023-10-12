@@ -1,5 +1,16 @@
 [
   {
+    "gpName": "常山北明",
+    "formerDate": "2023-10-11",
+    "banNum": 2,
+    "openHighPoint": 5.69,
+    "bidPrice": 24200,
+    "afterHigh": -1,
+    "description": "退潮",
+    "image_list": [
+    ]
+  },
+  {
     "gpName": "赛力斯",
     "formerDate": "2023-10-10",
     "banNum": 3,

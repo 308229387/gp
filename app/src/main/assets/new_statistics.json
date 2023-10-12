@@ -2,11 +2,11 @@
   {
     "gpName": "常山北明",
     "formerDate": "2023-10-11",
-    "mode": -1,
-    "lastPrice": 2.27,
+    "mode": 2,
+    "lastPrice": 2.28,
     "failureReason": [],
-    "resultPoint": 2.1,
-    "buyReason": "主流华为概念，开盘竞价很强，竞价量2.2亿高开5个多点，均线多头，竞价上车。",
+    "resultPoint": -0.5,
+    "buyReason": "主流华为概念，开盘竞价很强，竞价量2.4亿高开5个多点，均线多头，竞价上车。第二天开盘下杀，仓位线下车。",
     "image_list": [
     ]
   },
@@ -16,7 +16,7 @@
     "mode": 1,
     "lastPrice": 0,
     "failureReason": [],
-    "resultPoint": -2.1,
+    "resultPoint": -2.4,
     "buyReason": "主流版块，上冲两回失败，觉得后面可能还会回封，忽略当天退潮，8个点左右上车，后来一直没回封，但因为是主流版块，第二天没怎么下跌，离场",
     "image_list": [
     ]
@@ -27,7 +27,7 @@
     "mode": 1,
     "lastPrice": 0,
     "failureReason": [],
-    "resultPoint": -8.5,
+    "resultPoint": -7.87,
     "buyReason": "非主流版块，炸后在首板中算是大面了。首板还是吃回封好点",
     "image_list": [
     ]
