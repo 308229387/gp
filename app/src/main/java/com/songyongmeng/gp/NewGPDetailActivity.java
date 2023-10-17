@@ -2,6 +2,7 @@ package com.songyongmeng.gp;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -26,9 +27,13 @@ public class NewGPDetailActivity extends AppCompatActivity {
         TextView failureReason = findViewById(R.id.failure_reason);
         TextView last = findViewById(R.id.gp_last_price);
         name.setText("股票名称： " + data.getGpName());
-        result.setText("获利： " + data.getResultPoint() + "%");
-        last.setText(data.getLastPrice() == 0 ? "未涨停" : "封单: " + data.getLastPrice() + "亿");
-        reason.setText("购买原因： " + data.getBuyReason());
+        result.setText("后续： " + data.getResultPoint() + "%");
+        if(null!=intent.getStringExtra("source")&&intent.getStringExtra("source").equals("BiddingStatisticsActivity")){
+            last.setText("竞价金额："+data.getLastPrice());
+        }else{
+            last.setText(data.getLastPrice() == 0 ? "未涨停" : "封单: " + data.getLastPrice() + "亿");
+        }
+        reason.setText("描述： " + data.getBuyReason());
         if (data.getFailureReason() != null && data.getFailureReason().size() > 0) {
             StringBuilder builder = new StringBuilder("亏损原因：");
             for (int a : data.getFailureReason()) {

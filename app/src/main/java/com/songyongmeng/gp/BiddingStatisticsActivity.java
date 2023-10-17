@@ -53,6 +53,18 @@ public class BiddingStatisticsActivity extends AppCompatActivity {
 //                Intent intent = new Intent(BiddingStatisticsActivity.this, NewSumUpListActivity.class);
 //                intent.putExtra("newSumUpListData", (Serializable) position);
 //                startActivity(intent);
+                NewStatisticsBean data = new NewStatisticsBean();
+                data.setGpName(position.getGpName());
+                data.setBuyReason(position.getDescription());
+                data.setImage_list(position.getImage_list());
+                data.setResultPoint((double) position.getAfterHigh());
+                data.setLastPrice((double) position.getBidPrice());
+
+
+                Intent intent = new Intent(BiddingStatisticsActivity.this,NewGPDetailActivity.class);
+                intent.putExtra("gpDetailData", (Serializable) data);
+                intent.putExtra("source", "BiddingStatisticsActivity");
+                startActivity(intent);
             }
         });
 

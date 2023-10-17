@@ -24,7 +24,7 @@ public class BiddingStatisticsBean implements Serializable {
     private int bidPrice;
     private int afterHigh;
     private String description;
-    private List<?> image_list;
+    private List<String> image_list;
 
     public String getGpName() {
         return gpName;
@@ -82,11 +82,11 @@ public class BiddingStatisticsBean implements Serializable {
         this.description = description;
     }
 
-    public List<?> getImage_list() {
+    public List<String> getImage_list() {
         return image_list;
     }
 
-    public void setImage_list(List<?> image_list) {
+    public void setImage_list(List<String> image_list) {
         this.image_list = image_list;
     }
 }

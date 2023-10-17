@@ -1,11 +1,33 @@
 [
   {
+    "gpName": "通宇通讯",
+    "formerDate": "2023-10-16",
+    "mode": -1,
+    "lastPrice": 0,
+    "failureReason": [],
+    "resultPoint": 0,
+    "buyReason": "华为大概念，竞价也是二板最高9千多万。开盘后冲涨停失败，震荡下午，收盘1个多点。",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "新华制药",
+    "formerDate": "2023-10-16",
+    "mode": -1,
+    "lastPrice": 0.76,
+    "failureReason": [],
+    "resultPoint": 0,
+    "buyReason": "主流之一制药题材，一字板开盘，后开盘回封，有量，当天涨停标的很少，上车后中午在涨停板附近卖一卖二窄幅震荡。",
+    "image_list": [
+    ]
+  },
+  {
     "gpName": "冠捷科技",
     "formerDate": "2023-10-13",
-    "mode": -1,
+    "mode": 2,
     "lastPrice": 1.67,
     "failureReason": [],
-    "resultPoint": 0.54,
+    "resultPoint": 4.72,
     "buyReason": "近期有异动，竞价9000多万的买单，形态无压力，版块开盘低开，忽略退潮，竞价结束挂单买入。",
     "image_list": [
     ]
@@ -13,10 +35,10 @@
   {
     "gpName": "特一药业",
     "formerDate": "2023-10-13",
-    "mode": -1,
+    "mode": 1,
     "lastPrice": 0.12,
     "failureReason": [],
-    "resultPoint": 0.5,
+    "resultPoint":1.87,
     "buyReason": "这两天制药概念较火，中药有关联性，早盘也有拉升，中间开板，尾盘封住，近半年股性还可以，上车，缺点是量放的有点大，非核心概念",
     "image_list": [
     ]

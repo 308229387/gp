@@ -1,5 +1,29 @@
 [
   {
+    "gpName": "百花医药",
+    "formerDate": "2023-10-13",
+    "banNum": 3,
+    "openHighPoint": 10.04,
+    "bidPrice": 22400,
+    "afterHigh": 10,
+    "description": "退潮",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "润达医疗",
+    "formerDate": "2023-10-12",
+    "banNum": 3,
+    "openHighPoint": 8.57,
+    "bidPrice": 18100,
+    "afterHigh": -5,
+    "description": "退潮",
+    "image_list": [
+      "bid_rdyl_k",
+      "bid_rdyl_fs"
+    ]
+  },
+  {
     "gpName": "常山北明",
     "formerDate": "2023-10-11",
     "banNum": 2,
@@ -70,7 +94,7 @@
     "description": "",
     "image_list": [
       "jjqc_ydcd_k",
-      "jjqc_ydcd_fs"
+      "bid_ydcd_fs"
     ]
   },
   {
@@ -122,7 +146,7 @@
   {
     "gpName": "张江高科",
     "formerDate": "2023-09-08",
-    "banNum": 3,
+    "banNum": 2,
     "openHighPoint": 7.57,
     "bidPrice": 14700,
     "afterHigh": 20,
@@ -170,7 +194,10 @@
     "bidPrice": 6814,
     "afterHigh": -10,
     "description": "",
-    "image_list": []
+    "image_list": [
+      "bid_jdgf_k",
+      "bid_jdgf_fs"
+    ]
   },
   {
     "gpName": "龙江交通",
@@ -190,7 +217,10 @@
     "bidPrice": 9822,
     "afterHigh": -20,
     "description": "",
-    "image_list": []
+    "image_list": [
+      "bid_ylgf_k",
+      "bid_ylgf_fs"
+    ]
   },
   {
     "gpName": "新赛股份",
@@ -200,7 +230,10 @@
     "bidPrice": 5031,
     "afterHigh": -13,
     "description": "",
-    "image_list": []
+    "image_list": [
+      "bid_xsgf_k",
+      "bid_xsgf_fs"
+    ]
   },
   {
     "gpName": "江盐集团",
@@ -240,7 +273,10 @@
     "bidPrice": 5630,
     "afterHigh": -5,
     "description": "",
-    "image_list": []
+    "image_list": [
+      "bid_kld_k",
+      "bid_kld_fs,"
+    ]
   },
   {
     "gpName": "精达股份",
@@ -250,7 +286,10 @@
     "bidPrice": 24400,
     "afterHigh": -14,
     "description": "",
-    "image_list": []
+    "image_list": [
+      "bid_jdgf_k",
+      "bid_jdgf_fs"
+    ]
   },
   {
     "gpName": "永鼎股份",
@@ -260,6 +299,9 @@
     "bidPrice": 17700,
     "afterHigh": -14,
     "description": "烂板",
-    "image_list": []
+    "image_list": [
+      "bid_ydgf_k",
+      "bid_ydgf_fs,"
+    ]
   }
 ]
