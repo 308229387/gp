@@ -1,24 +1,63 @@
 [
   {
-    "gpName": "通宇通讯",
-    "formerDate": "2023-10-16",
+    "gpName": "北汽蓝谷",
+    "formerDate": "2023-10-18",
     "mode": -1,
-    "lastPrice": 0,
+    "lastPrice": 1.33,
     "failureReason": [],
     "resultPoint": 0,
-    "buyReason": "华为大概念，竞价也是二板最高9千多万。开盘后冲涨停失败，震荡下午，收盘1个多点。",
+    "buyReason": "看开盘啦，发现一板中，华为汽车版块很多，版块里看到赛力斯也很强，而北汽快涨停，就上车了",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "亚联发展",
+    "formerDate": "2023-10-18",
+    "mode": -1,
+    "lastPrice": 0.36,
+    "failureReason": [],
+    "resultPoint": 0,
+    "buyReason": "本来挂的万润，开盘1.5，医药版块，但因为有8000多万的竞价量，幸好没挂上是废单。亚联也看到了，6000多万，而且高开6个多点，后在涨停前上车。移动支付概念，不是很强的热点。",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "双鹭药业",
+    "formerDate": "2023-10-17",
+    "mode": 2,
+    "lastPrice": 0,
+    "failureReason": [],
+    "resultPoint": 1.5,
+    "buyReason": "早盘没注意百花医药崩盘，最大竞价额，莽撞冲进去了，有冲高，但最后还是回落。第二天微红离场。",
     "image_list": [
     ]
   },
   {
     "gpName": "新华制药",
     "formerDate": "2023-10-16",
-    "mode": -1,
+    "mode": 1,
     "lastPrice": 0.76,
     "failureReason": [],
-    "resultPoint": 0,
+    "resultPoint": -1.5,
     "buyReason": "主流之一制药题材，一字板开盘，后开盘回封，有量，当天涨停标的很少，上车后中午在涨停板附近卖一卖二窄幅震荡。",
     "image_list": [
+      "xhzy_k",
+      "xhzy_b",
+      "xhzy_s"
+    ]
+  },
+  {
+    "gpName": "通宇通讯",
+    "formerDate": "2023-10-16",
+    "mode": 2,
+    "lastPrice": 0,
+    "failureReason": [],
+    "resultPoint": -13.0,
+    "buyReason": "华为大概念，竞价也是二板最高9千多万。开盘后冲涨停失败，震荡下午，收盘1个多点。开盘跌停，恐慌出逃。预计明天会反弹",
+    "image_list": [
+      "tytx_k",
+      "tytx_b",
+      "tytx_s"
     ]
   },
   {
@@ -30,6 +69,9 @@
     "resultPoint": 4.72,
     "buyReason": "近期有异动，竞价9000多万的买单，形态无压力，版块开盘低开，忽略退潮，竞价结束挂单买入。",
     "image_list": [
+      "gjkj_k",
+      "gjkj_b",
+      "gjkj_s"
     ]
   },
   {
@@ -41,6 +83,9 @@
     "resultPoint":1.87,
     "buyReason": "这两天制药概念较火，中药有关联性，早盘也有拉升，中间开板，尾盘封住，近半年股性还可以，上车，缺点是量放的有点大，非核心概念",
     "image_list": [
+      "tyyy_k",
+      "tyyy_b",
+      "tyyy_s"
     ]
   },
   {

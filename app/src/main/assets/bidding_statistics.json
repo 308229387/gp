@@ -1,5 +1,38 @@
 [
   {
+    "gpName": "双鹭药业",
+    "formerDate": "2023-10-17",
+    "banNum": 2,
+    "openHighPoint": 2.53,
+    "bidPrice": 13500,
+    "afterHigh": 2,
+    "description": "",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "通宇通讯",
+    "formerDate": "2023-10-16",
+    "banNum": 2,
+    "openHighPoint": 3.35,
+    "bidPrice": 9525,
+    "afterHigh": -11,
+    "description": "",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "冠捷科技",
+    "formerDate": "2023-10-13",
+    "banNum": 2,
+    "openHighPoint": 4.23,
+    "bidPrice": 9343,
+    "afterHigh": 7,
+    "description": "",
+    "image_list": [
+    ]
+  },
+  {
     "gpName": "百花医药",
     "formerDate": "2023-10-13",
     "banNum": 3,

@@ -475,7 +475,9 @@ public class NewSumUpListAdapter extends RecyclerView.Adapter<NewSumUpListAdapte
                 textView.setHeight(100);
                 textView.setTextColor(Color.parseColor("#ff000000"));
                 textView.setGravity(Gravity.CENTER);
-                if (data.getResultPoint() > 0) {
+                if(data.getMode() == -1){
+                    textView.setBackgroundColor(Color.parseColor("#CCCCCC"));
+                }else if (data.getResultPoint() > 0) {
                     textView.setBackgroundColor(Color.parseColor("#FFC0CB"));
                 } else {
                     textView.setBackgroundColor(Color.parseColor("#90EE90"));
