@@ -493,7 +493,7 @@ public class NewSumUpListAdapter extends RecyclerView.Adapter<NewSumUpListAdapte
                         String tmp = "";
                         if (data.getMode() == -1) {
                             tmp = "进行中";
-                        } else if (data.getMode() == 0) {
+                        } else if (data.getMode() == 99) {
                             tmp = "龙头";
                         } else if (data.getMode() == 1) {
                             tmp = "首板";

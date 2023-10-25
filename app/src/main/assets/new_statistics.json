@@ -1,23 +1,144 @@
 [
   {
-    "gpName": "北汽蓝谷",
-    "formerDate": "2023-10-18",
+    "gpName": "三维通信",
+    "formerDate": "2023-10-24",
     "mode": -1,
-    "lastPrice": 1.33,
+    "lastPrice": 1.52,
     "failureReason": [],
     "resultPoint": 0,
-    "buyReason": "看开盘啦，发现一板中，华为汽车版块很多，版块里看到赛力斯也很强，而北汽快涨停，就上车了",
+    "buyReason": "分时很强，一直在涨停附近，二板是缩量的，三板放量，分时强，上车，需要记录下这个票的分时。",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "东宏科技",
+    "formerDate": "2023-10-24",
+    "mode": -1,
+    "lastPrice": 0.01,
+    "failureReason": [],
+    "resultPoint": 0,
+    "buyReason": "版块大涨，前面有4个涨停的，涨停开，只有这一支票接近涨停，低位涨停，上车后全天6-7个点震荡，下午2点多回封，封单才100多万预计明天不太好",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "文一科技",
+    "formerDate": "2023-10-24",
+    "mode": -1,
+    "lastPrice": 0,
+    "failureReason": [],
+    "resultPoint": 7.49,
+    "buyReason": "5进6，中位股，前一天缩量，已经知道不能进了，当天绝对蒙B状态，看上板就冲了，结果当天回落，第二天跌停被锁",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "圣龙股份",
+    "formerDate": "2023-10-24",
+    "mode": 99,
+    "lastPrice": 0.66,
+    "failureReason": [],
+    "resultPoint": 7.49,
+    "buyReason": "13板，其他股亏惨了，赌气式的进去，前一天还是缩量，小仓位打板，结果第二天还是高开8个点，不敢想啊，其他票梦寐以求的，这种龙头票上涨就像喝水一样容易。",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "吉翔股份",
+    "formerDate": "2023-10-24",
+    "mode": 1,
+    "lastPrice": 0.28,
+    "failureReason": [],
+    "resultPoint": -5.49,
+    "buyReason": "断板高位接力形态，相当于4板，还是烂板，第二天直接崩。这种形态太坑爹，以后再也不搞了。",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "蓝箭电子",
+    "formerDate": "2023-10-23",
+    "mode": 1,
+    "lastPrice": 0,
+    "failureReason": [],
+    "resultPoint": -5.49,
+    "buyReason": "输急眼了，想着回本，今天又是普跌的一天，手里三支票全跌，从开盘啦看华为概念比较强，版块有3个涨停的了，票又上冲中，就半路上车了，后看是高点",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "众泰汽车",
+    "formerDate": "2023-10-20",
+    "mode": 1,
+    "lastPrice": 0,
+    "failureReason": [],
+    "resultPoint": -2.75,
+    "buyReason": "汽车版块早上有冲高，看有一个涨停的，然后记得众泰是之前汽车的龙头，才1个多点，也没多想，就上车了。后面拉胯",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "合众思壮",
+    "formerDate": "2023-10-20",
+    "mode": 2,
+    "lastPrice": 0,
+    "failureReason": [],
+    "resultPoint": -15.75,
+    "buyReason": "还好仓位比较低才4000多块，高开6个点4000多万竞价额，上板时倍量，军工芯片，k线也还行，呆了不长时间崩了。",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "双一科技",
+    "formerDate": "2023-10-20",
+    "mode": 1,
+    "lastPrice": 0,
+    "failureReason": [],
+    "resultPoint": -4.72,
+    "buyReason": "电力设备看涨的还行，里面有4  5个涨停的，这票当时冲高有所回落，但也在13附近，就上车了，后全天高位震荡，大盘下杀。",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "蓝箭电子",
+    "formerDate": "2023-10-19",
+    "mode": 1,
+    "lastPrice": 0.31,
+    "failureReason": [],
+    "resultPoint": 6.93,
+    "buyReason": "今天主要是芯片概念，半路上车蓝箭电子，尾盘放量，从1个多亿的封单，变成了3千多万，整体版块涨停的都在尾盘有放量的情况。第二天冲高回落后卖出",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "沃格光电",
+    "formerDate": "2023-10-19",
+    "mode": 2,
+    "lastPrice": 0,
+    "failureReason": [],
+    "resultPoint": -5.77,
+    "buyReason": "早盘没有刷出来二板动态选股，随便找了个上板的，版块是红的就上了。结果挂半路了给。结果一看，承接才900多万。开盘小等一会离场，后有拉升",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "北汽蓝谷",
+    "formerDate": "2023-10-18",
+    "mode": 1,
+    "lastPrice": 1.33,
+    "failureReason": [],
+    "resultPoint": -3.0,
+    "buyReason": "看开盘啦，发现一板中，华为汽车版块很多，版块里看到赛力斯也很强，而北汽快涨停，就上车了，龙虎榜全是家人们。开盘行情不好，版块和中军都跌，开盘离场，下午大幅翻红，但也没机会了",
     "image_list": [
     ]
   },
   {
     "gpName": "亚联发展",
     "formerDate": "2023-10-18",
-    "mode": -1,
+    "mode": 2,
     "lastPrice": 0.36,
     "failureReason": [],
-    "resultPoint": 0,
-    "buyReason": "本来挂的万润，开盘1.5，医药版块，但因为有8000多万的竞价量，幸好没挂上是废单。亚联也看到了，6000多万，而且高开6个多点，后在涨停前上车。移动支付概念，不是很强的热点。",
+    "resultPoint": -6.5,
+    "buyReason": "本来挂的万润，开盘1.5，医药版块，但因为有8000多万的竞价量，幸好没挂上是废单。亚联也看到了，6000多万，而且高开6个多点，后在涨停前上车。移动支付概念，不是很强的热点。第二天开盘跌停，后有反弹，负6个多慌慌张张走了，板上有喂单，太差",
     "image_list": [
     ]
   },
@@ -27,7 +148,7 @@
     "mode": 2,
     "lastPrice": 0,
     "failureReason": [],
-    "resultPoint": 1.5,
+    "resultPoint": 2.52,
     "buyReason": "早盘没注意百花医药崩盘，最大竞价额，莽撞冲进去了，有冲高，但最后还是回落。第二天微红离场。",
     "image_list": [
     ]
@@ -38,8 +159,8 @@
     "mode": 1,
     "lastPrice": 0.76,
     "failureReason": [],
-    "resultPoint": -1.5,
-    "buyReason": "主流之一制药题材，一字板开盘，后开盘回封，有量，当天涨停标的很少，上车后中午在涨停板附近卖一卖二窄幅震荡。",
+    "resultPoint": -1.66,
+    "buyReason": "主流之一制药题材，一字板开盘，后开盘回封，有量，当天涨停标的很少，上车后中午在涨停板附近卖一卖二窄幅震荡。和北京炒家同车",
     "image_list": [
       "xhzy_k",
       "xhzy_b",
@@ -52,7 +173,7 @@
     "mode": 2,
     "lastPrice": 0,
     "failureReason": [],
-    "resultPoint": -13.0,
+    "resultPoint": -12.34,
     "buyReason": "华为大概念，竞价也是二板最高9千多万。开盘后冲涨停失败，震荡下午，收盘1个多点。开盘跌停，恐慌出逃。预计明天会反弹",
     "image_list": [
       "tytx_k",
@@ -330,7 +451,7 @@
   {
     "gpName": "通化金马",
     "formerDate": "2023-09-18",
-    "mode": 0,
+    "mode": 99,
     "lastPrice": 0,
     "failureReason": [
       2

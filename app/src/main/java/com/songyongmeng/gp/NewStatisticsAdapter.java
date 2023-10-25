@@ -384,7 +384,7 @@ public class NewStatisticsAdapter extends RecyclerView.Adapter<NewStatisticsAdap
 //                    low5buyAverageFai = low5buyAverageFai + tmp.getResultPoint();
 //                }
 //            }
-            if (tmp.getMode() == 0) {
+            if (tmp.getMode() == 99) {
                 longHeader++;
                 if(tmp.getLastPrice()>0){
                     longHeaderNum++;
@@ -542,7 +542,7 @@ public class NewStatisticsAdapter extends RecyclerView.Adapter<NewStatisticsAdap
 //                        .collect(Collectors.toList());
             case "龙头战法":
                 return dataList.stream()
-                        .filter(bean -> bean.getMode() == 0)
+                        .filter(bean -> bean.getMode() == 99)
                         .collect(Collectors.toList());
             case "首板":
                 return dataList.stream()
