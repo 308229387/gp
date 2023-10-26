@@ -475,9 +475,9 @@ public class NewSumUpListAdapter extends RecyclerView.Adapter<NewSumUpListAdapte
                 textView.setHeight(100);
                 textView.setTextColor(Color.parseColor("#ff000000"));
                 textView.setGravity(Gravity.CENTER);
-                if(data.getMode() == -1){
+                if (data.getMode() == -1) {
                     textView.setBackgroundColor(Color.parseColor("#CCCCCC"));
-                }else if (data.getResultPoint() > 0) {
+                } else if (data.getResultPoint() > 0) {
                     textView.setBackgroundColor(Color.parseColor("#FFC0CB"));
                 } else {
                     textView.setBackgroundColor(Color.parseColor("#90EE90"));
@@ -499,8 +499,8 @@ public class NewSumUpListAdapter extends RecyclerView.Adapter<NewSumUpListAdapte
                             tmp = "首板";
                         } else if (data.getMode() == 2) {
                             tmp = "一进二";
-                        } else if (data.getMode() == 3) {
-                            tmp = "二进三";
+                        } else if (data.getMode() > 2 && data.getMode() < 99) {
+                            tmp = "中位";
                         }
                         textView.setText(tmp);
                         break;

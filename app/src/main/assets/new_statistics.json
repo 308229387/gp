@@ -2,33 +2,33 @@
   {
     "gpName": "三维通信",
     "formerDate": "2023-10-24",
-    "mode": -1,
+    "mode": 3,
     "lastPrice": 1.52,
     "failureReason": [],
-    "resultPoint": 0,
-    "buyReason": "分时很强，一直在涨停附近，二板是缩量的，三板放量，分时强，上车，需要记录下这个票的分时。",
+    "resultPoint": 8.1,
+    "buyReason": "分时很强，一直在涨停附近，二板是缩量的，三板放量，分时强，上车，需要记录下这个票的分时。次日第一分微调，第二分钟直接上板，上板后设置了跌破9个点离场，上午快结束时破板离场，后大跌。走对了。",
     "image_list": [
     ]
   },
   {
     "gpName": "东宏科技",
     "formerDate": "2023-10-24",
-    "mode": -1,
+    "mode": 1,
     "lastPrice": 0.01,
     "failureReason": [],
-    "resultPoint": 0,
-    "buyReason": "版块大涨，前面有4个涨停的，涨停开，只有这一支票接近涨停，低位涨停，上车后全天6-7个点震荡，下午2点多回封，封单才100多万预计明天不太好",
+    "resultPoint": -3.0,
+    "buyReason": "版块大涨，前面有4个涨停的，涨停开，只有这一支票接近涨停，低位涨停，上车后全天6-7个点震荡，下午2点多回封，封单才100多万预计明天不太好，封单弱，第二天竞价未超预期，开盘秒。",
     "image_list": [
     ]
   },
   {
     "gpName": "文一科技",
     "formerDate": "2023-10-24",
-    "mode": -1,
+    "mode": 6,
     "lastPrice": 0,
     "failureReason": [],
-    "resultPoint": 7.49,
-    "buyReason": "5进6，中位股，前一天缩量，已经知道不能进了，当天绝对蒙B状态，看上板就冲了，结果当天回落，第二天跌停被锁",
+    "resultPoint": -17.0,
+    "buyReason": "5进6，中位股，主要原因是前一天缩量，已经知道不能进了，当天绝对蒙B状态，看上板就冲了，结果当天回落，第二天跌停被锁，第三天开盘还是跌停，有幸有主力自救，第三天只亏1个多点",
     "image_list": [
     ]
   },
@@ -38,7 +38,7 @@
     "mode": 99,
     "lastPrice": 0.66,
     "failureReason": [],
-    "resultPoint": 7.49,
+    "resultPoint": 8.06,
     "buyReason": "13板，其他股亏惨了，赌气式的进去，前一天还是缩量，小仓位打板，结果第二天还是高开8个点，不敢想啊，其他票梦寐以求的，这种龙头票上涨就像喝水一样容易。",
     "image_list": [
     ]
@@ -49,7 +49,7 @@
     "mode": 1,
     "lastPrice": 0.28,
     "failureReason": [],
-    "resultPoint": -5.49,
+    "resultPoint": -10.14,
     "buyReason": "断板高位接力形态，相当于4板，还是烂板，第二天直接崩。这种形态太坑爹，以后再也不搞了。",
     "image_list": [
     ]

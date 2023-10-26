@@ -406,16 +406,16 @@ public class MonthStatisticsAdapter extends RecyclerView.Adapter<MonthStatistics
 //                }
 //            }
 //            if (tmp.getMode() == 3) {
-//                threeBan++;
+//                middleBan++;
 //                if(tmp.getLastPrice()>0){
-//                    threeBanNum++;
+//                    middleBanNum++;
 //                }
 //                if (tmp.getResultPoint() > 0) {
-//                    threeBanSuc++;
-//                    threeBanAverageSuc = threeBanAverageSuc + tmp.getResultPoint();
+//                    middleBanSuc++;
+//                    middleBanAverageSuc = middleBanAverageSuc + tmp.getResultPoint();
 //                } else {
-//                    threeBanFai++;
-//                    threeBanAverageFai = threeBanAverageFai + tmp.getResultPoint();
+//                    middleBanFai++;
+//                    middleBanAverageFai = middleBanAverageFai + tmp.getResultPoint();
 //                }
 //            }
 ////            if (tmp.isIsPullUp() && tmp.getBuyBanNum() > 3) {
@@ -463,12 +463,12 @@ public class MonthStatisticsAdapter extends RecyclerView.Adapter<MonthStatistics
             double twoBanAverageSuc = 0;
             double twoBanAverageFai = 0;
 
-            int threeBan = 0;
-            int threeBanNum = 0;
-            int threeBanSuc = 0;
-            int threeBanFai = 0;
-            double threeBanAverageSuc = 0;
-            double threeBanAverageFai = 0;
+            int middleBan = 0;
+            int middleBanNum = 0;
+            int middleBanSuc = 0;
+            int middleBanFai = 0;
+            double middleBanAverageSuc = 0;
+            double middleBanAverageFai = 0;
 
             int monthAllNum = 0;
 
@@ -502,24 +502,24 @@ public class MonthStatisticsAdapter extends RecyclerView.Adapter<MonthStatistics
                     }
                 }
 
-                if (item.getMode() == 3) {
-                    threeBan++;
+                if (item.getMode() > 2 && item.getMode() < 99) {
+                    middleBan++;
                     if (item.getLastPrice() > 0) {
-                        threeBanNum++;
+                        middleBanNum++;
                     }
                     if (item.getResultPoint() > 0) {
-                        threeBanSuc++;
-                        threeBanAverageSuc = threeBanAverageSuc + item.getResultPoint();
+                        middleBanSuc++;
+                        middleBanAverageSuc = middleBanAverageSuc + item.getResultPoint();
                     } else {
-                        threeBanFai++;
-                        threeBanAverageFai = threeBanAverageFai + item.getResultPoint();
+                        middleBanFai++;
+                        middleBanAverageFai = middleBanAverageFai + item.getResultPoint();
                     }
                 }
 
                 monthAllNum++;
             }
 
-            itemList.add(new MonthShowBean(month, twoBan, getResult(twoBan, twoBanNum), getResult(twoBan, twoBanSuc), twoPoint(twoBanSuc == 0 ? 0 : twoBanAverageSuc / twoBanSuc), twoPoint(twoBanFai == 0 ? 0 : twoBanAverageFai / twoBanFai), firstBan, getResult(firstBan, firstBanNum), getResult(firstBan, firstBanSuc), twoPoint(firstBanSuc == 0 ? 0 : firstBanAverageSuc / firstBanSuc), twoPoint(firstBanFai == 0 ? 0 : firstBanAverageFai / firstBanFai), threeBan, getResult(threeBan, threeBanSuc),monthAllNum));
+            itemList.add(new MonthShowBean(month, twoBan, getResult(twoBan, twoBanNum), getResult(twoBan, twoBanSuc), twoPoint(twoBanSuc == 0 ? 0 : twoBanAverageSuc / twoBanSuc), twoPoint(twoBanFai == 0 ? 0 : twoBanAverageFai / twoBanFai), firstBan, getResult(firstBan, firstBanNum), getResult(firstBan, firstBanSuc), twoPoint(firstBanSuc == 0 ? 0 : firstBanAverageSuc / firstBanSuc), twoPoint(firstBanFai == 0 ? 0 : firstBanAverageFai / firstBanFai), middleBan, getResult(middleBan, middleBanSuc), monthAllNum));
 
         }
 
@@ -543,7 +543,7 @@ public class MonthStatisticsAdapter extends RecyclerView.Adapter<MonthStatistics
 //        itemList.add(new ShowBean("龙头战法", longHeader, longHeaderSuc, getResult(longHeader, longHeaderSuc), longHeaderSuc == 0 ? 0 : rebound30AverageSuc / longHeaderSuc, longHeaderFai == 0 ? 0 : longHeaderAverageFai / longHeaderFai));
 //        itemList.add(new ShowBean("首板", firstBan, firstBanSuc, getResult(firstBan, firstBanSuc), getResult(firstBan, firstBanNum), firstBanSuc == 0 ? 0 : firstBanAverageSuc / firstBanSuc, firstBanFai == 0 ? 0 : firstBanAverageFai / firstBanFai));
 //        itemList.add(new ShowBean("二板", twoBan, twoBanSuc, getResult(twoBan, twoBanSuc), getResult(twoBan, twoBanNum), twoBanSuc == 0 ? 0 : twoBanAverageSuc / twoBanSuc, twoBanFai == 0 ? 0 : twoBanAverageFai / twoBanFai));
-//        itemList.add(new ShowBean("三板", threeBan, threeBanSuc, getResult(threeBan, threeBanSuc), getResult(threeBan, threeBanNum), threeBanSuc == 0 ? 0 : threeBanAverageSuc / threeBanSuc, threeBanFai == 0 ? 0 : threeBanAverageFai / threeBanFai));
+//        itemList.add(new ShowBean("三板", middleBan, middleBanSuc, getResult(middleBan, middleBanSuc), getResult(middleBan, middleBanNum), middleBanSuc == 0 ? 0 : middleBanAverageSuc / middleBanSuc, middleBanFai == 0 ? 0 : middleBanAverageFai / middleBanFai));
 //        itemList.add(new ShowBean("高位板", highBan, highBanSuc, getResult(highBan, highBanSuc), highBanSuc == 0 ? 0 : highBanAverageSuc / highBanSuc, highBanFai == 0 ? 0 : highBanAverageFai / highBanFai));
         originalList = new ArrayList<>(itemList); // 备份原始列表
     }
