@@ -1,5 +1,126 @@
 [
   {
+    "gpName": "高新发展",
+    "formerDate": "2023-11-02",
+    "mode": -1,
+    "lastPrice": 0,
+    "failureReason": [],
+    "resultPoint": 0,
+    "buyReason": "华为算力概念，龙头，全程一字，今天暴量40%换手，预计明天有肉。",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "中文在线",
+    "formerDate": "2023-11-02",
+    "mode": -1,
+    "lastPrice": 0,
+    "failureReason": [],
+    "resultPoint": 0,
+    "buyReason": "传媒版块很强，版块中选择的，后排，20CM中途上车，上车后滞涨。",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "江苏吴中",
+    "formerDate": "2023-11-01",
+    "mode": 2,
+    "lastPrice": 0,
+    "failureReason": [],
+    "resultPoint": -14.45,
+    "buyReason": "空中加油后的二板，当时看分时成交密集，觉得有分歧，但承接良好，回头看的话，均线下行，确实不太好。，第二天又是个大跌开，跌停处离场。",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "浙江黎明",
+    "formerDate": "2023-11-01",
+    "mode": 1,
+    "lastPrice": 0.45,
+    "failureReason": [],
+    "resultPoint": -1.45,
+    "buyReason": "多头趋势，前一天是长上影线，第二天回封时上车，当天板的质量还行，能有个7.5分，也是有汽车零部件热点，但第二天看开盘不好，下杀，拉不回来。离场",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "飞龙股份",
+    "formerDate": "2023-10-30",
+    "mode": 1,
+    "lastPrice": 0,
+    "failureReason": [],
+    "resultPoint": -7.11,
+    "buyReason": "多头趋势，当天觉得像是突破平台，但收盘看就是冲高，长上影线，第二天开盘就割了，结果收复新高，恼火。",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "捷容技术",
+    "formerDate": "2023-10-31",
+    "mode": 99,
+    "lastPrice": 0,
+    "failureReason": [],
+    "resultPoint": -6.29,
+    "buyReason": "跌破30日线，周均线回踩10日线，觉得会有反弹，上车当天下跌，第二天继续下跌，受不了离场。",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "龙头股份",
+    "formerDate": "2023-10-31",
+    "mode": 1,
+    "lastPrice": 0.53,
+    "failureReason": [],
+    "resultPoint": -2.2,
+    "buyReason": "趋势踩均线，首板未突破平台，筑平台，箱体顶部。每二天开盘下杀，弱势离场，再后一天涨停。",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "圣龙股份",
+    "formerDate": "2023-10-30",
+    "mode": 99,
+    "lastPrice": 0,
+    "failureReason": [],
+    "resultPoint": -7.2,
+    "buyReason": "10日线回踩，小阳线。尾盘上车，本来都吃到肉了，第二天涨停没走，类比觉得会像捷容一样，再涨一两天。后又跌回来了。",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "青龙管业",
+    "formerDate": "2023-10-30",
+    "mode": 4,
+    "lastPrice": 0.68,
+    "failureReason": [],
+    "resultPoint": -3.88,
+    "buyReason": "余哥昨天买，今天预计是缩量，差一档上板开盘，竞价有量，后炸开又回封。基础建设概念，第二天大幅低开不及预期，冲高卖出",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "龙洲股份",
+    "formerDate": "2023-10-30",
+    "mode": 7,
+    "lastPrice": 0.35,
+    "failureReason": [],
+    "resultPoint": -9.9,
+    "buyReason": "除了刚开盘，全天烂板，开盘有量，平价开，开盘快速上板，板上上车，封了一会后全天烂板。基础建设概念，第二天跌停开，翘板一次后又被按，离场后面继续跌停",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "亚联发展",
+    "formerDate": "2023-10-24",
+    "mode": 1,
+    "lastPrice": 0.74,
+    "failureReason": [],
+    "resultPoint": 7.27,
+    "buyReason": "近期有异动，分时也还行，快速有人捞起来。以为是保险，板块微红，版块前排，后知道是华为。预计明天有肉。第二天竞价有量，开盘快速上板，挂了条件单，后开盘离场。",
+    "image_list": [
+    ]
+  },
+  {
     "gpName": "三维通信",
     "formerDate": "2023-10-24",
     "mode": 3,
@@ -201,7 +322,7 @@
     "mode": 1,
     "lastPrice": 0.12,
     "failureReason": [],
-    "resultPoint":1.87,
+    "resultPoint": 1.87,
     "buyReason": "这两天制药概念较火，中药有关联性，早盘也有拉升，中间开板，尾盘封住，近半年股性还可以，上车，缺点是量放的有点大，非核心概念",
     "image_list": [
       "tyyy_k",
