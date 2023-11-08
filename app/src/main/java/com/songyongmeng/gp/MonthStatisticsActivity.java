@@ -100,52 +100,6 @@ MonthStatisticsAdapter adapter;
                     break;
                 case 1:
                     button.setBackgroundColor(Color.parseColor("#00ff00"));
-                    button.setText("二板次数");
-                    button.setOnClickListener(new View.OnClickListener() {
-                        @Override
-                        public void onClick(View view) {
-//                            adapter.changeAllTimeData();
-                        }
-                    });
-                    break;
-                case 2:
-                    button.setText("二板胜率");
-                    button.setOnClickListener(new View.OnClickListener() {
-                        @Override
-                        public void onClick(View view) {
-//                            adapter.changeAllTimeData();
-                        }
-                    });
-                    break;
-                case 3:
-                    button.setText("二板封板率");
-                    button.setOnClickListener(new View.OnClickListener() {
-                        @Override
-                        public void onClick(View view) {
-//                            adapter.changeAllTimeData();
-                        }
-                    });
-                    break;
-                case 4:
-                    button.setText("二板均盈利");
-                    button.setOnClickListener(new View.OnClickListener() {
-                        @Override
-                        public void onClick(View view) {
-//                            adapter.changeAllTimeData();
-                        }
-                    });
-                    break;
-                case 5:
-                    button.setText("二板均亏损");
-                    button.setOnClickListener(new View.OnClickListener() {
-                        @Override
-                        public void onClick(View view) {
-//                            adapter.changeAllTimeData();
-                        }
-                    });
-                    break;
-                case 6:
-                    button.setBackgroundColor(Color.parseColor("#00ff00"));
                     button.setText("首板次数");
                     button.setOnClickListener(new View.OnClickListener() {
                         @Override
@@ -154,7 +108,7 @@ MonthStatisticsAdapter adapter;
                         }
                     });
                     break;
-                case 7:
+                case 2:
                     button.setText("首板胜率");
                     button.setOnClickListener(new View.OnClickListener() {
                         @Override
@@ -163,7 +117,7 @@ MonthStatisticsAdapter adapter;
                         }
                     });
                     break;
-                case 8:
+                case 3:
                     button.setText("首板封板率");
                     button.setOnClickListener(new View.OnClickListener() {
                         @Override
@@ -172,7 +126,7 @@ MonthStatisticsAdapter adapter;
                         }
                     });
                     break;
-                case 9:
+                case 4:
                     button.setText("首板均盈利");
                     button.setOnClickListener(new View.OnClickListener() {
                         @Override
@@ -181,12 +135,58 @@ MonthStatisticsAdapter adapter;
                         }
                     });
                     break;
-                    case 10:
+                case 5:
                     button.setText("首板均亏损");
                     button.setOnClickListener(new View.OnClickListener() {
                         @Override
                         public void onClick(View view) {
 //                            adapter.changeSucTimeData();
+                        }
+                    });
+                    break;
+                case 6:
+                    button.setBackgroundColor(Color.parseColor("#00ff00"));
+                    button.setText("二板次数");
+                    button.setOnClickListener(new View.OnClickListener() {
+                        @Override
+                        public void onClick(View view) {
+//                            adapter.changeAllTimeData();
+                        }
+                    });
+                    break;
+                case 7:
+                    button.setText("二板胜率");
+                    button.setOnClickListener(new View.OnClickListener() {
+                        @Override
+                        public void onClick(View view) {
+//                            adapter.changeAllTimeData();
+                        }
+                    });
+                    break;
+                case 8:
+                    button.setText("二板封板率");
+                    button.setOnClickListener(new View.OnClickListener() {
+                        @Override
+                        public void onClick(View view) {
+//                            adapter.changeAllTimeData();
+                        }
+                    });
+                    break;
+                case 9:
+                    button.setText("二板均盈利");
+                    button.setOnClickListener(new View.OnClickListener() {
+                        @Override
+                        public void onClick(View view) {
+//                            adapter.changeAllTimeData();
+                        }
+                    });
+                    break;
+                case 10:
+                    button.setText("二板均亏损");
+                    button.setOnClickListener(new View.OnClickListener() {
+                        @Override
+                        public void onClick(View view) {
+//                            adapter.changeAllTimeData();
                         }
                     });
                     break;

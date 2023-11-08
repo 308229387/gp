@@ -1,22 +1,144 @@
 [
+
   {
-    "gpName": "高新发展",
-    "formerDate": "2023-11-02",
+    "gpName": "安图生物",
+    "formerDate": "2023-11-08",
     "mode": -1,
     "lastPrice": 0,
     "failureReason": [],
     "resultPoint": 0,
-    "buyReason": "华为算力概念，龙头，全程一字，今天暴量40%换手，预计明天有肉。",
+    "buyReason": "以为是中军。一路平行上扬，但没想到在8个点附近见顶。",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "三超新材",
+    "formerDate": "2023-11-08",
+    "mode": -1,
+    "lastPrice": 0.22,
+    "failureReason": [],
+    "resultPoint": 0,
+    "buyReason": "芯片概念，下午上板，开板后加封上车，预期不高。",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "中科金财",
+    "formerDate": "2023-11-08",
+    "mode": -1,
+    "lastPrice": 0.82,
+    "failureReason": [],
+    "resultPoint": 0,
+    "buyReason": "算力概念，跳空高开，盘整后上板，算是破平台",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "双成药业",
+    "formerDate": "2023-11-08",
+    "mode": -1,
+    "lastPrice": 0.5,
+    "failureReason": [],
+    "resultPoint": 0,
+    "buyReason": "有一定辨识度，快速拉升，脚踩成本区，行业略涨",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "科森科技",
+    "formerDate": "2023-11-07",
+    "mode": 1,
+    "lastPrice": 0,
+    "failureReason": [],
+    "resultPoint": -3.34,
+    "buyReason": "均线多头，觉得能板，后回落。因为当天暴量，没有去赌涨停。冲高走",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "美丽云",
+    "formerDate": "2023-11-07",
+    "mode": 1,
+    "lastPrice": 1.44,
+    "failureReason": [],
+    "resultPoint": 4.34,
+    "buyReason": "有一定辨识度，开盘快速拉升，8个多点半路上车。盘整1个多小时后快速拉升。",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "捷顺科技",
+    "formerDate": "2023-11-07",
+    "mode": 1,
+    "lastPrice": 0,
+    "failureReason": [],
+    "resultPoint": -5.34,
+    "buyReason": "微微脱离成本区，前两日小阳线3-5个点的阳线，当日长上影线，本想拿一拿，又挂在最低点",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "京泉华",
+    "formerDate": "2023-11-06",
+    "mode": 1,
+    "lastPrice": 0.76,
+    "failureReason": [],
+    "resultPoint": 1.34,
+    "buyReason": "股性好，历史涨停次日都是上涨的，第二天小阳离场",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "海立股份",
+    "formerDate": "2023-11-06",
+    "mode": 1,
+    "lastPrice": 0,
+    "failureReason": [],
+    "resultPoint": -2.03,
+    "buyReason": "当天如果涨停有双响炮的形态，外加趋势向上，近期热点，当天上留下上影线，次日又触及涨停。",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "通达动力",
+    "formerDate": "2023-11-06",
+    "mode": 1,
+    "lastPrice": 0.67,
+    "failureReason": [],
+    "resultPoint": 4.88,
+    "buyReason": "横盘下跌两天买入，板上上车，第二天不创新高卖在次高点",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "惠威科技",
+    "formerDate": "2023-11-06",
+    "mode": 1,
+    "lastPrice": 0.49,
+    "failureReason": [],
+    "resultPoint": -0.68,
+    "buyReason": "前一两天异动，长上影线，第二天卖的不好，开盘下杀到成本线才走。本来有盈利的，也微亏",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "高新发展",
+    "formerDate": "2023-11-02",
+    "mode": 99,
+    "lastPrice": 0,
+    "failureReason": [],
+    "resultPoint": -1.19,
+    "buyReason": "华为算力概念，龙头，全程一字，今天暴量40%换手，预计明天有肉。开盘微冲后全天水平线震荡，第二回下水受不了离场。",
     "image_list": [
     ]
   },
   {
     "gpName": "中文在线",
     "formerDate": "2023-11-02",
-    "mode": -1,
+    "mode": 1,
     "lastPrice": 0,
     "failureReason": [],
-    "resultPoint": 0,
+    "resultPoint": 5.6,
     "buyReason": "传媒版块很强，版块中选择的，后排，20CM中途上车，上车后滞涨。",
     "image_list": [
     ]
@@ -27,7 +149,7 @@
     "mode": 2,
     "lastPrice": 0,
     "failureReason": [],
-    "resultPoint": -14.45,
+    "resultPoint": -15.34,
     "buyReason": "空中加油后的二板，当时看分时成交密集，觉得有分歧，但承接良好，回头看的话，均线下行，确实不太好。，第二天又是个大跌开，跌停处离场。",
     "image_list": [
     ]
@@ -38,7 +160,7 @@
     "mode": 1,
     "lastPrice": 0.45,
     "failureReason": [],
-    "resultPoint": -1.45,
+    "resultPoint": -1.02,
     "buyReason": "多头趋势，前一天是长上影线，第二天回封时上车，当天板的质量还行，能有个7.5分，也是有汽车零部件热点，但第二天看开盘不好，下杀，拉不回来。离场",
     "image_list": [
     ]
@@ -82,7 +204,7 @@
     "mode": 99,
     "lastPrice": 0,
     "failureReason": [],
-    "resultPoint": -7.2,
+    "resultPoint": -8.79,
     "buyReason": "10日线回踩，小阳线。尾盘上车，本来都吃到肉了，第二天涨停没走，类比觉得会像捷容一样，再涨一两天。后又跌回来了。",
     "image_list": [
     ]
