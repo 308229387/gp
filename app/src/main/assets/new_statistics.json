@@ -3,10 +3,10 @@
   {
     "gpName": "安图生物",
     "formerDate": "2023-11-08",
-    "mode": -1,
+    "mode": 1,
     "lastPrice": 0,
     "failureReason": [],
-    "resultPoint": 0,
+    "resultPoint": -2.1,
     "buyReason": "以为是中军。一路平行上扬，但没想到在8个点附近见顶。",
     "image_list": [
     ]
@@ -14,10 +14,10 @@
   {
     "gpName": "三超新材",
     "formerDate": "2023-11-08",
-    "mode": -1,
+    "mode": 1,
     "lastPrice": 0.22,
     "failureReason": [],
-    "resultPoint": 0,
+    "resultPoint": 16.5,
     "buyReason": "芯片概念，下午上板，开板后加封上车，预期不高。",
     "image_list": [
     ]
@@ -25,10 +25,10 @@
   {
     "gpName": "中科金财",
     "formerDate": "2023-11-08",
-    "mode": -1,
+    "mode": 1,
     "lastPrice": 0.82,
     "failureReason": [],
-    "resultPoint": 0,
+    "resultPoint": 6.7,
     "buyReason": "算力概念，跳空高开，盘整后上板，算是破平台",
     "image_list": [
     ]
@@ -36,10 +36,10 @@
   {
     "gpName": "双成药业",
     "formerDate": "2023-11-08",
-    "mode": -1,
+    "mode": 1,
     "lastPrice": 0.5,
     "failureReason": [],
-    "resultPoint": 0,
+    "resultPoint": -1.2,
     "buyReason": "有一定辨识度，快速拉升，脚踩成本区，行业略涨",
     "image_list": [
     ]
