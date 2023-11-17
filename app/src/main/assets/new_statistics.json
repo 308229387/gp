@@ -1,24 +1,190 @@
 [
-
   {
-    "gpName": "安图生物",
-    "formerDate": "2023-11-08",
-    "mode": 1,
-    "lastPrice": 0,
+    "gpName": "浙江世宝",
+    "formerDate": "2023-11-17",
+    "mode": -1,
+    "lastPrice": 1.01,
     "failureReason": [],
-    "resultPoint": -2.1,
-    "buyReason": "以为是中军。一路平行上扬，但没想到在8个点附近见顶。",
+    "resultPoint": 0,
+    "buyReason": "当天热点，跃岭没买到，k线形态还行，而且分时比较强劲，8个多点上车，后炸了一下又回封了，之前惯性也不错。预计有肉。",
     "image_list": [
     ]
   },
   {
-    "gpName": "三超新材",
-    "formerDate": "2023-11-08",
+    "gpName": "中国科传",
+    "formerDate": "2023-11-16",
     "mode": 1,
-    "lastPrice": 0.22,
+    "lastPrice": 1.55,
     "failureReason": [],
-    "resultPoint": 16.5,
-    "buyReason": "芯片概念，下午上板，开板后加封上车，预期不高。",
+    "resultPoint": -1.12,
+    "buyReason": "当天热点，还是硬板，和北京炒家同车，第二天兑现，竞价最后一秒快速下杀，看复盘炒家应该是那会离场的，硬等了一天，后小亏离场。",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "威创股份",
+    "formerDate": "2023-11-15",
+    "mode": 1,
+    "lastPrice": 0,
+    "failureReason": [],
+    "resultPoint": -7.12,
+    "buyReason": "当天还封了一会，后炸，第二天大幅低开，拉了一点后离场，回头看有到水平线的机会。",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "可立克",
+    "formerDate": "2023-11-15",
+    "mode": 1,
+    "lastPrice": 0,
+    "failureReason": [],
+    "resultPoint": -4.1,
+    "buyReason": "看k线形态买的，当天冲板秒炸，第二天低开后离场。",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "元道通信",
+    "formerDate": "2023-11-15",
+    "mode": 1,
+    "lastPrice": 0.39,
+    "failureReason": [],
+    "resultPoint": -7.66,
+    "buyReason": "当天华为概念，封住了，第二天低开很多，想拿拿看，低点割。。。难受",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "美丽生态",
+    "formerDate": "2023-11-14",
+    "mode": 1,
+    "lastPrice": 0,
+    "failureReason": [],
+    "resultPoint": -5.37,
+    "buyReason": "非主流，冲高上车，都没有上板，后回落，第二天低开。",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "金刚光伏",
+    "formerDate": "2023-11-14",
+    "mode": 1,
+    "lastPrice": 0,
+    "failureReason": [],
+    "resultPoint": -1.48,
+    "buyReason": "第一天冲高回落，后全天横盘，第二天开盘竞价抢筹，版块也高开，开盘快速拉升，前一天上影线，心虚给卖了，后来涨停。想博后一天，这些条件很经典。",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "开创电气",
+    "formerDate": "2023-11-13",
+    "mode": 2,
+    "lastPrice": 0,
+    "failureReason": [],
+    "resultPoint": -3.2,
+    "buyReason": "二板当天低点离场了，后来涨势很猛，涨停小仓位又追，第二天低开吓走了。",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "开创电气",
+    "formerDate": "2023-11-13",
+    "mode": 2,
+    "lastPrice": 0.76,
+    "failureReason": [],
+    "resultPoint": -3.2,
+    "buyReason": "二板当天低点离场了，后来涨势很猛，涨停又追，第二天低开吓走了。",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "开创电气",
+    "formerDate": "2023-11-13",
+    "mode": 1,
+    "lastPrice": 0.36,
+    "failureReason": [],
+    "resultPoint": 5.05,
+    "buyReason": "第二天高开7个多，后下杀震荡了下，震出去了，后又拉涨停，又追了。",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "久远银海",
+    "formerDate": "2023-11-13",
+    "mode": 1,
+    "lastPrice": 0.87,
+    "failureReason": [],
+    "resultPoint": 1.05,
+    "buyReason": "K线形态还行，第二天微高开，下杀微盈离场。",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "天龙股份",
+    "formerDate": "2023-11-10",
+    "mode": 99,
+    "lastPrice": 0,
+    "failureReason": [],
+    "resultPoint": 0.37,
+    "buyReason": "下手早了，尾盘入会有3、5个点收益。中间上的。",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "银宝山新",
+    "formerDate": "2023-11-10",
+    "mode": 1,
+    "lastPrice": 0.91,
+    "failureReason": [],
+    "resultPoint": 11.2,
+    "buyReason": "趋势，平台箱体触顶板，快速拉升，伴量，有版块支持。",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "力源信息",
+    "formerDate": "2023-11-10",
+    "mode": 1,
+    "lastPrice": 1.78,
+    "failureReason": [],
+    "resultPoint": 7.23,
+    "buyReason": "底部快速上板，伴量，有一定的版块支持，与炒家同车",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "创新医疗",
+    "formerDate": "2023-11-09",
+    "mode": 1,
+    "lastPrice": 0.7,
+    "failureReason": [],
+    "resultPoint": -3.23,
+    "buyReason": "一板质量很好，封板也还可以，但第二天大低开，拉升一点后不敢拿了，直接离场，下午有拉升。",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "南国置业",
+    "formerDate": "2023-11-09",
+    "mode": 1,
+    "lastPrice": 0,
+    "failureReason": [],
+    "resultPoint": -9.08,
+    "buyReason": "回看几次都不太好，之前涨停后第二天都是下杀，当时买着急了，回上非主流，当天未涨停，第二天无冲高，卖在最低点。",
+    "image_list": [
+      "statistics_2023_11_13_10_07_50_48",
+      "statistics_2023_11_13_10_07_56_36"
+    ]
+  },
+  {
+    "gpName": "云煤能源",
+    "formerDate": "2023-11-09",
+    "mode": 1,
+    "lastPrice": 0.28,
+    "failureReason": [],
+    "resultPoint": 0.91,
+    "buyReason": "二阶创新高，坑的是开盘盘整，尾盘才拉涨停。",
     "image_list": [
     ]
   },
@@ -29,8 +195,10 @@
     "lastPrice": 0.82,
     "failureReason": [],
     "resultPoint": 6.7,
-    "buyReason": "算力概念，跳空高开，盘整后上板，算是破平台",
+    "buyReason": "算力概念，跳空高开，盘整后上板，算是破平台第二天冲高出，卖在高点附近",
     "image_list": [
+      "statistics_2023_11_13_09_55_32_00",
+      "statistics_2023_11_13_09_55_41_57"
     ]
   },
   {
@@ -40,19 +208,36 @@
     "lastPrice": 0.5,
     "failureReason": [],
     "resultPoint": -1.2,
-    "buyReason": "有一定辨识度，快速拉升，脚踩成本区，行业略涨",
+    "buyReason": "有一定辨识度，快速拉升，脚踩成本区，行业略涨，第二天低开，看没跌多少离场，后有一波冲高。",
     "image_list": [
+      "statistics_2023_11_13_10_00_31_49",
+      "statistics_2023_11_13_10_00_39_18"
     ]
   },
   {
-    "gpName": "科森科技",
-    "formerDate": "2023-11-07",
+    "gpName": "三超新材",
+    "formerDate": "2023-11-08",
+    "mode": 1,
+    "lastPrice": 0.22,
+    "failureReason": [],
+    "resultPoint": 16.5,
+    "buyReason": "芯片概念，下午上板，开板后加封上车，预期不高。单价20分钟突然很强势，高开十几个点，开盘盘整了一下割了。",
+    "image_list": [
+      "statistics_2023_11_13_09_56_33_95",
+      "statistics_2023_11_13_09_56_42_94"
+    ]
+  },
+  {
+    "gpName": "安图生物",
+    "formerDate": "2023-11-08",
     "mode": 1,
     "lastPrice": 0,
     "failureReason": [],
-    "resultPoint": -3.34,
-    "buyReason": "均线多头，觉得能板，后回落。因为当天暴量，没有去赌涨停。冲高走",
+    "resultPoint": -2.1,
+    "buyReason": "以为是中军。一路平行上扬，但没想到在8个点附近见顶。",
     "image_list": [
+      "statistics_2023_11_13_09_59_24_04",
+      "statistics_2023_11_13_09_59_34_57"
     ]
   },
   {
@@ -64,6 +249,8 @@
     "resultPoint": 4.34,
     "buyReason": "有一定辨识度，开盘快速拉升，8个多点半路上车。盘整1个多小时后快速拉升。",
     "image_list": [
+      "statistics_2023_11_13_10_01_47_69",
+      "statistics_2023_11_13_10_01_52_84"
     ]
   },
   {
@@ -75,6 +262,21 @@
     "resultPoint": -5.34,
     "buyReason": "微微脱离成本区，前两日小阳线3-5个点的阳线，当日长上影线，本想拿一拿，又挂在最低点",
     "image_list": [
+      "statistics_2023_11_13_10_06_53_66",
+      "statistics_2023_11_13_10_06_58_38"
+    ]
+  },
+  {
+    "gpName": "科森科技",
+    "formerDate": "2023-11-07",
+    "mode": 1,
+    "lastPrice": 0,
+    "failureReason": [],
+    "resultPoint": -3.34,
+    "buyReason": "均线多头，觉得能板，后回落。因为当天暴量，没有去赌涨停。冲高走",
+    "image_list": [
+      "statistics_2023_11_13_10_01_11_18",
+      "statistics_2023_11_13_10_01_15_39"
     ]
   },
   {
@@ -152,6 +354,8 @@
     "resultPoint": -15.34,
     "buyReason": "空中加油后的二板，当时看分时成交密集，觉得有分歧，但承接良好，回头看的话，均线下行，确实不太好。，第二天又是个大跌开，跌停处离场。",
     "image_list": [
+      "statistics_2023_11_13_10_05_46_99",
+      "statistics_2023_11_13_10_06_00_17"
     ]
   },
   {
@@ -174,6 +378,8 @@
     "resultPoint": -7.11,
     "buyReason": "多头趋势，当天觉得像是突破平台，但收盘看就是冲高，长上影线，第二天开盘就割了，结果收复新高，恼火。",
     "image_list": [
+      "statistics_2023_11_13_14_20_48_09",
+      "statistics_2023_11_13_14_21_01_38"
     ]
   },
   {
@@ -207,6 +413,8 @@
     "resultPoint": -8.79,
     "buyReason": "10日线回踩，小阳线。尾盘上车，本来都吃到肉了，第二天涨停没走，类比觉得会像捷容一样，再涨一两天。后又跌回来了。",
     "image_list": [
+      "statistics_2023_11_13_14_18_41_54",
+      "statistics_2023_11_13_14_19_05_97"
     ]
   },
   {
@@ -229,6 +437,8 @@
     "resultPoint": -9.9,
     "buyReason": "除了刚开盘，全天烂板，开盘有量，平价开，开盘快速上板，板上上车，封了一会后全天烂板。基础建设概念，第二天跌停开，翘板一次后又被按，离场后面继续跌停",
     "image_list": [
+      "statistics_2023_11_13_14_17_41_66",
+      "statistics_2023_11_13_14_17_54_42"
     ]
   },
   {
@@ -240,6 +450,8 @@
     "resultPoint": 7.27,
     "buyReason": "近期有异动，分时也还行，快速有人捞起来。以为是保险，板块微红，版块前排，后知道是华为。预计明天有肉。第二天竞价有量，开盘快速上板，挂了条件单，后开盘离场。",
     "image_list": [
+      "statistics_2023_11_13_14_25_22_09",
+      "statistics_2023_11_13_14_25_34_88"
     ]
   },
   {
@@ -251,6 +463,8 @@
     "resultPoint": 8.1,
     "buyReason": "分时很强，一直在涨停附近，二板是缩量的，三板放量，分时强，上车，需要记录下这个票的分时。次日第一分微调，第二分钟直接上板，上板后设置了跌破9个点离场，上午快结束时破板离场，后大跌。走对了。",
     "image_list": [
+      "statistics_2023_11_13_14_23_10_34",
+      "statistics_2023_11_13_14_23_22_72"
     ]
   },
   {
@@ -273,6 +487,8 @@
     "resultPoint": -17.0,
     "buyReason": "5进6，中位股，主要原因是前一天缩量，已经知道不能进了，当天绝对蒙B状态，看上板就冲了，结果当天回落，第二天跌停被锁，第三天开盘还是跌停，有幸有主力自救，第三天只亏1个多点",
     "image_list": [
+      "statistics_2023_11_13_10_09_44_82",
+      "statistics_2023_11_13_10_09_57_34"
     ]
   },
   {
@@ -284,6 +500,8 @@
     "resultPoint": 8.06,
     "buyReason": "13板，其他股亏惨了，赌气式的进去，前一天还是缩量，小仓位打板，结果第二天还是高开8个点，不敢想啊，其他票梦寐以求的，这种龙头票上涨就像喝水一样容易。",
     "image_list": [
+      "statistics_2023_11_13_14_24_03_28",
+      "statistics_2023_11_13_14_24_15_83"
     ]
   },
   {
@@ -295,6 +513,8 @@
     "resultPoint": -10.14,
     "buyReason": "断板高位接力形态，相当于4板，还是烂板，第二天直接崩。这种形态太坑爹，以后再也不搞了。",
     "image_list": [
+      "statistics_2023_11_13_14_16_49_35",
+      "statistics_2023_11_13_14_17_03_02"
     ]
   },
   {
@@ -306,6 +526,8 @@
     "resultPoint": -5.49,
     "buyReason": "输急眼了，想着回本，今天又是普跌的一天，手里三支票全跌，从开盘啦看华为概念比较强，版块有3个涨停的了，票又上冲中，就半路上车了，后看是高点",
     "image_list": [
+      "statistics_2023_11_13_14_26_12_96",
+      "statistics_2023_11_13_14_26_24_85"
     ]
   },
   {
@@ -328,6 +550,8 @@
     "resultPoint": -15.75,
     "buyReason": "还好仓位比较低才4000多块，高开6个点4000多万竞价额，上板时倍量，军工芯片，k线也还行，呆了不长时间崩了。",
     "image_list": [
+      "statistics_2023_11_13_14_12_38_82",
+      "statistics_2023_11_13_14_13_00_23"
     ]
   },
   {
@@ -383,6 +607,7 @@
     "resultPoint": -6.5,
     "buyReason": "本来挂的万润，开盘1.5，医药版块，但因为有8000多万的竞价量，幸好没挂上是废单。亚联也看到了，6000多万，而且高开6个多点，后在涨停前上车。移动支付概念，不是很强的热点。第二天开盘跌停，后有反弹，负6个多慌慌张张走了，板上有喂单，太差",
     "image_list": [
+
     ]
   },
   {
