@@ -1,12 +1,34 @@
 [
   {
+    "gpName": "金正大",
+    "formerDate": "2023-11-20",
+    "mode": 1,
+    "lastPrice": 0.57,
+    "failureReason": [],
+    "resultPoint": 1.6,
+    "buyReason": "分时比较强，中间两次回落都快速反包，k线看也比较低，上车。",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "浙数文化",
+    "formerDate": "2023-11-20",
+    "mode": 1,
+    "lastPrice": 0,
+    "failureReason": [],
+    "resultPoint": 6.9,
+    "buyReason": "k线形态选股，传媒概念感觉已经有点过劲了，看着慢慢悠悠的，力道不强，9个多点回落了一会，后封上又炸了。。",
+    "image_list": [
+    ]
+  },
+  {
     "gpName": "浙江世宝",
     "formerDate": "2023-11-17",
-    "mode": -1,
+    "mode": 1,
     "lastPrice": 1.01,
     "failureReason": [],
-    "resultPoint": 0,
-    "buyReason": "当天热点，跃岭没买到，k线形态还行，而且分时比较强劲，8个多点上车，后炸了一下又回封了，之前惯性也不错。预计有肉。",
+    "resultPoint": 3.1,
+    "buyReason": "当天热点，跃岭没买到，k线形态还行，而且分时比较强劲，8个多点上车，后炸了一下又回封了，之前惯性也不错。预计有肉。微微高开，上升力道不足离场。",
     "image_list": [
     ]
   },
@@ -16,7 +38,7 @@
     "mode": 1,
     "lastPrice": 1.55,
     "failureReason": [],
-    "resultPoint": -1.12,
+    "resultPoint": -0.77,
     "buyReason": "当天热点，还是硬板，和北京炒家同车，第二天兑现，竞价最后一秒快速下杀，看复盘炒家应该是那会离场的，硬等了一天，后小亏离场。",
     "image_list": [
     ]
@@ -78,18 +100,7 @@
   },
   {
     "gpName": "开创电气",
-    "formerDate": "2023-11-13",
-    "mode": 2,
-    "lastPrice": 0,
-    "failureReason": [],
-    "resultPoint": -3.2,
-    "buyReason": "二板当天低点离场了，后来涨势很猛，涨停小仓位又追，第二天低开吓走了。",
-    "image_list": [
-    ]
-  },
-  {
-    "gpName": "开创电气",
-    "formerDate": "2023-11-13",
+    "formerDate": "2023-11-14",
     "mode": 2,
     "lastPrice": 0.76,
     "failureReason": [],
@@ -105,7 +116,7 @@
     "lastPrice": 0.36,
     "failureReason": [],
     "resultPoint": 5.05,
-    "buyReason": "第二天高开7个多，后下杀震荡了下，震出去了，后又拉涨停，又追了。",
+    "buyReason": "涨速榜，快速拉升，有量。形态较好",
     "image_list": [
     ]
   },
@@ -607,7 +618,6 @@
     "resultPoint": -6.5,
     "buyReason": "本来挂的万润，开盘1.5，医药版块，但因为有8000多万的竞价量，幸好没挂上是废单。亚联也看到了，6000多万，而且高开6个多点，后在涨停前上车。移动支付概念，不是很强的热点。第二天开盘跌停，后有反弹，负6个多慌慌张张走了，板上有喂单，太差",
     "image_list": [
-
     ]
   },
   {
