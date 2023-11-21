@@ -1,5 +1,49 @@
 [
   {
+    "gpName": "金科股份",
+    "formerDate": "2023-11-21",
+    "mode": -1,
+    "lastPrice": 0.55,
+    "failureReason": [],
+    "resultPoint": 0,
+    "buyReason": "K线形态比较好，低位首板，版块比较好，有量，股性也还行，半路上车。",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "荣盛发展",
+    "formerDate": "2023-11-21",
+    "mode": -1,
+    "lastPrice": 0.43,
+    "failureReason": [],
+    "resultPoint": 0,
+    "buyReason": "K线形态比较好，低位首板，有量，股性也还行，半路上车。",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "三力士",
+    "formerDate": "2023-11-21",
+    "mode": -1,
+    "lastPrice": 0,
+    "failureReason": [],
+    "resultPoint": 0,
+    "buyReason": "股性垃圾，全是上影线，版块也没有显示启动，完全是被当时冲高的分时给蒙蔽了。",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "深赛格",
+    "formerDate": "2023-11-21",
+    "mode": -1,
+    "lastPrice": 1.17,
+    "failureReason": [],
+    "resultPoint": 0,
+    "buyReason": "消费概念前排，买的时候版块有1个多点涨幅，而且个股分时比较强劲。形态也是比较好。本来没仓位了，后来又用外部资金1万买了点。",
+    "image_list": [
+    ]
+  },
+  {
     "gpName": "金正大",
     "formerDate": "2023-11-20",
     "mode": 1,
@@ -27,7 +71,7 @@
     "mode": 1,
     "lastPrice": 1.01,
     "failureReason": [],
-    "resultPoint": 3.1,
+    "resultPoint": 2.68,
     "buyReason": "当天热点，跃岭没买到，k线形态还行，而且分时比较强劲，8个多点上车，后炸了一下又回封了，之前惯性也不错。预计有肉。微微高开，上升力道不足离场。",
     "image_list": [
     ]
