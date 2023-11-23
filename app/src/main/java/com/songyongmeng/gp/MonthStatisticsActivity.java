@@ -79,12 +79,12 @@ MonthStatisticsAdapter adapter;
             Button button = new Button(this);
             LinearLayout.LayoutParams layoutParams;
             if (i == 0) {
-                layoutParams = new LinearLayout.LayoutParams(230, 180);
+                layoutParams = new LinearLayout.LayoutParams(230, 250);
             } else {
-                layoutParams = new LinearLayout.LayoutParams(180, 180);
+                layoutParams = new LinearLayout.LayoutParams(180, 250);
             }
             layoutParams.gravity = Gravity.CENTER; // 控制位置
-            layoutParams.setMargins(10, 10, 10, 10); // 设置与下方控件的距离为 16 像素
+            layoutParams.setMargins(10, 0, 10, 0); // 设置与下方控件的距离为 16 像素
             button.setLayoutParams(layoutParams);
             button.setBackgroundColor(Color.parseColor("#D3D3D3"));
             button.setGravity(Gravity.CENTER);
@@ -193,7 +193,7 @@ MonthStatisticsAdapter adapter;
                 case 11:
                     button.setBackgroundColor(Color.parseColor("#00ff00"));
 
-                    button.setText("三板次数");
+                    button.setText("中位次数");
                     button.setOnClickListener(new View.OnClickListener() {
                         @Override
                         public void onClick(View view) {
@@ -202,7 +202,7 @@ MonthStatisticsAdapter adapter;
                     });
                     break;
                 case 12:
-                    button.setText("三板胜率");
+                    button.setText("中位胜率");
                     button.setOnClickListener(new View.OnClickListener() {
                         @Override
                         public void onClick(View view) {

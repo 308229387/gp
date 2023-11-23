@@ -1,11 +1,66 @@
 [
   {
-    "gpName": "金科股份",
-    "formerDate": "2023-11-21",
+    "gpName": "荣盛发展",
+    "formerDate": "2023-11-23",
     "mode": -1,
-    "lastPrice": 0.55,
+    "lastPrice": 0,
     "failureReason": [],
     "resultPoint": 0,
+    "buyReason": "房地产今天版块上涨，金科我瞅了半天没上车，最后封板又后悔，然后不甘的进了荣盛发展，又太弱，冲了个高就回落了。",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "通化金马",
+    "formerDate": "2023-11-23",
+    "mode": -1,
+    "lastPrice": 0,
+    "failureReason": [],
+    "resultPoint": 0,
+    "buyReason": "昨天是典型的退潮，今天按理应该防守控制仓位，还是脑子一热，选了一个进攻形态的票，刚封住就炸了。",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "远东传动",
+    "formerDate": "2023-11-23",
+    "mode": -1,
+    "lastPrice": 0,
+    "failureReason": [],
+    "resultPoint": 0,
+    "buyReason": "汽车零部件，近期热点版块，第一眼感觉图形还可以，前天有冲高，板上上车，后面震荡了一会，又封上了。",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "三柏硕",
+    "formerDate": "2023-11-22",
+    "mode": 99,
+    "lastPrice": 1.04,
+    "failureReason": [],
+    "resultPoint": -2.1,
+    "buyReason": "抢了银宝山新和西陇科学的身位，地天上板时上的车。今天高位基本是全军覆没，第二天大高开，挂差一档的下限，居然没卖掉，瞬间到跌停附近，等再卖已经是水下2个点左右了。",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "沙河股份",
+    "formerDate": "2023-11-22",
+    "mode": 1,
+    "lastPrice": 0,
+    "failureReason": [],
+    "resultPoint": -4.1,
+    "buyReason": "房地产昨天已经涨过了，今天早盘没什么热点，房地产冲高，找了个股性比较好，不算太高位的沙河。未涨停，明天不行要割肉",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "金科股份",
+    "formerDate": "2023-11-21",
+    "mode": 1,
+    "lastPrice": 0.55,
+    "failureReason": [],
+    "resultPoint": -0.96,
     "buyReason": "K线形态比较好，低位首板，版块比较好，有量，股性也还行，半路上车。",
     "image_list": [
     ]
@@ -13,10 +68,10 @@
   {
     "gpName": "荣盛发展",
     "formerDate": "2023-11-21",
-    "mode": -1,
+    "mode": 1,
     "lastPrice": 0.43,
     "failureReason": [],
-    "resultPoint": 0,
+    "resultPoint": 2.85,
     "buyReason": "K线形态比较好，低位首板，有量，股性也还行，半路上车。",
     "image_list": [
     ]
@@ -24,10 +79,10 @@
   {
     "gpName": "三力士",
     "formerDate": "2023-11-21",
-    "mode": -1,
+    "mode": 1,
     "lastPrice": 0,
     "failureReason": [],
-    "resultPoint": 0,
+    "resultPoint": -8.32,
     "buyReason": "股性垃圾，全是上影线，版块也没有显示启动，完全是被当时冲高的分时给蒙蔽了。",
     "image_list": [
     ]
@@ -35,12 +90,14 @@
   {
     "gpName": "深赛格",
     "formerDate": "2023-11-21",
-    "mode": -1,
+    "mode": 1,
     "lastPrice": 1.17,
     "failureReason": [],
-    "resultPoint": 0,
+    "resultPoint": 7.5,
     "buyReason": "消费概念前排，买的时候版块有1个多点涨幅，而且个股分时比较强劲。形态也是比较好。本来没仓位了，后来又用外部资金1万买了点。",
     "image_list": [
+      "statistics_2023_11_23_07_28_42_65",
+      "statistics_2023_11_23_07_21_41_40"
     ]
   },
   {
@@ -49,7 +106,7 @@
     "mode": 1,
     "lastPrice": 0.57,
     "failureReason": [],
-    "resultPoint": 1.6,
+    "resultPoint": 3.49,
     "buyReason": "分时比较强，中间两次回落都快速反包，k线看也比较低，上车。",
     "image_list": [
     ]
@@ -60,7 +117,7 @@
     "mode": 1,
     "lastPrice": 0,
     "failureReason": [],
-    "resultPoint": 6.9,
+    "resultPoint": 4.73,
     "buyReason": "k线形态选股，传媒概念感觉已经有点过劲了，看着慢慢悠悠的，力道不强，9个多点回落了一会，后封上又炸了。。",
     "image_list": [
     ]
@@ -85,6 +142,7 @@
     "resultPoint": -0.77,
     "buyReason": "当天热点，还是硬板，和北京炒家同车，第二天兑现，竞价最后一秒快速下杀，看复盘炒家应该是那会离场的，硬等了一天，后小亏离场。",
     "image_list": [
+      "statistics_2023_11_20_07_26_54_12"
     ]
   },
   {
@@ -96,6 +154,8 @@
     "resultPoint": -7.12,
     "buyReason": "当天还封了一会，后炸，第二天大幅低开，拉了一点后离场，回头看有到水平线的机会。",
     "image_list": [
+      "statistics_2023_11_22_16_43_13_91",
+      "statistics_2023_11_22_16_43_08_48"
     ]
   },
   {
@@ -118,6 +178,8 @@
     "resultPoint": -7.66,
     "buyReason": "当天华为概念，封住了，第二天低开很多，想拿拿看，低点割。。。难受",
     "image_list": [
+      "statistics_2023_11_22_16_40_09_34",
+      "statistics_2023_11_22_16_40_14_75"
     ]
   },
   {
@@ -195,6 +257,8 @@
     "resultPoint": 11.2,
     "buyReason": "趋势，平台箱体触顶板，快速拉升，伴量，有版块支持。",
     "image_list": [
+      "statistics_2023_11_23_07_17_00_85",
+      "statistics_2023_11_23_07_17_28_58"
     ]
   },
   {
@@ -206,6 +270,8 @@
     "resultPoint": 7.23,
     "buyReason": "底部快速上板，伴量，有一定的版块支持，与炒家同车",
     "image_list": [
+      "statistics_2023_11_23_07_29_49_92",
+      "statistics_2023_11_23_07_29_57_33"
     ]
   },
   {
@@ -398,6 +464,8 @@
     "resultPoint": 5.6,
     "buyReason": "传媒版块很强，版块中选择的，后排，20CM中途上车，上车后滞涨。",
     "image_list": [
+      "statistics_2023_11_23_07_31_53_09",
+      "statistics_2023_11_23_07_32_10_28"
     ]
   },
   {
