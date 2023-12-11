@@ -1,11 +1,110 @@
 [
   {
-    "gpName": "荣盛发展",
-    "formerDate": "2023-11-23",
+    "gpName": "瀛通通讯",
+    "formerDate": "2023-12-06",
     "mode": -1,
+    "lastPrice": 0.76,
+    "failureReason": [],
+    "resultPoint": 0,
+    "buyReason": "防守板，均线多头向上，版块早盘较强",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "永兴材料",
+    "formerDate": "2023-12-06",
+    "mode": 1,
+    "lastPrice": 1.01,
+    "failureReason": [],
+    "resultPoint": -3.32,
+    "buyReason": "股性不算强，做的回封，第二天低开离场，后震荡向上，卖在低点",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "五方光电",
+    "formerDate": "2023-12-06",
+    "mode": 1,
+    "lastPrice": 0,
+    "failureReason": [],
+    "resultPoint": -5.14,
+    "buyReason": "双响炮形态，和北京炒家同车，第二天竞价有点差，因为板上质量比较好，拿了拿，微肉离场。",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "高鸿股份",
+    "formerDate": "2023-12-01",
+    "mode": 1,
+    "lastPrice": 0.64,
+    "failureReason": [],
+    "resultPoint": 1.15,
+    "buyReason": "双响炮形态，和北京炒家同车，第二天竞价有点差，因为板上质量比较好，拿了拿，微肉离场。",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "西安饮食",
+    "formerDate": "2023-11-30",
+    "mode": 1,
+    "lastPrice": 0,
+    "failureReason": [],
+    "resultPoint": -0.64,
+    "buyReason": "看快速涨幅榜，有一定知名度，版块当时也在上冲，上车后回落",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "五方光电",
+    "formerDate": "2023-11-28",
+    "mode": 1,
+    "lastPrice": 0.6,
+    "failureReason": [],
+    "resultPoint": -3.62,
+    "buyReason": "挂单炸进去的，前两天有冲高。炸后全天烂，尾盘才封板。",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "中迪投资",
+    "formerDate": "2023-11-27",
+    "mode": 1,
+    "lastPrice": 0,
+    "failureReason": [],
+    "resultPoint": -12.1,
+    "buyReason": "上板入手，从形态上来看，确实没话说，买时量能不太足，过往也还凑合，板块比较垃圾。",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "西陇科学",
+    "formerDate": "2023-11-24",
+    "mode": 99,
     "lastPrice": 0,
     "failureReason": [],
     "resultPoint": 0,
+    "buyReason": "龙回头+小阳线回踩。",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "杭州解百",
+    "formerDate": "2023-11-24",
+    "mode": 1,
+    "lastPrice": 0,
+    "failureReason": [],
+    "resultPoint": -2.71,
+    "buyReason": "零售中央商场涨停，看这个前几天比较活跃，冲高就买了，当时明显感觉均线位置不够，另外量不太够，但脑子一热就买了。",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "荣盛发展",
+    "formerDate": "2023-11-23",
+    "mode": 1,
+    "lastPrice": 0,
+    "failureReason": [],
+    "resultPoint": -2.1,
     "buyReason": "房地产今天版块上涨，金科我瞅了半天没上车，最后封板又后悔，然后不甘的进了荣盛发展，又太弱，冲了个高就回落了。",
     "image_list": [
     ]
@@ -13,10 +112,10 @@
   {
     "gpName": "通化金马",
     "formerDate": "2023-11-23",
-    "mode": -1,
+    "mode": 1,
     "lastPrice": 0,
     "failureReason": [],
-    "resultPoint": 0,
+    "resultPoint": -0.1,
     "buyReason": "昨天是典型的退潮，今天按理应该防守控制仓位，还是脑子一热，选了一个进攻形态的票，刚封住就炸了。",
     "image_list": [
     ]
@@ -24,22 +123,11 @@
   {
     "gpName": "远东传动",
     "formerDate": "2023-11-23",
-    "mode": -1,
+    "mode": 1,
     "lastPrice": 0,
     "failureReason": [],
-    "resultPoint": 0,
+    "resultPoint": 1.8,
     "buyReason": "汽车零部件，近期热点版块，第一眼感觉图形还可以，前天有冲高，板上上车，后面震荡了一会，又封上了。",
-    "image_list": [
-    ]
-  },
-  {
-    "gpName": "三柏硕",
-    "formerDate": "2023-11-22",
-    "mode": 99,
-    "lastPrice": 1.04,
-    "failureReason": [],
-    "resultPoint": -2.1,
-    "buyReason": "抢了银宝山新和西陇科学的身位，地天上板时上的车。今天高位基本是全军覆没，第二天大高开，挂差一档的下限，居然没卖掉，瞬间到跌停附近，等再卖已经是水下2个点左右了。",
     "image_list": [
     ]
   },
@@ -49,8 +137,19 @@
     "mode": 1,
     "lastPrice": 0,
     "failureReason": [],
-    "resultPoint": -4.1,
+    "resultPoint": -4.83,
     "buyReason": "房地产昨天已经涨过了，今天早盘没什么热点，房地产冲高，找了个股性比较好，不算太高位的沙河。未涨停，明天不行要割肉",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "三柏硕",
+    "formerDate": "2023-11-22",
+    "mode": 99,
+    "lastPrice": 1.04,
+    "failureReason": [],
+    "resultPoint": -1.95,
+    "buyReason": "抢了银宝山新和西陇科学的身位，地天上板时上的车。今天高位基本是全军覆没，第二天大高开，挂差一档的下限，居然没卖掉，瞬间到跌停附近，等再卖已经是水下2个点左右了。",
     "image_list": [
     ]
   },
@@ -60,7 +159,7 @@
     "mode": 1,
     "lastPrice": 0.55,
     "failureReason": [],
-    "resultPoint": -0.96,
+    "resultPoint": 0.96,
     "buyReason": "K线形态比较好，低位首板，版块比较好，有量，股性也还行，半路上车。",
     "image_list": [
     ]
@@ -76,17 +175,7 @@
     "image_list": [
     ]
   },
-  {
-    "gpName": "三力士",
-    "formerDate": "2023-11-21",
-    "mode": 1,
-    "lastPrice": 0,
-    "failureReason": [],
-    "resultPoint": -8.32,
-    "buyReason": "股性垃圾，全是上影线，版块也没有显示启动，完全是被当时冲高的分时给蒙蔽了。",
-    "image_list": [
-    ]
-  },
+
   {
     "gpName": "深赛格",
     "formerDate": "2023-11-21",
@@ -98,6 +187,17 @@
     "image_list": [
       "statistics_2023_11_23_07_28_42_65",
       "statistics_2023_11_23_07_21_41_40"
+    ]
+  },
+  {
+    "gpName": "三力士",
+    "formerDate": "2023-11-21",
+    "mode": 1,
+    "lastPrice": 0,
+    "failureReason": [],
+    "resultPoint": -8.32,
+    "buyReason": "股性垃圾，全是上影线，版块也没有显示启动，完全是被当时冲高的分时给蒙蔽了。",
+    "image_list": [
     ]
   },
   {
