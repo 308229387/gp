@@ -1,11 +1,66 @@
 [
   {
-    "gpName": "瀛通通讯",
-    "formerDate": "2023-12-06",
+    "gpName": "天娱数科",
+    "formerDate": "2023-12-19",
     "mode": -1,
-    "lastPrice": 0.76,
+    "lastPrice": 1.1,
     "failureReason": [],
     "resultPoint": 0,
+    "buyReason": "形态选股，外加版块配合，加自选后上板后才发现，挂单居然成了，后开了一下又回封了。封单力度还行",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "华电重工",
+    "formerDate": "2023-12-18",
+    "mode": 1,
+    "lastPrice": 0,
+    "failureReason": [],
+    "resultPoint": -4.51,
+    "buyReason": "犹豫了半天，看这股的股改还行，当天行业表现微红不是热点，冲高回落，差2档，最高点上车，第二天竞价还凑合，开盘微冲离场。",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "安妮股份",
+    "formerDate": "2023-12-14",
+    "mode": 1,
+    "lastPrice": 1.54,
+    "failureReason": [],
+    "resultPoint": 0.51,
+    "buyReason": "有一定辨识度，竞价就比较弱势，但昨天封单比较强，持股全天横盘，下午未转强离场。",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "安妮股份",
+    "formerDate": "2023-12-14",
+    "mode": 1,
+    "lastPrice": 1.54,
+    "failureReason": [],
+    "resultPoint": 0.51,
+    "buyReason": "有一定辨识度，竞价就比较弱势，但昨天封单比较强，持股全天横盘，下午未转强离场。",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "同为股份",
+    "formerDate": "2023-12-06",
+    "mode": 1,
+    "lastPrice": 0.47,
+    "failureReason": [],
+    "resultPoint": -1.04,
+    "buyReason": "股性强，当天版块表现优秀，K线高开向上突破平台，进攻形态",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "瀛通通讯",
+    "formerDate": "2023-12-06",
+    "mode": 1,
+    "lastPrice": 0.76,
+    "failureReason": [],
+    "resultPoint": 0.99,
     "buyReason": "防守板，均线多头向上，版块早盘较强",
     "image_list": [
     ]
