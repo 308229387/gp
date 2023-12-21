@@ -1,12 +1,34 @@
 [
   {
-    "gpName": "天娱数科",
-    "formerDate": "2023-12-19",
+    "gpName": "奥飞娱乐",
+    "formerDate": "2023-12-21",
     "mode": -1,
-    "lastPrice": 1.1,
+    "lastPrice": 0.29,
     "failureReason": [],
     "resultPoint": 0,
-    "buyReason": "形态选股，外加版块配合，加自选后上板后才发现，挂单居然成了，后开了一下又回封了。封单力度还行",
+    "buyReason": "前两天有拉高位异动，而且昨天跌停，短期超跌，印象炒家前两天买的精伦电子有类似的K线形态，但细看还是有较大的出入。上板就炸了，直到下午才封上，而且封单很小。明天不超预期就离场。",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "龙高股份",
+    "formerDate": "2023-12-20",
+    "mode": 1,
+    "lastPrice": 0.7,
+    "failureReason": [],
+    "resultPoint": 0.5,
+    "buyReason": "差一档上车，K线双响炮形态，版块1个多点，但买后一看，普遍也有点低。大盘当天比较差，下跌1个点，但个股股性还行，等明天冲高。总价很差，甚至开盘就挂了最低档，好在废单，等翻红就跑了，回头看走早了。",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "天娱数科",
+    "formerDate": "2023-12-19",
+    "mode": 1,
+    "lastPrice": 1.1,
+    "failureReason": [],
+    "resultPoint": 2.1,
+    "buyReason": "形态选股，外加版块配合，加自选后上板后才发现，挂单居然成了，后开了一下又回封了，封单力度还行。第二天竞价比较差，开盘上冲离场。",
     "image_list": [
     ]
   },
@@ -16,19 +38,8 @@
     "mode": 1,
     "lastPrice": 0,
     "failureReason": [],
-    "resultPoint": -4.51,
+    "resultPoint": -3.51,
     "buyReason": "犹豫了半天，看这股的股改还行，当天行业表现微红不是热点，冲高回落，差2档，最高点上车，第二天竞价还凑合，开盘微冲离场。",
-    "image_list": [
-    ]
-  },
-  {
-    "gpName": "安妮股份",
-    "formerDate": "2023-12-14",
-    "mode": 1,
-    "lastPrice": 1.54,
-    "failureReason": [],
-    "resultPoint": 0.51,
-    "buyReason": "有一定辨识度，竞价就比较弱势，但昨天封单比较强，持股全天横盘，下午未转强离场。",
     "image_list": [
     ]
   },
