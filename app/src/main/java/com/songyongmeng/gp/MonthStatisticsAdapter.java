@@ -554,8 +554,10 @@ public class MonthStatisticsAdapter extends RecyclerView.Adapter<MonthStatistics
         if (all == 0) {
             return 0;
         }
-        int result = (dividend * 100) / divisor;
-        return result;
+        float result = (float) dividend / divisor;   // 进行浮点数除法运算
+
+        float roundedResult = Math.round(result * 100) / 100f;   // 保留两位小数
+        return (int) (roundedResult * 100);
     }
 
     @Override

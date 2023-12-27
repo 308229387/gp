@@ -1,12 +1,78 @@
 [
   {
-    "gpName": "奥飞娱乐",
-    "formerDate": "2023-12-21",
+    "gpName": "日海智能",
+    "formerDate": "2023-12-27",
     "mode": -1,
-    "lastPrice": 0.29,
+    "lastPrice": 0,
     "failureReason": [],
     "resultPoint": 0,
-    "buyReason": "前两天有拉高位异动，而且昨天跌停，短期超跌，印象炒家前两天买的精伦电子有类似的K线形态，但细看还是有较大的出入。上板就炸了，直到下午才封上，而且封单很小。明天不超预期就离场。",
+    "buyReason": "超跌防守首板，版块0.5左右，股性近期很活跃，而且有议价。量快追上昨天，分时也比较强，上冲较快，9.5个点左右还差3-4个档，提前上车，后封住。",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "真视通",
+    "formerDate": "2023-12-27",
+    "mode": -1,
+    "lastPrice": 0,
+    "failureReason": [],
+    "resultPoint": 0,
+    "buyReason": "当时看到还有1档，单子不停在减，K线形态也还行，当时版块也有1个点，就有点想打，上车后，封单冲到2亿多，没过2秒，直接撤了，后炸开。",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "龙头股份",
+    "formerDate": "2023-12-26",
+    "mode": 99,
+    "lastPrice": 0,
+    "failureReason": [],
+    "resultPoint": -1.1,
+    "buyReason": "买的时候没有做什么准备工作，看K线还行，当时也排了同花顺热点第一，觉得是龙头在均线处就买了，当天尾盘有上冲，第二天一个低开，利润全无。择机卖出",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "三柏硕",
+    "formerDate": "2023-12-26",
+    "mode": 1,
+    "lastPrice": 0.39,
+    "failureReason": [],
+    "resultPoint": -4.39,
+    "buyReason": "二次接力首板，当天没有买到合适的标的，开板回封差一档买入，分时比较弱。预期不强。如果再失败，这种形态一定要回避。第二天平开，抱有侥幸心理，没跑，后回到均线附近才走。",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "中光学",
+    "formerDate": "2023-12-25",
+    "mode": 1,
+    "lastPrice": 1.0,
+    "failureReason": [],
+    "resultPoint": 3.42,
+    "buyReason": "开盘快速上板没看到，后来开了下板，回封挂单，后又开了下，没来的及撤，被动上车，后再回封。第二天冲高，回落离场。",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "泰尔股份",
+    "formerDate": "2023-12-22",
+    "mode": 1,
+    "lastPrice": 0,
+    "failureReason": [],
+    "resultPoint": -4.8,
+    "buyReason": "点错买早了，还有5、6档，想着最后一档上车，连点了，股性还可以，版块表现一般，时间上11点多买的，分时来看不够平滑。",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "奥飞娱乐",
+    "formerDate": "2023-12-21",
+    "mode": 1,
+    "lastPrice": 0.29,
+    "failureReason": [],
+    "resultPoint": -4.12,
+    "buyReason": "最后一档上车，前两天有拉高位异动，而且昨天跌停，短期超跌，印象炒家前两天买的精伦电子有类似的K线形态，但细看还是有较大的出入。上板就炸了，直到下午才封上，而且封单很小。明天不超预期就离场。",
     "image_list": [
     ]
   },
@@ -16,7 +82,7 @@
     "mode": 1,
     "lastPrice": 0.7,
     "failureReason": [],
-    "resultPoint": 0.5,
+    "resultPoint": 0.57,
     "buyReason": "差一档上车，K线双响炮形态，版块1个多点，但买后一看，普遍也有点低。大盘当天比较差，下跌1个点，但个股股性还行，等明天冲高。总价很差，甚至开盘就挂了最低档，好在废单，等翻红就跑了，回头看走早了。",
     "image_list": [
     ]
@@ -27,7 +93,7 @@
     "mode": 1,
     "lastPrice": 1.1,
     "failureReason": [],
-    "resultPoint": 2.1,
+    "resultPoint": 1.99,
     "buyReason": "形态选股，外加版块配合，加自选后上板后才发现，挂单居然成了，后开了一下又回封了，封单力度还行。第二天竞价比较差，开盘上冲离场。",
     "image_list": [
     ]
@@ -94,7 +160,7 @@
     "lastPrice": 0,
     "failureReason": [],
     "resultPoint": -5.14,
-    "buyReason": "双响炮形态，和北京炒家同车，第二天竞价有点差，因为板上质量比较好，拿了拿，微肉离场。",
+    "buyReason": "当天炸板，第二天竞价一条线横盘，翻红马上跑了，但后续涨停，记住了这种竞价横盘的形态。",
     "image_list": [
     ]
   },
