@@ -1,34 +1,45 @@
 [
   {
-    "gpName": "日海智能",
-    "formerDate": "2023-12-27",
+    "gpName": "可川科技",
+    "formerDate": "2023-12-28",
     "mode": -1,
-    "lastPrice": 0,
+    "lastPrice": 0.22,
     "failureReason": [],
     "resultPoint": 0,
-    "buyReason": "超跌防守首板，版块0.5左右，股性近期很活跃，而且有议价。量快追上昨天，分时也比较强，上冲较快，9.5个点左右还差3-4个档，提前上车，后封住。",
+    "buyReason": "K线形态比较好，当天环境也还可以，涨停后挂的单，挂单比较弱，后开了一会，版块不断拉升，",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "龙星化工",
+    "formerDate": "2023-12-28",
+    "mode": -1,
+    "lastPrice": 0.15,
+    "failureReason": [],
+    "resultPoint": 0,
+    "buyReason": "版块大涨，个股双响炮，差4、5个档就上车了，后在板上墨迹了一会，当时封单就不大，5千万。",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "日海智能",
+    "formerDate": "2023-12-28",
+    "mode": 1,
+    "lastPrice": 1.45,
+    "failureReason": [],
+    "resultPoint": 5.1,
+    "buyReason": "超跌防守首板，版块0.5左右，股性近期很活跃，而且有议价。量快追上昨天，分时也比较强，上冲较快，9.5个点左右还差3-4个档，提前上车，后封住。上方5个点附近有压力位，上冲5个点后没幻想，后果然回落",
     "image_list": [
     ]
   },
   {
     "gpName": "真视通",
     "formerDate": "2023-12-27",
-    "mode": -1,
+    "mode": 2,
     "lastPrice": 0,
     "failureReason": [],
-    "resultPoint": 0,
-    "buyReason": "当时看到还有1档，单子不停在减，K线形态也还行，当时版块也有1个点，就有点想打，上车后，封单冲到2亿多，没过2秒，直接撤了，后炸开。",
-    "image_list": [
-    ]
-  },
-  {
-    "gpName": "龙头股份",
-    "formerDate": "2023-12-26",
-    "mode": 99,
-    "lastPrice": 0,
-    "failureReason": [],
-    "resultPoint": -1.1,
-    "buyReason": "买的时候没有做什么准备工作，看K线还行，当时也排了同花顺热点第一，觉得是龙头在均线处就买了，当天尾盘有上冲，第二天一个低开，利润全无。择机卖出",
+    "resultPoint": -10.1,
+    "buyReason": "当时看到还有1档，单子不停在减，K线形态也还行，当时版块也有1个点，就有点想打，上车后，封单冲到2亿多，没过2秒，直接撤了，后炸开。竞价横盘了会，没走，结果崩盘反弹离场。",
     "image_list": [
     ]
   },
@@ -38,8 +49,19 @@
     "mode": 1,
     "lastPrice": 0.39,
     "failureReason": [],
-    "resultPoint": -4.39,
+    "resultPoint": -4.1,
     "buyReason": "二次接力首板，当天没有买到合适的标的，开板回封差一档买入，分时比较弱。预期不强。如果再失败，这种形态一定要回避。第二天平开，抱有侥幸心理，没跑，后回到均线附近才走。",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "龙头股份",
+    "formerDate": "2023-12-26",
+    "mode": 99,
+    "lastPrice": 0,
+    "failureReason": [],
+    "resultPoint": -1.23,
+    "buyReason": "买的时候没有做什么准备工作，看K线还行，当时也排了同花顺热点第一，觉得是龙头在均线处就买了，当天尾盘有上冲，第二天一个低开，利润全无。择机卖出",
     "image_list": [
     ]
   },
