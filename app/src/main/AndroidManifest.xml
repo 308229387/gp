@@ -33,6 +33,7 @@
         <activity android:name="FenQiSucDetailActivity" />
         <activity android:name="NewGPDetailActivity" />
         <activity android:name="EmptyBigImageActivity" />
+        <activity android:name="BJCJBigImageActivity" />
         <activity android:name=".FenQiActivity" />
         <activity android:name=".ErBanShangYingXianActivity" />
         <activity android:name=".FenQiSucActivity" />

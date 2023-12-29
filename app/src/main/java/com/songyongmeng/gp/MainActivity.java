@@ -155,7 +155,12 @@ public class MainActivity extends AppCompatActivity {
 
         List<String> list = bean.getImage_list();
 
-        Intent intent = new Intent(MainActivity.this, EmptyBigImageActivity.class);
+        Intent intent;
+        if(str.contains("bei_jing_chao_jia")){
+            intent = new Intent(MainActivity.this, BJCJBigImageActivity.class);
+        }else{
+            intent = new Intent(MainActivity.this, EmptyBigImageActivity.class);
+        }
         intent.putExtra("image_list", (Serializable) list);
         startActivity(intent);
     }

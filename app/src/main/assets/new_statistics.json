@@ -2,10 +2,10 @@
   {
     "gpName": "可川科技",
     "formerDate": "2023-12-28",
-    "mode": -1,
+    "mode": 1,
     "lastPrice": 0.22,
     "failureReason": [],
-    "resultPoint": 0,
+    "resultPoint": 3.4,
     "buyReason": "K线形态比较好，当天环境也还可以，涨停后挂的单，挂单比较弱，后开了一会，版块不断拉升，",
     "image_list": [
     ]
@@ -13,21 +13,21 @@
   {
     "gpName": "龙星化工",
     "formerDate": "2023-12-28",
-    "mode": -1,
+    "mode": 1,
     "lastPrice": 0.15,
     "failureReason": [],
-    "resultPoint": 0,
-    "buyReason": "版块大涨，个股双响炮，差4、5个档就上车了，后在板上墨迹了一会，当时封单就不大，5千万。",
+    "resultPoint": -1.1,
+    "buyReason": "版块大涨，个股双响炮，差4、5个档就上车了，后在板上墨迹了一会，当时封单就不大，5千万。竞价有点弱，微亏离场，下午有拉升",
     "image_list": [
     ]
   },
   {
     "gpName": "日海智能",
-    "formerDate": "2023-12-28",
+    "formerDate": "2023-12-27",
     "mode": 1,
     "lastPrice": 1.45,
     "failureReason": [],
-    "resultPoint": 5.1,
+    "resultPoint": 5.25,
     "buyReason": "超跌防守首板，版块0.5左右，股性近期很活跃，而且有议价。量快追上昨天，分时也比较强，上冲较快，9.5个点左右还差3-4个档，提前上车，后封住。上方5个点附近有压力位，上冲5个点后没幻想，后果然回落",
     "image_list": [
     ]
@@ -38,7 +38,7 @@
     "mode": 2,
     "lastPrice": 0,
     "failureReason": [],
-    "resultPoint": -10.1,
+    "resultPoint": -11.03,
     "buyReason": "当时看到还有1档，单子不停在减，K线形态也还行，当时版块也有1个点，就有点想打，上车后，封单冲到2亿多，没过2秒，直接撤了，后炸开。竞价横盘了会，没走，结果崩盘反弹离场。",
     "image_list": [
     ]
