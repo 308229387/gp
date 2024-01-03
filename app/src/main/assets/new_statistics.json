@@ -1,12 +1,23 @@
 [
   {
-    "gpName": "可川科技",
-    "formerDate": "2023-12-28",
-    "mode": 1,
-    "lastPrice": 0.22,
+    "gpName": "好上好",
+    "formerDate": "2024-01-03",
+    "mode": -1,
+    "lastPrice": 0,
     "failureReason": [],
-    "resultPoint": 3.4,
-    "buyReason": "K线形态比较好，当天环境也还可以，涨停后挂的单，挂单比较弱，后开了一会，版块不断拉升，",
+    "resultPoint": 0,
+    "buyReason": "版块内一支独秀，当时在开会，看的不仔细，就看了下K线形态、股性，还有版块微红，就上车了，当时账户还有问题，有20多万的逆回购到期，又急急忙忙的买完逆回购，整个过程过了半分多钟，一档封单越来越少的时候上车，后大幅回落。",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "大湖股份",
+    "formerDate": "2024-01-02",
+    "mode": 1,
+    "lastPrice": 0.33,
+    "failureReason": [],
+    "resultPoint": -1.1,
+    "buyReason": "版块微涨，有些超跌，个股防御首板，高开未回补向上，量能近乎平量，上板才上车，前面排2亿撤了，撤单没来的及跑，然后被动上车。后封涨停。第二天低开2个多点，小涨离场。",
     "image_list": [
     ]
   },
@@ -16,8 +27,19 @@
     "mode": 1,
     "lastPrice": 0.15,
     "failureReason": [],
-    "resultPoint": -1.1,
+    "resultPoint": -1.38,
     "buyReason": "版块大涨，个股双响炮，差4、5个档就上车了，后在板上墨迹了一会，当时封单就不大，5千万。竞价有点弱，微亏离场，下午有拉升",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "可川科技",
+    "formerDate": "2023-12-28",
+    "mode": 1,
+    "lastPrice": 0.22,
+    "failureReason": [],
+    "resultPoint": 3.38,
+    "buyReason": "K线形态比较好，当天环境也还可以，涨停后挂的单，挂单比较弱，后开了一会，版块不断拉升，",
     "image_list": [
     ]
   },
