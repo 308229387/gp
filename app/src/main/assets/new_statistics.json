@@ -1,11 +1,22 @@
 [
   {
-    "gpName": "野马电池",
-    "formerDate": "2024-01-04",
+    "gpName": "华达新材",
+    "formerDate": "2024-01-05",
     "mode": -1,
-    "lastPrice": 0.33,
+    "lastPrice": 0.32,
     "failureReason": [],
     "resultPoint": 0,
+    "buyReason": "板块跌0.6，当天环境比较差，这股回封时最后一档一点点在少，当时也快开会了，直接上车",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "野马电池",
+    "formerDate": "2024-01-04",
+    "mode": 1,
+    "lastPrice": 0.33,
+    "failureReason": [],
+    "resultPoint": 0.4,
     "buyReason": "首板指数高开，行业下跌，冲高回落加自选，看分时有做多意愿，最后一档慢慢吃单时上车。股性较强，",
     "image_list": [
     ]
@@ -16,7 +27,7 @@
     "mode": 1,
     "lastPrice": 0.15,
     "failureReason": [],
-    "resultPoint": -1.5,
+    "resultPoint": -1.43,
     "buyReason": "当天大环境比较差，算是热点，有点上头了。版块涨幅快2个点，开板后回封时上车，但当时没有封上。",
     "image_list": [
     ]
@@ -27,7 +38,7 @@
     "mode": 1,
     "lastPrice": 0,
     "failureReason": [],
-    "resultPoint": 0.7,
+    "resultPoint": 0.8,
     "buyReason": "当天大环境比较差，版块内一支独秀，当时在开会，看的不仔细，就看了下K线形态、股性，还有版块微红，就上车了，当时账户还有问题，有20多万的逆回购到期，又急急忙忙的买完逆回购，整个过程过了半分多钟，一档封单越来越少的时候上车，后大幅回落。",
     "image_list": [
     ]
