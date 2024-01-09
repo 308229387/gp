@@ -42,13 +42,13 @@ public class MyPagerAdapter extends PagerAdapter {
             public void onClick(View view) {
                 Intent intent = new Intent(mContext, BigImageActivity.class);
                 intent.putExtra("image", ToolUtils.getImages(images.get(position)));
-                String str;
-                if (images.get(position).contains("_k")||images.get(position).contains("_2k")) {
-                    str = "vertical";
-                } else {
-                    str = "horizontal";
-                }
-                intent.putExtra("orientation", str);
+//                String str;
+//                if (images.get(position).contains("_k")||images.get(position).contains("_2k")) {
+//                    str = "vertical";
+//                } else {
+//                    str = "horizontal";
+//                }
+//                intent.putExtra("orientation", str);
                 mContext.startActivity(intent);
             }
         });
