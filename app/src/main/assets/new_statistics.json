@@ -1,5 +1,65 @@
 [
   {
+    "gpName": "雷柏科技",
+    "formerDate": "2024-01-11",
+    "mode": -1,
+    "lastPrice": 0.24,
+    "failureReason": [],
+    "resultPoint": 0,
+    "buyReason": "K线形态很好，版块也比较强，对明天环境有预期，场外拉了1万上车。",
+    "image_list": [
+
+    ]
+  },
+  {
+    "gpName": "赫美集团",
+    "formerDate": "2024-01-11",
+    "mode": -1,
+    "lastPrice": 0.14,
+    "failureReason": [],
+    "resultPoint": 0,
+    "buyReason": "被连接炸了3次，根据首板指数预判明天环境会比较好，卖掉亏损票，回封排板上车。股性和版块比较好。",
+    "image_list": [
+
+    ]
+  },
+  {
+    "gpName": "美丽生态",
+    "formerDate": "2024-01-11",
+    "mode": -1,
+    "lastPrice": 0,
+    "failureReason": [],
+    "resultPoint": 0,
+    "buyReason": "这票亏的一点也不冤，连续两只炸板，开盘不够冷静，感觉k线形态可以，版块也还好，有涨停，涨停板附近有拉升就上车了，当时应该差5档左右。当天就没涨停过。",
+    "image_list": [
+
+    ]
+  },
+  {
+    "gpName": "朝阳科技",
+    "formerDate": "2024-01-10",
+    "mode": 1,
+    "lastPrice": 0,
+    "failureReason": [],
+    "resultPoint": -8.8,
+    "buyReason": "买的时候忽略版块了，版块跌了1个多，单看形态感觉还行，回封排单上车，没想到第二天低开6、7个点，因为预判后一天首板会有行情，所以卖股找别的票上车。",
+    "image_list": [
+
+    ]
+  },
+  {
+    "gpName": "中国中免",
+    "formerDate": "2024-01-09",
+    "mode": 1,
+    "lastPrice": 0,
+    "failureReason": [],
+    "resultPoint": -1.75,
+    "buyReason": "早起环境还行，因为过于谨慎，错过了3-4个板，版块还行，这票股性不算强，还是大屁股，1500多亿，2档上车，后炸。踏空心态作祟。第二天有冲高成本线附近没走，回落均线离场。",
+    "image_list": [
+
+    ]
+  },
+  {
     "gpName": "华达新材",
     "formerDate": "2024-01-05",
     "mode": 1,
