@@ -1,23 +1,56 @@
 [
   {
-    "gpName": "雷柏科技",
-    "formerDate": "2024-01-11",
+    "gpName": "安彩高科",
+    "formerDate": "2024-01-16",
     "mode": -1,
-    "lastPrice": 0.24,
+    "lastPrice": 0.3,
     "failureReason": [],
     "resultPoint": 0,
-    "buyReason": "K线形态很好，版块也比较强，对明天环境有预期，场外拉了1万上车。",
+    "buyReason": "快速拉长，K线形态一般，但量能已经放出来了，版块也微红，不算是一支独秀，中途有炸板。",
     "image_list": [
     ]
   },
   {
-    "gpName": "赫美集团",
+    "gpName": "高新发展",
     "formerDate": "2024-01-11",
-    "mode": -1,
-    "lastPrice": 0.14,
+    "mode": 1,
+    "lastPrice": 1.28,
     "failureReason": [],
-    "resultPoint": 0,
-    "buyReason": "被连接炸了3次，根据首板指数预判明天环境会比较好，卖掉亏损票，回封排板上车。股性和版块比较好。",
+    "resultPoint": -0.45,
+    "buyReason": "双响炮形态，当天看封单版块都还凑合，第二天表现比较差，未翻红离场",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "启迪环境",
+    "formerDate": "2024-01-11",
+    "mode": 1,
+    "lastPrice": 0,
+    "failureReason": [],
+    "resultPoint": -10.76,
+    "buyReason": "强势版块后排，垃圾的一P，第二天超级大低开，直接负8、9个点。坚持到尾盘，当天比较忙。",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "京城股份",
+    "formerDate": "2024-01-11",
+    "mode": 1,
+    "lastPrice": 0,
+    "failureReason": [],
+    "resultPoint": -6.45,
+    "buyReason": "排了一会，没走，后炸开，形态可以，但当天炸板率太高。第二天换票走的早。",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "雷柏科技",
+    "formerDate": "2024-01-11",
+    "mode": 1,
+    "lastPrice": 0.24,
+    "failureReason": [],
+    "resultPoint": 2.5,
+    "buyReason": "K线形态很好，版块也比较强，对明天环境有预期，场外拉了1.2万上车。",
     "image_list": [
     ]
   },
@@ -27,8 +60,19 @@
     "mode": -1,
     "lastPrice": 0,
     "failureReason": [],
-    "resultPoint": 0,
+    "resultPoint": 1.8,
     "buyReason": "这票亏的一点也不冤，连续两只炸板，开盘不够冷静，感觉k线形态可以，版块也还好，有涨停，涨停板附近有拉升就上车了，当时应该差5档左右。当天就没涨停过。",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "赫美集团",
+    "formerDate": "2024-01-11",
+    "mode": 1,
+    "lastPrice": 0.14,
+    "failureReason": [],
+    "resultPoint": -1.67,
+    "buyReason": "被连接炸了3次，根据首板指数预判明天环境会比较好，卖掉亏损票，回封排板上车。股性和版块比较好。",
     "image_list": [
     ]
   },
@@ -38,7 +82,7 @@
     "mode": 1,
     "lastPrice": 0,
     "failureReason": [],
-    "resultPoint": -8.8,
+    "resultPoint": -8.04,
     "buyReason": "买的时候忽略版块了，版块跌了1个多，单看形态感觉还行，回封排单上车，没想到第二天低开6、7个点，因为预判后一天首板会有行情，所以卖股找别的票上车。",
     "image_list": [
       "statistics_2024_01_11_15_25_17_04",
