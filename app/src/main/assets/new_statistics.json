@@ -1,11 +1,143 @@
 [
   {
+    "gpName": "沙河股份",
+    "formerDate": "2024-01-26",
+    "mode": 1,
+    "lastPrice": 0.53,
+    "failureReason": [],
+    "resultPoint": 10.04,
+    "buyReason": "热点版块，7-8个点横盘了一会，上板前2个点位左右上车，第二天超预期差一档涨停，但感觉地产位置有点高了，竞价跑了。到下午，大盘跳水，这股也开板",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "中工国际",
+    "formerDate": "2024-01-25",
+    "mode": 1,
+    "lastPrice": 0.31,
+    "failureReason": [],
+    "resultPoint": 6.74,
+    "buyReason": "当天逼空行情，建筑板块当天热点，涨停挂单，前面3千万排单，排了一会排到了，第二天冲高卖在最高点。",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "天马科技",
+    "formerDate": "2024-01-25",
+    "mode": 1,
+    "lastPrice": 0,
+    "failureReason": [],
+    "resultPoint": -1.16,
+    "buyReason": "横向分时上板，板了一会就炸了，但这两天环境好，外加横向上板空头被释放，第二天还有拉升，开盘走的有点早。",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "石化机械",
+    "formerDate": "2024-01-24",
+    "mode": 1,
+    "lastPrice": 0,
+    "failureReason": [],
+    "resultPoint": -2.97,
+    "buyReason": "冲板后快速开板，后来全天未回封，第二天开盘离场，好在环境尚可，没有大的回落。",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "美邦服饰",
+    "formerDate": "2024-01-24",
+    "mode": 1,
+    "lastPrice": 0,
+    "failureReason": [],
+    "resultPoint": -2.97,
+    "buyReason": "又是开板后，快到均线处上的车，当天服装板块很好，但这票算是后排，历史来看第二天议价并不好，沾了下板就再也没上去。第二天到尾盘有冲高。",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "意华股份",
+    "formerDate": "2024-01-23",
+    "mode": 1,
+    "lastPrice": 0.61,
+    "failureReason": [],
+    "resultPoint": 0.31,
+    "buyReason": "板前上冲，觉得形态不错，提前1个点左右上的车，第二天表现比较差，稍微拿了拿，次高点离场。",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "直真科技",
+    "formerDate": "2024-01-23",
+    "mode": 1,
+    "lastPrice": 0.58,
+    "failureReason": [],
+    "resultPoint": 2.98,
+    "buyReason": "板质量比较高，第二天拿了一小会，回落走的，后面有涨停。环境较好。走早了。",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "广博股份",
+    "formerDate": "2024-01-22",
+    "mode": 1,
+    "lastPrice": 0,
+    "failureReason": [],
+    "resultPoint": -9.63,
+    "buyReason": "亏上头了，小平台突破形态，开板到水平线就迫不急待上车了。后面没封住，第二天开盘未急拉离场。",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "深赛格",
+    "formerDate": "2024-01-19",
+    "mode": 1,
+    "lastPrice": 0,
+    "failureReason": [],
+    "resultPoint": -6.1,
+    "buyReason": "突破小平台回封上车，但后面没有封住，第二天微拉离场。",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "阿科力",
+    "formerDate": "2024-01-19",
+    "mode": 1,
+    "lastPrice": 0.13,
+    "failureReason": [],
+    "resultPoint": 2.38,
+    "buyReason": "涨停回封排板进的，第二天微高开微冲离场。封单量太低了。",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "阿科力",
+    "formerDate": "2024-01-19",
+    "mode": 1,
+    "lastPrice": 0,
+    "failureReason": [],
+    "resultPoint": 2.38,
+    "buyReason": "涨停回封排板进的，第二天微高开微冲离场。",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "海印股份",
+    "formerDate": "2024-01-18",
+    "mode": 1,
+    "lastPrice": 0,
+    "failureReason": [],
+    "resultPoint": -16.56,
+    "buyReason": "当天上板炸到水平附近，第二天大低开，侥幸想着会有自救，结果被杀到跌停线附近，不得不跑。环境差+早早拉涨停，很多空头没释放干净吧。",
+    "image_list": [
+    ]
+  },
+  {
     "gpName": "安彩高科",
     "formerDate": "2024-01-16",
-    "mode": -1,
+    "mode": 1,
     "lastPrice": 0.3,
     "failureReason": [],
-    "resultPoint": 0,
+    "resultPoint": -4.53,
     "buyReason": "快速拉长，K线形态一般，但量能已经放出来了，版块也微红，不算是一支独秀，中途有炸板。",
     "image_list": [
     ]
