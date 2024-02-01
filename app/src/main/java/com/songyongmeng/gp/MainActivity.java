@@ -157,7 +157,7 @@ public class MainActivity extends AppCompatActivity {
 
         Intent intent;
         if(str.contains("bei_jing_chao_jia")){
-            intent = new Intent(MainActivity.this, BJCJBigImageActivity.class);
+            intent = new Intent(MainActivity.this, BjcjImageActivity.class);
         }else{
             intent = new Intent(MainActivity.this, EmptyBigImageActivity.class);
         }

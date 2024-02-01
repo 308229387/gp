@@ -1,11 +1,19 @@
 package com.songyongmeng.gp.utils;
 
+import static androidx.constraintlayout.widget.Constraints.TAG;
+
 import android.content.Context;
+import android.content.res.AssetManager;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
+import android.util.Log;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * assets 文件操作-读取
@@ -13,22 +21,34 @@ import java.io.InputStreamReader;
  */
 
 public class AssetsUtils {
-/*    {
-        "status":0,
-            "data":{
-        "total":2,
-                "rows": [{
-            "YWDXMC":"12",
-                    "ZLNR_JYQK":"黑寡妇换个房间换个",
-                    "XSID":""
-        },{
-            "YWDXMC":"12",
-                    "ZLNR_JYQK":"黑寡妇换个房间换个",
-                    "XSID":""
-        }]
-    }
-    }*/
+    public static List<String> getImageFileNamesFromAssets(Context context, String folderName) {
+        List<String> fileNames = new ArrayList<>();
 
+        AssetManager assetManager = context.getAssets();
+        try {
+            String[] files = assetManager.list(folderName);
+            for (String file : files) {
+                fileNames.add(file);
+            }
+        } catch (IOException e) {
+            Log.e(TAG, "Error listing assets", e);
+        }
+
+        return fileNames;
+    }
+
+    public static Bitmap getBitmapFromAsset(Context context, String fileName) {
+        AssetManager assetManager = context.getAssets();
+        try {
+            InputStream inputStream = assetManager.open(fileName);
+            Bitmap bitmap = BitmapFactory.decodeStream(inputStream);
+            inputStream.close();
+            return bitmap;
+        } catch (IOException e) {
+            Log.e(TAG, "Error loading image: " + fileName, e);
+            return null;
+        }
+    }
 
     /**
      * 读取文本文件返回字符串
@@ -60,5 +80,6 @@ public class AssetsUtils {
         }
         return buffer.toString();
     }
+
 
 }

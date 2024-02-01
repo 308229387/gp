@@ -8,13 +8,15 @@ import android.view.WindowManager;
 
 import androidx.viewpager.widget.ViewPager;
 
+import com.songyongmeng.gp.utils.AssetsUtils;
+
 import java.util.Collections;
 import java.util.List;
 
-public class BJCJBigImageActivity extends Activity {
+public class BjcjImageActivity extends Activity {
     BigImageListBean imageList;
     String name;
-    List<String> list;
+//    List<String> list;
 
     ViewPager viewPager;
     private Handler autoScrollHandler = new Handler();
@@ -30,12 +32,12 @@ public class BJCJBigImageActivity extends Activity {
 
 
         Intent intent = getIntent();
-        list = intent.getStringArrayListExtra("image_list");
+        List<String> images = AssetsUtils.getImageFileNamesFromAssets(this, "bjcj_img");
 
-        Collections.shuffle(list);
+        Collections.shuffle(images);
         viewPager = findViewById(R.id.viewPager);
-        ImagePagerAdapter adapter = new ImagePagerAdapter(this); // 你需要创建一个适配器
-        adapter.setImageList(list);
+        BjcjImagePagerAdapter adapter = new BjcjImagePagerAdapter(this); // 你需要创建一个适配器
+        adapter.setImageList(images);
         viewPager.setAdapter(adapter);
 
         startAutoScroll();
@@ -49,7 +51,7 @@ public class BJCJBigImageActivity extends Activity {
                 int totalItems = viewPager.getAdapter().getCount();
                 int nextPage = (currentItem + 1) % totalItems;
                 viewPager.setCurrentItem(nextPage);
-                autoScrollHandler.postDelayed(this, 3000);  // 设置自动滑动的时间间隔，这里是3秒
+                autoScrollHandler.postDelayed(this, 5000);  // 设置自动滑动的时间间隔，这里是3秒
             }
         }, 3000);
     }
