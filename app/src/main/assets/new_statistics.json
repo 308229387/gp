@@ -1,11 +1,33 @@
 [
   {
-    "gpName": "宏英智能",
-    "formerDate": "2024-01-30",
+    "gpName": "剑桥科技",
+    "formerDate": "2024-02-01",
     "mode": -1,
     "lastPrice": 0,
     "failureReason": [],
     "resultPoint": 0,
+    "buyReason": "判断大盘是触底反弹，在涨幅榜看到他，分时健康，比较有辨识度，差4-5个档直接封板，挂单，前面有3亿，差0.18亿想走，但已经上车了，有微微一两档的回调，后再回封。",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "直真科技",
+    "formerDate": "2024-01-31",
+    "mode": 1,
+    "lastPrice": 0.37,
+    "failureReason": [],
+    "resultPoint": 1.37,
+    "buyReason": "环境差，当时看了个股k线形态有双响炮的样子，而且版块涨的也在多数，K线急拉，就上车了，但差最后一档直接落了下去。急拉+环境差，两个大问题。",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "宏英智能",
+    "formerDate": "2024-01-30",
+    "mode": 1,
+    "lastPrice": 0,
+    "failureReason": [],
+    "resultPoint": -12.37,
     "buyReason": "环境差，当时看了个股k线形态有双响炮的样子，而且版块涨的也在多数，K线急拉，就上车了，但差最后一档直接落了下去。急拉+环境差，两个大问题。",
     "image_list": [
     ]
