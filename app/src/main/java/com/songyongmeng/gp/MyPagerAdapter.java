@@ -8,7 +8,10 @@ import android.widget.ImageView;
 
 import androidx.viewpager.widget.PagerAdapter;
 
+import com.bumptech.glide.Glide;
+import com.songyongmeng.gp.utils.AssetsUtils;
 import com.songyongmeng.gp.utils.ToolUtils;
+import com.songyongmeng.gp.utils.ZoomableImageView;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -35,7 +38,11 @@ public class MyPagerAdapter extends PagerAdapter {
     @Override
     public Object instantiateItem(ViewGroup container, int position) {
         ImageView imageView = new ImageView(container.getContext());
-        imageView.setImageResource(ToolUtils.getImages(images.get(position)));
+
+        String image = "statistics_img/" + images.get(position);
+
+        Glide.with(mContext).load(AssetsUtils.getBitmapFromAsset(mContext, image)).into(imageView);
+//        imageView.setImageResource(ToolUtils.getImages(images.get(position)));
 
         imageView.setOnClickListener(new View.OnClickListener() {
             @Override
