@@ -1,11 +1,55 @@
 [
   {
-    "gpName": "剑桥科技",
-    "formerDate": "2024-02-01",
+    "gpName": "省广集团",
+    "formerDate": "2024-02-06",
     "mode": -1,
-    "lastPrice": 0,
+    "lastPrice": 0.62,
     "failureReason": [],
     "resultPoint": 0,
+    "buyReason": "早盘一直没封死，在涨停板附近一直成交，还开了两回，股性强，有辨识度，但版块表现不好，后大盘逼空，也一直板到最后",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "万泰生物",
+    "formerDate": "2024-02-06",
+    "mode": -1,
+    "lastPrice": 1.12,
+    "failureReason": [],
+    "resultPoint": 0,
+    "buyReason": "当天预判会是反转，版块强度很大，虽然盘子大有700多亿，但股性良好属于前排，且分时强劲，在8个多点的时候预判会有快速上板，就早4-5个档上车，然后就封板了。",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "海天精工",
+    "formerDate": "2024-02-05",
+    "mode": 1,
+    "lastPrice": 0.01,
+    "failureReason": [],
+    "resultPoint": -4.58,
+    "buyReason": "大盘崩了一天，尾盘拉回来点，趁机找了一个尾盘2点左右回封的，结果尾盘临了，又炸了一下，第二天低开2个点挂的离场，但-4个多才成交，但当天行情好后面是单边的上涨。",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "沙河股份",
+    "formerDate": "2024-02-02",
+    "mode": 1,
+    "lastPrice": 0,
+    "failureReason": [],
+    "resultPoint": -7.8,
+    "buyReason": "当天早盘房地产版块大涨3个多点，前面有4个票涨停了，算是后排，本来第一次上板没赶上，开板后有上冲，在差一档上车，结果没封住。",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "剑桥科技",
+    "formerDate": "2024-02-01",
+    "mode": 1,
+    "lastPrice": 1.10,
+    "failureReason": [],
+    "resultPoint": 3.66,
     "buyReason": "判断大盘是触底反弹，在涨幅榜看到他，分时健康，比较有辨识度，差4-5个档直接封板，挂单，前面有3亿，差0.18亿想走，但已经上车了，有微微一两档的回调，后再回封。",
     "image_list": [
     ]
@@ -16,7 +60,7 @@
     "mode": 1,
     "lastPrice": 0.37,
     "failureReason": [],
-    "resultPoint": 1.37,
+    "resultPoint": 0.66,
     "buyReason": "环境差，当时看了个股k线形态有双响炮的样子，而且版块涨的也在多数，K线急拉，就上车了，但差最后一档直接落了下去。急拉+环境差，两个大问题。",
     "image_list": [
     ]
@@ -38,7 +82,7 @@
     "mode": 1,
     "lastPrice": 0.53,
     "failureReason": [],
-    "resultPoint": 10.04,
+    "resultPoint": 10.07,
     "buyReason": "热点版块，7-8个点横盘了一会，上板前2个点位左右上车，第二天超预期差一档涨停，但感觉地产位置有点高了，竞价跑了。到下午，大盘跳水，这股也开板",
     "image_list": [
     ]
@@ -166,7 +210,7 @@
   },
   {
     "gpName": "高新发展",
-    "formerDate": "2024-01-11",
+    "formerDate": "2024-01-15",
     "mode": 1,
     "lastPrice": 1.28,
     "failureReason": [],
@@ -177,7 +221,7 @@
   },
   {
     "gpName": "启迪环境",
-    "formerDate": "2024-01-11",
+    "formerDate": "2024-01-12",
     "mode": 1,
     "lastPrice": 0,
     "failureReason": [],
@@ -188,7 +232,7 @@
   },
   {
     "gpName": "京城股份",
-    "formerDate": "2024-01-11",
+    "formerDate": "2024-01-12",
     "mode": 1,
     "lastPrice": 0,
     "failureReason": [],
