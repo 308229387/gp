@@ -1,11 +1,44 @@
 [
   {
-    "gpName": "省广集团",
-    "formerDate": "2024-02-06",
+    "gpName": "华微电子",
+    "formerDate": "2024-02-08",
     "mode": -1,
-    "lastPrice": 0.62,
+    "lastPrice": 0.22,
     "failureReason": [],
     "resultPoint": 0,
+    "buyReason": "半导体当时板块涨了2个多，就华微涨的还符合首板10CM，6-8个点徘徊，再冲高就差3-4个档就上车，这就是有准备的板。",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "中船应急",
+    "formerDate": "2024-02-08",
+    "mode": -1,
+    "lastPrice": 0,
+    "failureReason": [],
+    "resultPoint": 0,
+    "buyReason": "当天环境较好，板块很强，涨了1.5个多点，问题是当时太仓促了，关注到时已经在板上了，就急急忙忙买了，量能还可以，与昨日平行，而且唯一的20CM，硬分析，应该一是急拉，从水平线到涨停就10分钟，二是触碰筹码密集区吧。",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "江特电机",
+    "formerDate": "2024-02-07",
+    "mode": 1,
+    "lastPrice": 0,
+    "failureReason": [],
+    "resultPoint": 1.61,
+    "buyReason": "当天小金属版块涨的最好，8个多点有破分时新高的意图就上车了，股性算是活跃，回头看问题应该是没量，承接不好，不抢手。第二天晚了两分才看盘，已经红了离场。",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "省广集团",
+    "formerDate": "2024-02-06",
+    "mode": 1,
+    "lastPrice": 0.62,
+    "failureReason": [],
+    "resultPoint": 5.01,
     "buyReason": "早盘一直没封死，在涨停板附近一直成交，还开了两回，股性强，有辨识度，但版块表现不好，后大盘逼空，也一直板到最后",
     "image_list": [
     ]
@@ -13,10 +46,10 @@
   {
     "gpName": "万泰生物",
     "formerDate": "2024-02-06",
-    "mode": -1,
+    "mode": 1,
     "lastPrice": 1.12,
     "failureReason": [],
-    "resultPoint": 0,
+    "resultPoint": 6.67,
     "buyReason": "当天预判会是反转，版块强度很大，虽然盘子大有700多亿，但股性良好属于前排，且分时强劲，在8个多点的时候预判会有快速上板，就早4-5个档上车，然后就封板了。",
     "image_list": [
     ]
