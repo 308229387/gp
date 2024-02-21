@@ -1,26 +1,71 @@
 [
   {
-    "gpName": "华微电子",
-    "formerDate": "2024-02-08",
-    "mode": -1,
-    "lastPrice": 0.22,
+    "gpName": "圣龙股份",
+    "formerDate": "2024-02-21",
+    "mode": 1,
+    "lastPrice": 0.66,
     "failureReason": [],
-    "resultPoint": 0,
-    "buyReason": "半导体当时板块涨了2个多，就华微涨的还符合首板10CM，6-8个点徘徊，再冲高就差3-4个档就上车，这就是有准备的板。",
+    "resultPoint": 0.1,
+    "buyReason": "上板大单4千多万，底部涨停反弹，版块当天主流",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "永和股份",
+    "formerDate": "2024-02-20",
+    "mode": 1,
+    "lastPrice": 0.29,
+    "failureReason": [],
+    "resultPoint": 2.02,
+    "buyReason": "上板大单1千万，且为突破形态，版块微红，虽然上板后的封单只有4千多万，但觉得有大单，且为正，就上车了。中间炸了，下午回封。第二天平开冲高离场。",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "盘龙药业",
+    "formerDate": "2024-02-20",
+    "mode": 1,
+    "lastPrice": 0,
+    "failureReason": [],
+    "resultPoint": -4.02,
+    "buyReason": "中药热点，盘龙有一定辨识度，5-6个点震荡了一会，上板有690多万大单成交，大单正向。",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "龙版传媒",
+    "formerDate": "2024-02-19",
+    "mode": 1,
+    "lastPrice": 0.1,
+    "failureReason": [],
+    "resultPoint": -0.98,
+    "buyReason": "当天比较忙，买的后排，大单正向流入，上板时明细有700多的正向大单，第二天分时略差，向下探了下就离场了，后全天正向分时",
     "image_list": [
     ]
   },
   {
     "gpName": "中船应急",
     "formerDate": "2024-02-08",
-    "mode": -1,
+    "mode": 1,
     "lastPrice": 0,
     "failureReason": [],
-    "resultPoint": 0,
+    "resultPoint": -7.02,
     "buyReason": "当天环境较好，板块很强，涨了1.5个多点，问题是当时太仓促了，关注到时已经在板上了，就急急忙忙买了，量能还可以，与昨日平行，而且唯一的20CM，硬分析，应该一是急拉，从水平线到涨停就10分钟，二是触碰筹码密集区吧。",
     "image_list": [
     ]
   },
+  {
+    "gpName": "华微电子",
+    "formerDate": "2024-02-08",
+    "mode": 1,
+    "lastPrice": 0.22,
+    "failureReason": [],
+    "resultPoint": 2.67,
+    "buyReason": "半导体当时板块涨了2个多，就华微涨的还符合首板10CM，6-8个点徘徊，再冲高就差3-4个档就上车，这就是有准备的板。",
+    "image_list": [
+    ]
+  },
+
   {
     "gpName": "江特电机",
     "formerDate": "2024-02-07",
