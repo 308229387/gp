@@ -2,10 +2,10 @@
   {
     "gpName": "圣龙股份",
     "formerDate": "2024-02-21",
-    "mode": 1,
+    "mode": -1,
     "lastPrice": 0.66,
     "failureReason": [],
-    "resultPoint": 0.1,
+    "resultPoint": 0,
     "buyReason": "上板大单4千多万，底部涨停反弹，版块当天主流",
     "image_list": [
     ]
