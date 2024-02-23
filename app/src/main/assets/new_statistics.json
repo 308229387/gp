@@ -1,23 +1,34 @@
 [
   {
-    "gpName": "圣龙股份",
-    "formerDate": "2024-02-21",
+    "gpName": "剑桥科技",
+    "formerDate": "2024-02-23",
     "mode": -1,
-    "lastPrice": 0.66,
+    "lastPrice": 0,
     "failureReason": [],
     "resultPoint": 0,
-    "buyReason": "上板大单4千多万，底部涨停反弹，版块当天主流",
+    "buyReason": "前面买的两个都没买到，严重踏空后，到这票就直接上了，看分时也是直上直下，后面就回落了，又买了个高点。",
     "image_list": [
     ]
   },
   {
-    "gpName": "永和股份",
-    "formerDate": "2024-02-20",
+    "gpName": "中科曙光",
+    "formerDate": "2024-02-22",
     "mode": 1,
-    "lastPrice": 0.29,
+    "lastPrice": 0,
     "failureReason": [],
-    "resultPoint": 2.02,
-    "buyReason": "上板大单1千万，且为突破形态，版块微红，虽然上板后的封单只有4千多万，但觉得有大单，且为正，就上车了。中间炸了，下午回封。第二天平开冲高离场。",
+    "resultPoint": -1.01,
+    "buyReason": "上板大单1亿，但市值也大，近600亿，同题材一个第二天高开9个点，……",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "圣龙股份",
+    "formerDate": "2024-02-21",
+    "mode": 1,
+    "lastPrice": 0.66,
+    "failureReason": [],
+    "resultPoint": 2.49,
+    "buyReason": "上板大单4千多万，底部涨停反弹，版块当天主流",
     "image_list": [
     ]
   },
@@ -27,8 +38,19 @@
     "mode": 1,
     "lastPrice": 0,
     "failureReason": [],
-    "resultPoint": -4.02,
+    "resultPoint": -4.38,
     "buyReason": "中药热点，盘龙有一定辨识度，5-6个点震荡了一会，上板有690多万大单成交，大单正向。",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "永和股份",
+    "formerDate": "2024-02-20",
+    "mode": 1,
+    "lastPrice": 0.29,
+    "failureReason": [],
+    "resultPoint": 1.98,
+    "buyReason": "上板大单1千万，且为突破形态，版块微红，虽然上板后的封单只有4千多万，但觉得有大单，且为正，就上车了。中间炸了，下午回封。第二天平开冲高离场。",
     "image_list": [
     ]
   },
