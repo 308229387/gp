@@ -1,11 +1,66 @@
 [
   {
-    "gpName": "剑桥科技",
-    "formerDate": "2024-02-23",
-    "mode": -1,
+    "gpName": "三安光电",
+    "formerDate": "2024-03-01",
+    "mode": 1,
+    "lastPrice": 3.2,
+    "failureReason": [],
+    "resultPoint": 1.08,
+    "buyReason": "涨幅榜有辨识度，分时流畅，上板见大单上车，有7、8秒的反应时间",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "福晶科技",
+    "formerDate": "2024-02-29",
+    "mode": 1,
     "lastPrice": 0,
     "failureReason": [],
-    "resultPoint": 0,
+    "resultPoint": -1.08,
+    "buyReason": "见大单马上就上车了，但是前面有2亿多，还是硬排，到中午快闭市，给炸进去了，吸取教训。",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "四川九洲",
+    "formerDate": "2024-02-29",
+    "mode": 1,
+    "lastPrice": 0.57,
+    "failureReason": [],
+    "resultPoint": 7.88,
+    "buyReason": "上板有大单上车，给了上车机会，很快就上车了,第二天冲高离场。",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "中通客车",
+    "formerDate": "2024-02-27",
+    "mode": 1,
+    "lastPrice": 0,
+    "failureReason": [],
+    "resultPoint": -3.73,
+    "buyReason": "见板块强势，就找了个标的，结果冲高就走，自己也是没上板就上车，这票得上黑名单了，被套了2、3回了。",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "锋龙股份",
+    "formerDate": "2024-02-26",
+    "mode": 1,
+    "lastPrice": 0.003,
+    "failureReason": [],
+    "resultPoint": -3.14,
+    "buyReason": "想打个回封，但未见大单就上车了，结果炸了一天，最后又封上了，第二天冲高离场",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "剑桥科技",
+    "formerDate": "2024-02-23",
+    "mode": 1,
+    "lastPrice": 0,
+    "failureReason": [],
+    "resultPoint": -7.16,
     "buyReason": "前面买的两个都没买到，严重踏空后，到这票就直接上了，看分时也是直上直下，后面就回落了，又买了个高点。",
     "image_list": [
     ]
@@ -16,7 +71,7 @@
     "mode": 1,
     "lastPrice": 0,
     "failureReason": [],
-    "resultPoint": -1.01,
+    "resultPoint": -1.66,
     "buyReason": "上板大单1亿，但市值也大，近600亿，同题材一个第二天高开9个点，……",
     "image_list": [
     ]
