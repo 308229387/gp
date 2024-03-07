@@ -1,12 +1,45 @@
 [
   {
-    "gpName": "药明康德",
-    "formerDate": "2024-03-04",
+    "gpName": "铜陵有色",
+    "formerDate": "2024-03-07",
     "mode": -1,
     "lastPrice": 0,
     "failureReason": [],
     "resultPoint": 0,
+    "buyReason": "早上行情略差，但有个别热点还行，金属行业表现可以，屁股有点大300亿，股性较差。上板5千万大单才出手。板了1个多小时开了，",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "时代新材",
+    "formerDate": "2024-03-06",
+    "mode": 1,
+    "lastPrice": 0.19,
+    "failureReason": [],
+    "resultPoint": -2.1,
+    "buyReason": "早上行情不好，空仓，到下午看电力设备行业涨幅挺好，而且K线形态较好，看板上有1千万就上车了，第二天承接很弱，才300多万，一慢，直接跌下来了。",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "药明康德",
+    "formerDate": "2024-03-04",
+    "mode": 1,
+    "lastPrice": 0,
+    "failureReason": [],
+    "resultPoint": -4.85,
     "buyReason": "当天主力进出表基本全是流出的，强板块选的这票，上板且板上大单1亿。后炸开，应该是和环境有关",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "三安光电",
+    "formerDate": "2024-03-01",
+    "mode": 1,
+    "lastPrice": 1.93,
+    "failureReason": [],
+    "resultPoint": 2.17,
+    "buyReason": "涨幅榜有辨识度，分时流畅，上板见大单上车，有7、8秒的反应时间",
     "image_list": [
     ]
   },
@@ -18,17 +51,6 @@
     "failureReason": [],
     "resultPoint": 7.93,
     "buyReason": "上板有大单上车，给了上车机会，很快就上车了,第二天冲高离场。",
-    "image_list": [
-    ]
-  },
-  {
-    "gpName": "三安光电",
-    "formerDate": "2024-03-01",
-    "mode": 1,
-    "lastPrice": 1.93,
-    "failureReason": [],
-    "resultPoint": 2.08,
-    "buyReason": "涨幅榜有辨识度，分时流畅，上板见大单上车，有7、8秒的反应时间",
     "image_list": [
     ]
   },
