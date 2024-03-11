@@ -1,11 +1,22 @@
 [
   {
-    "gpName": "铜陵有色",
-    "formerDate": "2024-03-07",
+    "gpName": "北汽蓝谷",
+    "formerDate": "2024-03-011",
     "mode": -1,
-    "lastPrice": 0,
+    "lastPrice": 0.83,
     "failureReason": [],
     "resultPoint": 0,
+    "buyReason": "早盘电力设备涨太快，前面6-7个都涨停了，然后就在汽车板块找了一个，股性还算不错的，上板2个亿，前两档就0.2亿多了，总共上板2亿，后面开了会又封上了。",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "铜陵有色",
+    "formerDate": "2024-03-07",
+    "mode": 1,
+    "lastPrice": 0,
+    "failureReason": [],
+    "resultPoint": -2.72,
     "buyReason": "早上行情略差，但有个别热点还行，金属行业表现可以，屁股有点大300亿，股性较差。上板5千万大单才出手。板了1个多小时开了，",
     "image_list": [
     ]
@@ -16,7 +27,7 @@
     "mode": 1,
     "lastPrice": 0.19,
     "failureReason": [],
-    "resultPoint": -2.1,
+    "resultPoint": -1.98,
     "buyReason": "早上行情不好，空仓，到下午看电力设备行业涨幅挺好，而且K线形态较好，看板上有1千万就上车了，第二天承接很弱，才300多万，一慢，直接跌下来了。",
     "image_list": [
     ]
