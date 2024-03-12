@@ -32,7 +32,7 @@ public class BjcjImageActivity extends Activity {
 
 
         Intent intent = getIntent();
-        List<String> images = AssetsUtils.getImageFileNamesFromAssets(this, "bjcj_img");
+        List<String> images = AssetsUtils.getImageFileNamesFromAssets(this, Constants.SHOU_BAN_NAME);
 
         Collections.shuffle(images);
         viewPager = findViewById(R.id.viewPager);

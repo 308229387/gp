@@ -44,7 +44,7 @@ public class BjcjImagePagerAdapter extends PagerAdapter {
     @Override
     public Object instantiateItem(ViewGroup container, int position) {
         ImageView imageView = new ImageView(container.getContext());
-        imageView.setImageBitmap(AssetsUtils.getBitmapFromAsset(mContext,"bjcj_img/"+images.get(position)));
+        imageView.setImageBitmap(AssetsUtils.getBitmapFromAsset(mContext,Constants.SHOU_BAN_NAME+"/"+images.get(position)));
 
         imageView.setOnClickListener(new View.OnClickListener() {
             @Override
