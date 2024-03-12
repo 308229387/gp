@@ -1,12 +1,34 @@
 [
   {
-    "gpName": "北汽蓝谷",
-    "formerDate": "2024-03-011",
+    "gpName": "金种子酒",
+    "formerDate": "2024-03-12",
     "mode": -1,
-    "lastPrice": 0.83,
+    "lastPrice": 0,
     "failureReason": [],
     "resultPoint": 0,
-    "buyReason": "早盘电力设备涨太快，前面6-7个都涨停了，然后就在汽车板块找了一个，股性还算不错的，上板2个亿，前两档就0.2亿多了，总共上板2亿，后面开了会又封上了。",
+    "buyReason": "10点多，酒水版块突起，印象创神说过这票股性好，外回分钟均匀强劲，上板4千万大单上车。",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "沙普爱思",
+    "formerDate": "2024-03-12",
+    "mode": -1,
+    "lastPrice": 0,
+    "failureReason": [],
+    "resultPoint": 0,
+    "buyReason": "中药版块强势，化学医药+印象很强势，上板加大单，排进去了40多分钟后炸了。非核心版块",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "北汽蓝谷",
+    "formerDate": "2024-03-11",
+    "mode": 1,
+    "lastPrice": 0.83,
+    "failureReason": [],
+    "resultPoint": 4.2,
+    "buyReason": "早盘电力设备涨太快，前面6-7个都涨停了，然后就在汽车板块找了一个，股性还算不错的，上板2个亿，前两档就0.2亿多了，总共上板2亿，后面开了会又封上了。第二天高开回落，在反弹高点离场。",
     "image_list": [
     ]
   },
