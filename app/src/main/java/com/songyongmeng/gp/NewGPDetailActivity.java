@@ -79,6 +79,9 @@ public class NewGPDetailActivity extends AppCompatActivity {
                     case 12:
                         builder.append(ReasonForFailure.REASON_12);
                         break;
+                    case 13:
+                        builder.append(ReasonForFailure.REASON_13);
+                        break;
 
                 }
             }

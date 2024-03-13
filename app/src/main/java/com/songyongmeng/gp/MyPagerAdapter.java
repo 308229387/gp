@@ -47,15 +47,9 @@ public class MyPagerAdapter extends PagerAdapter {
         imageView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(mContext, BigImageActivity.class);
-                intent.putExtra("image", ToolUtils.getImages(images.get(position)));
-//                String str;
-//                if (images.get(position).contains("_k")||images.get(position).contains("_2k")) {
-//                    str = "vertical";
-//                } else {
-//                    str = "horizontal";
-//                }
-//                intent.putExtra("orientation", str);
+                Intent intent = new Intent(mContext, BjcjBigImageActivity.class);
+                intent.putExtra("image", images.get(position));
+                intent.putExtra("path", "statistics_img");
                 mContext.startActivity(intent);
             }
         });
