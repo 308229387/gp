@@ -11,6 +11,7 @@ import android.widget.TextView;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
+import com.songyongmeng.gp.utils.AssetsUtils;
 import com.songyongmeng.gp.utils.ToolUtils;
 
 import java.util.List;
@@ -53,18 +54,18 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.ViewHolder> {
             holder.titleView.setVisibility(View.GONE);
             holder.textView.setVisibility(View.GONE);
             holder.imageView.setVisibility(View.VISIBLE);
-            int id =ToolUtils.getImages(item.replace("image:", ""));
-
-            holder.itemView.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    Intent intent = new Intent(context,BigImageActivity.class);
-                    intent.putExtra("image",id);
-                    context.startActivity(intent);
-                }
-            });
-
-            Glide.with(context).load(id).into(holder.imageView);
+            String image = Constants.COMMON_IMG_NAME+"/"+item.replace("image:", "");
+            Glide.with(context).load(AssetsUtils.getBitmapFromAsset(context, image)).into(holder.imageView);
+//            holder.itemView.setOnClickListener(new View.OnClickListener() {
+//                @Override
+//                public void onClick(View v) {
+//                    Intent intent = new Intent(context,BigImageActivity.class);
+//                    intent.putExtra("image",id);
+//                    context.startActivity(intent);
+//                }
+//            });
+//
+//            Glide.with(context).load(id).into(holder.imageView);
         }
     }
 
