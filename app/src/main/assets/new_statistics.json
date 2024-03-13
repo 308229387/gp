@@ -1,12 +1,36 @@
 [
   {
-    "gpName": "金种子酒",
-    "formerDate": "2024-03-12",
+    "gpName": "慈文传媒",
+    "formerDate": "2024-03-13",
+    "mode": -1,
+    "lastPrice": 0,
+    "failureReason": [3,5,12],
+    "resultPoint": 0,
+    "buyReason": "上手太匆忙，只看了是首板，和上板的0.25亿大单，连K线形态都没看，明显高位，上板后秒开。反观比较强势的龙版传媒，上板2档就1千4百万,一档有3千8百万，盘口很强势",
+    "image_list": [
+      "Screenshot_2024-03-13-09-42-50-64_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "网达软件",
+    "formerDate": "2024-03-13",
     "mode": -1,
     "lastPrice": 0,
     "failureReason": [],
     "resultPoint": 0,
-    "buyReason": "10点多，酒水版块突起，印象创神说过这票股性好，外回分钟均匀强劲，上板4千万大单上车。",
+    "buyReason": "开盘计算机强势，版块内有两个涨停的，上板有1千6百万大单，排单上车。",
+    "image_list": [
+      "Screenshot_2024-03-13-09-37-54-29_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "金种子酒",
+    "formerDate": "2024-03-12",
+    "mode": 1,
+    "lastPrice": 0.48,
+    "failureReason": [0],
+    "resultPoint": -0.01,
+    "buyReason": "10点多，酒水版块突起，印象创神说过这票股性好，外回分钟均匀强劲，上板4千万大单上车。开盘承接1000多万太差，后面有机会离场。",
     "image_list": [
       "Screenshot_2024-03-13-06-37-28-98_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
@@ -14,11 +38,11 @@
   {
     "gpName": "沙普爱思",
     "formerDate": "2024-03-12",
-    "mode": -1,
+    "mode": 1,
     "lastPrice": 0,
-    "failureReason": [],
-    "resultPoint": 0,
-    "buyReason": "中药版块强势，化学医药+印象很强势，上板加大单，排进去了40多分钟后炸了。非核心版块",
+    "failureReason": [1,3],
+    "resultPoint": -6.2,
+    "buyReason": "中药版块强势，化学医药+印象很强势，上板加大单，排进去了40多分钟后炸了。非核心版块，第二天低开",
     "image_list": [
       "Screenshot_2024-03-13-06-39-18-10_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
@@ -40,7 +64,7 @@
     "formerDate": "2024-03-07",
     "mode": 1,
     "lastPrice": 0,
-    "failureReason": [],
+    "failureReason": [3],
     "resultPoint": -2.72,
     "buyReason": "早上行情略差，但有个别热点还行，金属行业表现可以，屁股有点大300亿，股性较差。上板5千万大单才出手。板了1个多小时开了，",
     "image_list": [
@@ -52,7 +76,7 @@
     "formerDate": "2024-03-06",
     "mode": 1,
     "lastPrice": 0.19,
-    "failureReason": [],
+    "failureReason": [0],
     "resultPoint": -1.98,
     "buyReason": "早上行情不好，空仓，到下午看电力设备行业涨幅挺好，而且K线形态较好，看板上有1千万就上车了，第二天承接很弱，才300多万，一慢，直接跌下来了。",
     "image_list": [
@@ -64,7 +88,7 @@
     "formerDate": "2024-03-04",
     "mode": 1,
     "lastPrice": 0,
-    "failureReason": [],
+    "failureReason": [10],
     "resultPoint": -4.85,
     "buyReason": "当天主力进出表基本全是流出的，强板块选的这票，上板且板上大单1亿。后炸开，应该是和环境有关",
     "image_list": [
@@ -100,7 +124,7 @@
     "formerDate": "2024-02-29",
     "mode": 1,
     "lastPrice": 0,
-    "failureReason": [],
+    "failureReason": [11],
     "resultPoint": -0.74,
     "buyReason": "见大单马上就上车了，但是前面有2亿多，还是硬排，到中午快闭市，给炸进去了，吸取教训。",
     "image_list": [
@@ -112,7 +136,7 @@
     "formerDate": "2024-02-27",
     "mode": 1,
     "lastPrice": 0,
-    "failureReason": [],
+    "failureReason": [3,4],
     "resultPoint": -3.73,
     "buyReason": "见板块强势，就找了个标的，结果冲高就走，自己也是没上板就上车，这票得上黑名单了，被套了2、3回了。",
     "image_list": [
@@ -124,7 +148,7 @@
     "formerDate": "2024-02-26",
     "mode": 1,
     "lastPrice": 0.003,
-    "failureReason": [],
+    "failureReason": [4],
     "resultPoint": -3.14,
     "buyReason": "想打个回封，但未见大单就上车了，结果炸了一天，最后又封上了，第二天冲高离场",
     "image_list": [
@@ -136,7 +160,7 @@
     "formerDate": "2024-02-23",
     "mode": 1,
     "lastPrice": 0,
-    "failureReason": [],
+    "failureReason": [4,6],
     "resultPoint": -7.16,
     "buyReason": "前面买的两个都没买到，严重踏空后，到这票就直接上了，看分时也是直上直下，后面就回落了，又买了个高点。",
     "image_list": [
@@ -148,7 +172,7 @@
     "formerDate": "2024-02-22",
     "mode": 1,
     "lastPrice": 0,
-    "failureReason": [],
+    "failureReason": [0],
     "resultPoint": -1.66,
     "buyReason": "上板大单1亿，但市值也大，近600亿，同题材一个第二天高开9个点，……",
     "image_list": [
@@ -196,7 +220,7 @@
     "formerDate": "2024-02-19",
     "mode": 1,
     "lastPrice": 0.1,
-    "failureReason": [],
+    "failureReason": [2],
     "resultPoint": -0.98,
     "buyReason": "当天比较忙，买的后排，大单正向流入，上板时明细有700多的正向大单，第二天分时略差，向下探了下就离场了，后全天正向分时",
     "image_list": [
@@ -208,7 +232,7 @@
     "formerDate": "2024-02-08",
     "mode": 1,
     "lastPrice": 0,
-    "failureReason": [],
+    "failureReason": [6,12],
     "resultPoint": -7.02,
     "buyReason": "当天环境较好，板块很强，涨了1.5个多点，问题是当时太仓促了，关注到时已经在板上了，就急急忙忙买了，量能还可以，与昨日平行，而且唯一的20CM，硬分析，应该一是急拉，从水平线到涨停就10分钟，二是触碰筹码密集区吧。",
     "image_list": [

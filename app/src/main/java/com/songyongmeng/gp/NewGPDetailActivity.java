@@ -2,7 +2,6 @@ package com.songyongmeng.gp;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.View;
 import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -28,9 +27,9 @@ public class NewGPDetailActivity extends AppCompatActivity {
         TextView last = findViewById(R.id.gp_last_price);
         name.setText("股票名称： " + data.getGpName());
         result.setText("后续： " + data.getResultPoint() + "%");
-        if(null!=intent.getStringExtra("source")&&intent.getStringExtra("source").equals("BiddingStatisticsActivity")){
-            last.setText("竞价金额："+data.getLastPrice());
-        }else{
+        if (null != intent.getStringExtra("source") && intent.getStringExtra("source").equals("BiddingStatisticsActivity")) {
+            last.setText("竞价金额：" + data.getLastPrice());
+        } else {
             last.setText(data.getLastPrice() == 0 ? "未涨停" : "封单: " + data.getLastPrice() + "亿");
         }
         reason.setText("描述： " + data.getBuyReason());
@@ -41,6 +40,9 @@ public class NewGPDetailActivity extends AppCompatActivity {
                     builder.append(" + ");
                 }
                 switch (a) {
+                    case 0:
+                        builder.append(ReasonForFailure.REASON_0);
+                        break;
                     case 1:
                         builder.append(ReasonForFailure.REASON_1);
                         break;
@@ -76,9 +78,6 @@ public class NewGPDetailActivity extends AppCompatActivity {
                         break;
                     case 12:
                         builder.append(ReasonForFailure.REASON_12);
-                        break;
-                    case 13:
-                        builder.append(ReasonForFailure.REASON_13);
                         break;
 
                 }

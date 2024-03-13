@@ -22,7 +22,7 @@ public class BjcjBigImageActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.big_image_layout);
 
-        String image = "bjcj_img/" + getIntent().getStringExtra("image");
+        String image = Constants.SHOU_BAN_NAME+"/" + getIntent().getStringExtra("image");
 
         ZoomableImageView imageView = findViewById(R.id.image_view);
         Glide.with(this).load(AssetsUtils.getBitmapFromAsset(this, image)).into(imageView);
