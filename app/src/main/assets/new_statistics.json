@@ -88,7 +88,7 @@
     "formerDate": "2024-03-04",
     "mode": 1,
     "lastPrice": 0,
-    "failureReason": [10],
+    "failureReason": [8,10],
     "resultPoint": -4.85,
     "buyReason": "当天主力进出表基本全是流出的，强板块选的这票，上板且板上大单1亿。后炸开，应该是和环境有关",
     "image_list": [
@@ -330,7 +330,7 @@
     "lastPrice": 0.37,
     "failureReason": [],
     "resultPoint": 0.66,
-    "buyReason": "环境差，当时看了个股k线形态有双响炮的样子，而且版块涨的也在多数，K线急拉，就上车了，但差最后一档直接落了下去。急拉+环境差，两个大问题。",
+    "buyReason": "",
     "image_list": [
       "Screenshot_2024-03-12-13-06-28-72_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
@@ -340,7 +340,7 @@
     "formerDate": "2024-01-30",
     "mode": 1,
     "lastPrice": 0,
-    "failureReason": [],
+    "failureReason": [4,6,10],
     "resultPoint": -12.37,
     "buyReason": "环境差，当时看了个股k线形态有双响炮的样子，而且版块涨的也在多数，K线急拉，就上车了，但差最后一档直接落了下去。急拉+环境差，两个大问题。",
     "image_list": [
