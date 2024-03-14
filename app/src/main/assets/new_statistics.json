@@ -2,25 +2,25 @@
   {
     "gpName": "鸿博股份",
     "formerDate": "2024-03-14",
-    "mode": 1,
+    "mode": -1,
     "lastPrice": 0.82,
     "failureReason": [],
     "resultPoint": 0,
     "buyReason": "涨幅榜中非常亮眼，上板前盘口强势，股性也强，当天放量，K线形态好。今天虽然是栏板，但感觉有肉。",
     "image_list": [
-      "Screenshot_2024-03-13-17-33-43-09_5c5979e609b9ed4a43e94260d67cf51e.webp"
+      "Screenshot_2024-03-14-16-28-08-92_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
     "gpName": "铜陵有色",
     "formerDate": "2024-03-14",
-    "mode": 1,
+    "mode": -1,
     "lastPrice": 0,
     "failureReason": [10,3],
     "resultPoint": 0,
     "buyReason": "开盘很强，版块也强势。盘口非常给力，但当天环境差，外加股性不行，这票以后要被拉黑了。",
     "image_list": [
-      "Screenshot_2024-03-13-17-33-43-09_5c5979e609b9ed4a43e94260d67cf51e.webp"
+      "Screenshot_2024-03-14-16-30-05-99_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
@@ -32,7 +32,9 @@
     "resultPoint": -7.5,
     "buyReason": "上手太匆忙，只看了是首板，和上板的0.25亿大单，连K线形态都没看，明显高位，上板后秒开。反观比较强势的龙版传媒，上板2档就1千4百万,一档有3千8百万，盘口很强势",
     "image_list": [
-      "Screenshot_2024-03-13-17-33-43-09_5c5979e609b9ed4a43e94260d67cf51e.webp"
+      "Screenshot_2024-03-13-17-33-43-09_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-03-14-16-36-58-83_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-03-14-16-37-14-18_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
@@ -44,7 +46,9 @@
     "resultPoint": 5.7,
     "buyReason": "开盘计算机强势，版块内有两个涨停的，上板有1千6百万大单，排单上车。",
     "image_list": [
-      "Screenshot_2024-03-13-09-37-54-29_5c5979e609b9ed4a43e94260d67cf51e.webp"
+      "Screenshot_2024-03-13-09-37-54-29_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-03-14-16-34-42-78_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-03-14-16-35-04-67_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
