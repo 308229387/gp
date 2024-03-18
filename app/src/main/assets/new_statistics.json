@@ -1,22 +1,78 @@
 [
   {
-    "gpName": "锋龙股份",
-    "formerDate": "2024-03-15",
+    "gpName": "引力传媒",
+    "formerDate": "2024-03-18",
     "mode": -1,
-    "lastPrice": 0.5,
+    "lastPrice": 0.61,
     "failureReason": [],
     "resultPoint": 0,
-    "buyReason": "题材热点，",
+    "buyReason": "K线形态感觉很漂亮，板上未见大单就上车了，分时也还可以，量能也是微放，但买后近一个小时一直没封住，尾盘回封。",
     "image_list": [
-      "Screenshot_2024-03-15-16-04-05-35_5c5979e609b9ed4a43e94260d67cf51e.webp"
+      "Screenshot_2024-03-18-16-19-50-53_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
-  },  {
+  },
+  {
+    "gpName": "亚普股份",
+    "formerDate": "2024-03-18",
+    "mode": -1,
+    "lastPrice": 0.14,
+    "failureReason": [7],
+    "resultPoint": 0,
+    "buyReason": "K线形态和分时都还行，但前面有前高，今天的量应该是有点不够，但行情在这，不想错过行情就买了。",
+    "image_list": [
+      "Screenshot_2024-03-18-16-21-19-57_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "佳电股份",
+    "formerDate": "2024-03-18",
+    "mode": -1,
+    "lastPrice": 0,
+    "failureReason": [0],
+    "resultPoint": 0,
+    "buyReason": "开盘个股强势，但根本排不上，这票K线和分时都还行，但股性略差，还有就是可能盘子略大，最近都喜欢小盘股",
+    "image_list": [
+      "Screenshot_2024-03-18-16-17-56-03_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "锋龙股份",
+    "formerDate": "2024-03-15",
+    "mode": 1,
+    "lastPrice": 0.5,
+    "failureReason": [],
+    "resultPoint": 3.6,
+    "buyReason": "机器人概念，当天热点，和炒家同车，第二天开盘低于预期，才一个多点，承接2000多万，但版块看还行，冲高离场",
+    "image_list": [
+      "Screenshot_2024-03-15-16-04-05-35_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-03-18-15-56-18-72_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-03-18-15-56-41-09_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "铜陵有色",
+    "formerDate": "2024-03-14",
+    "mode": 1,
+    "lastPrice": 0,
+    "failureReason": [
+      10,
+      3
+    ],
+    "resultPoint": -4.55,
+    "buyReason": "开盘很强，版块也强势。盘口非常给力，但当天环境差，外加股性不行，这票以后要被拉黑了。",
+    "image_list": [
+      "Screenshot_2024-03-14-16-30-05-99_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-03-15-16-11-48-89_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-03-15-16-01-52-15_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
     "gpName": "鸿博股份",
     "formerDate": "2024-03-14",
     "mode": 1,
     "lastPrice": 0.82,
     "failureReason": [],
-    "resultPoint": -4.01,
+    "resultPoint": -4.39,
     "buyReason": "涨幅榜中非常亮眼，上板前盘口强势，股性也强，当天放量，K线形态好。今天虽然是栏板，但感觉有肉。第二天大低开离场。",
     "image_list": [
       "Screenshot_2024-03-14-16-28-08-92_5c5979e609b9ed4a43e94260d67cf51e.webp",
@@ -25,26 +81,16 @@
     ]
   },
   {
-    "gpName": "铜陵有色",
-    "formerDate": "2024-03-14",
-    "mode": 1,
-    "lastPrice": 0,
-    "failureReason": [10,3],
-    "resultPoint": -3.7,
-    "buyReason": "开盘很强，版块也强势。盘口非常给力，但当天环境差，外加股性不行，这票以后要被拉黑了。",
-    "image_list": [
-      "Screenshot_2024-03-14-16-30-05-99_5c5979e609b9ed4a43e94260d67cf51e.webp",
-      "Screenshot_2024-03-15-16-11-48-89_5c5979e609b9ed4a43e94260d67cf51e.webp",
-      "Screenshot_2024-03-15-16-01-52-15_5c5979e609b9ed4a43e94260d67cf51e.webp"
-
-    ]
-  },
-  {
     "gpName": "慈文传媒",
     "formerDate": "2024-03-13",
     "mode": 1,
     "lastPrice": 0,
-    "failureReason": [3,5,12,13],
+    "failureReason": [
+      3,
+      5,
+      12,
+      13
+    ],
     "resultPoint": -7.73,
     "buyReason": "上手太匆忙，只看了是首板，和上板的0.25亿大单，连K线形态都没看，明显高位，上板后秒开。反观比较强势的龙版传媒，上板2档就1千4百万,一档有3千8百万，盘口很强势",
     "image_list": [
@@ -72,7 +118,9 @@
     "formerDate": "2024-03-12",
     "mode": 1,
     "lastPrice": 0.48,
-    "failureReason": [0],
+    "failureReason": [
+      0
+    ],
     "resultPoint": -0.25,
     "buyReason": "10点多，酒水版块突起，印象创神说过这票股性好，外加分钟均匀强劲，上板大单强劲上车。开盘承接1000多万太差，后面有很多机会离场。",
     "image_list": [
@@ -86,7 +134,11 @@
     "formerDate": "2024-03-12",
     "mode": 1,
     "lastPrice": 0,
-    "failureReason": [1,3,13],
+    "failureReason": [
+      1,
+      3,
+      13
+    ],
     "resultPoint": -6.36,
     "buyReason": "中药版块强势，化学医药+印象很强势，上板加大单，排进去了40多分钟后炸了。非核心版块，第二天低开",
     "image_list": [
@@ -112,7 +164,9 @@
     "formerDate": "2024-03-07",
     "mode": 1,
     "lastPrice": 0,
-    "failureReason": [3],
+    "failureReason": [
+      3
+    ],
     "resultPoint": -2.72,
     "buyReason": "早上行情略差，但有个别热点还行，金属行业表现可以，屁股有点大300亿，股性较差。上板5千万大单才出手。板了1个多小时开了，",
     "image_list": [
@@ -124,7 +178,9 @@
     "formerDate": "2024-03-06",
     "mode": 1,
     "lastPrice": 0.19,
-    "failureReason": [0],
+    "failureReason": [
+      0
+    ],
     "resultPoint": -1.98,
     "buyReason": "早上行情不好，空仓，到下午看电力设备行业涨幅挺好，而且K线形态较好，看板上有1千万就上车了，第二天承接很弱，才300多万，一慢，直接跌下来了。",
     "image_list": [
@@ -136,7 +192,10 @@
     "formerDate": "2024-03-04",
     "mode": 1,
     "lastPrice": 0,
-    "failureReason": [8,10],
+    "failureReason": [
+      8,
+      10
+    ],
     "resultPoint": -4.85,
     "buyReason": "当天主力进出表基本全是流出的，强板块选的这票，上板且板上大单1亿。后炸开，应该是和环境有关",
     "image_list": [
@@ -172,7 +231,9 @@
     "formerDate": "2024-02-29",
     "mode": 1,
     "lastPrice": 0,
-    "failureReason": [11],
+    "failureReason": [
+      11
+    ],
     "resultPoint": -0.74,
     "buyReason": "见大单马上就上车了，但是前面有2亿多，还是硬排，到中午快闭市，给炸进去了，吸取教训。",
     "image_list": [
@@ -184,7 +245,10 @@
     "formerDate": "2024-02-27",
     "mode": 1,
     "lastPrice": 0,
-    "failureReason": [3,4],
+    "failureReason": [
+      3,
+      4
+    ],
     "resultPoint": -3.73,
     "buyReason": "见板块强势，就找了个标的，结果冲高就走，自己也是没上板就上车，这票得上黑名单了，被套了2、3回了。",
     "image_list": [
@@ -196,7 +260,9 @@
     "formerDate": "2024-02-26",
     "mode": 1,
     "lastPrice": 0.003,
-    "failureReason": [4],
+    "failureReason": [
+      4
+    ],
     "resultPoint": -3.14,
     "buyReason": "想打个回封，但未见大单就上车了，结果炸了一天，最后又封上了，第二天冲高离场",
     "image_list": [
@@ -208,7 +274,10 @@
     "formerDate": "2024-02-23",
     "mode": 1,
     "lastPrice": 0,
-    "failureReason": [4,6],
+    "failureReason": [
+      4,
+      6
+    ],
     "resultPoint": -7.16,
     "buyReason": "前面买的两个都没买到，严重踏空后，到这票就直接上了，看分时也是直上直下，后面就回落了，又买了个高点。",
     "image_list": [
@@ -220,7 +289,9 @@
     "formerDate": "2024-02-22",
     "mode": 1,
     "lastPrice": 0,
-    "failureReason": [0],
+    "failureReason": [
+      0
+    ],
     "resultPoint": -1.66,
     "buyReason": "上板大单1亿，但市值也大，近600亿，同题材一个第二天高开9个点，……",
     "image_list": [
@@ -268,7 +339,9 @@
     "formerDate": "2024-02-19",
     "mode": 1,
     "lastPrice": 0.1,
-    "failureReason": [2],
+    "failureReason": [
+      2
+    ],
     "resultPoint": -0.98,
     "buyReason": "当天比较忙，买的后排，大单正向流入，上板时明细有700多的正向大单，第二天分时略差，向下探了下就离场了，后全天正向分时",
     "image_list": [
@@ -280,7 +353,10 @@
     "formerDate": "2024-02-08",
     "mode": 1,
     "lastPrice": 0,
-    "failureReason": [6,12],
+    "failureReason": [
+      6,
+      12
+    ],
     "resultPoint": -7.02,
     "buyReason": "当天环境较好，板块很强，涨了1.5个多点，问题是当时太仓促了，关注到时已经在板上了，就急急忙忙买了，量能还可以，与昨日平行，而且唯一的20CM，硬分析，应该一是急拉，从水平线到涨停就10分钟，二是触碰筹码密集区吧。",
     "image_list": [
@@ -388,7 +464,11 @@
     "formerDate": "2024-01-30",
     "mode": 1,
     "lastPrice": 0,
-    "failureReason": [4,6,10],
+    "failureReason": [
+      4,
+      6,
+      10
+    ],
     "resultPoint": -12.37,
     "buyReason": "环境差，当时看了个股k线形态有双响炮的样子，而且版块涨的也在多数，K线急拉，就上车了，但差最后一档直接落了下去。急拉+环境差，两个大问题。",
     "image_list": [

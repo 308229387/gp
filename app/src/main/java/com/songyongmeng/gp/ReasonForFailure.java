@@ -8,7 +8,7 @@ public class ReasonForFailure {
     public static final String REASON_4= "未封板就上车";//对应编号4
     public static final String REASON_5= "K线形态太差";//对应编号5
     public static final String REASON_6= "分时太差，不流畅或一字拉涨停，抛压未释放。";//对应编号6
-    public static final String REASON_7= "量能太小太大，抛压未释放或太大";//对应编号7
+    public static final String REASON_7= "量能太小太大，前高或分时的抛压未释放或太大";//对应编号7
     public static final String REASON_8= "均线压制，大级别均线压制";//对应编号8
     public static final String REASON_9= "误操作";//对应编号9
     public static final String REASON_10 = "环境退潮，环境判断错误";//对应编号10
