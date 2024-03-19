@@ -1,35 +1,51 @@
 [
   {
+    "gpName": "宇环数控",
+    "formerDate": "2024-03-19",
+    "mode": -1,
+    "lastPrice": 0,
+    "failureReason": [0],
+    "resultPoint": 0,
+    "buyReason": "K线形态感觉较好，有大单，有量，分时也还可以，但买后半个小时炸板，未回封。",
+    "image_list": [
+      "Screenshot_2024-03-19-16-02-04-26_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
     "gpName": "引力传媒",
     "formerDate": "2024-03-18",
-    "mode": -1,
+    "mode": 1,
     "lastPrice": 0.61,
     "failureReason": [],
-    "resultPoint": 0,
+    "resultPoint": 2.1,
     "buyReason": "K线形态感觉很漂亮，板上未见大单就上车了，分时也还可以，量能也是微放，但买后近一个小时一直没封住，尾盘回封。",
     "image_list": [
-      "Screenshot_2024-03-18-16-19-50-53_5c5979e609b9ed4a43e94260d67cf51e.webp"
+      "Screenshot_2024-03-18-16-19-50-53_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-03-19-16-02-30-25_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-03-19-16-02-46-15_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
     "gpName": "亚普股份",
     "formerDate": "2024-03-18",
-    "mode": -1,
+    "mode": 1,
     "lastPrice": 0.14,
     "failureReason": [7],
-    "resultPoint": 0,
+    "resultPoint": 0.5,
     "buyReason": "K线形态和分时都还行，但前面有前高，今天的量应该是有点不够，但行情在这，不想错过行情就买了。",
     "image_list": [
-      "Screenshot_2024-03-18-16-21-19-57_5c5979e609b9ed4a43e94260d67cf51e.webp"
+      "Screenshot_2024-03-18-16-21-19-57_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-03-19-16-03-18-09_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-03-19-16-03-27-16_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
     "gpName": "佳电股份",
     "formerDate": "2024-03-18",
-    "mode": -1,
+    "mode": 1,
     "lastPrice": 0,
-    "failureReason": [0],
-    "resultPoint": 0,
+    "failureReason": [3],
+    "resultPoint": -1.8,
     "buyReason": "开盘个股强势，但根本排不上，这票K线和分时都还行，但股性略差，还有就是可能盘子略大，最近都喜欢小盘股",
     "image_list": [
       "Screenshot_2024-03-18-16-17-56-03_5c5979e609b9ed4a43e94260d67cf51e.webp"
