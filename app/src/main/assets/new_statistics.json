@@ -1,42 +1,74 @@
 [
   {
-    "gpName": "宇环数控",
-    "formerDate": "2024-03-19",
+    "gpName": "力盛体育",
+    "formerDate": "2024-03-20",
     "mode": -1,
-    "lastPrice": 0,
-    "failureReason": [0],
+    "lastPrice": 0.18,
+    "failureReason": [],
     "resultPoint": 0,
-    "buyReason": "K线形态感觉较好，有大单，有量，分时也还可以，但买后半个小时炸板，未回封。",
+    "buyReason": "开板后的回封，回封时量不大，第一次上板有0.76亿，第二次上板就冲了。",
     "image_list": [
-      "Screenshot_2024-03-19-16-02-04-26_5c5979e609b9ed4a43e94260d67cf51e.webp"
+      "Screenshot_2024-03-20-15-29-44-21_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "中广天择",
+    "formerDate": "2024-03-20",
+    "mode": -1,
+    "lastPrice": 0.65,
+    "failureReason": [],
+    "resultPoint": 0,
+    "buyReason": "开板后的回封，回封时量不大，第一次上板有0.76亿，第二次上板就冲了。",
+    "image_list": [
+      "Screenshot_2024-03-20-15-29-20-40_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "超迅通信",
+    "formerDate": "2024-03-20",
+    "mode": -1,
+    "lastPrice": 0.38,
+    "failureReason": [],
+    "resultPoint": 0,
+    "buyReason": "上车的时候，均线还差的远，当时秒炸，好在后续上板了，量能放的相对安全些，",
+    "image_list": [
+      "Screenshot_2024-03-20-15-28-37-18_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
     "gpName": "引力传媒",
-    "formerDate": "2024-03-18",
-    "mode": 1,
-    "lastPrice": 0.61,
+    "formerDate": "2024-03-20",
+    "mode": -1,
+    "lastPrice": 0.51,
     "failureReason": [],
-    "resultPoint": 2.1,
-    "buyReason": "K线形态感觉很漂亮，板上未见大单就上车了，分时也还可以，量能也是微放，但买后近一个小时一直没封住，尾盘回封。",
+    "resultPoint": 0,
+    "buyReason": "K线形态比较好，双响炮形态，7个点左右就有这种预感，但还是坚持上板再上车。",
     "image_list": [
-      "Screenshot_2024-03-18-16-19-50-53_5c5979e609b9ed4a43e94260d67cf51e.webp",
-      "Screenshot_2024-03-19-16-02-30-25_5c5979e609b9ed4a43e94260d67cf51e.webp",
-      "Screenshot_2024-03-19-16-02-46-15_5c5979e609b9ed4a43e94260d67cf51e.webp"
+      "Screenshot_2024-03-20-15-28-04-28_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
-    "gpName": "亚普股份",
-    "formerDate": "2024-03-18",
-    "mode": 1,
-    "lastPrice": 0.14,
-    "failureReason": [7],
-    "resultPoint": 0.5,
-    "buyReason": "K线形态和分时都还行，但前面有前高，今天的量应该是有点不够，但行情在这，不想错过行情就买了。",
+    "gpName": "大湖股份",
+    "formerDate": "2024-03-20",
+    "mode": -1,
+    "lastPrice": 0,
+    "failureReason": [7,8],
+    "resultPoint": 0,
+    "buyReason": "上板一瞬间才发现，均线没跟上，还在3个点左右，后来封上一个小时，再就被炸开了，均线压制，未能全吃掉前面的量。",
     "image_list": [
-      "Screenshot_2024-03-18-16-21-19-57_5c5979e609b9ed4a43e94260d67cf51e.webp",
-      "Screenshot_2024-03-19-16-03-18-09_5c5979e609b9ed4a43e94260d67cf51e.webp",
-      "Screenshot_2024-03-19-16-03-27-16_5c5979e609b9ed4a43e94260d67cf51e.webp"
+      "Screenshot_2024-03-20-15-27-12-34_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "宇环数控",
+    "formerDate": "2024-03-19",
+    "mode": 1,
+    "lastPrice": 0,
+    "failureReason": [0],
+    "resultPoint": -3.6,
+    "buyReason": "K线形态感觉较好，有大单，有量，分时也还可以，但买后半个小时炸板，未回封。",
+    "image_list": [
+      "Screenshot_2024-03-19-16-02-04-26_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
@@ -45,10 +77,40 @@
     "mode": 1,
     "lastPrice": 0,
     "failureReason": [3],
-    "resultPoint": -1.8,
-    "buyReason": "开盘个股强势，但根本排不上，这票K线和分时都还行，但股性略差，还有就是可能盘子略大，最近都喜欢小盘股",
+    "resultPoint": -2.27,
+    "buyReason": "开盘个股强势，但根本排不上，这票K线和分时都还行，但股性略差，还有就是可能盘子略大，最近都喜欢小盘股，第二天高开但没有承接量，离场",
     "image_list": [
-      "Screenshot_2024-03-18-16-17-56-03_5c5979e609b9ed4a43e94260d67cf51e.webp"
+      "Screenshot_2024-03-18-16-17-56-03_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-03-19-16-03-36-51_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-03-19-16-03-47-21_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "亚普股份",
+    "formerDate": "2024-03-18",
+    "mode": 1,
+    "lastPrice": 0.14,
+    "failureReason": [7],
+    "resultPoint": 0.69,
+    "buyReason": "K线形态和分时都还行，但前面有前高，今天的量应该是有点不够，但行情在这，不想错过行情就买了。第二天承接小，卖了，后来还涨了3-4个点",
+    "image_list": [
+      "Screenshot_2024-03-18-16-21-19-57_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-03-19-16-03-18-09_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-03-19-16-03-27-16_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "引力传媒",
+    "formerDate": "2024-03-18",
+    "mode": 1,
+    "lastPrice": 0.61,
+    "failureReason": [],
+    "resultPoint": 2.25,
+    "buyReason": "K线形态感觉很漂亮，板上未见大单就上车了，分时也还可以，量能也是微放，但买后近一个小时一直没封住，尾盘回封。",
+    "image_list": [
+      "Screenshot_2024-03-18-16-19-50-53_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-03-19-16-02-30-25_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-03-19-16-02-46-15_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
@@ -57,7 +119,7 @@
     "mode": 1,
     "lastPrice": 0.5,
     "failureReason": [],
-    "resultPoint": 3.6,
+    "resultPoint": 3.21,
     "buyReason": "机器人概念，当天热点，和炒家同车，第二天开盘低于预期，才一个多点，承接2000多万，但版块看还行，冲高离场",
     "image_list": [
       "Screenshot_2024-03-15-16-04-05-35_5c5979e609b9ed4a43e94260d67cf51e.webp",
