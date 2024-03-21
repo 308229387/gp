@@ -34,7 +34,7 @@ public class EmptyBigImageActivity extends Activity {
 
         viewPager = findViewById(R.id.viewPager);
         ImagePagerAdapter adapter = new ImagePagerAdapter(this); // 你需要创建一个适配器
-//        adapter.setImageList(list);
+        adapter.setImageList(list);
         viewPager.setAdapter(adapter);
 
     }

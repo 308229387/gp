@@ -7,6 +7,9 @@ import android.widget.TextView;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.viewpager.widget.ViewPager;
 
+import com.bumptech.glide.Glide;
+import com.songyongmeng.gp.utils.AssetsUtils;
+
 import java.util.List;
 
 public class FenQiSucDetailActivity extends AppCompatActivity {
@@ -18,7 +21,6 @@ public class FenQiSucDetailActivity extends AppCompatActivity {
         Intent intent = getIntent();
         FenQiSucBean data = (FenQiSucBean) intent.getSerializableExtra("data");
         List<String> images = data.getImage_list();
-//        Glide.with(this).load(id).into((ImageView) findViewById(R.id.gp_detail_image_view));
 
         TextView name = findViewById(R.id.gp_name);
         TextView result = findViewById(R.id.result_point);
@@ -31,6 +33,7 @@ public class FenQiSucDetailActivity extends AppCompatActivity {
         ViewPager viewPager = findViewById(R.id.viewPager);
         MyPagerAdapter adapter = new MyPagerAdapter(this); // 你需要创建一个适配器
         adapter.setImageList(images);
+        adapter.setPath(Constants.COMMON_IMG_NAME);
         viewPager.setAdapter(adapter);
     }
 }

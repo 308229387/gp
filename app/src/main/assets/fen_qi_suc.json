@@ -21,10 +21,10 @@
     "formerAllValue": 303.85,
     "formerDate": "2023-09-08",
     "image_list": [
-      "zjgk_2k",
-      "zjgk_2_bid",
-      "zjgk_3_bid",
-      "zjgk_4_bid"
+      "zjgk_2k.webp",
+      "zjgk_2_bid.webp",
+      "zjgk_3_bid.webp",
+      "zjgk_4_bid.webp"
     ]
   },
   {
@@ -49,9 +49,9 @@
     "formerAllValue": 59.71,
     "formerDate": "2023-08-21",
     "image_list": [
-      "qdhj_2k",
-      "qdhj_2_bid",
-      "qdhj_3_bid"
+      "qdhj_2k.webp",
+      "qdhj_2_bid.webp",
+      "qdhj_3_bid.webp"
     ]
   },
   {
@@ -76,9 +76,9 @@
     "bidBreakTime": "09:24",
     "formerBanTime": "09:32",
     "image_list": [
-      "hfsp_k",
-      "hfsp_2_bid",
-      "hfsp_3_bid"
+      "hfsp_k.webp",
+      "hfsp_2_bid.webp",
+      "hfsp_3_bid.webp"
     ]
   },
   {
@@ -103,9 +103,9 @@
     "formerBanTime": "09:31",
     "bidStrong": 0,
     "image_list": [
-      "gcgx_k",
-      "gcgx_2_bid",
-      "gcgx_3_bid"
+      "gcgx_k.webp",
+      "gcgx_2_bid.webp",
+      "gcgx_3_bid.webp"
     ]
   },
   {
@@ -130,9 +130,9 @@
     "formerBanTime": "09:42",
     "bidStrong": -1,
     "image_list": [
-      "jkgf_3k",
-      "jkgf_2_bid",
-      "jkgf_3_bid"
+      "jkgf_3k.webp",
+      "jkgf_2_bid.webp",
+      "jkgf_3_bid.webp"
     ]
   },
   {
@@ -157,9 +157,9 @@
     "formerBanTime": "09:32",
     "bidStrong": 1,
     "image_list": [
-      "zysc_k",
-      "zysc_2_bid",
-      "zysc_3_bid"
+      "zysc_k.webp",
+      "zysc_2_bid.webp",
+      "zysc_3_bid.webp"
     ]
   },
   {
@@ -184,9 +184,9 @@
     "formerBanTime": "09:37",
     "bidStrong": 0,
     "image_list": [
-      "wakj_k",
-      "wakj_2_bid",
-      "wakj_3_bid"
+      "wakj_k.webp",
+      "wakj_2_bid.webp",
+      "wakj_3_bid.webp"
     ]
   },
   {
@@ -211,9 +211,9 @@
     "formerBanTime": "09:39",
     "bidStrong": -1,
     "image_list": [
-      "jcgf_k",
-      "jcgf_2_bid",
-      "jcgf_3_bid"
+      "jcgf_k.webp",
+      "jcgf_2_bid.webp",
+      "jcgf_3_bid.webp"
     ]
   },
   {
@@ -238,9 +238,9 @@
     "formerBanTime": "09:31",
     "bidStrong": 1,
     "image_list": [
-      "zmcd_k",
-      "zmcd_2_bid",
-      "zmcd_3_bid"
+      "zmcd_k.webp",
+      "zmcd_2_bid.webp",
+      "zmcd_3_bid.webp"
     ]
   },
   {
@@ -265,9 +265,9 @@
     "formerBanTime": "09:35",
     "bidStrong": 0,
     "image_list": [
-      "rdyl_k",
-      "rdyl_2_bid",
-      "rdyl_3_bid"
+      "rdyl_k.webp",
+      "rdyl_2_bid.webp",
+      "rdyl_3_bid.webp"
     ]
   },
   {
@@ -292,9 +292,9 @@
     "formerBanTime": "09:31",
     "bidStrong": 0,
     "image_list": [
-      "lmgf_k",
-      "lmgf_2_bid",
-      "lmgf_3_bid"
+      "lmgf_k.webp",
+      "lmgf_2_bid.webp",
+      "lmgf_3_bid.webp"
     ]
   },
   {
@@ -319,9 +319,9 @@
     "formerBanTime": "09:32",
     "bidStrong": -1,
     "image_list": [
-      "shwm_k",
-      "shwm_4_bid",
-      "shwm_5_bid"
+      "shwm_k.webp",
+      "shwm_4_bid.webp",
+      "shwm_5_bid.webp"
     ]
   }
 ]

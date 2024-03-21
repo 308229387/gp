@@ -56,16 +56,16 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.ViewHolder> {
             holder.imageView.setVisibility(View.VISIBLE);
             String image = Constants.COMMON_IMG_NAME+"/"+item.replace("image:", "");
             Glide.with(context).load(AssetsUtils.getBitmapFromAsset(context, image)).into(holder.imageView);
-//            holder.itemView.setOnClickListener(new View.OnClickListener() {
-//                @Override
-//                public void onClick(View v) {
-//                    Intent intent = new Intent(context,BigImageActivity.class);
-//                    intent.putExtra("image",id);
-//                    context.startActivity(intent);
-//                }
-//            });
-//
-//            Glide.with(context).load(id).into(holder.imageView);
+            holder.itemView.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    Intent intent = new Intent(context, BjcjBigImageActivity.class);
+                    intent.putExtra("image", item.replace("image:", ""));
+                    intent.putExtra("path",Constants.COMMON_IMG_NAME);
+                    context.startActivity(intent);
+                }
+            });
+
         }
     }
 

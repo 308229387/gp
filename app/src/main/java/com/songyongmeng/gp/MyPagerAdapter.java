@@ -21,6 +21,8 @@ public class MyPagerAdapter extends PagerAdapter {
     private List<String> images = new ArrayList<>(); // 添加你的图片资源
     private Context mContext;
 
+    private String path = "statistics_img/";
+
     public MyPagerAdapter(Context context) {
         mContext = context;
     }
@@ -39,7 +41,7 @@ public class MyPagerAdapter extends PagerAdapter {
     public Object instantiateItem(ViewGroup container, int position) {
         ImageView imageView = new ImageView(container.getContext());
 
-        String image = "statistics_img/" + images.get(position);
+        String image = path +"/"+ images.get(position);
 
         Glide.with(mContext).load(AssetsUtils.getBitmapFromAsset(mContext, image)).into(imageView);
 //        imageView.setImageResource(ToolUtils.getImages(images.get(position)));
@@ -65,5 +67,8 @@ public class MyPagerAdapter extends PagerAdapter {
 
     public void setImageList(List<String> list) {
         images = list;
+    }
+    public void setPath(String path ) {
+        this.path = path;
     }
 }
