@@ -1,11 +1,23 @@
 [
   {
+    "gpName": "慈文传媒",
+    "formerDate": "2024-03-22",
+    "mode": -1,
+    "lastPrice": 0.14,
+    "failureReason": [],
+    "resultPoint": 0,
+    "buyReason": "当天本来退潮计划空仓，中午附近传媒猛拉，这票算后排拉了起来，在板上一直很烂，最后时候还炸了下，周一不看好。",
+    "image_list": [
+      "Screenshot_2024-03-22-16-23-38-24_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
     "gpName": "力盛体育",
     "formerDate": "2024-03-20",
     "mode": 1,
     "lastPrice": 0.18,
     "failureReason": [],
-    "resultPoint": 0.2,
+    "resultPoint": 0.6,
     "buyReason": "开板后的回封，回封时量不大，第一次上板有0.76亿，第二次上板就冲了。最后一秒下跳，且竞价金额只有1千万，开盘离场。",
     "image_list": [
       "Screenshot_2024-03-20-15-29-44-21_5c5979e609b9ed4a43e94260d67cf51e.webp",
@@ -19,11 +31,27 @@
     "mode": 1,
     "lastPrice": 0.65,
     "failureReason": [],
-    "resultPoint": 17.1,
-    "buyReason": "开板后的回封，回封时量不大，第一次上板有0.76亿，第二次上板就冲了。第二天开盘竞价5000万成交，3个多亿封单，一字到收盘，第二天是1.5亿封单。 ",
+    "resultPoint": 18.1,
+    "buyReason": "开板后的回封，回封时量不大，第一次上板有0.76亿，第二次上板就冲了。第二天开盘竞价5000万成交，3个多亿封单，一字到收盘，第三天开盘才1.7，本来不及预期挂的倒2档，结果直接拉升，中间几次都没卖出去，被迫拉高了，运气。 ",
     "image_list": [
       "Screenshot_2024-03-20-15-29-20-40_5c5979e609b9ed4a43e94260d67cf51e.webp",
-      "Screenshot_2024-03-21-15-16-16-50_5c5979e609b9ed4a43e94260d67cf51e.webp"
+      "Screenshot_2024-03-21-15-16-16-50_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-03-22-16-23-56-28_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-03-22-16-24-21-50_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "大湖股份",
+    "formerDate": "2024-03-20",
+    "mode": 1,
+    "lastPrice": 0,
+    "failureReason": [7,8],
+    "resultPoint": -6.54,
+    "buyReason": "上板一瞬间才发现，均线没跟上，还在3个点左右，后来封上一个小时，再就被炸开了，均线压制，未能全吃掉前面的量，题材也差点意思",
+    "image_list": [
+      "Screenshot_2024-03-20-15-27-12-34_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-03-21-15-16-54-69_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-03-21-15-18-15-30_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
@@ -32,7 +60,7 @@
     "mode": 1,
     "lastPrice": 0.38,
     "failureReason": [],
-    "resultPoint": 4.1,
+    "resultPoint": 3.69,
     "buyReason": "上车的时候，均线还差的远，当时秒炸，好在后续上板了，量能放的相对安全些，",
     "image_list": [
       "Screenshot_2024-03-20-15-28-37-18_5c5979e609b9ed4a43e94260d67cf51e.webp",
@@ -46,26 +74,12 @@
     "mode": 1,
     "lastPrice": 0.51,
     "failureReason": [],
-    "resultPoint": 3.2,
+    "resultPoint": 3.28,
     "buyReason": "K线形态比较好，双响炮形态，7个点左右就有这种预感，但还是坚持上板再上车。",
     "image_list": [
       "Screenshot_2024-03-20-15-28-04-28_5c5979e609b9ed4a43e94260d67cf51e.webp",
-      "Screenshot_2024-03-21-15-16-04-68_5c5979e609b9ed4a43e94260d67cf51e.webp ",
+      "Screenshot_2024-03-21-15-16-04-68_5c5979e609b9ed4a43e94260d67cf51e.webp",
       "Screenshot_2024-03-21-15-17-33-76_5c5979e609b9ed4a43e94260d67cf51e.webp"
-    ]
-  },
-  {
-    "gpName": "大湖股份",
-    "formerDate": "2024-03-20",
-    "mode": 1,
-    "lastPrice": 0,
-    "failureReason": [7,8],
-    "resultPoint": -6.2,
-    "buyReason": "上板一瞬间才发现，均线没跟上，还在3个点左右，后来封上一个小时，再就被炸开了，均线压制，未能全吃掉前面的量，题材也差点意思",
-    "image_list": [
-      "Screenshot_2024-03-20-15-27-12-34_5c5979e609b9ed4a43e94260d67cf51e.webp",
-      "Screenshot_2024-03-21-15-16-54-69_5c5979e609b9ed4a43e94260d67cf51e.webp",
-      "Screenshot_2024-03-21-15-18-15-30_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
@@ -74,7 +88,7 @@
     "mode": 1,
     "lastPrice": 0,
     "failureReason": [0],
-    "resultPoint": -3.6,
+    "resultPoint": -4.05,
     "buyReason": "K线形态感觉较好，有大单，有量，分时也还可以，但买后半个小时炸板，未回封。",
     "image_list": [
       "Screenshot_2024-03-19-16-02-04-26_5c5979e609b9ed4a43e94260d67cf51e.webp",
