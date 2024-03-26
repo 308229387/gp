@@ -1,14 +1,109 @@
 [
   {
-    "gpName": "慈文传媒",
-    "formerDate": "2024-03-22",
+    "gpName": "英联股份",
+    "formerDate": "2024-03-26",
     "mode": -1,
-    "lastPrice": 0.14,
+    "lastPrice": 0,
+    "failureReason": [4,7,10],
+    "resultPoint": 0,
+    "buyReason": "K线形态好，小盘，当时版块也有上冲，股性也不错，所以上板就跟了，甚至是扫进去的，但结果让人难受。",
+    "image_list": [
+      "Screenshot_2024-03-26-16-38-33-58_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "三联铸造",
+    "formerDate": "2024-03-26",
+    "mode": -1,
+    "lastPrice": 0.29,
     "failureReason": [],
     "resultPoint": 0,
+    "buyReason": "热点版块+K线形态好，小盘，中午盯着没买到，开了就上车，上午一封1千7，下午也有1千2百万。",
+    "image_list": [
+      "Screenshot_2024-03-26-16-14-24-02_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "恒为科技",
+    "formerDate": "2024-03-26",
+    "mode": -1,
+    "lastPrice": 0,
+    "failureReason": [1,10],
+    "resultPoint": 0,
+    "buyReason": "首次上板，板上就0.6亿，二次回封上车，后面封住了一个小时又开了。这种中大票特别爱开，铜陵有色、完美世界都是这样，上板猛，但不影响开板。当天版块非热点、退潮",
+    "image_list": [
+      "Screenshot_2024-03-26-16-19-31-30_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "京华激光",
+    "formerDate": "2024-03-25",
+    "mode": 1,
+    "lastPrice": 0.41,
+    "failureReason": [],
+    "resultPoint": -1.1,
+    "buyReason": "低开上攻上板，封板资金较小，两次加起来才1500万，K线形态还行，但最后居然在退潮环境下封到了尾盘。第二天看竞价最后不好，而且承接量也只有不到1000万，就卖了，辜负了前一天的好板。定规矩，后面只要是好板，亏本也得拿到尾盘。",
+    "image_list": [
+      "Screenshot_2024-03-25-16-24-13-71_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-03-26-15-38-17-72_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-03-26-15-38-27-92_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "苏州科达",
+    "formerDate": "2024-03-25",
+    "mode": 1,
+    "lastPrice": 0,
+    "failureReason": [7,10],
+    "resultPoint": -9.7,
+    "buyReason": "版块不强，但个股K线形态和二板一字的很像，就上车了。过了20分钟，上板资金0.6亿，但后面还是开了。",
+    "image_list": [
+      "Screenshot_2024-03-25-16-23-25-04_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-03-26-15-45-02-91_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-03-26-15-45-11-48_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "安妮股份",
+    "formerDate": "2024-03-25",
+    "mode": 1,
+    "lastPrice": 0,
+    "failureReason": [4,7,10],
+    "resultPoint": -11.2,
+    "buyReason": "盘整一会后直接拉涨停，上板0.38亿，第二次上冲未涨停就上车了。后一路向下，版块非热点，但版块内有其他涨停一两只",
+    "image_list": [
+      "Screenshot_2024-03-25-16-19-15-54_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-03-26-15-45-47-62_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-03-26-15-45-55-63_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "慈文传媒",
+    "formerDate": "2024-03-22",
+    "mode": 1,
+    "lastPrice": 0.14,
+    "failureReason": [],
+    "resultPoint": -4.94,
     "buyReason": "当天本来退潮计划空仓，中午附近传媒猛拉，这票算后排拉了起来，在板上一直很烂，最后时候还炸了下，周一不看好。",
     "image_list": [
-      "Screenshot_2024-03-22-16-23-38-24_5c5979e609b9ed4a43e94260d67cf51e.webp"
+      "Screenshot_2024-03-22-16-23-38-24_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-03-25-16-17-06-97_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-03-25-16-17-25-58_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "中广天择",
+    "formerDate": "2024-03-20",
+    "mode": 1,
+    "lastPrice": 0.65,
+    "failureReason": [],
+    "resultPoint": 17.9,
+    "buyReason": "开板后的回封，回封时量不大，第一次上板有0.76亿，第二次上板就冲了。第二天开盘竞价5000万成交，3个多亿封单，一字到收盘，第三天开盘才1.7，本来不及预期挂的倒2档，结果直接拉升，中间几次都没卖出去，被迫拉高了，运气。 ",
+    "image_list": [
+      "Screenshot_2024-03-20-15-29-20-40_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-03-21-15-16-16-50_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-03-22-16-23-56-28_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-03-22-16-24-21-50_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
@@ -23,21 +118,6 @@
       "Screenshot_2024-03-20-15-29-44-21_5c5979e609b9ed4a43e94260d67cf51e.webp",
       "Screenshot_2024-03-21-15-16-41-80_5c5979e609b9ed4a43e94260d67cf51e.webp",
       "Screenshot_2024-03-21-15-18-00-30_5c5979e609b9ed4a43e94260d67cf51e.webp"
-    ]
-  },
-  {
-    "gpName": "中广天择",
-    "formerDate": "2024-03-20",
-    "mode": 1,
-    "lastPrice": 0.65,
-    "failureReason": [],
-    "resultPoint": 18.1,
-    "buyReason": "开板后的回封，回封时量不大，第一次上板有0.76亿，第二次上板就冲了。第二天开盘竞价5000万成交，3个多亿封单，一字到收盘，第三天开盘才1.7，本来不及预期挂的倒2档，结果直接拉升，中间几次都没卖出去，被迫拉高了，运气。 ",
-    "image_list": [
-      "Screenshot_2024-03-20-15-29-20-40_5c5979e609b9ed4a43e94260d67cf51e.webp",
-      "Screenshot_2024-03-21-15-16-16-50_5c5979e609b9ed4a43e94260d67cf51e.webp",
-      "Screenshot_2024-03-22-16-23-56-28_5c5979e609b9ed4a43e94260d67cf51e.webp",
-      "Screenshot_2024-03-22-16-24-21-50_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
