@@ -1,11 +1,12 @@
 [
+
   {
     "gpName": "英联股份",
     "formerDate": "2024-03-26",
-    "mode": -1,
+    "mode": 1,
     "lastPrice": 0,
     "failureReason": [4,7,10],
-    "resultPoint": 0,
+    "resultPoint": -6.2,
     "buyReason": "K线形态好，小盘，当时版块也有上冲，股性也不错，所以上板就跟了，甚至是扫进去的，但结果让人难受。",
     "image_list": [
       "Screenshot_2024-03-26-16-38-33-58_5c5979e609b9ed4a43e94260d67cf51e.webp"
@@ -14,11 +15,11 @@
   {
     "gpName": "三联铸造",
     "formerDate": "2024-03-26",
-    "mode": -1,
+    "mode": 1,
     "lastPrice": 0.29,
     "failureReason": [],
-    "resultPoint": 0,
-    "buyReason": "热点版块+K线形态好，小盘，中午盯着没买到，开了就上车，上午一封1千7，下午也有1千2百万。",
+    "resultPoint": -10.1,
+    "buyReason": "热点版块+K线形态好，小盘，中午盯着没买到，开了就上车，上午一封1千7，下午也有1千2百万。觉得昨天封板还可以，就坚持的拿了拿，结果一路下行，下午跌停不得不离场。",
     "image_list": [
       "Screenshot_2024-03-26-16-14-24-02_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
@@ -26,10 +27,10 @@
   {
     "gpName": "恒为科技",
     "formerDate": "2024-03-26",
-    "mode": -1,
+    "mode": 1,
     "lastPrice": 0,
     "failureReason": [1,10],
-    "resultPoint": 0,
+    "resultPoint": -7.2,
     "buyReason": "首次上板，板上就0.6亿，二次回封上车，后面封住了一个小时又开了。这种中大票特别爱开，铜陵有色、完美世界都是这样，上板猛，但不影响开板。当天版块非热点、退潮",
     "image_list": [
       "Screenshot_2024-03-26-16-19-31-30_5c5979e609b9ed4a43e94260d67cf51e.webp"
