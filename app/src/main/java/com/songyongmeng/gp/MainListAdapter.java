@@ -2,6 +2,7 @@ package com.songyongmeng.gp;
 
 import android.content.Context;
 import android.graphics.Color;
+import android.text.Html;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -114,7 +115,7 @@ public class MainListAdapter extends BaseExpandableListAdapter {
             childViewHolder = (ChildViewHolder) convertView.getTag();
         }
         String title = data.get(groupPosition).getData().get(childPosition).getRichText().get(0).replace("title:","");
-        childViewHolder.chidren_item.setText(title);
+        childViewHolder.chidren_item.setText(Html.fromHtml(title));
         if (Hawk.contains(title)) {
             QABean tmp = Hawk.get(title);
             switch (tmp.getCount()) {

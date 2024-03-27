@@ -2,6 +2,7 @@ package com.songyongmeng.gp;
 
 import android.content.Context;
 import android.content.Intent;
+import android.text.Html;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -44,7 +45,7 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.ViewHolder> {
             holder.titleView.setVisibility(View.VISIBLE);
             holder.textView.setVisibility(View.GONE);
             holder.imageView.setVisibility(View.GONE);
-            holder.titleView.setText(item.replace("title:", ""));
+            holder.titleView.setText(Html.fromHtml(item.replace("title:", "")));
         }else if(item.startsWith("text:")){
             holder.titleView.setVisibility(View.GONE);
             holder.textView.setVisibility(View.VISIBLE);
