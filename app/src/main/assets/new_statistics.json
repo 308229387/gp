@@ -1,5 +1,83 @@
 [
   {
+    "gpName": "顺灏股份",
+    "formerDate": "2024-03-28",
+    "mode": -1,
+    "lastPrice": 0.12,
+    "failureReason": [],
+    "resultPoint": 0,
+    "buyReason": "K线形态还可以，京华激光的跟风吧。封单比较弱，明天可以拿到尾",
+    "image_list": [
+      "Screenshot_2024-03-28-17-21-59-27_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      ""
+    ]
+  },
+  {
+    "gpName": "宗申动力",
+    "formerDate": "2024-03-28",
+    "mode": -1,
+    "lastPrice": 0.11,
+    "failureReason": [],
+    "resultPoint": 0,
+    "buyReason": "非热点版块，打的回封，力度也一般，K线形态尚可，尾盘炸了下，版块内有别的票也一起跟着炸了",
+    "image_list": [
+      "Screenshot_2024-03-28-17-21-59-27_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      ""
+    ]
+  },
+  {
+    "gpName": "亚振家居",
+    "formerDate": "2024-03-28",
+    "mode": -1,
+    "lastPrice": 0.36,
+    "failureReason": [],
+    "resultPoint": 0,
+    "buyReason": "发现首板也是要看情绪的，吃肉也没接力痛快，就想着找个接力试试，外加情绪不错，上车了。板上抛压比较小。",
+    "image_list": [
+      "Screenshot_2024-03-28-17-21-08-75_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      ""
+    ]
+  },
+  {
+    "gpName": "可川科技",
+    "formerDate": "2024-03-28",
+    "mode": -1,
+    "lastPrice": 0,
+    "failureReason": [1,7],
+    "resultPoint": 0,
+    "buyReason": "K线形态很好，量能不行+版块不行，觉得行情好肯定能板，鲁莽了。",
+    "image_list": [
+      "Screenshot_2024-03-28-17-19-54-08_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      ""
+    ]
+  },
+  {
+    "gpName": "浪潮信息",
+    "formerDate": "2024-03-28",
+    "mode": -1,
+    "lastPrice": 4.32,
+    "failureReason": [5],
+    "resultPoint": 0,
+    "buyReason": "分时强劲，K线也还可以，当天情绪好，提前上车。",
+    "image_list": [
+      "Screenshot_2024-03-28-17-18-30-85_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      ""
+    ]
+  },
+  {
+    "gpName": "科大讯飞",
+    "formerDate": "2024-03-28",
+    "mode": -1,
+    "lastPrice": 0,
+    "failureReason": [5],
+    "resultPoint": 0,
+    "buyReason": "当中军来买的，当天行情比较好，但这票K线形态太差，最后没有得到大家的认可。",
+    "image_list": [
+      "Screenshot_2024-03-28-17-16-30-55_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      ""
+    ]
+  },
+  {
     "gpName": "振德医疗",
     "formerDate": "2024-03-27",
     "mode": 1,
@@ -9,7 +87,8 @@
     "buyReason": "K线形态较好，上板资金小，手欠退潮还随便排了，结果因为卡，看着还封着呢，结果一买就进去了。",
     "image_list": [
       "Screenshot_2024-03-27-16-36-33-11_5c5979e609b9ed4a43e94260d67cf51e.webp",
-      ""
+      "Screenshot_2024-03-28-17-14-53-49_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-03-28-17-15-05-65_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
@@ -22,7 +101,8 @@
     "buyReason": "看了一眼K线还行，条件反射的买了。真是无语了，退潮+匆忙下单",
     "image_list": [
       "Screenshot_2024-03-27-16-37-00-28_5c5979e609b9ed4a43e94260d67cf51e.webp",
-      ""
+      "Screenshot_2024-03-28-17-14-23-19_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-03-28-17-14-34-93_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
 
