@@ -1,17 +1,31 @@
 [
-
   {
-    "gpName": "英联股份",
-    "formerDate": "2024-03-26",
+    "gpName": "振德医疗",
+    "formerDate": "2024-03-27",
     "mode": 1,
     "lastPrice": 0,
-    "failureReason": [4,7,10],
-    "resultPoint": -6.2,
-    "buyReason": "K线形态好，小盘，当时版块也有上冲，股性也不错，所以上板就跟了，甚至是扫进去的，但结果让人难受。",
+    "failureReason": [1,3,10],
+    "resultPoint": -9.2,
+    "buyReason": "K线形态较好，上板资金小，手欠退潮还随便排了，结果因为卡，看着还封着呢，结果一买就进去了。",
     "image_list": [
-      "Screenshot_2024-03-26-16-38-33-58_5c5979e609b9ed4a43e94260d67cf51e.webp"
+      "Screenshot_2024-03-27-16-36-33-11_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      ""
     ]
   },
+  {
+    "gpName": "大湖股份",
+    "formerDate": "2024-03-26",
+    "mode": 2,
+    "lastPrice": 0,
+    "failureReason": [4,7,10,12],
+    "resultPoint": -9.03,
+    "buyReason": "看了一眼K线还行，条件反射的买了。真是无语了，退潮+匆忙下单",
+    "image_list": [
+      "Screenshot_2024-03-27-16-37-00-28_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      ""
+    ]
+  },
+
   {
     "gpName": "三联铸造",
     "formerDate": "2024-03-26",
@@ -21,7 +35,23 @@
     "resultPoint": -10.1,
     "buyReason": "热点版块+K线形态好，小盘，中午盯着没买到，开了就上车，上午一封1千7，下午也有1千2百万。觉得昨天封板还可以，就坚持的拿了拿，结果一路下行，下午跌停不得不离场。",
     "image_list": [
-      "Screenshot_2024-03-26-16-14-24-02_5c5979e609b9ed4a43e94260d67cf51e.webp"
+      "Screenshot_2024-03-26-16-14-24-02_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-03-27-16-34-46-65_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-03-27-16-35-21-85_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "英联股份",
+    "formerDate": "2024-03-26",
+    "mode": 1,
+    "lastPrice": 0,
+    "failureReason": [4,7,10],
+    "resultPoint": -6.03,
+    "buyReason": "K线形态好，小盘，当时版块也有上冲，股性也不错，所以上板就跟了，甚至是扫进去的，但结果让人难受。",
+    "image_list": [
+      "Screenshot_2024-03-26-16-38-33-58_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-03-27-16-35-07-75_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-03-27-16-35-38-08_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
@@ -30,10 +60,28 @@
     "mode": 1,
     "lastPrice": 0,
     "failureReason": [1,10],
-    "resultPoint": -7.2,
+    "resultPoint": -7.99,
     "buyReason": "首次上板，板上就0.6亿，二次回封上车，后面封住了一个小时又开了。这种中大票特别爱开，铜陵有色、完美世界都是这样，上板猛，但不影响开板。当天版块非热点、退潮",
     "image_list": [
-      "Screenshot_2024-03-26-16-19-31-30_5c5979e609b9ed4a43e94260d67cf51e.webp"
+      "Screenshot_2024-03-26-16-19-31-30_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-03-27-16-34-55-50_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-03-27-16-35-29-87_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+
+
+  {
+    "gpName": "安妮股份",
+    "formerDate": "2024-03-25",
+    "mode": 1,
+    "lastPrice": 0,
+    "failureReason": [4,7,10],
+    "resultPoint": -11.96,
+    "buyReason": "盘整一会后直接拉涨停，上板0.38亿，第二次上冲未涨停就上车了。后一路向下，版块非热点，但版块内有其他涨停一两只",
+    "image_list": [
+      "Screenshot_2024-03-25-16-19-15-54_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-03-26-15-45-47-62_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-03-26-15-45-55-63_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
@@ -42,7 +90,7 @@
     "mode": 1,
     "lastPrice": 0.41,
     "failureReason": [],
-    "resultPoint": -1.1,
+    "resultPoint": -2.0,
     "buyReason": "低开上攻上板，封板资金较小，两次加起来才1500万，K线形态还行，但最后居然在退潮环境下封到了尾盘。第二天看竞价最后不好，而且承接量也只有不到1000万，就卖了，辜负了前一天的好板。定规矩，后面只要是好板，亏本也得拿到尾盘。",
     "image_list": [
       "Screenshot_2024-03-25-16-24-13-71_5c5979e609b9ed4a43e94260d67cf51e.webp",
@@ -56,26 +104,12 @@
     "mode": 1,
     "lastPrice": 0,
     "failureReason": [7,10],
-    "resultPoint": -9.7,
+    "resultPoint": -9.69,
     "buyReason": "版块不强，但个股K线形态和二板一字的很像，就上车了。过了20分钟，上板资金0.6亿，但后面还是开了。",
     "image_list": [
       "Screenshot_2024-03-25-16-23-25-04_5c5979e609b9ed4a43e94260d67cf51e.webp",
       "Screenshot_2024-03-26-15-45-02-91_5c5979e609b9ed4a43e94260d67cf51e.webp",
       "Screenshot_2024-03-26-15-45-11-48_5c5979e609b9ed4a43e94260d67cf51e.webp"
-    ]
-  },
-  {
-    "gpName": "安妮股份",
-    "formerDate": "2024-03-25",
-    "mode": 1,
-    "lastPrice": 0,
-    "failureReason": [4,7,10],
-    "resultPoint": -11.2,
-    "buyReason": "盘整一会后直接拉涨停，上板0.38亿，第二次上冲未涨停就上车了。后一路向下，版块非热点，但版块内有其他涨停一两只",
-    "image_list": [
-      "Screenshot_2024-03-25-16-19-15-54_5c5979e609b9ed4a43e94260d67cf51e.webp",
-      "Screenshot_2024-03-26-15-45-47-62_5c5979e609b9ed4a43e94260d67cf51e.webp",
-      "Screenshot_2024-03-26-15-45-55-63_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
