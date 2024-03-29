@@ -13,8 +13,8 @@ public class ReasonForFailure {
     public static final String REASON_9= "误操作";//对应编号9
     public static final String REASON_10 = "退潮环境差";//对应编号10
     public static final String REASON_11 = "排单未撤，被炸进去";//对应编号11
-    public static final String REASON_12 = "太仓促，没看指标";//对应编号12
-    public static final String REASON_13 = "盘口差";//对应编号13
+    public static final String REASON_12 = "太仓促";//对应编号12
+    public static final String REASON_13 = "上板分时量太弱";//对应编号13
     public static final String REASON_14 = "软件、网络问题，卡死，无法登录";//对应编号14
 
 }

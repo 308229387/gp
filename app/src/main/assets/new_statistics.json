@@ -45,7 +45,7 @@
     "gpName": "顺灏股份",
     "formerDate": "2024-03-28",
     "mode": 1,
-    "lastPrice": 0.12,
+    "lastPrice": 0.11,
     "failureReason": [],
     "resultPoint": -3.6,
     "buyReason": "K线形态还可以，京华激光的跟风吧。封单比较弱，明天可以拿到尾",
@@ -72,7 +72,7 @@
   {
     "gpName": "亚振家居",
     "formerDate": "2024-03-28",
-    "mode": 1,
+    "mode": 5,
     "lastPrice": 0.36,
     "failureReason": [],
     "resultPoint": -4.1,
@@ -131,6 +131,23 @@
     ]
   },
   {
+    "gpName": "大湖股份",
+    "formerDate": "2024-03-27",
+    "mode": 2,
+    "lastPrice": 0,
+    "failureReason": [
+      10,
+      12
+    ],
+    "resultPoint": -9.22,
+    "buyReason": "看了一眼K线还行，条件反射的买了。真是无语了，退潮+匆忙下单",
+    "image_list": [
+      "Screenshot_2024-03-27-16-37-00-28_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-03-28-17-14-23-19_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-03-28-17-14-34-93_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
     "gpName": "振德医疗",
     "formerDate": "2024-03-27",
     "mode": 1,
@@ -140,31 +157,12 @@
       3,
       10
     ],
-    "resultPoint": -9.2,
+    "resultPoint": -10.04,
     "buyReason": "K线形态较好，上板资金小，手欠退潮还随便排了，结果因为卡，看着还封着呢，结果一买就进去了。",
     "image_list": [
       "Screenshot_2024-03-27-16-36-33-11_5c5979e609b9ed4a43e94260d67cf51e.webp",
       "Screenshot_2024-03-28-17-14-53-49_5c5979e609b9ed4a43e94260d67cf51e.webp",
       "Screenshot_2024-03-28-17-15-05-65_5c5979e609b9ed4a43e94260d67cf51e.webp"
-    ]
-  },
-  {
-    "gpName": "大湖股份",
-    "formerDate": "2024-03-27",
-    "mode": 2,
-    "lastPrice": 0,
-    "failureReason": [
-      4,
-      7,
-      10,
-      12
-    ],
-    "resultPoint": -9.03,
-    "buyReason": "看了一眼K线还行，条件反射的买了。真是无语了，退潮+匆忙下单",
-    "image_list": [
-      "Screenshot_2024-03-27-16-37-00-28_5c5979e609b9ed4a43e94260d67cf51e.webp",
-      "Screenshot_2024-03-28-17-14-23-19_5c5979e609b9ed4a43e94260d67cf51e.webp",
-      "Screenshot_2024-03-28-17-14-34-93_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
@@ -516,7 +514,7 @@
     "lastPrice": 0,
     "failureReason": [
       1,
-      3,
+      6,
       13
     ],
     "resultPoint": -6.36,
