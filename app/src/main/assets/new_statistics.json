@@ -1,80 +1,133 @@
 [
   {
-    "gpName": "顺灏股份",
-    "formerDate": "2024-03-28",
+    "gpName": "高斯贝尔",
+    "formerDate": "2024-03-29",
     "mode": -1,
-    "lastPrice": 0.12,
+    "lastPrice": 0.08,
     "failureReason": [],
     "resultPoint": 0,
+    "buyReason": "版块转好上车，K线形态好，量能偏弱，但也行。。",
+    "image_list": [
+      "Screenshot_2024-03-29-16-15-16-67_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "",
+      ""
+    ]
+  },
+  {
+    "gpName": "世嘉科技",
+    "formerDate": "2024-03-29",
+    "mode": -1,
+    "lastPrice": 0.5,
+    "failureReason": [],
+    "resultPoint": 0,
+    "buyReason": "版块偏好，K线形态好，量能足，打的回封。",
+    "image_list": [
+      "Screenshot_2024-03-29-16-14-21-37_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "",
+      ""
+    ]
+  },
+  {
+    "gpName": "盛达资源",
+    "formerDate": "2024-03-29",
+    "mode": -1,
+    "lastPrice": 0.56,
+    "failureReason": [],
+    "resultPoint": 0,
+    "buyReason": "热点版块，K线形态偏高，量能略差，但最后也是封住了。",
+    "image_list": [
+      "Screenshot_2024-03-29-16-13-20-10_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "",
+      ""
+    ]
+  },
+  {
+    "gpName": "顺灏股份",
+    "formerDate": "2024-03-28",
+    "mode": 1,
+    "lastPrice": 0.12,
+    "failureReason": [],
+    "resultPoint": -3.6,
     "buyReason": "K线形态还可以，京华激光的跟风吧。封单比较弱，明天可以拿到尾",
     "image_list": [
       "Screenshot_2024-03-28-17-21-59-27_5c5979e609b9ed4a43e94260d67cf51e.webp",
-      ""
+      "Screenshot_2024-03-29-16-12-25-28_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-03-29-16-12-29-20_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
     "gpName": "宗申动力",
     "formerDate": "2024-03-28",
-    "mode": -1,
+    "mode": 1,
     "lastPrice": 0.11,
     "failureReason": [],
-    "resultPoint": 0,
-    "buyReason": "非热点版块，打的回封，力度也一般，K线形态尚可，尾盘炸了下，版块内有别的票也一起跟着炸了",
+    "resultPoint": 6.1,
+    "buyReason": "非热点版块，打的回封，力度也一般，K线形态尚可，尾盘炸了下，版块内有别的票也一起跟着炸了,没想到，尾盘炸也能超预期",
     "image_list": [
       "Screenshot_2024-03-28-17-21-59-27_5c5979e609b9ed4a43e94260d67cf51e.webp",
-      ""
+      "Screenshot_2024-03-29-16-12-14-47_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-03-29-16-12-18-14_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
     "gpName": "亚振家居",
     "formerDate": "2024-03-28",
-    "mode": -1,
+    "mode": 1,
     "lastPrice": 0.36,
     "failureReason": [],
-    "resultPoint": 0,
+    "resultPoint": -4.1,
     "buyReason": "发现首板也是要看情绪的，吃肉也没接力痛快，就想着找个接力试试，外加情绪不错，上车了。板上抛压比较小。",
     "image_list": [
       "Screenshot_2024-03-28-17-21-08-75_5c5979e609b9ed4a43e94260d67cf51e.webp",
-      ""
+      "Screenshot_2024-03-29-16-12-00-66_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-03-29-16-12-04-30_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
     "gpName": "可川科技",
     "formerDate": "2024-03-28",
-    "mode": -1,
+    "mode": 1,
     "lastPrice": 0,
-    "failureReason": [1,7],
-    "resultPoint": 0,
+    "failureReason": [
+      1,
+      7
+    ],
+    "resultPoint": -3.5,
     "buyReason": "K线形态很好，量能不行+版块不行，觉得行情好肯定能板，鲁莽了。",
     "image_list": [
       "Screenshot_2024-03-28-17-19-54-08_5c5979e609b9ed4a43e94260d67cf51e.webp",
-      ""
+      "Screenshot_2024-03-29-16-11-42-16_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-03-29-16-11-45-86_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
     "gpName": "浪潮信息",
     "formerDate": "2024-03-28",
-    "mode": -1,
+    "mode": 1,
     "lastPrice": 4.32,
-    "failureReason": [5],
-    "resultPoint": 0,
+    "failureReason": [],
+    "resultPoint": -2.5,
     "buyReason": "分时强劲，K线也还可以，当天情绪好，提前上车。",
     "image_list": [
       "Screenshot_2024-03-28-17-18-30-85_5c5979e609b9ed4a43e94260d67cf51e.webp",
-      ""
+      "Screenshot_2024-03-29-16-11-27-24_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-03-29-16-11-31-19_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
     "gpName": "科大讯飞",
     "formerDate": "2024-03-28",
-    "mode": -1,
+    "mode": 1,
     "lastPrice": 0,
-    "failureReason": [5],
-    "resultPoint": 0,
+    "failureReason": [
+      5
+    ],
+    "resultPoint": -0.3,
     "buyReason": "当中军来买的，当天行情比较好，但这票K线形态太差，最后没有得到大家的认可。",
     "image_list": [
       "Screenshot_2024-03-28-17-16-30-55_5c5979e609b9ed4a43e94260d67cf51e.webp",
-      ""
+      "Screenshot_2024-03-29-16-10-29-43_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-03-29-16-11-03-02_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
@@ -82,7 +135,11 @@
     "formerDate": "2024-03-27",
     "mode": 1,
     "lastPrice": 0,
-    "failureReason": [1,3,10],
+    "failureReason": [
+      1,
+      3,
+      10
+    ],
     "resultPoint": -9.2,
     "buyReason": "K线形态较好，上板资金小，手欠退潮还随便排了，结果因为卡，看着还封着呢，结果一买就进去了。",
     "image_list": [
@@ -96,7 +153,12 @@
     "formerDate": "2024-03-27",
     "mode": 2,
     "lastPrice": 0,
-    "failureReason": [4,7,10,12],
+    "failureReason": [
+      4,
+      7,
+      10,
+      12
+    ],
     "resultPoint": -9.03,
     "buyReason": "看了一眼K线还行，条件反射的买了。真是无语了，退潮+匆忙下单",
     "image_list": [
@@ -105,7 +167,6 @@
       "Screenshot_2024-03-28-17-14-34-93_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
-
   {
     "gpName": "三联铸造",
     "formerDate": "2024-03-26",
@@ -125,7 +186,11 @@
     "formerDate": "2024-03-26",
     "mode": 1,
     "lastPrice": 0,
-    "failureReason": [4,7,10],
+    "failureReason": [
+      4,
+      7,
+      10
+    ],
     "resultPoint": -6.03,
     "buyReason": "K线形态好，小盘，当时版块也有上冲，股性也不错，所以上板就跟了，甚至是扫进去的，但结果让人难受。",
     "image_list": [
@@ -139,7 +204,10 @@
     "formerDate": "2024-03-26",
     "mode": 1,
     "lastPrice": 0,
-    "failureReason": [1,10],
+    "failureReason": [
+      1,
+      10
+    ],
     "resultPoint": -7.99,
     "buyReason": "首次上板，板上就0.6亿，二次回封上车，后面封住了一个小时又开了。这种中大票特别爱开，铜陵有色、完美世界都是这样，上板猛，但不影响开板。当天版块非热点、退潮",
     "image_list": [
@@ -148,14 +216,16 @@
       "Screenshot_2024-03-27-16-35-29-87_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
-
-
   {
     "gpName": "安妮股份",
     "formerDate": "2024-03-25",
     "mode": 1,
     "lastPrice": 0,
-    "failureReason": [4,7,10],
+    "failureReason": [
+      4,
+      7,
+      10
+    ],
     "resultPoint": -11.96,
     "buyReason": "盘整一会后直接拉涨停，上板0.38亿，第二次上冲未涨停就上车了。后一路向下，版块非热点，但版块内有其他涨停一两只",
     "image_list": [
@@ -183,7 +253,10 @@
     "formerDate": "2024-03-25",
     "mode": 1,
     "lastPrice": 0,
-    "failureReason": [7,10],
+    "failureReason": [
+      7,
+      10
+    ],
     "resultPoint": -9.69,
     "buyReason": "版块不强，但个股K线形态和二板一字的很像，就上车了。过了20分钟，上板资金0.6亿，但后面还是开了。",
     "image_list": [
@@ -240,7 +313,10 @@
     "formerDate": "2024-03-20",
     "mode": 1,
     "lastPrice": 0,
-    "failureReason": [7,8],
+    "failureReason": [
+      7,
+      8
+    ],
     "resultPoint": -6.54,
     "buyReason": "上板一瞬间才发现，均线没跟上，还在3个点左右，后来封上一个小时，再就被炸开了，均线压制，未能全吃掉前面的量，题材也差点意思",
     "image_list": [
@@ -282,7 +358,9 @@
     "formerDate": "2024-03-19",
     "mode": 1,
     "lastPrice": 0,
-    "failureReason": [0],
+    "failureReason": [
+      0
+    ],
     "resultPoint": -4.05,
     "buyReason": "K线形态感觉较好，有大单，有量，分时也还可以，但买后半个小时炸板，未回封。",
     "image_list": [
@@ -296,7 +374,9 @@
     "formerDate": "2024-03-18",
     "mode": 1,
     "lastPrice": 0,
-    "failureReason": [3],
+    "failureReason": [
+      3
+    ],
     "resultPoint": -2.27,
     "buyReason": "开盘个股强势，但根本排不上，这票K线和分时都还行，但股性略差，还有就是可能盘子略大，最近都喜欢小盘股，第二天高开但没有承接量，离场",
     "image_list": [
@@ -310,7 +390,9 @@
     "formerDate": "2024-03-18",
     "mode": 1,
     "lastPrice": 0.14,
-    "failureReason": [7],
+    "failureReason": [
+      7
+    ],
     "resultPoint": 0.69,
     "buyReason": "K线形态和分时都还行，但前面有前高，今天的量应该是有点不够，但行情在这，不想错过行情就买了。第二天承接小，卖了，后来还涨了3-4个点",
     "image_list": [

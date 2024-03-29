@@ -3,6 +3,7 @@ package com.songyongmeng.gp;
 import android.annotation.SuppressLint;
 import android.content.Context;
 import android.graphics.Color;
+import android.os.Build;
 import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -10,6 +11,7 @@ import android.view.ViewGroup;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
+import androidx.annotation.RequiresApi;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.songyongmeng.gp.utils.OnNewItemClickListener;
@@ -20,8 +22,10 @@ import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.stream.Collectors;
 
 public class MonthStatisticsAdapter extends RecyclerView.Adapter<MonthStatisticsAdapter.ViewHolder> {
 
@@ -45,6 +49,7 @@ public class MonthStatisticsAdapter extends RecyclerView.Adapter<MonthStatistics
         modifyData();
     }
 
+    @RequiresApi(api = Build.VERSION_CODES.N)
     private void modifyData() {
         int allNum = 0;
         int allNumNum = 0;
@@ -473,6 +478,9 @@ public class MonthStatisticsAdapter extends RecyclerView.Adapter<MonthStatistics
             int monthAllNum = 0;
 
             List<NewStatisticsBean> monthItems = dataMap.get(month);
+
+            List<Integer> failureReasonList = new ArrayList<>();
+
             for (NewStatisticsBean item : monthItems) {
                 if (item.getMode() == 1) {
                     firstBan++;
@@ -516,10 +524,36 @@ public class MonthStatisticsAdapter extends RecyclerView.Adapter<MonthStatistics
                     }
                 }
 
+                if (item.getFailureReason() != null) {
+                    failureReasonList.addAll(item.getFailureReason());
+                }
                 monthAllNum++;
             }
+            Map<Integer, Integer> frequencyMap = new HashMap<>();
 
-            itemList.add(new MonthShowBean(month,firstBan, getResult(firstBan, firstBanNum), getResult(firstBan, firstBanSuc), twoPoint(firstBanSuc == 0 ? 0 : firstBanAverageSuc / firstBanSuc), twoPoint(firstBanFai == 0 ? 0 : firstBanAverageFai / firstBanFai),twoBan, getResult(twoBan, twoBanNum), getResult(twoBan, twoBanSuc), twoPoint(twoBanSuc == 0 ? 0 : twoBanAverageSuc / twoBanSuc), twoPoint(twoBanFai == 0 ? 0 : twoBanAverageFai / twoBanFai), middleBan, getResult(middleBan, middleBanSuc), monthAllNum));
+            // 计算数字出现次数
+            for (int num : failureReasonList) {
+                frequencyMap.put(num, frequencyMap.getOrDefault(num, 0) + 1);
+            }
+
+            // 对出现次数进行降序排序
+            List<Map.Entry<Integer, Integer>> sortedList = frequencyMap.entrySet().stream()
+                    .sorted(Map.Entry.comparingByValue(Collections.reverseOrder()))
+                    .collect(Collectors.toList());
+
+            StringBuilder reason = new StringBuilder("");
+            int count = 0;
+            for (Map.Entry<Integer, Integer> entry : sortedList) {
+                if (count < 2) {
+                    reason.append(getCode(entry.getKey()) + " " + entry.getValue() + "次   ");
+                    count++;
+                } else {
+                    break;
+                }
+            }
+
+
+            itemList.add(new MonthShowBean(month, firstBan, getResult(firstBan, firstBanNum), getResult(firstBan, firstBanSuc), twoPoint(firstBanSuc == 0 ? 0 : firstBanAverageSuc / firstBanSuc), twoPoint(firstBanFai == 0 ? 0 : firstBanAverageFai / firstBanFai), twoBan, getResult(twoBan, twoBanNum), getResult(twoBan, twoBanSuc), twoPoint(twoBanSuc == 0 ? 0 : twoBanAverageSuc / twoBanSuc), twoPoint(twoBanFai == 0 ? 0 : twoBanAverageFai / twoBanFai), middleBan, getResult(middleBan, middleBanSuc), monthAllNum, reason.toString()));
 
         }
 
@@ -546,6 +580,58 @@ public class MonthStatisticsAdapter extends RecyclerView.Adapter<MonthStatistics
 //        itemList.add(new ShowBean("三板", middleBan, middleBanSuc, getResult(middleBan, middleBanSuc), getResult(middleBan, middleBanNum), middleBanSuc == 0 ? 0 : middleBanAverageSuc / middleBanSuc, middleBanFai == 0 ? 0 : middleBanAverageFai / middleBanFai));
 //        itemList.add(new ShowBean("高位板", highBan, highBanSuc, getResult(highBan, highBanSuc), highBanSuc == 0 ? 0 : highBanAverageSuc / highBanSuc, highBanFai == 0 ? 0 : highBanAverageFai / highBanFai));
         originalList = new ArrayList<>(itemList); // 备份原始列表
+    }
+
+    private String getCode(Integer key) {
+        String tmp = "";
+        switch (key) {
+            case 0:
+                tmp = ReasonForFailure.REASON_0;
+                break;
+            case 1:
+                tmp = ReasonForFailure.REASON_1;
+                break;
+            case 2:
+                tmp = ReasonForFailure.REASON_2;
+                break;
+            case 3:
+                tmp = ReasonForFailure.REASON_3;
+                break;
+            case 4:
+                tmp = ReasonForFailure.REASON_4;
+                break;
+            case 5:
+                tmp = ReasonForFailure.REASON_5;
+                break;
+            case 6:
+                tmp = ReasonForFailure.REASON_6;
+                break;
+            case 7:
+                tmp = ReasonForFailure.REASON_7;
+                break;
+            case 8:
+                tmp = ReasonForFailure.REASON_8;
+                break;
+            case 9:
+                tmp = ReasonForFailure.REASON_9;
+                break;
+            case 10:
+                tmp = ReasonForFailure.REASON_10;
+                break;
+            case 11:
+                tmp = ReasonForFailure.REASON_11;
+                break;
+            case 12:
+                tmp = ReasonForFailure.REASON_12;
+                break;
+            case 13:
+                tmp = ReasonForFailure.REASON_13;
+                break;
+            case 14:
+                tmp = ReasonForFailure.REASON_14;
+                break;
+        }
+        return tmp;
     }
 
     public int getResult(int all, int suc) {
@@ -798,10 +884,12 @@ public class MonthStatisticsAdapter extends RecyclerView.Adapter<MonthStatistics
             linearLayout.removeAllViews();
 
             // 动态添加 TextView
-            for (int i = 0; i < 14; i++) {
+            for (int i = 0; i < 15; i++) {
                 TextView textView = new TextView(itemView.getContext());
                 if (i == 0) {
                     textView.setWidth(250); // 日期
+                } else if (i == 14) {
+                    textView.setWidth(1000); // 设置宽度为200像素
                 } else {
                     textView.setWidth(200); // 设置宽度为200像素
                 }
@@ -856,6 +944,9 @@ public class MonthStatisticsAdapter extends RecyclerView.Adapter<MonthStatistics
                     case 13:
                         textView.setText(data.monthAllNum + "次");
                         break;
+                    case 14:
+                        textView.setText(data.reasonStr);
+                        break;
                 }
                 linearLayout.addView(textView);
             }
@@ -870,6 +961,7 @@ public class MonthStatisticsAdapter extends RecyclerView.Adapter<MonthStatistics
 
     private class MonthShowBean {
         private String month;
+        private String reasonStr;
         private int shouBanTime;
         private int shouBanRate;
         private int erBanTime;
@@ -884,8 +976,9 @@ public class MonthStatisticsAdapter extends RecyclerView.Adapter<MonthStatistics
         private String shouBanAverageFai;
         private String erBanAverageFai;
 
-        public MonthShowBean(String month, int shouBanTime, int shouBanNum, int shouBanRate, String shouBanAverageSuc, String shouBanAverageFai, int erBanTime, int erBanNum, int erBanRate, String erBanAverageSuc, String erBanAverageFai, int sanBanTime, int sanBanRate, int monthAllNum) {
+        public MonthShowBean(String month, int shouBanTime, int shouBanNum, int shouBanRate, String shouBanAverageSuc, String shouBanAverageFai, int erBanTime, int erBanNum, int erBanRate, String erBanAverageSuc, String erBanAverageFai, int sanBanTime, int sanBanRate, int monthAllNum, String reasonStr) {
             this.month = month;
+            this.reasonStr = reasonStr;
             this.shouBanTime = shouBanTime;
             this.shouBanRate = shouBanRate;
             this.shouBanAverageSuc = shouBanAverageSuc;

@@ -75,12 +75,14 @@ MonthStatisticsAdapter adapter;
     }
 
     private void addHeaderButton(LinearLayout buttonLayout) {
-        for (int i = 0; i <14; i++) {
+        for (int i = 0; i <15; i++) {
             Button button = new Button(this);
             LinearLayout.LayoutParams layoutParams;
             if (i == 0) {
                 layoutParams = new LinearLayout.LayoutParams(230, 250);
-            } else {
+            } else if (i == 14) {
+                layoutParams = new LinearLayout.LayoutParams(970, 250);
+            } else{
                 layoutParams = new LinearLayout.LayoutParams(180, 250);
             }
             layoutParams.gravity = Gravity.CENTER; // 控制位置
@@ -212,6 +214,15 @@ MonthStatisticsAdapter adapter;
                     break;
                     case 13:
                     button.setText("本月交易次数");
+                    button.setOnClickListener(new View.OnClickListener() {
+                        @Override
+                        public void onClick(View view) {
+//                            adapter.changeRadioData();
+                        }
+                    });
+                    break;
+                case 14:
+                    button.setText("亏损主要原因");
                     button.setOnClickListener(new View.OnClickListener() {
                         @Override
                         public void onClick(View view) {
