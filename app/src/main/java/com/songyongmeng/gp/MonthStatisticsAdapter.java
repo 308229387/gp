@@ -544,7 +544,7 @@ public class MonthStatisticsAdapter extends RecyclerView.Adapter<MonthStatistics
             StringBuilder reason = new StringBuilder("");
             int count = 0;
             for (Map.Entry<Integer, Integer> entry : sortedList) {
-                if (count < 2) {
+                if (count < 5) {
                     reason.append(getCode(entry.getKey()) + " " + entry.getValue() + "次   ");
                     count++;
                 } else {
@@ -889,7 +889,7 @@ public class MonthStatisticsAdapter extends RecyclerView.Adapter<MonthStatistics
                 if (i == 0) {
                     textView.setWidth(250); // 日期
                 } else if (i == 14) {
-                    textView.setWidth(1000); // 设置宽度为200像素
+                    textView.setWidth(2500); // 设置宽度为200像素
                 } else {
                     textView.setWidth(200); // 设置宽度为200像素
                 }
