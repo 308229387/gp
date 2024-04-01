@@ -1,44 +1,88 @@
 [
   {
-    "gpName": "高斯贝尔",
-    "formerDate": "2024-03-29",
+    "gpName": "东方锆业",
+    "formerDate": "2024-04-01",
     "mode": -1,
-    "lastPrice": 0.08,
+    "lastPrice": 0,
+    "failureReason": [
+      5
+    ],
+    "resultPoint": 0,
+    "buyReason": "首板指数不错，但K线形态不算好，版块很强。",
+    "image_list": [
+      "Screenshot_2024-04-01-15-24-54-46_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "",
+      ""
+    ]
+  },
+  {
+    "gpName": "中岩大地",
+    "formerDate": "2024-04-01",
+    "mode": -1,
+    "lastPrice": 0.17,
     "failureReason": [],
     "resultPoint": 0,
+    "buyReason": "环境好，形态+量能都可以，不算热点，但前面有个3板一字",
+    "image_list": [
+      "Screenshot_2024-04-01-15-23-51-30_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "",
+      ""
+    ]
+  },
+  {
+    "gpName": "金龙羽",
+    "formerDate": "2024-04-01",
+    "mode": -1,
+    "lastPrice": 0.23,
+    "failureReason": [],
+    "resultPoint": 0,
+    "buyReason": "今天行情比较好，想着上些仓位，票量微不足，开板在涨停附近真当，下午打的回封",
+    "image_list": [
+      "Screenshot_2024-04-01-15-22-59-90_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "",
+      ""
+    ]
+  },
+  {
+    "gpName": "高斯贝尔",
+    "formerDate": "2024-03-29",
+    "mode": 1,
+    "lastPrice": 0.08,
+    "failureReason": [],
+    "resultPoint": -0.6,
     "buyReason": "版块转好上车，K线形态好，量能偏弱，但也行。。",
     "image_list": [
       "Screenshot_2024-03-29-16-15-16-67_5c5979e609b9ed4a43e94260d67cf51e.webp",
-      "",
-      ""
+      "Screenshot_2024-04-01-15-20-43-22_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-04-01-15-22-16-97_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
     "gpName": "世嘉科技",
     "formerDate": "2024-03-29",
-    "mode": -1,
+    "mode": 1,
     "lastPrice": 0.5,
     "failureReason": [],
-    "resultPoint": 0,
+    "resultPoint": 3.6,
     "buyReason": "版块偏好，K线形态好，量能足，打的回封。",
     "image_list": [
       "Screenshot_2024-03-29-16-14-21-37_5c5979e609b9ed4a43e94260d67cf51e.webp",
-      "",
-      ""
+      "Screenshot_2024-04-01-15-20-01-07_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-04-01-15-22-07-14_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
     "gpName": "盛达资源",
     "formerDate": "2024-03-29",
-    "mode": -1,
+    "mode": 1,
     "lastPrice": 0.56,
     "failureReason": [],
-    "resultPoint": 0,
+    "resultPoint": 2.6,
     "buyReason": "热点版块，K线形态偏高，量能略差，但最后也是封住了。",
     "image_list": [
       "Screenshot_2024-03-29-16-13-20-10_5c5979e609b9ed4a43e94260d67cf51e.webp",
-      "",
-      ""
+      "Screenshot_2024-04-01-15-19-33-32_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-04-01-15-22-01-28_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
@@ -850,6 +894,9 @@
     "resultPoint": -12.37,
     "buyReason": "环境差，当时看了个股k线形态有双响炮的样子，而且版块涨的也在多数，K线急拉，就上车了，但差最后一档直接落了下去。急拉+环境差，两个大问题。",
     "image_list": [
+      "Screenshot_2024-03-31-10-39-15-59_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-03-31-10-39-32-11_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-03-31-10-38-31-21_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
@@ -938,6 +985,9 @@
     "resultPoint": -9.63,
     "buyReason": "亏上头了，小平台突破形态，开板到水平线就迫不急待上车了。后面没封住，第二天开盘未急拉离场。",
     "image_list": [
+      "Screenshot_2024-03-31-10-42-26-45_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-03-31-10-42-49-40_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-03-31-10-42-08-08_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
@@ -971,6 +1021,9 @@
     "resultPoint": -16.56,
     "buyReason": "当天上板炸到水平附近，第二天大低开，侥幸想着会有自救，结果被杀到跌停线附近，不得不跑。环境差+早早拉涨停，很多空头没释放干净吧。",
     "image_list": [
+      "Screenshot_2024-03-31-10-35-05-34_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-03-31-10-34-48-83_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-03-31-10-33-28-67_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
@@ -1004,6 +1057,9 @@
     "resultPoint": -10.76,
     "buyReason": "强势版块后排，垃圾的一P，第二天超级大低开，直接负8、9个点。坚持到尾盘，当天比较忙。",
     "image_list": [
+      "Screenshot_2024-03-31-10-36-42-99_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-03-31-10-37-04-49_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-03-31-10-37-25-48_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
@@ -1407,6 +1463,9 @@
     "resultPoint": -12.1,
     "buyReason": "上板入手，从形态上来看，确实没话说，买时量能不太足，过往也还凑合，板块比较垃圾。",
     "image_list": [
+      "Screenshot_2024-03-31-10-40-54-69_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-03-31-10-41-11-40_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-03-31-10-40-24-06_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
