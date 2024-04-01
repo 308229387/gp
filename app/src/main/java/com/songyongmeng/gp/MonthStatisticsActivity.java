@@ -81,7 +81,7 @@ MonthStatisticsAdapter adapter;
             if (i == 0) {
                 layoutParams = new LinearLayout.LayoutParams(230, 250);
             } else if (i == 14) {
-                layoutParams = new LinearLayout.LayoutParams(970, 250);
+                layoutParams = new LinearLayout.LayoutParams(2470, 250);
             } else{
                 layoutParams = new LinearLayout.LayoutParams(180, 250);
             }
