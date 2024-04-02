@@ -16,5 +16,6 @@ public class ReasonForFailure {
     public static final String REASON_12 = "太仓促";//对应编号12
     public static final String REASON_13 = "上板分时量太弱";//对应编号13
     public static final String REASON_14 = "软件、网络问题，卡死，无法登录";//对应编号14
+    public static final String REASON_15 = "近期不活跃";//对应编号14
 
 }
