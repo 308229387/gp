@@ -23,7 +23,7 @@ public class BjcjBigImageActivity extends Activity {
         if (getIntent().getStringExtra("path") != null && !getIntent().getStringExtra("path").isEmpty()) {
             image = getIntent().getStringExtra("path") + "/" + getIntent().getStringExtra("image");
         } else {
-            image = Constants.SHOU_BAN_NAME + "/" + getIntent().getStringExtra("image");
+            image = Constants.YZB_IMG + "/" + getIntent().getStringExtra("image");
         }
 
         ZoomableImageView imageView = findViewById(R.id.image_view);

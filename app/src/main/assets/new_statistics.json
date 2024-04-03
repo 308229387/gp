@@ -2,57 +2,57 @@
   {
     "gpName": "恒天海龙",
     "formerDate": "2024-04-02",
-    "mode": -1,
+    "mode": 1,
     "lastPrice": 0.27,
     "failureReason": [],
-    "resultPoint": 0,
-    "buyReason": "次热点版块，上午上板没上去车，下午首板指数略有回落，但不多，开板紧盯，再上板上车。",
+    "resultPoint": -4.0,
+    "buyReason": "次热点版块，上午上板没上去车，下午首板指数略有回落，但不多，开板紧盯，再上板上车。开盘无溢价。",
     "image_list": [
       "Screenshot_2024-04-02-15-29-39-62_5c5979e609b9ed4a43e94260d67cf51e.webp",
-      "",
-      ""
+      "Screenshot_2024-04-03-15-07-57-42_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-04-03-15-09-38-67_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
     "gpName": "海印股份",
     "formerDate": "2024-04-02",
-    "mode": -1,
+    "mode": 1,
     "lastPrice": 0,
-    "failureReason": [1,15],
-    "resultPoint": 0,
-    "buyReason": "版块非热点，开盘跳空高开，一直在板附近震荡，但上板无力，太弱，，近期不够活跃，这票要拉黑了。",
+    "failureReason": [1,3,15],
+    "resultPoint": -7.2,
+    "buyReason": "版块非热点，开盘跳空高开，一直在板附近震荡，但上板无力，太弱，，近期不够活跃，这票要拉黑了。开盘大低开，直接割肉",
     "image_list": [
       "Screenshot_2024-04-02-15-29-13-58_5c5979e609b9ed4a43e94260d67cf51e.webp",
-      "",
-      ""
+      "Screenshot_2024-04-03-15-05-30-57_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-04-03-15-05-37-24_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
     "gpName": "中润资源",
     "formerDate": "2024-04-02",
-    "mode": -1,
+    "mode": 1,
     "lastPrice": 0.14,
     "failureReason": [],
-    "resultPoint": 0,
-    "buyReason": "版块非热点，环境可以，量能也有，版块一支独秀，做的回封，中午快收盘冲板上车，均线位置也还行。",
+    "resultPoint": 2.7,
+    "buyReason": "版块非热点，环境可以，量能也有，版块一支独秀，做的回封，中午快收盘冲板上车，均线位置也还行。开盘竞价量4000千万，表明这票当天表现不一般。当天回落了下，直接拉升",
     "image_list": [
       "Screenshot_2024-04-02-15-28-24-49_5c5979e609b9ed4a43e94260d67cf51e.webp",
-      "",
-      ""
+      "Screenshot_2024-04-03-15-08-55-72_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-04-03-15-09-29-19_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
     "gpName": "江山股份",
     "formerDate": "2024-04-02",
-    "mode": -1,
+    "mode": 1,
     "lastPrice": 0.37,
     "failureReason": [],
-    "resultPoint": 0,
-    "buyReason": "热点版块后排，环境可以，K线形态和量能都可以，排板的时候前面有3千多万，后面成交了2000万不到就上车了。",
+    "resultPoint": 1.3,
+    "buyReason": "热点版块后排，环境可以，K线形态和量能都可以，排板的时候前面有3千多万，后面成交了2000万不到就上车了，开盘高开3个点左右，没有竞价量，开盘回落离场",
     "image_list": [
       "Screenshot_2024-04-02-15-27-32-05_5c5979e609b9ed4a43e94260d67cf51e.webp",
-      "",
-      ""
+      "Screenshot_2024-04-03-15-11-20-46_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-04-03-15-11-25-25_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
@@ -63,7 +63,7 @@
     "failureReason": [
       5
     ],
-    "resultPoint": 8.7,
+    "resultPoint": 8.6,
     "buyReason": "首板指数不错，但K线形态不算好，版块很强。当天假涨停，差两档，第二天超预期，因为前一天太烂，而且没板，冲高离场。",
     "image_list": [
       "Screenshot_2024-04-01-15-24-54-46_5c5979e609b9ed4a43e94260d67cf51e.webp",
@@ -72,31 +72,31 @@
     ]
   },
   {
-    "gpName": "中岩大地",
-    "formerDate": "2024-04-01",
-    "mode": 1,
-    "lastPrice": 0.17,
-    "failureReason": [],
-    "resultPoint": 4.9,
-    "buyReason": "环境好，形态+量能都可以，不算热点，但前面有个3板一字，第二天开盘承接太差，才不到300万，没人抢。冲直接挂倒2档没卖出去，后冲高离场。",
-    "image_list": [
-      "Screenshot_2024-04-01-15-23-51-30_5c5979e609b9ed4a43e94260d67cf51e.webp",
-      "Screenshot_2024-04-02-15-26-00-54_5c5979e609b9ed4a43e94260d67cf51e.webp",
-      "Screenshot_2024-04-02-15-26-09-08_5c5979e609b9ed4a43e94260d67cf51e.webp"
-    ]
-  },
-  {
     "gpName": "金龙羽",
     "formerDate": "2024-04-01",
     "mode": 1,
     "lastPrice": 0.23,
     "failureReason": [],
-    "resultPoint": 2.7,
+    "resultPoint": 2.46,
     "buyReason": "今天行情比较好，想着上些仓位，票量微不足，开板在涨停附近真当，下午打的回封。冲高见有拐头离场。",
     "image_list": [
       "Screenshot_2024-04-01-15-22-59-90_5c5979e609b9ed4a43e94260d67cf51e.webp",
       "Screenshot_2024-04-02-15-23-33-61_5c5979e609b9ed4a43e94260d67cf51e.webp",
       "Screenshot_2024-04-02-15-23-58-96_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "中岩大地",
+    "formerDate": "2024-04-01",
+    "mode": 1,
+    "lastPrice": 0.17,
+    "failureReason": [],
+    "resultPoint": 4.68,
+    "buyReason": "环境好，形态+量能都可以，不算热点，但前面有个3板一字，第二天开盘承接太差，才不到300万，没人抢。冲直接挂倒2档没卖出去，后冲高离场。",
+    "image_list": [
+      "Screenshot_2024-04-01-15-23-51-30_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-04-02-15-26-00-54_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-04-02-15-26-09-08_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {

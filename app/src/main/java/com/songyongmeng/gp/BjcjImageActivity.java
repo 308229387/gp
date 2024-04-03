@@ -32,12 +32,15 @@ public class BjcjImageActivity extends Activity {
 
 
         Intent intent = getIntent();
-        List<String> images = AssetsUtils.getImageFileNamesFromAssets(this, Constants.SHOU_BAN_NAME);
-
-        Collections.shuffle(images);
+        String tmp = intent.getStringExtra("path");
+        List<String> images = AssetsUtils.getImageFileNamesFromAssets(this, tmp);
+        boolean random = intent.getBooleanExtra("random",false);
+        if(random){
+            Collections.shuffle(images);
+        }
         viewPager = findViewById(R.id.viewPager);
         BjcjImagePagerAdapter adapter = new BjcjImagePagerAdapter(this); // 你需要创建一个适配器
-        adapter.setImageList(images);
+        adapter.setImageList(images,tmp);
         viewPager.setAdapter(adapter);
 
         startAutoScroll();
@@ -51,9 +54,9 @@ public class BjcjImageActivity extends Activity {
                 int totalItems = viewPager.getAdapter().getCount();
                 int nextPage = (currentItem + 1) % totalItems;
                 viewPager.setCurrentItem(nextPage);
-                autoScrollHandler.postDelayed(this, 5000);  // 设置自动滑动的时间间隔，这里是3秒
+                autoScrollHandler.postDelayed(this, 10000);  // 设置自动滑动的时间间隔，这里是3秒
             }
-        }, 3000);
+        }, 10000);
     }
 
     @Override

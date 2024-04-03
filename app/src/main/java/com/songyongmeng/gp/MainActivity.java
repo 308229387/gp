@@ -130,8 +130,12 @@ public class MainActivity extends AppCompatActivity {
                     toFenQiSucK();
                 } else if (allData.get(groupPosition).getData().get(childPosition).getRichText().get(0).equals("title:统计有量竞价")) {
                     toBidding();
-                } else if (allData.get(groupPosition).getData().get(childPosition).getRichText().get(0).equals("title:北京炒家")) {
-                    toBigImage("bei_jing_chao_jia.json");
+                } else if (allData.get(groupPosition).getData().get(childPosition).getRichText().get(0).equals("title:高手近期首板")) {
+                    toSeeImage(Constants.YESTODAY_IMG);
+                }else if (allData.get(groupPosition).getData().get(childPosition).getRichText().get(0).equals("title:北京炒家总集")) {
+                    toSeeImage(Constants.BJCJ_IMG);
+                } else if (allData.get(groupPosition).getData().get(childPosition).getRichText().get(0).equals("title:一字板")) {
+                    toSeeImage(Constants.YZB_IMG);
                 } else if (allData.get(groupPosition).getData().get(childPosition).getRichText().get(0).equals("title:竞价抢筹成功")) {
                     toBigImage("jing_jia_qiang_chou_suc.json");
                 } else if (allData.get(groupPosition).getData().get(childPosition).getRichText().get(0).equals("title:竞价抢筹失败")) {
@@ -145,6 +149,20 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+    }
+
+    private void toSeeImage(String str) {
+        Intent intent = new Intent(MainActivity.this, BjcjImageActivity.class);
+        if(str.equals(Constants.YESTODAY_IMG)){
+            intent.putExtra("path",Constants.YESTODAY_IMG);
+        }if(str.equals(Constants.BJCJ_IMG)){
+            intent.putExtra("path",Constants.BJCJ_IMG);
+            intent.putExtra("random",true);
+        }else if(str.equals(Constants.YZB_IMG)){
+            intent.putExtra("path",Constants.YZB_IMG);
+            intent.putExtra("random",true);
+        }
+        startActivity(intent);
     }
 
     private void toBigImage(String str) {
