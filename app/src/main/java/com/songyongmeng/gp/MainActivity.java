@@ -155,12 +155,13 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(MainActivity.this, BjcjImageActivity.class);
         if(str.equals(Constants.YESTODAY_IMG)){
             intent.putExtra("path",Constants.YESTODAY_IMG);
+            intent.putExtra("random",1);
         }if(str.equals(Constants.BJCJ_IMG)){
             intent.putExtra("path",Constants.BJCJ_IMG);
-            intent.putExtra("random",true);
+            intent.putExtra("random",0);
         }else if(str.equals(Constants.YZB_IMG)){
             intent.putExtra("path",Constants.YZB_IMG);
-            intent.putExtra("random",true);
+            intent.putExtra("random",0);
         }
         startActivity(intent);
     }

@@ -1,11 +1,53 @@
 [
   {
+    "gpName": "华纬科技",
+    "formerDate": "2024-04-09",
+    "mode": -1,
+    "lastPrice": 0.1,
+    "failureReason": [],
+    "resultPoint": 0,
+    "buyReason": "当天环境还可以，早盘高开直接上板，中午在涨幅榜看到，K线形态还行，版块有一个涨停，量能也有，上板没多大量，由于仓位略低，这票也凑合，直接上车。",
+    "image_list": [
+      "Screenshot_2024-04-09-15-46-39-93_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "",
+      ""
+    ]
+  },
+  {
+    "gpName": "峨眉山A",
+    "formerDate": "2024-04-09",
+    "mode": -1,
+    "lastPrice": 0.05,
+    "failureReason": [1,15],
+    "resultPoint": 0,
+    "buyReason": "环境略好，早盘看版块涨幅很强，旅游版块也放量了，这票先上板，排板上车。但下午不够强势，中间有两三次千万的放量，最后的封单也很微弱，但已经是版块最强的了。",
+    "image_list": [
+      "Screenshot_2024-04-09-15-48-08-13_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "",
+      ""
+    ]
+  },
+  {
+    "gpName": "中润资源",
+    "formerDate": "2024-04-02",
+    "mode": 1,
+    "lastPrice": 0.14,
+    "failureReason": [],
+    "resultPoint": 2.48,
+    "buyReason": "版块非热点，环境可以，量能也有，版块一支独秀，做的回封，中午快收盘冲板上车，均线位置也还行。开盘竞价量4000千万，表明这票当天表现不一般。当天回落了下，直接拉升",
+    "image_list": [
+      "Screenshot_2024-04-02-15-28-24-49_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-04-03-15-08-55-72_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-04-03-15-09-29-19_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
     "gpName": "恒天海龙",
     "formerDate": "2024-04-02",
     "mode": 1,
     "lastPrice": 0.27,
     "failureReason": [],
-    "resultPoint": -4.0,
+    "resultPoint": -4.53,
     "buyReason": "次热点版块，上午上板没上去车，下午首板指数略有回落，但不多，开板紧盯，再上板上车。开盘无溢价。",
     "image_list": [
       "Screenshot_2024-04-02-15-29-39-62_5c5979e609b9ed4a43e94260d67cf51e.webp",
@@ -19,7 +61,7 @@
     "mode": 1,
     "lastPrice": 0,
     "failureReason": [1,3,15],
-    "resultPoint": -7.2,
+    "resultPoint": -7.37,
     "buyReason": "版块非热点，开盘跳空高开，一直在板附近震荡，但上板无力，太弱，，近期不够活跃，这票要拉黑了。开盘大低开，直接割肉",
     "image_list": [
       "Screenshot_2024-04-02-15-29-13-58_5c5979e609b9ed4a43e94260d67cf51e.webp",
@@ -28,26 +70,12 @@
     ]
   },
   {
-    "gpName": "中润资源",
-    "formerDate": "2024-04-02",
-    "mode": 1,
-    "lastPrice": 0.14,
-    "failureReason": [],
-    "resultPoint": 2.7,
-    "buyReason": "版块非热点，环境可以，量能也有，版块一支独秀，做的回封，中午快收盘冲板上车，均线位置也还行。开盘竞价量4000千万，表明这票当天表现不一般。当天回落了下，直接拉升",
-    "image_list": [
-      "Screenshot_2024-04-02-15-28-24-49_5c5979e609b9ed4a43e94260d67cf51e.webp",
-      "Screenshot_2024-04-03-15-08-55-72_5c5979e609b9ed4a43e94260d67cf51e.webp",
-      "Screenshot_2024-04-03-15-09-29-19_5c5979e609b9ed4a43e94260d67cf51e.webp"
-    ]
-  },
-  {
     "gpName": "江山股份",
     "formerDate": "2024-04-02",
     "mode": 1,
     "lastPrice": 0.37,
     "failureReason": [],
-    "resultPoint": 1.3,
+    "resultPoint": 2.08,
     "buyReason": "热点版块后排，环境可以，K线形态和量能都可以，排板的时候前面有3千多万，后面成交了2000万不到就上车了，开盘高开3个点左右，没有竞价量，开盘回落离场",
     "image_list": [
       "Screenshot_2024-04-02-15-27-32-05_5c5979e609b9ed4a43e94260d67cf51e.webp",

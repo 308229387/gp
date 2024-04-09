@@ -34,9 +34,11 @@ public class BjcjImageActivity extends Activity {
         Intent intent = getIntent();
         String tmp = intent.getStringExtra("path");
         List<String> images = AssetsUtils.getImageFileNamesFromAssets(this, tmp);
-        boolean random = intent.getBooleanExtra("random",false);
-        if(random){
+        int type = intent.getIntExtra("random",99);
+        if(type == 0){
             Collections.shuffle(images);
+        }else if(type == 1){
+            Collections.reverse(images);
         }
         viewPager = findViewById(R.id.viewPager);
         BjcjImagePagerAdapter adapter = new BjcjImagePagerAdapter(this); // 你需要创建一个适配器
