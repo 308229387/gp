@@ -50,7 +50,7 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.ViewHolder> {
             holder.titleView.setVisibility(View.GONE);
             holder.textView.setVisibility(View.VISIBLE);
             holder.imageView.setVisibility(View.GONE);
-            holder.textView.setText(item.replace("text:", ""));
+            holder.textView.setText(Html.fromHtml(item.replace("text:", "")));
         }else if(item.startsWith("image:")){
             holder.titleView.setVisibility(View.GONE);
             holder.textView.setVisibility(View.GONE);
