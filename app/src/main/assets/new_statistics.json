@@ -1,85 +1,127 @@
 [
   {
-    "gpName": "许继电气",
-    "formerDate": "2024-04-11",
+    "gpName": "瑞芯微",
+    "formerDate": "2024-04-12",
     "mode": -1,
-    "lastPrice": 0,
-    "failureReason": [2,17],
+    "lastPrice": 0.4,
+    "failureReason": [],
     "resultPoint": 0,
-    "buyReason": "买之前特意想了想，要不要再加仓位买，看着K线形态，比较好，市场也是冲高的，上板资金就0.6亿，专门挪了点外部资金上车了，当时板了，后面市场冲高回落，炸开了。",
+    "buyReason": "很早就盯着了，200多亿，K线、分时、版块都还算可以，75分的样子，提早0.5秒上车，后就封住了。",
     "image_list": [
-      "Screenshot_2024-04-11-15-16-04-89_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-04-12-19-27-11-93_5c5979e609b9ed4a43e94260d67cf51e.webp",
       "",
       ""
+    ]
+  },
+  {
+    "gpName": "北自科技",
+    "formerDate": "2024-04-12",
+    "mode": -1,
+    "lastPrice": 0.07,
+    "failureReason": [],
+    "resultPoint": 0,
+    "buyReason": "当天首板指数高开，封板资金最高才0.7个亿，按理尾盘也剩不了多少，当时就不应该再排了但看K线形态还行，就硬排上了。",
+    "image_list": [
+      "Screenshot_2024-04-12-19-26-34-89_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "",
+      ""
+    ]
+  },
+  {
+    "gpName": "春光科技",
+    "formerDate": "2024-04-12",
+    "mode": -1,
+    "lastPrice": 0.3,
+    "failureReason": [],
+    "resultPoint": 0,
+    "buyReason": "有个正丹科技20CM撑着,所以就排了个当天的热门白色家电，不算太后排，但也偏后。排单上车",
+    "image_list": [
+      "Screenshot_2024-04-12-19-25-35-57_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "",
+      ""
+    ]
+  },
+  {
+    "gpName": "许继电气",
+    "formerDate": "2024-04-11",
+    "mode": 1,
+    "lastPrice": 0,
+    "failureReason": [2,17],
+    "resultPoint": -2.01,
+    "buyReason": "买之前特意想了想，要不要再加仓位买，看着K线形态，比较好，市场也是冲高的，上板资金就0.6亿，专门挪了点外部资金上车了，当时板了，后面市场冲高回落，炸开了。第二天未封板+低竞价成交，离场",
+    "image_list": [
+      "Screenshot_2024-04-11-15-16-04-89_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-04-12-19-18-58-92_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-04-12-19-23-52-85_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
     "gpName": "华源控股",
     "formerDate": "2024-04-11",
-    "mode": -1,
+    "mode": 1,
     "lastPrice": 0,
     "failureReason": [1,17],
-    "resultPoint": 0,
-    "buyReason": "非核心，W底，不是U型底。没有被市场认可，上板资金薄弱。",
+    "resultPoint": -2.3,
+    "buyReason": "非核心，W底，不是U型底。没有被市场认可，上板资金薄弱。第二天未封板+低竞价成交，离场",
     "image_list": [
       "Screenshot_2024-04-11-15-20-00-86_5c5979e609b9ed4a43e94260d67cf51e.webp",
-      "",
-      ""
+      "Screenshot_2024-04-12-19-19-57-05_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-04-12-19-23-58-17_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
     "gpName": "锐明技术",
     "formerDate": "2024-04-11",
-    "mode": -1,
+    "mode": 1,
     "lastPrice": 0.43,
-    "failureReason": [9],
-    "resultPoint": 0,
-    "buyReason": "双响炮，版块先锋，急速拉升，回封时上车，当天市场盈亏比较好，反馈好，扫板，但仓位好像点错了，买了两回，误操作了。",
+    "failureReason": [9,17],
+    "resultPoint": -2.1,
+    "buyReason": "和创神同车，双响炮，版块先锋，急速拉升，回封时上车，当天市场盈亏比较好，反馈好，扫板，但仓位好像点错了，买了两回，误操作了。",
     "image_list": [
       "Screenshot_2024-04-11-15-44-27-91_5c5979e609b9ed4a43e94260d67cf51e.webp",
-      "",
-      ""
+      "Screenshot_2024-04-12-19-21-04-20_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-04-12-19-24-04-05_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
     "gpName": "中天广择",
     "formerDate": "2024-04-11",
-    "mode": -1,
+    "mode": 1,
     "lastPrice": 0.55,
-    "failureReason": [],
-    "resultPoint": 0,
-    "buyReason": "超跌反弹，快速上板，略放量，版块也可以，上午环境比较好，之前在票上也赚过钱，直接上车。",
+    "failureReason": [5,17],
+    "resultPoint": -2.5,
+    "buyReason": "超跌反弹，快速上板，略放量，版块也可以，上午环境比较好，之前在票上也赚过钱，直接上车。低开，竞价三千多万，感觉想开盘看下，结果没有拉升离场",
     "image_list": [
       "Screenshot_2024-04-11-15-15-09-58_5c5979e609b9ed4a43e94260d67cf51e.webp",
-      "",
-      ""
+      "Screenshot_2024-04-12-19-17-47-36_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-04-12-19-23-46-37_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
     "gpName": "数码视讯",
     "formerDate": "2024-04-11",
-    "mode": -1,
+    "mode": 1,
     "lastPrice": 0.07,
-    "failureReason": [],
-    "resultPoint": 0,
+    "failureReason": [18],
+    "resultPoint": -7.1,
     "buyReason": "开盘高开，成交1千8百多万，快速上板。sora概念，版块有一个涨停。中午360上板这票也封板了，但后来指数回落，这票后面也烂了",
     "image_list": [
       "Screenshot_2024-04-11-15-11-21-95_5c5979e609b9ed4a43e94260d67cf51e.webp",
-      "",
-      ""
+      "Screenshot_2024-04-12-19-22-28-05_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-04-12-19-24-12-30_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
     "gpName": "正丹股份",
     "formerDate": "2024-04-11",
-    "mode": -1,
+    "mode": 1,
     "lastPrice": 0.47,
     "failureReason": [],
-    "resultPoint": 0,
-    "buyReason": "开盘高开，成交1千多万，快速上板。形态有点像东方锆业，均线快速拉升。震荡了半个小时封住。版块全天表现一般",
+    "resultPoint": 20.1,
+    "buyReason": "开盘高开，成交1千多万，快速上板。形态有点像东方锆业，均线快速拉升。震荡了半个小时封住。锂电池版块较强。",
     "image_list": [
       "Screenshot_2024-04-11-15-04-53-84_5c5979e609b9ed4a43e94260d67cf51e.webp",
-      "",
+      "Screenshot_2024-04-12-19-23-22-76_5c5979e609b9ed4a43e94260d67cf51e.webp",
       ""
     ]
   },

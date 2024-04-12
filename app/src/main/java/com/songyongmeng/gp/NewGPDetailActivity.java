@@ -94,7 +94,9 @@ public class NewGPDetailActivity extends AppCompatActivity {
                     case 17:
                         builder.append(ReasonForFailure.REASON_17);
                         break;
-
+                    case 18:
+                        builder.append(ReasonForFailure.REASON_18);
+                        break;
                 }
             }
             failureReason.setText(builder.toString());

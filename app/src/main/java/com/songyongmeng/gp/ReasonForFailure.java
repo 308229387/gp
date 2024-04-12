@@ -19,6 +19,7 @@ public class ReasonForFailure {
     public static final String REASON_15 = "庄股，平时没有流通性";//对应编号15
     public static final String REASON_16 = "卖点错误";//对应编号16
     public static final String REASON_17 = "当天行情判断错误";//对应编号17
+    public static final String REASON_18 = "新方法试错";//对应编号18
 
 
 }
