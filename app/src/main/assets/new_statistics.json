@@ -2,7 +2,7 @@
   {
     "gpName": "国邦医药",
     "formerDate": "2024-04-16",
-    "mode": -1,
+    "mode": 1,
     "lastPrice": 0,
     "failureReason": [
       7,
@@ -10,8 +10,8 @@
       15,
       18
     ],
-    "resultPoint": 0,
-    "buyReason": "当天行情比较极端，非常的差，有600多支跌停，这票高开上冲上车，但一是量不足，封板才4000多万，二是环境不行，下午倒是回封了，但最后几分钟炸了，最后就差一档收盘。",
+    "resultPoint": -4.1,
+    "buyReason": "当天行情比较极端，非常的差，有600多支跌停，这票高开上冲上车，但一是量不足，快封板时总量才4000多万，二是环境不行，下午倒是回封了，但最后几分钟炸了，最后就差一档收盘。低开离场",
     "image_list": [
       "Screenshot_2024-04-16-15-27-29-47_5c5979e609b9ed4a43e94260d67cf51e.webp",
       "",
@@ -128,7 +128,7 @@
     ]
   },
   {
-    "gpName": "中天广择",
+    "gpName": "中广天择",
     "formerDate": "2024-04-11",
     "mode": 1,
     "lastPrice": 0.55,
@@ -151,7 +151,7 @@
     "lastPrice": 0.47,
     "failureReason": [],
     "resultPoint": 39.41,
-    "buyReason": "开盘高开，成交1千多万，快速上板。形态有点像东方锆业，均线快速拉升。震荡了半个小时封住。锂电池版块较强。",
+    "buyReason": "开盘高开，成交1千多万，快速上板。形态有点像东方锆业，均线快速拉升。震荡了半个小时封住。锂电池版块较强。卖出当天竞价量8000多万，一至转分歧，离场。",
     "image_list": [
       "Screenshot_2024-04-11-15-04-53-84_5c5979e609b9ed4a43e94260d67cf51e.webp",
       "Screenshot_2024-04-12-19-23-22-76_5c5979e609b9ed4a43e94260d67cf51e.webp",
@@ -265,7 +265,7 @@
     "image_list": [
       "Screenshot_2024-04-01-15-24-54-46_5c5979e609b9ed4a43e94260d67cf51e.webp",
       "Screenshot_2024-04-02-15-24-51-55_5c5979e609b9ed4a43e94260d67cf51e.webp",
-      "Screenshot_2024-04-02-15-25-00-35_5c5979e609b9ed4a43e94260d67cf51e.webp"
+      "Screenshot_2024-04-17-06-52-54-37_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
@@ -365,7 +365,8 @@
       "Screenshot_2024-03-28-17-21-59-27_5c5979e609b9ed4a43e94260d67cf51e.webp",
       "Screenshot_2024-03-31-07-52-27-41_798f6b8e50cb99f48ae3085b7e4ec6f1.webp",
       "Screenshot_2024-03-29-16-12-14-47_5c5979e609b9ed4a43e94260d67cf51e.webp",
-      "Screenshot_2024-03-29-16-12-18-14_5c5979e609b9ed4a43e94260d67cf51e.webp"
+      "Screenshot_2024-03-29-16-12-18-14_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-04-17-06-58-20-08_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
@@ -594,7 +595,7 @@
       "Screenshot_2024-03-21-15-16-16-50_5c5979e609b9ed4a43e94260d67cf51e.webp",
       "Screenshot_2024-03-31-07-51-08-11_798f6b8e50cb99f48ae3085b7e4ec6f1.webp",
       "Screenshot_2024-03-22-16-23-56-28_5c5979e609b9ed4a43e94260d67cf51e.webp",
-      "Screenshot_2024-03-22-16-24-21-50_5c5979e609b9ed4a43e94260d67cf51e.webp"
+      "Screenshot_2024-04-17-06-39-47-43_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
@@ -917,7 +918,8 @@
     "buyReason": "上板有大单上车，给了上车机会，很快就上车了,第二天冲高离场。",
     "image_list": [
       "Screenshot_2024-03-12-07-33-45-36_5c5979e609b9ed4a43e94260d67cf51e.webp",
-      "Screenshot_2024-03-31-09-20-13-43_798f6b8e50cb99f48ae3085b7e4ec6f1.webp"
+      "Screenshot_2024-03-31-09-20-13-43_798f6b8e50cb99f48ae3085b7e4ec6f1.webp",
+      "Screenshot_2024-04-17-06-55-17-70_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
@@ -1104,7 +1106,8 @@
     "buyReason": "当天预判会是反转，版块强度很大，虽然盘子大有700多亿，但股性良好属于前排，且分时强劲，在8个多点的时候预判会有快速上板，就早4-5个档上车，然后就封板了。",
     "image_list": [
       "Screenshot_2024-03-12-13-04-51-57_5c5979e609b9ed4a43e94260d67cf51e.webp",
-      "Screenshot_2024-03-31-09-52-06-79_798f6b8e50cb99f48ae3085b7e4ec6f1.webp"
+      "Screenshot_2024-03-31-09-52-06-79_798f6b8e50cb99f48ae3085b7e4ec6f1.webp",
+      "Screenshot_2024-04-17-06-57-58-37_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
@@ -1183,7 +1186,8 @@
     "buyReason": "热点版块，7-8个点横盘了一会，上板前2个点位左右上车，第二天超预期差一档涨停，但感觉地产位置有点高了，竞价跑了。到下午，大盘跳水，这股也开板",
     "image_list": [
       "Screenshot_2024-03-31-09-24-10-41_5c5979e609b9ed4a43e94260d67cf51e.webp",
-      "Screenshot_2024-03-31-09-25-03-41_798f6b8e50cb99f48ae3085b7e4ec6f1.webp"
+      "Screenshot_2024-03-31-09-25-03-41_798f6b8e50cb99f48ae3085b7e4ec6f1.webp",
+      "Screenshot_2024-04-17-06-42-23-55_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
@@ -1419,7 +1423,7 @@
     "image_list": [
       "statistics_2024_01_09_06_01_25_67.webp",
       "Screenshot_2024-03-31-09-26-25-37_798f6b8e50cb99f48ae3085b7e4ec6f1.webp",
-      "statistics_2024_01_09_06_00_49_17.webp"
+      "Screenshot_2024-04-17-06-48-09-44_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
@@ -1855,7 +1859,8 @@
     "buyReason": "消费概念前排，买的时候版块有1个多点涨幅，而且个股分时比较强劲。形态也是比较好。本来没仓位了，后来又用外部资金1万买了点。",
     "image_list": [
       "statistics_2023_11_23_07_28_42_65.webp",
-      "statistics_2023_11_23_07_21_41_40.webp"
+      "statistics_2023_11_23_07_21_41_40.webp",
+      "Screenshot_2024-04-17-06-56-04-84_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
@@ -2027,7 +2032,8 @@
     "buyReason": "趋势，平台箱体触顶板，快速拉升，伴量，有版块支持。",
     "image_list": [
       "statistics_2023_11_23_07_17_00_85.webp",
-      "Screenshot_2024-03-31-09-54-34-88_798f6b8e50cb99f48ae3085b7e4ec6f1.webp"
+      "Screenshot_2024-03-31-09-54-34-88_798f6b8e50cb99f48ae3085b7e4ec6f1.webp",
+      "Screenshot_2024-04-17-06-41-43-52_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
@@ -2418,8 +2424,6 @@
     "resultPoint": -5.49,
     "buyReason": "输急眼了，想着回本，今天又是普跌的一天，手里三支票全跌，从开盘啦看华为概念比较强，版块有3个涨停的了，票又上冲中，就半路上车了，后看是高点",
     "image_list": [
-      "statistics_2023_11_13_14_26_12_96.webp",
-      "statistics_2023_11_13_14_26_24_85.webp"
     ]
   },
   {
@@ -2466,6 +2470,8 @@
     "resultPoint": 6.93,
     "buyReason": "今天主要是芯片概念，半路上车蓝箭电子，尾盘放量，从1个多亿的封单，变成了3千多万，整体版块涨停的都在尾盘有放量的情况。第二天冲高回落后卖出",
     "image_list": [
+      "statistics_2023_11_13_14_26_12_96.webp",
+      "statistics_2023_11_13_14_26_24_85.webp"
     ]
   },
   {
@@ -2647,9 +2653,10 @@
     "resultPoint": -7.5,
     "buyReason": "从反包首板中关注，竞价跌停，竞价成交4522万，快速上板，当天医药版块比较强，外加当天环境还可以，回封上车。第二天竞价差强人意，开盘快速下跌，麻了，等反应过来已经是-7、-8个点了，连续反复的涨跌停，后续再看吧",
     "image_list": [
-      "dzjk_3k",
-      "dzjk_3b",
-      "dzjk_3s"
+      "Screenshot_2024-04-17-06-44-07-26_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-04-17-06-44-46-14_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-04-17-06-46-55-12_798f6b8e50cb99f48ae3085b7e4ec6f1.webp",
+      "Screenshot_2024-04-17-06-43-13-90_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
@@ -2736,9 +2743,10 @@
     "resultPoint": 9.28,
     "buyReason": "开盘急拉，触及涨停后回封排板上车，封单6 7千万，后炸进去了。中间又微微了开了几次板，下午行情好转，彻底封住。",
     "image_list": [
-      "hwkj_k",
-      "hwkj_b",
-      "hwkj_s"
+      "Screenshot_2024-04-17-06-51-09-41_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-04-17-06-51-30-04_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-04-17-06-51-53-55_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-04-17-10-55-12-19_798f6b8e50cb99f48ae3085b7e4ec6f1.webp"
     ]
   },
   {
