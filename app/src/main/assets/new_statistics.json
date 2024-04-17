@@ -1,5 +1,61 @@
 [
   {
+    "gpName": "设计总院",
+    "formerDate": "2024-04-17",
+    "mode": -1,
+    "lastPrice": 0.59,
+    "failureReason": [],
+    "resultPoint": 0,
+    "buyReason": "行情单边上涨，中午6成仓，挑了放量K线形态可以的又买了支，中途又有放量，明天应该小肉",
+    "image_list": [
+      "Screenshot_2024-04-17-15-04-22-54_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "",
+      ""
+    ]
+  },
+  {
+    "gpName": "中信海直",
+    "formerDate": "2024-04-17",
+    "mode": -1,
+    "lastPrice": 2.95,
+    "failureReason": [],
+    "resultPoint": 0,
+    "buyReason": "到前高缩量上攻，分时强势，辨识度高，排完撤了开板，再回封上车，前面1个亿，感觉没戏了，但没想到排上了",
+    "image_list": [
+      "Screenshot_2024-04-17-15-05-05-03_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "",
+      ""
+    ]
+  },
+  {
+    "gpName": "苏交科",
+    "formerDate": "2024-04-17",
+    "mode": -1,
+    "lastPrice": 1.95,
+    "failureReason": [],
+    "resultPoint": 0,
+    "buyReason": "昨天首板炸了烂了一天，今天高开，竞价量8400多万，典型的吃掉做空筹码。当时没回过味来，但觉得能上车就买了。",
+    "image_list": [
+      "Screenshot_2024-04-17-15-07-09-28_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "",
+      ""
+    ]
+  },
+  {
+    "gpName": "永兴股份",
+    "formerDate": "2024-04-17",
+    "mode": -1,
+    "lastPrice": 0.51,
+    "failureReason": [],
+    "resultPoint": 0,
+    "buyReason": "单边上涨行情，高开，1000多万总价量，K线形态也可以，直接挂单，过一会被炸进去了，补量炸的，问题不大。",
+    "image_list": [
+      "Screenshot_2024-04-17-15-05-49-22_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "",
+      ""
+    ]
+  },
+  {
     "gpName": "国邦医药",
     "formerDate": "2024-04-16",
     "mode": 1,
@@ -14,8 +70,8 @@
     "buyReason": "当天行情比较极端，非常的差，有600多支跌停，这票高开上冲上车，但一是量不足，快封板时总量才4000多万，二是环境不行，下午倒是回封了，但最后几分钟炸了，最后就差一档收盘。低开离场",
     "image_list": [
       "Screenshot_2024-04-16-15-27-29-47_5c5979e609b9ed4a43e94260d67cf51e.webp",
-      "",
-      ""
+      "Screenshot_2024-04-17-15-16-06-84_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-04-17-15-16-17-57_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
@@ -257,9 +313,7 @@
     "formerDate": "2024-04-01",
     "mode": 1,
     "lastPrice": 0,
-    "failureReason": [
-      5
-    ],
+    "failureReason": [],
     "resultPoint": 8.6,
     "buyReason": "首板指数不错，但K线形态不算好，版块很强。当天假涨停，差两档，第二天超预期，因为前一天太烂，而且没板，冲高离场。",
     "image_list": [
