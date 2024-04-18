@@ -1,58 +1,86 @@
 [
   {
-    "gpName": "设计总院",
-    "formerDate": "2024-04-17",
+    "gpName": "九阳股份",
+    "formerDate": "2024-04-18",
     "mode": -1,
-    "lastPrice": 0.59,
+    "lastPrice": 0,
     "failureReason": [],
     "resultPoint": 0,
+    "buyReason": "板块大涨4个多点，版块也放量，以为是前排，但后面没有跟进，坚持到下午开板，尾盘拉了下。明天低开离场。",
+    "image_list": [
+      "Screenshot_2024-04-18-16-01-58-81_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "",
+      ""
+    ]
+  },
+  {
+    "gpName": "安达维尔",
+    "formerDate": "2024-04-18",
+    "mode": -1,
+    "lastPrice": 0.47,
+    "failureReason": [],
+    "resultPoint": 0,
+    "buyReason": "低空经济概念，过平台，放量，高开，竞价微量。早上环境略差，中途开过一会。",
+    "image_list": [
+      "Screenshot_2024-04-18-16-00-47-04_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-04-18-15-58-20-10_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      ""
+    ]
+  },
+  {
+    "gpName": "设计总院",
+    "formerDate": "2024-04-17",
+    "mode": 1,
+    "lastPrice": 0.59,
+    "failureReason": [],
+    "resultPoint": 10.5,
     "buyReason": "行情单边上涨，中午6成仓，挑了放量K线形态可以的又买了支，中途又有放量，明天应该小肉",
     "image_list": [
       "Screenshot_2024-04-17-15-04-22-54_5c5979e609b9ed4a43e94260d67cf51e.webp",
-      "",
+      "Screenshot_2024-04-18-15-58-20-10_5c5979e609b9ed4a43e94260d67cf51e.webp",
       ""
     ]
   },
   {
     "gpName": "中信海直",
     "formerDate": "2024-04-17",
-    "mode": -1,
+    "mode": 1,
     "lastPrice": 2.95,
     "failureReason": [],
-    "resultPoint": 0,
+    "resultPoint": 6.4,
     "buyReason": "到前高缩量上攻，分时强势，辨识度高，排完撤了开板，再回封上车，前面1个亿，感觉没戏了，但没想到排上了",
     "image_list": [
       "Screenshot_2024-04-17-15-05-05-03_5c5979e609b9ed4a43e94260d67cf51e.webp",
-      "",
+      "Screenshot_2024-04-18-15-59-22-42_5c5979e609b9ed4a43e94260d67cf51e.webp",
       ""
     ]
   },
   {
     "gpName": "苏交科",
     "formerDate": "2024-04-17",
-    "mode": -1,
+    "mode": 1,
     "lastPrice": 1.95,
     "failureReason": [],
-    "resultPoint": 0,
+    "resultPoint": 10.1,
     "buyReason": "昨天首板炸了烂了一天，今天高开，竞价量8400多万，典型的吃掉做空筹码。当时没回过味来，但觉得能上车就买了。",
     "image_list": [
       "Screenshot_2024-04-17-15-07-09-28_5c5979e609b9ed4a43e94260d67cf51e.webp",
-      "",
-      ""
+      "Screenshot_2024-04-18-15-55-08-18_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-04-18-15-59-45-32_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
     "gpName": "永兴股份",
     "formerDate": "2024-04-17",
-    "mode": -1,
+    "mode": 1,
     "lastPrice": 0.51,
     "failureReason": [],
-    "resultPoint": 0,
+    "resultPoint": 0.5,
     "buyReason": "单边上涨行情，高开，1000多万总价量，K线形态也可以，直接挂单，过一会被炸进去了，补量炸的，问题不大。",
     "image_list": [
       "Screenshot_2024-04-17-15-05-49-22_5c5979e609b9ed4a43e94260d67cf51e.webp",
-      "",
-      ""
+      "Screenshot_2024-04-18-15-57-06-68_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-04-18-15-59-33-67_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
@@ -2707,10 +2735,6 @@
     "resultPoint": -7.5,
     "buyReason": "从反包首板中关注，竞价跌停，竞价成交4522万，快速上板，当天医药版块比较强，外加当天环境还可以，回封上车。第二天竞价差强人意，开盘快速下跌，麻了，等反应过来已经是-7、-8个点了，连续反复的涨跌停，后续再看吧",
     "image_list": [
-      "Screenshot_2024-04-17-06-44-07-26_5c5979e609b9ed4a43e94260d67cf51e.webp",
-      "Screenshot_2024-04-17-06-44-46-14_5c5979e609b9ed4a43e94260d67cf51e.webp",
-      "Screenshot_2024-04-17-06-46-55-12_798f6b8e50cb99f48ae3085b7e4ec6f1.webp",
-      "Screenshot_2024-04-17-06-43-13-90_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
@@ -2783,9 +2807,10 @@
     "resultPoint": 9.86,
     "buyReason": "卖出当天是竞价抢筹加速，开盘成交5000多万。要好好研究下，恒为封板后，找到德展回封时上车，后面微微开了2次板，下午行情好封住。开盘直线拉升上板，在板上封单变小离场，后来又板住了，与炒家同车，卖出看缩量就离场了。",
     "image_list": [
-      "dzjk_2k",
-      "dzjk_2b",
-      "dzjk_2s"
+      "Screenshot_2024-04-17-06-44-07-26_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-04-17-06-44-46-14_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-04-17-06-46-55-12_798f6b8e50cb99f48ae3085b7e4ec6f1.webp",
+      "Screenshot_2024-04-17-06-43-13-90_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
