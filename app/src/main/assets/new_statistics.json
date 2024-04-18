@@ -4,9 +4,9 @@
     "formerDate": "2024-04-18",
     "mode": -1,
     "lastPrice": 0,
-    "failureReason": [],
+    "failureReason": [1,3,15],
     "resultPoint": 0,
-    "buyReason": "板块大涨4个多点，版块也放量，以为是前排，但后面没有跟进，坚持到下午开板，尾盘拉了下。明天低开离场。",
+    "buyReason": "板块大涨4个多点，版块也放量，以为是前排，但后面没有其他股上板，坚持到下午开板，尾盘拉了下。明天低开离场。",
     "image_list": [
       "Screenshot_2024-04-18-16-01-58-81_5c5979e609b9ed4a43e94260d67cf51e.webp",
       "",
@@ -23,7 +23,7 @@
     "buyReason": "低空经济概念，过平台，放量，高开，竞价微量。早上环境略差，中途开过一会。",
     "image_list": [
       "Screenshot_2024-04-18-16-00-47-04_5c5979e609b9ed4a43e94260d67cf51e.webp",
-      "Screenshot_2024-04-18-15-58-20-10_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "",
       ""
     ]
   },

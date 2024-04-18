@@ -16,7 +16,7 @@ public class ReasonForFailure {
     public static final String REASON_12 = "太仓促";//对应编号12
     public static final String REASON_13 = "上板分时量太弱";//对应编号13
     public static final String REASON_14 = "软件、网络问题，卡死，无法登录";//对应编号14
-    public static final String REASON_15 = "庄股，平时没有流通性";//对应编号15
+    public static final String REASON_15 = "不活跃，平时振幅太小";//对应编号15
     public static final String REASON_16 = "卖点错误";//对应编号16
     public static final String REASON_17 = "当天行情判断错误";//对应编号17
     public static final String REASON_18 = "新方法试错";//对应编号18
