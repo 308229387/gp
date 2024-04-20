@@ -21,6 +21,8 @@ public class ReasonForFailure {
     public static final String REASON_17 = "当天行情判断错误";//对应编号17
     public static final String REASON_18 = "新方法试错";//对应编号18
     public static final String REASON_19 = "体量太大";//对应编号19
+    public static final String REASON_20 = "竞价分时非抢筹递增形态";//对应编号20
+
 
 
 }
