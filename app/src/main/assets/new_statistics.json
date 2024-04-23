@@ -1,44 +1,115 @@
 [
   {
-    "gpName": "中船科技",
-    "formerDate": "2024-04-19",
+    "gpName": "华峰超纤",
+    "formerDate": "2024-04-23",
     "mode": -1,
     "lastPrice": 0,
-    "failureReason": [10],
+    "failureReason": [6,12],
     "resultPoint": 0,
+    "buyReason": "从0轴附近，近乎直线拉升到涨停，K线上看没有问题，股性也可以，主要是分时形态太差，空头未释放，太仓促了。",
+    "image_list": [
+      "Screenshot_2024-04-22-15-05-59-23_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-04-23-17-58-12-23_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      ""
+    ]
+  },
+  {
+    "gpName": "建研设计",
+    "formerDate": "2024-04-23",
+    "mode": -1,
+    "lastPrice": 0.14,
+    "failureReason": [],
+    "resultPoint": 0,
+    "buyReason": "版块转强，看到票拉升，形态合适上车，买的时候均线偏下，但后来回封了。封单太小，感觉要吃面",
+    "image_list": [
+      "Screenshot_2024-04-22-15-05-59-23_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-04-23-17-57-24-13_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      ""
+    ]
+  },
+  {
+    "gpName": "蓝海华腾",
+    "formerDate": "2024-04-23",
+    "mode": -1,
+    "lastPrice": 0.53,
+    "failureReason": [],
+    "resultPoint": 0,
+    "buyReason": "有几个板没吃到，排了这票，形态还好，封单可以，有助力板，预计有小肉。",
+    "image_list": [
+      "Screenshot_2024-04-22-15-05-59-23_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-04-23-17-58-49-68_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      ""
+    ]
+  },
+  {
+    "gpName": "银河电子",
+    "formerDate": "2024-04-22",
+    "mode": 1,
+    "lastPrice": 0.4,
+    "failureReason": [],
+    "resultPoint": 3.2,
+    "buyReason": "当天开盘啦的打分给到40+，快50，本着多20分就买只票，买了银河电子，热点版块偏后排。第一次上板有0.3亿成交，形态比较好，股性也行，军工热点版块，开盘比较低，上拉离场",
+    "image_list": [
+      "Screenshot_2024-04-22-15-05-59-23_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-04-23-17-54-45-42_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-04-23-17-54-53-29_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "广哈通信",
+    "formerDate": "2024-04-22",
+    "mode": 1,
+    "lastPrice": 0.85,
+    "failureReason": [],
+    "resultPoint": 8.7,
+    "buyReason": "开盘高开，竞价量小4000万，10秒肉快速上板，涨停附近上板，以为是扫的，结果还成排了，一会上车。当天热点版块，1分钟来看的，下跌离场，但从5分来看，踩均线涨停。",
+    "image_list": [
+      "Screenshot_2024-04-22-15-02-00-22_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-04-23-17-55-40-75_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-04-23-17-56-20-33_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-04-23-17-56-42-67_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "中船科技",
+    "formerDate": "2024-04-19",
+    "mode": 1,
+    "lastPrice": 0,
+    "failureReason": [10],
+    "resultPoint": -1.3,
     "buyReason": "这票挑不出毛病来，K线、量能、板块强度、股性、分时均线也还可以，但开板后，就是不回封，和当天行情略差有关。也是个后排",
     "image_list": [
       "Screenshot_2024-04-19-15-17-45-00_5c5979e609b9ed4a43e94260d67cf51e.webp",
-      "",
-      ""
+      "Screenshot_2024-04-22-15-12-50-40_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-04-22-15-13-23-42_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
     "gpName": "贝肯能源",
     "formerDate": "2024-04-19",
-    "mode": -1,
+    "mode": 1,
     "lastPrice": 0.51,
     "failureReason": [],
-    "resultPoint": 0,
+    "resultPoint": -4.3,
     "buyReason": "秒板，有一千多万的竞价量，K线形态像中广天择，当时量能还差不少，排单上车。预期是不好上板。",
     "image_list": [
       "Screenshot_2024-04-19-15-16-19-90_5c5979e609b9ed4a43e94260d67cf51e.webp",
-      "",
-      ""
+      "Screenshot_2024-04-22-15-15-45-89_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-04-22-15-15-55-40_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
     "gpName": "森麒麟",
     "formerDate": "2024-04-19",
-    "mode": -1,
+    "mode": 1,
     "lastPrice": 0,
     "failureReason": [3,18,19,20],
-    "resultPoint": 0,
+    "resultPoint": -1.9,
     "buyReason": "条件太松，竞价走势并不强势，没有抢筹的形态，而且体量大，股性差。竞价量高开5个点，7400万，快速上板，当时也没时间去看股性，觉得能复制东方锆业那种K线形态，板附近量能已经和昨天平量，就上车了，后炸",
     "image_list": [
       "Screenshot_2024-04-19-17-34-09-25_5c5979e609b9ed4a43e94260d67cf51e.webp",
-      "",
-      ""
+      "Screenshot_2024-04-22-15-17-18-35_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-04-22-15-17-26-88_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
@@ -47,7 +118,7 @@
     "mode": 1,
     "lastPrice": 0,
     "failureReason": [1,3,15],
-    "resultPoint": -4.1,
+    "resultPoint": -4.5,
     "buyReason": "板块大涨4个多点，版块也放量，以为是前排，但后面没有其他股上板，坚持到下午开板，尾盘拉了下。明天低开离场。",
     "image_list": [
       "Screenshot_2024-04-18-16-01-58-81_5c5979e609b9ed4a43e94260d67cf51e.webp",
@@ -61,26 +132,12 @@
     "mode": 1,
     "lastPrice": 0.47,
     "failureReason": [],
-    "resultPoint": 6.7,
+    "resultPoint": 6.05,
     "buyReason": "低空经济概念，过平台，放量，高开，竞价微量。早上环境略差，中途开过一会。开盘拉升，过一会放缓离场，回头看，卖点太差。等分钟调头可能好点。",
     "image_list": [
       "Screenshot_2024-04-18-16-00-47-04_5c5979e609b9ed4a43e94260d67cf51e.webp",
       "Screenshot_2024-04-19-17-37-25-16_5c5979e609b9ed4a43e94260d67cf51e.webp",
       "Screenshot_2024-04-19-17-37-37-00_5c5979e609b9ed4a43e94260d67cf51e.webp"
-    ]
-  },
-  {
-    "gpName": "设计总院",
-    "formerDate": "2024-04-17",
-    "mode": 1,
-    "lastPrice": 0.59,
-    "failureReason": [],
-    "resultPoint": 9.82,
-    "buyReason": "行情单边上涨，中午6成仓，挑了放量K线形态可以的又买了支，中途又有放量，明天应该小肉，高开大量，调整后上板，当时未放量就持有，开板前离场。",
-    "image_list": [
-      "Screenshot_2024-04-17-15-04-22-54_5c5979e609b9ed4a43e94260d67cf51e.webp",
-      "Screenshot_2024-04-18-15-58-20-10_5c5979e609b9ed4a43e94260d67cf51e.webp",
-      ""
     ]
   },
   {
@@ -94,7 +151,7 @@
     "image_list": [
       "Screenshot_2024-04-17-15-05-05-03_5c5979e609b9ed4a43e94260d67cf51e.webp",
       "Screenshot_2024-04-18-15-59-22-42_5c5979e609b9ed4a43e94260d67cf51e.webp",
-      ""
+      "Screenshot_2024-04-22-17-29-35-98_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
@@ -123,6 +180,20 @@
       "Screenshot_2024-04-17-15-05-49-22_5c5979e609b9ed4a43e94260d67cf51e.webp",
       "Screenshot_2024-04-18-15-57-06-68_5c5979e609b9ed4a43e94260d67cf51e.webp",
       "Screenshot_2024-04-18-15-59-33-67_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "设计总院",
+    "formerDate": "2024-04-17",
+    "mode": 1,
+    "lastPrice": 0.59,
+    "failureReason": [],
+    "resultPoint": 9.82,
+    "buyReason": "行情单边上涨，中午6成仓，挑了放量K线形态可以的又买了支，中途又有放量，明天应该小肉，高开大量，调整后上板，当时未放量就持有，开板前离场。",
+    "image_list": [
+      "Screenshot_2024-04-17-15-04-22-54_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-04-18-15-58-20-10_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      ""
     ]
   },
   {

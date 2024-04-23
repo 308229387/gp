@@ -1,14 +1,18 @@
 package com.songyongmeng.gp;
 
 import android.annotation.SuppressLint;
+import android.app.Activity;
 import android.content.Context;
 import android.graphics.Color;
+import android.graphics.drawable.ColorDrawable;
 import android.os.Build;
+import android.util.TypedValue;
 import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.LinearLayout;
+import android.widget.PopupWindow;
 import android.widget.TextView;
 
 import androidx.annotation.RequiresApi;
@@ -542,18 +546,18 @@ public class MonthStatisticsAdapter extends RecyclerView.Adapter<MonthStatistics
                     .collect(Collectors.toList());
 
             StringBuilder reason = new StringBuilder("");
+            StringBuilder reasonAll = new StringBuilder("");
             int count = 0;
             for (Map.Entry<Integer, Integer> entry : sortedList) {
-                if (count < 5) {
+                reasonAll.append(getCode(entry.getKey()) + " " + entry.getValue() + "次 \n\n");
+                if (count < 2) {
                     reason.append(getCode(entry.getKey()) + " " + entry.getValue() + "次   ");
                     count++;
-                } else {
-                    break;
                 }
             }
 
 
-            itemList.add(new MonthShowBean(month, firstBan, getResult(firstBan, firstBanNum), getResult(firstBan, firstBanSuc), twoPoint(firstBanSuc == 0 ? 0 : firstBanAverageSuc / firstBanSuc), twoPoint(firstBanFai == 0 ? 0 : firstBanAverageFai / firstBanFai), twoBan, getResult(twoBan, twoBanNum), getResult(twoBan, twoBanSuc), twoPoint(twoBanSuc == 0 ? 0 : twoBanAverageSuc / twoBanSuc), twoPoint(twoBanFai == 0 ? 0 : twoBanAverageFai / twoBanFai), middleBan, getResult(middleBan, middleBanSuc), monthAllNum, reason.toString()));
+            itemList.add(new MonthShowBean(month, firstBan, getResult(firstBan, firstBanNum), getResult(firstBan, firstBanSuc), twoPoint(firstBanSuc == 0 ? 0 : firstBanAverageSuc / firstBanSuc), twoPoint(firstBanFai == 0 ? 0 : firstBanAverageFai / firstBanFai), twoBan, getResult(twoBan, twoBanNum), getResult(twoBan, twoBanSuc), twoPoint(twoBanSuc == 0 ? 0 : twoBanAverageSuc / twoBanSuc), twoPoint(twoBanFai == 0 ? 0 : twoBanAverageFai / twoBanFai), middleBan, getResult(middleBan, middleBanSuc), monthAllNum, reason.toString(),reasonAll.toString()));
 
         }
 
@@ -907,7 +911,7 @@ public class MonthStatisticsAdapter extends RecyclerView.Adapter<MonthStatistics
                 if (i == 0) {
                     textView.setWidth(250); // 日期
                 } else if (i == 14) {
-                    textView.setWidth(2500); // 设置宽度为200像素
+                    textView.setWidth(1000); // 设置宽度为200像素
                 } else {
                     textView.setWidth(200); // 设置宽度为200像素
                 }
@@ -964,6 +968,23 @@ public class MonthStatisticsAdapter extends RecyclerView.Adapter<MonthStatistics
                         break;
                     case 14:
                         textView.setText(data.reasonStr);
+                        textView.setOnClickListener(new View.OnClickListener() {
+                            @Override
+                            public void onClick(View view) {
+                                // 创建一个TextView控件
+                                TextView textView = new TextView(context);
+                                textView.setText(data.reasonAllStr);
+                                textView.setTextColor(Color.BLACK);
+                                textView.setTextSize(TypedValue.COMPLEX_UNIT_SP, 16);
+                                textView.setPadding(16, 16, 16, 16);
+
+                                PopupWindow popupWindow = new PopupWindow(textView, ViewGroup.LayoutParams.WRAP_CONTENT, ViewGroup.LayoutParams.WRAP_CONTENT, true);
+                                popupWindow.setBackgroundDrawable(new ColorDrawable(Color.CYAN));
+                                popupWindow.setOutsideTouchable(true);
+
+                                popupWindow.showAtLocation(((Activity) context).getWindow().getDecorView(), Gravity.CENTER, 0, 0);
+                            }
+                        });
                         break;
                 }
                 linearLayout.addView(textView);
@@ -980,6 +1001,7 @@ public class MonthStatisticsAdapter extends RecyclerView.Adapter<MonthStatistics
     private class MonthShowBean {
         private String month;
         private String reasonStr;
+        private String reasonAllStr;
         private int shouBanTime;
         private int shouBanRate;
         private int erBanTime;
@@ -994,9 +1016,10 @@ public class MonthStatisticsAdapter extends RecyclerView.Adapter<MonthStatistics
         private String shouBanAverageFai;
         private String erBanAverageFai;
 
-        public MonthShowBean(String month, int shouBanTime, int shouBanNum, int shouBanRate, String shouBanAverageSuc, String shouBanAverageFai, int erBanTime, int erBanNum, int erBanRate, String erBanAverageSuc, String erBanAverageFai, int sanBanTime, int sanBanRate, int monthAllNum, String reasonStr) {
+        public MonthShowBean(String month, int shouBanTime, int shouBanNum, int shouBanRate, String shouBanAverageSuc, String shouBanAverageFai, int erBanTime, int erBanNum, int erBanRate, String erBanAverageSuc, String erBanAverageFai, int sanBanTime, int sanBanRate, int monthAllNum, String reasonStr, String reasonAllStr) {
             this.month = month;
             this.reasonStr = reasonStr;
+            this.reasonAllStr = reasonAllStr;
             this.shouBanTime = shouBanTime;
             this.shouBanRate = shouBanRate;
             this.shouBanAverageSuc = shouBanAverageSuc;
