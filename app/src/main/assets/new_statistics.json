@@ -1,5 +1,31 @@
 [
   {
+    "gpName": "吴通控股",
+    "formerDate": "2024-04-24",
+    "mode": -1,
+    "lastPrice": 0.47,
+    "failureReason": [],
+    "resultPoint": 0,
+    "buyReason": "版块较强势，当时新晨科技已经封住，另外看环境还好，这票股性也可以，封板上车。",
+    "image_list": [
+      "Screenshot_2024-04-24-15-29-04-03_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      ""
+    ]
+  },
+  {
+    "gpName": "新晨科技",
+    "formerDate": "2024-04-24",
+    "mode": -1,
+    "lastPrice": 0,
+    "failureReason": [7],
+    "resultPoint": 0,
+    "buyReason": "竞价结束才1000多万，做为烂板高开，严重的不足，上板附近量能就不过四分之一，但二封如果看到了，也应该逃不掉，明天不超预期就要竞价核了。",
+    "image_list": [
+      "Screenshot_2024-04-24-15-32-10-34_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      ""
+    ]
+  },
+  {
     "gpName": "华峰超纤",
     "formerDate": "2024-04-23",
     "mode": 1,
@@ -9,7 +35,10 @@
     "buyReason": "从0轴附近，近乎直线拉升到涨停，K线上看没有问题，股性也可以，主要是分时形态太差，空头未释放，太仓促了。第二天超预期高开，快速上板，本来想着弱转强，后来回落，5分分时均线无支撑离场。",
     "image_list": [
       "Screenshot_2024-04-23-17-58-12-23_5c5979e609b9ed4a43e94260d67cf51e.webp",
-      ""
+      "Screenshot_2024-04-24-15-27-04-78_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-04-24-15-27-24-96_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-04-24-15-21-26-08_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-04-24-15-21-45-43_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
@@ -22,7 +51,8 @@
     "buyReason": "版块转强，看到票拉升，形态合适上车，买的时候均线偏下，但后来回封了。封单太小，感觉要吃面，第二天小高开2个点，预期不强，直接竞价走人。",
     "image_list": [
       "Screenshot_2024-04-23-17-57-24-13_5c5979e609b9ed4a43e94260d67cf51e.webp",
-      ""
+      "Screenshot_2024-04-24-15-25-46-42_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-04-24-15-25-54-44_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
@@ -35,7 +65,10 @@
     "buyReason": "有几个板没吃到，排了这票，形态还好，封单可以，有助力板，预计有小肉。开盘持仓，1分均线拐头离场。后涨停，回头看适合用5日均线来评估。",
     "image_list": [
       "Screenshot_2024-04-23-17-58-49-68_5c5979e609b9ed4a43e94260d67cf51e.webp",
-      ""
+      "Screenshot_2024-04-24-15-23-37-03_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-04-24-15-23-46-62_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-04-24-15-22-52-21_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-04-24-15-24-00-45_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
@@ -44,7 +77,7 @@
     "mode": 1,
     "lastPrice": 0.4,
     "failureReason": [],
-    "resultPoint": 3.2,
+    "resultPoint": 3.3,
     "buyReason": "当天开盘啦的打分给到40+，快50，本着多20分就买只票，买了银河电子，热点版块偏后排。第一次上板有0.3亿成交，形态比较好，股性也行，军工热点版块，开盘比较低，上拉离场",
     "image_list": [
       "Screenshot_2024-04-22-15-05-59-23_5c5979e609b9ed4a43e94260d67cf51e.webp",
@@ -60,7 +93,7 @@
     "mode": 1,
     "lastPrice": 0.85,
     "failureReason": [],
-    "resultPoint": 8.7,
+    "resultPoint": 7.96,
     "buyReason": "开盘高开，竞价量小4000万，10秒肉快速上板，涨停附近上板，以为是扫的，结果还成排了，一会上车。当天热点版块，1分钟来看的，下跌离场，但从5分来看，踩均线涨停。",
     "image_list": [
       "Screenshot_2024-04-22-15-02-00-22_5c5979e609b9ed4a43e94260d67cf51e.webp",
