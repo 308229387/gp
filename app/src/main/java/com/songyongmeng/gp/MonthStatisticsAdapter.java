@@ -649,8 +649,7 @@ public class MonthStatisticsAdapter extends RecyclerView.Adapter<MonthStatistics
             case 19:
                 tmp = ReasonForFailure.REASON_19;
                 break;
-            case 20:
-                tmp = ReasonForFailure.REASON_20;
+            default:
                 break;
         }
         return tmp;
@@ -976,7 +975,7 @@ public class MonthStatisticsAdapter extends RecyclerView.Adapter<MonthStatistics
                                 textView.setText(data.reasonAllStr);
                                 textView.setTextColor(Color.BLACK);
                                 textView.setTextSize(TypedValue.COMPLEX_UNIT_SP, 16);
-                                textView.setPadding(16, 16, 16, 16);
+                                textView.setPadding(20, 20, 20, 20);
 
                                 PopupWindow popupWindow = new PopupWindow(textView, ViewGroup.LayoutParams.WRAP_CONTENT, ViewGroup.LayoutParams.WRAP_CONTENT, true);
                                 popupWindow.setBackgroundDrawable(new ColorDrawable(Color.CYAN));
