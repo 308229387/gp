@@ -1,28 +1,58 @@
 [
   {
-    "gpName": "吴通控股",
-    "formerDate": "2024-04-24",
+    "gpName": "紫建电子",
+    "formerDate": "2024-04-25",
     "mode": -1,
-    "lastPrice": 0.47,
+    "lastPrice": 0.14,
     "failureReason": [],
     "resultPoint": 0,
-    "buyReason": "版块较强势，当时新晨科技已经封住，另外看环境还好，这票股性也可以，封板上车。",
+    "buyReason": "看到时已经上板了，但当时量能还不够，较前一天多一点就，这票较为活跃，锂电池同版块有3个涨停的，前面有3个多亿，但还是挂上了，过了一会排进去了，开板调整了一天最后半小时上板。",
     "image_list": [
       "Screenshot_2024-04-24-15-29-04-03_5c5979e609b9ed4a43e94260d67cf51e.webp",
-      ""
+      "Screenshot_2024-04-25-16-23-35-73_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "康弘药业",
+    "formerDate": "2024-04-25",
+    "mode": -1,
+    "lastPrice": 0.33,
+    "failureReason": [],
+    "resultPoint": 0,
+    "buyReason": "高开调整上板，有个20CM的深山药业封单大，这票之前有过涨停，但平时不够活跃，调整近1个小时封住，不算当天的热点题材。",
+    "image_list": [
+      "Screenshot_2024-04-24-15-29-04-03_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-04-25-16-34-36-94_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "吴通控股",
+    "formerDate": "2024-04-24",
+    "mode": 1,
+    "lastPrice": 0.47,
+    "failureReason": [],
+    "resultPoint": 4.1,
+    "buyReason": "版块较强势，当时新晨科技已经封住，另外看环境还好，这票股性也可以，封板上车。第二天高开，同版块的票开的不好，但拿了会，1分钟线拐头离场。如果同版块的票开的很差，直接走会好点。。",
+    "image_list": [
+      "Screenshot_2024-04-24-15-29-04-03_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-04-25-15-33-19-81_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-04-25-15-33-33-19_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-04-25-15-32-10-63_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-04-25-15-36-46-57_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
     "gpName": "新晨科技",
     "formerDate": "2024-04-24",
-    "mode": -1,
+    "mode": 1,
     "lastPrice": 0,
-    "failureReason": [7],
-    "resultPoint": 0,
-    "buyReason": "竞价结束才1000多万，做为烂板高开，严重的不足，上板附近量能就不过四分之一，但二封如果看到了，也应该逃不掉，明天不超预期就要竞价核了。",
+    "failureReason": [7,12,18],
+    "resultPoint": -12.1,
+    "buyReason": "竞价结束才1000多万，做为烂板高开，严重的不足，上板附近量能就不过四分之一，但二封如果看到了，也应该逃不掉，明天不超预期就要竞价核了。竞价低开3个多点，心存侥幸没核，觉着有可能再拉，开始给自己找借口，再挂还没成交，撤已经晚了。犹豫不决",
     "image_list": [
       "Screenshot_2024-04-24-15-32-10-34_5c5979e609b9ed4a43e94260d67cf51e.webp",
-      ""
+      "Screenshot_2024-04-25-15-41-32-40_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-04-25-16-54-55-57_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
@@ -31,7 +61,7 @@
     "mode": 1,
     "lastPrice": 0,
     "failureReason": [6,12,17],
-    "resultPoint": 5.7,
+    "resultPoint": 5.77,
     "buyReason": "从0轴附近，近乎直线拉升到涨停，K线上看没有问题，股性也可以，主要是分时形态太差，空头未释放，太仓促了。第二天超预期高开，快速上板，本来想着弱转强，后来回落，5分分时均线无支撑离场。",
     "image_list": [
       "Screenshot_2024-04-23-17-58-12-23_5c5979e609b9ed4a43e94260d67cf51e.webp",
@@ -47,7 +77,7 @@
     "mode": 1,
     "lastPrice": 0.14,
     "failureReason": [],
-    "resultPoint": 1.9,
+    "resultPoint": 2.05,
     "buyReason": "版块转强，看到票拉升，形态合适上车，买的时候均线偏下，但后来回封了。封单太小，感觉要吃面，第二天小高开2个点，预期不强，直接竞价走人。",
     "image_list": [
       "Screenshot_2024-04-23-17-57-24-13_5c5979e609b9ed4a43e94260d67cf51e.webp",
@@ -61,7 +91,7 @@
     "mode": 1,
     "lastPrice": 0.53,
     "failureReason": [],
-    "resultPoint": 13.2,
+    "resultPoint": 13.62,
     "buyReason": "有几个板没吃到，排了这票，形态还好，封单可以，有助力板，预计有小肉。开盘持仓，1分均线拐头离场。后涨停，回头看适合用5日均线来评估。",
     "image_list": [
       "Screenshot_2024-04-23-17-58-49-68_5c5979e609b9ed4a43e94260d67cf51e.webp",
@@ -77,7 +107,7 @@
     "mode": 1,
     "lastPrice": 0.4,
     "failureReason": [],
-    "resultPoint": 3.3,
+    "resultPoint": 2.92,
     "buyReason": "当天开盘啦的打分给到40+，快50，本着多20分就买只票，买了银河电子，热点版块偏后排。第一次上板有0.3亿成交，形态比较好，股性也行，军工热点版块，开盘比较低，上拉离场",
     "image_list": [
       "Screenshot_2024-04-22-15-05-59-23_5c5979e609b9ed4a43e94260d67cf51e.webp",
@@ -104,26 +134,12 @@
     ]
   },
   {
-    "gpName": "中船科技",
-    "formerDate": "2024-04-19",
-    "mode": 1,
-    "lastPrice": 0,
-    "failureReason": [10],
-    "resultPoint": -1.3,
-    "buyReason": "这票挑不出毛病来，K线、量能、板块强度、股性、分时均线也还可以，但开板后，就是不回封，和当天行情略差有关。也是个后排",
-    "image_list": [
-      "Screenshot_2024-04-19-15-17-45-00_5c5979e609b9ed4a43e94260d67cf51e.webp",
-      "Screenshot_2024-04-22-15-12-50-40_5c5979e609b9ed4a43e94260d67cf51e.webp",
-      "Screenshot_2024-04-22-15-13-23-42_5c5979e609b9ed4a43e94260d67cf51e.webp"
-    ]
-  },
-  {
     "gpName": "贝肯能源",
     "formerDate": "2024-04-19",
     "mode": 1,
     "lastPrice": 0.51,
     "failureReason": [],
-    "resultPoint": -4.3,
+    "resultPoint": -4.5,
     "buyReason": "秒板，有一千多万的竞价量，K线形态像中广天择，当时量能还差不少，排单上车。预期是不好上板。",
     "image_list": [
       "Screenshot_2024-04-19-15-16-19-90_5c5979e609b9ed4a43e94260d67cf51e.webp",
@@ -137,7 +153,7 @@
     "mode": 1,
     "lastPrice": 0,
     "failureReason": [3,19],
-    "resultPoint": -1.9,
+    "resultPoint": -2.28,
     "buyReason": "条件太松，竞价走势并不强势，没有抢筹的形态，而且体量大，股性差。竞价量高开5个点，7400万，快速上板，当时也没时间去看股性，觉得能复制东方锆业那种K线形态，板附近量能已经和昨天平量，就上车了，后炸",
     "image_list": [
       "Screenshot_2024-04-19-17-34-09-25_5c5979e609b9ed4a43e94260d67cf51e.webp",
@@ -146,12 +162,26 @@
     ]
   },
   {
+    "gpName": "中船科技",
+    "formerDate": "2024-04-19",
+    "mode": 1,
+    "lastPrice": 0,
+    "failureReason": [10],
+    "resultPoint": -1.2,
+    "buyReason": "这票挑不出毛病来，K线、量能、板块强度、股性、分时均线也还可以，但开板后，就是不回封，和当天行情略差有关。也是个后排",
+    "image_list": [
+      "Screenshot_2024-04-19-15-17-45-00_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-04-22-15-12-50-40_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-04-22-15-13-23-42_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
     "gpName": "九阳股份",
     "formerDate": "2024-04-18",
     "mode": 1,
     "lastPrice": 0,
     "failureReason": [1,3,15],
-    "resultPoint": -4.5,
+    "resultPoint": -4.57,
     "buyReason": "板块大涨4个多点，版块也放量，以为是前排，但后面没有其他股上板，坚持到下午开板，尾盘拉了下。明天低开离场。",
     "image_list": [
       "Screenshot_2024-04-18-16-01-58-81_5c5979e609b9ed4a43e94260d67cf51e.webp",
@@ -201,6 +231,7 @@
     "buyReason": "封单没有错，app的问题。昨天首板炸了烂了一天，今天高开，竞价量8400多万，典型的吃掉做空筹码。当时没回过味来，但觉得能上车就买了。第二天以为会开盘板，才10来个点，低于预期，冲高后感觉明显会放量，差不多就卖了，",
     "image_list": [
       "Screenshot_2024-04-17-15-07-09-28_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-04-25-05-45-28-59_5c5979e609b9ed4a43e94260d67cf51e.webp",
       "Screenshot_2024-04-24-04-08-02-97_5c5979e609b9ed4a43e94260d67cf51e.webp",
       "Screenshot_2024-04-18-15-55-08-18_5c5979e609b9ed4a43e94260d67cf51e.webp",
       "Screenshot_2024-04-18-15-59-45-32_5c5979e609b9ed4a43e94260d67cf51e.webp"
@@ -280,6 +311,7 @@
     "image_list": [
       "Screenshot_2024-04-12-19-25-35-57_5c5979e609b9ed4a43e94260d67cf51e.webp",
       "Screenshot_2024-04-24-04-15-17-28_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-04-25-05-57-43-76_5c5979e609b9ed4a43e94260d67cf51e.webp",
       "Screenshot_2024-04-24-04-15-40-09_5c5979e609b9ed4a43e94260d67cf51e.webp",
       "Screenshot_2024-04-15-16-23-35-02_5c5979e609b9ed4a43e94260d67cf51e.webp",
       "Screenshot_2024-04-15-16-23-54-74_5c5979e609b9ed4a43e94260d67cf51e.webp"
@@ -844,6 +876,8 @@
       "Screenshot_2024-03-20-15-29-20-40_5c5979e609b9ed4a43e94260d67cf51e.webp",
       "Screenshot_2024-03-31-07-50-57-31_798f6b8e50cb99f48ae3085b7e4ec6f1.webp",
       "Screenshot_2024-03-21-15-16-16-50_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-04-24-16-05-40-72_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-04-24-16-04-18-09_5c5979e609b9ed4a43e94260d67cf51e.webp",
       "Screenshot_2024-03-31-07-51-08-11_798f6b8e50cb99f48ae3085b7e4ec6f1.webp",
       "Screenshot_2024-03-22-16-23-56-28_5c5979e609b9ed4a43e94260d67cf51e.webp",
       "Screenshot_2024-04-17-06-39-47-43_5c5979e609b9ed4a43e94260d67cf51e.webp"
@@ -891,6 +925,7 @@
     "buyReason": "上车的时候，均线还差的远，当时秒炸，好在后续上板了，量能放的相对安全些，",
     "image_list": [
       "Screenshot_2024-03-20-15-28-37-18_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-04-24-16-08-27-74_5c5979e609b9ed4a43e94260d67cf51e.webp",
       "Screenshot_2024-03-31-08-00-30-08_798f6b8e50cb99f48ae3085b7e4ec6f1.webp",
       "Screenshot_2024-03-21-15-15-51-10_5c5979e609b9ed4a43e94260d67cf51e.webp",
       "Screenshot_2024-03-21-15-17-20-64_5c5979e609b9ed4a43e94260d67cf51e.webp"
@@ -906,6 +941,8 @@
     "buyReason": "K线形态比较好，双响炮形态，7个点左右就有这种预感，但还是坚持上板再上车。",
     "image_list": [
       "Screenshot_2024-03-20-15-28-04-28_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-04-24-16-11-29-14_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-04-24-16-10-02-73_5c5979e609b9ed4a43e94260d67cf51e.webp",
       "Screenshot_2024-03-31-08-01-55-39_798f6b8e50cb99f48ae3085b7e4ec6f1.webp",
       "Screenshot_2024-03-21-15-16-04-68_5c5979e609b9ed4a43e94260d67cf51e.webp",
       "Screenshot_2024-03-21-15-17-33-76_5c5979e609b9ed4a43e94260d67cf51e.webp"
@@ -955,6 +992,8 @@
     "buyReason": "K线形态和分时都还行，但前面有前高，今天的量应该是有点不够，但行情在这，不想错过行情就买了。第二天承接小，卖了，后来还涨了3-4个点",
     "image_list": [
       "Screenshot_2024-03-18-16-21-19-57_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-04-24-16-13-26-61_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-04-24-16-13-59-80_5c5979e609b9ed4a43e94260d67cf51e.webp",
       "Screenshot_2024-03-31-08-09-26-22_798f6b8e50cb99f48ae3085b7e4ec6f1.webp",
       "Screenshot_2024-03-19-16-03-18-09_5c5979e609b9ed4a43e94260d67cf51e.webp",
       "Screenshot_2024-03-19-16-03-27-16_5c5979e609b9ed4a43e94260d67cf51e.webp"
@@ -985,6 +1024,8 @@
     "buyReason": "机器人概念，当天热点，和炒家同车，第二天开盘低于预期，才一个多点，承接2000多万，但版块看还行，冲高离场",
     "image_list": [
       "Screenshot_2024-03-15-16-04-05-35_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-04-24-16-17-57-34_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-04-24-16-16-20-48_5c5979e609b9ed4a43e94260d67cf51e.webp",
       "Screenshot_2024-03-31-08-05-17-87_798f6b8e50cb99f48ae3085b7e4ec6f1.webp",
       "Screenshot_2024-03-18-15-56-18-72_5c5979e609b9ed4a43e94260d67cf51e.webp",
       "Screenshot_2024-03-18-15-56-41-09_5c5979e609b9ed4a43e94260d67cf51e.webp"
@@ -1051,6 +1092,8 @@
     "buyReason": "开盘计算机强势，版块内有两个涨停的，上板有1千6百万大单，排单上车。",
     "image_list": [
       "Screenshot_2024-03-13-09-37-54-29_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-04-24-16-21-07-95_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-04-24-16-19-29-72_5c5979e609b9ed4a43e94260d67cf51e.webp",
       "Screenshot_2024-03-14-16-34-42-78_5c5979e609b9ed4a43e94260d67cf51e.webp",
       "Screenshot_2024-03-14-16-35-04-67_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
@@ -1100,6 +1143,8 @@
     "buyReason": "早盘电力设备涨太快，前面6-7个都涨停了，然后就在汽车板块找了一个，股性还算不错的，上板2个亿，前两档就0.2亿多了，总共上板2亿，后面开了会又封上了。第二天高开回落，在反弹高点离场。",
     "image_list": [
       "Screenshot_2024-03-12-16-27-22-32_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-04-24-16-24-08-06_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-04-24-16-22-23-63_5c5979e609b9ed4a43e94260d67cf51e.webp",
       "Screenshot_2024-03-31-07-53-55-57_798f6b8e50cb99f48ae3085b7e4ec6f1.webp"
     ]
   },
@@ -1156,6 +1201,8 @@
     "buyReason": "涨幅榜有辨识度，分时流畅，上板见大单上车，有7、8秒的反应时间",
     "image_list": [
       "Screenshot_2024-03-12-07-32-41-28_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-04-24-16-25-35-02_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-04-24-16-27-30-92_5c5979e609b9ed4a43e94260d67cf51e.webp",
       "Screenshot_2024-03-31-08-07-43-66_798f6b8e50cb99f48ae3085b7e4ec6f1.webp"
     ]
   },
@@ -1169,6 +1216,8 @@
     "buyReason": "上板有大单上车，给了上车机会，很快就上车了,第二天冲高离场。",
     "image_list": [
       "Screenshot_2024-03-12-07-33-45-36_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-04-24-16-31-52-74_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-04-24-16-29-55-67_5c5979e609b9ed4a43e94260d67cf51e.webp",
       "Screenshot_2024-03-31-09-20-13-43_798f6b8e50cb99f48ae3085b7e4ec6f1.webp",
       "Screenshot_2024-04-17-06-55-17-70_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]

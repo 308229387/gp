@@ -19,7 +19,7 @@ public class ReasonForFailure {
     public static final String REASON_15 = "不活跃，平时振幅太小";//对应编号15
     public static final String REASON_16 = "卖点错误";//对应编号16
     public static final String REASON_17 = "买多了，行情不及预期";//对应编号17
-    public static final String REASON_18 = "";//对应编号18
+    public static final String REASON_18 = "拖拉，犹豫";//对应编号18
     public static final String REASON_19 = "体量太大";//对应编号19
 
 
