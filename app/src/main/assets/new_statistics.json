@@ -1,28 +1,223 @@
 [
   {
-    "gpName": "紫建电子",
-    "formerDate": "2024-04-25",
+    "gpName": "安井食品",
+    "formerDate": "2024-04-29",
     "mode": -1,
-    "lastPrice": 0.14,
+    "lastPrice": 0,
+    "failureReason": [1],
+    "resultPoint": 0,
+    "buyReason": "板附近磨蹭半天，非热点，中午上车，后炸。这种的和思美传媒不一样，这个炸的太多，那个就一两档。明天预计平开，竞价离场。",
+    "image_list": [
+      "Screenshot_2024-04-29-17-06-52-43_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "特发服务",
+    "formerDate": "2024-04-29",
+    "mode": -1,
+    "lastPrice": 0.31,
     "failureReason": [],
     "resultPoint": 0,
-    "buyReason": "看到时已经上板了，但当时量能还不够，较前一天多一点就，这票较为活跃，锂电池同版块有3个涨停的，前面有3个多亿，但还是挂上了，过了一会排进去了，开板调整了一天最后半小时上板。",
+    "buyReason": "房地产分支，盘中烂了一天，看明天开的如何，版块情况怎么样，如果差直接竞价核。",
     "image_list": [
-      "Screenshot_2024-04-24-15-29-04-03_5c5979e609b9ed4a43e94260d67cf51e.webp",
-      "Screenshot_2024-04-25-16-23-35-73_5c5979e609b9ed4a43e94260d67cf51e.webp"
+      "Screenshot_2024-04-29-17-06-42-13_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "万丰奥威",
+    "formerDate": "2024-04-29",
+    "mode": -1,
+    "lastPrice": 2.3,
+    "failureReason": [],
+    "resultPoint": 0,
+    "buyReason": "低空经济尾盘上板，上板分时强，排单没来的及撤，但行情好，回封了。版块有所带动。但封的太晚，明天看开盘如何",
+    "image_list": [
+      "Screenshot_2024-04-29-17-06-32-99_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "格力博",
+    "formerDate": "2024-04-29",
+    "mode": -1,
+    "lastPrice": 0.18,
+    "failureReason": [],
+    "resultPoint": 0,
+    "buyReason": "机器人概念较略强，版块和个股均放量，前排20CM",
+    "image_list": [
+      "Screenshot_2024-04-29-17-06-22-96_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "思美传媒",
+    "formerDate": "2024-04-29",
+    "mode": -1,
+    "lastPrice": 0.47,
+    "failureReason": [],
+    "resultPoint": 0,
+    "buyReason": "版块略强，在板一二档调整，判断是吸量，行情好上车。",
+    "image_list": [
+      "Screenshot_2024-04-29-17-06-10-96_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "京投发展",
+    "formerDate": "2024-04-29",
+    "mode": -1,
+    "lastPrice": 0.23,
+    "failureReason": [],
+    "resultPoint": 0,
+    "buyReason": "市场放量上攻，地产热点，版块十几个涨停，中后排。",
+    "image_list": [
+      "Screenshot_2024-04-29-17-06-00-87_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "金龙汽车",
+    "formerDate": "2024-04-26",
+    "mode": 1,
+    "lastPrice": 0,
+    "failureReason": [5],
+    "resultPoint": -5.1,
+    "buyReason": "汽车版块异地时错过。退而求其次选的这个，这票K线形态不行，侥幸的是只买了一手，当时没钱了。低开竞价核",
+    "image_list": [
+      "Screenshot_2024-04-26-16-34-42-01_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-04-29-15-24-11-31_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-04-29-15-24-20-74_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "首创证券",
+    "formerDate": "2024-04-26",
+    "mode": 1,
+    "lastPrice": 1.3,
+    "failureReason": [],
+    "resultPoint": 7.3,
+    "buyReason": "证券今天是热点，这票体积小，股性强，快上板直接上车。行情好，加昨天前排，有版块效应，等第二波冲高，1分均线滞涨离场。",
+    "image_list": [
+      "Screenshot_2024-04-26-15-52-57-52_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-04-29-20-14-22-92_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-04-29-15-24-54-32_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-04-29-15-25-12-77_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-04-29-15-25-25-98_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "盛路通信",
+    "formerDate": "2024-04-26",
+    "mode": 1,
+    "lastPrice": 0,
+    "failureReason": [7],
+    "resultPoint": -1.9,
+    "buyReason": "下午刚开盘，回封上车，股性活跃，缺点是量能不足，下午低空经济回落，尾盘直接炸了。竞价走",
+    "image_list": [
+      "Screenshot_2024-04-26-15-53-32-45_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-04-29-15-25-40-11_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-04-29-15-25-53-83_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "工业富联",
+    "formerDate": "2024-04-26",
+    "mode": 1,
+    "lastPrice": 0.91,
+    "failureReason": [],
+    "resultPoint": -0.2,
+    "buyReason": "4841亿市值，上午买的时候量能还是太足，下午盘整到收盘前，有点弱。这种头一天很弱，第二天红盘低开的，就该直接割。不承担风险，还符合预期，保住收益",
+    "image_list": [
+      "Screenshot_2024-04-26-15-57-36-15_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-04-29-16-56-20-27_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-04-29-16-55-30-06_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-04-29-16-55-46-19_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-04-29-16-56-29-83_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "吉大正元",
+    "formerDate": "2024-04-26",
+    "mode": 1,
+    "lastPrice": 0.48,
+    "failureReason": [],
+    "resultPoint": -1.2,
+    "buyReason": "典型的进攻形态，买的时候量还不太够，一直在涨停板附近盘整，中午前量差不多了封板，按计算机算力来买的。开盘急跌，1分钟线未快速拉回，吓跑了。本来这票预期确实会比较强的。",
+    "image_list": [
+      "Screenshot_2024-04-26-15-59-04-89_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-04-29-16-57-50-78_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-04-29-16-58-04-41_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-04-29-16-58-16-09_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-04-29-16-59-22-05_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "亚康股份",
+    "formerDate": "2024-04-26",
+    "mode": 1,
+    "lastPrice": 0,
+    "failureReason": [7],
+    "resultPoint": -8.01,
+    "buyReason": "最近20CM的票都水逆啊，股票算活跃，今天也是算力热点，但冲高回落，量能不足是主要原因。炸板低开竞价走",
+    "image_list": [
+      "Screenshot_2024-04-26-16-33-36-06_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-04-29-16-59-49-98_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-04-29-17-00-03-37_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "福耀玻璃",
+    "formerDate": "2024-04-26",
+    "mode": 1,
+    "lastPrice": 0.29,
+    "failureReason": [],
+    "resultPoint": -0.01,
+    "buyReason": "汽车零部件大中军，首次上板量能就差不多了，加上当天市场量能比较足，上车。",
+    "image_list": [
+      "Screenshot_2024-04-26-16-01-46-54_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-04-29-17-00-34-45_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-04-29-17-00-44-86_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-04-29-17-00-55-16_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "卓创资讯",
+    "formerDate": "2024-04-26",
+    "mode": 1,
+    "lastPrice": 0.29,
+    "failureReason": [],
+    "resultPoint": 6.5,
+    "buyReason": "开盘300多万，快速上板不过总成交也就7000多万，封单3个亿，挂了一会上车了，然后就炸了，这已经成套路了。开盘秒板没量，不是什么好事。。",
+    "image_list": [
+      "Screenshot_2024-04-26-16-36-29-01_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-04-29-17-03-12-83_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-04-29-17-03-36-29_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-04-29-17-05-05-34_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-04-29-17-05-29-79_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "紫建电子",
+    "formerDate": "2024-04-25",
+    "mode": 1,
+    "lastPrice": 0.14,
+    "failureReason": [],
+    "resultPoint": -1.8,
+    "buyReason": "看到时已经上板了，但当时量能还不够，较前一天多一点就，这票较为活跃，锂电池同版块有3个涨停的，前面有3个多亿，但还是挂上了，过了一会排进去了，开板调整了一天最后半小时上板。开的太低了，竞价走人。",
+    "image_list": [
+      "Screenshot_2024-04-25-16-23-35-73_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-04-26-15-49-28-64_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-04-26-15-49-51-44_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
     "gpName": "康弘药业",
     "formerDate": "2024-04-25",
-    "mode": -1,
+    "mode": 1,
     "lastPrice": 0.33,
     "failureReason": [],
-    "resultPoint": 0,
-    "buyReason": "高开调整上板，有个20CM的深山药业封单大，这票之前有过涨停，但平时不够活跃，调整近1个小时封住，不算当天的热点题材。",
+    "resultPoint": 0.01,
+    "buyReason": "高开调整上板，有个20CM的深山药业封单大，这票之前有过涨停，但平时不够活跃，调整近1个小时封住，不算当天的热点题材。开的太低了，竞价走人。",
     "image_list": [
-      "Screenshot_2024-04-24-15-29-04-03_5c5979e609b9ed4a43e94260d67cf51e.webp",
-      "Screenshot_2024-04-25-16-34-36-94_5c5979e609b9ed4a43e94260d67cf51e.webp"
+      "Screenshot_2024-04-25-16-34-36-94_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-04-26-15-50-15-71_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-04-26-15-51-30-00_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
