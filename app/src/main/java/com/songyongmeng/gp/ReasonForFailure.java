@@ -23,5 +23,4 @@ public class ReasonForFailure {
     public static final String REASON_19 = "体量太大";//对应编号19
 
 
-
 }
