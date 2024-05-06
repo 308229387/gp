@@ -21,6 +21,7 @@ public class ReasonForFailure {
     public static final String REASON_17 = "买多了，行情不及预期";//对应编号17
     public static final String REASON_18 = "拖拉，犹豫";//对应编号18
     public static final String REASON_19 = "体量太大";//对应编号19
+    public static final String REASON_20 = "辨识度不够";//对应编号19
 
 
 }

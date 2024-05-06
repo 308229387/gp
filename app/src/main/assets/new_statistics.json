@@ -1,26 +1,56 @@
 [
   {
+    "gpName": "百通能源",
+    "formerDate": "2024-05-06",
+    "mode": -1,
+    "lastPrice": 0.31,
+    "failureReason": [],
+    "resultPoint": 0,
+    "buyReason": "有量，票很活跃，版块有一个涨停票，当天行情好，回封上车。",
+    "image_list": [
+      "Screenshot_2024-05-06-15-11-18-42_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "金鹰重工",
+    "formerDate": "2024-05-06",
+    "mode": -1,
+    "lastPrice": 0,
+    "failureReason": [1,20],
+    "resultPoint": 0,
+    "buyReason": "要量有量，要行情有行情，形态也还凑合，版块也有票涨停，但却没有被市场认可。辨识度不够，非热点版块。",
+    "image_list": [
+      "Screenshot_2024-05-06-15-11-07-17_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
     "gpName": "西藏天路",
     "formerDate": "2024-04-30",
-    "mode": -1,
+    "mode": 1,
     "lastPrice": 0.087,
     "failureReason": [1],
-    "resultPoint": 0,
-    "buyReason": "上午怂，想买的没买到，中午快速上板上车，后调整小一个小时上板，封单太小，预期要割。",
+    "resultPoint": 2.2,
+    "buyReason": "上午怂，想买的没买到，中午快速上板上车，后调整小一个小时上板，封单太小，预期要割。开盘有点超预期，但后面并没有快速拉，感觉走差离场，20分钟后拉升，应该是等不到。",
     "image_list": [
-      "Screenshot_2024-04-30-17-04-16-17_5c5979e609b9ed4a43e94260d67cf51e.webp"
+      "Screenshot_2024-04-30-17-04-16-17_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-05-06-15-07-18-56_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-05-06-15-08-02-75_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-05-06-15-07-33-38_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-05-06-15-08-16-08_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
     "gpName": "光洋股份",
     "formerDate": "2024-04-30",
-    "mode": -1,
+    "mode": 1,
     "lastPrice": 0.13,
     "failureReason": [1,6,10],
-    "resultPoint": 0,
-    "buyReason": "低空退潮，还买这种垃圾板，就是50多岁的老女人，想买就能买，但毫无利润可言，预期99%要亏。",
+    "resultPoint": -3.5,
+    "buyReason": "低空退潮，还买这种垃圾板，就是50多岁的老女人，想买就能买，但毫无利润可言，预期99%要亏。第二天低开，割肉",
     "image_list": [
-      "Screenshot_2024-04-30-17-04-05-55_5c5979e609b9ed4a43e94260d67cf51e.webp"
+      "Screenshot_2024-04-30-17-04-05-55_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-05-06-15-09-04-18_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-05-06-15-09-21-63_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
@@ -85,11 +115,16 @@
     "mode": 1,
     "lastPrice": 0.047,
     "failureReason": [],
-    "resultPoint": 10.2,
-    "buyReason": "版块略强，在板一二档调整，判断是吸量，行情好上车。",
+    "resultPoint": 12.2,
+    "buyReason": "版块略强，在板一二档调整，判断是吸量，行情好上车。二板后开，开盘高开下杀，反弹再回调离场。",
     "image_list": [
       "Screenshot_2024-04-29-17-06-10-96_5c5979e609b9ed4a43e94260d67cf51e.webp",
-      "Screenshot_2024-04-30-17-04-24-57_5c5979e609b9ed4a43e94260d67cf51e.webp"
+      "Screenshot_2024-04-30-17-04-24-57_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-05-03-07-01-05-70_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-05-06-15-10-31-43_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-05-06-15-09-47-49_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-05-06-15-10-02-08_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-05-06-15-10-46-70_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
