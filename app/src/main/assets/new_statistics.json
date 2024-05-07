@@ -40,7 +40,7 @@
   {
     "gpName": "金鹰重工",
     "formerDate": "2024-05-06",
-    "mode": -1,
+    "mode": 1,
     "lastPrice": 0,
     "failureReason": [1,3,20],
     "resultPoint": -3.2,
@@ -52,12 +52,26 @@
     ]
   },
   {
+    "gpName": "光洋股份",
+    "formerDate": "2024-04-30",
+    "mode": 1,
+    "lastPrice": 0.13,
+    "failureReason": [1,6,10],
+    "resultPoint": -3.6,
+    "buyReason": "低空退潮，还买这种垃圾板，就是50多岁的老女人，想买就能买，但毫无利润可言，预期99%要亏。第二天低开，割肉",
+    "image_list": [
+      "Screenshot_2024-04-30-17-04-05-55_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-05-06-15-09-04-18_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-05-06-15-09-21-63_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
     "gpName": "西藏天路",
     "formerDate": "2024-04-30",
     "mode": 1,
     "lastPrice": 0.087,
     "failureReason": [1],
-    "resultPoint": 2.2,
+    "resultPoint": 1.64,
     "buyReason": "上午怂，想买的没买到，中午快速上板上车，后调整小一个小时上板，封单太小，预期要割。开盘有点超预期，但后面并没有快速拉，感觉走差离场，20分钟后拉升，应该是等不到。",
     "image_list": [
       "Screenshot_2024-04-30-17-04-16-17_5c5979e609b9ed4a43e94260d67cf51e.webp",
@@ -68,54 +82,12 @@
     ]
   },
   {
-    "gpName": "光洋股份",
-    "formerDate": "2024-04-30",
-    "mode": 1,
-    "lastPrice": 0.13,
-    "failureReason": [1,6,10],
-    "resultPoint": -3.5,
-    "buyReason": "低空退潮，还买这种垃圾板，就是50多岁的老女人，想买就能买，但毫无利润可言，预期99%要亏。第二天低开，割肉",
-    "image_list": [
-      "Screenshot_2024-04-30-17-04-05-55_5c5979e609b9ed4a43e94260d67cf51e.webp",
-      "Screenshot_2024-05-06-15-09-04-18_5c5979e609b9ed4a43e94260d67cf51e.webp",
-      "Screenshot_2024-05-06-15-09-21-63_5c5979e609b9ed4a43e94260d67cf51e.webp"
-    ]
-  },
-  {
-    "gpName": "安井食品",
-    "formerDate": "2024-04-29",
-    "mode": 1,
-    "lastPrice": 0,
-    "failureReason": [1],
-    "resultPoint": -1.3,
-    "buyReason": "板附近磨蹭半天，非热点，中午上车，后炸。这种的和思美传媒不一样，这个炸的太多，那个就一两档。明天预计平开，竞价离场。",
-    "image_list": [
-      "Screenshot_2024-04-29-17-06-52-43_5c5979e609b9ed4a43e94260d67cf51e.webp",
-      "Screenshot_2024-04-30-16-56-10-56_5c5979e609b9ed4a43e94260d67cf51e.webp",
-      "Screenshot_2024-04-30-16-58-11-75_5c5979e609b9ed4a43e94260d67cf51e.webp"
-    ]
-  },
-  {
-    "gpName": "特发服务",
-    "formerDate": "2024-04-29",
-    "mode": 1,
-    "lastPrice": 0.31,
-    "failureReason": [],
-    "resultPoint": -2.8,
-    "buyReason": "房地产分支，盘中烂了一天，看明天开的如何，版块情况怎么样，如果差直接竞价核。",
-    "image_list": [
-      "Screenshot_2024-04-29-17-06-42-13_5c5979e609b9ed4a43e94260d67cf51e.webp",
-      "Screenshot_2024-04-30-17-00-57-64_5c5979e609b9ed4a43e94260d67cf51e.webp",
-      "Screenshot_2024-04-30-17-01-59-58_5c5979e609b9ed4a43e94260d67cf51e.webp"
-    ]
-  },
-  {
     "gpName": "万丰奥威",
     "formerDate": "2024-04-29",
     "mode": 1,
     "lastPrice": 2.3,
     "failureReason": [],
-    "resultPoint": -2.2,
+    "resultPoint": -2.63,
     "buyReason": "低空经济尾盘上板，上板分时强，排单没来的及撤，但行情好，回封了。版块有所带动。但封的太晚，明天看开盘如何",
     "image_list": [
       "Screenshot_2024-04-29-17-06-32-99_5c5979e609b9ed4a43e94260d67cf51e.webp",
@@ -124,12 +96,26 @@
     ]
   },
   {
+    "gpName": "特发服务",
+    "formerDate": "2024-04-29",
+    "mode": 1,
+    "lastPrice": 0.31,
+    "failureReason": [],
+    "resultPoint": -2.81,
+    "buyReason": "房地产分支，盘中烂了一天，看明天开的如何，版块情况怎么样，如果差直接竞价核。",
+    "image_list": [
+      "Screenshot_2024-04-29-17-06-42-13_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-04-30-17-00-57-64_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-04-30-17-01-59-58_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
     "gpName": "格力博",
     "formerDate": "2024-04-29",
     "mode": 1,
     "lastPrice": 0.18,
     "failureReason": [],
-    "resultPoint": -3.9,
+    "resultPoint": -3.58,
     "buyReason": "机器人概念较略强，版块和个股均放量，前排20CM",
     "image_list": [
       "Screenshot_2024-04-29-17-06-22-96_5c5979e609b9ed4a43e94260d67cf51e.webp",
@@ -143,7 +129,7 @@
     "mode": 1,
     "lastPrice": 0.047,
     "failureReason": [],
-    "resultPoint": 12.2,
+    "resultPoint": 12.41,
     "buyReason": "版块略强，在板一二档调整，判断是吸量，行情好上车。二板后开，开盘高开下杀，反弹再回调离场。",
     "image_list": [
       "Screenshot_2024-04-29-17-06-10-96_5c5979e609b9ed4a43e94260d67cf51e.webp",
@@ -161,7 +147,7 @@
     "mode": 1,
     "lastPrice": 0.23,
     "failureReason": [],
-    "resultPoint": 0.8,
+    "resultPoint": 0.77,
     "buyReason": "市场放量上攻，地产热点，版块十几个涨停，中后排。当天环境较差，开的不及预期，竞价核。有版块效应，平开",
     "image_list": [
       "Screenshot_2024-04-29-17-06-00-87_5c5979e609b9ed4a43e94260d67cf51e.webp",
@@ -169,6 +155,20 @@
       "Screenshot_2024-04-30-16-54-45-23_5c5979e609b9ed4a43e94260d67cf51e.webp",
       "Screenshot_2024-04-30-16-55-10-19_5c5979e609b9ed4a43e94260d67cf51e.webp",
       "Screenshot_2024-04-30-16-55-42-89_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "安井食品",
+    "formerDate": "2024-04-29",
+    "mode": 1,
+    "lastPrice": 0,
+    "failureReason": [1],
+    "resultPoint": -1.98,
+    "buyReason": "板附近磨蹭半天，非热点，中午上车，后炸。这种的和思美传媒不一样，这个炸的太多，那个就一两档。明天预计平开，竞价离场。",
+    "image_list": [
+      "Screenshot_2024-04-29-17-06-52-43_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-04-30-16-56-10-56_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-04-30-16-58-11-75_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
