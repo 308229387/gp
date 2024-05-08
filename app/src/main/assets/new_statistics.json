@@ -1,26 +1,43 @@
 [
   {
-    "gpName": "天箭科技",
-    "formerDate": "2024-05-07",
+    "gpName": "开能健康",
+    "formerDate": "2024-05-08",
     "mode": -1,
     "lastPrice": 0,
     "failureReason": [20],
     "resultPoint": 0,
-    "buyReason": "环境略差，热点版块，分时和股性看着还行，但冲了一次后，没有上板回落，没有辨识度，竞价都不活跃",
+    "buyReason": "版块热点，竞价涨停，竞价量也不错6000多万，开盘0.7亿挂单上车，中途开了一下马上回封了，倍量。预计明天有大肉。",
     "image_list": [
-      "Screenshot_2024-05-07-18-46-52-76_5c5979e609b9ed4a43e94260d67cf51e.webp"
+      "Screenshot_2024-05-08-18-19-27-08_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "天箭科技",
+    "formerDate": "2024-05-07",
+    "mode": 1,
+    "lastPrice": 0,
+    "failureReason": [20],
+    "resultPoint": -3.6,
+    "buyReason": "环境略差，热点版块，分时和股性看着还行，但冲了一次后，没有上板回落，没有辨识度，竞价都不活跃。第二天竞价秒。",
+    "image_list": [
+      "Screenshot_2024-05-07-18-46-03-54_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-05-08-18-17-47-74_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-05-08-18-17-58-73_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
     "gpName": "航新科技",
     "formerDate": "2024-05-07",
-    "mode": -1,
+    "mode": 1,
     "lastPrice": 0.64,
     "failureReason": [],
-    "resultPoint": 0,
-    "buyReason": "军工热点，20CM当时只有一个，买的时候涨的有点急，挂了二档，最后只成交了一小部分。",
+    "resultPoint": 8.8,
+    "buyReason": "军工热点，20CM当时只有一个，买的时候涨的有点急，挂了二档，最后只成交了一小部分。第二天行情差，版块向下，等了一分钟也下跌就走了。后有5分钟均线冲高。",
     "image_list": [
-      "Screenshot_2024-05-07-18-46-52-76_5c5979e609b9ed4a43e94260d67cf51e.webp"
+      "Screenshot_2024-05-07-18-46-52-76_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-05-08-18-18-22-96_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-05-08-18-19-03-44_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-05-08-18-19-16-44_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
@@ -29,7 +46,7 @@
     "mode": 1,
     "lastPrice": 0.31,
     "failureReason": [],
-    "resultPoint": 0.3,
+    "resultPoint": 0.24,
     "buyReason": "有量，票很活跃，当天行情好，电力版块有一个涨停票，回封上车，当天有3个票涨停。第二天平开，秒走",
     "image_list": [
       "Screenshot_2024-05-06-15-11-18-42_5c5979e609b9ed4a43e94260d67cf51e.webp",
@@ -43,7 +60,7 @@
     "mode": 1,
     "lastPrice": 0,
     "failureReason": [1,3,20],
-    "resultPoint": -3.2,
+    "resultPoint": -3.91,
     "buyReason": "股性不太好，辨识度不够，非热点版块。觉得行情好就可以瞎买，差一档涨停上车，最后冲高回落，竞价表现差，直接早早挂跌停，最后还拉了下",
     "image_list": [
       "Screenshot_2024-05-06-15-11-07-17_5c5979e609b9ed4a43e94260d67cf51e.webp",
@@ -57,7 +74,7 @@
     "mode": 1,
     "lastPrice": 0.13,
     "failureReason": [1,6,10],
-    "resultPoint": -3.6,
+    "resultPoint": -3.64,
     "buyReason": "低空退潮，还买这种垃圾板，就是50多岁的老女人，想买就能买，但毫无利润可言，预期99%要亏。第二天低开，割肉",
     "image_list": [
       "Screenshot_2024-04-30-17-04-05-55_5c5979e609b9ed4a43e94260d67cf51e.webp",
