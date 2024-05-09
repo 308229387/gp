@@ -1,14 +1,30 @@
 [
   {
+    "gpName": "山东矿机",
+    "formerDate": "2024-05-09",
+    "mode": -1,
+    "lastPrice": 0.27,
+    "failureReason": [],
+    "resultPoint": 0,
+    "buyReason": "上午光顾着开能健康的卖点了，行情比较好，临中午挑了一个贴板的票上车。不算是热点怎，但K线形态有点像前两天的蓝海华腾",
+    "image_list": [
+      "Screenshot_2024-05-09-19-35-53-43_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
     "gpName": "开能健康",
     "formerDate": "2024-05-08",
-    "mode": -1,
-    "lastPrice": 0,
-    "failureReason": [20],
-    "resultPoint": 0,
-    "buyReason": "版块热点，竞价涨停，竞价量也不错6000多万，开盘0.7亿挂单上车，中途开了一下马上回封了，倍量。预计明天有大肉。",
+    "mode": 1,
+    "lastPrice": 0.55,
+    "failureReason": [],
+    "resultPoint": 17.8,
+    "buyReason": "版块热点，竞价涨停，竞价量也不错6000多万，开盘0.7亿挂单上车，中途开了一下马上回封了，倍量。预计明天有大肉。开盘高开，冲高没走，沿5日线冲，等第二波回落离场。当天行情较好，如果没破5分线，应该拿一拿",
     "image_list": [
-      "Screenshot_2024-05-08-18-19-27-08_5c5979e609b9ed4a43e94260d67cf51e.webp"
+      "Screenshot_2024-05-08-18-19-27-08_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-05-09-19-34-49-54_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-05-09-19-35-30-65_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-05-09-19-35-10-28_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-05-09-19-35-42-27_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
@@ -17,7 +33,7 @@
     "mode": 1,
     "lastPrice": 0,
     "failureReason": [20],
-    "resultPoint": -3.6,
+    "resultPoint": -4.0,
     "buyReason": "环境略差，热点版块，分时和股性看着还行，但冲了一次后，没有上板回落，没有辨识度，竞价都不活跃。第二天竞价秒。",
     "image_list": [
       "Screenshot_2024-05-07-18-46-03-54_5c5979e609b9ed4a43e94260d67cf51e.webp",
@@ -31,7 +47,7 @@
     "mode": 1,
     "lastPrice": 0.64,
     "failureReason": [],
-    "resultPoint": 8.8,
+    "resultPoint": 8.72,
     "buyReason": "军工热点，20CM当时只有一个，买的时候涨的有点急，挂了二档，最后只成交了一小部分。第二天行情差，版块向下，等了一分钟也下跌就走了。后有5分钟均线冲高。",
     "image_list": [
       "Screenshot_2024-05-07-18-46-52-76_5c5979e609b9ed4a43e94260d67cf51e.webp",
