@@ -11,7 +11,7 @@ public class ReasonForFailure {
     public static final String REASON_7= "量能不对";//对应编号7
     public static final String REASON_8= "均线压制，大级别均线压制";//对应编号8
     public static final String REASON_9= "误操作";//对应编号9
-    public static final String REASON_10 = "退潮环境差";//对应编号10
+    public static final String REASON_10 = "环境差";//对应编号10
     public static final String REASON_11 = "排单未撤，被炸进去";//对应编号11
     public static final String REASON_12 = "太仓促";//对应编号12
     public static final String REASON_13 = "上板分时量太弱";//对应编号13

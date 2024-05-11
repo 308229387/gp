@@ -1,14 +1,28 @@
 [
   {
+    "gpName": "东宝生物",
+    "formerDate": "2024-05-10",
+    "mode": -1,
+    "lastPrice": 0,
+    "failureReason": [10,7],
+    "resultPoint": 0,
+    "buyReason": "开盘行情就不是太好，还是小题材炒作，拉的太快了，前面几个都是无量秒封，版块肉5个涨停的。这票上板时优点是均线高，K线形态好，但整体量能不足，只是和前一两天相同，换手并不充分，刚开始封单大，3个多亿，排了一会就上车了。那时就感觉有点问题了，",
+    "image_list": [
+      "Screenshot_2024-05-10-17-09-18-15_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
     "gpName": "山东矿机",
     "formerDate": "2024-05-09",
-    "mode": -1,
+    "mode": 1,
     "lastPrice": 0.27,
     "failureReason": [],
-    "resultPoint": 0,
-    "buyReason": "上午光顾着开能健康的卖点了，行情比较好，临中午挑了一个贴板的票上车。不算是热点怎，但K线形态有点像前两天的蓝海华腾",
+    "resultPoint": 1.6,
+    "buyReason": "上午光顾着开能健康的卖点了，行情比较好，临中午挑了一个贴板的票上车。不算是热点怎，但K线形态有点像前两天的蓝海华腾，红盘开的比较低，总价走。",
     "image_list": [
-      "Screenshot_2024-05-09-19-35-53-43_5c5979e609b9ed4a43e94260d67cf51e.webp"
+      "Screenshot_2024-05-09-19-35-53-43_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-05-10-17-09-31-43_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-05-10-17-09-41-37_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
@@ -17,7 +31,7 @@
     "mode": 1,
     "lastPrice": 0.55,
     "failureReason": [],
-    "resultPoint": 17.8,
+    "resultPoint": 16.65,
     "buyReason": "版块热点，竞价涨停，竞价量也不错6000多万，开盘0.7亿挂单上车，中途开了一下马上回封了，倍量。预计明天有大肉。开盘高开，冲高没走，沿5日线冲，等第二波回落离场。当天行情较好，如果没破5分线，应该拿一拿",
     "image_list": [
       "Screenshot_2024-05-08-18-19-27-08_5c5979e609b9ed4a43e94260d67cf51e.webp",
