@@ -22,6 +22,6 @@ public class ReasonForFailure {
     public static final String REASON_18 = "拖拉，犹豫";//对应编号18
     public static final String REASON_19 = "体量太大";//对应编号19
     public static final String REASON_20 = "辨识度不够";//对应编号20
-
+    public static final String REASON_21 = "缩量遇前高";//对应编号21
 
 }

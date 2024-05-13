@@ -28,7 +28,11 @@
     "formerDate": "2024-05-10",
     "mode": 1,
     "lastPrice": 0,
-    "failureReason": [10,7],
+    "failureReason": [
+      21,
+      10,
+      7
+    ],
     "resultPoint": -11.6,
     "buyReason": "开盘行情就不是太好，还是小题材炒作，拉的太快了，前面几个都是无量秒封，版块肉5个涨停的。这票上板时优点是均线高，K线形态好，但整体量能不足，只是和前一两天相同，换手并不充分，刚开始封单大，3个多亿，排了一会就上车了。那时就感觉有点问题了，竞价太幅低开，竞价走，依然是最高点。",
     "image_list": [
@@ -72,7 +76,9 @@
     "formerDate": "2024-05-07",
     "mode": 1,
     "lastPrice": 0,
-    "failureReason": [20],
+    "failureReason": [
+      20
+    ],
     "resultPoint": -4.0,
     "buyReason": "环境略差，热点版块，分时和股性看着还行，但冲了一次后，没有上板回落，没有辨识度，竞价都不活跃。第二天竞价秒。",
     "image_list": [
@@ -115,7 +121,11 @@
     "formerDate": "2024-05-06",
     "mode": 1,
     "lastPrice": 0,
-    "failureReason": [1,3,20],
+    "failureReason": [
+      1,
+      3,
+      20
+    ],
     "resultPoint": -3.91,
     "buyReason": "股性不太好，辨识度不够，非热点版块。觉得行情好就可以瞎买，差一档涨停上车，最后冲高回落，竞价表现差，直接早早挂跌停，最后还拉了下",
     "image_list": [
@@ -129,7 +139,11 @@
     "formerDate": "2024-04-30",
     "mode": 1,
     "lastPrice": 0.13,
-    "failureReason": [1,6,10],
+    "failureReason": [
+      1,
+      6,
+      10
+    ],
     "resultPoint": -3.64,
     "buyReason": "低空退潮，还买这种垃圾板，就是50多岁的老女人，想买就能买，但毫无利润可言，预期99%要亏。第二天低开，割肉",
     "image_list": [
@@ -143,7 +157,9 @@
     "formerDate": "2024-04-30",
     "mode": 1,
     "lastPrice": 0.087,
-    "failureReason": [1],
+    "failureReason": [
+      1
+    ],
     "resultPoint": 1.64,
     "buyReason": "上午怂，想买的没买到，中午快速上板上车，后调整小一个小时上板，封单太小，预期要割。开盘有点超预期，但后面并没有快速拉，感觉走差离场，20分钟后拉升，应该是等不到。",
     "image_list": [
@@ -235,7 +251,9 @@
     "formerDate": "2024-04-29",
     "mode": 1,
     "lastPrice": 0,
-    "failureReason": [1],
+    "failureReason": [
+      1
+    ],
     "resultPoint": -1.98,
     "buyReason": "板附近磨蹭半天，非热点，中午上车，后炸。这种的和思美传媒不一样，这个炸的太多，那个就一两档。明天预计平开，竞价离场。",
     "image_list": [
@@ -249,7 +267,9 @@
     "formerDate": "2024-04-26",
     "mode": 1,
     "lastPrice": 0,
-    "failureReason": [7],
+    "failureReason": [
+      7
+    ],
     "resultPoint": -2.14,
     "buyReason": "下午刚开盘，回封上车，股性活跃，缺点是量能不足，下午低空经济回落，尾盘直接炸了。竞价走",
     "image_list": [
@@ -279,7 +299,10 @@
     "formerDate": "2024-04-26",
     "mode": 1,
     "lastPrice": 0,
-    "failureReason": [7],
+    "failureReason": [
+      21,
+      7
+    ],
     "resultPoint": -8.86,
     "buyReason": "最近20CM的票都水逆啊，股票算活跃，今天也是算力热点，但冲高回落，量能不足是主要原因。炸板低开竞价走",
     "image_list": [
@@ -324,7 +347,9 @@
     "formerDate": "2024-04-26",
     "mode": 1,
     "lastPrice": 0,
-    "failureReason": [5],
+    "failureReason": [
+      5
+    ],
     "resultPoint": -7.21,
     "buyReason": "汽车版块异地时错过。退而求其次选的这个，这票K线形态不行，侥幸的是只买了一手，当时没钱了。低开竞价核",
     "image_list": [
@@ -414,7 +439,12 @@
     "formerDate": "2024-04-24",
     "mode": 1,
     "lastPrice": 0,
-    "failureReason": [7,12,18],
+    "failureReason": [
+      21,
+      7,
+      12,
+      18
+    ],
     "resultPoint": -13.35,
     "buyReason": "竞价结束才1000多万，做为烂板高开，严重的不足，上板附近量能就不过四分之一，但二封如果看到了，也应该逃不掉，明天不超预期就要竞价核了。竞价低开3个多点，心存侥幸没核，觉着有可能再拉，开始给自己找借口，再挂还没成交，撤已经晚了。犹豫不决",
     "image_list": [
@@ -428,7 +458,11 @@
     "formerDate": "2024-04-23",
     "mode": 1,
     "lastPrice": 0,
-    "failureReason": [6,12,17],
+    "failureReason": [
+      6,
+      12,
+      17
+    ],
     "resultPoint": 5.77,
     "buyReason": "从0轴附近，近乎直线拉升到涨停，K线上看没有问题，股性也可以，主要是分时形态太差，空头未释放，太仓促了。第二天超预期高开，快速上板，本来想着弱转强，后来回落，5分分时均线无支撑离场。",
     "image_list": [
@@ -520,7 +554,10 @@
     "formerDate": "2024-04-19",
     "mode": 1,
     "lastPrice": 0,
-    "failureReason": [3,19],
+    "failureReason": [
+      3,
+      19
+    ],
     "resultPoint": -2.28,
     "buyReason": "条件太松，竞价走势并不强势，没有抢筹的形态，而且体量大，股性差。竞价量高开5个点，7400万，快速上板，当时也没时间去看股性，觉得能复制东方锆业那种K线形态，板附近量能已经和昨天平量，就上车了，后炸",
     "image_list": [
@@ -534,7 +571,9 @@
     "formerDate": "2024-04-19",
     "mode": 1,
     "lastPrice": 0,
-    "failureReason": [10],
+    "failureReason": [
+      10
+    ],
     "resultPoint": -1.2,
     "buyReason": "这票挑不出毛病来，K线、量能、板块强度、股性、分时均线也还可以，但开板后，就是不回封，和当天行情略差有关。也是个后排",
     "image_list": [
@@ -548,7 +587,11 @@
     "formerDate": "2024-04-18",
     "mode": 1,
     "lastPrice": 0,
-    "failureReason": [1,3,15],
+    "failureReason": [
+      1,
+      3,
+      15
+    ],
     "resultPoint": -4.57,
     "buyReason": "板块大涨4个多点，版块也放量，以为是前排，但后面没有其他股上板，坚持到下午开板，尾盘拉了下。明天低开离场。",
     "image_list": [
@@ -1832,6 +1875,7 @@
     "mode": 1,
     "lastPrice": 0,
     "failureReason": [
+      21,
       4,
       6,
       10
