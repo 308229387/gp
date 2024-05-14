@@ -26,7 +26,7 @@
   {
     "gpName": "雷尔伟",
     "formerDate": "2024-05-13",
-    "mode": -1,
+    "mode": 1,
     "lastPrice": 0.27,
     "failureReason": [10],
     "resultPoint": 0,
@@ -40,10 +40,10 @@
   {
     "gpName": "中胤时尚",
     "formerDate": "2024-05-13",
-    "mode": -1,
+    "mode": 1,
     "lastPrice": 0.52,
     "failureReason": [10],
-    "resultPoint": 0,
+    "resultPoint": 5.6,
     "buyReason": "环境比较差，市场低开。这票K线形态和量能觉得还挺好，首封后调整了几分钟，再度回封量能合适，就上车了，没有版块效应。封单略高",
     "image_list": [
       "Screenshot_2024-05-13-17-35-53-43_5c5979e609b9ed4a43e94260d67cf51e.webp",
@@ -63,7 +63,7 @@
       10,
       7
     ],
-    "resultPoint": -11.6,
+    "resultPoint": -11.97,
     "buyReason": "开盘行情就不是太好，还是小题材炒作，拉的太快了，前面几个都是无量秒封，版块肉5个涨停的。这票上板时优点是均线高，K线形态好，但整体量能不足，只是和前一两天相同，换手并不充分，刚开始封单大，3个多亿，排了一会就上车了。那时就感觉有点问题了，竞价太幅低开，竞价走，依然是最高点。",
     "image_list": [
       "Screenshot_2024-05-10-17-09-18-15_5c5979e609b9ed4a43e94260d67cf51e.webp",
