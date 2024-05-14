@@ -1,5 +1,29 @@
 [
   {
+    "gpName": "安凯客车",
+    "formerDate": "2024-05-14",
+    "mode": -1,
+    "lastPrice": 0.06,
+    "failureReason": [],
+    "resultPoint": 0,
+    "buyReason": "大盘还可以，但踩了漫步者的雷，当天热点，但不是唯一热点，第二个上板的，有点烂，预计明天要割肉",
+    "image_list": [
+      "Screenshot_2024-05-14-18-12-51-14_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "漫步者",
+    "formerDate": "2024-05-14",
+    "mode": -1,
+    "lastPrice": 0,
+    "failureReason": [13],
+    "resultPoint": 0,
+    "buyReason": "竞价量6千多万，9个点高开，上板后观察了下，3千万3千万的加，第一个3千万上车，封了一会崩了，大面。",
+    "image_list": [
+      "Screenshot_2024-05-14-18-12-40-70_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
     "gpName": "雷尔伟",
     "formerDate": "2024-05-13",
     "mode": -1,
@@ -8,7 +32,9 @@
     "resultPoint": 0,
     "buyReason": "算是当天较热的版块，刚上板3个亿，到最后才不到3千万，板上没怎么放量，从封单看略差，明天如果平开，-3止损拿个几分钟。",
     "image_list": [
-      "Screenshot_2024-05-13-17-35-40-98_5c5979e609b9ed4a43e94260d67cf51e.webp"
+      "Screenshot_2024-05-13-17-35-40-98_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-05-14-18-23-50-20_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-05-14-18-23-58-31_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
@@ -20,7 +46,11 @@
     "resultPoint": 0,
     "buyReason": "环境比较差，市场低开。这票K线形态和量能觉得还挺好，首封后调整了几分钟，再度回封量能合适，就上车了，没有版块效应。封单略高",
     "image_list": [
-      "Screenshot_2024-05-13-17-35-53-43_5c5979e609b9ed4a43e94260d67cf51e.webp"
+      "Screenshot_2024-05-13-17-35-53-43_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-05-14-18-24-08-79_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-05-14-18-24-51-53_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-05-14-18-24-36-26_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-05-14-18-25-01-23_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
