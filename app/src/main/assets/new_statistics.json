@@ -1,40 +1,56 @@
 [
   {
+    "gpName": "南京聚隆",
+    "formerDate": "2024-05-15",
+    "mode": -1,
+    "lastPrice": 0,
+    "failureReason": [7,21,10],
+    "resultPoint": 0,
+    "buyReason": "前面有个20cm的板错过了，看到这个板，有前高，量也不太足，冲高没上，再回头傻逼呼呼的居然上了。真是崩溃。",
+    "image_list": [
+      "Screenshot_2024-05-14-18-12-51-14_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-05-15-19-45-00-01_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "富通微电",
+    "formerDate": "2024-05-15",
+    "mode": -1,
+    "lastPrice": 0,
+    "failureReason": [10],
+    "resultPoint": 0,
+    "buyReason": "看行情没有太糟，炸板率也是低，专门挑了个有量，低位，形态还可以的，结果还是炸。明天预计割",
+    "image_list": [
+      "Screenshot_2024-05-14-18-12-51-14_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-05-15-19-45-18-56_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
     "gpName": "安凯客车",
     "formerDate": "2024-05-14",
-    "mode": -1,
+    "mode": 1,
     "lastPrice": 0.06,
     "failureReason": [],
-    "resultPoint": 0,
-    "buyReason": "大盘还可以，但踩了漫步者的雷，当天热点，但不是唯一热点，第二个上板的，有点烂，预计明天要割肉，太弱",
+    "resultPoint": -6.2,
+    "buyReason": "大盘还可以，但踩了漫步者的雷，当天热点，但不是唯一热点，第二个上板的，有点烂，预计明天要割肉，太弱。第二天割",
     "image_list": [
-      "Screenshot_2024-05-14-18-12-51-14_5c5979e609b9ed4a43e94260d67cf51e.webp"
+      "Screenshot_2024-05-14-18-12-51-14_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-05-15-19-44-38-33_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-05-15-19-44-49-40_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
     "gpName": "漫步者",
     "formerDate": "2024-05-14",
-    "mode": -1,
-    "lastPrice": 0,
-    "failureReason": [13],
-    "resultPoint": 0,
-    "buyReason": "竞价量6千多万，9个点高开，上板后观察了下，3千万3千万的加，第一个3千万上车，封了一会崩了，大面。不超预期竞价走。",
-    "image_list": [
-      "Screenshot_2024-05-14-18-12-40-70_5c5979e609b9ed4a43e94260d67cf51e.webp"
-    ]
-  },
-  {
-    "gpName": "雷尔伟",
-    "formerDate": "2024-05-13",
     "mode": 1,
-    "lastPrice": 0.27,
-    "failureReason": [10],
-    "resultPoint": 0,
-    "buyReason": "算是当天较热的版块，刚上板3个亿，到最后才不到3千万，板上没怎么放量，从封单看略差，明天如果平开，-3止损拿个几分钟。执行不到位，竞价走了。太怂",
+    "lastPrice": 0,
+    "failureReason": [7,13],
+    "resultPoint": -11.01,
+    "buyReason": "竞价量6千多万，9个点高开，上板后观察了下，3千万3千万的加，第一个3千万上车，封了一会崩了，大面。不超预期竞价走。第二天割",
     "image_list": [
-      "Screenshot_2024-05-13-17-35-40-98_5c5979e609b9ed4a43e94260d67cf51e.webp",
-      "Screenshot_2024-05-14-18-23-50-20_5c5979e609b9ed4a43e94260d67cf51e.webp",
-      "Screenshot_2024-05-14-18-23-58-31_5c5979e609b9ed4a43e94260d67cf51e.webp"
+      "Screenshot_2024-05-14-18-12-40-70_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-05-15-19-44-08-25_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-05-15-19-44-28-50_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
@@ -43,7 +59,7 @@
     "mode": 1,
     "lastPrice": 0.52,
     "failureReason": [10],
-    "resultPoint": 5.6,
+    "resultPoint": 5.38,
     "buyReason": "环境比较差，市场低开。这票K线形态和量能觉得还挺好，首封后调整了几分钟，再度回封量能合适，就上车了，没有版块效应。封单略高",
     "image_list": [
       "Screenshot_2024-05-13-17-35-53-43_5c5979e609b9ed4a43e94260d67cf51e.webp",
@@ -51,6 +67,20 @@
       "Screenshot_2024-05-14-18-24-51-53_5c5979e609b9ed4a43e94260d67cf51e.webp",
       "Screenshot_2024-05-14-18-24-36-26_5c5979e609b9ed4a43e94260d67cf51e.webp",
       "Screenshot_2024-05-14-18-25-01-23_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "雷尔伟",
+    "formerDate": "2024-05-13",
+    "mode": 1,
+    "lastPrice": 0.27,
+    "failureReason": [10],
+    "resultPoint": -0.1,
+    "buyReason": "算是当天较热的版块，刚上板3个亿，到最后才不到3千万，板上没怎么放量，从封单看略差，明天如果平开，-3止损拿个几分钟。执行不到位，竞价走了。太怂",
+    "image_list": [
+      "Screenshot_2024-05-13-17-35-40-98_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-05-14-18-23-50-20_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-05-14-18-23-58-31_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
