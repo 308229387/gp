@@ -1,5 +1,77 @@
 [
   {
+    "gpName": "特发服务",
+    "formerDate": "2024-05-16",
+    "mode": -1,
+    "lastPrice": 0,
+    "failureReason": [12],
+    "resultPoint": 0,
+    "buyReason": "当天在设研院，和特发服务这两票想着选，但设研院要比特发服务好很多，一是上午长时间板，二是均线，但没留意没上板，看这票冲高就上了。吸取教训。",
+    "image_list": [
+      "Screenshot_2024-05-16-19-37-30-17_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "新晨科技",
+    "formerDate": "2024-05-16",
+    "mode": -1,
+    "lastPrice": 0,
+    "failureReason": [],
+    "resultPoint": 0,
+    "buyReason": "当时量能就已经有7/10了，均线，版块，看着都还行，K线形态也还好，但就是没有回封。市场风格最近不偏好20CM",
+    "image_list": [
+      "Screenshot_2024-05-16-19-37-56-09_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  }
+  {
+    "gpName": "通化金马",
+    "formerDate": "2024-05-16",
+    "mode": -1,
+    "lastPrice": 0,
+    "failureReason": [],
+    "resultPoint": 0,
+    "buyReason": "上午大盘比较好，金马想做回封，有量，而且上冲有假动作，一直在板附近震荡，但最后也没上。",
+    "image_list": [
+      "Screenshot_2024-05-16-19-38-12-39_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "海南瑞泽",
+    "formerDate": "2024-05-16",
+    "mode": -1,
+    "lastPrice": 0.12,
+    "failureReason": [],
+    "resultPoint": 0,
+    "buyReason": "大盘放量，建筑材料跟风板。封单小，炸了一次还",
+    "image_list": [
+      "Screenshot_2024-05-16-19-38-46-37_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "荣盛发展",
+    "formerDate": "2024-05-16",
+    "mode": -1,
+    "lastPrice": 0.002,
+    "failureReason": [],
+    "resultPoint": 0,
+    "buyReason": "看当天大盘放量，在房地产行业又找了支有量的上车，定位是跟风板但板的质量比较差，明天不超预期要割。",
+    "image_list": [
+      "Screenshot_2024-05-16-19-38-37-24_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "合肥城建",
+    "formerDate": "2024-05-16",
+    "mode": -1,
+    "lastPrice": 0.34,
+    "failureReason": [],
+    "resultPoint": 0,
+    "buyReason": "大盘当天放量，热点，上板半仓，后回封感觉可以又上整仓，有量，热点版块",
+    "image_list": [
+      "Screenshot_2024-05-16-19-38-21-29_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
     "gpName": "南京聚隆",
     "formerDate": "2024-05-15",
     "mode": -1,
@@ -8,8 +80,9 @@
     "resultPoint": 0,
     "buyReason": "前面有个20cm的板错过了，看到这个板，有前高，量也不太足，冲高没上，再回头傻逼呼呼的居然上了。真是崩溃。",
     "image_list": [
-      "Screenshot_2024-05-14-18-12-51-14_5c5979e609b9ed4a43e94260d67cf51e.webp",
-      "Screenshot_2024-05-15-19-45-00-01_5c5979e609b9ed4a43e94260d67cf51e.webp"
+      "Screenshot_2024-05-15-19-45-00-01_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-05-16-19-36-49-23_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-05-16-19-36-59-24_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
@@ -21,8 +94,9 @@
     "resultPoint": 0,
     "buyReason": "看行情没有太糟，炸板率也是低，专门挑了个有量，低位，形态还可以的，结果还是炸。明天预计割",
     "image_list": [
-      "Screenshot_2024-05-14-18-12-51-14_5c5979e609b9ed4a43e94260d67cf51e.webp",
-      "Screenshot_2024-05-15-19-45-18-56_5c5979e609b9ed4a43e94260d67cf51e.webp"
+      "Screenshot_2024-05-15-19-45-18-56_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-05-16-19-37-07-69_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-05-16-19-37-16-21_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
