@@ -1,20 +1,94 @@
 [
   {
-    "gpName": "深圳华强",
-    "formerDate": "2024-05-16",
+    "gpName": "四川黄金",
+    "formerDate": "2024-05-20",
+    "mode": -1,
+    "lastPrice": 1.04,
+    "failureReason": [],
+    "resultPoint": 0,
+    "buyReason": "当天热点版块，10cm前排，放量，但和前高有些差距，可是版块强势放大量，明天1-5分均线卖出",
+    "image_list": [
+      "Screenshot_2024-05-20-15-53-31-37_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "晓程科技",
+    "formerDate": "2024-05-20",
+    "mode": -1,
+    "lastPrice": 0.96,
+    "failureReason": [],
+    "resultPoint": 0,
+    "buyReason": "当天热点版块，版块明显放量，放量突破平台，分时形态很好买前要开会，看着有戏直接上车，后涨停。",
+    "image_list": [
+      "Screenshot_2024-05-20-15-53-21-12_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "电工合金",
+    "formerDate": "2024-05-20",
     "mode": -1,
     "lastPrice": 0,
     "failureReason": [],
     "resultPoint": 0,
-    "buyReason": "在强势板块带动下终于从烂泥的心态里挽回了，今天买的比较慎重，底部，有量，当时不知道炒的什么，芯片，算是前排。下交易日等5分线卖。",
+    "buyReason": "次热点版块，底部突破平台，全天烂板最后也差一档，明天不超预期高开有量就秒走。",
     "image_list": [
-      "Screenshot_2024-05-17-19-16-41-98_5c5979e609b9ed4a43e94260d67cf51e.webp"
+      "Screenshot_2024-05-20-15-51-32-48_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "北方铜业",
+    "formerDate": "2024-05-20",
+    "mode": -1,
+    "lastPrice": 1.18,
+    "failureReason": [],
+    "resultPoint": 0,
+    "buyReason": "次热点版块，突破平台，上午封板时近乎放量，明天看行情，1分或5分线。",
+    "image_list": [
+      "Screenshot_2024-05-20-15-51-32-48_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "雷曼光电",
+    "formerDate": "2024-05-20",
+    "mode": -1,
+    "lastPrice": 0.16,
+    "failureReason": [],
+    "resultPoint": 0,
+    "buyReason": "非热点，二板放量，看在板上不停的吸量，也是放量过平台，上板也上车试试。明天不超预期高开有量就秒走",
+    "image_list": [
+      "Screenshot_2024-05-20-15-51-32-48_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "新研股份",
+    "formerDate": "2024-05-20",
+    "mode": -1,
+    "lastPrice": 0,
+    "failureReason": [],
+    "resultPoint": 0,
+    "buyReason": "大盘放量，个股有量，版块一般，烂了一天，最后差一档上板。明天不超预期高开有量就秒走。",
+    "image_list": [
+      "Screenshot_2024-05-20-15-51-32-48_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "深圳华强",
+    "formerDate": "2024-05-17",
+    "mode": -1,
+    "lastPrice": 0.55,
+    "failureReason": [],
+    "resultPoint": 0,
+    "buyReason": "在强势板块带动下终于从烂泥的心态里挽回了，今天买的比较慎重，底部，有量，当时不知道炒的什么，芯片，算是前排。下交易日等5分线卖。竞价本来不错，最后一秒跳杀，秒到水下不上翻离场。",
+    "image_list": [
+      "Screenshot_2024-05-17-19-16-41-98_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-05-20-15-50-55-25_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-05-20-15-51-08-48_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
     "gpName": "特发服务",
     "formerDate": "2024-05-16",
-    "mode": -1,
+    "mode": 1,
     "lastPrice": 0,
     "failureReason": [
       12
