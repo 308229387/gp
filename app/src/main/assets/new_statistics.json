@@ -2,7 +2,7 @@
   {
     "gpName": "四川黄金",
     "formerDate": "2024-05-20",
-    "mode": -1,
+    "mode": 1,
     "lastPrice": 1.04,
     "failureReason": [16],
     "resultPoint": -0.8,
@@ -17,7 +17,7 @@
   {
     "gpName": "晓程科技",
     "formerDate": "2024-05-20",
-    "mode": -1,
+    "mode": 1,
     "lastPrice": 0.96,
     "failureReason": [],
     "resultPoint": 2.5,
@@ -32,7 +32,7 @@
   {
     "gpName": "电工合金",
     "formerDate": "2024-05-20",
-    "mode": -1,
+    "mode": 1,
     "lastPrice": 0,
     "failureReason": [],
     "resultPoint": -5.1,
@@ -46,7 +46,7 @@
   {
     "gpName": "北方铜业",
     "formerDate": "2024-05-20",
-    "mode": -1,
+    "mode": 1,
     "lastPrice": 1.18,
     "failureReason": [16,18],
     "resultPoint": -1.5,
@@ -60,7 +60,7 @@
   {
     "gpName": "雷曼光电",
     "formerDate": "2024-05-20",
-    "mode": -1,
+    "mode": 1,
     "lastPrice": 0.16,
     "failureReason": [16,22],
     "resultPoint": -12.2,
