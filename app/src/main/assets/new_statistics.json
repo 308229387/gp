@@ -4,11 +4,14 @@
     "formerDate": "2024-05-20",
     "mode": -1,
     "lastPrice": 1.04,
-    "failureReason": [],
-    "resultPoint": 0,
-    "buyReason": "当天热点版块，10cm前排，放量，但和前高有些差距，可是版块强势放大量，明天1-5分均线卖出",
+    "failureReason": [16],
+    "resultPoint": -0.8,
+    "buyReason": "当天热点版块，10cm前排，放量，但和前高有些差距，可是版块强势放大量，明天1-5分均线卖出，第二天强度不及预期，下杀走弱离场",
     "image_list": [
-      "Screenshot_2024-05-20-15-53-31-37_5c5979e609b9ed4a43e94260d67cf51e.webp"
+      "Screenshot_2024-05-20-15-53-31-37_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-05-21-19-05-56-83_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-05-21-19-06-07-62_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-05-21-19-06-17-31_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
@@ -17,10 +20,13 @@
     "mode": -1,
     "lastPrice": 0.96,
     "failureReason": [],
-    "resultPoint": 0,
-    "buyReason": "当天热点版块，版块明显放量，放量突破平台，分时形态很好买前要开会，看着有戏直接上车，后涨停。",
+    "resultPoint": 2.5,
+    "buyReason": "当天热点版块，版块明显放量，放量突破平台，分时形态很好买前要开会，看着有戏直接上车，后涨停。第二天小高开，破5分线离场。这种小高开的，应该按1分线来判断，可能会好点。",
     "image_list": [
-      "Screenshot_2024-05-20-15-53-21-12_5c5979e609b9ed4a43e94260d67cf51e.webp"
+      "Screenshot_2024-05-20-15-53-21-12_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-05-21-19-06-45-14_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-05-21-19-06-53-34_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-05-21-19-07-02-78_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
@@ -29,10 +35,12 @@
     "mode": -1,
     "lastPrice": 0,
     "failureReason": [],
-    "resultPoint": 0,
-    "buyReason": "次热点版块，底部突破平台，全天烂板最后也差一档，明天不超预期高开有量就秒走。",
+    "resultPoint": -5.1,
+    "buyReason": "次热点版块，底部突破平台，全天烂板最后也差一档，明天不超预期高开有量就秒走。不及预期，低开离场。",
     "image_list": [
-      "Screenshot_2024-05-20-15-51-32-48_5c5979e609b9ed4a43e94260d67cf51e.webp"
+      "Screenshot_2024-05-20-15-53-06-55_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-05-21-19-07-58-52_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-05-21-19-08-07-22_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
@@ -40,11 +48,13 @@
     "formerDate": "2024-05-20",
     "mode": -1,
     "lastPrice": 1.18,
-    "failureReason": [],
-    "resultPoint": 0,
-    "buyReason": "次热点版块，突破平台，上午封板时近乎放量，明天看行情，1分或5分线。",
+    "failureReason": [16,18],
+    "resultPoint": -1.5,
+    "buyReason": "次热点版块，突破平台，上午封板时近乎放量，明天看行情，1分或5分线。这个亏的有点扯蛋，想等5分钟，结果把票删除了，等发现的时候，已经在水平处了，水下无反弹离场。",
     "image_list": [
-      "Screenshot_2024-05-20-15-51-32-48_5c5979e609b9ed4a43e94260d67cf51e.webp"
+      "Screenshot_2024-05-20-15-52-43-16_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-05-21-19-46-09-64_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-05-21-19-05-18-98_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
@@ -52,32 +62,36 @@
     "formerDate": "2024-05-20",
     "mode": -1,
     "lastPrice": 0.16,
-    "failureReason": [],
-    "resultPoint": 0,
-    "buyReason": "非热点，二板放量，看在板上不停的吸量，也是放量过平台，上板也上车试试。明天不超预期高开有量就秒走",
+    "failureReason": [16,22],
+    "resultPoint": -12.2,
+    "buyReason": "模式外，非热点，二板放量，看在板上不停的吸量，也是放量过平台，上板也上车试试。明天不超预期高开有量就秒走，竞价跌停，大低开11多个点，割肉后拉升。",
     "image_list": [
-      "Screenshot_2024-05-20-15-51-32-48_5c5979e609b9ed4a43e94260d67cf51e.webp"
+      "Screenshot_2024-05-20-15-52-16-62_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-05-21-19-07-39-31_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-05-21-19-07-47-57_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
     "gpName": "新研股份",
     "formerDate": "2024-05-20",
-    "mode": -1,
+    "mode": 1,
     "lastPrice": 0,
-    "failureReason": [],
-    "resultPoint": 0,
-    "buyReason": "大盘放量，个股有量，版块一般，烂了一天，最后差一档上板。明天不超预期高开有量就秒走。",
+    "failureReason": [1],
+    "resultPoint": -9.2,
+    "buyReason": "大盘放量，个股有量，版块一般，烂了一天，最后差一档上板。明天不超预期高开有量就秒走。竞价低开离场",
     "image_list": [
-      "Screenshot_2024-05-20-15-51-32-48_5c5979e609b9ed4a43e94260d67cf51e.webp"
+      "Screenshot_2024-05-20-15-51-32-48_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-05-21-19-07-20-49_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-05-21-19-07-28-98_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
     "gpName": "深圳华强",
     "formerDate": "2024-05-17",
-    "mode": -1,
+    "mode": 1,
     "lastPrice": 0.55,
     "failureReason": [],
-    "resultPoint": 0,
+    "resultPoint": -2.71,
     "buyReason": "在强势板块带动下终于从烂泥的心态里挽回了，今天买的比较慎重，底部，有量，当时不知道炒的什么，芯片，算是前排。下交易日等5分线卖。竞价本来不错，最后一秒跳杀，秒到水下不上翻离场。",
     "image_list": [
       "Screenshot_2024-05-17-19-16-41-98_5c5979e609b9ed4a43e94260d67cf51e.webp",
@@ -85,44 +99,14 @@
       "Screenshot_2024-05-20-15-51-08-48_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
-  {
-    "gpName": "特发服务",
-    "formerDate": "2024-05-16",
-    "mode": 1,
-    "lastPrice": 0,
-    "failureReason": [
-      12
-    ],
-    "resultPoint": -2.1,
-    "buyReason": "当天在设研院，和特发服务这两票想着选，但设研院要比特发服务好很多，一是上午长时间板，二是均线，但没留意没上板，看这票冲高就上了。吸取教训。昨天板块太强了，今天拿了一会，到昨天涨停线附近看没有马上突破离场。",
-    "image_list": [
-      "Screenshot_2024-05-16-19-37-30-17_5c5979e609b9ed4a43e94260d67cf51e.webp",
-      "Screenshot_2024-05-17-19-01-39-59_5c5979e609b9ed4a43e94260d67cf51e.webp",
-      "Screenshot_2024-05-17-19-01-48-14_5c5979e609b9ed4a43e94260d67cf51e.webp"
-    ]
-  },
-  {
-    "gpName": "新晨科技",
-    "formerDate": "2024-05-16",
-    "mode": 1,
-    "lastPrice": 0,
-    "failureReason": [],
-    "resultPoint": 9.4,
-    "buyReason": "当时量能就已经有7/10了，均线，版块，看着都还行，K线形态也还好，但就是没有回封。市场风格最近不偏好20CM，超预期，上冲后回到开盘点离场",
-    "image_list": [
-      "Screenshot_2024-05-16-19-37-56-09_5c5979e609b9ed4a43e94260d67cf51e.webp",
-      "Screenshot_2024-05-17-19-00-34-84_5c5979e609b9ed4a43e94260d67cf51e.webp",
-      "Screenshot_2024-05-17-19-00-45-60_5c5979e609b9ed4a43e94260d67cf51e.webp",
-      "Screenshot_2024-05-17-19-00-56-09_5c5979e609b9ed4a43e94260d67cf51e.webp"
-    ]
-  },
+
   {
     "gpName": "通化金马",
     "formerDate": "2024-05-16",
     "mode": 1,
     "lastPrice": 0,
     "failureReason": [],
-    "resultPoint": -1.5,
+    "resultPoint": -1.46,
     "buyReason": "上午大盘比较好，金马想做回封，有量，而且上冲有假动作，一直在板附近震荡，但最后也没上。竞价居然跌停，竞价离场",
     "image_list": [
       "Screenshot_2024-05-16-19-38-12-39_5c5979e609b9ed4a43e94260d67cf51e.webp",
@@ -130,27 +114,14 @@
       "Screenshot_2024-05-17-18-57-31-17_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
-  {
-    "gpName": "海南瑞泽",
-    "formerDate": "2024-05-16",
-    "mode": 1,
-    "lastPrice": 0.12,
-    "failureReason": [],
-    "resultPoint": -3.2,
-    "buyReason": "大盘放量，建筑材料跟风板。封单小，炸了一次还，因为不是昨天的主流，今天低开了向下，上冲无力离场。以为版块强会带动，并没有",
-    "image_list": [
-      "Screenshot_2024-05-16-19-38-46-37_5c5979e609b9ed4a43e94260d67cf51e.webp",
-      "Screenshot_2024-05-17-18-59-37-82_5c5979e609b9ed4a43e94260d67cf51e.webp",
-      "Screenshot_2024-05-17-19-00-07-42_5c5979e609b9ed4a43e94260d67cf51e.webp"
-    ]
-  },
+
   {
     "gpName": "荣盛发展",
     "formerDate": "2024-05-16",
     "mode": 1,
     "lastPrice": 0.002,
     "failureReason": [],
-    "resultPoint": 3.1,
+    "resultPoint": 2.58,
     "buyReason": "看当天大盘放量，在房地产行业又找了支有量的上车，定位是跟风板但板的质量比较差，明天不超预期要割。昨天版块强，今天躺赚3个点，",
     "image_list": [
       "Screenshot_2024-05-16-19-38-37-24_5c5979e609b9ed4a43e94260d67cf51e.webp",
@@ -164,14 +135,59 @@
     "formerDate": "2024-05-16",
     "mode": 1,
     "lastPrice": 0.34,
-    "failureReason": [],
-    "resultPoint": 3.2,
+    "failureReason": [16],
+    "resultPoint": 3.19,
     "buyReason": "大盘当天放量，热点，上板半仓，后回封感觉可以又上整仓，有量，热点版块，应该等一波5分钟的，但开盘向下，震荡一会被洗",
     "image_list": [
       "Screenshot_2024-05-16-19-38-21-29_5c5979e609b9ed4a43e94260d67cf51e.webp",
       "Screenshot_2024-05-17-18-59-16-30_5c5979e609b9ed4a43e94260d67cf51e.webp",
       "Screenshot_2024-05-17-18-59-00-78_5c5979e609b9ed4a43e94260d67cf51e.webp",
       "Screenshot_2024-05-17-18-59-25-19_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "海南瑞泽",
+    "formerDate": "2024-05-16",
+    "mode": 1,
+    "lastPrice": 0.12,
+    "failureReason": [],
+    "resultPoint": -3.56,
+    "buyReason": "大盘放量，建筑材料跟风板。封单小，炸了一次还，因为不是昨天的主流，今天低开了向下，上冲无力离场。以为版块强会带动，并没有",
+    "image_list": [
+      "Screenshot_2024-05-16-19-38-46-37_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-05-17-18-59-37-82_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-05-17-19-00-07-42_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "新晨科技",
+    "formerDate": "2024-05-16",
+    "mode": 1,
+    "lastPrice": 0,
+    "failureReason": [],
+    "resultPoint": 9.33,
+    "buyReason": "当时量能就已经有7/10了，均线，版块，看着都还行，K线形态也还好，但就是没有回封。市场风格最近不偏好20CM，超预期，上冲后回到开盘点离场",
+    "image_list": [
+      "Screenshot_2024-05-16-19-37-56-09_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-05-17-19-00-34-84_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-05-17-19-00-45-60_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-05-17-19-00-56-09_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "特发服务",
+    "formerDate": "2024-05-16",
+    "mode": 1,
+    "lastPrice": 0,
+    "failureReason": [
+      12
+    ],
+    "resultPoint": -1.77,
+    "buyReason": "当天在设研院，和特发服务这两票想着选，但设研院要比特发服务好很多，一是上午长时间板，二是均线，但没留意没上板，看这票冲高就上了。吸取教训。昨天板块太强了，今天拿了一会，到昨天涨停线附近看没有马上突破离场。",
+    "image_list": [
+      "Screenshot_2024-05-16-19-37-30-17_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-05-17-19-01-39-59_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-05-17-19-01-48-14_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
@@ -197,6 +213,7 @@
     "lastPrice": 0,
     "failureReason": [
       7,
+      16,
       21,
       10
     ],
@@ -245,7 +262,7 @@
     "mode": 1,
     "lastPrice": 0.52,
     "failureReason": [
-      10
+      10,16
     ],
     "resultPoint": 5.38,
     "buyReason": "环境比较差，市场低开。这票K线形态和量能觉得还挺好，首封后调整了几分钟，再度回封量能合适，就上车了，没有版块效应。封单略高",
@@ -263,7 +280,7 @@
     "mode": 1,
     "lastPrice": 0.27,
     "failureReason": [
-      10
+      10,16
     ],
     "resultPoint": -0.1,
     "buyReason": "算是当天较热的版块，刚上板3个亿，到最后才不到3千万，板上没怎么放量，从封单看略差，明天如果平开，-3止损拿个几分钟。执行不到位，竞价走了。太怂",
