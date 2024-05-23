@@ -24,5 +24,6 @@ public class ReasonForFailure {
     public static final String REASON_20 = "辨识度不够";//对应编号20
     public static final String REASON_21 = "缩量遇前高";//对应编号21
     public static final String REASON_22 = "模式外";//对应编号21
+    public static final String REASON_23 = "版块轮转回落";//对应编号21
 
 }
