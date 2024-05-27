@@ -1,14 +1,28 @@
 [
   {
-    "gpName": "一博科技",
-    "formerDate": "2024-05-23",
+    "gpName": "若羽臣",
+    "formerDate": "2024-05-27",
     "mode": -1,
     "lastPrice": 0.5,
-    "failureReason": [],
+    "failureReason": [5],
     "resultPoint": 0,
-    "buyReason": "环境特别差，但自己all in，就算赚钱也是一笔失败的交易。个股快速放量，低空经济，有一些版块效应。下午开了一下，但感觉明天应该有肉。",
+    "buyReason": "开盘环境特别差，但版块逆势大涨，涨幅8点多，收盘也有6.85，版块量能倍量，这票当时K线形态不是太好，用北京炒家的话来说就是k线形态不流畅，10CM预期是第二个上板，但表现不及预期。",
     "image_list": [
-      "Screenshot_2024-05-23-19-38-14-00_5c5979e609b9ed4a43e94260d67cf51e.webp"
+      "Screenshot_2024-05-27-20-23-31-77_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "一博科技",
+    "formerDate": "2024-05-23",
+    "mode": 1,
+    "lastPrice": 0.5,
+    "failureReason": [10],
+    "resultPoint": -5.2,
+    "buyReason": "环境特别差，但自己all in，就算赚钱也是一笔失败的交易。个股快速放量，低空经济，有一些版块效应。下午开了一下，但感觉明天应该有肉。第二天低开5个点，割。",
+    "image_list": [
+      "Screenshot_2024-05-23-19-38-14-00_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-05-27-00-22-05-29_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-05-27-00-21-56-75_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {

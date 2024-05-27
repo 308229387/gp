@@ -35,6 +35,36 @@
     ]
   },
   {
+    "name": "可操作形态",
+    "data": [
+      {
+        "richText": [
+          "title:版块强，过平台倍量",
+          "text: 版块大涨，有量能支撑，找到其中的前排，第二天上车",
+          "image:Screenshot_2024-05-27-21-27-15-02_5c5979e609b9ed4a43e94260d67cf51e.webp",
+          "image:Screenshot_2024-05-27-21-27-49-88_5c5979e609b9ed4a43e94260d67cf51e.webp"
+        ]
+      },
+      {
+        "richText": [
+          "title:秒板放量再确认",
+          "text: 量能是关键，一定要放的足够大，而且要有回封，抛压要小。",
+          "image:Screenshot_2024-05-27-21-36-33-01_798f6b8e50cb99f48ae3085b7e4ec6f1.webp",
+          "image:Screenshot_2024-05-27-21-36-49-14_798f6b8e50cb99f48ae3085b7e4ec6f1.webp",
+          "image:Screenshot_2024-05-27-21-36-49-14_798f6b8e50cb99f48ae3085b7e4ec6f1.webp"
+        ]
+      },
+      {
+        "richText": [
+          "title:贴线吸量",
+          "text: 顺风，有的时候量能还不太够，会在涨停板附近开开合合，如果是逆风，就转弱开板了。",
+          "image:Screenshot_2024-04-29-17-06-10-96_5c5979e609b9ed4a43e94260d67cf51e.webp",
+          "image:Screenshot_2024-05-27-21-24-56-28_798f6b8e50cb99f48ae3085b7e4ec6f1.webp"
+        ]
+      }
+    ]
+  },
+  {
     "name": "错误整理",
     "data": [
       {
@@ -120,13 +150,6 @@
         "richText": [
           "title:如何调整心态",
           "text: 放慢速度，做一笔成功的交易，感觉自然就回来了。5.17之前连续的大亏损，心态崩了，上个月赚的亏损回去了，昨天靠直觉上了大涨版块了，但也没吃到大肉，不过靠一个超预期回本后，又打了个稳板，心态一下正过来了。"
-        ]
-      },
-      {
-        "richText": [
-          "title:比较稳定的几种形态",
-          "text: 贴线吸量，示例-思美传媒",
-          "image:Screenshot_2024-04-29-17-06-10-96_5c5979e609b9ed4a43e94260d67cf51e.webp"
         ]
       }
     ]
