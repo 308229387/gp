@@ -1,50 +1,142 @@
 [
   {
+    "gpName": "天箭科技",
+    "formerDate": "2024-05-29",
+    "mode": -1,
+    "lastPrice": 0,
+    "failureReason": [],
+    "resultPoint": 0,
+    "buyReason": "秒拉再确认上板，无量，炸。国防军工冲高秒走烂",
+    "image_list": [
+      "Screenshot_2024-05-29-19-34-50-97_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "湖南黄金",
+    "formerDate": "2024-05-29",
+    "mode": -1,
+    "lastPrice": 0.34,
+    "failureReason": [],
+    "resultPoint": 0,
+    "buyReason": "金属版块前排。",
+    "image_list": [
+      "Screenshot_2024-05-29-19-34-59-47_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "TCL中环",
+    "formerDate": "2024-05-29",
+    "mode": -1,
+    "lastPrice": 0,
+    "failureReason": [],
+    "resultPoint": 0,
+    "buyReason": "电力冲高回落，这票偏中军",
+    "image_list": [
+      "Screenshot_2024-05-29-19-35-08-45_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "翔鹭钨业",
+    "formerDate": "2024-05-29",
+    "mode": -1,
+    "lastPrice": 0.16,
+    "failureReason": [],
+    "resultPoint": 0,
+    "buyReason": "冲板上车，有些版块效应，前排。",
+    "image_list": [
+      "Screenshot_2024-05-29-19-35-31-53_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "裕兴股份",
+    "formerDate": "2024-05-29",
+    "mode": -1,
+    "lastPrice": 0.42,
+    "failureReason": [],
+    "resultPoint": 0,
+    "buyReason": "冲板上车，当时还没封住，再次上板，完全是蒙的，当时量也不大。",
+    "image_list": [
+      "Screenshot_2024-05-29-19-35-19-64_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "拓日新能",
+    "formerDate": "2024-05-29",
+    "mode": -1,
+    "lastPrice": 0,
+    "failureReason": [23],
+    "resultPoint": 0,
+    "buyReason": "开盘秒板，再确认排单上车，后炸，版块轮转。",
+    "image_list": [
+      "Screenshot_2024-05-29-19-35-39-37_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "南山控股",
+    "formerDate": "2024-05-29",
+    "mode": -1,
+    "lastPrice": 0,
+    "failureReason": [23],
+    "resultPoint": 0,
+    "buyReason": "地产突然冲高，觉得有望，挑了个3龙10cm，后再没有封上。",
+    "image_list": [
+      "Screenshot_2024-05-29-19-35-55-08_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
     "gpName": "豫光金铅",
     "formerDate": "2024-05-28",
-    "mode": -1,
+    "mode": 1,
     "lastPrice": 0,
     "failureReason": [23],
     "resultPoint": 0,
     "buyReason": "工业金属怎有拉升，上板还挺强势，但后面版块有前高，量不够，拉跨，这票跟着也不行了。",
     "image_list": [
-      "Screenshot_2024-05-28-16-54-37-28_5c5979e609b9ed4a43e94260d67cf51e.webp"
+      "Screenshot_2024-05-28-16-54-37-28_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-05-29-19-32-47-66_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-05-29-19-32-59-29_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
     "gpName": "西昌电力",
     "formerDate": "2024-05-28",
-    "mode": -1,
+    "mode": 1,
     "lastPrice": 0.05,
     "failureReason": [],
     "resultPoint": 0,
     "buyReason": "电力下午有拉升，这两天算是主线，还可以就上车跟了，但表现不佳，尾盘才勉强上板。",
     "image_list": [
-      "Screenshot_2024-05-28-16-53-45-15_5c5979e609b9ed4a43e94260d67cf51e.webp"
+      "Screenshot_2024-05-28-16-53-45-15_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-05-29-19-33-09-94_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-05-29-19-33-17-87_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
     "gpName": "上海贝岭",
     "formerDate": "2024-05-28",
-    "mode": -1,
+    "mode": 1,
     "lastPrice": 0.44,
     "failureReason": [],
     "resultPoint": 0,
     "buyReason": "半导体开盘大涨，电风扇行情，一会又下来了，下午开了一小会板，感觉比较强势，有量过平台，预计明天有肉。",
     "image_list": [
-      "Screenshot_2024-05-28-16-53-37-26_5c5979e609b9ed4a43e94260d67cf51e.webp"
+      "Screenshot_2024-05-28-16-53-37-26_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-05-29-19-33-26-19_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-05-29-19-33-33-85_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
     "gpName": "中晶科技",
     "formerDate": "2024-05-28",
-    "mode": -1,
+    "mode": 1,
     "lastPrice": 0,
     "failureReason": [23],
     "resultPoint": 0,
     "buyReason": "半导体开盘大涨，电风扇行情，一会又下来了，主要是行情不持续",
     "image_list": [
-      "Screenshot_2024-05-28-16-53-22-33_5c5979e609b9ed4a43e94260d67cf51e.webp"
+      "Screenshot_2024-05-28-16-53-22-33_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-05-29-19-32-30-67_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-05-29-19-32-39-12_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
