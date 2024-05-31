@@ -130,7 +130,7 @@ public class MainActivity extends AppCompatActivity {
                     toFenQiSucK();
                 } else if (allData.get(groupPosition).getData().get(childPosition).getRichText().get(0).equals("title:统计有量竞价")) {
                     toBidding();
-                } else if (allData.get(groupPosition).getData().get(childPosition).getRichText().get(0).equals("title:高手近期首板")) {
+                } else if (allData.get(groupPosition).getData().get(childPosition).getRichText().get(0).equals("title:高手近期学习")) {
                     toSeeImage(Constants.YESTODAY_IMG);
                 }else if (allData.get(groupPosition).getData().get(childPosition).getRichText().get(0).equals("title:北京炒家总集")) {
                     toSeeImage(Constants.BJCJ_IMG);
