@@ -1,64 +1,155 @@
 [
   {
-    "gpName": "香江控股",
-    "formerDate": "2024-06-04",
+    "gpName": "上海贝岭",
+    "formerDate": "2024-06-06",
     "mode": -1,
-    "lastPrice": 0.06,
+    "lastPrice": 0.17,
     "failureReason": [],
     "resultPoint": 0,
-    "buyReason": "连冰两天，试错，平台放量突破，但在板上放量，略显不强势，明天拿一天，找找机会。。",
+    "buyReason": "二波冲高形态，在涨停板震荡，看明天行情。",
     "image_list": [
-      "Screenshot_2024-06-04-19-32-06-25_5c5979e609b9ed4a43e94260d67cf51e.webp"
+      "Screenshot_2024-06-06-15-17-40-64_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
     "gpName": "玉龙股份",
-    "formerDate": "2024-06-04",
+    "formerDate": "2024-06-06",
     "mode": -1,
-    "lastPrice": 0.04,
+    "lastPrice": 0.17,
     "failureReason": [],
     "resultPoint": 0,
-    "buyReason": "连冰两天，试错，均线K线，都还可以。",
+    "buyReason": "微盘崩，早盘在涨停板附近腻歪，尾盘又放量，无语。",
     "image_list": [
-      "Screenshot_2024-06-04-19-31-58-08_5c5979e609b9ed4a43e94260d67cf51e.webp"
+      "Screenshot_2024-06-06-15-17-32-53_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
-    "gpName": "明星电力",
-    "formerDate": "2024-06-04",
+    "gpName": "万集科技",
+    "formerDate": "2024-06-06",
     "mode": -1,
-    "lastPrice": 0.97,
+    "lastPrice": 0,
     "failureReason": [],
     "resultPoint": 0,
-    "buyReason": "当龙回头来买的。没钱了微微仓，感觉明天有肉。",
+    "buyReason": "无爆量无大涨大跌。三天量能均衡，等5日均线支撑",
     "image_list": [
-      "Screenshot_2024-06-04-19-31-50-32_5c5979e609b9ed4a43e94260d67cf51e.webp"
+      "Screenshot_2024-06-06-15-17-22-37_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "北方导航",
+    "formerDate": "2024-06-05",
+    "mode": 1,
+    "lastPrice": 0.78,
+    "failureReason": [],
+    "resultPoint": -2.3,
+    "buyReason": "尾盘放量，致使第二天没法玩了。竞价走",
+    "image_list": [
+      "Screenshot_2024-06-05-21-34-07-12_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-06-06-15-17-03-57_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-06-06-15-17-13-22_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "民德电子",
+    "formerDate": "2024-06-05",
+    "mode": 1,
+    "lastPrice": 0.24,
+    "failureReason": [],
+    "resultPoint": 7.8,
+    "buyReason": "有量，分时有点像正丹上车那天，最后一次封板上车。第二天下早了。竞价看走的比较差，就直接竞价走了。",
+    "image_list": [
+      "Screenshot_2024-06-05-21-34-28-95_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-06-06-15-16-46-68_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-06-06-15-16-55-22_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
     "gpName": "东杰智能",
     "formerDate": "2024-06-03",
-    "mode": -1,
+    "mode": 0,
     "lastPrice": 0,
     "failureReason": [],
-    "resultPoint": 0,
+    "resultPoint": -2.91,
     "buyReason": "环境太差，直接从前天的20cm找了个形态好像还凑合的，第二天还站在5日均线上，再拿拿",
     "image_list": [
       "Screenshot_2024-06-03-19-26-47-70_5c5979e609b9ed4a43e94260d67cf51e.webp",
-      "Screenshot_2024-06-04-19-32-26-47_5c5979e609b9ed4a43e94260d67cf51e.webp"
+      "Screenshot_2024-06-04-19-32-26-47_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-06-06-05-37-25-53_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-06-06-05-37-46-11_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
     "gpName": "国科微",
     "formerDate": "2024-06-03",
-    "mode": -1,
+    "mode": 0,
     "lastPrice": 0,
     "failureReason": [],
-    "resultPoint": 0,
+    "resultPoint": 1.55,
     "buyReason": "环境太差，直接从前天的20cm找了个形态好像还凑合的，今天刚刚回调。",
     "image_list": [
       "Screenshot_2024-06-03-19-26-39-88_5c5979e609b9ed4a43e94260d67cf51e.webp",
-      "Screenshot_2024-06-04-19-32-17-93_5c5979e609b9ed4a43e94260d67cf51e.webp"
+      "Screenshot_2024-06-04-19-32-17-93_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-06-06-05-38-07-21_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-06-06-05-42-10-08_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-06-06-05-39-03-32_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+
+  {
+    "gpName": "明星电力",
+    "formerDate": "2024-06-04",
+    "mode": 99,
+    "lastPrice": 0.97,
+    "failureReason": [],
+    "resultPoint": 2.67,
+    "buyReason": "当龙回头来买的。没钱了微微仓，感觉明天有肉。",
+    "image_list": [
+      "Screenshot_2024-06-04-19-31-50-32_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-06-06-05-39-16-45_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-06-06-05-39-38-22_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-06-06-05-39-47-15_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "香江控股",
+    "formerDate": "2024-06-04",
+    "mode": 1,
+    "lastPrice": 0.06,
+    "failureReason": [],
+    "resultPoint": -3.36,
+    "buyReason": "连冰两天，试错，平台放量突破，但在板上放量，略显不强势，明天拿一天，找找机会。。",
+    "image_list": [
+      "Screenshot_2024-06-04-19-32-06-25_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-06-06-05-40-03-18_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-06-06-05-40-11-23_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "玉龙股份",
+    "formerDate": "2024-06-04",
+    "mode": 1,
+    "lastPrice": 0.04,
+    "failureReason": [],
+    "resultPoint": -1.85,
+    "buyReason": "连冰两天，试错，均线K线，都还可以。",
+    "image_list": [
+      "Screenshot_2024-06-04-19-31-58-08_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-06-06-05-40-27-27_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-06-06-05-40-36-24_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "智微智能",
+    "formerDate": "2024-05-31",
+    "mode": 1,
+    "lastPrice": 0.4,
+    "failureReason": [],
+    "resultPoint": -2.44,
+    "buyReason": "前排，微量，K线略好，版块红，大盘还可以",
+    "image_list": [
+      "Screenshot_2024-05-31-17-04-18-65_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-06-03-19-25-11-49_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-06-03-19-25-19-34_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
@@ -67,7 +158,7 @@
     "mode": 0,
     "lastPrice": 0,
     "failureReason": [],
-    "resultPoint": -8.2,
+    "resultPoint": -7.86,
     "buyReason": "强势创业板股票回调，等回踩5日线，首板后第二天量能比较大，但第二天也有较好承接。",
     "image_list": [
       "Screenshot_2024-05-31-17-05-55-90_5c5979e609b9ed4a43e94260d67cf51e.webp",
@@ -76,26 +167,12 @@
     ]
   },
   {
-    "gpName": "五洲新春",
-    "formerDate": "2024-05-31",
-    "mode": 1,
-    "lastPrice": 0,
-    "failureReason": [],
-    "resultPoint": -2.01,
-    "buyReason": "版块当时就一个二板，这是第一个首板，感觉还行，后炸，正常摩擦，形态、量都可以",
-    "image_list": [
-      "Screenshot_2024-05-31-17-05-40-89_5c5979e609b9ed4a43e94260d67cf51e.webp",
-      "Screenshot_2024-06-03-19-25-48-19_5c5979e609b9ed4a43e94260d67cf51e.webp",
-      "Screenshot_2024-06-03-19-26-09-56_5c5979e609b9ed4a43e94260d67cf51e.webp"
-    ]
-  },
-  {
     "gpName": "新晨科技",
     "formerDate": "2024-05-31",
     "mode": 0,
     "lastPrice": 0,
     "failureReason": [],
-    "resultPoint": -1.1,
+    "resultPoint": -1.01,
     "buyReason": "看到30日均线反弹，",
     "image_list": [
       "Screenshot_2024-05-31-17-04-26-31_5c5979e609b9ed4a43e94260d67cf51e.webp",
@@ -109,7 +186,7 @@
     "mode": 1,
     "lastPrice": 0.31,
     "failureReason": [],
-    "resultPoint": -3.2,
+    "resultPoint": -6.59,
     "buyReason": "龙二，热门版块，有量，K线略好，大盘还可以",
     "image_list": [
       "Screenshot_2024-05-31-17-04-26-31_5c5979e609b9ed4a43e94260d67cf51e.webp",
@@ -118,17 +195,17 @@
     ]
   },
   {
-    "gpName": "智微智能",
+    "gpName": "五洲新春",
     "formerDate": "2024-05-31",
     "mode": 1,
-    "lastPrice": 0.4,
+    "lastPrice": 0,
     "failureReason": [],
-    "resultPoint": -1.2,
-    "buyReason": "前排，微量，K线略好，版块红，大盘还可以",
+    "resultPoint": -2.66,
+    "buyReason": "版块当时就一个二板，这是第一个首板，感觉还行，后炸，正常摩擦，形态、量都可以",
     "image_list": [
-      "Screenshot_2024-05-31-17-04-18-65_5c5979e609b9ed4a43e94260d67cf51e.webp",
-      "Screenshot_2024-06-03-19-25-11-49_5c5979e609b9ed4a43e94260d67cf51e.webp",
-      "Screenshot_2024-06-03-19-25-19-34_5c5979e609b9ed4a43e94260d67cf51e.webp"
+      "Screenshot_2024-05-31-17-05-40-89_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-06-03-19-25-48-19_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-06-03-19-26-09-56_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
