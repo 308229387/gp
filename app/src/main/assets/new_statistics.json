@@ -2,25 +2,29 @@
   {
     "gpName": "上海贝岭",
     "formerDate": "2024-06-06",
-    "mode": -1,
-    "lastPrice": 0.17,
+    "mode": 1,
+    "lastPrice": 0.29,
     "failureReason": [],
-    "resultPoint": 0,
-    "buyReason": "二波冲高形态，在涨停板震荡，看明天行情。",
+    "resultPoint": -5.2,
+    "buyReason": "二波冲高形态，在涨停板震荡，看明天行情。第二天被叫去开会了，看时已经崩了，找高点离场",
     "image_list": [
-      "Screenshot_2024-06-06-15-17-40-64_5c5979e609b9ed4a43e94260d67cf51e.webp"
+      "Screenshot_2024-06-06-15-17-40-64_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-06-07-17-20-32-68_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-06-07-17-21-18-80_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
     "gpName": "玉龙股份",
     "formerDate": "2024-06-06",
-    "mode": -1,
+    "mode": 1,
     "lastPrice": 0.17,
     "failureReason": [],
-    "resultPoint": 0,
-    "buyReason": "微盘崩，早盘在涨停板附近腻歪，尾盘又放量，无语。",
+    "resultPoint": 2.2,
+    "buyReason": "微盘崩，早盘在涨停板附近腻歪，尾盘又放量，无语。演示错过高点，找时机离场",
     "image_list": [
-      "Screenshot_2024-06-06-15-17-32-53_5c5979e609b9ed4a43e94260d67cf51e.webp"
+      "Screenshot_2024-06-06-15-17-32-53_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-06-07-17-20-41-37_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-06-07-17-21-08-82_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
@@ -29,10 +33,12 @@
     "mode": -1,
     "lastPrice": 0,
     "failureReason": [],
-    "resultPoint": 0,
-    "buyReason": "无爆量无大涨大跌。三天量能均衡，等5日均线支撑",
+    "resultPoint": -8.3,
+    "buyReason": "无爆量无大涨大跌。三天量能均衡，等5日均线支撑。第二天被叫去开会了，看时已经崩了，找高点离场",
     "image_list": [
-      "Screenshot_2024-06-06-15-17-22-37_5c5979e609b9ed4a43e94260d67cf51e.webp"
+      "Screenshot_2024-06-06-15-17-22-37_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-06-07-17-20-21-76_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-06-07-17-21-00-18_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
