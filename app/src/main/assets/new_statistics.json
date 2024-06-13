@@ -1,11 +1,91 @@
 [
   {
+    "gpName": "斯菱股份",
+    "formerDate": "2024-06-13",
+    "mode": -1,
+    "lastPrice": 1.21,
+    "failureReason": [],
+    "resultPoint": 0,
+    "buyReason": "上午全是猛冲的，下午刚开始看到，分时比较健康。K线也还行。量能凑合。",
+    "image_list": [
+      "Screenshot_2024-06-13-15-21-26-79_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "安奈儿",
+    "formerDate": "2024-06-13",
+    "mode": -1,
+    "lastPrice": 0.26,
+    "failureReason": [],
+    "resultPoint": 0,
+    "buyReason": "量能来看不足，分时觉得还凑合，有点勉强。",
+    "image_list": [
+      "Screenshot_2024-06-13-15-21-35-34_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "万邦医药",
+    "formerDate": "2024-06-12",
+    "mode": 1,
+    "lastPrice": 0,
+    "failureReason": [5],
+    "resultPoint": -8.2,
+    "buyReason": "医药有上冲，但分析上个月20CM赚的最多，就硬上了一个，这票盘整时间少点，K线形态向下。",
+    "image_list": [
+      "Screenshot_2024-06-12-17-45-57-98_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-06-13-15-19-47-88_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-06-13-15-19-56-58_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "浙版传媒",
+    "formerDate": "2024-06-12",
+    "mode": 1,
+    "lastPrice": 0.1,
+    "failureReason": [],
+    "resultPoint": -1.2,
+    "buyReason": "版块微热，二龙，封单太小，第二天竞价也比较弱，平开离场",
+    "image_list": [
+      "Screenshot_2024-06-12-17-45-01-70_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-06-13-15-21-08-05_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-06-13-15-21-15-85_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "海翔药业",
+    "formerDate": "2024-06-12",
+    "mode": 1,
+    "lastPrice": 0,
+    "failureReason": [20],
+    "resultPoint": -2.2,
+    "buyReason": "分时均线看着挺好，但没有什么辨识度，K线也不是太流畅吧",
+    "image_list": [
+      "Screenshot_2024-06-12-17-45-01-70_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-06-13-15-20-11-66_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-06-13-15-20-27-05_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "万集科技",
+    "formerDate": "2024-06-06",
+    "mode": 0,
+    "lastPrice": 0,
+    "failureReason": [],
+    "resultPoint": -9.55,
+    "buyReason": "无爆量无大涨大跌。三天量能均衡，等5日均线支撑。第二天被叫去开会了，看时已经崩了，找高点离场",
+    "image_list": [
+      "Screenshot_2024-06-06-15-17-22-37_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-06-07-17-20-21-76_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-06-07-17-21-00-18_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
     "gpName": "上海贝岭",
     "formerDate": "2024-06-06",
-    "mode": 1,
+    "mode": 99,
     "lastPrice": 0.29,
     "failureReason": [],
-    "resultPoint": -5.2,
+    "resultPoint": -5.49,
     "buyReason": "二波冲高形态，在涨停板震荡，看明天行情。第二天被叫去开会了，看时已经崩了，找高点离场",
     "image_list": [
       "Screenshot_2024-06-06-15-17-40-64_5c5979e609b9ed4a43e94260d67cf51e.webp",
@@ -19,7 +99,7 @@
     "mode": 1,
     "lastPrice": 0.17,
     "failureReason": [],
-    "resultPoint": 2.2,
+    "resultPoint": 2.19,
     "buyReason": "微盘崩，早盘在涨停板附近腻歪，尾盘又放量，无语。演示错过高点，找时机离场",
     "image_list": [
       "Screenshot_2024-06-06-15-17-32-53_5c5979e609b9ed4a43e94260d67cf51e.webp",
@@ -28,17 +108,17 @@
     ]
   },
   {
-    "gpName": "万集科技",
-    "formerDate": "2024-06-06",
-    "mode": 0,
-    "lastPrice": 0,
+    "gpName": "民德电子",
+    "formerDate": "2024-06-05",
+    "mode": 1,
+    "lastPrice": 0.24,
     "failureReason": [],
-    "resultPoint": -8.3,
-    "buyReason": "无爆量无大涨大跌。三天量能均衡，等5日均线支撑。第二天被叫去开会了，看时已经崩了，找高点离场",
+    "resultPoint": 7.18,
+    "buyReason": "有量，分时有点像正丹上车那天，最后一次封板上车。第二天下早了。竞价看走的比较差，就直接竞价走了。",
     "image_list": [
-      "Screenshot_2024-06-06-15-17-22-37_5c5979e609b9ed4a43e94260d67cf51e.webp",
-      "Screenshot_2024-06-07-17-20-21-76_5c5979e609b9ed4a43e94260d67cf51e.webp",
-      "Screenshot_2024-06-07-17-21-00-18_5c5979e609b9ed4a43e94260d67cf51e.webp"
+      "Screenshot_2024-06-05-21-34-28-95_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-06-06-15-16-46-68_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-06-06-15-16-55-22_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
@@ -47,26 +127,12 @@
     "mode": 1,
     "lastPrice": 0.78,
     "failureReason": [],
-    "resultPoint": -2.3,
+    "resultPoint": -2.69,
     "buyReason": "尾盘放量，致使第二天没法玩了。竞价走",
     "image_list": [
       "Screenshot_2024-06-05-21-34-07-12_5c5979e609b9ed4a43e94260d67cf51e.webp",
       "Screenshot_2024-06-06-15-17-03-57_5c5979e609b9ed4a43e94260d67cf51e.webp",
       "Screenshot_2024-06-06-15-17-13-22_5c5979e609b9ed4a43e94260d67cf51e.webp"
-    ]
-  },
-  {
-    "gpName": "民德电子",
-    "formerDate": "2024-06-05",
-    "mode": 1,
-    "lastPrice": 0.24,
-    "failureReason": [],
-    "resultPoint": 7.8,
-    "buyReason": "有量，分时有点像正丹上车那天，最后一次封板上车。第二天下早了。竞价看走的比较差，就直接竞价走了。",
-    "image_list": [
-      "Screenshot_2024-06-05-21-34-28-95_5c5979e609b9ed4a43e94260d67cf51e.webp",
-      "Screenshot_2024-06-06-15-16-46-68_5c5979e609b9ed4a43e94260d67cf51e.webp",
-      "Screenshot_2024-06-06-15-16-55-22_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
