@@ -1,26 +1,141 @@
 [
   {
-    "gpName": "斯菱股份",
-    "formerDate": "2024-06-13",
+    "gpName": "星辉环材",
+    "formerDate": "2024-06-19",
     "mode": -1,
-    "lastPrice": 1.21,
+    "lastPrice": 0.29,
     "failureReason": [],
     "resultPoint": 0,
-    "buyReason": "上午全是猛冲的，下午刚开始看到，分时比较健康。K线也还行。量能凑合。",
+    "buyReason": "回封，想躲掉上午的炸板。看炒家空仓，明天高潮，今天兑现，明天看空？",
     "image_list": [
-      "Screenshot_2024-06-13-15-21-26-79_5c5979e609b9ed4a43e94260d67cf51e.webp"
+      "Screenshot_2024-06-19-15-00-05-69_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+
+  {
+    "gpName": "美信科技",
+    "formerDate": "2024-06-18",
+    "mode": 1,
+    "lastPrice": 0,
+    "failureReason": [],
+    "resultPoint": -5.1,
+    "buyReason": "当天普涨，手里票卖飞了，有几支票都错过了撤的及时，这票反而没撤,中招，好在没大面",
+    "image_list": [
+      "Screenshot_2024-06-18-18-28-10-32_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-06-19-14-58-50-72_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-06-19-14-58-59-49_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "华铭智能",
+    "formerDate": "2024-06-17",
+    "mode": 1,
+    "lastPrice": 0.08,
+    "failureReason": [],
+    "resultPoint": -0.23,
+    "buyReason": "太可惜了，龙头票，首板烂板有量，二板转强，但我看竞价开的太差，就走了。结果一飞冲天",
+    "image_list": [
+      "Screenshot_2024-06-19-15-23-51-09_798f6b8e50cb99f48ae3085b7e4ec6f1.webp",
+      "Screenshot_2024-06-18-18-27-34-23_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-06-18-18-27-42-10_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "斯迪克",
+    "formerDate": "2024-06-17",
+    "mode": 1,
+    "lastPrice": 0.16,
+    "failureReason": [],
+    "resultPoint": 0.37,
+    "buyReason": "烂板回封，有量突破形态。",
+    "image_list": [
+      "Screenshot_2024-06-17-16-16-34-83_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-06-18-18-27-51-38_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-06-18-18-28-02-25_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "中辰股份",
+    "formerDate": "2024-06-14",
+    "mode": 1,
+    "lastPrice": 1.44,
+    "failureReason": [],
+    "resultPoint": -3.86,
+    "buyReason": "超级强的板，第二天低开下走。无语",
+    "image_list": [
+      "Screenshot_2024-06-14-15-06-52-00_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-06-17-16-16-09-23_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-06-17-16-16-17-59_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "凡拓数创",
+    "formerDate": "2024-06-14",
+    "mode": 1,
+    "lastPrice": 0,
+    "failureReason": [4,21],
+    "resultPoint": -15.59,
+    "buyReason": "出手太早，冲天炮。量能当时也不够",
+    "image_list": [
+      "Screenshot_2024-06-14-15-06-37-18_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-06-17-16-20-29-79_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-06-17-16-20-40-17_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "汇成真空",
+    "formerDate": "2024-06-14",
+    "mode": 1,
+    "lastPrice": 0,
+    "failureReason": [21],
+    "resultPoint": -13.02,
+    "buyReason": "新股，以为股性会比较强，筹码干净，但忽略了有前高，当天炸，第二天还是低开。",
+    "image_list": [
+      "Screenshot_2024-06-14-15-06-27-26_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-06-17-16-21-09-12_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-06-17-16-21-18-11_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
     "gpName": "安奈儿",
     "formerDate": "2024-06-13",
-    "mode": -1,
+    "mode": 1,
     "lastPrice": 0.26,
     "failureReason": [],
-    "resultPoint": 0,
-    "buyReason": "量能来看不足，分时觉得还凑合，有点勉强。",
+    "resultPoint": -4.58,
+    "buyReason": "量能来看不足，分时觉得还凑合，有点勉强。平开，越来越低，想等等，最后卖在了最低点",
     "image_list": [
-      "Screenshot_2024-06-13-15-21-35-34_5c5979e609b9ed4a43e94260d67cf51e.webp"
+      "Screenshot_2024-06-13-15-21-35-34_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-06-14-15-07-01-13_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-06-14-15-07-09-75_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "斯菱股份",
+    "formerDate": "2024-06-13",
+    "mode": 1,
+    "lastPrice": 1.21,
+    "failureReason": [],
+    "resultPoint": -0.77,
+    "buyReason": "上午全是猛冲的，下午刚开始看到，分时比较健康。K线也还行。量能凑合。低开不及预期，离场后下跌",
+    "image_list": [
+      "Screenshot_2024-06-13-15-21-26-79_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-06-14-15-07-24-42_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-06-14-15-07-33-35_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "海翔药业",
+    "formerDate": "2024-06-12",
+    "mode": 1,
+    "lastPrice": 0,
+    "failureReason": [20],
+    "resultPoint": -3.1,
+    "buyReason": "分时均线看着挺好，但没有什么辨识度，K线也不是太流畅吧",
+    "image_list": [
+      "Screenshot_2024-06-12-17-45-01-70_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-06-13-15-20-11-66_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-06-13-15-20-27-05_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
@@ -29,7 +144,7 @@
     "mode": 1,
     "lastPrice": 0,
     "failureReason": [5],
-    "resultPoint": -8.2,
+    "resultPoint": -10.08,
     "buyReason": "医药有上冲，但分析上个月20CM赚的最多，就硬上了一个，这票盘整时间少点，K线形态向下。",
     "image_list": [
       "Screenshot_2024-06-12-17-45-57-98_5c5979e609b9ed4a43e94260d67cf51e.webp",
@@ -43,26 +158,12 @@
     "mode": 1,
     "lastPrice": 0.1,
     "failureReason": [],
-    "resultPoint": -1.2,
+    "resultPoint": -0.12,
     "buyReason": "版块微热，二龙，封单太小，第二天竞价也比较弱，平开离场",
     "image_list": [
       "Screenshot_2024-06-12-17-45-01-70_5c5979e609b9ed4a43e94260d67cf51e.webp",
       "Screenshot_2024-06-13-15-21-08-05_5c5979e609b9ed4a43e94260d67cf51e.webp",
       "Screenshot_2024-06-13-15-21-15-85_5c5979e609b9ed4a43e94260d67cf51e.webp"
-    ]
-  },
-  {
-    "gpName": "海翔药业",
-    "formerDate": "2024-06-12",
-    "mode": 1,
-    "lastPrice": 0,
-    "failureReason": [20],
-    "resultPoint": -2.2,
-    "buyReason": "分时均线看着挺好，但没有什么辨识度，K线也不是太流畅吧",
-    "image_list": [
-      "Screenshot_2024-06-12-17-45-01-70_5c5979e609b9ed4a43e94260d67cf51e.webp",
-      "Screenshot_2024-06-13-15-20-11-66_5c5979e609b9ed4a43e94260d67cf51e.webp",
-      "Screenshot_2024-06-13-15-20-27-05_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
