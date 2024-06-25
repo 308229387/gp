@@ -3,6 +3,18 @@
     "gpName": "星辉环材",
     "formerDate": "2024-06-19",
     "mode": 1,
+    "lastPrice": 0.53,
+    "failureReason": [],
+    "resultPoint": 0,
+    "buyReason": "开盘封板挂单，前面有1.2亿左右，盯了一会没开，然后上车了",
+    "image_list": [
+      "Screenshot_2024-06-25-18-57-44-02_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "星辉环材",
+    "formerDate": "2024-06-19",
+    "mode": 1,
     "lastPrice": 0.29,
     "failureReason": [],
     "resultPoint": -3.01,
@@ -13,7 +25,6 @@
       "Screenshot_2024-06-20-15-06-19-02_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
-
   {
     "gpName": "美信科技",
     "formerDate": "2024-06-18",
