@@ -1,14 +1,30 @@
 [
   {
-    "gpName": "星辉环材",
+    "gpName": "旗天科技",
+    "formerDate": "2024-06-19",
+    "mode": 1,
+    "lastPrice": 0.34,
+    "failureReason": [],
+    "resultPoint": 4.56,
+    "buyReason": "开盘涨停后挂单，看封的住才拿着，拿了一会上车了，但再看炸板了。好在有回封，当天看封单略小，但好在版块强势，第二天2分钟看向下就走了，卖在低点。",
+    "image_list": [
+      "Screenshot_2024-06-26-21-36-07-46_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-06-27-16-46-00-24_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-06-27-16-46-18-79_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "恒而达",
     "formerDate": "2024-06-19",
     "mode": 1,
     "lastPrice": 0.53,
     "failureReason": [],
-    "resultPoint": 0,
-    "buyReason": "开盘封板挂单，前面有1.2亿左右，盯了一会没开，然后上车了",
+    "resultPoint": 11.56,
+    "buyReason": "开盘封板挂单，前面有1.2亿左右，盯了一会没开，然后上车了，第二天高开后一路向下，",
     "image_list": [
-      "Screenshot_2024-06-25-18-57-44-02_5c5979e609b9ed4a43e94260d67cf51e.webp"
+      "Screenshot_2024-06-25-18-57-44-02_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-06-26-21-35-31-58_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-06-26-21-35-56-87_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
