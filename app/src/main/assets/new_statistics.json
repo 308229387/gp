@@ -1,5 +1,48 @@
 [
   {
+    "gpName": "派生科技",
+    "formerDate": "2024-07-03",
+    "mode": -1,
+    "lastPrice": 0,
+    "failureReason": [
+      7,
+      24
+    ],
+    "resultPoint": 0,
+    "buyReason": "看分时有拉扯，就上车了，但炸的挺惨，一是量，二是形态单一不可靠，还有环境也比较差。",
+    "image_list": [
+      "Screenshot_2024-07-03-20-21-05-81_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "建科院",
+    "formerDate": "2024-07-01",
+    "mode": 1,
+    "lastPrice": 0,
+    "failureReason": [7,24],
+    "resultPoint": -10.38,
+    "buyReason": "当天没写原因，也是个看形态，这个教训要记住",
+    "image_list": [
+      "Screenshot_2024-07-01-15-03-57-80_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-07-02-23-50-35-52_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-07-02-23-50-44-41_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "和顺电气",
+    "formerDate": "2024-06-28",
+    "mode": 1,
+    "lastPrice": 0,
+    "failureReason": [1],
+    "resultPoint": -8.38,
+    "buyReason": "非热点版块，完全是看早盘抢攻形态上车。",
+    "image_list": [
+      "Screenshot_2024-06-28-18-58-33-08_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-07-01-15-03-40-28_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-07-01-15-03-49-24_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
     "gpName": "旗天科技",
     "formerDate": "2024-06-19",
     "mode": 1,
@@ -102,7 +145,10 @@
     "formerDate": "2024-06-14",
     "mode": 1,
     "lastPrice": 0,
-    "failureReason": [4,21],
+    "failureReason": [
+      4,
+      21
+    ],
     "resultPoint": -15.59,
     "buyReason": "出手太早，冲天炮。量能当时也不够",
     "image_list": [
@@ -116,7 +162,9 @@
     "formerDate": "2024-06-14",
     "mode": 1,
     "lastPrice": 0,
-    "failureReason": [21],
+    "failureReason": [
+      21
+    ],
     "resultPoint": -13.02,
     "buyReason": "新股，以为股性会比较强，筹码干净，但忽略了有前高，当天炸，第二天还是低开。",
     "image_list": [
@@ -158,7 +206,9 @@
     "formerDate": "2024-06-12",
     "mode": 1,
     "lastPrice": 0,
-    "failureReason": [20],
+    "failureReason": [
+      20
+    ],
     "resultPoint": -3.1,
     "buyReason": "分时均线看着挺好，但没有什么辨识度，K线也不是太流畅吧",
     "image_list": [
@@ -172,7 +222,9 @@
     "formerDate": "2024-06-12",
     "mode": 1,
     "lastPrice": 0,
-    "failureReason": [5],
+    "failureReason": [
+      5
+    ],
     "resultPoint": -10.08,
     "buyReason": "医药有上冲，但分析上个月20CM赚的最多，就硬上了一个，这票盘整时间少点，K线形态向下。",
     "image_list": [
@@ -296,7 +348,6 @@
       "Screenshot_2024-06-06-05-39-03-32_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
-
   {
     "gpName": "明星电力",
     "formerDate": "2024-06-04",
