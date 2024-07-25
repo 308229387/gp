@@ -1,6 +1,44 @@
 [
   {
-    "gpName": "派生科技",
+    "gpName": "药明康德",
+    "formerDate": "2024-07-11",
+    "mode": 5,
+    "lastPrice": 0,
+    "failureReason": [],
+    "resultPoint": 0.77,
+    "buyReason": "这票大白马，位置够低，在5日线附近买入，5日线战法拿了两天，跌下5日线，第二天有反弹，但大环境和版块都太差，就离场了，微盈。",
+    "image_list": [
+      "Screenshot_2024-07-25-10-24-53-10_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "大众交通",
+    "formerDate": "2024-07-11",
+    "mode": 99,
+    "lastPrice": 0,
+    "failureReason": [],
+    "resultPoint": 9.77,
+    "buyReason": "看有大V提到这票，第二天未涨停，还觉得希望不大，再一天快涨停才意识到牛B。拿了一天，吃了10个点，牛B处就在于持续的温和放量。",
+    "image_list": [
+      "Screenshot_2024-07-23-08-42-19-54_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-07-25-10-06-11-35_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "金钟股份",
+    "formerDate": "2024-07-11",
+    "mode": 1,
+    "lastPrice": 0.3,
+    "failureReason": [],
+    "resultPoint": 2.0,
+    "buyReason": "涨停上车，中途炸了一段时间，20日趋势线向上，环境较好。",
+    "image_list": [
+      "Screenshot_2024-07-11-19-47-58-04_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-07-25-09-43-05-63_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "恒工精密",
     "formerDate": "2024-07-04",
     "mode": 1,
     "lastPrice": 0.83,

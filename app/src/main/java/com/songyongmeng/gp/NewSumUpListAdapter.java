@@ -501,7 +501,9 @@ public class NewSumUpListAdapter extends RecyclerView.Adapter<NewSumUpListAdapte
                             tmp = "首板";
                         } else if (data.getMode() == 2) {
                             tmp = "一进二";
-                        } else if (data.getMode() > 2 && data.getMode() < 99) {
+                        }else if (data.getMode() == 5) {
+                            tmp = "5日线";
+                        }  else if (data.getMode() > 2 && data.getMode() < 99) {
                             tmp = "中位";
                         }
                         textView.setText(tmp);
