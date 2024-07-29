@@ -1,5 +1,38 @@
 [
   {
+    "gpName": "明阳智能",
+    "formerDate": "2024-07-26",
+    "mode": -1,
+    "lastPrice": 0,
+    "failureReason": [],
+    "resultPoint": 0,
+    "buyReason": "当天行情一般，从版块跌幅榜找到方向向上，价格到5日线附近。然后从版块里找一个中军，形态也回归到5日线附近的。这票当天K线有个问题，就是阴线太大，明天如果低开，竞价割。",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "明阳智能",
+    "formerDate": "2024-07-26",
+    "mode": -1,
+    "lastPrice": 0,
+    "failureReason": [],
+    "resultPoint": 0,
+    "buyReason": "当天行情一般，从版块跌幅榜找到方向向上，价格到5日线附近。然后从版块里找一个中军，形态也回归到5日线附近的。这票当天K线有个问题，就是阴线太大，明天如果低开，竞价割。",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "药明康德",
+    "formerDate": "2024-07-26",
+    "mode": 5,
+    "lastPrice": 0,
+    "failureReason": [],
+    "resultPoint": 0.02,
+    "buyReason": "均线下低吸，第二天形势不太好就走了。",
+    "image_list": [
+    ]
+  },
+  {
     "gpName": "药明康德",
     "formerDate": "2024-07-11",
     "mode": 5,
