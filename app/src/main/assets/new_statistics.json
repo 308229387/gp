@@ -1,23 +1,100 @@
 [
   {
-    "gpName": "明阳智能",
-    "formerDate": "2024-07-26",
+    "gpName": "鸣志电器",
+    "formerDate": "2024-07-31",
     "mode": -1,
-    "lastPrice": 0,
+    "lastPrice": 0.44,
     "failureReason": [],
     "resultPoint": 0,
-    "buyReason": "当天行情一般，从版块跌幅榜找到方向向上，价格到5日线附近。然后从版块里找一个中军，形态也回归到5日线附近的。这票当天K线有个问题，就是阴线太大，明天如果低开，竞价割。",
+    "buyReason": "行情普涨，版块较强，这票头一天放量异动，整体底部，当天放量，20日均势线止跌横住，第二天周K线看有3个多点，就会被压制。",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "航天晨光",
+    "formerDate": "2024-07-31",
+    "mode": -1,
+    "lastPrice": 1.47,
+    "failureReason": [],
+    "resultPoint": 0,
+    "buyReason": "前排腾达8板，听94股手大V在前一天谈过这票，算是后排，第二天涨停开板回封上车，后面又被腾达带炸了。因为是接力，不擅长就买了半仓，看表现和封单算强的，预计明天有肉。",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "通策医疗",
+    "formerDate": "2024-07-31",
+    "mode": -1,
+    "lastPrice": 0.46,
+    "failureReason": [],
+    "resultPoint": 0,
+    "buyReason": "当天行情普涨，个股有量，版块表现强，20日趋势线向上，属于拉升一波回踩后的反弹。底部，近期活跃",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "王府井",
+    "formerDate": "2024-07-31",
+    "mode": -1,
+    "lastPrice": 0.26,
+    "failureReason": [],
+    "resultPoint": 0,
+    "buyReason": "当天行情普涨，个股有量，版块表现放平时算强的，但因为大盘普涨，对比就一般了，20日趋势线向上，属于拉升一波回踩后的反弹。分时非常稳，在涨停板附近徘徊了很久，空头都耗尽了。",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "TCL智家",
+    "formerDate": "2024-07-31",
+    "mode": -1,
+    "lastPrice": 0.27,
+    "failureReason": [],
+    "resultPoint": 0,
+    "buyReason": "当天行情普涨，个股有量，版块表现放平时算强的，但因为大盘普涨，对比就一般了，均线未呈现多头，但分时比较稳，下午上板上车。",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "香溢融通",
+    "formerDate": "2024-07-31",
+    "mode": -1,
+    "lastPrice": 0.13,
+    "failureReason": [],
+    "resultPoint": 0,
+    "buyReason": "当天行情普涨，个股均线多头排列，有量，版块强，这票买时有个缺点，虽然均线多头，但近期涨幅有点大。",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "天风证券",
+    "formerDate": "2024-07-31",
+    "mode": -1,
+    "lastPrice": 0.64,
+    "failureReason": [],
+    "resultPoint": 0,
+    "buyReason": "当天行情普涨，个股均线多头排列，有量，版块强，底部，上板上车。",
     "image_list": [
     ]
   },
   {
     "gpName": "明阳智能",
-    "formerDate": "2024-07-26",
-    "mode": -1,
+    "formerDate": "2024-07-29",
+    "mode": 5,
     "lastPrice": 0,
     "failureReason": [],
-    "resultPoint": 0,
+    "resultPoint": -0.82,
     "buyReason": "当天行情一般，从版块跌幅榜找到方向向上，价格到5日线附近。然后从版块里找一个中军，形态也回归到5日线附近的。这票当天K线有个问题，就是阴线太大，明天如果低开，竞价割。",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "浙商证券",
+    "formerDate": "2024-07-29",
+    "mode": 5,
+    "lastPrice": 0,
+    "failureReason": [],
+    "resultPoint": -0.19,
+    "buyReason": "当天5日线刚起头，觉得第二天能拉，但起头没卖，后面回到成本线就走了，第二天有较大涨幅。",
     "image_list": [
     ]
   },
@@ -27,7 +104,7 @@
     "mode": 5,
     "lastPrice": 0,
     "failureReason": [],
-    "resultPoint": 0.02,
+    "resultPoint": 0.1,
     "buyReason": "均线下低吸，第二天形势不太好就走了。",
     "image_list": [
     ]
