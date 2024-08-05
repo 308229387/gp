@@ -1,22 +1,44 @@
 [
   {
-    "gpName": "鸣志电器",
-    "formerDate": "2024-07-31",
+    "gpName": "湘财股份",
+    "formerDate": "2024-08-01",
     "mode": -1,
-    "lastPrice": 0.44,
+    "lastPrice": 0.72,
     "failureReason": [],
     "resultPoint": 0,
-    "buyReason": "行情普涨，版块较强，这票头一天放量异动，整体底部，当天放量，20日均势线止跌横住，第二天周K线看有3个多点，就会被压制。",
+    "buyReason": "以为今天是强势行情，看大盘放量，而且相比较外部大跌，大A上午算强，但版块未放量，上车后秒炸。但一是版块处在上升趋势中，个股也有多头均线支撑，中午左右封住。",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "大众交通",
+    "formerDate": "2024-08-01",
+    "mode": 99,
+    "lastPrice": 0,
+    "failureReason": [],
+    "resultPoint": 0,
+    "buyReason": "超人气龙头5日线附近介入，每天低吸，走的是箱体，连线3天低吸，后涨停。持仓中。",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "TCL智家",
+    "formerDate": "2024-07-31",
+    "mode": 1,
+    "lastPrice": 0.27,
+    "failureReason": [],
+    "resultPoint": 1.16,
+    "buyReason": "当天行情普涨，个股有量，版块表现放平时算强的，但因为大盘普涨，对比就一般了，均线未呈现多头，但分时比较稳，下午上板上车。",
     "image_list": [
     ]
   },
   {
     "gpName": "航天晨光",
     "formerDate": "2024-07-31",
-    "mode": -1,
+    "mode": 4,
     "lastPrice": 1.47,
     "failureReason": [],
-    "resultPoint": 0,
+    "resultPoint": 9.78,
     "buyReason": "前排腾达8板，听94股手大V在前一天谈过这票，算是后排，第二天涨停开板回封上车，后面又被腾达带炸了。因为是接力，不擅长就买了半仓，看表现和封单算强的，预计明天有肉。",
     "image_list": [
     ]
@@ -24,62 +46,62 @@
   {
     "gpName": "通策医疗",
     "formerDate": "2024-07-31",
-    "mode": -1,
+    "mode": 1,
     "lastPrice": 0.46,
     "failureReason": [],
-    "resultPoint": 0,
+    "resultPoint": 3.07,
     "buyReason": "当天行情普涨，个股有量，版块表现强，20日趋势线向上，属于拉升一波回踩后的反弹。底部，近期活跃",
-    "image_list": [
-    ]
-  },
-  {
-    "gpName": "王府井",
-    "formerDate": "2024-07-31",
-    "mode": -1,
-    "lastPrice": 0.26,
-    "failureReason": [],
-    "resultPoint": 0,
-    "buyReason": "当天行情普涨，个股有量，版块表现放平时算强的，但因为大盘普涨，对比就一般了，20日趋势线向上，属于拉升一波回踩后的反弹。分时非常稳，在涨停板附近徘徊了很久，空头都耗尽了。",
-    "image_list": [
-    ]
-  },
-  {
-    "gpName": "TCL智家",
-    "formerDate": "2024-07-31",
-    "mode": -1,
-    "lastPrice": 0.27,
-    "failureReason": [],
-    "resultPoint": 0,
-    "buyReason": "当天行情普涨，个股有量，版块表现放平时算强的，但因为大盘普涨，对比就一般了，均线未呈现多头，但分时比较稳，下午上板上车。",
     "image_list": [
     ]
   },
   {
     "gpName": "香溢融通",
     "formerDate": "2024-07-31",
-    "mode": -1,
+    "mode": 1,
     "lastPrice": 0.13,
     "failureReason": [],
-    "resultPoint": 0,
+    "resultPoint": -2.6,
     "buyReason": "当天行情普涨，个股均线多头排列，有量，版块强，这票买时有个缺点，虽然均线多头，但近期涨幅有点大。",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "王府井",
+    "formerDate": "2024-07-31",
+    "mode": 1,
+    "lastPrice": 0.26,
+    "failureReason": [],
+    "resultPoint": 0.3,
+    "buyReason": "当天行情普涨，个股有量，版块表现放平时算强的，但因为大盘普涨，对比就一般了，20日趋势线向上，属于拉升一波回踩后的反弹。分时非常稳，在涨停板附近徘徊了很久，空头都耗尽了。",
     "image_list": [
     ]
   },
   {
     "gpName": "天风证券",
     "formerDate": "2024-07-31",
-    "mode": -1,
+    "mode": 1,
     "lastPrice": 0.64,
     "failureReason": [],
-    "resultPoint": 0,
+    "resultPoint": -0.53,
     "buyReason": "当天行情普涨，个股均线多头排列，有量，版块强，底部，上板上车。",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "鸣志电器",
+    "formerDate": "2024-07-31",
+    "mode": 1,
+    "lastPrice": 0.44,
+    "failureReason": [],
+    "resultPoint": 3.7,
+    "buyReason": "行情普涨，版块较强，这票头一天放量异动，整体底部，当天放量，20日均势线止跌横住，第二天周K线看有3个多点，就会被压制。",
     "image_list": [
     ]
   },
   {
     "gpName": "明阳智能",
     "formerDate": "2024-07-29",
-    "mode": 5,
+    "mode": -5,
     "lastPrice": 0,
     "failureReason": [],
     "resultPoint": -0.82,
@@ -90,7 +112,7 @@
   {
     "gpName": "浙商证券",
     "formerDate": "2024-07-29",
-    "mode": 5,
+    "mode": -5,
     "lastPrice": 0,
     "failureReason": [],
     "resultPoint": -0.19,
@@ -101,7 +123,7 @@
   {
     "gpName": "药明康德",
     "formerDate": "2024-07-26",
-    "mode": 5,
+    "mode": -5,
     "lastPrice": 0,
     "failureReason": [],
     "resultPoint": 0.1,
@@ -112,7 +134,7 @@
   {
     "gpName": "药明康德",
     "formerDate": "2024-07-11",
-    "mode": 5,
+    "mode": -5,
     "lastPrice": 0,
     "failureReason": [],
     "resultPoint": 0.77,
@@ -2332,7 +2354,7 @@
   {
     "gpName": "亚振家居",
     "formerDate": "2024-03-28",
-    "mode": 5,
+    "mode": -5,
     "lastPrice": 0.36,
     "failureReason": [],
     "resultPoint": -4.49,
