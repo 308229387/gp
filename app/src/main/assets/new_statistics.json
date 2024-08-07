@@ -1,23 +1,45 @@
 [
   {
-    "gpName": "湘财股份",
-    "formerDate": "2024-08-01",
+    "gpName": "中公教育",
+    "formerDate": "2024-08-07",
     "mode": -1,
     "lastPrice": 0.72,
     "failureReason": [],
     "resultPoint": 0,
-    "buyReason": "以为今天是强势行情，看大盘放量，而且相比较外部大跌，大A上午算强，但版块未放量，上车后秒炸。但一是版块处在上升趋势中，个股也有多头均线支撑，中午左右封住。",
+    "buyReason": "爆量，龙虎榜豪华，版块龙头大众火爆，但教育版块当天火爆，第二天低吸。",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "钧达股份",
+    "formerDate": "2024-08-06",
+    "mode": -1,
+    "lastPrice": 0.72,
+    "failureReason": [],
+    "resultPoint": 0,
+    "buyReason": "光伏版块，当天第二强版块，K线形态多头，定位套利。",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "湘财股份",
+    "formerDate": "2024-08-05",
+    "mode": 1,
+    "lastPrice": 0.72,
+    "failureReason": [],
+    "resultPoint": 1.2,
+    "buyReason": "以为今天是强势行情，看大盘放量，而且相比较外部大跌，大A上午算强，但版块未放量，上车后秒炸。但一是版块处在上升趋势中，个股也有多头均线支撑，中午左右封住。冲高没跑，到平价附近才走，失败的一B，当时觉得形态好，有封板的预期，应该盯1分钟线的。",
     "image_list": [
     ]
   },
   {
     "gpName": "大众交通",
     "formerDate": "2024-08-01",
-    "mode": 99,
+    "mode": -1,
     "lastPrice": 0,
     "failureReason": [],
     "resultPoint": 0,
-    "buyReason": "超人气龙头5日线附近介入，每天低吸，走的是箱体，连线3天低吸，后涨停。持仓中。",
+    "buyReason": "超人气龙头5日线附近介入，每天低吸，走的是箱体，中途龙虎榜全是家人们，连线3天低吸，后涨停。持仓中。自己的惯性思维太强，明显的快速直线下杀，自己补了两回仓还。龙头到箱体上方急跌，利润全回吐",
     "image_list": [
     ]
   },
