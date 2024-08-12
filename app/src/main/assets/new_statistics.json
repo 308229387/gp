@@ -1,11 +1,77 @@
 [
   {
-    "gpName": "中公教育",
-    "formerDate": "2024-08-07",
+    "gpName": "以岭药业",
+    "formerDate": "2024-08-12",
     "mode": -1,
-    "lastPrice": 0.72,
+    "lastPrice": 0.94,
     "failureReason": [],
     "resultPoint": 0,
+    "buyReason": "200多亿市值，当天环境较差，但版块较强，辨识度高，有K线形态，龙头香雪拉升，这票上板上车，两缺点，环境差，盘子大。",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "香雪制药",
+    "formerDate": "2024-08-12",
+    "mode": -1,
+    "lastPrice": 0.42,
+    "failureReason": [],
+    "resultPoint": 0,
+    "buyReason": "刚开始没有注意到这票，赚钱效应一直在10CM,当环境变差后，这票有辨识度了，分歧后未大跌，次日伴随版块较强再次拉升，上午有一定量，半路上半仓，下午上板后又补了半仓，看分时有点烂，全天想买随时都能买，",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "深物业A",
+    "formerDate": "2024-08-09",
+    "mode": 2,
+    "lastPrice": 0.45,
+    "failureReason": [],
+    "resultPoint": -0.6,
+    "buyReason": "当天地产版块很强，这票开盘弱，后一点点拉上来，分时略强，上板后不强势，来回开，尾盘才封上。第二天未能高开，判断未转一致，离场。",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "金地集团",
+    "formerDate": "2024-08-09",
+    "mode": 1,
+    "lastPrice": 0,
+    "failureReason": [],
+    "resultPoint": -0.6,
+    "buyReason": "版块强，板上排单，忘了撤，中午开盘被动上车，结果到尾盘一直未回封，第二天微低开在路上没来的及竞价撤，后下跌点才走。",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "航天科技",
+    "formerDate": "2024-08-08",
+    "mode": 99,
+    "lastPrice": 0,
+    "failureReason": [10,25],
+    "resultPoint": -30.1,
+    "buyReason": "暴击，退潮+买在一致，没啥好说的。",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "中央商场",
+    "formerDate": "2024-08-08",
+    "mode": -1,
+    "lastPrice": 0,
+    "failureReason": [10],
+    "resultPoint": -30.1,
+    "buyReason": "想偷鸡顶个卡位龙，跌停买了，然后死的很惨，退潮中位股。",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "中公教育",
+    "formerDate": "2024-08-07",
+    "mode": 5,
+    "lastPrice": 1.04,
+    "failureReason": [],
+    "resultPoint": -2.17,
     "buyReason": "爆量，龙虎榜豪华，版块龙头大众跌停，但教育版块当天火爆，第二天教育版块冲高回落，低吸，第二天同梯队都跌停，如果成为最高标，预计会有拉升空间。",
     "image_list": [
     ]
@@ -13,10 +79,10 @@
   {
     "gpName": "钧达股份",
     "formerDate": "2024-08-06",
-    "mode": -1,
+    "mode": 1,
     "lastPrice": 0.72,
     "failureReason": [],
-    "resultPoint": 0,
+    "resultPoint": -1.67,
     "buyReason": "光伏版块，当天第二强版块，K线形态多头，定位套利。",
     "image_list": [
     ]
