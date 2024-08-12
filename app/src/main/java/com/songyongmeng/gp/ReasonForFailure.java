@@ -11,7 +11,7 @@ public class ReasonForFailure {
     public static final String REASON_7= "量能不对";//对应编号7
     public static final String REASON_8= "均线压制，大级别均线压制";//对应编号8
     public static final String REASON_9= "误操作";//对应编号9
-    public static final String REASON_10 = "环境差";//对应编号10
+    public static final String REASON_10 = "环境差，退潮";//对应编号10
     public static final String REASON_11 = "排单未撤，被炸进去";//对应编号11
     public static final String REASON_12 = "太仓促";//对应编号12
     public static final String REASON_13 = "上板强度不够";//对应编号13
@@ -23,8 +23,9 @@ public class ReasonForFailure {
     public static final String REASON_19 = "体量太大";//对应编号19
     public static final String REASON_20 = "辨识度不够";//对应编号20
     public static final String REASON_21 = "缩量遇前高";//对应编号21
-    public static final String REASON_22 = "模式外";//对应编号21
-    public static final String REASON_23 = "版块轮转回落";//对应编号21
-    public static final String REASON_24 = "只看单一指标，太片面";//对应编号21
+    public static final String REASON_22 = "模式外";//对应编号22
+    public static final String REASON_23 = "版块轮转回落";//对应编号23
+    public static final String REASON_24 = "只看单一指标，太片面";//对应编号24
+    public static final String REASON_25 = "买在顶盛一致时";//对应编号25
 
 }
