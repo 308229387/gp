@@ -1,11 +1,88 @@
 [
   {
-    "gpName": "以岭药业",
-    "formerDate": "2024-08-12",
+    "gpName": "捷强装备",
+    "formerDate": "2024-08-15",
     "mode": -1,
-    "lastPrice": 0.94,
+    "lastPrice": 0,
     "failureReason": [],
     "resultPoint": 0,
+    "buyReason": "20cm回踩5日线逻辑。",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "西藏天路",
+    "formerDate": "2024-08-15",
+    "mode": -1,
+    "lastPrice": 0.23,
+    "failureReason": [],
+    "resultPoint": 0,
+    "buyReason": "分歧转一至的买点，但够烂的，有游资参与，明天拿一拿看能不能转一至。",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "金地集团",
+    "formerDate": "2024-08-15",
+    "mode": -1,
+    "lastPrice": 0.37,
+    "failureReason": [],
+    "resultPoint": 0,
+    "buyReason": "推土机式慢慢推涨停，形态类似双响炮。",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "天舟文化",
+    "formerDate": "2024-08-15",
+    "mode": -1,
+    "lastPrice": 0.1,
+    "failureReason": [],
+    "resultPoint": 0,
+    "buyReason": "AI眼镜云游戏大涨，这票算富春小弟，打的回封，虽然不算强，但预计明天有肉。",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "北新路桥",
+    "formerDate": "2024-08-14",
+    "mode": 1,
+    "lastPrice": 0,
+    "failureReason": [15,20],
+    "resultPoint": -7.1,
+    "buyReason": "当天建筑版块上冲，后排，犹犹豫豫。平时不活跃，没有辨识度。",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "雄塑科技",
+    "formerDate": "2024-08-14",
+    "mode": 1,
+    "lastPrice": 1.44,
+    "failureReason": [],
+    "resultPoint": -2.1,
+    "buyReason": "形态像极了正丹，很强的k线和分时，量能放的也很快，但没有在风口，第二天一低开，直接离场。当天11个点的大面。",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "星星科技",
+    "formerDate": "2024-08-13",
+    "mode": 1,
+    "lastPrice": 0.94,
+    "failureReason": [],
+    "resultPoint": -6.66,
+    "buyReason": "错过最可惜的一次龙头，买的逻辑是20CM爆量次日转一至，华为柔性屏的题材，但第三天一低开直接吓跑了，但却用到了5日线转强的逻辑。",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "以岭药业",
+    "formerDate": "2024-08-12",
+    "mode": 1,
+    "lastPrice": 0.94,
+    "failureReason": [],
+    "resultPoint": 2.89,
     "buyReason": "200多亿市值，当天环境较差，但版块较强，辨识度高，有K线形态，龙头香雪拉升，这票上板上车，两缺点，环境差，盘子大。",
     "image_list": [
     ]
@@ -13,11 +90,11 @@
   {
     "gpName": "香雪制药",
     "formerDate": "2024-08-12",
-    "mode": -1,
+    "mode": 99,
     "lastPrice": 0.42,
-    "failureReason": [],
-    "resultPoint": 0,
-    "buyReason": "刚开始没有注意到这票，赚钱效应一直在10CM,当环境变差后，这票有辨识度了，分歧后未大跌，次日伴随版块较强再次拉升，上午有一定量，半路上半仓，下午上板后又补了半仓，看分时有点烂，全天想买随时都能买，",
+    "failureReason": [26],
+    "resultPoint": -3.39,
+    "buyReason": "刚开始没有注意到这票，赚钱效应一直在10CM,当环境变差后，这票有辨识度了，分歧后未大跌，次日伴随版块较强再次拉升，上午有一定量，半路上半仓，下午上板后又补了半仓，看分时有点烂，全天想买随时都能买，龙头逻辑，卖点却用的是首板低开就卖。",
     "image_list": [
     ]
   },
@@ -38,7 +115,7 @@
     "mode": 1,
     "lastPrice": 0,
     "failureReason": [],
-    "resultPoint": -0.6,
+    "resultPoint": -3.24,
     "buyReason": "版块强，板上排单，忘了撤，中午开盘被动上车，结果到尾盘一直未回封，第二天微低开在路上没来的及竞价撤，后下跌点才走。",
     "image_list": [
     ]
@@ -49,7 +126,7 @@
     "mode": 99,
     "lastPrice": 0,
     "failureReason": [10,25],
-    "resultPoint": -30.1,
+    "resultPoint": -32.18,
     "buyReason": "暴击，退潮+买在一致，没啥好说的。",
     "image_list": [
     ]
@@ -60,7 +137,7 @@
     "mode": -1,
     "lastPrice": 0,
     "failureReason": [10],
-    "resultPoint": -30.1,
+    "resultPoint": -18.96,
     "buyReason": "想偷鸡顶个卡位龙，跌停买了，然后死的很惨，退潮中位股。",
     "image_list": [
     ]
