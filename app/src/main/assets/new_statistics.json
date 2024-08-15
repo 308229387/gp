@@ -68,7 +68,7 @@
   {
     "gpName": "星星科技",
     "formerDate": "2024-08-13",
-    "mode": 1,
+    "mode": 18,
     "lastPrice": 0.94,
     "failureReason": [],
     "resultPoint": -6.66,
@@ -134,7 +134,7 @@
   {
     "gpName": "中央商场",
     "formerDate": "2024-08-08",
-    "mode": -1,
+    "mode": 1,
     "lastPrice": 0,
     "failureReason": [10],
     "resultPoint": -18.96,
@@ -178,10 +178,10 @@
   {
     "gpName": "大众交通",
     "formerDate": "2024-08-01",
-    "mode": -1,
+    "mode": 1,
     "lastPrice": 0,
     "failureReason": [],
-    "resultPoint": 0,
+    "resultPoint": -5.1,
     "buyReason": "超人气龙头5日线附近介入，每天低吸，走的是箱体，中途龙虎榜全是家人们，连线3天低吸，后涨停。持仓中。自己的惯性思维太强，明显的快速直线下杀，自己补了两回仓还。龙头到箱体上方急跌，利润全回吐",
     "image_list": [
     ]
