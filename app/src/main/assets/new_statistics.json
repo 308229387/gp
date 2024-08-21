@@ -6,6 +6,7 @@
     "lastPrice": 0,
     "failureReason": [],
     "resultPoint": 0,
+    "sellTiming": 0,
     "buyReason": "形态有点像西安饮食。中位买，没追高，回头看追高死的惨。龙虎榜一看，又是五个拉萨……",
     "image_list": [
       ""
@@ -18,6 +19,7 @@
     "lastPrice": 0,
     "failureReason": [],
     "resultPoint": 0,
+    "sellTiming": 0,
     "buyReason": "买的逻辑是版块回流，跨境支付，但看今天有点弱……。明天别再大跌最好。看四川长虹表现还不错",
     "image_list": [
     ]
@@ -29,6 +31,7 @@
     "lastPrice": 0,
     "failureReason": [],
     "resultPoint": 0,
+    "sellTiming": 0,
     "buyReason": "反包逻辑，上午海思版块较强势，打的半路。后力度不够。版块也是走的回踩5日线。",
     "image_list": [
     ]
@@ -40,6 +43,7 @@
     "lastPrice": 0,
     "failureReason": [],
     "resultPoint": -3.46,
+    "sellTiming": -1,
     "buyReason": "买的反包逻辑，中报预增，打的板，后低开又拉起来了，被震走了。这种票需要观察下，如果版块没那么强，又想买，买箱体底部。",
     "image_list": [
     ]
@@ -51,6 +55,7 @@
     "lastPrice": 0,
     "failureReason": [],
     "resultPoint": 5.46,
+    "sellTiming": -1,
     "buyReason": "没有格局，被吓走了。黑神话题材的龙头票",
     "image_list": [
     ]
@@ -62,6 +67,7 @@
     "lastPrice": 0,
     "failureReason": [27],
     "resultPoint": -5.46,
+    "sellTiming": 0,
     "buyReason": "热点追随，AI眼镜热点，情绪反转",
     "image_list": [
       "Screenshot_2024-08-21-17-38-17-76_5c5979e609b9ed4a43e94260d67cf51e.webp"
@@ -74,6 +80,7 @@
     "lastPrice": 0,
     "failureReason": [],
     "resultPoint": -6.12,
+    "sellTiming": -1,
     "buyReason": "热点追随，华为海思热点，买点太高。现在很多票都是买的高就吃面。",
     "image_list": [
       "Screenshot_2024-08-21-17-37-54-57_5c5979e609b9ed4a43e94260d67cf51e.webp"
@@ -86,6 +93,7 @@
     "lastPrice": 0,
     "failureReason": [27],
     "resultPoint": -23.8,
+    "sellTiming": 1,
     "buyReason": "高位接力，遇到情绪反转，爆亏",
     "image_list": [
       "Screenshot_2024-08-21-17-37-26-01_5c5979e609b9ed4a43e94260d67cf51e.webp"
@@ -98,7 +106,8 @@
     "lastPrice": 0.83,
     "failureReason": [],
     "resultPoint": 8.76,
-    "buyReason": "AI眼镜概念，低位反包，版块次日见顶。",
+    "sellTiming": -1,
+    "buyReason": "AI眼镜概念，低位反包，版块次日见顶。以为卖了，结果没成交，发现时还是红的，按挂单算，还是卖早了。",
     "image_list": [
       "Screenshot_2024-08-21-17-35-55-00_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
@@ -110,6 +119,7 @@
     "lastPrice": 0.26,
     "failureReason": [],
     "resultPoint": 9.82,
+    "sellTiming": 0,
     "buyReason": "当时的AI眼镜龙头，盘中上车，见顶次日微低开秒走。",
     "image_list": [
       "Screenshot_2024-08-21-17-35-32-96_5c5979e609b9ed4a43e94260d67cf51e.webp"
@@ -122,6 +132,7 @@
     "lastPrice": 0.26,
     "failureReason": [],
     "resultPoint": -4.21,
+    "sellTiming": 0,
     "buyReason": "封板略弱，次日低开向下。AI眼镜见顶，跟风先于回落。",
     "image_list": [
       "Screenshot_2024-08-21-17-35-11-19_5c5979e609b9ed4a43e94260d67cf51e.webp"
@@ -134,6 +145,7 @@
     "lastPrice": 0.1,
     "failureReason": [],
     "resultPoint": -0.21,
+    "sellTiming": 0,
     "buyReason": "开盘弱，回调离场。次日反包。",
     "image_list": [
       "Screenshot_2024-08-21-17-34-50-01_5c5979e609b9ed4a43e94260d67cf51e.webp"
@@ -146,9 +158,10 @@
     "lastPrice": 0.1,
     "failureReason": [],
     "resultPoint": 0.2,
+    "sellTiming": 0,
     "buyReason": "AI眼镜云游戏大涨，这票算富春小弟，打的回封，虽然不算强，但预计明天有肉。",
     "image_list": [
-      "Screenshot_2024-08-21-17-33-59-73_5c5979e609b9ed4a43e94260d67cf51e.webp"
+      "Screenshot_2024-08-21-17-34-28-53_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
@@ -158,9 +171,10 @@
     "lastPrice": 0,
     "failureReason": [],
     "resultPoint": -7.74,
+    "sellTiming": 1,
     "buyReason": "20cm回踩5日线逻辑。",
     "image_list": [
-      "Screenshot_2024-08-21-17-33-42-63_5c5979e609b9ed4a43e94260d67cf51e.webp"
+      "Screenshot_2024-08-21-17-33-59-73_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
@@ -170,9 +184,11 @@
     "lastPrice": 0.23,
     "failureReason": [],
     "resultPoint": 5.35,
+    "sellTiming": 0,
     "buyReason": "分歧转一至的买点，但够烂的，有游资参与，明天拿一拿看能不能转一至。",
     "image_list": [
-      "Screenshot_2024-08-21-17-33-17-61_5c5979e609b9ed4a43e94260d67cf51e.webp"
+      "Screenshot_2024-08-21-17-33-17-61_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-08-21-17-33-42-63_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
@@ -182,6 +198,7 @@
     "lastPrice": 0.37,
     "failureReason": [],
     "resultPoint": -1.51,
+    "sellTiming": 0,
     "buyReason": "推土机式慢慢推涨停，形态类似双响炮。",
     "image_list": [
       "Screenshot_2024-08-21-17-32-55-80_5c5979e609b9ed4a43e94260d67cf51e.webp"
@@ -197,6 +214,7 @@
       20
     ],
     "resultPoint": -6.47,
+    "sellTiming": 0,
     "buyReason": "当天建筑版块上冲，后排，犹犹豫豫。平时不活跃，没有辨识度。",
     "image_list": [
       "Screenshot_2024-08-21-17-32-30-21_5c5979e609b9ed4a43e94260d67cf51e.webp"
@@ -209,6 +227,7 @@
     "lastPrice": 1.44,
     "failureReason": [],
     "resultPoint": -2.43,
+    "sellTiming": 0,
     "buyReason": "形态像极了正丹，很强的k线和分时，量能放的也很快，但没有在风口，第二天一低开，直接离场。当天11个点的大面。",
     "image_list": [
       "Screenshot_2024-08-21-17-31-51-41_5c5979e609b9ed4a43e94260d67cf51e.webp"
@@ -217,10 +236,11 @@
   {
     "gpName": "星星科技",
     "formerDate": "2024-08-13",
-    "mode": 18,
+    "mode": 98,
     "lastPrice": 0.94,
     "failureReason": [],
     "resultPoint": -6.66,
+    "sellTiming": -1,
     "buyReason": "错过最可惜的一次龙头，买的逻辑是20CM爆量次日转一至，华为柔性屏的题材，但第三天一低开直接吓跑了，但却用到了5日线转强的逻辑。",
     "image_list": [
       "Screenshot_2024-08-21-17-31-19-53_5c5979e609b9ed4a43e94260d67cf51e.webp"
@@ -237,6 +257,7 @@
     ],
     "resultPoint": -32.18,
     "buyReason": "暴击，退潮+买在一致，没啥好说的。",
+    "sellTiming": -1,
     "image_list": [
       "Screenshot_2024-08-21-17-30-46-94_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
@@ -248,6 +269,7 @@
     "lastPrice": 0.94,
     "failureReason": [],
     "resultPoint": 2.89,
+    "sellTiming": -1,
     "buyReason": "200多亿市值，当天环境较差，但版块较强，辨识度高，有K线形态，龙头香雪拉升，这票上板上车，两缺点，环境差，盘子大。",
     "image_list": [
       "Screenshot_2024-08-21-17-30-29-92_5c5979e609b9ed4a43e94260d67cf51e.webp"
@@ -262,9 +284,11 @@
       26
     ],
     "resultPoint": -3.39,
+    "sellTiming": -1,
     "buyReason": "刚开始没有注意到这票，赚钱效应一直在10CM,当环境变差后，这票有辨识度了，分歧后未大跌，次日伴随版块较强再次拉升，上午有一定量，半路上半仓，下午上板后又补了半仓，看分时有点烂，全天想买随时都能买，龙头逻辑，卖点却用的是首板低开就卖。龙虎榜5席拉萨。",
     "image_list": [
-      "Screenshot_2024-08-21-17-29-45-02_5c5979e609b9ed4a43e94260d67cf51e.webp"
+      "Screenshot_2024-08-21-17-29-45-02_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-08-21-20-14-21-88_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
@@ -277,6 +301,7 @@
     ],
     "resultPoint": -18.96,
     "buyReason": "想偷鸡顶个卡位龙，跌停买了，然后死的很惨，退潮中位股。",
+    "sellTiming": 0,
     "image_list": [
       "Screenshot_2024-08-21-17-29-22-20_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
@@ -288,6 +313,7 @@
     "lastPrice": 0.45,
     "failureReason": [],
     "resultPoint": -0.56,
+    "sellTiming": 0,
     "buyReason": "当天地产版块很强，这票开盘弱，后一点点拉上来，分时略强，上板后不强势，来回开，尾盘才封上。第二天未能高开，判断未转一致，离场。",
     "image_list": [
       "Screenshot_2024-08-21-17-18-22-36_5c5979e609b9ed4a43e94260d67cf51e.webp"
@@ -300,6 +326,7 @@
     "lastPrice": 0,
     "failureReason": [],
     "resultPoint": -3.24,
+    "sellTiming": 0,
     "buyReason": "版块强，板上排单，忘了撤，中午开盘被动上车，结果到尾盘一直未回封，第二天微低开在路上没来的及竞价撤，后下跌点才走。",
     "image_list": [
       "Screenshot_2024-08-21-17-18-01-06_5c5979e609b9ed4a43e94260d67cf51e.webp"
@@ -308,10 +335,11 @@
   {
     "gpName": "大众交通",
     "formerDate": "2024-08-01",
-    "mode": 1,
+    "mode": 99,
     "lastPrice": 0,
     "failureReason": [],
     "resultPoint": -5.34,
+    "sellTiming": 1,
     "buyReason": "超人气龙头5日线附近介入，每天低吸，走的是箱体，中途龙虎榜全是家人们，连线3天低吸，后涨停。持仓中。自己的惯性思维太强，明显的快速直线下杀，自己补了两回仓还。龙头到箱体上方急跌，利润全回吐",
     "image_list": [
       "Screenshot_2024-08-21-17-17-38-99_5c5979e609b9ed4a43e94260d67cf51e.webp"
@@ -323,7 +351,8 @@
     "mode": 98,
     "lastPrice": 1.04,
     "failureReason": [],
-    "resultPoint": -2.17,
+    "resultPoint": -4.35,
+    "sellTiming": 0,
     "buyReason": "汽车无人驾驶早盘拉高有辨识度，加环境当时还可以就上车了，后续未回封。",
     "image_list": [
       "Screenshot_2024-08-21-17-17-05-95_5c5979e609b9ed4a43e94260d67cf51e.webp"
@@ -336,6 +365,7 @@
     "lastPrice": 1.04,
     "failureReason": [],
     "resultPoint": -2.17,
+    "sellTiming": 0,
     "buyReason": "想做卡位，爆量，龙虎榜豪华，版块龙头大众跌停，但教育版块当天火爆，第二天教育版块冲高回落，低吸，第二天同梯队都跌停，如果成为最高标，预计会有拉升空间。",
     "image_list": [
       "Screenshot_2024-08-21-17-16-45-84_5c5979e609b9ed4a43e94260d67cf51e.webp"
@@ -349,6 +379,7 @@
     "failureReason": [],
     "resultPoint": -1.67,
     "buyReason": "光伏版块，当天第二强版块，K线形态多头，定位套利。",
+    "sellTiming": 0,
     "image_list": [
       "Screenshot_2024-08-21-17-15-36-92_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
@@ -360,6 +391,7 @@
     "lastPrice": 0.72,
     "failureReason": [],
     "resultPoint": 1.4,
+    "sellTiming": 1,
     "buyReason": "以为今天是强势行情，看大盘放量，而且相比较外部大跌，大A上午算强，但版块未放量，上车后秒炸。但一是版块处在上升趋势中，个股也有多头均线支撑，中午左右封住。冲高没跑，到平价附近才走，失败的一B，当时觉得形态好，有封板的预期，应该盯1分钟线的。",
     "image_list": [
       "Screenshot_2024-08-21-17-15-16-05_5c5979e609b9ed4a43e94260d67cf51e.webp"
@@ -372,6 +404,7 @@
     "lastPrice": 0.27,
     "failureReason": [],
     "resultPoint": 1.16,
+    "sellTiming": -1,
     "buyReason": "当天行情普涨，个股有量，版块表现放平时算强的，但因为大盘普涨，对比就一般了，均线未呈现多头，但分时比较稳，下午上板上车。",
     "image_list": [
     ]
@@ -383,6 +416,7 @@
     "lastPrice": 1.47,
     "failureReason": [],
     "resultPoint": 9.78,
+    "sellTiming": -1,
     "buyReason": "前排腾达8板，听94股手大V在前一天谈过这票，算是后排，第二天涨停开板回封上车，后面又被腾达带炸了。因为是接力，不擅长就买了半仓，看表现和封单算强的，预计明天有肉。",
     "image_list": [
     ]
@@ -394,6 +428,7 @@
     "lastPrice": 0.46,
     "failureReason": [],
     "resultPoint": 3.07,
+    "sellTiming": 0,
     "buyReason": "当天行情普涨，个股有量，版块表现强，20日趋势线向上，属于拉升一波回踩后的反弹。底部，近期活跃",
     "image_list": [
     ]
@@ -405,6 +440,7 @@
     "lastPrice": 0.13,
     "failureReason": [],
     "resultPoint": -2.6,
+    "sellTiming": 0,
     "buyReason": "当天行情普涨，个股均线多头排列，有量，版块强，这票买时有个缺点，虽然均线多头，但近期涨幅有点大。",
     "image_list": [
     ]
@@ -416,6 +452,7 @@
     "lastPrice": 0.26,
     "failureReason": [],
     "resultPoint": 0.3,
+    "sellTiming": 0,
     "buyReason": "当天行情普涨，个股有量，版块表现放平时算强的，但因为大盘普涨，对比就一般了，20日趋势线向上，属于拉升一波回踩后的反弹。分时非常稳，在涨停板附近徘徊了很久，空头都耗尽了。",
     "image_list": [
     ]
@@ -427,6 +464,7 @@
     "lastPrice": 0.64,
     "failureReason": [],
     "resultPoint": -0.53,
+    "sellTiming": 0,
     "buyReason": "当天行情普涨，个股均线多头排列，有量，版块强，底部，上板上车。",
     "image_list": [
     ]
@@ -438,6 +476,7 @@
     "lastPrice": 0.44,
     "failureReason": [],
     "resultPoint": 3.7,
+    "sellTiming": -1,
     "buyReason": "行情普涨，版块较强，这票头一天放量异动，整体底部，当天放量，20日均势线止跌横住，第二天周K线看有3个多点，就会被压制。",
     "image_list": [
     ]
@@ -449,6 +488,7 @@
     "lastPrice": 0,
     "failureReason": [],
     "resultPoint": -0.82,
+    "sellTiming": 0,
     "buyReason": "当天行情一般，从版块跌幅榜找到方向向上，价格到5日线附近。然后从版块里找一个中军，形态也回归到5日线附近的。这票当天K线有个问题，就是阴线太大，明天如果低开，竞价割。",
     "image_list": [
     ]
@@ -460,6 +500,7 @@
     "lastPrice": 0,
     "failureReason": [],
     "resultPoint": -0.19,
+    "sellTiming": 0,
     "buyReason": "当天5日线刚起头，觉得第二天能拉，但起头没卖，后面回到成本线就走了，第二天有较大涨幅。",
     "image_list": [
     ]
@@ -471,6 +512,7 @@
     "lastPrice": 0,
     "failureReason": [],
     "resultPoint": 0.1,
+    "sellTiming": 0,
     "buyReason": "均线下低吸，第二天形势不太好就走了。",
     "image_list": [
     ]
@@ -482,6 +524,7 @@
     "lastPrice": 0,
     "failureReason": [],
     "resultPoint": 0.77,
+    "sellTiming": 0,
     "buyReason": "这票大白马，位置够低，在5日线附近买入，5日线战法拿了两天，跌下5日线，第二天有反弹，但大环境和版块都太差，就离场了，微盈。",
     "image_list": [
       "Screenshot_2024-07-25-10-24-53-10_5c5979e609b9ed4a43e94260d67cf51e.webp"
@@ -494,6 +537,7 @@
     "lastPrice": 0,
     "failureReason": [],
     "resultPoint": 9.77,
+    "sellTiming": -1,
     "buyReason": "看有大V提到这票，第二天未涨停，还觉得希望不大，再一天快涨停才意识到牛B。拿了一天，吃了10个点，牛B处就在于持续的温和放量。",
     "image_list": [
       "Screenshot_2024-07-23-08-42-19-54_5c5979e609b9ed4a43e94260d67cf51e.webp",
@@ -508,6 +552,7 @@
     "failureReason": [],
     "resultPoint": 2.0,
     "buyReason": "涨停上车，中途炸了一段时间，20日趋势线向上，环境较好。",
+    "sellTiming": 1,
     "image_list": [
       "Screenshot_2024-07-11-19-47-58-04_5c5979e609b9ed4a43e94260d67cf51e.webp",
       "Screenshot_2024-07-25-09-43-05-63_5c5979e609b9ed4a43e94260d67cf51e.webp"
@@ -521,6 +566,7 @@
     "failureReason": [],
     "resultPoint": -2.28,
     "buyReason": "这个板还亏真是想不到，硬的很的板，高开没走，就跳了。歇一阵子。",
+    "sellTiming": 0,
     "image_list": [
       "Screenshot_2024-07-04-19-58-06-30_5c5979e609b9ed4a43e94260d67cf51e.webp",
       "Screenshot_2024-07-08-20-39-29-28_5c5979e609b9ed4a43e94260d67cf51e.webp",
@@ -538,6 +584,7 @@
     ],
     "resultPoint": -11,
     "buyReason": "看分时有拉扯，就上车了，但炸的挺惨，一是量，二是形态单一不可靠，还有环境也比较差。",
+    "sellTiming": -1,
     "image_list": [
       "Screenshot_2024-07-03-20-21-05-81_5c5979e609b9ed4a43e94260d67cf51e.webp",
       "Screenshot_2024-07-04-20-10-48-42_5c5979e609b9ed4a43e94260d67cf51e.webp",
@@ -555,6 +602,7 @@
     ],
     "resultPoint": -10.38,
     "buyReason": "当天没写原因，也是个看形态，这个教训要记住",
+    "sellTiming": 1,
     "image_list": [
       "Screenshot_2024-07-01-15-03-57-80_5c5979e609b9ed4a43e94260d67cf51e.webp",
       "Screenshot_2024-07-02-23-50-35-52_5c5979e609b9ed4a43e94260d67cf51e.webp",
@@ -571,6 +619,7 @@
     ],
     "resultPoint": -8.38,
     "buyReason": "非热点版块，完全是看早盘抢攻形态上车。",
+    "sellTiming": 0,
     "image_list": [
       "Screenshot_2024-06-28-18-58-33-08_5c5979e609b9ed4a43e94260d67cf51e.webp",
       "Screenshot_2024-07-01-15-03-40-28_5c5979e609b9ed4a43e94260d67cf51e.webp",

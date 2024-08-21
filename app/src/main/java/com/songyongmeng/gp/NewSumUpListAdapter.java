@@ -24,7 +24,7 @@ public class NewSumUpListAdapter extends RecyclerView.Adapter<NewSumUpListAdapte
     Comparator<NewStatisticsBean> comparator;
     private boolean latterAverage;
     private boolean formerAllValue;
-    private boolean latterStart;
+    private boolean sellTiming;
     private boolean mode;
     private boolean lastPrice;
     private boolean resultPoint;
@@ -165,6 +165,23 @@ public class NewSumUpListAdapter extends RecyclerView.Adapter<NewSumUpListAdapte
             }
         });
         mode = !mode;
+        notifyDataSetChanged();
+    }
+
+    public void changeSellTiming() {
+        changeResultPoint();
+//        Comparator<NewStatisticsBean> comparator = new Comparator<NewStatisticsBean>() {
+        Collections.sort(mDataList, new Comparator<NewStatisticsBean>() {
+            @Override
+            public int compare(NewStatisticsBean bean1, NewStatisticsBean bean2) {
+                if (sellTiming) {
+                    return bean2.getSellTiming() - bean1.getSellTiming();
+                } else {
+                    return bean1.getSellTiming() - bean2.getSellTiming();
+                }
+            }
+        });
+        sellTiming = !sellTiming;
         notifyDataSetChanged();
     }
 
@@ -463,11 +480,11 @@ public class NewSumUpListAdapter extends RecyclerView.Adapter<NewSumUpListAdapte
             linearLayout.removeAllViews();
 
             // 动态添加 TextView
-            for (int i = 0; i < 5; i++) {
+            for (int i = 0; i < 6; i++) {
                 TextView textView = new TextView(itemView.getContext());
                 if (i == 0) {
                     textView.setWidth(250); // 名称
-                } else if (i == 4) {
+                } else if (i == 5) {
                     textView.setWidth(270); // 日期
                 } else {
                     textView.setWidth(230); // 设置宽度为200像素
@@ -495,19 +512,19 @@ public class NewSumUpListAdapter extends RecyclerView.Adapter<NewSumUpListAdapte
                             tmp = "进行中";
                         } else if (data.getMode() == 99) {
                             tmp = "龙头";
-                        }else if (data.getMode() == 98) {
+                        } else if (data.getMode() == 98) {
                             tmp = "反包";
                         } else if (data.getMode() == 0) {
                             tmp = "均线反弹";
-                        }else if (data.getMode() == 18) {
+                        } else if (data.getMode() == 18) {
                             tmp = "低位分歧";
                         } else if (data.getMode() == 1) {
                             tmp = "首板";
                         } else if (data.getMode() == 2) {
                             tmp = "一进二";
-                        }else if (data.getMode() == -5) {
+                        } else if (data.getMode() == -5) {
                             tmp = "5日线";
-                        }  else if (data.getMode() > 2 && data.getMode() < 99) {
+                        } else if (data.getMode() > 2 && data.getMode() < 99) {
                             tmp = "中位";
                         }
                         textView.setText(tmp);
@@ -520,6 +537,15 @@ public class NewSumUpListAdapter extends RecyclerView.Adapter<NewSumUpListAdapte
                         }
                         break;
                     case 4:
+                        String sellStr = "正常";
+                        if (data.getSellTiming() == -1) {
+                            sellStr = "卖早了";
+                        } else if (data.getSellTiming() == 1) {
+                            sellStr = "卖晚了";
+                        }
+                        textView.setText(sellStr);
+                        break;
+                    case 5:
                         textView.setText(data.getFormerDate());
                         break;
 //                    case 5:

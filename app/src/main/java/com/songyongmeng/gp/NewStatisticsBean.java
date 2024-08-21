@@ -19,6 +19,7 @@ public class NewStatisticsBean implements Serializable {
     private String gpName;
     private String formerDate;
     private int mode;
+    private int sellTiming;
     private double lastPrice;
     private boolean isBanBuy;
     private double resultPoint;
@@ -48,6 +49,14 @@ public class NewStatisticsBean implements Serializable {
 
     public void setMode(int mode) {
         this.mode = mode;
+    }
+
+    public int getSellTiming() {
+        return sellTiming;
+    }
+
+    public void setSellTiming(int sellTiming) {
+        this.sellTiming = sellTiming;
     }
 
     public double getLastPrice() {
