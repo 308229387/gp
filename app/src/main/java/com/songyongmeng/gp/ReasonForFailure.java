@@ -28,6 +28,7 @@ public class ReasonForFailure {
     public static final String REASON_24 = "只看单一指标，太片面";//对应编号24
     public static final String REASON_25 = "买在顶盛一致时";//对应编号25
     public static final String REASON_26 = "模式混乱导致买卖点错误";//对应编号26
+    public static final String REASON_27 = "情绪反转见顶";//对应编号27
 
 
 }
