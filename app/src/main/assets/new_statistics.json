@@ -2,12 +2,12 @@
   {
     "gpName": "大众汽车",
     "formerDate": "2024-08-21",
-    "mode": -1,
+    "mode": 99,
     "lastPrice": 0,
     "failureReason": [],
-    "resultPoint": 0,
-    "sellTiming": 0,
-    "buyReason": "形态有点像西安饮食。中位买，没追高，回头看追高死的惨。龙虎榜一看，又是五个拉萨……",
+    "resultPoint": 0.2,
+    "sellTiming": 1,
+    "buyReason": "形态有点像西安饮食。中位买，没追高，回头看追高死的惨。龙虎榜一看，又是五个拉萨……。预期是像西安饮食一样能走出来，结果第三天开盘掉头向下，卖晚了。",
     "image_list": [
       ""
     ]
