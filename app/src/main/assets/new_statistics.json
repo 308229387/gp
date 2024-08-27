@@ -15,6 +15,68 @@
     "image_list": []
   },
   {
+    "gpName": "常山北明",
+    "formerDate": "2024-08-26",
+    "mode": 2,
+    "lastPrice": 0,
+    "failureReason": [
+      29
+    ],
+    "resultPoint": -7.66,
+    "sellTiming": -1,
+    "buyReason": "涨停后第二天看量能很大，承接好像还行，觉得能拉回去就在均线下买了，第二天低开卖，后直线拉涨停反包。承接确实还行",
+    "image_list": [
+      "Screenshot_2024-08-28-11-28-37-37_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-08-28-11-28-46-26_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "雷柏科技",
+    "formerDate": "2024-08-26",
+    "mode": 97,
+    "lastPrice": 0,
+    "failureReason": [
+      29
+    ],
+    "resultPoint": -8.59,
+    "sellTiming": 0,
+    "buyReason": "现在市场流行的是第二波，没有第三波回流。",
+    "image_list": [
+      "Screenshot_2024-08-28-11-27-46-30_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-08-28-11-27-55-25_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "宇新股份",
+    "formerDate": "2024-08-26",
+    "mode": 97,
+    "lastPrice": 0,
+    "failureReason": [
+      29
+    ],
+    "resultPoint": -8.07,
+    "sellTiming": 0,
+    "buyReason": "尾盘拉的，感觉形态有点像星星科技，第二天无反弹。只是形似。",
+    "image_list": [
+      "Screenshot_2024-08-28-11-26-18-91_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "鹏辉能源",
+    "formerDate": "2024-08-26",
+    "mode": 98,
+    "lastPrice": 0,
+    "failureReason": [
+      31
+    ],
+    "resultPoint": -6.69,
+    "sellTiming": 0,
+    "buyReason": "固电池当天热点，反包打的板，容量票，在板上被砸开，第二天竞价离场",
+    "image_list": [
+      "Screenshot_2024-08-28-11-20-00-46_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
     "gpName": "众泰汽车",
     "formerDate": "2024-08-23",
     "mode": 1,
@@ -96,8 +158,13 @@
     "formerDate": "2024-08-22",
     "mode": 1,
     "lastPrice": 0,
-    "failureReason": [4,5,10,30],
-    "resultPoint": 9.17,
+    "failureReason": [
+      4,
+      5,
+      10,
+      30
+    ],
+    "resultPoint": -9.17,
     "sellTiming": 0,
     "buyReason": "环境差，快速拉板，形态一般，版块当时有小许冲高，但趋势空头，很差。",
     "image_list": [
@@ -109,7 +176,10 @@
     "formerDate": "2024-08-22",
     "mode": 1,
     "lastPrice": 0,
-    "failureReason": [10,22],
+    "failureReason": [
+      10,
+      22
+    ],
     "resultPoint": -3.76,
     "sellTiming": -1,
     "buyReason": "环境差，形态还行，当时版块还不错，觉得发觉下低位，涨停会有大肉。后证实想多了，买高卖低。而且第二天也怂的很，很快就走了。",
@@ -241,7 +311,8 @@
     "sellTiming": -1,
     "buyReason": "AI眼镜概念，低位反包，版块次日见顶。以为卖了，结果没成交，发现时还是红的，按挂单算，还是卖早了。",
     "image_list": [
-      "Screenshot_2024-08-21-17-35-55-00_5c5979e609b9ed4a43e94260d67cf51e.webp"
+      "Screenshot_2024-08-21-17-35-55-00_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-08-27-14-36-36-34_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
@@ -375,7 +446,8 @@
     "sellTiming": -1,
     "buyReason": "错过最可惜的一次龙头，买的逻辑是20CM爆量次日转一至，华为柔性屏的题材，但第三天一低开直接吓跑了，但却用到了5日线转强的逻辑。",
     "image_list": [
-      "Screenshot_2024-08-21-17-31-19-53_5c5979e609b9ed4a43e94260d67cf51e.webp"
+      "Screenshot_2024-08-21-17-31-19-53_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-08-27-14-15-56-30_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
@@ -526,7 +598,8 @@
     "sellTiming": 1,
     "buyReason": "以为今天是强势行情，看大盘放量，而且相比较外部大跌，大A上午算强，但版块未放量，上车后秒炸。但一是版块处在上升趋势中，个股也有多头均线支撑，中午左右封住。冲高没跑，到平价附近才走，失败的一B，当时觉得形态好，有封板的预期，应该盯1分钟线的。",
     "image_list": [
-      "Screenshot_2024-08-21-17-15-16-05_5c5979e609b9ed4a43e94260d67cf51e.webp"
+      "Screenshot_2024-08-21-17-15-16-05_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-08-27-14-37-57-76_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
@@ -712,7 +785,8 @@
     "lastPrice": 0,
     "failureReason": [
       7,
-      24
+      24,
+      30
     ],
     "resultPoint": -11,
     "buyReason": "看分时有拉扯，就上车了，但炸的挺惨，一是量，二是形态单一不可靠，还有环境也比较差。",
@@ -730,7 +804,8 @@
     "lastPrice": 0,
     "failureReason": [
       7,
-      24
+      24,
+      30
     ],
     "resultPoint": -10.38,
     "buyReason": "当天没写原因，也是个看形态，这个教训要记住",

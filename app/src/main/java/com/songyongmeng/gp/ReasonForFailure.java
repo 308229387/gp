@@ -11,7 +11,7 @@ public class ReasonForFailure {
     public static final String REASON_7= "量能不对";//对应编号7
     public static final String REASON_8= "均线压制，大级别均线压制";//对应编号8
     public static final String REASON_9= "误操作";//对应编号9
-    public static final String REASON_10 = "环境差，退潮";//对应编号10
+    public static final String REASON_10 = "环境差，市场缩量或退潮";//对应编号10
     public static final String REASON_11 = "排单未撤，被炸进去";//对应编号11
     public static final String REASON_12 = "太仓促";//对应编号12
     public static final String REASON_13 = "上板强度不够";//对应编号13
@@ -32,6 +32,7 @@ public class ReasonForFailure {
     public static final String REASON_28 = "左侧交易，判断错误";//对应编号28
     public static final String REASON_29 = "右侧交易，不及预期";//对应编号29
     public static final String REASON_30 = "快速拉涨停，不牢固";//对应编号30
+    public static final String REASON_31 = "容量票追高了";//对应编号31
 
 
 }
