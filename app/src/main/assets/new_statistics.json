@@ -1,36 +1,108 @@
 [
   {
-    "gpName": "大众汽车",
+    "gpName": "罗普斯金",
+    "formerDate": "2024-08-27",
+    "mode": -1,
+    "lastPrice": 0,
+    "failureReason": [
+      20,
+      30
+    ],
+    "resultPoint": 0,
+    "sellTiming": 0,
+    "buyReason": "大盘环境差，开盘普跌，最强概念版块。直线拉涨停，震荡两下被骗上车。周末有个消息房屋养老金，而且新开了个概念板块，昨天周一普涨，今天快速冲高回落。这票量不够，虽然比昨天高，但才几千万，第二天冲高回落。",
+    "image_list": []
+  },
+  {
+    "gpName": "众泰汽车",
+    "formerDate": "2024-08-23",
+    "mode": 1,
+    "lastPrice": 0.25,
+    "failureReason": [
+      5,
+      10
+    ],
+    "resultPoint": -3.4,
+    "sellTiming": 1,
+    "buyReason": "开盘4个多点盘整后快速上板，封单不大，第二天无议价平开，，形态上看大跌后的首涨停，K线形态不够强",
+    "image_list": []
+  },
+  {
+    "gpName": "传智教育",
+    "formerDate": "2024-08-23",
+    "mode": 1,
+    "lastPrice": 0,
+    "failureReason": [
+      29
+    ],
+    "resultPoint": -8.33,
+    "sellTiming": 0,
+    "buyReason": "版块冲高，K线形态不好，而且是跳空高开。饥不择食，需要提高审美。",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "华峰超纤",
+    "formerDate": "2024-08-23",
+    "mode": 97,
+    "lastPrice": 0,
+    "failureReason": [
+      20,
+      29
+    ],
+    "resultPoint": -8.33,
+    "sellTiming": 0,
+    "buyReason": "版块冲高，K线形态不好，而且是跳空高开。饥不择食，需要提高审美。",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "四川长虹",
+    "formerDate": "2024-08-23",
+    "mode": 98,
+    "lastPrice": 1.95,
+    "failureReason": [],
+    "resultPoint": 10.13,
+    "sellTiming": 0,
+    "buyReason": "为数不多成功的案例，本来看中的是跨境支付的回流，结果走的是华为逻辑，容量票，第二天也没贪，看竞价走的太弱就核了。",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "大众交通",
     "formerDate": "2024-08-21",
     "mode": 99,
     "lastPrice": 0,
     "failureReason": [],
-    "resultPoint": 0.2,
+    "resultPoint": 0.35,
     "sellTiming": 1,
-    "buyReason": "形态有点像西安饮食。中位买，没追高，回头看追高死的惨。龙虎榜一看，又是五个拉萨……。预期是像西安饮食一样能走出来，结果第三天开盘掉头向下，卖晚了。",
+    "buyReason": "形态有点像西安饮食。中位买，没追高，回头看追高死的惨。龙虎榜一看，又是五个拉萨……。预期是像西安饮食一样能走出来，第二天本来卖在高点，结果第三天开盘掉头向下，卖晚了。",
     "image_list": [
-      ""
     ]
   },
   {
     "gpName": "华峰超纤",
     "formerDate": "2024-08-21",
-    "mode": -1,
+    "mode": 97,
     "lastPrice": 0,
-    "failureReason": [],
-    "resultPoint": 0,
+    "failureReason": [
+      28
+    ],
+    "resultPoint": -4.3,
     "sellTiming": 0,
-    "buyReason": "买的逻辑是版块回流，跨境支付，但看今天有点弱……。明天别再大跌最好。看四川长虹表现还不错",
+    "buyReason": "买的逻辑是版块回流，跨境支付，但看今天有点弱……。明天别再大跌最好。看四川长虹表现还不错。次日未转强。",
     "image_list": [
     ]
   },
   {
     "gpName": "力源信息",
     "formerDate": "2024-08-21",
-    "mode": -1,
+    "mode": 98,
     "lastPrice": 0,
-    "failureReason": [],
-    "resultPoint": 0,
+    "failureReason": [
+      29
+    ],
+    "resultPoint": -4.26,
     "sellTiming": 0,
     "buyReason": "反包逻辑，上午海思版块较强势，打的半路。后力度不够。版块也是走的回踩5日线。",
     "image_list": [
@@ -65,7 +137,9 @@
     "formerDate": "2024-08-19",
     "mode": 3,
     "lastPrice": 0,
-    "failureReason": [27],
+    "failureReason": [
+      27
+    ],
     "resultPoint": -5.46,
     "sellTiming": 0,
     "buyReason": "热点追随，AI眼镜热点，情绪反转",
@@ -91,7 +165,9 @@
     "formerDate": "2024-08-16",
     "mode": 3,
     "lastPrice": 0,
-    "failureReason": [27],
+    "failureReason": [
+      27
+    ],
     "resultPoint": -23.8,
     "sellTiming": 1,
     "buyReason": "高位接力，遇到情绪反转，爆亏",

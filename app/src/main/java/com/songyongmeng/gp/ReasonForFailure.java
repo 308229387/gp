@@ -29,6 +29,9 @@ public class ReasonForFailure {
     public static final String REASON_25 = "买在顶盛一致时";//对应编号25
     public static final String REASON_26 = "模式混乱导致买卖点错误";//对应编号26
     public static final String REASON_27 = "情绪反转见顶";//对应编号27
+    public static final String REASON_28 = "左侧交易，判断错误";//对应编号28
+    public static final String REASON_29 = "右侧交易，不及预期";//对应编号29
+    public static final String REASON_30 = "快速拉涨停，不牢固";//对应编号30
 
 
 }

@@ -514,16 +514,18 @@ public class NewSumUpListAdapter extends RecyclerView.Adapter<NewSumUpListAdapte
                             tmp = "龙头";
                         } else if (data.getMode() == 98) {
                             tmp = "反包";
+                        } else if (data.getMode() == 97) {
+                            tmp = "版块回流";
                         } else if (data.getMode() == 0) {
                             tmp = "均线反弹";
-                        } else if (data.getMode() == 18) {
+                        }  else if (data.getMode() == 18) {
                             tmp = "低位分歧";
                         } else if (data.getMode() == 1) {
                             tmp = "首板";
                         } else if (data.getMode() == 2) {
                             tmp = "一进二";
                         } else if (data.getMode() == -5) {
-                            tmp = "5日线";
+                            tmp = "回踩5日线";
                         } else if (data.getMode() > 2 && data.getMode() < 99) {
                             tmp = "中位";
                         }
