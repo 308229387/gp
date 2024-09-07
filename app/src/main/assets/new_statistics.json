@@ -1,7 +1,7 @@
 [
   {
     "gpName": "南都电源",
-    "formerDate": "2024-08-30",
+    "formerDate": "2024-09-06",
     "mode": 98,
     "lastPrice": 0,
     "failureReason": [],
@@ -12,7 +12,7 @@
   },
   {
     "gpName": "华懋科技",
-    "formerDate": "2024-08-30",
+    "formerDate": "2024-09-06",
     "mode": 98,
     "lastPrice": 0,
     "failureReason": [],
@@ -23,7 +23,7 @@
   },
   {
     "gpName": "深圳华强",
-    "formerDate": "2024-08-30",
+    "formerDate": "2024-09-02",
     "mode": 99,
     "lastPrice": 0,
     "failureReason": [],
@@ -34,7 +34,7 @@
   },
   {
     "gpName": "奋达科技",
-    "formerDate": "2024-08-30",
+    "formerDate": "2024-09-02",
     "mode": 4,
     "lastPrice": 0,
     "failureReason": [20,27],
