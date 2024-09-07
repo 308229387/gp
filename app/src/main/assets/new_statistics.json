@@ -1,5 +1,71 @@
 [
   {
+    "gpName": "南都电源",
+    "formerDate": "2024-08-30",
+    "mode": 98,
+    "lastPrice": 0,
+    "failureReason": [],
+    "resultPoint": 0,
+    "sellTiming": 0,
+    "buyReason": "容量票反包，中途上冲上车，一度14个点，挺开心，结果回落，预期不太好，电池回流吧。",
+    "image_list": []
+  },
+  {
+    "gpName": "华懋科技",
+    "formerDate": "2024-08-30",
+    "mode": 98,
+    "lastPrice": 0,
+    "failureReason": [],
+    "resultPoint": 0,
+    "sellTiming": 0,
+    "buyReason": "容量票反包，上冲猛，4个多点上车，版块1个多点，芯片，不太反包太强。最后还板了，应该有肉，有可能是做埋伏预期",
+    "image_list": []
+  },
+  {
+    "gpName": "深圳华强",
+    "formerDate": "2024-08-30",
+    "mode": 99,
+    "lastPrice": 0,
+    "failureReason": [],
+    "resultPoint": 1.89,
+    "sellTiming": -1,
+    "buyReason": "前期有一字不敢上，暴量断板后高开上冲，自己错过，次买点上车，又被甩下来，太聪明了，龙头不试用预判，跟随就行",
+    "image_list": []
+  },
+  {
+    "gpName": "奋达科技",
+    "formerDate": "2024-08-30",
+    "mode": 4,
+    "lastPrice": 0,
+    "failureReason": [20,27],
+    "resultPoint": -13.61,
+    "sellTiming": 0,
+    "buyReason": "本能买，不能靠本能，接力接一字板，无延续，亏损爆炸。",
+    "image_list": []
+  },
+  {
+    "gpName": "精研科技",
+    "formerDate": "2024-08-30",
+    "mode": 98,
+    "lastPrice": 0,
+    "failureReason": [],
+    "resultPoint": -3.55,
+    "sellTiming": 0,
+    "buyReason": "不是准确的买入点，如果是买反包，应该第一天买，不应该是次日",
+    "image_list": []
+  },
+  {
+    "gpName": "宏和科技",
+    "formerDate": "2024-08-30",
+    "mode": 1,
+    "lastPrice": 0,
+    "failureReason": [],
+    "resultPoint": -0.5,
+    "sellTiming": 0,
+    "buyReason": "买入原因就是股性活跃，历史过往有肉，第二天平开，没有上冲的力度。离场",
+    "image_list": []
+  },
+  {
     "gpName": "罗普斯金",
     "formerDate": "2024-08-27",
     "mode": 1,
