@@ -25,6 +25,7 @@ public class NewSumUpListAdapter extends RecyclerView.Adapter<NewSumUpListAdapte
     private boolean latterAverage;
     private boolean formerAllValue;
     private boolean sellTiming;
+    private boolean PhaseTag;
     private boolean mode;
     private boolean lastPrice;
     private boolean resultPoint;
@@ -134,6 +135,7 @@ public class NewSumUpListAdapter extends RecyclerView.Adapter<NewSumUpListAdapte
 //    }
 //
 //
+    //根据结果排序
     public void changeResultPoint() {
         comparator = new Comparator<NewStatisticsBean>() {
             @Override
@@ -182,6 +184,23 @@ public class NewSumUpListAdapter extends RecyclerView.Adapter<NewSumUpListAdapte
             }
         });
         sellTiming = !sellTiming;
+        notifyDataSetChanged();
+    }
+
+    public void changePhase() {
+        changeResultPoint();
+//        Comparator<NewStatisticsBean> comparator = new Comparator<NewStatisticsBean>() {
+        Collections.sort(mDataList, new Comparator<NewStatisticsBean>() {
+            @Override
+            public int compare(NewStatisticsBean bean1, NewStatisticsBean bean2) {
+                if (PhaseTag) {
+                    return bean2.getPhase() - bean1.getPhase();
+                } else {
+                    return bean1.getPhase() - bean2.getPhase();
+                }
+            }
+        });
+        PhaseTag = !PhaseTag;
         notifyDataSetChanged();
     }
 
@@ -480,11 +499,11 @@ public class NewSumUpListAdapter extends RecyclerView.Adapter<NewSumUpListAdapte
             linearLayout.removeAllViews();
 
             // 动态添加 TextView
-            for (int i = 0; i < 6; i++) {
+            for (int i = 0; i < 7; i++) {
                 TextView textView = new TextView(itemView.getContext());
                 if (i == 0) {
                     textView.setWidth(250); // 名称
-                } else if (i == 5) {
+                } else if (i == 6) {
                     textView.setWidth(270); // 日期
                 } else {
                     textView.setWidth(230); // 设置宽度为200像素
@@ -518,7 +537,7 @@ public class NewSumUpListAdapter extends RecyclerView.Adapter<NewSumUpListAdapte
                             tmp = "版块回流";
                         } else if (data.getMode() == 0) {
                             tmp = "均线反弹";
-                        }  else if (data.getMode() == 18) {
+                        } else if (data.getMode() == 18) {
                             tmp = "低位分歧";
                         } else if (data.getMode() == 1) {
                             tmp = "首板";
@@ -539,6 +558,27 @@ public class NewSumUpListAdapter extends RecyclerView.Adapter<NewSumUpListAdapte
                         }
                         break;
                     case 4:
+                        String tmpPhase = "";
+                        if (data.getPhase() == 0) {
+                            tmpPhase = "-";
+                        } else if (data.getPhase() == 1) {
+                            tmpPhase = "低位试错";
+                        } else if (data.getPhase() == 2) {
+                            tmpPhase = "起始";
+                        } else if (data.getPhase() == 3) {
+                            tmpPhase = "主升";
+                        } else if (data.getPhase() == 4) {
+                            tmpPhase = "见顶";
+                        } else if (data.getPhase() == 5) {
+                            tmpPhase = "高位震荡";
+                        } else if (data.getPhase() == 6) {
+                            tmpPhase = "主跌";
+                        } else if (data.getPhase() == 7) {
+                            tmpPhase = "见底";
+                        }
+                        textView.setText(tmpPhase);
+                        break;
+                    case 5:
                         String sellStr = "正常";
                         if (data.getSellTiming() == -1) {
                             sellStr = "卖早了";
@@ -547,7 +587,7 @@ public class NewSumUpListAdapter extends RecyclerView.Adapter<NewSumUpListAdapte
                         }
                         textView.setText(sellStr);
                         break;
-                    case 5:
+                    case 6:
                         textView.setText(data.getFormerDate());
                         break;
 //                    case 5:

@@ -53,12 +53,12 @@ public class NewSumUpListActivity extends AppCompatActivity {
     }
 
     private void two(LinearLayout buttonLayout) {
-        for (int i = 0; i < 6; i++) {
+        for (int i = 0; i < 7; i++) {
             Button button = new Button(this);
             LinearLayout.LayoutParams layoutParams;
             if (i == 0) {
                 layoutParams = new LinearLayout.LayoutParams(230, 180);
-            } else if (i == 5) {
+            } else if (i == 6) {
                 layoutParams = new LinearLayout.LayoutParams(260, 180);
             } else {
                 layoutParams = new LinearLayout.LayoutParams(210, 180);
@@ -106,6 +106,15 @@ public class NewSumUpListActivity extends AppCompatActivity {
                     });
                     break;
                 case 4:
+                    button.setText("阶段");
+                    button.setOnClickListener(new View.OnClickListener() {
+                        @Override
+                        public void onClick(View view) {
+                            adapter.changePhase();
+                        }
+                    });
+                    break;
+                case 5:
                     button.setText("卖点");
                     button.setOnClickListener(new View.OnClickListener() {
                         @Override
@@ -114,7 +123,7 @@ public class NewSumUpListActivity extends AppCompatActivity {
                         }
                     });
                     break;
-                case 5:
+                case 6:
                     button.setText("买入日期");
                     button.setOnClickListener(new View.OnClickListener() {
                         @Override

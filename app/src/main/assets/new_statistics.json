@@ -5,9 +5,10 @@
     "mode": 98,
     "lastPrice": 0,
     "failureReason": [],
-    "resultPoint": 0,
+    "resultPoint": 5.4,
     "sellTiming": 0,
-    "buyReason": "容量票反包，中途上冲上车，一度14个点，挺开心，结果回落，预期不太好，电池回流吧。",
+    "phase": 4,
+    "buyReason": "容量票反包，中途上冲上车，一度14个点，挺开心，结果回落，预期不太好，电池回流吧。冲高到前高，未能快速冲破，离场。",
     "image_list": []
   },
   {
@@ -16,9 +17,10 @@
     "mode": 98,
     "lastPrice": 0,
     "failureReason": [],
-    "resultPoint": 0,
+    "resultPoint": 16.1,
     "sellTiming": 0,
-    "buyReason": "容量票反包，上冲猛，4个多点上车，版块1个多点，芯片，不太反包太强。最后还板了，应该有肉，有可能是做埋伏预期",
+    "phase": 4,
+    "buyReason": "容量票反包，上冲猛，4个多点上车，版块1个多点，芯片，不太反包太强。最后还板了，应该有肉，有可能是做埋伏预期，冲板炸开，再冲板还封不住，离场",
     "image_list": []
   },
   {

@@ -20,12 +20,29 @@ public class NewStatisticsBean implements Serializable {
     private String formerDate;
     private int mode;
     private int sellTiming;
+    private int phase;
     private double lastPrice;
     private boolean isBanBuy;
     private double resultPoint;
     private String buyReason;
     private List<Integer> failureReason;
     private List<String> image_list;
+
+    public int getPhase() {
+        return phase;
+    }
+
+    public void setPhase(int phase) {
+        this.phase = phase;
+    }
+
+    public boolean isBanBuy() {
+        return isBanBuy;
+    }
+
+    public void setBanBuy(boolean banBuy) {
+        isBanBuy = banBuy;
+    }
 
     public String getGpName() {
         return gpName;
