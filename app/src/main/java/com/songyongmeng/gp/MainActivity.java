@@ -142,6 +142,8 @@ public class MainActivity extends AppCompatActivity {
                     toBigImage("jing_jia_qiang_chou_fail.json");
                 } else if (allData.get(groupPosition).getData().get(childPosition).getRichText().get(0).equals("title:竞价横盘形态")) {
                     toBigImage("jing_jia_heng_pan.json");
+                } else if (allData.get(groupPosition).getData().get(childPosition).getRichText().get(0).equals("title:心得小记")) {
+                    startActivity(new Intent(MainActivity.this, CasualListActivity.class));
                 } else {
                     toDetail((ArrayList<String>) allData.get(groupPosition).getData().get(childPosition).getRichText());
                 }

@@ -32,6 +32,8 @@
         <activity android:name="GPDetailActivity" />
         <activity android:name="FenQiSucDetailActivity" />
         <activity android:name="NewGPDetailActivity" />
+        <activity android:name=".CasualDetailActivity" />
+        <activity android:name=".CasualListActivity" />
         <activity android:name="EmptyBigImageActivity" />
         <activity android:name="BjcjImageActivity" />
         <activity android:name="BjcjBigImageActivity" />

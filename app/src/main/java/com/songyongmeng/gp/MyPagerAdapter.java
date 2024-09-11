@@ -21,7 +21,7 @@ public class MyPagerAdapter extends PagerAdapter {
     private List<String> images = new ArrayList<>(); // 添加你的图片资源
     private Context mContext;
 
-    private String path = "statistics_img";
+    private String path = "casual_essay";
 
     public MyPagerAdapter(Context context) {
         mContext = context;
@@ -51,7 +51,7 @@ public class MyPagerAdapter extends PagerAdapter {
             public void onClick(View view) {
                 Intent intent = new Intent(mContext, BjcjBigImageActivity.class);
                 intent.putExtra("image", images.get(position));
-                intent.putExtra("path", "statistics_img");
+                intent.putExtra("path", "casual_essay");
                 mContext.startActivity(intent);
             }
         });
