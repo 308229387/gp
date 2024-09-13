@@ -1,5 +1,20 @@
 [
   {
+    "gpName": "深圳华强",
+    "formerDate": "2024-09-13",
+    "mode": 99,
+    "lastPrice": 0,
+    "failureReason": [],
+    "resultPoint": -3.0,
+    "sellTiming": 0,
+    "phase": 6,
+    "buyReason": "高位大调整后小阳线，次日在5日线焦灼一天最后也没守住，次低点卖出。这种高人气龙头，也没有什么钢性兑付，以为是高位震荡走箱体，结果是主跌。",
+    "image_list": [
+      "Screenshot_2024-09-09-17-24-04-79_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-09-09-16-46-51-96_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
     "gpName": "南都电源",
     "formerDate": "2024-09-06",
     "mode": 98,
