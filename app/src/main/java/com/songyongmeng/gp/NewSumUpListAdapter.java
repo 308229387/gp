@@ -28,6 +28,7 @@ public class NewSumUpListAdapter extends RecyclerView.Adapter<NewSumUpListAdapte
     private boolean PhaseTag;
     private boolean mode;
     private boolean lastPrice;
+    private boolean bigPrice;
     private boolean resultPoint;
     private boolean banScore;
     private boolean yesterdayEnvironmentScore;
@@ -218,6 +219,23 @@ public class NewSumUpListAdapter extends RecyclerView.Adapter<NewSumUpListAdapte
 
         Collections.sort(mDataList, comparator);
         lastPrice = !lastPrice;
+        notifyDataSetChanged();
+    }
+
+    public void changeBigPriceData() {
+        comparator = new Comparator<NewStatisticsBean>() {
+            @Override
+            public int compare(NewStatisticsBean bean1, NewStatisticsBean bean2) {
+                if (bigPrice) {
+                    return Double.compare(bean1.getBigPrice(), bean2.getBigPrice());
+                } else {
+                    return Double.compare(bean2.getBigPrice(), bean1.getBigPrice());
+                }
+            }
+        };
+
+        Collections.sort(mDataList, comparator);
+        bigPrice = !bigPrice;
         notifyDataSetChanged();
     }
 
@@ -499,11 +517,11 @@ public class NewSumUpListAdapter extends RecyclerView.Adapter<NewSumUpListAdapte
             linearLayout.removeAllViews();
 
             // 动态添加 TextView
-            for (int i = 0; i < 7; i++) {
+            for (int i = 0; i < 8; i++) {
                 TextView textView = new TextView(itemView.getContext());
                 if (i == 0) {
                     textView.setWidth(250); // 名称
-                } else if (i == 6) {
+                } else if (i == 7) {
                     textView.setWidth(270); // 日期
                 } else {
                     textView.setWidth(230); // 设置宽度为200像素
@@ -558,6 +576,9 @@ public class NewSumUpListAdapter extends RecyclerView.Adapter<NewSumUpListAdapte
                         }
                         break;
                     case 4:
+                            textView.setText(data.getBigPrice() + "亿");
+                        break;
+                    case 5:
                         String tmpPhase = "";
                         if (data.getPhase() == 0) {
                             tmpPhase = "-";
@@ -578,7 +599,7 @@ public class NewSumUpListAdapter extends RecyclerView.Adapter<NewSumUpListAdapte
                         }
                         textView.setText(tmpPhase);
                         break;
-                    case 5:
+                    case 6:
                         String sellStr = "正常";
                         if (data.getSellTiming() == -1) {
                             sellStr = "卖早了";
@@ -587,7 +608,7 @@ public class NewSumUpListAdapter extends RecyclerView.Adapter<NewSumUpListAdapte
                         }
                         textView.setText(sellStr);
                         break;
-                    case 6:
+                    case 7:
                         textView.setText(data.getFormerDate());
                         break;
 //                    case 5:

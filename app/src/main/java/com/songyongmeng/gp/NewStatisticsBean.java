@@ -21,6 +21,7 @@ public class NewStatisticsBean implements Serializable {
     private int mode;
     private int sellTiming;
     private int phase;
+    private double bigPrice;
     private double lastPrice;
     private boolean isBanBuy;
     private double resultPoint;
@@ -74,6 +75,14 @@ public class NewStatisticsBean implements Serializable {
 
     public void setSellTiming(int sellTiming) {
         this.sellTiming = sellTiming;
+    }
+
+    public double getBigPrice() {
+        return bigPrice;
+    }
+
+    public void setBigPrice(double bigPrice) {
+        this.bigPrice = bigPrice;
     }
 
     public double getLastPrice() {

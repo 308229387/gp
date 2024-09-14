@@ -4,6 +4,7 @@
     "formerDate": "2024-09-13",
     "mode": 99,
     "lastPrice": 0,
+    "bigPrice": -4.02,
     "failureReason": [],
     "resultPoint": -3.0,
     "sellTiming": 0,
@@ -19,6 +20,7 @@
     "formerDate": "2024-09-06",
     "mode": 98,
     "lastPrice": 0,
+    "bigPrice": -0.79,
     "failureReason": [],
     "resultPoint": 5.4,
     "sellTiming": 0,
@@ -34,6 +36,7 @@
     "formerDate": "2024-09-06",
     "mode": 98,
     "lastPrice": 0,
+    "bigPrice": 1.75,
     "failureReason": [],
     "resultPoint": 16.1,
     "sellTiming": 0,
@@ -49,9 +52,11 @@
     "formerDate": "2024-09-02",
     "mode": 99,
     "lastPrice": 0,
+    "bigPrice": -5.9,
     "failureReason": [],
     "resultPoint": 1.89,
     "sellTiming": -1,
+    "phase": 3,
     "buyReason": "前期有一字不敢上，暴量断板后高开上冲，自己错过，次买点上车，又被甩下来，太聪明了，龙头不试用预判，跟随就行",
     "image_list": []
   },
@@ -60,10 +65,11 @@
     "formerDate": "2024-09-02",
     "mode": 4,
     "lastPrice": 0,
+    "bigPrice": -6.19,
     "failureReason": [20,27],
     "resultPoint": -13.61,
-    "sellTiming": 0,
-    "buyReason": "本能买，不能靠本能，接力接一字板，无延续，亏损爆炸。",
+    "sellTiming": 3,
+    "buyReason": "本能买，不能靠本能，接力接一字板，无延续，亏损爆炸。龙头华强持续创新高中。",
     "image_list": []
   },
   {
@@ -71,6 +77,7 @@
     "formerDate": "2024-08-30",
     "mode": 98,
     "lastPrice": 0,
+    "bigPrice": 0.47,
     "failureReason": [],
     "resultPoint": -3.55,
     "sellTiming": 0,
@@ -82,6 +89,7 @@
     "formerDate": "2024-08-30",
     "mode": 1,
     "lastPrice": 0,
+    "bigPrice": 0.48,
     "failureReason": [],
     "resultPoint": -0.5,
     "sellTiming": 0,
@@ -93,6 +101,7 @@
     "formerDate": "2024-08-27",
     "mode": 1,
     "lastPrice": 0,
+    "bigPrice": 0.01,
     "failureReason": [
       5,
       20,
@@ -108,6 +117,7 @@
     "formerDate": "2024-08-26",
     "mode": 2,
     "lastPrice": 0,
+    "bigPrice": -3.14,
     "failureReason": [
       29
     ],
@@ -124,6 +134,7 @@
     "formerDate": "2024-08-26",
     "mode": 97,
     "lastPrice": 0,
+    "bigPrice": -0.11,
     "failureReason": [
       29
     ],
@@ -140,6 +151,7 @@
     "formerDate": "2024-08-26",
     "mode": 97,
     "lastPrice": 0,
+    "bigPrice": -0.02,
     "failureReason": [
       29
     ],
@@ -155,6 +167,7 @@
     "formerDate": "2024-08-26",
     "mode": 98,
     "lastPrice": 0,
+    "bigPrice": 1.5,
     "failureReason": [
       31
     ],
@@ -170,6 +183,7 @@
     "formerDate": "2024-08-23",
     "mode": 1,
     "lastPrice": 0.25,
+    "bigPrice": 0.72,
     "failureReason": [
       5,
       10
@@ -186,6 +200,7 @@
     "formerDate": "2024-08-23",
     "mode": 1,
     "lastPrice": 0,
+    "bigPrice": 0.29,
     "failureReason": [
       3,
       5,
@@ -203,6 +218,7 @@
     "formerDate": "2024-08-23",
     "mode": 97,
     "lastPrice": 0,
+    "bigPrice": -0.74,
     "failureReason": [
       20,
       29
@@ -219,6 +235,7 @@
     "formerDate": "2024-08-23",
     "mode": 97,
     "lastPrice": 1.95,
+    "bigPrice": 4.78,
     "failureReason": [],
     "resultPoint": 10.13,
     "sellTiming": 0,
@@ -233,6 +250,7 @@
     "formerDate": "2024-08-22",
     "mode": 98,
     "lastPrice": 0.28,
+    "bigPrice": 3.11,
     "failureReason": [],
     "resultPoint": 1.46,
     "sellTiming": -1,
@@ -247,6 +265,7 @@
     "formerDate": "2024-08-22",
     "mode": 1,
     "lastPrice": 0,
+    "bigPrice": -0.05,
     "failureReason": [
       4,
       5,
@@ -265,6 +284,7 @@
     "formerDate": "2024-08-22",
     "mode": 1,
     "lastPrice": 0,
+    "bigPrice": 0.02,
     "failureReason": [
       10,
       22
@@ -282,6 +302,7 @@
     "formerDate": "2024-08-21",
     "mode": 99,
     "lastPrice": 0,
+    "bigPrice": 0.66,
     "failureReason": [],
     "resultPoint": 0.35,
     "sellTiming": 1,
@@ -295,12 +316,13 @@
     "gpName": "华峰超纤",
     "formerDate": "2024-08-21",
     "mode": 97,
-    "lastPrice": 0,
+    "lastPrice": 0.2,
+    "bigPrice": -0.73,
     "failureReason": [
       28
     ],
     "resultPoint": -4.3,
-    "sellTiming": 0,
+    "sellTiming": -1,
     "buyReason": "买的逻辑是版块回流，跨境支付，但看今天有点弱……。明天别再大跌最好。看四川长虹表现还不错。次日未转强。",
     "image_list": [
       "Screenshot_2024-08-27-13-50-20-40_5c5979e609b9ed4a43e94260d67cf51e.webp"
@@ -311,6 +333,7 @@
     "formerDate": "2024-08-21",
     "mode": 98,
     "lastPrice": 0,
+    "bigPrice": -1.8,
     "failureReason": [
       29
     ],
@@ -326,6 +349,7 @@
     "formerDate": "2024-08-20",
     "mode": 98,
     "lastPrice": 0,
+    "bigPrice": 0.53,
     "failureReason": [],
     "resultPoint": -4.17,
     "sellTiming": -1,
@@ -339,6 +363,7 @@
     "formerDate": "2024-08-20",
     "mode": 1,
     "lastPrice": 0,
+    "bigPrice": 1.23,
     "failureReason": [],
     "resultPoint": 6.66,
     "sellTiming": -1,
@@ -352,6 +377,7 @@
     "formerDate": "2024-08-19",
     "mode": 3,
     "lastPrice": 0,
+    "bigPrice": -0.08,
     "failureReason": [
       27
     ],
@@ -367,6 +393,7 @@
     "formerDate": "2024-08-19",
     "mode": 2,
     "lastPrice": 0,
+    "bigPrice": -2.65,
     "failureReason": [],
     "resultPoint": -6.12,
     "sellTiming": -1,
@@ -380,6 +407,7 @@
     "formerDate": "2024-08-16",
     "mode": 3,
     "lastPrice": 0,
+    "bigPrice": -1.67,
     "failureReason": [
       27
     ],
@@ -395,6 +423,7 @@
     "formerDate": "2024-08-16",
     "mode": 98,
     "lastPrice": 0.83,
+    "bigPrice": 0.86,
     "failureReason": [],
     "resultPoint": 8.76,
     "sellTiming": -1,
@@ -409,6 +438,7 @@
     "formerDate": "2024-08-16",
     "mode": 99,
     "lastPrice": 0.26,
+    "bigPrice": 0.91,
     "failureReason": [],
     "resultPoint": 9.82,
     "sellTiming": 0,
@@ -422,6 +452,7 @@
     "formerDate": "2024-08-16",
     "mode": 1,
     "lastPrice": 0.26,
+    "bigPrice": 0.85,
     "failureReason": [],
     "resultPoint": -4.21,
     "sellTiming": 0,
@@ -435,6 +466,7 @@
     "formerDate": "2024-08-16",
     "mode": 1,
     "lastPrice": 0.1,
+    "bigPrice": 0.86,
     "failureReason": [],
     "resultPoint": -0.21,
     "sellTiming": 0,
@@ -448,6 +480,7 @@
     "formerDate": "2024-08-15",
     "mode": 1,
     "lastPrice": 0.1,
+    "bigPrice": 1.17,
     "failureReason": [],
     "resultPoint": 0.2,
     "sellTiming": 0,
@@ -461,6 +494,7 @@
     "formerDate": "2024-08-15",
     "mode": -5,
     "lastPrice": 0,
+    "bigPrice": -0.09,
     "failureReason": [],
     "resultPoint": -7.74,
     "sellTiming": 1,
@@ -474,6 +508,7 @@
     "formerDate": "2024-08-15",
     "mode": 4,
     "lastPrice": 0.23,
+    "bigPrice": -1.62,
     "failureReason": [],
     "resultPoint": 5.35,
     "sellTiming": 0,
@@ -488,6 +523,7 @@
     "formerDate": "2024-08-15",
     "mode": 1,
     "lastPrice": 0.37,
+    "bigPrice": 3.49,
     "failureReason": [],
     "resultPoint": -1.51,
     "sellTiming": 0,
@@ -501,6 +537,7 @@
     "formerDate": "2024-08-14",
     "mode": 1,
     "lastPrice": 0,
+    "bigPrice": 0.15,
     "failureReason": [
       15,
       20
@@ -517,6 +554,7 @@
     "formerDate": "2024-08-14",
     "mode": 1,
     "lastPrice": 1.44,
+    "bigPrice": 0.5,
     "failureReason": [],
     "resultPoint": -2.43,
     "sellTiming": 0,
@@ -530,6 +568,7 @@
     "formerDate": "2024-08-13",
     "mode": 98,
     "lastPrice": 0.94,
+    "bigPrice": -0.25,
     "failureReason": [],
     "resultPoint": -6.66,
     "sellTiming": -1,
@@ -542,7 +581,8 @@
     "gpName": "航天科技",
     "formerDate": "2024-08-08",
     "mode": 99,
-    "lastPrice": 0,
+    "lastPrice": -32.18,
+    "bigPrice": -9.05,
     "failureReason": [
       10,
       25
@@ -559,6 +599,7 @@
     "formerDate": "2024-08-12",
     "mode": 1,
     "lastPrice": 0.94,
+    "bigPrice": 2.33,
     "failureReason": [],
     "resultPoint": 2.89,
     "sellTiming": -1,
@@ -572,6 +613,7 @@
     "formerDate": "2024-08-12",
     "mode": 99,
     "lastPrice": 0.42,
+    "bigPrice": -7.6,
     "failureReason": [
       26
     ],
@@ -588,6 +630,7 @@
     "formerDate": "2024-08-08",
     "mode": 99,
     "lastPrice": 0,
+    "bigPrice": -1.36,
     "failureReason": [
       10
     ],
@@ -603,6 +646,7 @@
     "formerDate": "2024-08-09",
     "mode": 2,
     "lastPrice": 0.45,
+    "bigPrice": 0.57,
     "failureReason": [],
     "resultPoint": -0.56,
     "sellTiming": 0,
@@ -616,6 +660,7 @@
     "formerDate": "2024-08-09",
     "mode": 1,
     "lastPrice": 0,
+    "bigPrice": 2.61,
     "failureReason": [],
     "resultPoint": -3.24,
     "sellTiming": 0,
@@ -629,6 +674,7 @@
     "formerDate": "2024-08-01",
     "mode": 99,
     "lastPrice": 0,
+    "bigPrice": -3.24,
     "failureReason": [],
     "resultPoint": -5.34,
     "sellTiming": 1,
@@ -642,7 +688,8 @@
     "formerDate": "2024-08-09",
     "mode": 98,
     "lastPrice": 1.04,
-    "failureReason": [],
+    "bigPrice": 4.39,
+    "failureReason": [5],
     "resultPoint": -4.35,
     "sellTiming": 0,
     "buyReason": "汽车无人驾驶早盘拉高有辨识度，加环境当时还可以就上车了，后续未回封。",
@@ -655,6 +702,7 @@
     "formerDate": "2024-08-07",
     "mode": 99,
     "lastPrice": 1.04,
+    "bigPrice": -0.89,
     "failureReason": [],
     "resultPoint": -2.17,
     "sellTiming": 0,
@@ -668,10 +716,11 @@
     "formerDate": "2024-08-06",
     "mode": 1,
     "lastPrice": 0.72,
+    "bigPrice": 2.22,
     "failureReason": [],
     "resultPoint": -1.67,
     "buyReason": "光伏版块，当天第二强版块，K线形态多头，定位套利。",
-    "sellTiming": 0,
+    "sellTiming": -1,
     "image_list": [
       "Screenshot_2024-08-21-17-15-36-92_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
@@ -681,6 +730,7 @@
     "formerDate": "2024-08-05",
     "mode": 1,
     "lastPrice": 0.72,
+    "bigPrice": 2.7,
     "failureReason": [],
     "resultPoint": 1.4,
     "sellTiming": 1,
@@ -694,6 +744,7 @@
     "formerDate": "2024-07-31",
     "mode": 1,
     "lastPrice": 0.27,
+    "bigPrice": 0.69,
     "failureReason": [],
     "resultPoint": 1.16,
     "sellTiming": -1,
@@ -706,6 +757,7 @@
     "formerDate": "2024-07-31",
     "mode": 4,
     "lastPrice": 1.47,
+    "bigPrice": 0.4,
     "failureReason": [],
     "resultPoint": 9.78,
     "sellTiming": -1,
@@ -718,6 +770,7 @@
     "formerDate": "2024-07-31",
     "mode": 1,
     "lastPrice": 0.46,
+    "bigPrice": 0.95,
     "failureReason": [],
     "resultPoint": 3.07,
     "sellTiming": 0,
@@ -730,6 +783,7 @@
     "formerDate": "2024-07-31",
     "mode": 1,
     "lastPrice": 0.13,
+    "bigPrice": 0.4,
     "failureReason": [],
     "resultPoint": -2.6,
     "sellTiming": 0,
@@ -742,6 +796,7 @@
     "formerDate": "2024-07-31",
     "mode": 1,
     "lastPrice": 0.26,
+    "bigPrice": 1.22,
     "failureReason": [],
     "resultPoint": 0.3,
     "sellTiming": 0,
@@ -754,6 +809,7 @@
     "formerDate": "2024-07-31",
     "mode": 1,
     "lastPrice": 0.64,
+    "bigPrice": 0.86,
     "failureReason": [],
     "resultPoint": -0.53,
     "sellTiming": 0,
@@ -766,6 +822,7 @@
     "formerDate": "2024-07-31",
     "mode": 1,
     "lastPrice": 0.44,
+    "bigPrice": 0.97,
     "failureReason": [],
     "resultPoint": 3.7,
     "sellTiming": -1,
@@ -778,6 +835,7 @@
     "formerDate": "2024-07-29",
     "mode": -5,
     "lastPrice": 0,
+    "bigPrice": -0.44,
     "failureReason": [],
     "resultPoint": -0.82,
     "sellTiming": 0,
@@ -790,6 +848,7 @@
     "formerDate": "2024-07-29",
     "mode": -5,
     "lastPrice": 0,
+    "bigPrice": -0.37,
     "failureReason": [],
     "resultPoint": -0.19,
     "sellTiming": 0,
@@ -802,6 +861,7 @@
     "formerDate": "2024-07-26",
     "mode": -5,
     "lastPrice": 0,
+    "bigPrice": -0.04,
     "failureReason": [],
     "resultPoint": 0.1,
     "sellTiming": 0,
@@ -814,6 +874,7 @@
     "formerDate": "2024-07-11",
     "mode": -5,
     "lastPrice": 0,
+    "bigPrice": -0.76,
     "failureReason": [],
     "resultPoint": 0.77,
     "sellTiming": 0,
@@ -827,6 +888,7 @@
     "formerDate": "2024-07-11",
     "mode": 99,
     "lastPrice": 0,
+    "bigPrice": 2.31,
     "failureReason": [],
     "resultPoint": 9.77,
     "sellTiming": -1,
@@ -841,6 +903,7 @@
     "formerDate": "2024-07-11",
     "mode": 1,
     "lastPrice": 0.3,
+    "bigPrice": 0.83,
     "failureReason": [],
     "resultPoint": 2.0,
     "buyReason": "涨停上车，中途炸了一段时间，20日趋势线向上，环境较好。",
@@ -855,6 +918,7 @@
     "formerDate": "2024-07-04",
     "mode": 1,
     "lastPrice": 0.83,
+    "bigPrice": 0.62,
     "failureReason": [],
     "resultPoint": -2.28,
     "buyReason": "这个板还亏真是想不到，硬的很的板，高开没走，就跳了。歇一阵子。",
@@ -870,6 +934,7 @@
     "formerDate": "2024-07-03",
     "mode": 1,
     "lastPrice": 0,
+    "bigPrice": 0.09,
     "failureReason": [
       7,
       24
@@ -888,6 +953,7 @@
     "formerDate": "2024-07-01",
     "mode": 1,
     "lastPrice": 0,
+    "bigPrice": 0.42,
     "failureReason": [
       7,
       24
@@ -906,6 +972,7 @@
     "formerDate": "2024-06-28",
     "mode": 1,
     "lastPrice": 0,
+    "bigPrice": 0.57,
     "failureReason": [
       1
     ],

@@ -51,7 +51,7 @@ public class MyPagerAdapter extends PagerAdapter {
             public void onClick(View view) {
                 Intent intent = new Intent(mContext, BjcjBigImageActivity.class);
                 intent.putExtra("image", images.get(position));
-                intent.putExtra("path", "casual_essay");
+                intent.putExtra("path", path);
                 mContext.startActivity(intent);
             }
         });
