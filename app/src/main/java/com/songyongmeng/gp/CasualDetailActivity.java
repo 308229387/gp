@@ -7,6 +7,8 @@ import android.widget.TextView;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.viewpager.widget.ViewPager;
 
+import com.songyongmeng.gp.adapter.CasualAdapter;
+
 import java.util.List;
 
 public class CasualDetailActivity extends AppCompatActivity {
@@ -26,7 +28,7 @@ public class CasualDetailActivity extends AppCompatActivity {
         reason.setText("描述： " + data.getLtReason());
 
         ViewPager viewPager = findViewById(R.id.lt_view_pager);
-        MyPagerAdapter adapter = new MyPagerAdapter(this); // 你需要创建一个适配器
+        CasualAdapter adapter = new CasualAdapter(this); // 你需要创建一个适配器
         adapter.setImageList(images);
         viewPager.setAdapter(adapter);
     }

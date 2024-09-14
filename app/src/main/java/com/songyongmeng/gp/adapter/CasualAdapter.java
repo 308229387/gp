@@ -1,4 +1,4 @@
-package com.songyongmeng.gp;
+package com.songyongmeng.gp.adapter;
 
 import android.content.Context;
 import android.content.Intent;
@@ -9,21 +9,20 @@ import android.widget.ImageView;
 import androidx.viewpager.widget.PagerAdapter;
 
 import com.bumptech.glide.Glide;
+import com.songyongmeng.gp.BjcjBigImageActivity;
 import com.songyongmeng.gp.utils.AssetsUtils;
-import com.songyongmeng.gp.utils.ToolUtils;
-import com.songyongmeng.gp.utils.ZoomableImageView;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class MyPagerAdapter extends PagerAdapter {
+public class CasualAdapter extends PagerAdapter {
     //    private int[] images = {R.drawable.image1, R.drawable.image2, R.drawable.image3}; // 添加你的图片资源
     private List<String> images = new ArrayList<>(); // 添加你的图片资源
     private Context mContext;
 
-    private String path = "statistics_img";
+    private String path = "casual_essay";
 
-    public MyPagerAdapter(Context context) {
+    public CasualAdapter(Context context) {
         mContext = context;
     }
 
