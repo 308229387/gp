@@ -1,32 +1,48 @@
 [
   {
-    "gpName": "常山北明",
+    "gpName": "张江高科",
     "formerDate": "2024-09-20",
     "mode": -1,
-    "lastPrice": 0.42,
-    "bigPrice": 1.13,
+    "lastPrice": 0,
+    "bigPrice": 2.73,
     "failureReason": [],
     "resultPoint": 0,
     "sellTiming": 9,
-    "phase": 1,
+    "phase": 3,
+    "buyReason": "也是断板反包，看到时2个点，但账号没钱，大单已经7  8千万，票有辨识度，属于容量票，匆匆忙忙转进钱，转完4个点附近了已经 。",
+    "image_list": [
+      "Screenshot_2024-09-20-16-08-50-41_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "常山北明",
+    "formerDate": "2024-09-20",
+    "mode": -1,
+    "lastPrice": 3.13,
+    "bigPrice": 3.8,
+    "failureReason": [],
+    "resultPoint": 0,
+    "sellTiming": 9,
+    "phase": 3,
     "buyReason": "断板反包，看到时大单已经7  8千万，而且这两天辨识度比较高，这次操作的遗憾是买的太高了。打板上的车。",
     "image_list": [
-      ""
+      "Screenshot_2024-09-20-16-24-33-23_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
     "gpName": "岭南股份",
     "formerDate": "2024-09-19",
-    "mode": -1,
+    "mode": 98,
     "lastPrice": 0.42,
     "bigPrice": 1.13,
     "failureReason": [],
-    "resultPoint": 0,
+    "resultPoint": 12.5,
     "sellTiming": -1,
     "phase": 1,
-    "buyReason": "二板断板后反包，形态好，开盘快速上拉，大单当时就有3500万，有行情做衬托，当天涨停。开盘低开预期不高，但前一天放量，看大盘没有太糟，就等了一下，翻红3个多点离场。后冲涨停，第二天短线情况感觉也不差。亮点是没有被-2个多点的下杀吓走。",
+    "buyReason": "二板断板后反包，形态好，开盘快速上拉，大单当时就有3500万，有行情做衬托，当天涨停。开盘低开预期不高，但前一天放量，看大盘没有太糟，就等了一下，翻红3个多点离场。后冲涨停，第二天短线情况感觉也不差。亮点是没有被-2个多点的下杀吓走。后来有冲高，卖的早了",
     "image_list": [
-      "Screenshot_2024-09-19-15-49-23-46_5c5979e609b9ed4a43e94260d67cf51e.webp"
+      "Screenshot_2024-09-19-15-49-23-46_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-09-20-19-45-50-44_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
