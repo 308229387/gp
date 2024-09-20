@@ -1,5 +1,50 @@
 [
   {
+    "gpName": "常山北明",
+    "formerDate": "2024-09-20",
+    "mode": -1,
+    "lastPrice": 0.42,
+    "bigPrice": 1.13,
+    "failureReason": [],
+    "resultPoint": 0,
+    "sellTiming": 9,
+    "phase": 1,
+    "buyReason": "断板反包，看到时大单已经7  8千万，而且这两天辨识度比较高，这次操作的遗憾是买的太高了。打板上的车。",
+    "image_list": [
+      ""
+    ]
+  },
+  {
+    "gpName": "岭南股份",
+    "formerDate": "2024-09-19",
+    "mode": -1,
+    "lastPrice": 0.42,
+    "bigPrice": 1.13,
+    "failureReason": [],
+    "resultPoint": 0,
+    "sellTiming": -1,
+    "phase": 1,
+    "buyReason": "二板断板后反包，形态好，开盘快速上拉，大单当时就有3500万，有行情做衬托，当天涨停。开盘低开预期不高，但前一天放量，看大盘没有太糟，就等了一下，翻红3个多点离场。后冲涨停，第二天短线情况感觉也不差。亮点是没有被-2个多点的下杀吓走。",
+    "image_list": [
+      "Screenshot_2024-09-19-15-49-23-46_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "南天信息",
+    "formerDate": "2024-09-19",
+    "mode": -1,
+    "lastPrice": 0.78,
+    "bigPrice": 0.56,
+    "failureReason": [],
+    "resultPoint": 0,
+    "sellTiming": 9,
+    "phase": 1,
+    "buyReason": "这票逻辑是反包，当时虽然上冲，大单却只有400万，太少了。后来就调整了一阵子，不过一是当天行情好，普涨，二是这票因为前两的二板K线形态好，外加龙虎榜豪华，有一定辨识训，当天成功反包了。晚上看在热榜第三，辨识度加深，第二天开盘快速涨停。",
+    "image_list": [
+      "Screenshot_2024-09-19-15-49-35-36_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
     "gpName": "深圳华强",
     "formerDate": "2024-09-13",
     "mode": 99,

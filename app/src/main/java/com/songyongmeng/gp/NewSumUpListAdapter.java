@@ -576,7 +576,7 @@ public class NewSumUpListAdapter extends RecyclerView.Adapter<NewSumUpListAdapte
                         }
                         break;
                     case 4:
-                            textView.setText(data.getBigPrice() + "亿");
+                        textView.setText(data.getBigPrice() + "亿");
                         break;
                     case 5:
                         String tmpPhase = "";
@@ -600,9 +600,11 @@ public class NewSumUpListAdapter extends RecyclerView.Adapter<NewSumUpListAdapte
                         textView.setText(tmpPhase);
                         break;
                     case 6:
-                        String sellStr = "正常";
+                        String sellStr = "-";
                         if (data.getSellTiming() == -1) {
                             sellStr = "卖早了";
+                        } else if (data.getSellTiming() == 0) {
+                            sellStr = "正常";
                         } else if (data.getSellTiming() == 1) {
                             sellStr = "卖晚了";
                         }
