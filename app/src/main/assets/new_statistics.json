@@ -24,7 +24,7 @@
     "resultPoint": 0,
     "sellTiming": 9,
     "phase": 3,
-    "buyReason": "断板反包，看到时大单已经7  8千万，而且这两天辨识度比较高，这次操作的遗憾是买的太高了。打板上的车。",
+    "buyReason": "断板反包，看到时大单已经7  8千万，而且这两天辨识度比较高，这次操作的遗憾是买的太高了。打板上的车。周末热榜霸榜，一直第一，辨识度增加",
     "image_list": [
       "Screenshot_2024-09-20-16-24-33-23_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
@@ -72,8 +72,7 @@
     "phase": 6,
     "buyReason": "高位大调整后小阳线，次日在5日线焦灼一天最后也没守住，次低点卖出。这种高人气龙头，也没有什么钢性兑付，以为是高位震荡走箱体，结果是主跌。",
     "image_list": [
-      "Screenshot_2024-09-09-17-24-04-79_5c5979e609b9ed4a43e94260d67cf51e.webp",
-      "Screenshot_2024-09-09-16-46-51-96_5c5979e609b9ed4a43e94260d67cf51e.webp"
+      "Screenshot_2024-09-09-17-24-04-79_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
@@ -127,7 +126,10 @@
     "mode": 4,
     "lastPrice": 0,
     "bigPrice": -6.19,
-    "failureReason": [20,27],
+    "failureReason": [
+      20,
+      27
+    ],
     "resultPoint": -13.61,
     "sellTiming": 3,
     "buyReason": "本能买，不能靠本能，接力接一字板，无延续，亏损爆炸。龙头华强持续创新高中。",
@@ -752,7 +754,9 @@
     "mode": 98,
     "lastPrice": 1.04,
     "bigPrice": 4.39,
-    "failureReason": [5],
+    "failureReason": [
+      5
+    ],
     "resultPoint": -4.35,
     "sellTiming": 0,
     "buyReason": "汽车无人驾驶早盘拉高有辨识度，加环境当时还可以就上车了，后续未回封。",

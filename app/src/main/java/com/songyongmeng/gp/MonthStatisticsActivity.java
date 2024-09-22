@@ -24,16 +24,14 @@ import java.lang.reflect.Type;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Comparator;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
 public class MonthStatisticsActivity extends AppCompatActivity {
-//    ArrayList<NewStatisticsBean> newStatisticsBean;
-MonthStatisticsAdapter adapter;
+    //    ArrayList<NewStatisticsBean> newStatisticsBean;
+    MonthStatisticsAdapter adapter;
 
     String dataName;
 
@@ -50,14 +48,13 @@ MonthStatisticsAdapter adapter;
         AssetsUtils assetsUtils = new AssetsUtils();
         String tmp1 = assetsUtils.readAssetsText(this, dataName);
 
-        Map<String, List<NewStatisticsBean>> monthData= groupItemsByMonth(tmp1);
-
+        Map<String, List<NewStatisticsBean>> monthData = groupItemsByMonth(tmp1);
 
 
 //        newStatisticsBean = new Gson().fromJson(tmp1, new TypeToken<ArrayList<NewStatisticsBean>>() {
 //        }.getType());
 //
-        adapter = new MonthStatisticsAdapter(this,  monthData);
+        adapter = new MonthStatisticsAdapter(this, monthData);
         RecyclerView recyclerView = findViewById(R.id.fen_qi_list);
         recyclerView.setLayoutManager(new LinearLayoutManager(this)); // 设置布局管理器
         recyclerView.setAdapter(adapter);
@@ -66,7 +63,7 @@ MonthStatisticsAdapter adapter;
             @Override
             public void onItemClick(List<NewStatisticsBean> position) {
                 // 处理 item 点击事件
-                Intent intent = new Intent(MonthStatisticsActivity.this,NewSumUpListActivity.class);
+                Intent intent = new Intent(MonthStatisticsActivity.this, NewSumUpListActivity.class);
                 intent.putExtra("newSumUpListData", (Serializable) position);
                 startActivity(intent);
             }
@@ -75,14 +72,14 @@ MonthStatisticsAdapter adapter;
     }
 
     private void addHeaderButton(LinearLayout buttonLayout) {
-        for (int i = 0; i <15; i++) {
+        for (int i = 0; i < 17; i++) {
             Button button = new Button(this);
             LinearLayout.LayoutParams layoutParams;
             if (i == 0) {
                 layoutParams = new LinearLayout.LayoutParams(230, 250);
-            } else if (i == 14) {
+            } else if (i == 16) {
                 layoutParams = new LinearLayout.LayoutParams(970, 250);
-            } else{
+            } else {
                 layoutParams = new LinearLayout.LayoutParams(180, 250);
             }
             layoutParams.gravity = Gravity.CENTER; // 控制位置
@@ -102,7 +99,7 @@ MonthStatisticsAdapter adapter;
                     break;
                 case 1:
                     button.setBackgroundColor(Color.parseColor("#00ff00"));
-                    button.setText("首板次数");
+                    button.setText("总次数");
                     button.setOnClickListener(new View.OnClickListener() {
                         @Override
                         public void onClick(View view) {
@@ -111,7 +108,7 @@ MonthStatisticsAdapter adapter;
                     });
                     break;
                 case 2:
-                    button.setText("首板胜率");
+                    button.setText("胜率");
                     button.setOnClickListener(new View.OnClickListener() {
                         @Override
                         public void onClick(View view) {
@@ -120,7 +117,7 @@ MonthStatisticsAdapter adapter;
                     });
                     break;
                 case 3:
-                    button.setText("首板封板率");
+                    button.setText("均盈利");
                     button.setOnClickListener(new View.OnClickListener() {
                         @Override
                         public void onClick(View view) {
@@ -129,7 +126,7 @@ MonthStatisticsAdapter adapter;
                     });
                     break;
                 case 4:
-                    button.setText("首板均盈利");
+                    button.setText("均亏损");
                     button.setOnClickListener(new View.OnClickListener() {
                         @Override
                         public void onClick(View view) {
@@ -138,7 +135,7 @@ MonthStatisticsAdapter adapter;
                     });
                     break;
                 case 5:
-                    button.setText("首板均亏损");
+                    button.setText("首板胜率");
                     button.setOnClickListener(new View.OnClickListener() {
                         @Override
                         public void onClick(View view) {
@@ -147,6 +144,33 @@ MonthStatisticsAdapter adapter;
                     });
                     break;
                 case 6:
+                    button.setText("首板封板率");
+                    button.setOnClickListener(new View.OnClickListener() {
+                        @Override
+                        public void onClick(View view) {
+//                            adapter.changeSucTimeData();
+                        }
+                    });
+                    break;
+                case 7:
+                    button.setText("首板均盈利");
+                    button.setOnClickListener(new View.OnClickListener() {
+                        @Override
+                        public void onClick(View view) {
+//                            adapter.changeSucTimeData();
+                        }
+                    });
+                    break;
+                case 8:
+                    button.setText("首板均亏损");
+                    button.setOnClickListener(new View.OnClickListener() {
+                        @Override
+                        public void onClick(View view) {
+//                            adapter.changeSucTimeData();
+                        }
+                    });
+                    break;
+                case 9:
                     button.setBackgroundColor(Color.parseColor("#00ff00"));
                     button.setText("二板次数");
                     button.setOnClickListener(new View.OnClickListener() {
@@ -156,7 +180,7 @@ MonthStatisticsAdapter adapter;
                         }
                     });
                     break;
-                case 7:
+                case 10:
                     button.setText("二板胜率");
                     button.setOnClickListener(new View.OnClickListener() {
                         @Override
@@ -165,7 +189,7 @@ MonthStatisticsAdapter adapter;
                         }
                     });
                     break;
-                case 8:
+                case 11:
                     button.setText("二板封板率");
                     button.setOnClickListener(new View.OnClickListener() {
                         @Override
@@ -174,7 +198,7 @@ MonthStatisticsAdapter adapter;
                         }
                     });
                     break;
-                case 9:
+                case 12:
                     button.setText("二板均盈利");
                     button.setOnClickListener(new View.OnClickListener() {
                         @Override
@@ -183,7 +207,7 @@ MonthStatisticsAdapter adapter;
                         }
                     });
                     break;
-                case 10:
+                case 13:
                     button.setText("二板均亏损");
                     button.setOnClickListener(new View.OnClickListener() {
                         @Override
@@ -192,7 +216,7 @@ MonthStatisticsAdapter adapter;
                         }
                     });
                     break;
-                case 11:
+                case 14:
                     button.setBackgroundColor(Color.parseColor("#00ff00"));
 
                     button.setText("中位次数");
@@ -203,7 +227,7 @@ MonthStatisticsAdapter adapter;
                         }
                     });
                     break;
-                case 12:
+                case 15:
                     button.setText("中位胜率");
                     button.setOnClickListener(new View.OnClickListener() {
                         @Override
@@ -212,16 +236,7 @@ MonthStatisticsAdapter adapter;
                         }
                     });
                     break;
-                    case 13:
-                    button.setText("本月交易次数");
-                    button.setOnClickListener(new View.OnClickListener() {
-                        @Override
-                        public void onClick(View view) {
-//                            adapter.changeRadioData();
-                        }
-                    });
-                    break;
-                case 14:
+                case 16:
                     button.setText("亏损主要原因");
                     button.setOnClickListener(new View.OnClickListener() {
                         @Override
@@ -239,9 +254,10 @@ MonthStatisticsAdapter adapter;
 
     public static Map<String, List<NewStatisticsBean>> groupItemsByMonth(String jsonString) {
         Gson gson = new Gson();
-        Type itemType = new TypeToken<List<NewStatisticsBean>>() {}.getType();
+        Type itemType = new TypeToken<List<NewStatisticsBean>>() {
+        }.getType();
         List<NewStatisticsBean> items = gson.fromJson(jsonString, itemType);
-   
+
         Map<String, List<NewStatisticsBean>> groupedItems = new HashMap<>();
 
         for (NewStatisticsBean item : items) {
