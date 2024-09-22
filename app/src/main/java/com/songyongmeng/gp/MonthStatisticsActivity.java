@@ -99,7 +99,7 @@ public class MonthStatisticsActivity extends AppCompatActivity {
                     break;
                 case 1:
                     button.setBackgroundColor(Color.parseColor("#00ff00"));
-                    button.setText("总次数");
+                    button.setText("次数");
                     button.setOnClickListener(new View.OnClickListener() {
                         @Override
                         public void onClick(View view) {
