@@ -72,12 +72,12 @@ public class MonthStatisticsActivity extends AppCompatActivity {
     }
 
     private void addHeaderButton(LinearLayout buttonLayout) {
-        for (int i = 0; i < 17; i++) {
+        for (int i = 0; i < 23; i++) {
             Button button = new Button(this);
             LinearLayout.LayoutParams layoutParams;
             if (i == 0) {
                 layoutParams = new LinearLayout.LayoutParams(230, 250);
-            } else if (i == 16) {
+            } else if (i == 22) {
                 layoutParams = new LinearLayout.LayoutParams(970, 250);
             } else {
                 layoutParams = new LinearLayout.LayoutParams(180, 250);
@@ -135,7 +135,7 @@ public class MonthStatisticsActivity extends AppCompatActivity {
                     });
                     break;
                 case 5:
-                    button.setText("首板胜率");
+                    button.setText("反包次数");
                     button.setOnClickListener(new View.OnClickListener() {
                         @Override
                         public void onClick(View view) {
@@ -144,7 +144,7 @@ public class MonthStatisticsActivity extends AppCompatActivity {
                     });
                     break;
                 case 6:
-                    button.setText("首板封板率");
+                    button.setText("反包胜率");
                     button.setOnClickListener(new View.OnClickListener() {
                         @Override
                         public void onClick(View view) {
@@ -153,7 +153,7 @@ public class MonthStatisticsActivity extends AppCompatActivity {
                     });
                     break;
                 case 7:
-                    button.setText("首板均盈利");
+                    button.setText("反包封板率");
                     button.setOnClickListener(new View.OnClickListener() {
                         @Override
                         public void onClick(View view) {
@@ -162,7 +162,7 @@ public class MonthStatisticsActivity extends AppCompatActivity {
                     });
                     break;
                 case 8:
-                    button.setText("首板均亏损");
+                    button.setText("反包均盈利");
                     button.setOnClickListener(new View.OnClickListener() {
                         @Override
                         public void onClick(View view) {
@@ -171,6 +171,60 @@ public class MonthStatisticsActivity extends AppCompatActivity {
                     });
                     break;
                 case 9:
+                    button.setText("反包均亏损");
+                    button.setOnClickListener(new View.OnClickListener() {
+                        @Override
+                        public void onClick(View view) {
+//                            adapter.changeSucTimeData();
+                        }
+                    });
+                    break;
+                case 10:
+                    button.setText("首板次数");
+                    button.setOnClickListener(new View.OnClickListener() {
+                        @Override
+                        public void onClick(View view) {
+//                            adapter.changeSucTimeData();
+                        }
+                    });
+                    break;
+                case 11:
+                    button.setText("首板胜率");
+                    button.setOnClickListener(new View.OnClickListener() {
+                        @Override
+                        public void onClick(View view) {
+//                            adapter.changeSucTimeData();
+                        }
+                    });
+                    break;
+                case 12:
+                    button.setText("首板封板率");
+                    button.setOnClickListener(new View.OnClickListener() {
+                        @Override
+                        public void onClick(View view) {
+//                            adapter.changeSucTimeData();
+                        }
+                    });
+                    break;
+                case 13:
+                    button.setText("首板均盈利");
+                    button.setOnClickListener(new View.OnClickListener() {
+                        @Override
+                        public void onClick(View view) {
+//                            adapter.changeSucTimeData();
+                        }
+                    });
+                    break;
+                case 14:
+                    button.setText("首板均亏损");
+                    button.setOnClickListener(new View.OnClickListener() {
+                        @Override
+                        public void onClick(View view) {
+//                            adapter.changeSucTimeData();
+                        }
+                    });
+                    break;
+                case 15:
                     button.setBackgroundColor(Color.parseColor("#00ff00"));
                     button.setText("二板次数");
                     button.setOnClickListener(new View.OnClickListener() {
@@ -180,7 +234,7 @@ public class MonthStatisticsActivity extends AppCompatActivity {
                         }
                     });
                     break;
-                case 10:
+                case 16:
                     button.setText("二板胜率");
                     button.setOnClickListener(new View.OnClickListener() {
                         @Override
@@ -189,7 +243,7 @@ public class MonthStatisticsActivity extends AppCompatActivity {
                         }
                     });
                     break;
-                case 11:
+                case 17:
                     button.setText("二板封板率");
                     button.setOnClickListener(new View.OnClickListener() {
                         @Override
@@ -198,7 +252,7 @@ public class MonthStatisticsActivity extends AppCompatActivity {
                         }
                     });
                     break;
-                case 12:
+                case 18:
                     button.setText("二板均盈利");
                     button.setOnClickListener(new View.OnClickListener() {
                         @Override
@@ -207,7 +261,7 @@ public class MonthStatisticsActivity extends AppCompatActivity {
                         }
                     });
                     break;
-                case 13:
+                case 19:
                     button.setText("二板均亏损");
                     button.setOnClickListener(new View.OnClickListener() {
                         @Override
@@ -216,7 +270,7 @@ public class MonthStatisticsActivity extends AppCompatActivity {
                         }
                     });
                     break;
-                case 14:
+                case 20:
                     button.setBackgroundColor(Color.parseColor("#00ff00"));
 
                     button.setText("中位次数");
@@ -227,7 +281,7 @@ public class MonthStatisticsActivity extends AppCompatActivity {
                         }
                     });
                     break;
-                case 15:
+                case 21:
                     button.setText("中位胜率");
                     button.setOnClickListener(new View.OnClickListener() {
                         @Override
@@ -236,7 +290,7 @@ public class MonthStatisticsActivity extends AppCompatActivity {
                         }
                     });
                     break;
-                case 16:
+                case 22:
                     button.setText("亏损主要原因");
                     button.setOnClickListener(new View.OnClickListener() {
                         @Override

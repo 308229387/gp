@@ -32,6 +32,8 @@ import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
 
+import lombok.Data;
+
 public class MonthStatisticsAdapter extends RecyclerView.Adapter<MonthStatisticsAdapter.ViewHolder> {
 
     boolean all;
@@ -466,6 +468,13 @@ public class MonthStatisticsAdapter extends RecyclerView.Adapter<MonthStatistics
             double allMonthAverageSuc = 0;
             double allMonthAverageFai = 0;
 
+            int fbTime = 0;//次数
+            int fbNum = 0;//上板次数
+            int fbSuc = 0;//成功次数
+            int fbFai = 0;//失败次数
+            double fbAverageSuc = 0;//盈利点总计
+            double fbAverageFai = 0;//亏损点总计
+
             int firstBan = 0;
             int firstBanNum = 0;
             int firstBanSuc = 0;
@@ -517,6 +526,20 @@ public class MonthStatisticsAdapter extends RecyclerView.Adapter<MonthStatistics
                     }
                 }
 
+                if (item.getMode() == 98) {
+                    fbTime++;
+                    if (item.getLastPrice() > 0) {
+                        fbNum++;
+                    }
+                    if (item.getResultPoint() > 0) {
+                        fbSuc++;
+                        fbAverageSuc = fbAverageSuc + item.getResultPoint();
+                    } else {
+                        fbFai++;
+                        fbAverageFai = fbAverageFai + item.getResultPoint();
+                    }
+                }
+
                 if (item.getMode() == 2) {
                     twoBan++;
                     if (item.getLastPrice() > 0) {
@@ -531,7 +554,7 @@ public class MonthStatisticsAdapter extends RecyclerView.Adapter<MonthStatistics
                     }
                 }
 
-                if (item.getMode() > 2 && item.getMode() < 99) {
+                if (item.getMode() > 2 && item.getMode() < 97) {
                     middleBan++;
                     if (item.getLastPrice() > 0) {
                         middleBanNum++;
@@ -578,7 +601,9 @@ public class MonthStatisticsAdapter extends RecyclerView.Adapter<MonthStatistics
 //            Log.d("song_test","结果胜率  = "+getResult(monthAllNum, allMonthSuc)+"monthAllNum = "+monthAllNum+" allMonthSuc = "+allMonthSuc);
 //            Log.d("song_test","结果均盈利点位 = "+twoPoint(allMonthSuc == 0 ? 0 : allMonthAverageSuc / allMonthSuc) + "allMonthSuc = "+allMonthSuc+ " allMonthAverageSuc = "+allMonthAverageSuc);
 //            Log.d("song_test","结果均亏损点位 = "+twoPoint(allMonthFai == 0 ? 0 : allMonthAverageFai / allMonthFai)+" allMonthFai = "+allMonthFai+" allMonthAverageFai = "+allMonthAverageFai);
-            itemList.add(new MonthShowBean(month, monthAllNum, getResult(monthAllNum, allMonthSuc), twoPoint(allMonthSuc == 0 ? 0 : allMonthAverageSuc / allMonthSuc), twoPoint(allMonthFai == 0 ? 0 : allMonthAverageFai / allMonthFai), firstBan, getResult(firstBan, firstBanNum), getResult(firstBan, firstBanSuc), twoPoint(firstBanSuc == 0 ? 0 : firstBanAverageSuc / firstBanSuc), twoPoint(firstBanFai == 0 ? 0 : firstBanAverageFai / firstBanFai), twoBan, getResult(twoBan, twoBanNum), getResult(twoBan, twoBanSuc), twoPoint(twoBanSuc == 0 ? 0 : twoBanAverageSuc / twoBanSuc), twoPoint(twoBanFai == 0 ? 0 : twoBanAverageFai / twoBanFai), middleBan, getResult(middleBan, middleBanSuc), monthAllNum, reason.toString(), reasonAll.toString()));
+
+
+            itemList.add(new MonthShowBean(month, monthAllNum, getResult(monthAllNum, allMonthSuc), twoPoint(allMonthSuc == 0 ? 0 : allMonthAverageSuc / allMonthSuc), twoPoint(allMonthFai == 0 ? 0 : allMonthAverageFai / allMonthFai), fbTime, getResult(fbTime, fbNum), getResult(fbTime, fbSuc), twoPoint(fbSuc == 0 ? 0 : fbAverageSuc / fbSuc), twoPoint(fbFai == 0 ? 0 : fbAverageFai / fbFai), firstBan, getResult(firstBan, firstBanNum), getResult(firstBan, firstBanSuc), twoPoint(firstBanSuc == 0 ? 0 : firstBanAverageSuc / firstBanSuc), twoPoint(firstBanFai == 0 ? 0 : firstBanAverageFai / firstBanFai), twoBan, getResult(twoBan, twoBanNum), getResult(twoBan, twoBanSuc), twoPoint(twoBanSuc == 0 ? 0 : twoBanAverageSuc / twoBanSuc), twoPoint(twoBanFai == 0 ? 0 : twoBanAverageFai / twoBanFai), middleBan, getResult(middleBan, middleBanSuc), monthAllNum, reason.toString(), reasonAll.toString()));
 
         }
 
@@ -962,11 +987,11 @@ public class MonthStatisticsAdapter extends RecyclerView.Adapter<MonthStatistics
             linearLayout.removeAllViews();
 
             // 动态添加 TextView
-            for (int i = 0; i < 17; i++) {
+            for (int i = 0; i < 23; i++) {
                 TextView textView = new TextView(itemView.getContext());
                 if (i == 0) {
                     textView.setWidth(250); // 日期
-                } else if (i == 16) {
+                } else if (i == 22) {
                     textView.setWidth(1000); // 设置宽度为200像素
                 } else {
                     textView.setWidth(200); // 设置宽度为200像素
@@ -996,39 +1021,57 @@ public class MonthStatisticsAdapter extends RecyclerView.Adapter<MonthStatistics
                         textView.setText(data.allTime == 0 ? "-" : data.allAverageFai + "%");
                         break;
                     case 5:
-                        textView.setText((data.shouBanTime == 0 && data.shouBanRate == 0) ? "-" : data.shouBanRate + "%");
+                        textView.setText(data.fbTime == 0 ? "-" : data.fbTime + "次");
                         break;
                     case 6:
-                        textView.setText(data.shouBanTime == 0 ? "-" : data.shouBanNum + "%");
+                        textView.setText((data.fbTime == 0 && data.fbRate == 0) ? "-" : data.fbRate + "%");
                         break;
                     case 7:
-                        textView.setText(data.shouBanTime == 0 ? "-" : data.shouBanAverageSuc + "%");
+                        textView.setText(data.fbTime == 0 ? "-" : data.fbNum + "%");
                         break;
                     case 8:
-                        textView.setText(data.shouBanTime == 0 ? "-" : data.shouBanAverageFai + "%");
+                        textView.setText(data.fbTime == 0 ? "-" : data.fbAverageSuc + "%");
                         break;
                     case 9:
-                        textView.setText(data.erBanTime == 0 ? "-" : data.erBanTime + "次");
+                        textView.setText(data.fbTime == 0 ? "-" : data.fbAverageFai + "%");
                         break;
                     case 10:
-                        textView.setText((data.erBanTime == 0 && data.erBanRate == 0) ? "-" : data.erBanRate + "%");
+                        textView.setText(data.shouBanTime == 0 ? "-" : data.shouBanTime + "次");
                         break;
                     case 11:
-                        textView.setText(data.erBanTime == 0 ? "-" : data.erBanNum + "%");
+                        textView.setText((data.shouBanTime == 0 && data.shouBanRate == 0) ? "-" : data.shouBanRate + "%");
                         break;
                     case 12:
-                        textView.setText((data.erBanTime == 0) ? "-" : data.erBanAverageSuc + "%");
+                        textView.setText(data.shouBanTime == 0 ? "-" : data.shouBanNum + "%");
                         break;
                     case 13:
-                        textView.setText((data.erBanTime == 0) ? "-" : data.erBanAverageFai + "%");
+                        textView.setText(data.shouBanTime == 0 ? "-" : data.shouBanAverageSuc + "%");
                         break;
                     case 14:
-                        textView.setText(data.sanBanTime == 0 ? "-" : data.sanBanTime + "次");
+                        textView.setText(data.shouBanTime == 0 ? "-" : data.shouBanAverageFai + "%");
                         break;
                     case 15:
-                        textView.setText((data.sanBanTime == 0 && data.sanBanRate == 0) ? "-" : data.sanBanRate + "%");
+                        textView.setText(data.erBanTime == 0 ? "-" : data.erBanTime + "次");
                         break;
                     case 16:
+                        textView.setText((data.erBanTime == 0 && data.erBanRate == 0) ? "-" : data.erBanRate + "%");
+                        break;
+                    case 17:
+                        textView.setText(data.erBanTime == 0 ? "-" : data.erBanNum + "%");
+                        break;
+                    case 18:
+                        textView.setText((data.erBanTime == 0) ? "-" : data.erBanAverageSuc + "%");
+                        break;
+                    case 19:
+                        textView.setText((data.erBanTime == 0) ? "-" : data.erBanAverageFai + "%");
+                        break;
+                    case 20:
+                        textView.setText(data.sanBanTime == 0 ? "-" : data.sanBanTime + "次");
+                        break;
+                    case 21:
+                        textView.setText((data.sanBanTime == 0 && data.sanBanRate == 0) ? "-" : data.sanBanRate + "%");
+                        break;
+                    case 22:
                         textView.setText(data.reasonStr);
                         textView.setOnClickListener(new View.OnClickListener() {
                             @Override
@@ -1060,6 +1103,7 @@ public class MonthStatisticsAdapter extends RecyclerView.Adapter<MonthStatistics
         return df.format(num);
     }
 
+    @Data
     private class MonthShowBean {
         private String month;
         private String reasonStr;
@@ -1075,14 +1119,25 @@ public class MonthStatisticsAdapter extends RecyclerView.Adapter<MonthStatistics
         private int shouBanNum;
         private int erBanNum;
         private int monthAllNum;
+        int fbTime;
+        int fbNum;
+        int fbRate;
+        String fbAverageSuc;
+        String fbAverageFai;
         private String allAverageSuc;
         private String shouBanAverageSuc;
         private String erBanAverageSuc;
         private String allAverageFai;
         private String shouBanAverageFai;
+
         private String erBanAverageFai;
 
-        public MonthShowBean(String month, int allTime, int allRate, String allAverageSuc, String allAverageFai, int shouBanTime, int shouBanNum, int shouBanRate, String shouBanAverageSuc, String shouBanAverageFai, int erBanTime, int erBanNum, int erBanRate, String erBanAverageSuc, String erBanAverageFai, int sanBanTime, int sanBanRate, int monthAllNum, String reasonStr, String reasonAllStr) {
+        public MonthShowBean(String month, int allTime, int allRate, String allAverageSuc, String allAverageFai, int fbTime, int fbNum, int fbRate, String fbAverageSuc, String fbAverageFai, int shouBanTime, int shouBanNum, int shouBanRate, String shouBanAverageSuc, String shouBanAverageFai, int erBanTime, int erBanNum, int erBanRate, String erBanAverageSuc, String erBanAverageFai, int sanBanTime, int sanBanRate, int monthAllNum, String reasonStr, String reasonAllStr) {
+            this.fbTime = fbTime;
+            this.fbNum = fbNum;
+            this.fbRate = fbRate;
+            this.fbAverageSuc = fbAverageSuc;
+            this.fbAverageFai = fbAverageFai;
             this.month = month;
             this.reasonStr = reasonStr;
             this.allTime = allTime;
