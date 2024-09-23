@@ -498,11 +498,9 @@ public class MonthStatisticsAdapter extends RecyclerView.Adapter<MonthStatistics
                 if (item.getResultPoint() > 0) {
                     allMonthSuc++;//盈利点位
                     allMonthAverageSuc = allMonthAverageSuc + item.getResultPoint();
-                    Log.d("song_test","盈利点位 allMonthAverageSuc = "+allMonthAverageSuc);
                 } else {
                     allMonthFai++;
                     allMonthAverageFai = allMonthAverageFai + item.getResultPoint();
-                    Log.d("song_test","失败点位 allMonthAverageFai = "+allMonthAverageFai);
                 }
 
                 if (item.getMode() == 1) {
@@ -551,7 +549,6 @@ public class MonthStatisticsAdapter extends RecyclerView.Adapter<MonthStatistics
                     failureReasonList.addAll(item.getFailureReason());
                 }
                 monthAllNum++;
-                Log.d("song_test","总次数 monthAllNum = "+monthAllNum);
             }
             Map<Integer, Integer> frequencyMap = new HashMap<>();
 
@@ -576,11 +573,12 @@ public class MonthStatisticsAdapter extends RecyclerView.Adapter<MonthStatistics
                 }
             }
 
-            Log.d("song_test","结果总次数 monthAllNum = "+monthAllNum);
-            Log.d("song_test","结果胜率  = "+getResult(monthAllNum, allMonthSuc)+"monthAllNum = "+monthAllNum+" allMonthSuc = "+allMonthSuc);
-            Log.d("song_test","结果均盈利点位 = "+twoPoint(allMonthSuc == 0 ? 0 : allMonthAverageSuc / allMonthSuc) + "allMonthSuc = "+allMonthSuc+ " allMonthAverageSuc = "+allMonthAverageSuc);
-            Log.d("song_test","结果均亏损点位 = "+twoPoint(allMonthFai == 0 ? 0 : allMonthAverageFai / allMonthFai)+" allMonthFai = "+allMonthFai+" allMonthAverageFai = "+allMonthAverageFai);
-            itemList.add(new MonthShowBean(month, monthAllNum,getResult(monthAllNum, allMonthSuc),twoPoint(allMonthSuc == 0 ? 0 : allMonthAverageSuc / allMonthSuc),twoPoint(allMonthFai == 0 ? 0 : allMonthAverageFai / allMonthFai),firstBan, getResult(firstBan, firstBanNum), getResult(firstBan, firstBanSuc), twoPoint(firstBanSuc == 0 ? 0 : firstBanAverageSuc / firstBanSuc), twoPoint(firstBanFai == 0 ? 0 : firstBanAverageFai / firstBanFai), twoBan, getResult(twoBan, twoBanNum), getResult(twoBan, twoBanSuc), twoPoint(twoBanSuc == 0 ? 0 : twoBanAverageSuc / twoBanSuc), twoPoint(twoBanFai == 0 ? 0 : twoBanAverageFai / twoBanFai), middleBan, getResult(middleBan, middleBanSuc), monthAllNum, reason.toString(), reasonAll.toString()));
+            Log.d("song_test", "结果reason = " + reason);
+            Log.d("song_test", "reasonAll = " + reasonAll);
+//            Log.d("song_test","结果胜率  = "+getResult(monthAllNum, allMonthSuc)+"monthAllNum = "+monthAllNum+" allMonthSuc = "+allMonthSuc);
+//            Log.d("song_test","结果均盈利点位 = "+twoPoint(allMonthSuc == 0 ? 0 : allMonthAverageSuc / allMonthSuc) + "allMonthSuc = "+allMonthSuc+ " allMonthAverageSuc = "+allMonthAverageSuc);
+//            Log.d("song_test","结果均亏损点位 = "+twoPoint(allMonthFai == 0 ? 0 : allMonthAverageFai / allMonthFai)+" allMonthFai = "+allMonthFai+" allMonthAverageFai = "+allMonthAverageFai);
+            itemList.add(new MonthShowBean(month, monthAllNum, getResult(monthAllNum, allMonthSuc), twoPoint(allMonthSuc == 0 ? 0 : allMonthAverageSuc / allMonthSuc), twoPoint(allMonthFai == 0 ? 0 : allMonthAverageFai / allMonthFai), firstBan, getResult(firstBan, firstBanNum), getResult(firstBan, firstBanSuc), twoPoint(firstBanSuc == 0 ? 0 : firstBanAverageSuc / firstBanSuc), twoPoint(firstBanFai == 0 ? 0 : firstBanAverageFai / firstBanFai), twoBan, getResult(twoBan, twoBanNum), getResult(twoBan, twoBanSuc), twoPoint(twoBanSuc == 0 ? 0 : twoBanAverageSuc / twoBanSuc), twoPoint(twoBanFai == 0 ? 0 : twoBanAverageFai / twoBanFai), middleBan, getResult(middleBan, middleBanSuc), monthAllNum, reason.toString(), reasonAll.toString()));
 
         }
 
@@ -1030,7 +1028,7 @@ public class MonthStatisticsAdapter extends RecyclerView.Adapter<MonthStatistics
                     case 15:
                         textView.setText((data.sanBanTime == 0 && data.sanBanRate == 0) ? "-" : data.sanBanRate + "%");
                         break;
-                    case 17:
+                    case 16:
                         textView.setText(data.reasonStr);
                         textView.setOnClickListener(new View.OnClickListener() {
                             @Override
@@ -1084,7 +1082,7 @@ public class MonthStatisticsAdapter extends RecyclerView.Adapter<MonthStatistics
         private String shouBanAverageFai;
         private String erBanAverageFai;
 
-        public MonthShowBean(String month, int allTime,int allRate,String allAverageSuc,String allAverageFai,int  shouBanTime, int shouBanNum, int shouBanRate, String shouBanAverageSuc, String shouBanAverageFai, int erBanTime, int erBanNum, int erBanRate, String erBanAverageSuc, String erBanAverageFai, int sanBanTime, int sanBanRate, int monthAllNum, String reasonStr, String reasonAllStr) {
+        public MonthShowBean(String month, int allTime, int allRate, String allAverageSuc, String allAverageFai, int shouBanTime, int shouBanNum, int shouBanRate, String shouBanAverageSuc, String shouBanAverageFai, int erBanTime, int erBanNum, int erBanRate, String erBanAverageSuc, String erBanAverageFai, int sanBanTime, int sanBanRate, int monthAllNum, String reasonStr, String reasonAllStr) {
             this.month = month;
             this.reasonStr = reasonStr;
             this.allTime = allTime;
