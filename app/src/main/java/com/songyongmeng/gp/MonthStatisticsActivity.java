@@ -41,6 +41,7 @@ public class MonthStatisticsActivity extends AppCompatActivity {
         setContentView(R.layout.fen_qi_layout);
         LinearLayout buttonLayout = findViewById(R.id.fen_qi_top_button_layout);
 
+        //加载慢不是因为数据太大，而是动态数据太多，加载数据从加载到解析总共才500毫秒左右。不要再尝试改了。
         dataName = "new_statistics.json";
         addHeaderButton(buttonLayout);
 
