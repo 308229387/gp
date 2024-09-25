@@ -1,15 +1,30 @@
 [
   {
-    "gpName": "国盛金控",
-    "formerDate": "2024-09-24",
+    "gpName": "常山北明",
+    "formerDate": "2024-09-25",
     "mode": -1,
     "lastPrice": 0,
     "bigPrice": 0,
-    "failureReason": [3,12,20],
+    "failureReason": [],
     "resultPoint": 0,
     "sellTiming": 0,
+    "phase": 5,
+    "buyReason": "昨天被保底带闪崩，但没有锁死流通性，换手率到了40%，今天大盘环境依然很强，开盘低开，大单大笔买入，-3-4时就看到了，净流入1个亿，但毕竟太低，没敢上，过零轴时，大单已经3亿了，这时觉得有反包的意图，1个点上车。",
+    "image_list": [
+      "Screenshot_2024-09-24-16-04-25-64_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "国盛金控",
+    "formerDate": "2024-09-24",
+    "mode": 1,
+    "lastPrice": 0,
+    "bigPrice": 0.81,
+    "failureReason": [3,12,20],
+    "resultPoint": -1.2,
+    "sellTiming": -1,
     "phase": 4,
-    "buyReason": "指数大涨，市场放量，证券当天最大热点，太平洋没买到，前面有3个涨停，找了个最靠近涨停板的，大单当时4-5千万，形态不算好，但没有合适的了。",
+    "buyReason": "指数大涨，市场放量，证券当天最大热点，太平洋没买到，前面有3个涨停，找了个最靠近涨停板的，大单当时4-5千万，形态不算好，但没有合适的了。预估了第二天会有肉，但开盘想买别的，看翻红就卖了。后有2-3个点的收益没吃到。",
     "image_list": [
       "Screenshot_2024-09-24-16-04-25-64_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
@@ -17,14 +32,14 @@
   {
     "gpName": "银之杰",
     "formerDate": "2024-09-24",
-    "mode": -1,
+    "mode": 98,
     "lastPrice": 1.96,
-    "bigPrice": 0,
+    "bigPrice": 2.58,
     "failureReason": [],
-    "resultPoint": 0,
+    "resultPoint": 34.5,
     "sellTiming": 0,
     "phase": 4,
-    "buyReason": "开盘2分钟左右，大单就6千万左右，4个多点，恰巧近期偏好主板已经进入末期，当天指数挺好，但反包环境很差，看到没犹豫就买了，甚至没看点位，后龙头保变崩盘，微崩一下又逐步涨停。",
+    "buyReason": "开盘2分钟左右，大单就6千万左右，4个多点，恰巧近期偏好主板已经进入末期，当天指数挺好，但反包环境很差，看到没犹豫就买了，甚至没看点位，后龙头保变崩盘，微崩一下又逐步涨停。次日一字开，但11点多随着大盘冲高回落，中交闪崩，这票也开盘，第一次回封了，第二次又开，离场后又回封了。",
     "image_list": [
       "Screenshot_2024-09-24-16-03-49-44_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
@@ -184,7 +199,9 @@
     "resultPoint": -3.55,
     "sellTiming": 0,
     "buyReason": "不是准确的买入点，如果是买反包，应该第一天买，不应该是次日",
-    "image_list": []
+    "image_list": [
+      "Screenshot_2024-09-25-13-21-29-99_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
   },
   {
     "gpName": "宏和科技",
