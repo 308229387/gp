@@ -2,6 +2,7 @@ package com.songyongmeng.gp;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -27,9 +28,13 @@ public class CasualDetailActivity extends AppCompatActivity {
         name.setText("股票名称： " + data.getLtName());
         reason.setText("描述： " + data.getLtReason());
 
-        ViewPager viewPager = findViewById(R.id.lt_view_pager);
-        CasualAdapter adapter = new CasualAdapter(this); // 你需要创建一个适配器
-        adapter.setImageList(images);
-        viewPager.setAdapter(adapter);
+        if(images!=null&&images.size()>0){
+            ViewPager viewPager = findViewById(R.id.lt_view_pager);
+            viewPager.setVisibility(View.VISIBLE);
+            CasualAdapter adapter = new CasualAdapter(this); // 你需要创建一个适配器
+            adapter.setImageList(images);
+            viewPager.setAdapter(adapter);
+        }
+
     }
 }
