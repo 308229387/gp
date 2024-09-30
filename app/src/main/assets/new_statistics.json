@@ -1,15 +1,30 @@
 [
   {
-    "gpName": "法本信息",
-    "formerDate": "2024-09-27",
+    "gpName": "常山北明",
+    "formerDate": "2024-09-30",
     "mode": -1,
     "lastPrice": 0,
-    "bigPrice": 0.32,
+    "bigPrice": 0,
     "failureReason": [],
     "resultPoint": 0,
     "sellTiming": 0,
+    "phase": 2,
+    "buyReason": "这两天大涨的是金融券商，老龙头一直调整，今天指数高开5个点回落，但也有3个多点，龙头辨识度够高，这几天一直在热榜前几，上攻箱体，缩量快速上攻，首次上板大单就6亿左右，没买到，开板大单没有流失，继续增加，不到7亿再次上板买入",
+    "image_list": [
+      "Screenshot_2024-09-27-15-34-13-05_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "法本信息",
+    "formerDate": "2024-09-27",
+    "mode": 98,
+    "lastPrice": 0,
+    "bigPrice": 0.32,
+    "failureReason": [],
+    "resultPoint": 11.2,
+    "sellTiming": -1,
     "phase": 7,
-    "buyReason": "这票冲高后调整了三天，第三天收阴，形态未变，开盘快速流入4千万，点位不高1个点，环境还是延续很好，盈亏比很高，中途大单流入有1亿多，以为稳了，但尾盘看涨幅都跑不过版块，有点弱，换手到是挺高。",
+    "buyReason": "这票冲高后调整了三天，第三天收阴，形态未变，开盘快速流入4千万，点位不高1个点，环境还是延续很好，盈亏比很高，中途大单流入有1亿多，以为稳了，但尾盘看涨幅都跑不过版块，有点弱，换手到是挺高。次日大盘高开回落，开盘就在箱体上部，拿了一会看没有上冲，-2000万的大单，被震下去了，后涨停",
     "image_list": [
       "Screenshot_2024-09-27-15-34-13-05_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
@@ -37,7 +52,10 @@
     "mode": 99,
     "lastPrice": 0,
     "bigPrice": -0.55,
-    "failureReason": [27,28],
+    "failureReason": [
+      27,
+      28
+    ],
     "resultPoint": -8.1,
     "sellTiming": 0,
     "phase": 6,
@@ -71,7 +89,11 @@
     "mode": 1,
     "lastPrice": 0,
     "bigPrice": 0.81,
-    "failureReason": [3,12,20],
+    "failureReason": [
+      3,
+      12,
+      20
+    ],
     "resultPoint": -0.93,
     "sellTiming": -1,
     "phase": 4,
