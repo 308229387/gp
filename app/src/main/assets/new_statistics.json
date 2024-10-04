@@ -8,8 +8,8 @@
     "failureReason": [],
     "resultPoint": 0,
     "sellTiming": 0,
-    "phase": 2,
-    "buyReason": "这两天大涨的是金融券商，老龙头一直调整，今天指数高开5个点回落，但也有3个多点，龙头辨识度够高，这几天一直在热榜前几，开盘竞价成交1.4亿，强承接，上攻箱体，缩量快速上攻，首次上板大单就6亿左右，没买到，开板大单没有流失，继续增加，不到7亿再次上板买入",
+    "phase": 3,
+    "buyReason": "整体环境是强势延续，预计过两天见顶。这两天大涨的是金融券商，老龙头一直调整，今天指数高开5个点回落，但也有3个多点，龙头辨识度够高，这几天一直在热榜前几，开盘竞价成交1.4亿，强承接，上攻箱体，缩量快速上攻，首次上板大单就6亿左右，没买到，开板大单没有流失，继续增加，不到7亿再次上板买入",
     "image_list": [
       "Screenshot_2024-09-30-15-57-55-86_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
@@ -26,7 +26,9 @@
     "phase": 7,
     "buyReason": "这票冲高后调整了三天，第三天收阴，形态未变，开盘快速流入4千万，点位不高1个点，环境还是延续很好，盈亏比很高，中途大单流入有1亿多，以为稳了，但尾盘看涨幅都跑不过版块，有点弱，换手到是挺高。次日大盘高开回落，开盘就在箱体上部，拿了一会看没有上冲，-2000万的大单，被震下去了，后涨停",
     "image_list": [
-      "Screenshot_2024-09-27-15-34-13-05_5c5979e609b9ed4a43e94260d67cf51e.webp"
+      "Screenshot_2024-09-27-15-34-13-05_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-09-30-15-58-08-69_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-09-30-15-58-18-65_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
@@ -6116,10 +6118,10 @@
     "resultPoint": 20.07,
     "buyReason": "骗线，8个多点就急急忙忙买了，结果大幅亏损",
     "image_list": [
-      "qdhj_k",
-      "qdhj_b",
-      "qdhj_2",
-      "qdhj_s"
+      "qdhj_k.webp",
+      "qdhj_b.webp",
+      "qdhj_2.webp",
+      "qdhj_s.webp"
     ]
   },
   {
@@ -6174,11 +6176,7 @@
     "lastPrice": 0,
     "resultPoint": -7.68,
     "buyReason": "高开，后上板，板上入场，但遇顶就走了，第二天低开，有机会走，但走早了。",
-    "image_list": [
-      "dzjk_k",
-      "dzjk_b",
-      "dzjk_s"
-    ]
+    "image_list": []
   },
   {
     "gpName": "开开实业",
@@ -6187,11 +6185,7 @@
     "lastPrice": 0,
     "resultPoint": -6.99,
     "buyReason": "微高开，快速拉升，释放下空头后上板，板上入场，后秒开，红上影线，第二天拉升了点就走了，后涨停，开启一波5板多的主升",
-    "image_list": [
-      "kksy_k",
-      "kksy_b",
-      "kksy_s"
-    ]
+    "image_list": []
   },
   {
     "gpName": "贵州燃气",
@@ -6200,11 +6194,7 @@
     "lastPrice": 0.57,
     "resultPoint": 4.26,
     "buyReason": "分时形态看着不错，在洪都燃气和它之间，选择了贵州，辨识度高一些。第二天有议价离场。",
-    "image_list": [
-      "gzrq_k",
-      "gzrq_b",
-      "gzrq_s"
-    ]
+    "image_list": []
   },
   {
     "gpName": "竞业达",
@@ -6234,11 +6224,7 @@
     ],
     "resultPoint": -6.28,
     "buyReason": "首板量能约2倍，开盘高开后上攻7-8点震荡，拉升后还一两个档着急上车，第二天早上低开冲高卖。",
-    "image_list": [
-      "angf_k",
-      "angf_b",
-      "angf_s"
-    ]
+    "image_list": []
   },
   {
     "gpName": "顶点软件",
@@ -6256,11 +6242,7 @@
     "lastPrice": 1.64,
     "resultPoint": 6.33,
     "buyReason": "高开缩量上攻，斜线直接涨停，8个点左右上车",
-    "image_list": [
-      "sczq_k",
-      "sczq_b",
-      "sczq_s"
-    ]
+    "image_list": []
   },
   {
     "gpName": "柯利达",
@@ -6287,11 +6269,7 @@
     "lastPrice": 0,
     "resultPoint": -12.05,
     "buyReason": "早盘调整后冲涨停，板上上车，但大幅回落，第二天开盘冲高后离场",
-    "image_list": [
-      "rdqh_k",
-      "rdqh_b",
-      "rdqh_s"
-    ]
+    "image_list": []
   },
   {
     "gpName": "西南证券",
@@ -6300,11 +6278,7 @@
     "lastPrice": 0,
     "resultPoint": -7.06,
     "buyReason": "倒数第二档上车，开盘冲高失败，第二天开盘离场",
-    "image_list": [
-      "xnzq_k",
-      "xnzq_b",
-      "xnzq_s"
-    ]
+    "image_list": []
   },
   {
     "gpName": "金科股份",
@@ -6313,11 +6287,6 @@
     "lastPrice": 0,
     "resultPoint": 13.29,
     "buyReason": "房地产热点，高开无下影线，开盘缩量上涨，冲板上车，后封死第二天一字",
-    "image_list": [
-      "jkgf_k",
-      "jkgf_b",
-      "jkgf_2",
-      "jkgf_s"
-    ]
+    "image_list": []
   }
 ]
