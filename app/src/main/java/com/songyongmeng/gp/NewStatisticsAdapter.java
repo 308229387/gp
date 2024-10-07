@@ -469,7 +469,7 @@ public class NewStatisticsAdapter extends RecyclerView.Adapter<NewStatisticsAdap
 //            }
         }
 
-        itemList.add(new ShowBean("总计", allNum, allNumSuc, getResult(allNum, allNumSuc), getResult(allNum, allNumNum), allNumSuc == 0 ? 0 : allAverageSuc / allNumSuc, allNumFai == 0 ? 0 : allAverageFai / allNumFai));
+        itemList.add(getShowBean("总计", allNum, allNumSuc, allNumFai, allNumNum, allAverageSuc, allAverageFai));
 //        itemList.add(new ShowBean("个股缩量", reduceSelfGp, reduceSelfGpSuc, getResult(reduceSelfGp, reduceSelfGpSuc), reduceSelfGpSuc == 0 ? 0 : reduceSelfGpAverageSuc / reduceSelfGpSuc, reduceSelfGpFai == 0 ? 0 : reduceSelfGpAverageFai / reduceSelfGpFai));
 //        itemList.add(new ShowBean("个股平放量", addSelfGp, addSelfGpSuc, getResult(addSelfGp, addSelfGpSuc), addSelfGpSuc == 0 ? 0 : addSelfGpAverageSuc / addSelfGpSuc, addSelfGpFai == 0 ? 0 : addSelfGpAverageFai / addSelfGpFai));
 //        itemList.add(new ShowBean("高开1点", sellOpenHigh, sellOpenHighSuc, getResult(sellOpenHigh, sellOpenHighSuc), sellOpenHighSuc == 0 ? 0 : sellOpenHighAverageSuc / sellOpenHighSuc, sellOpenHighFai == 0 ? 0 : sellOpenHighAverageFai / sellOpenHighFai));
@@ -486,14 +486,28 @@ public class NewStatisticsAdapter extends RecyclerView.Adapter<NewStatisticsAdap
 //        itemList.add(new ShowBean("5日线反弹", isRebound5, isRebound5Suc, getResult(isRebound5, isRebound5Suc), isRebound5Suc == 0 ? 0 : rebound5AverageSuc / isRebound5Suc, isRebound5Fai == 0 ? 0 : rebound5AverageFai / isRebound5Fai));
 //        itemList.add(new ShowBean("10日线反弹", isRebound10, isRebound10Suc, getResult(isRebound10, isRebound10Suc), isRebound10Suc == 0 ? 0 : rebound10AverageSuc / isRebound10Suc, isRebound10Fai == 0 ? 0 : rebound10AverageFai / isRebound10Fai));
 //        itemList.add(new ShowBean("20日线反弹", isRebound20, isRebound20Suc, getResult(isRebound20, isRebound20Suc), isRebound20Suc == 0 ? 0 : rebound20AverageSuc / isRebound20Suc, isRebound20Fai == 0 ? 0 : rebound20AverageFai / isRebound20Fai));
-        itemList.add(new ShowBean("反包", fbBan, fbBanSuc, getResult(fbBan, fbBanSuc), getResult(fbBan, fbBanNum), fbBanSuc == 0 ? 0 : fbBanAverageSuc / fbBanSuc, fbBanFai == 0 ? 0 : fbBanAverageFai / fbBanFai));
-        itemList.add(new ShowBean("龙头战法", longHeader, longHeaderSuc, getResult(longHeader, longHeaderSuc), longHeaderSuc == 0 ? 0 : rebound30AverageSuc / longHeaderSuc, longHeaderFai == 0 ? 0 : longHeaderAverageFai / longHeaderFai));
-        itemList.add(new ShowBean("首板", firstBan, firstBanSuc, getResult(firstBan, firstBanSuc), getResult(firstBan, firstBanNum), firstBanSuc == 0 ? 0 : firstBanAverageSuc / firstBanSuc, firstBanFai == 0 ? 0 : firstBanAverageFai / firstBanFai));
-        itemList.add(new ShowBean("二板", twoBan, twoBanSuc, getResult(twoBan, twoBanSuc), getResult(twoBan, twoBanNum), twoBanSuc == 0 ? 0 : twoBanAverageSuc / twoBanSuc, twoBanFai == 0 ? 0 : twoBanAverageFai / twoBanFai));
-        itemList.add(new ShowBean("中位", middleBan, middleBanSuc, getResult(middleBan, middleBanSuc), getResult(middleBan, middleBanNum), middleBanSuc == 0 ? 0 : middleBanAverageSuc / middleBanSuc, middleBanFai == 0 ? 0 : middleBanAverageFai / middleBanFai));
+//        itemList.add(new ShowBean("反包", fbBan, fbBanSuc, getResult(fbBan, fbBanSuc), getResult(fbBan, fbBanNum), fbBanSuc == 0 ? 0 : fbBanAverageSuc / fbBanSuc, fbBanFai == 0 ? 0 : fbBanAverageFai / fbBanFai));
+        itemList.add(getShowBean("反包", fbBan, fbBanSuc, fbBanFai, fbBanNum, fbBanAverageSuc, fbBanAverageFai));
+        itemList.add(getShowBean("龙头战法", longHeader, longHeaderSuc, longHeaderFai, longHeaderNum, longHeaderAverageSuc, longHeaderAverageFai));
+        itemList.add(getShowBean("首板", firstBan, firstBanSuc, firstBanFai, firstBanNum, firstBanAverageSuc, firstBanAverageFai));
+        itemList.add(getShowBean("二板", twoBan, twoBanSuc, twoBanFai, twoBanNum, twoBanAverageSuc, twoBanAverageFai));
+        itemList.add(getShowBean("中位", middleBan, middleBanSuc, middleBanFai, middleBanNum, middleBanAverageSuc, middleBanAverageFai));
 //        itemList.add(new ShowBean("高位板", highBan, highBanSuc, getResult(highBan, highBanSuc), highBanSuc == 0 ? 0 : highBanAverageSuc / highBanSuc, highBanFai == 0 ? 0 : highBanAverageFai / highBanFai));
         originalList = new ArrayList<>(itemList); // 备份原始列表
     }
+
+    public ShowBean getShowBean(String leiXing, int zongCiShu, int chengGongCiShu, int shiBaiCiShu, int fengBanCiShu, double chengGongDianWei, double shiBaiDianWei) {
+        ShowBean bean = new ShowBean();
+        bean.setModel(leiXing);
+        bean.setAllTime(zongCiShu);
+        bean.setSucTime(chengGongCiShu);
+        bean.setRatio(getResult(zongCiShu, chengGongCiShu));
+        bean.setBan(getResult(zongCiShu, fengBanCiShu));
+        bean.setAverageSuc(chengGongCiShu == 0 ? 0 : chengGongDianWei / chengGongCiShu);
+        bean.setAverageFai(shiBaiCiShu == 0 ? 0 : shiBaiDianWei / shiBaiCiShu);
+        return bean;
+    }
+
 
     public int getResult(int all, int suc) {
         int dividend = suc; // 被除数
@@ -513,7 +527,7 @@ public class NewStatisticsAdapter extends RecyclerView.Adapter<NewStatisticsAdap
 
     @Override
     public void onBindViewHolder(ViewHolder holder, @SuppressLint("RecyclerView") int position) {
-        if (itemList.get(position).ratio > 49) {
+        if (itemList.get(position).getRatio() > 49) {
             holder.itemView.setBackgroundColor(Color.parseColor("#FFC0CB"));
         } else {
             holder.itemView.setBackgroundColor(Color.parseColor("#90EE90"));
@@ -535,7 +549,7 @@ public class NewStatisticsAdapter extends RecyclerView.Adapter<NewStatisticsAdap
     }
 
     private List<NewStatisticsBean> returnData(ShowBean showBean) {
-        switch (showBean.model) {
+        switch (showBean.getModel()) {
             case "总计":
                 return dataList;
 //            case "5日线反弹":
@@ -580,7 +594,7 @@ public class NewStatisticsAdapter extends RecyclerView.Adapter<NewStatisticsAdap
                         .collect(Collectors.toList());
             case "中位":
                 return dataList.stream()
-                        .filter(bean -> (bean.getMode() > 2&&bean.getMode()<99))
+                        .filter(bean -> (bean.getMode() > 2 && bean.getMode() < 99))
                         .collect(Collectors.toList());
 //            case "高位板":
 //                return data.stream()
@@ -602,9 +616,9 @@ public class NewStatisticsAdapter extends RecyclerView.Adapter<NewStatisticsAdap
             @Override
             public int compare(ShowBean bean1, ShowBean bean2) {
                 if (all) {
-                    return bean2.allTime - bean1.allTime;
+                    return bean2.getAllTime() - bean1.getAllTime();
                 } else {
-                    return bean1.allTime - bean2.allTime;
+                    return bean1.getAllTime() - bean2.getAllTime();
                 }
             }
         });
@@ -618,9 +632,9 @@ public class NewStatisticsAdapter extends RecyclerView.Adapter<NewStatisticsAdap
             @Override
             public int compare(ShowBean bean1, ShowBean bean2) {
                 if (suc) {
-                    return bean2.sucTime - bean1.sucTime;
+                    return bean2.getSucTime() - bean1.getSucTime();
                 } else {
-                    return bean1.sucTime - bean2.sucTime;
+                    return bean1.getSucTime() - bean2.getSucTime();
                 }
             }
         });
@@ -634,9 +648,9 @@ public class NewStatisticsAdapter extends RecyclerView.Adapter<NewStatisticsAdap
             @Override
             public int compare(ShowBean bean1, ShowBean bean2) {
                 if (radio) {
-                    return bean2.ratio - bean1.ratio;
+                    return bean2.getRatio() - bean1.getRatio();
                 } else {
-                    return bean1.ratio - bean2.ratio;
+                    return bean1.getRatio() - bean2.getRatio();
                 }
             }
         });
@@ -649,9 +663,9 @@ public class NewStatisticsAdapter extends RecyclerView.Adapter<NewStatisticsAdap
             @Override
             public int compare(ShowBean bean1, ShowBean bean2) {
                 if (ban) {
-                    return bean2.ban - bean1.ban;
+                    return bean2.getBan() - bean1.getBan();
                 } else {
-                    return bean1.ban - bean2.ban;
+                    return bean1.getBan() - bean2.getBan();
                 }
             }
         });
@@ -664,9 +678,9 @@ public class NewStatisticsAdapter extends RecyclerView.Adapter<NewStatisticsAdap
             @Override
             public int compare(ShowBean bean1, ShowBean bean2) {
                 if (averageSuc) {
-                    return Double.compare(bean1.averageSuc, bean2.averageSuc);
+                    return Double.compare(bean1.getAverageSuc(), bean2.getAverageSuc());
                 } else {
-                    return Double.compare(bean2.averageSuc, bean1.averageSuc);
+                    return Double.compare(bean2.getAverageSuc(), bean1.getAverageSuc());
                 }
             }
         });
@@ -686,9 +700,9 @@ public class NewStatisticsAdapter extends RecyclerView.Adapter<NewStatisticsAdap
             @Override
             public int compare(ShowBean bean1, ShowBean bean2) {
                 if (averageSuc) {
-                    return Double.compare(bean1.averageFai, bean2.averageFai);
+                    return Double.compare(bean1.getAverageFai(), bean2.getAverageFai());
                 } else {
-                    return Double.compare(bean2.averageFai, bean1.averageFai);
+                    return Double.compare(bean2.getAverageFai(), bean1.getAverageFai());
                 }
             }
         });
@@ -759,26 +773,26 @@ public class NewStatisticsAdapter extends RecyclerView.Adapter<NewStatisticsAdap
 //                }
                 switch (i) {
                     case 0:
-                        textView.setText(data.model);
+                        textView.setText(data.getModel());
                         break;
                     case 1:
-                        textView.setText(data.allTime + "次");
+                        textView.setText(data.getAllTime() + "次");
                         break;
                     case 2:
-                        textView.setText(data.sucTime + "次");
+                        textView.setText(data.getSucTime() + "次");
                         break;
                     case 3:
-                        textView.setText(data.ratio + "%");
+                        textView.setText(data.getRatio() + "%");
                         break;
                     case 4:
-                        textView.setText(data.ban + "%");
+                        textView.setText(data.getBan() + "%");
                         break;
                     case 5:
-                        String formattedResult = String.format("%.2f", data.averageSuc) + "%";
+                        String formattedResult = String.format("%.2f", data.getAverageSuc()) + "%";
                         textView.setText(formattedResult);
                         break;
                     case 6:
-                        String failResult = String.format("%.2f", data.averageFai) + "%";
+                        String failResult = String.format("%.2f", data.getAverageFai()) + "%";
                         textView.setText(failResult);
                         break;
                 }
@@ -788,41 +802,4 @@ public class NewStatisticsAdapter extends RecyclerView.Adapter<NewStatisticsAdap
         }
     }
 
-    private class ShowBean {
-        private String model;
-        private int allTime;
-        private int sucTime;
-        private int ratio;
-        private int ban;
-        private double averageSuc;
-        private double averageFai;
-
-        private ShowBean(String model, int allTime, int sucTime, int ratio, int averageSuc) {
-            this.model = model;
-            this.allTime = allTime;
-            this.sucTime = sucTime;
-            this.ratio = ratio;
-            this.averageSuc = averageSuc;
-            this.averageFai = 0;
-        }
-
-        private ShowBean(String model, int allTime, int sucTime, int ratio, double averageSuc, double averageFai) {
-            this.model = model;
-            this.allTime = allTime;
-            this.sucTime = sucTime;
-            this.ratio = ratio;
-            this.averageSuc = averageSuc;
-            this.averageFai = averageFai;
-        }
-
-        private ShowBean(String model, int allTime, int sucTime, int ratio, int ban, double averageSuc, double averageFai) {
-            this.model = model;
-            this.allTime = allTime;
-            this.sucTime = sucTime;
-            this.ratio = ratio;
-            this.ban = ban;
-            this.averageSuc = averageSuc;
-            this.averageFai = averageFai;
-        }
-    }
 }
