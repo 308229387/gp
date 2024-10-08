@@ -3,7 +3,7 @@ package com.songyongmeng.gp;
 public class ReasonForFailure {
     public static final String REASON_0= "正常，摩擦成本"; //对应编号0
     public static final String REASON_1= "非热点版块"; //对应编号1
-    public static final String REASON_2= "非核心、太后排了"; //对应编号2
+    public static final String REASON_2= "不够核心"; //对应编号2
     public static final String REASON_3= "股性差";//对应编号3
     public static final String REASON_4= "未封板就上车";//对应编号4
     public static final String REASON_5= "K线形态太差";//对应编号5

@@ -4,14 +4,14 @@
     "formerDate": "2024-10-08",
     "mode": -1,
     "lastPrice": 0,
-    "bigPrice": 0,
+    "bigPrice": -0.36,
     "failureReason": [],
     "resultPoint": 0,
     "sellTiming": 0,
-    "phase": 3,
-    "buyReason": "大盘极度一致，10个点开盘，个股涨停开盘，开板一会有2亿大单，热榜，极端行情，上车",
+    "phase": 4,
+    "buyReason": "大盘极度一致，10个点开盘，个股涨停开盘，开板一会有2亿大单，热榜靠后，极端行情，上车后回落。买在了市场情绪见顶时，辨识度也差点意思",
     "image_list": [
-      "Screenshot_2024-09-30-15-57-55-86_5c5979e609b9ed4a43e94260d67cf51e.webp"
+      "Screenshot_2024-10-08-15-03-20-27_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
@@ -19,14 +19,14 @@
     "formerDate": "2024-10-08",
     "mode": -1,
     "lastPrice": 0,
-    "bigPrice": 0,
+    "bigPrice": 1.55,
     "failureReason": [],
     "resultPoint": 0,
     "sellTiming": 0,
-    "phase": 3,
-    "buyReason": "大盘极度一致，10个点开盘，个股涨停开盘，开板一会有9千万大单，热榜，极端行情，上车",
+    "phase": 4,
+    "buyReason": "大盘极度一致，10个点开盘，个股涨停开盘，开板一会有9千万大单，热榜靠后，极端行情，上车后回落。买在了市场情绪见顶时，辨识度也差点意思",
     "image_list": [
-      "Screenshot_2024-09-30-15-57-55-86_5c5979e609b9ed4a43e94260d67cf51e.webp"
+      "Screenshot_2024-10-08-15-03-11-44_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
