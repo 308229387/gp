@@ -1,17 +1,52 @@
 [
   {
+    "gpName": "久远银海",
+    "formerDate": "2024-10-09",
+    "mode": -1,
+    "lastPrice": 0,
+    "bigPrice": 0.98,
+    "failureReason": [10],
+    "resultPoint": 0,
+    "sellTiming": 0,
+    "phase": 4,
+    "buyReason": "试错买入，华为概念，非核心中位股。指数回踩均线，大单连板股，题材延续比较好。润和、常山都连封的很好，套利。",
+    "image_list": [
+      "Screenshot_2024-10-08-15-03-20-27_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "中芯国际",
+    "formerDate": "2024-10-09",
+    "mode": -1,
+    "lastPrice": 2.96,
+    "bigPrice": 0,
+    "failureReason": [10],
+    "resultPoint": 0,
+    "sellTiming": 0,
+    "phase": 4,
+    "buyReason": "首仓试错买入，半导体龙头，开盘众多票都是低开，中信、东财都开板了大屁股。半导体龙头中芯国际相对体量较小，而且当时表现最强劲，二波冲半途上车，后回落。知名度不如前两个高，但看表现回落跌幅等算是最好的。下午指数回踩均线，再度拉涨停板加仓。",
+    "image_list": [
+      "Screenshot_2024-10-08-15-03-20-27_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
     "gpName": "招商银行",
     "formerDate": "2024-10-08",
     "mode": -1,
     "lastPrice": 0,
     "bigPrice": -0.36,
-    "failureReason": [2,27],
-    "resultPoint": 0,
+    "failureReason": [
+      2,
+      27
+    ],
+    "resultPoint": -3.1,
     "sellTiming": 0,
     "phase": 4,
-    "buyReason": "大盘极度一致，10个点开盘，个股涨停开盘，开板一会有2亿大单，热榜靠后，极端行情，上车后回落。买在了市场情绪见顶时，辨识度也差点意思",
+    "buyReason": "大盘极度一致，10个点开盘，个股涨停开盘，开板一会有2亿大单，热榜靠后，极端行情，上车后回落。买在了市场情绪见顶时，辨识度也差点意思，竞价差，竞价秒",
     "image_list": [
-      "Screenshot_2024-10-08-15-03-20-27_5c5979e609b9ed4a43e94260d67cf51e.webp"
+      "Screenshot_2024-10-08-15-03-20-27_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-10-09-15-49-07-51_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-10-09-15-49-16-94_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
@@ -20,13 +55,18 @@
     "mode": -1,
     "lastPrice": 0,
     "bigPrice": 1.55,
-    "failureReason": [2,27],
-    "resultPoint": 0,
+    "failureReason": [
+      2,
+      27
+    ],
+    "resultPoint": -3.2,
     "sellTiming": 0,
     "phase": 4,
-    "buyReason": "大盘极度一致，10个点开盘，个股涨停开盘，开板一会有9千万大单，热榜靠后，极端行情，上车后回落。买在了市场情绪见顶时，辨识度也差点意思",
+    "buyReason": "大盘极度一致，10个点开盘，个股涨停开盘，开板一会有9千万大单，热榜靠后，极端行情，上车后回落。买在了市场情绪见顶时，辨识度也差点意思，第二天竞价表现一般，竞价秒",
     "image_list": [
-      "Screenshot_2024-10-08-15-03-11-44_5c5979e609b9ed4a43e94260d67cf51e.webp"
+      "Screenshot_2024-10-08-15-03-11-44_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-10-09-15-49-31-48_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-10-09-15-49-40-27_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {

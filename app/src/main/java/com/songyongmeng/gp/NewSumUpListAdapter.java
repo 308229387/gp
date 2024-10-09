@@ -547,6 +547,10 @@ public class NewSumUpListAdapter extends RecyclerView.Adapter<NewSumUpListAdapte
                         String tmp = "";
                         if (data.getMode() == -1) {
                             tmp = "进行中";
+                        } else if (data.getMode() == 101) {
+                            tmp = "连板大单套利";
+                        } else if (data.getMode() == 100) {
+                            tmp = "市场核心";
                         } else if (data.getMode() == 99) {
                             tmp = "龙头";
                         } else if (data.getMode() == 98) {
@@ -563,8 +567,8 @@ public class NewSumUpListAdapter extends RecyclerView.Adapter<NewSumUpListAdapte
                             tmp = "一进二";
                         } else if (data.getMode() == -5) {
                             tmp = "回踩5日线";
-                        } else if (data.getMode() > 2 && data.getMode() < 99) {
-                            tmp = "中位";
+                        } else {
+                            tmp = "-";
                         }
                         textView.setText(tmp);
                         break;

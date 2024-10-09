@@ -1,6 +1,7 @@
 package com.songyongmeng.gp.adapter;
 
 import android.graphics.Color;
+import android.text.Html;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -45,7 +46,7 @@ public class LTAdapter extends RecyclerView.Adapter<LTAdapter.LTViewHolder> {
     @Override
     public void onBindViewHolder(@NonNull LTViewHolder holder, int position) {
         LTBean ltBean = list.get(position);
-        holder.casual_item_name.setText(ltBean.getLtName());
+        holder.casual_item_name.setText(Html.fromHtml(ltBean.getLtName()));
         holder.casual_learn_icon.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
