@@ -1,6 +1,6 @@
 [
   {
-    "gpName": "久远银海",
+    "gpName": "天风证券",
     "formerDate": "2024-10-09",
     "mode": -1,
     "lastPrice": 0,
@@ -9,30 +9,109 @@
     "resultPoint": 0,
     "sellTiming": 0,
     "phase": 4,
-    "buyReason": "试错买入，华为概念，非核心中位股。指数回踩均线，大单连板股，题材延续比较好。润和、常山都连封的很好，套利。",
+    "buyReason": "证券双龙之一，早上被版块带崩，上午成交100多亿，翻红觉得还能继续，就上车了，下午继续调整。自己总爱博穿越，费力不讨好",
     "image_list": [
-      "Screenshot_2024-10-08-15-03-20-27_5c5979e609b9ed4a43e94260d67cf51e.webp"
+      "Screenshot_2024-10-10-15-06-48-22_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "香雪制药",
+    "formerDate": "2024-10-09",
+    "mode": -1,
+    "lastPrice": 0,
+    "bigPrice": 0.98,
+    "failureReason": [10],
+    "resultPoint": 0,
+    "sellTiming": 0,
+    "phase": 4,
+    "buyReason": "大盘指数回踩5日线，版块早盘异动，这票有辨识度，上板时大单1亿多，上车，K线形态好",
+    "image_list": [
+      "Screenshot_2024-10-10-15-07-03-43_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "寒锐钴业",
+    "formerDate": "2024-10-09",
+    "mode": -1,
+    "lastPrice": 0,
+    "bigPrice": 0.98,
+    "failureReason": [10],
+    "resultPoint": 0,
+    "sellTiming": 0,
+    "phase": 4,
+    "buyReason": "9个多点的时候看到了没上，等中午14个点看到了才上，买的太高，太晚。上车时有1个亿大单",
+    "image_list": [
+      "Screenshot_2024-10-10-15-08-38-85_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "深桑达",
+    "formerDate": "2024-10-09",
+    "mode": -1,
+    "lastPrice": 0,
+    "bigPrice": 0.98,
+    "failureReason": [10],
+    "resultPoint": 0,
+    "sellTiming": 0,
+    "phase": 4,
+    "buyReason": "反包上板，辨识度不高，炸板后，大单就有1亿多，版块1个多点，8个点上车，买的太高。没封住炸板。",
+    "image_list": [
+      "Screenshot_2024-10-10-15-07-17-00_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "恒为科技",
+    "formerDate": "2024-10-09",
+    "mode": -1,
+    "lastPrice": 0,
+    "bigPrice": 0.98,
+    "failureReason": [10],
+    "resultPoint": 0,
+    "sellTiming": 0,
+    "phase": 4,
+    "buyReason": "早盘一时半会没有合适标的，反包筛选出一大堆下跌的票，但没有大单，过了半小时，有个2700万的，正3个多点，大单陆续增加，上车，K线形态也是回踩5日线。买完都不知道干什么的。",
+    "image_list": [
+      "Screenshot_2024-10-10-15-07-29-35_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "久远银海",
+    "formerDate": "2024-10-09",
+    "mode": -100,
+    "lastPrice": 0,
+    "bigPrice": 0.98,
+    "failureReason": [10],
+    "resultPoint": -4.2,
+    "sellTiming": 0,
+    "phase": 4,
+    "buyReason": "大单连板股试错买入，华为概念，非核心中位股。指数回踩均线，题材延续比较好。润和、常山都连封的很好，套利。",
+    "image_list": [
+      "Screenshot_2024-10-09-15-50-40-07_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-10-10-15-10-06-30_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-10-10-15-10-16-90_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
     "gpName": "中芯国际",
     "formerDate": "2024-10-09",
-    "mode": -1,
+    "mode": 99,
     "lastPrice": 2.96,
     "bigPrice": 0,
     "failureReason": [10],
-    "resultPoint": 0,
+    "resultPoint": -7.2,
     "sellTiming": 0,
     "phase": 4,
     "buyReason": "首仓试错买入，半导体龙头，开盘众多票都是低开，中信、东财都开板了大屁股。半导体龙头中芯国际相对体量较小，而且当时表现最强劲，二波冲半途上车，后回落。知名度不如前两个高，但看表现回落跌幅等算是最好的。下午指数回踩均线，再度拉涨停板加仓。",
     "image_list": [
-      "Screenshot_2024-10-08-15-03-20-27_5c5979e609b9ed4a43e94260d67cf51e.webp"
+      "Screenshot_2024-10-09-15-50-09-07_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-10-10-15-09-02-45_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-10-10-15-09-28-35_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
     "gpName": "招商银行",
     "formerDate": "2024-10-08",
-    "mode": -1,
+    "mode": -100,
     "lastPrice": 0,
     "bigPrice": -0.36,
     "failureReason": [
@@ -52,7 +131,7 @@
   {
     "gpName": "格力电器",
     "formerDate": "2024-10-08",
-    "mode": -1,
+    "mode": -100,
     "lastPrice": 0,
     "bigPrice": 1.55,
     "failureReason": [
@@ -72,16 +151,18 @@
   {
     "gpName": "常山北明",
     "formerDate": "2024-09-30",
-    "mode": -1,
+    "mode": 98,
     "lastPrice": 2.81,
     "bigPrice": 10.35,
     "failureReason": [],
-    "resultPoint": 0,
+    "resultPoint": 16.2,
     "sellTiming": 0,
     "phase": 3,
-    "buyReason": "整体环境是强势延续，预计过两天见顶。这两天大涨的是金融券商，老龙头一直调整，今天指数高开5个点回落，但也有3个多点，龙头辨识度够高，这几天一直在热榜前几，开盘竞价成交1.4亿，强承接，上攻箱体，缩量快速上攻，首次上板大单就6亿左右，没买到，开板大单没有流失，继续增加，不到7亿再次上板买入",
+    "buyReason": "整体环境是强势延续，预计过两天见顶。这两天大涨的是金融券商，老龙头一直调整，今天指数高开5个点回落，但也有3个多点，龙头辨识度够高，这几天一直在热榜前几，开盘竞价成交1.4亿，强承接，上攻箱体，缩量快速上攻，首次上板大单就6亿左右，没买到，开板大单没有流失，继续增加，不到7亿再次上板买入。卖的那天闪崩，卖了几回都没卖掉，核心票要遵循均线卖法",
     "image_list": [
-      "Screenshot_2024-09-30-15-57-55-86_5c5979e609b9ed4a43e94260d67cf51e.webp"
+      "Screenshot_2024-09-30-15-57-55-86_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-10-10-15-09-11-58_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-10-10-15-09-49-43_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
