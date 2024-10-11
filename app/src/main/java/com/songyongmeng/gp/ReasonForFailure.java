@@ -32,7 +32,7 @@ public class ReasonForFailure {
     public static final String REASON_28 = "左侧交易，判断错误";//对应编号28
     public static final String REASON_29 = "右侧交易，不及预期";//对应编号29
     public static final String REASON_30 = "快速拉涨停，不牢固";//对应编号30
-    public static final String REASON_31 = "容量票追高了";//对应编号31
+    public static final String REASON_31 = "追高了";//对应编号31
 
 
 }
