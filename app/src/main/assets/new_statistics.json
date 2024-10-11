@@ -8,7 +8,7 @@
     "failureReason": [],
     "resultPoint": 0,
     "sellTiming": 0,
-    "phase": 4,
+    "phase": 7,
     "buyReason": "新股上市忘了，盘中才发现，根据分钟均线买的，当天涨了16CM。",
     "image_list": [
       "Screenshot_2024-10-11-16-49-24-21_5c5979e609b9ed4a43e94260d67cf51e.webp"
@@ -18,12 +18,12 @@
     "gpName": "四方精创",
     "formerDate": "2024-10-09",
     "mode": -1,
-    "lastPrice": 0,
+    "lastPrice": 2.52,
     "bigPrice": 3.9,
     "failureReason": [],
     "resultPoint": 0,
     "sellTiming": 0,
-    "phase": 4,
+    "phase": 7,
     "buyReason": "早上刷大单看到的，形态太好了，放量调整两天后，迅速突破筹码密集区。忍不住买了。",
     "image_list": [
       "Screenshot_2024-10-11-16-49-04-63_5c5979e609b9ed4a43e94260d67cf51e.webp"
@@ -38,7 +38,7 @@
     "failureReason": [10,27],
     "resultPoint": 0,
     "sellTiming": 0,
-    "phase": 4,
+    "phase": 6,
     "buyReason": "证券双龙之一，早上被版块带崩，上午成交100多亿，翻红觉得还能继续，就上车了，下午继续调整。自己总爱博穿越，费力不讨好，第二天跌停开盘，还想做个t，结果板上买，板上卖。",
     "image_list": [
       "Screenshot_2024-10-10-15-06-48-22_5c5979e609b9ed4a43e94260d67cf51e.webp",
@@ -53,8 +53,8 @@
     "bigPrice": 2.85,
     "failureReason": [10],
     "resultPoint": -8.2,
-    "sellTiming": 0,
-    "phase": 5,
+    "sellTiming": 1,
+    "phase": 6,
     "buyReason": "大盘指数回踩5日线，版块早盘异动，这票有辨识度，上板时大单1亿多，上车，K线形态好，开盘低开，时间长没打首板，都忘了纪律，低开没走，跌了8 9个点",
     "image_list": [
       "Screenshot_2024-10-10-15-07-03-43_5c5979e609b9ed4a43e94260d67cf51e.webp",
@@ -69,9 +69,9 @@
     "lastPrice": 0,
     "bigPrice": 0.8,
     "failureReason": [10,20,31],
-    "resultPoint": 0,
-    "sellTiming": -7.2,
-    "phase": 4,
+    "resultPoint": -7.2,
+    "sellTiming": 1,
+    "phase": 6,
     "buyReason": "9个多点的时候看到了没上，等中午14个点看到了才上，买的太高，太晚。上车时有1个亿大单，没辨识度追高必死，因为觉得今天行情可能还行，就等了等，结果太弱了。还没开盘跑……",
     "image_list": [
       "Screenshot_2024-10-10-15-08-38-85_5c5979e609b9ed4a43e94260d67cf51e.webp",
@@ -86,9 +86,9 @@
     "lastPrice": 0,
     "bigPrice": 1.21,
     "failureReason": [10,20,31],
-    "resultPoint": 0,
+    "resultPoint": -12.1,
     "sellTiming": 0,
-    "phase": 4,
+    "phase": 6,
     "buyReason": "反包上板，辨识度不高，炸板后，大单就有1亿多，版块1个多点，8个点上车，买的太高。没封住炸板。爆量后，走太弱，选择方向，向下，已经预感到了，果然跌停开。",
     "image_list": [
       "Screenshot_2024-10-10-15-07-17-00_5c5979e609b9ed4a43e94260d67cf51e.webp",
@@ -105,7 +105,7 @@
     "failureReason": [10,20],
     "resultPoint": -2.3,
     "sellTiming": 0,
-    "phase": 4,
+    "phase": 6,
     "buyReason": "早盘一时半会没有合适标的，反包筛选出一大堆下跌的票，但没有大单，过了半小时，有个2700万的，正3个多点，大单陆续增加，上车，K线形态也是回踩5日线。买完都不知道干什么的。",
     "image_list": [
       "Screenshot_2024-10-10-15-07-29-35_5c5979e609b9ed4a43e94260d67cf51e.webp",
@@ -122,7 +122,7 @@
     "failureReason": [10],
     "resultPoint": -4.2,
     "sellTiming": 0,
-    "phase": 4,
+    "phase": 6,
     "buyReason": "大单连板股试错买入，华为概念，非核心中位股。指数回踩均线，题材延续比较好。润和、常山都连封的很好，套利。",
     "image_list": [
       "Screenshot_2024-10-09-15-50-40-07_5c5979e609b9ed4a43e94260d67cf51e.webp",
@@ -139,7 +139,7 @@
     "failureReason": [10],
     "resultPoint": -7.2,
     "sellTiming": 0,
-    "phase": 4,
+    "phase": 6,
     "buyReason": "首仓试错买入，半导体龙头，开盘众多票都是低开，中信、东财都开板了大屁股。半导体龙头中芯国际相对体量较小，而且当时表现最强劲，二波冲半途上车，后回落。知名度不如前两个高，但看表现回落跌幅等算是最好的。下午指数回踩均线，再度拉涨停板加仓。",
     "image_list": [
       "Screenshot_2024-10-09-15-50-09-07_5c5979e609b9ed4a43e94260d67cf51e.webp",
