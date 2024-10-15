@@ -731,6 +731,12 @@ public class MonthStatisticsAdapter extends RecyclerView.Adapter<MonthStatistics
             case 31:
                 tmp = ReasonForFailure.REASON_31;
                 break;
+            case 32:
+                tmp = ReasonForFailure.REASON_32;
+                break;
+            case 33:
+                tmp = ReasonForFailure.REASON_33;
+                break;
             default:
                 break;
         }

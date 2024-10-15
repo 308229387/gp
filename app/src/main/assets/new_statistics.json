@@ -1,48 +1,119 @@
 [
   {
-    "gpName": "强邦新材",
-    "formerDate": "2024-10-09",
+    "gpName": "华峰超纤",
+    "formerDate": "2024-10-15",
     "mode": -1,
     "lastPrice": 0,
-    "bigPrice": 9.5,
-    "failureReason": [],
+    "bigPrice": 3.65,
+    "failureReason": [10],
     "resultPoint": 0,
     "sellTiming": 0,
     "phase": 7,
-    "buyReason": "新股上市忘了，盘中才发现，根据分钟均线买的，当天涨了16CM。",
+    "buyReason": "这两天行情是高切低，华峰做为之前的后排，今天强势上板，但又杀指数，被带崩。",
     "image_list": [
-      "Screenshot_2024-10-11-16-49-24-21_5c5979e609b9ed4a43e94260d67cf51e.webp"
+      "Screenshot_2024-10-15-18-39-54-60_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "中创环保",
+    "formerDate": "2024-10-15",
+    "mode": -1,
+    "lastPrice": 0,
+    "bigPrice": -1.81,
+    "failureReason": [1,2,32],
+    "resultPoint": 0,
+    "sellTiming": 0,
+    "phase": 7,
+    "buyReason": "除了快速拉升，没有其他任何优势",
+    "image_list": [
+      "Screenshot_2024-10-15-18-39-44-53_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "银邦股份",
+    "formerDate": "2024-10-09",
+    "mode": 98,
+    "lastPrice": 2.28,
+    "bigPrice": 9.5,
+    "failureReason": [31],
+    "resultPoint": 17,
+    "sellTiming": -1,
+    "phase": 1,
+    "buyReason": "创业板大单排序第一，发现的时候14个点，一度回落，后来环境好拉了起来，还是买的高了",
+    "image_list": [
+      "Screenshot_2024-10-14-17-06-39-09_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-10-15-18-40-03-61_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-10-15-18-40-10-94_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "中油资本",
+    "formerDate": "2024-10-09",
+    "mode": 99,
+    "lastPrice": 0.78,
+    "bigPrice": 9.5,
+    "failureReason": [],
+    "resultPoint": -6.2,
+    "sellTiming": 0,
+    "phase": 7,
+    "buyReason": "前一天跨镜支付很强势，而且也有多元金融的概念，竞价直接上了，但表现不够强势，烂了一天，分歧放量，追了一致，这两天是高切低，第二天开盘拉了点就走了，预期不高。",
+    "image_list": [
+      "Screenshot_2024-10-14-17-06-29-40_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-10-15-18-40-21-88_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-10-15-18-40-31-41_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "强邦新材",
+    "formerDate": "2024-10-09",
+    "mode": 0,
+    "lastPrice": 0,
+    "bigPrice": 9.5,
+    "failureReason": [],
+    "resultPoint": -11.2,
+    "sellTiming": 0,
+    "phase": 7,
+    "buyReason": "新股上市忘了，盘中才发现，根据分钟均线买的，当天涨了16CM。次日亏损爆炸，反弹一些后离场。",
+    "image_list": [
+      "Screenshot_2024-10-11-16-49-24-21_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-10-14-17-05-41-35_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-10-14-17-05-48-92_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
     "gpName": "四方精创",
     "formerDate": "2024-10-09",
-    "mode": -1,
+    "mode": 98,
     "lastPrice": 2.52,
     "bigPrice": 3.9,
-    "failureReason": [],
+    "failureReason": [33],
     "resultPoint": 0,
     "sellTiming": 0,
     "phase": 7,
-    "buyReason": "早上刷大单看到的，形态太好了，放量调整两天后，迅速突破筹码密集区。忍不住买了。",
+    "buyReason": "早上刷大单看到的，形态太好了，放量调整两天后，迅速突破筹码密集区。忍不住买了，当天强势封到尾盘，本来稳稳的大肉，想着这票能模仿银之杰，结果反向做T。明天不着急卖，板块涨了7个多点，应该会有溢出效应。大肉给折腾没了，又因为恐惧早早的走了题材回流没跟上。",
     "image_list": [
-      "Screenshot_2024-10-11-16-49-04-63_5c5979e609b9ed4a43e94260d67cf51e.webp"
+      "Screenshot_2024-10-11-16-49-04-63_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-10-14-17-06-01-21_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-10-15-18-40-40-78_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-10-15-18-40-49-73_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
     "gpName": "天风证券",
     "formerDate": "2024-10-10",
-    "mode": -1,
+    "mode": 99,
     "lastPrice": 0,
     "bigPrice": -49.44,
     "failureReason": [10,27],
-    "resultPoint": 0,
+    "resultPoint": -15.2,
     "sellTiming": 0,
     "phase": 6,
-    "buyReason": "证券双龙之一，早上被版块带崩，上午成交100多亿，翻红觉得还能继续，就上车了，下午继续调整。自己总爱博穿越，费力不讨好，第二天跌停开盘，还想做个t，结果板上买，板上卖。",
+    "buyReason": "证券双龙之一，早上被版块带崩，上午成交100多亿，翻红觉得还能继续，就上车了，下午继续调整。自己总爱博穿越，费力不讨好，第二天跌停开盘，还想做个t，结果板上买，板上卖。第三天观察了一会，向下低开离场",
     "image_list": [
       "Screenshot_2024-10-10-15-06-48-22_5c5979e609b9ed4a43e94260d67cf51e.webp",
-      "Screenshot_2024-10-11-16-49-15-12_5c5979e609b9ed4a43e94260d67cf51e.webp"
+      "Screenshot_2024-10-11-16-49-15-12_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-10-14-17-06-13-34_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-10-14-17-07-14-08_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
@@ -1580,7 +1651,7 @@
   {
     "gpName": "万集科技",
     "formerDate": "2024-06-06",
-    "mode": 0,
+    "mode": 97,
     "lastPrice": 0,
     "failureReason": [],
     "resultPoint": -9.55,
@@ -1650,7 +1721,7 @@
   {
     "gpName": "东杰智能",
     "formerDate": "2024-06-03",
-    "mode": 0,
+    "mode": 97,
     "lastPrice": 0,
     "failureReason": [],
     "resultPoint": -2.91,
@@ -1665,7 +1736,7 @@
   {
     "gpName": "国科微",
     "formerDate": "2024-06-03",
-    "mode": 0,
+    "mode": 97,
     "lastPrice": 0,
     "failureReason": [],
     "resultPoint": 1.55,
@@ -1738,7 +1809,7 @@
   {
     "gpName": "裕兴股份",
     "formerDate": "2024-05-31",
-    "mode": 0,
+    "mode": 97,
     "lastPrice": 0,
     "failureReason": [],
     "resultPoint": -7.86,
@@ -1752,7 +1823,7 @@
   {
     "gpName": "新晨科技",
     "formerDate": "2024-05-31",
-    "mode": 0,
+    "mode": 97,
     "lastPrice": 0,
     "failureReason": [],
     "resultPoint": -1.01,
@@ -1822,7 +1893,7 @@
   {
     "gpName": "金利华电",
     "formerDate": "2024-05-30",
-    "mode": 0,
+    "mode": 97,
     "lastPrice": 0,
     "failureReason": [],
     "resultPoint": 5.33,
@@ -1836,7 +1907,7 @@
   {
     "gpName": "华峰超纤",
     "formerDate": "2024-05-30",
-    "mode": 0,
+    "mode": 97,
     "lastPrice": 0,
     "failureReason": [],
     "resultPoint": -3.51,

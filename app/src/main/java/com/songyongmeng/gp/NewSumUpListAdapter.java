@@ -560,7 +560,7 @@ public class NewSumUpListAdapter extends RecyclerView.Adapter<NewSumUpListAdapte
                         } else if (data.getMode() == 97) {
                             tmp = "版块回流";
                         } else if (data.getMode() == 0) {
-                            tmp = "均线反弹";
+                            tmp = "新股";
                         } else if (data.getMode() == 18) {
                             tmp = "低位分歧";
                         } else if (data.getMode() == 1) {

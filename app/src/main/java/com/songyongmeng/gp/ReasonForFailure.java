@@ -33,6 +33,8 @@ public class ReasonForFailure {
     public static final String REASON_29 = "右侧交易，不及预期";//对应编号29
     public static final String REASON_30 = "快速拉涨停，不牢固";//对应编号30
     public static final String REASON_31 = "追高了";//对应编号31
+    public static final String REASON_32 = "无大单";
+    public static final String REASON_33 = "瞎折腾、加仓、做T";
 
 
 }
