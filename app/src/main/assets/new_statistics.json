@@ -1,49 +1,66 @@
 [
   {
+    "gpName": "保变电汽",
+    "formerDate": "2024-10-16",
+    "mode": -1,
+    "lastPrice": 0,
+    "bigPrice": -0.01,
+    "failureReason": [],
+    "resultPoint": 0,
+    "sellTiming": 0,
+    "phase": 1,
+    "buyReason": "反弹阶段的断板反包，4个点左右4千多万，上车，后冲高未能封板。当天微盈利1个多点。",
+    "image_list": [
+      "Screenshot_2024-10-16-16-50-50-86_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "常山北明",
+    "formerDate": "2024-10-16",
+    "mode": -1,
+    "lastPrice": 6.73,
+    "bigPrice": 13.43,
+    "failureReason": [],
+    "resultPoint": 0,
+    "sellTiming": 0,
+    "phase": 1,
+    "buyReason": "31分的时候就成交了，几十秒成交了2亿多，熟悉的配方……。微高开、急拉，超大单注入、高辨识度。注意卖点",
+    "image_list": [
+      "Screenshot_2024-10-16-16-50-33-33_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
     "gpName": "华峰超纤",
     "formerDate": "2024-10-15",
-    "mode": -1,
+    "mode": 98,
     "lastPrice": 0,
     "bigPrice": 3.65,
     "failureReason": [10],
-    "resultPoint": 0,
+    "resultPoint": -10.2,
     "sellTiming": 0,
-    "phase": 7,
-    "buyReason": "这两天行情是高切低，华峰做为之前的后排，今天强势上板，但又杀指数，被带崩。",
+    "phase": 1,
+    "buyReason": "这两天行情是高切低，华峰做为之前的后排，今天强势上板，但又杀指数，被带崩。晚上被3倍做空的15个点吓跑。",
     "image_list": [
-      "Screenshot_2024-10-15-18-39-54-60_5c5979e609b9ed4a43e94260d67cf51e.webp"
+      "Screenshot_2024-10-15-18-39-54-60_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-10-16-16-49-51-41_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-10-16-16-50-00-99_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
     "gpName": "中创环保",
     "formerDate": "2024-10-15",
-    "mode": -1,
+    "mode": 98,
     "lastPrice": 0,
     "bigPrice": -1.81,
     "failureReason": [1,2,32],
     "resultPoint": 0,
     "sellTiming": 0,
-    "phase": 7,
-    "buyReason": "除了快速拉升，没有其他任何优势",
-    "image_list": [
-      "Screenshot_2024-10-15-18-39-44-53_5c5979e609b9ed4a43e94260d67cf51e.webp"
-    ]
-  },
-  {
-    "gpName": "银邦股份",
-    "formerDate": "2024-10-09",
-    "mode": 98,
-    "lastPrice": 2.28,
-    "bigPrice": 9.5,
-    "failureReason": [31],
-    "resultPoint": 17,
-    "sellTiming": -1,
     "phase": 1,
-    "buyReason": "创业板大单排序第一，发现的时候14个点，一度回落，后来环境好拉了起来，还是买的高了",
+    "buyReason": "除了快速拉升，没有其他任何优势。晚上被3倍做空的15个点吓跑。发现如果竞价强势，好像都能拿一拿",
     "image_list": [
-      "Screenshot_2024-10-14-17-06-39-09_5c5979e609b9ed4a43e94260d67cf51e.webp",
-      "Screenshot_2024-10-15-18-40-03-61_5c5979e609b9ed4a43e94260d67cf51e.webp",
-      "Screenshot_2024-10-15-18-40-10-94_5c5979e609b9ed4a43e94260d67cf51e.webp"
+      "Screenshot_2024-10-15-18-39-44-53_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-10-16-16-50-11-73_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-10-16-16-50-20-13_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
@@ -53,7 +70,7 @@
     "lastPrice": 0.78,
     "bigPrice": 9.5,
     "failureReason": [],
-    "resultPoint": -6.2,
+    "resultPoint": -2.98,
     "sellTiming": 0,
     "phase": 7,
     "buyReason": "前一天跨镜支付很强势，而且也有多元金融的概念，竞价直接上了，但表现不够强势，烂了一天，分歧放量，追了一致，这两天是高切低，第二天开盘拉了点就走了，预期不高。",
@@ -64,20 +81,20 @@
     ]
   },
   {
-    "gpName": "强邦新材",
+    "gpName": "银邦股份",
     "formerDate": "2024-10-09",
-    "mode": 0,
-    "lastPrice": 0,
+    "mode": 98,
+    "lastPrice": 2.28,
     "bigPrice": 9.5,
-    "failureReason": [],
-    "resultPoint": -11.2,
-    "sellTiming": 0,
-    "phase": 7,
-    "buyReason": "新股上市忘了，盘中才发现，根据分钟均线买的，当天涨了16CM。次日亏损爆炸，反弹一些后离场。",
+    "failureReason": [31],
+    "resultPoint": 18.82,
+    "sellTiming": -1,
+    "phase": 1,
+    "buyReason": "创业板大单排序第一，发现的时候14个点，一度回落，后来环境好拉了起来，还是买的高了",
     "image_list": [
-      "Screenshot_2024-10-11-16-49-24-21_5c5979e609b9ed4a43e94260d67cf51e.webp",
-      "Screenshot_2024-10-14-17-05-41-35_5c5979e609b9ed4a43e94260d67cf51e.webp",
-      "Screenshot_2024-10-14-17-05-48-92_5c5979e609b9ed4a43e94260d67cf51e.webp"
+      "Screenshot_2024-10-14-17-06-39-09_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-10-15-18-40-03-61_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-10-15-18-40-10-94_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
@@ -87,7 +104,7 @@
     "lastPrice": 2.52,
     "bigPrice": 3.9,
     "failureReason": [33],
-    "resultPoint": 0,
+    "resultPoint": -4.59,
     "sellTiming": 0,
     "phase": 7,
     "buyReason": "早上刷大单看到的，形态太好了，放量调整两天后，迅速突破筹码密集区。忍不住买了，当天强势封到尾盘，本来稳稳的大肉，想着这票能模仿银之杰，结果反向做T。明天不着急卖，板块涨了7个多点，应该会有溢出效应。大肉给折腾没了，又因为恐惧早早的走了题材回流没跟上。",
@@ -99,13 +116,30 @@
     ]
   },
   {
+    "gpName": "强邦新材",
+    "formerDate": "2024-10-09",
+    "mode": 0,
+    "lastPrice": 0,
+    "bigPrice": 9.5,
+    "failureReason": [],
+    "resultPoint": -11.9,
+    "sellTiming": 0,
+    "phase": 7,
+    "buyReason": "新股上市忘了，盘中才发现，根据分钟均线买的，当天涨了16CM。次日亏损爆炸，反弹一些后离场。",
+    "image_list": [
+      "Screenshot_2024-10-11-16-49-24-21_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-10-14-17-05-41-35_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-10-14-17-05-48-92_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
     "gpName": "天风证券",
     "formerDate": "2024-10-10",
     "mode": 99,
     "lastPrice": 0,
     "bigPrice": -49.44,
-    "failureReason": [10,27],
-    "resultPoint": -15.2,
+    "failureReason": [10,27,33],
+    "resultPoint": -12.38,
     "sellTiming": 0,
     "phase": 6,
     "buyReason": "证券双龙之一，早上被版块带崩，上午成交100多亿，翻红觉得还能继续，就上车了，下午继续调整。自己总爱博穿越，费力不讨好，第二天跌停开盘，还想做个t，结果板上买，板上卖。第三天观察了一会，向下低开离场",
@@ -117,13 +151,30 @@
     ]
   },
   {
+    "gpName": "深桑达",
+    "formerDate": "2024-10-10",
+    "mode": 98,
+    "lastPrice": 0,
+    "bigPrice": 1.21,
+    "failureReason": [10,20,31],
+    "resultPoint": -13.07,
+    "sellTiming": 0,
+    "phase": 6,
+    "buyReason": "反包上板，辨识度不高，炸板后，大单就有1亿多，版块1个多点，8个点上车，买的太高。没封住炸板。爆量后，走太弱，选择方向，向下，已经预感到了，果然跌停开。",
+    "image_list": [
+      "Screenshot_2024-10-10-15-07-17-00_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-10-11-16-51-02-33_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-10-11-16-51-10-41_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
     "gpName": "香雪制药",
     "formerDate": "2024-10-10",
     "mode": 1,
     "lastPrice": 0.67,
     "bigPrice": 2.85,
     "failureReason": [10],
-    "resultPoint": -8.2,
+    "resultPoint": -11.72,
     "sellTiming": 1,
     "phase": 6,
     "buyReason": "大盘指数回踩5日线，版块早盘异动，这票有辨识度，上板时大单1亿多，上车，K线形态好，开盘低开，时间长没打首板，都忘了纪律，低开没走，跌了8 9个点",
@@ -140,7 +191,7 @@
     "lastPrice": 0,
     "bigPrice": 0.8,
     "failureReason": [10,20,31],
-    "resultPoint": -7.2,
+    "resultPoint": -12.43,
     "sellTiming": 1,
     "phase": 6,
     "buyReason": "9个多点的时候看到了没上，等中午14个点看到了才上，买的太高，太晚。上车时有1个亿大单，没辨识度追高必死，因为觉得今天行情可能还行，就等了等，结果太弱了。还没开盘跑……",
@@ -151,30 +202,13 @@
     ]
   },
   {
-    "gpName": "深桑达",
-    "formerDate": "2024-10-10",
-    "mode": 98,
-    "lastPrice": 0,
-    "bigPrice": 1.21,
-    "failureReason": [10,20,31],
-    "resultPoint": -12.1,
-    "sellTiming": 0,
-    "phase": 6,
-    "buyReason": "反包上板，辨识度不高，炸板后，大单就有1亿多，版块1个多点，8个点上车，买的太高。没封住炸板。爆量后，走太弱，选择方向，向下，已经预感到了，果然跌停开。",
-    "image_list": [
-      "Screenshot_2024-10-10-15-07-17-00_5c5979e609b9ed4a43e94260d67cf51e.webp",
-      "Screenshot_2024-10-11-16-51-02-33_5c5979e609b9ed4a43e94260d67cf51e.webp",
-      "Screenshot_2024-10-11-16-51-10-41_5c5979e609b9ed4a43e94260d67cf51e.webp"
-    ]
-  },
-  {
     "gpName": "恒为科技",
     "formerDate": "2024-10-10",
     "mode": 98,
     "lastPrice": 0,
     "bigPrice": 1.44,
     "failureReason": [10,20],
-    "resultPoint": -2.3,
+    "resultPoint": -2.02,
     "sellTiming": 0,
     "phase": 6,
     "buyReason": "早盘一时半会没有合适标的，反包筛选出一大堆下跌的票，但没有大单，过了半小时，有个2700万的，正3个多点，大单陆续增加，上车，K线形态也是回踩5日线。买完都不知道干什么的。",
@@ -219,26 +253,6 @@
     ]
   },
   {
-    "gpName": "招商银行",
-    "formerDate": "2024-10-08",
-    "mode": -100,
-    "lastPrice": 0,
-    "bigPrice": -0.36,
-    "failureReason": [
-      2,
-      27
-    ],
-    "resultPoint": -3.01,
-    "sellTiming": 0,
-    "phase": 4,
-    "buyReason": "大盘极度一致，10个点开盘，个股涨停开盘，开板一会有2亿大单，热榜靠后，极端行情，上车后回落。买在了市场情绪见顶时，辨识度也差点意思，竞价差，竞价秒",
-    "image_list": [
-      "Screenshot_2024-10-08-15-03-20-27_5c5979e609b9ed4a43e94260d67cf51e.webp",
-      "Screenshot_2024-10-09-15-49-07-51_5c5979e609b9ed4a43e94260d67cf51e.webp",
-      "Screenshot_2024-10-09-15-49-16-94_5c5979e609b9ed4a43e94260d67cf51e.webp"
-    ]
-  },
-  {
     "gpName": "格力电器",
     "formerDate": "2024-10-08",
     "mode": -100,
@@ -256,6 +270,26 @@
       "Screenshot_2024-10-08-15-03-11-44_5c5979e609b9ed4a43e94260d67cf51e.webp",
       "Screenshot_2024-10-09-15-49-31-48_5c5979e609b9ed4a43e94260d67cf51e.webp",
       "Screenshot_2024-10-09-15-49-40-27_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "招商银行",
+    "formerDate": "2024-10-08",
+    "mode": -100,
+    "lastPrice": 0,
+    "bigPrice": -0.36,
+    "failureReason": [
+      2,
+      27
+    ],
+    "resultPoint": -3.01,
+    "sellTiming": 0,
+    "phase": 4,
+    "buyReason": "大盘极度一致，10个点开盘，个股涨停开盘，开板一会有2亿大单，热榜靠后，极端行情，上车后回落。买在了市场情绪见顶时，辨识度也差点意思，竞价差，竞价秒",
+    "image_list": [
+      "Screenshot_2024-10-08-15-03-20-27_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-10-09-15-49-07-51_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-10-09-15-49-16-94_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
@@ -282,7 +316,7 @@
     "lastPrice": 0,
     "bigPrice": 0.32,
     "failureReason": [],
-    "resultPoint": 11.2,
+    "resultPoint": 11.7,
     "sellTiming": -1,
     "phase": 7,
     "buyReason": "这票冲高后调整了三天，第三天收阴，形态未变，开盘快速流入4千万，点位不高1个点，环境还是延续很好，盈亏比很高，中途大单流入有1亿多，以为稳了，但尾盘看涨幅都跑不过版块，有点弱，换手到是挺高。次日大盘高开回落，开盘就在箱体上部，拿了一会看没有上冲，-2000万的大单，主观认为会大跌，离场，后涨停",
@@ -292,23 +326,7 @@
       "Screenshot_2024-09-30-15-58-18-65_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
-  {
-    "gpName": "中交地产",
-    "formerDate": "2024-09-26",
-    "mode": 98,
-    "lastPrice": 0.13,
-    "bigPrice": 0.93,
-    "failureReason": [],
-    "resultPoint": 6.7,
-    "sellTiming": -1,
-    "phase": 6,
-    "buyReason": "当天大盘环境处于冲高回落次日。因为昨天的弱转强变天地板，热度够高，且近期地产表现不错，开盘价格就快速从微低开拉到4个点附近，大单2000多万上车，偏弱，后震荡向上慢慢封板，但力度不够。封单太小。没上热榜判断人气不够，次日开盘收红离场，但从5日均线来看，昨天涨停站上五日，今天怎么都会有冲高。还是卖的早了点",
-    "image_list": [
-      "Screenshot_2024-09-26-17-23-43-73_5c5979e609b9ed4a43e94260d67cf51e.webp",
-      "Screenshot_2024-09-27-15-33-53-92_5c5979e609b9ed4a43e94260d67cf51e.webp",
-      "Screenshot_2024-09-27-15-34-02-75_5c5979e609b9ed4a43e94260d67cf51e.webp"
-    ]
-  },
+
   {
     "gpName": "宝塔实业",
     "formerDate": "2024-09-26",
@@ -319,7 +337,7 @@
       27,
       28
     ],
-    "resultPoint": -8.1,
+    "resultPoint": -8.56,
     "sellTiming": 0,
     "phase": 6,
     "buyReason": "在三板就关注到了，三板四板都是烂板，很费劲走的，换手够大，热榜人气够足，呼家楼里面资金有两个多亿，第五天分时斜度稳定，在分时均线上方震荡，板上附近大单也就-3000多万，分析环境还可以如果上板，那大单就是大笔流入，第二天还会有溢价，而且当时高票双成也没有开板，决定试一下----\n\n----差点天地，弱不能转强，不该参与，而且预判大单这单一指标，不应该做为买入的绝对依据，低开未快速上冲判断被市场抛弃，离场。",
@@ -330,13 +348,30 @@
     ]
   },
   {
+    "gpName": "中交地产",
+    "formerDate": "2024-09-26",
+    "mode": 98,
+    "lastPrice": 0.13,
+    "bigPrice": 0.93,
+    "failureReason": [],
+    "resultPoint": 6.42,
+    "sellTiming": -1,
+    "phase": 6,
+    "buyReason": "当天大盘环境处于冲高回落次日。因为昨天的弱转强变天地板，热度够高，且近期地产表现不错，开盘价格就快速从微低开拉到4个点附近，大单2000多万上车，偏弱，后震荡向上慢慢封板，但力度不够。封单太小。没上热榜判断人气不够，次日开盘收红离场，但从5日均线来看，昨天涨停站上五日，今天怎么都会有冲高。还是卖的早了点",
+    "image_list": [
+      "Screenshot_2024-09-26-17-23-43-73_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-09-27-15-33-53-92_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-09-27-15-34-02-75_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
     "gpName": "常山北明",
     "formerDate": "2024-09-25",
     "mode": 98,
     "lastPrice": 2.28,
     "bigPrice": 12.08,
     "failureReason": [],
-    "resultPoint": 16.5,
+    "resultPoint": 16.37,
     "sellTiming": 0,
     "phase": 6,
     "buyReason": "昨天被保底带闪崩，但没有锁死流通性，换手率到了40%，今天大盘环境依然很强，但龙头保底电汽主跌，短线情绪较差，开盘低开，大单大笔买入，-3-4时就看到了，净流入1个亿，但毕竟太低，没敢上，过零轴时，大单已经3亿了，这时觉得有反包的意图，1个点上车。震荡向上，但感觉力度不够，不能快速向上，冲第二次无果后卖出，后面又震荡一会后上板，卖早了",
