@@ -1,32 +1,111 @@
 [
   {
-    "gpName": "保变电汽",
-    "formerDate": "2024-10-16",
+    "gpName": "软通动力",
+    "formerDate": "2024-10-17",
     "mode": -1,
     "lastPrice": 0,
-    "bigPrice": -0.01,
+    "bigPrice": 17.92,
     "failureReason": [],
     "resultPoint": 0,
     "sellTiming": 0,
     "phase": 1,
-    "buyReason": "反弹阶段的断板反包，4个点左右4千多万，上车，后冲高未能封板。当天微盈利1个多点。",
+    "buyReason": "4个多点7千多万，华为小核心，上板后炸开，大单17亿，明天观察下华为线，这票问题不大，刚过平台，被指数带开，明天应该有高点锁一锁。",
     "image_list": [
-      "Screenshot_2024-10-16-16-50-50-86_5c5979e609b9ed4a43e94260d67cf51e.webp"
+      "Screenshot_2024-10-17-15-27-24-79_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "苏交科",
+    "formerDate": "2024-10-17",
+    "mode": -1,
+    "lastPrice": 0,
+    "bigPrice": -0.32,
+    "failureReason": [],
+    "resultPoint": 0,
+    "sellTiming": 0,
+    "phase": 1,
+    "buyReason": "没有什么辨识度，纯碎大单反包动态组，筛选出来的，7千多万，6个点，后来杀指数，被带下来了。缺点是K线形态有点高了，偏离均线了有点",
+    "image_list": [
+      "Screenshot_2024-10-17-15-28-02-64_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "福日电子",
+    "formerDate": "2024-10-17",
+    "mode": -1,
+    "lastPrice": 0,
+    "bigPrice": -0.87,
+    "failureReason": [],
+    "resultPoint": 0,
+    "sellTiming": 0,
+    "phase": 1,
+    "buyReason": "目前都是低位，应该会出来一个有高度的票，当天是3-4个，自己挑了个，杀指数被带下来了，难受了，",
+    "image_list": [
+      "Screenshot_2024-10-17-15-27-35-72_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "吉电股份",
+    "formerDate": "2024-10-17",
+    "mode": -1,
+    "lastPrice": 0.11,
+    "bigPrice": 0.54,
+    "failureReason": [],
+    "resultPoint": 0,
+    "sellTiming": 0,
+    "phase": 1,
+    "buyReason": "没有什么辨识度，纯碎大单反包动态组，筛选出来的，2个点就4500万，后来杀指数，被带下来了。缺点是K线形态有点高了，偏离均线了有点",
+    "image_list": [
+      "Screenshot_2024-10-17-15-27-48-34_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "青岛金王",
+    "formerDate": "2024-10-17",
+    "mode": -1,
+    "lastPrice": 0.11,
+    "bigPrice": 0.54,
+    "failureReason": [],
+    "resultPoint": 0,
+    "sellTiming": 0,
+    "phase": 1,
+    "buyReason": "跨境支付标的反包，看形态比较喜欢。加之位置不高，有一定辨识度。",
+    "image_list": [
+      "Screenshot_2024-10-17-15-28-11-17_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "保变电汽",
+    "formerDate": "2024-10-16",
+    "mode": 98,
+    "lastPrice": 0,
+    "bigPrice": -0.01,
+    "failureReason": [],
+    "resultPoint": 2.1,
+    "sellTiming": 0,
+    "phase": 1,
+    "buyReason": "反弹阶段的断板反包，4个点左右4千多万，上车，后冲高未能封板。当天微盈利1个多点。每二天看竞价高开，挺高兴，结果高开向下，不及预期离场",
+    "image_list": [
+      "Screenshot_2024-10-16-16-50-50-86_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-10-17-15-27-05-72_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-10-17-15-27-14-18_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
     "gpName": "常山北明",
     "formerDate": "2024-10-16",
-    "mode": -1,
+    "mode": 98,
     "lastPrice": 6.73,
     "bigPrice": 13.43,
     "failureReason": [],
-    "resultPoint": 0,
+    "resultPoint": 13.2,
     "sellTiming": 0,
     "phase": 1,
-    "buyReason": "31分的时候就成交了，几十秒成交了2亿多，熟悉的配方……。微高开、急拉，超大单注入、高辨识度。注意卖点",
+    "buyReason": "31分的时候就成交了，几十秒成交了2亿多，熟悉的配方……。微高开、急拉，超大单注入、高辨识度。第二天冲高就走了，一是太高，二是太一至了，之前吃过一次亏",
     "image_list": [
-      "Screenshot_2024-10-16-16-50-33-33_5c5979e609b9ed4a43e94260d67cf51e.webp"
+      "Screenshot_2024-10-16-16-50-33-33_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-10-17-15-26-43-39_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-10-17-15-26-53-41_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
