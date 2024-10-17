@@ -35,7 +35,7 @@
     "mode": 98,
     "lastPrice": 0,
     "bigPrice": 3.65,
-    "failureReason": [10],
+    "failureReason": [10,31],
     "resultPoint": -10.2,
     "sellTiming": 0,
     "phase": 1,
