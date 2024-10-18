@@ -1,17 +1,79 @@
 [
   {
-    "gpName": "软通动力",
-    "formerDate": "2024-10-17",
+    "gpName": "高新发展",
+    "formerDate": "2024-10-18",
     "mode": -1,
     "lastPrice": 0,
-    "bigPrice": 17.92,
+    "bigPrice": -0.99,
     "failureReason": [],
     "resultPoint": 0,
     "sellTiming": 0,
     "phase": 1,
-    "buyReason": "4个多点7千多万，华为小核心，上板后炸开，大单17亿，明天观察下华为线，这票问题不大，刚过平台，被指数带开，明天应该有高点锁一锁。",
+    "buyReason": "懵了瞎买的，早盘又是亏，5个多点，看在拉升，硬追的。",
     "image_list": [
-      "Screenshot_2024-10-17-15-27-24-79_5c5979e609b9ed4a43e94260d67cf51e.webp"
+      "Screenshot_2024-10-18-16-49-47-62_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "蒙草生态",
+    "formerDate": "2024-10-18",
+    "mode": -1,
+    "lastPrice": 0,
+    "bigPrice": -0.9,
+    "failureReason": [],
+    "resultPoint": 0,
+    "sellTiming": 0,
+    "phase": 1,
+    "buyReason": "早盘筛选反包，4个多点，4千多万，蒙早生态略有辨识度。西部大开发概念，当天回落，后感觉均线有支撑，阳多阴少，加仓，持股两日。",
+    "image_list": [
+      "Screenshot_2024-10-18-16-50-09-84_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "天风证券",
+    "formerDate": "2024-10-18",
+    "mode": -1,
+    "lastPrice": 4.58,
+    "bigPrice": 17.55,
+    "failureReason": [],
+    "resultPoint": 0,
+    "sellTiming": 0,
+    "phase": 1,
+    "buyReason": "早盘瞎机吧卖，本来不打算操作了，从3个点看涨了8个多点，看大单已经6个多亿了，想起了前两天踏空的银之杰，就在7个多点上车了。后涨停带动版块拉升。",
+    "image_list": [
+      "Screenshot_2024-10-18-16-49-59-24_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "中信证券",
+    "formerDate": "2024-10-18",
+    "mode": -1,
+    "lastPrice": 0,
+    "bigPrice": 12.01,
+    "failureReason": [],
+    "resultPoint": 0,
+    "sellTiming": 0,
+    "phase": 1,
+    "buyReason": "天风证券强势大单上板。预判证券版块会拉，2个多点上车中信证券，周K线修复，证券拉升。但下周不一定，先套利再说",
+    "image_list": [
+      "Screenshot_2024-10-18-16-46-19-30_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "软通动力",
+    "formerDate": "2024-10-17",
+    "mode": 98,
+    "lastPrice": 0,
+    "bigPrice": 17.92,
+    "failureReason": [],
+    "resultPoint": 0,
+    "sellTiming": -1,
+    "phase": 1,
+    "buyReason": "4个多点7千多万，华为小核心，上板后炸开，大单17亿，明天观察下华为线，这票问题不大，刚过平台，被指数带开，明天应该有高点锁一锁。早盘卖的一坨屎",
+    "image_list": [
+      "Screenshot_2024-10-17-15-27-24-79_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-10-18-16-47-10-57_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-10-18-16-47-20-14_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
@@ -20,13 +82,15 @@
     "mode": -1,
     "lastPrice": 0,
     "bigPrice": -0.32,
-    "failureReason": [],
-    "resultPoint": 0,
-    "sellTiming": 0,
-    "phase": 1,
-    "buyReason": "没有什么辨识度，纯碎大单反包动态组，筛选出来的，7千多万，6个点，后来杀指数，被带下来了。缺点是K线形态有点高了，偏离均线了有点",
+    "failureReason": [20,34],
+    "resultPoint": -5.2,
+    "sellTiming": -1,
+    "phase": -1,
+    "buyReason": "没有什么辨识度，纯碎大单反包动态组，筛选出来的，7千多万，6个点，后来杀指数，被带下来了。缺点是K线形态有点高了，偏离均线了有点，5日线这么陡，怂个机吧……",
     "image_list": [
-      "Screenshot_2024-10-17-15-28-02-64_5c5979e609b9ed4a43e94260d67cf51e.webp"
+      "Screenshot_2024-10-17-15-28-02-64_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-10-18-16-47-30-68_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-10-18-16-47-38-86_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
@@ -36,12 +100,14 @@
     "lastPrice": 0,
     "bigPrice": -0.87,
     "failureReason": [],
-    "resultPoint": 0,
+    "resultPoint": 1.1,
     "sellTiming": 0,
     "phase": 1,
     "buyReason": "目前都是低位，应该会出来一个有高度的票，当天是3-4个，自己挑了个，杀指数被带下来了，难受了，",
     "image_list": [
-      "Screenshot_2024-10-17-15-27-35-72_5c5979e609b9ed4a43e94260d67cf51e.webp"
+      "Screenshot_2024-10-17-15-27-35-72_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-10-18-16-49-24-77_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-10-18-16-49-35-28_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
@@ -50,13 +116,15 @@
     "mode": -1,
     "lastPrice": 0.11,
     "bigPrice": 0.54,
-    "failureReason": [],
-    "resultPoint": 0,
+    "failureReason": [20],
+    "resultPoint": 1.3,
     "sellTiming": 0,
     "phase": 1,
     "buyReason": "没有什么辨识度，纯碎大单反包动态组，筛选出来的，2个点就4500万，后来杀指数，被带下来了。缺点是K线形态有点高了，偏离均线了有点",
     "image_list": [
-      "Screenshot_2024-10-17-15-27-48-34_5c5979e609b9ed4a43e94260d67cf51e.webp"
+      "Screenshot_2024-10-17-15-27-48-34_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-10-18-16-49-07-12_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-10-18-16-49-15-05_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
@@ -65,13 +133,15 @@
     "mode": -1,
     "lastPrice": 0.11,
     "bigPrice": 0.54,
-    "failureReason": [],
-    "resultPoint": 0,
-    "sellTiming": 0,
+    "failureReason": [34],
+    "resultPoint": -0.2,
+    "sellTiming": -1,
     "phase": 1,
     "buyReason": "跨境支付标的反包，看形态比较喜欢。加之位置不高，有一定辨识度。",
     "image_list": [
-      "Screenshot_2024-10-17-15-28-11-17_5c5979e609b9ed4a43e94260d67cf51e.webp"
+      "Screenshot_2024-10-17-15-28-11-17_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-10-18-16-47-51-84_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-10-18-16-48-33-67_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {

@@ -35,6 +35,7 @@ public class ReasonForFailure {
     public static final String REASON_31 = "追高了";//对应编号31
     public static final String REASON_32 = "无大单";
     public static final String REASON_33 = "瞎折腾、加仓、做T";
+    public static final String REASON_34 = "太短视，只关注分时";
 
 
 }
