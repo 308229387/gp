@@ -569,6 +569,8 @@ public class NewSumUpListAdapter extends RecyclerView.Adapter<NewSumUpListAdapte
                             tmp = "一进二";
                         } else if (data.getMode() == -5) {
                             tmp = "回踩5日线";
+                        } else if (data.getMode() == 200) {
+                            tmp = "ETF";
                         } else {
                             tmp = "-";
                         }

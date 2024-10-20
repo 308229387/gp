@@ -1,5 +1,20 @@
 [
   {
+    "gpName": "半导体ETF",
+    "formerDate": "2024-10-18",
+    "mode": -1,
+    "lastPrice": 0,
+    "bigPrice": -0.99,
+    "failureReason": [],
+    "resultPoint": 0,
+    "sellTiming": 0,
+    "phase": 1,
+    "buyReason": "半导体K线形态好，周K更是反包形态，周五爆发没上去车，看好，但仓位又被蒙草占着，不太想分心。就选了ETF，有点偏离均线，如果分歧回落再加仓上车。",
+    "image_list": [
+      ""
+    ]
+  },
+  {
     "gpName": "高新发展",
     "formerDate": "2024-10-18",
     "mode": -1,
@@ -159,6 +174,21 @@
       "Screenshot_2024-10-16-16-50-50-86_5c5979e609b9ed4a43e94260d67cf51e.webp",
       "Screenshot_2024-10-17-15-27-05-72_5c5979e609b9ed4a43e94260d67cf51e.webp",
       "Screenshot_2024-10-17-15-27-14-18_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "300ETF",
+    "formerDate": "2024-10-16",
+    "mode": -1,
+    "lastPrice": 0,
+    "bigPrice": 0,
+    "failureReason": [],
+    "resultPoint": 0,
+    "sellTiming": 0,
+    "phase": 1,
+    "buyReason": "看好后市，感觉到4000问题不太大，低吸买了，被吓跑了一次，及时买回来了。",
+    "image_list": [
+      ""
     ]
   },
   {
