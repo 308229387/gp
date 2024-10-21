@@ -1,5 +1,35 @@
 [
   {
+    "gpName": "青龙管业",
+    "formerDate": "2024-10-21",
+    "mode": -1,
+    "lastPrice": 0,
+    "bigPrice": -0.99,
+    "failureReason": [],
+    "resultPoint": 0,
+    "sellTiming": 0,
+    "phase": 1,
+    "buyReason": "西部大开发，单纯看形态，想着回踩10日线，站上5日线卖，今天上午行情还不错，但这票低开到8个点，感觉上这种买法是错误的。试下水。",
+    "image_list": [
+      "Screenshot_2024-10-21-17-35-07-61_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "拓维信息",
+    "formerDate": "2024-10-21",
+    "mode": -1,
+    "lastPrice": 0,
+    "bigPrice": -0.99,
+    "failureReason": [],
+    "resultPoint": 0,
+    "sellTiming": 0,
+    "phase": 1,
+    "buyReason": "上午环境较好，近期科技主流，周末一直在热榜，有辨识度，7个多点，大单4亿多，环境较好上车。",
+    "image_list": [
+      "Screenshot_2024-10-21-16-36-35-39_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
     "gpName": "半导体ETF",
     "formerDate": "2024-10-18",
     "mode": -1,
@@ -17,61 +47,69 @@
   {
     "gpName": "高新发展",
     "formerDate": "2024-10-18",
-    "mode": -1,
+    "mode": -100,
     "lastPrice": 0,
     "bigPrice": -0.99,
     "failureReason": [],
-    "resultPoint": 0,
-    "sellTiming": 0,
+    "resultPoint": 0.6,
+    "sellTiming": -1,
     "phase": 1,
-    "buyReason": "懵了瞎买的，早盘又是亏，5个多点，看在拉升，硬追的。",
+    "buyReason": "懵了瞎买的，早盘又是亏，5个多点，看在拉升，硬追的，均线陡峭，判断没走完。冲高离场，后有新高。",
     "image_list": [
-      "Screenshot_2024-10-18-16-49-47-62_5c5979e609b9ed4a43e94260d67cf51e.webp"
+      "Screenshot_2024-10-18-16-49-47-62_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-10-21-16-35-43-06_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-10-21-16-35-51-21_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
     "gpName": "蒙草生态",
     "formerDate": "2024-10-18",
-    "mode": -1,
+    "mode": 98,
     "lastPrice": 0,
     "bigPrice": -0.9,
     "failureReason": [],
-    "resultPoint": 0,
-    "sellTiming": 0,
+    "resultPoint": -1.8,
+    "sellTiming": -1,
     "phase": 1,
-    "buyReason": "早盘筛选反包，4个多点，4千多万，蒙早生态略有辨识度。西部大开发概念，当天回落，后感觉均线有支撑，阳多阴少，加仓，持股两日。",
+    "buyReason": "早盘筛选反包，4个多点，4千多万，蒙早生态略有辨识度。西部大开发概念，当天回落，后感觉均线有支撑，阳多阴少，加仓，持股两日。第二天早盘大跌没加仓，下午看不过分时新高点就走了，后拉升，死在黎明前。",
     "image_list": [
-      "Screenshot_2024-10-18-16-50-09-84_5c5979e609b9ed4a43e94260d67cf51e.webp"
+      "Screenshot_2024-10-18-16-50-09-84_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-10-21-16-36-17-22_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-10-21-16-36-25-48_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
     "gpName": "天风证券",
     "formerDate": "2024-10-18",
-    "mode": -1,
+    "mode": 80,
     "lastPrice": 4.58,
     "bigPrice": 17.55,
     "failureReason": [],
-    "resultPoint": 0,
-    "sellTiming": 0,
+    "resultPoint": 1.7,
+    "sellTiming": -1,
     "phase": 1,
-    "buyReason": "早盘瞎机吧卖，本来不打算操作了，从3个点看涨了8个多点，看大单已经6个多亿了，想起了前两天踏空的银之杰，就在7个多点上车了。后涨停带动版块拉升。",
+    "buyReason": "早盘瞎机吧卖，本来不打算操作了，从3个点看涨了8个多点，看大单已经6个多亿了，想起了前两天踏空的银之杰，就在7个多点上车了。后涨停带动版块拉升。版块大跌，吓走了。",
     "image_list": [
-      "Screenshot_2024-10-18-16-49-59-24_5c5979e609b9ed4a43e94260d67cf51e.webp"
+      "Screenshot_2024-10-18-16-49-59-24_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-10-21-16-35-21-77_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-10-21-16-35-30-08_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
     "gpName": "中信证券",
     "formerDate": "2024-10-18",
-    "mode": -1,
+    "mode": 97,
     "lastPrice": 0,
     "bigPrice": 12.01,
     "failureReason": [],
-    "resultPoint": 0,
+    "resultPoint": 2.7,
     "sellTiming": 0,
     "phase": 1,
-    "buyReason": "天风证券强势大单上板。预判证券版块会拉，2个多点上车中信证券，周K线修复，证券拉升。但下周不一定，先套利再说",
+    "buyReason": "天风证券强势大单上板。预判证券版块会拉，2个多点上车中信证券，周K线修复，证券拉升。但下周不一定，先套利再说。版块低开，拿了一会未走强离场。",
     "image_list": [
-      "Screenshot_2024-10-18-16-46-19-30_5c5979e609b9ed4a43e94260d67cf51e.webp"
+      "Screenshot_2024-10-18-16-46-19-30_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-10-21-16-38-24-27_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-10-21-16-38-33-43_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
@@ -94,7 +132,7 @@
   {
     "gpName": "苏交科",
     "formerDate": "2024-10-17",
-    "mode": -1,
+    "mode": 98,
     "lastPrice": 0,
     "bigPrice": -0.32,
     "failureReason": [20,34],
@@ -111,7 +149,7 @@
   {
     "gpName": "福日电子",
     "formerDate": "2024-10-17",
-    "mode": -1,
+    "mode": -100,
     "lastPrice": 0,
     "bigPrice": -0.87,
     "failureReason": [],
@@ -128,7 +166,7 @@
   {
     "gpName": "吉电股份",
     "formerDate": "2024-10-17",
-    "mode": -1,
+    "mode": 98,
     "lastPrice": 0.11,
     "bigPrice": 0.54,
     "failureReason": [20],
@@ -145,7 +183,7 @@
   {
     "gpName": "青岛金王",
     "formerDate": "2024-10-17",
-    "mode": -1,
+    "mode": 98,
     "lastPrice": 0.11,
     "bigPrice": 0.54,
     "failureReason": [34],
