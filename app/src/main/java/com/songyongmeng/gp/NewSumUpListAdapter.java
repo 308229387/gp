@@ -572,7 +572,9 @@ public class NewSumUpListAdapter extends RecyclerView.Adapter<NewSumUpListAdapte
                         } else if (data.getMode() == 200) {
                             tmp = "ETF";
                         } else if (data.getMode() == 80) {
-                            tmp = "高辨识度+大单";
+                            tmp = "大单热门股";
+                        } else if (data.getMode() == 60) {
+                            tmp = "强势股低吸";
                         } else {
                             tmp = "-";
                         }

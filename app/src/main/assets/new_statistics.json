@@ -1,32 +1,81 @@
 [
   {
-    "gpName": "青龙管业",
-    "formerDate": "2024-10-21",
+    "gpName": "欧菲光",
+    "formerDate": "2024-10-22",
     "mode": -1,
     "lastPrice": 0,
-    "bigPrice": -0.99,
+    "bigPrice": -25.51,
+    "failureReason": [35],
+    "resultPoint": 0,
+    "sellTiming": 0,
+    "phase": 4,
+    "buyReason": "人气票跳水低吸，觉得问题不大，明后天就算有低点，拿一拿应该也能补回来。看龙虎榜呼家楼卖了5亿。",
+    "image_list": [
+      "Screenshot_2024-10-22-15-49-18-87_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "光大嘉宝",
+    "formerDate": "2024-10-22",
+    "mode": -1,
+    "lastPrice": 0,
+    "bigPrice": -5.15,
     "failureReason": [],
     "resultPoint": 0,
     "sellTiming": 0,
-    "phase": 1,
-    "buyReason": "西部大开发，单纯看形态，想着回踩10日线，站上5日线卖，今天上午行情还不错，但这票低开到8个点，感觉上这种买法是错误的。试下水。",
+    "phase": 4,
+    "buyReason": "反包找出来的，当时觉得能站在5日线上。看到时有4000万，又挂半山腰了，预判明天还有低点。后天可能有机会回本。",
     "image_list": [
-      "Screenshot_2024-10-21-17-35-07-61_5c5979e609b9ed4a43e94260d67cf51e.webp"
+      "Screenshot_2024-10-22-15-49-01-65_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "捷捷微电",
+    "formerDate": "2024-10-22",
+    "mode": -1,
+    "lastPrice": 0,
+    "bigPrice": -5.15,
+    "failureReason": [35],
+    "resultPoint": 0,
+    "sellTiming": 0,
+    "phase": 4,
+    "buyReason": "判断是上涨中继，5日均线与10日均线变宽，如果成功就是老鸭头，题材也是半导体，主线题材。热度排名靠前48。",
+    "image_list": [
+      "Screenshot_2024-10-22-15-49-09-11_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "青龙管业",
+    "formerDate": "2024-10-21",
+    "mode": 60,
+    "lastPrice": 0,
+    "bigPrice": -0.99,
+    "failureReason": [],
+    "resultPoint": 4.8,
+    "sellTiming": 0,
+    "phase": 3,
+    "buyReason": "西部大开发，单纯看形态，想着回踩10日线，站上5日线卖，今天上午行情还不错，但这票低开到8个点，感觉上这种买法是错误的。试下水。位置够低，开盘拉升到5日线附近离场",
+    "image_list": [
+      "Screenshot_2024-10-21-17-35-07-61_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-10-22-15-52-05-15_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-10-22-15-52-15-98_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
     "gpName": "拓维信息",
     "formerDate": "2024-10-21",
-    "mode": -1,
+    "mode": 80,
     "lastPrice": 0,
-    "bigPrice": -0.99,
+    "bigPrice": 14.94,
     "failureReason": [],
-    "resultPoint": 0,
+    "resultPoint": 10.1,
     "sellTiming": 0,
-    "phase": 1,
-    "buyReason": "上午环境较好，近期科技主流，周末一直在热榜，有辨识度，7个多点，大单4亿多，环境较好上车。",
+    "phase": 3,
+    "buyReason": "上午环境较好，近期科技主流，周末一直在热榜，有辨识度，7个多点，大单4亿多，环境较好上车。开盘差一档，竞价成交有点大，下杀拉一下继续下杀，离场。",
     "image_list": [
-      "Screenshot_2024-10-21-16-36-35-39_5c5979e609b9ed4a43e94260d67cf51e.webp"
+      "Screenshot_2024-10-21-16-36-35-39_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-10-22-15-52-39-94_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-10-22-15-52-50-60_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
