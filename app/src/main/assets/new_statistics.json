@@ -1,32 +1,98 @@
 [
   {
-    "gpName": "欧菲光",
-    "formerDate": "2024-10-22",
+    "gpName": "钧达股份",
+    "formerDate": "2024-10-23",
     "mode": -1,
-    "lastPrice": 0,
-    "bigPrice": -25.51,
-    "failureReason": [35],
+    "lastPrice": 0.04,
+    "bigPrice": 2.53,
+    "failureReason": [],
     "resultPoint": 0,
     "sellTiming": 0,
-    "phase": 4,
-    "buyReason": "人气票跳水低吸，觉得问题不大，明后天就算有低点，拿一拿应该也能补回来。看龙虎榜呼家楼卖了5亿。",
+    "phase": 5,
+    "buyReason": "光伏算后排，和tcl对比，觉得过前高了，100多亿也好被游资掌控，就买了，后一看价格53，有点高，整体表现略差，封单太小。",
     "image_list": [
-      "Screenshot_2024-10-22-15-49-18-87_5c5979e609b9ed4a43e94260d67cf51e.webp"
+      "Screenshot_2024-10-23-19-01-10-99_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "天顺风能",
+    "formerDate": "2024-10-23",
+    "mode": -1,
+    "lastPrice": 0.47,
+    "bigPrice": 1.14,
+    "failureReason": [],
+    "resultPoint": 0,
+    "sellTiming": 0,
+    "phase": 5,
+    "buyReason": "当天热门版块前排算是，高度板，看放量过平台，就上车了，首板",
+    "image_list": [
+      "Screenshot_2024-10-23-19-02-11-15_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "保变电汽",
+    "formerDate": "2024-10-23",
+    "mode": -1,
+    "lastPrice": 0.1,
+    "bigPrice": 5.61,
+    "failureReason": [],
+    "resultPoint": 0,
+    "sellTiming": 0,
+    "phase": 5,
+    "buyReason": "24分钟1.4亿大单，通道加速，有点像拓维，但尾盘竞价成交2.2亿，应该会影响明天。",
+    "image_list": [
+      "Screenshot_2024-10-23-19-01-56-99_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "光启技术",
+    "formerDate": "2024-10-23",
+    "mode": -1,
+    "lastPrice": 3.96,
+    "bigPrice": 6.6,
+    "failureReason": [],
+    "resultPoint": 0,
+    "sellTiming": 0,
+    "phase": 5,
+    "buyReason": "开盘10分钟2亿多大单，虽然位置有点高，还是上车了。封单略强，好像是小核心",
+    "image_list": [
+      "Screenshot_2024-10-23-19-00-53-40_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "欧菲光",
+    "formerDate": "2024-10-22",
+    "mode": -5,
+    "lastPrice": 0,
+    "bigPrice": -25.51,
+    "failureReason": [
+      35
+    ],
+    "resultPoint": -3.6,
+    "sellTiming": 0,
+    "phase": 4,
+    "buyReason": "人气票跳水低吸，觉得问题不大，明后天就算有低点，拿一拿应该也能补回来。看龙虎榜呼家楼卖了5亿。第二天也有机会走，想踩5日线，感觉人气够，但杀尾盘，吓跑了，华为线兑现了。",
+    "image_list": [
+      "Screenshot_2024-10-22-15-49-18-87_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-10-23-18-59-42-46_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-10-23-18-59-58-77_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
     "gpName": "光大嘉宝",
     "formerDate": "2024-10-22",
-    "mode": -1,
+    "mode": -5,
     "lastPrice": 0,
     "bigPrice": -5.15,
     "failureReason": [],
-    "resultPoint": 0,
+    "resultPoint": -7.8,
     "sellTiming": 0,
     "phase": 4,
-    "buyReason": "反包找出来的，当时觉得能站在5日线上。看到时有4000万，又挂半山腰了，预判明天还有低点。后天可能有机会回本。",
+    "buyReason": "反包找出来的，当时觉得能站在5日线上。看到时有4000万，又挂半山腰了，预判明天还有低点。后天可能有机会回本。感觉会去踩10日线，冲高离场",
     "image_list": [
-      "Screenshot_2024-10-22-15-49-01-65_5c5979e609b9ed4a43e94260d67cf51e.webp"
+      "Screenshot_2024-10-22-15-49-01-65_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-10-23-19-00-15-67_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-10-23-19-00-25-35_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
@@ -35,7 +101,9 @@
     "mode": -1,
     "lastPrice": 0,
     "bigPrice": -5.15,
-    "failureReason": [35],
+    "failureReason": [
+      35
+    ],
     "resultPoint": 0,
     "sellTiming": 0,
     "phase": 4,
@@ -68,7 +136,7 @@
     "lastPrice": 0,
     "bigPrice": 14.94,
     "failureReason": [],
-    "resultPoint": 10.1,
+    "resultPoint": 9.49,
     "sellTiming": 0,
     "phase": 3,
     "buyReason": "上午环境较好，近期科技主流，周末一直在热榜，有辨识度，7个多点，大单4亿多，环境较好上车。开盘差一档，竞价成交有点大，下杀拉一下继续下杀，离场。",
@@ -100,7 +168,7 @@
     "lastPrice": 0,
     "bigPrice": -0.99,
     "failureReason": [],
-    "resultPoint": 0.6,
+    "resultPoint": 0.73,
     "sellTiming": -1,
     "phase": 1,
     "buyReason": "懵了瞎买的，早盘又是亏，5个多点，看在拉升，硬追的，均线陡峭，判断没走完。冲高离场，后有新高。",
@@ -117,7 +185,7 @@
     "lastPrice": 0,
     "bigPrice": -0.9,
     "failureReason": [],
-    "resultPoint": -1.8,
+    "resultPoint": -2.05,
     "sellTiming": -1,
     "phase": 1,
     "buyReason": "早盘筛选反包，4个多点，4千多万，蒙早生态略有辨识度。西部大开发概念，当天回落，后感觉均线有支撑，阳多阴少，加仓，持股两日。第二天早盘大跌没加仓，下午看不过分时新高点就走了，后拉升，死在黎明前。",
@@ -134,7 +202,7 @@
     "lastPrice": 4.58,
     "bigPrice": 17.55,
     "failureReason": [],
-    "resultPoint": 1.7,
+    "resultPoint": 1.83,
     "sellTiming": -1,
     "phase": 1,
     "buyReason": "早盘瞎机吧卖，本来不打算操作了，从3个点看涨了8个多点，看大单已经6个多亿了，想起了前两天踏空的银之杰，就在7个多点上车了。后涨停带动版块拉升。版块大跌，吓走了。",
@@ -151,7 +219,7 @@
     "lastPrice": 0,
     "bigPrice": 12.01,
     "failureReason": [],
-    "resultPoint": 2.7,
+    "resultPoint": 2.55,
     "sellTiming": 0,
     "phase": 1,
     "buyReason": "天风证券强势大单上板。预判证券版块会拉，2个多点上车中信证券，周K线修复，证券拉升。但下周不一定，先套利再说。版块低开，拿了一会未走强离场。",
@@ -162,64 +230,15 @@
     ]
   },
   {
-    "gpName": "软通动力",
-    "formerDate": "2024-10-17",
-    "mode": 98,
-    "lastPrice": 0,
-    "bigPrice": 17.92,
-    "failureReason": [],
-    "resultPoint": 0,
-    "sellTiming": -1,
-    "phase": 1,
-    "buyReason": "4个多点7千多万，华为小核心，上板后炸开，大单17亿，明天观察下华为线，这票问题不大，刚过平台，被指数带开，明天应该有高点锁一锁。早盘卖的一坨屎",
-    "image_list": [
-      "Screenshot_2024-10-17-15-27-24-79_5c5979e609b9ed4a43e94260d67cf51e.webp",
-      "Screenshot_2024-10-18-16-47-10-57_5c5979e609b9ed4a43e94260d67cf51e.webp",
-      "Screenshot_2024-10-18-16-47-20-14_5c5979e609b9ed4a43e94260d67cf51e.webp"
-    ]
-  },
-  {
-    "gpName": "苏交科",
-    "formerDate": "2024-10-17",
-    "mode": 98,
-    "lastPrice": 0,
-    "bigPrice": -0.32,
-    "failureReason": [20,34],
-    "resultPoint": -5.2,
-    "sellTiming": -1,
-    "phase": -1,
-    "buyReason": "没有什么辨识度，纯碎大单反包动态组，筛选出来的，7千多万，6个点，后来杀指数，被带下来了。缺点是K线形态有点高了，偏离均线了有点，5日线这么陡，怂个机吧……",
-    "image_list": [
-      "Screenshot_2024-10-17-15-28-02-64_5c5979e609b9ed4a43e94260d67cf51e.webp",
-      "Screenshot_2024-10-18-16-47-30-68_5c5979e609b9ed4a43e94260d67cf51e.webp",
-      "Screenshot_2024-10-18-16-47-38-86_5c5979e609b9ed4a43e94260d67cf51e.webp"
-    ]
-  },
-  {
-    "gpName": "福日电子",
-    "formerDate": "2024-10-17",
-    "mode": -100,
-    "lastPrice": 0,
-    "bigPrice": -0.87,
-    "failureReason": [],
-    "resultPoint": 1.1,
-    "sellTiming": 0,
-    "phase": 1,
-    "buyReason": "目前都是低位，应该会出来一个有高度的票，当天是3-4个，自己挑了个，杀指数被带下来了，难受了，",
-    "image_list": [
-      "Screenshot_2024-10-17-15-27-35-72_5c5979e609b9ed4a43e94260d67cf51e.webp",
-      "Screenshot_2024-10-18-16-49-24-77_5c5979e609b9ed4a43e94260d67cf51e.webp",
-      "Screenshot_2024-10-18-16-49-35-28_5c5979e609b9ed4a43e94260d67cf51e.webp"
-    ]
-  },
-  {
     "gpName": "吉电股份",
     "formerDate": "2024-10-17",
     "mode": 98,
     "lastPrice": 0.11,
     "bigPrice": 0.54,
-    "failureReason": [20],
-    "resultPoint": 1.3,
+    "failureReason": [
+      20
+    ],
+    "resultPoint": 0.99,
     "sellTiming": 0,
     "phase": 1,
     "buyReason": "没有什么辨识度，纯碎大单反包动态组，筛选出来的，2个点就4500万，后来杀指数，被带下来了。缺点是K线形态有点高了，偏离均线了有点",
@@ -235,8 +254,10 @@
     "mode": 98,
     "lastPrice": 0.11,
     "bigPrice": 0.54,
-    "failureReason": [34],
-    "resultPoint": -0.2,
+    "failureReason": [
+      34
+    ],
+    "resultPoint": -0.62,
     "sellTiming": -1,
     "phase": 1,
     "buyReason": "跨境支付标的反包，看形态比较喜欢。加之位置不高，有一定辨识度。",
@@ -244,6 +265,60 @@
       "Screenshot_2024-10-17-15-28-11-17_5c5979e609b9ed4a43e94260d67cf51e.webp",
       "Screenshot_2024-10-18-16-47-51-84_5c5979e609b9ed4a43e94260d67cf51e.webp",
       "Screenshot_2024-10-18-16-48-33-67_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "苏交科",
+    "formerDate": "2024-10-17",
+    "mode": 98,
+    "lastPrice": 0,
+    "bigPrice": -0.32,
+    "failureReason": [
+      20,
+      34
+    ],
+    "resultPoint": -6.59,
+    "sellTiming": -1,
+    "phase": -1,
+    "buyReason": "没有什么辨识度，纯碎大单反包动态组，筛选出来的，7千多万，6个点，后来杀指数，被带下来了。缺点是K线形态有点高了，偏离均线了有点，5日线这么陡，怂个机吧……",
+    "image_list": [
+      "Screenshot_2024-10-17-15-28-02-64_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-10-18-16-47-30-68_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-10-18-16-47-38-86_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "软通动力",
+    "formerDate": "2024-10-17",
+    "mode": 98,
+    "lastPrice": 0,
+    "bigPrice": 17.92,
+    "failureReason": [],
+    "resultPoint": 5.7,
+    "sellTiming": -1,
+    "phase": 1,
+    "buyReason": "4个多点7千多万，华为小核心，上板后炸开，大单17亿，明天观察下华为线，这票问题不大，刚过平台，被指数带开，明天应该有高点锁一锁。早盘卖的一坨屎",
+    "image_list": [
+      "Screenshot_2024-10-17-15-27-24-79_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-10-18-16-47-10-57_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-10-18-16-47-20-14_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "福日电子",
+    "formerDate": "2024-10-17",
+    "mode": -100,
+    "lastPrice": 0,
+    "bigPrice": -0.87,
+    "failureReason": [],
+    "resultPoint": 1.61,
+    "sellTiming": 0,
+    "phase": 1,
+    "buyReason": "目前都是低位，应该会出来一个有高度的票，当天是3-4个，自己挑了个，杀指数被带下来了，难受了，",
+    "image_list": [
+      "Screenshot_2024-10-17-15-27-35-72_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-10-18-16-49-24-77_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-10-18-16-49-35-28_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
@@ -285,7 +360,7 @@
     "lastPrice": 6.73,
     "bigPrice": 13.43,
     "failureReason": [],
-    "resultPoint": 13.2,
+    "resultPoint": 13.82,
     "sellTiming": 0,
     "phase": 1,
     "buyReason": "31分的时候就成交了，几十秒成交了2亿多，熟悉的配方……。微高开、急拉，超大单注入、高辨识度。第二天冲高就走了，一是太高，二是太一至了，之前吃过一次亏",
@@ -296,30 +371,17 @@
     ]
   },
   {
-    "gpName": "华峰超纤",
-    "formerDate": "2024-10-15",
-    "mode": 98,
-    "lastPrice": 0,
-    "bigPrice": 3.65,
-    "failureReason": [10,31],
-    "resultPoint": -10.2,
-    "sellTiming": 0,
-    "phase": 1,
-    "buyReason": "这两天行情是高切低，华峰做为之前的后排，今天强势上板，但又杀指数，被带崩。晚上被3倍做空的15个点吓跑。",
-    "image_list": [
-      "Screenshot_2024-10-15-18-39-54-60_5c5979e609b9ed4a43e94260d67cf51e.webp",
-      "Screenshot_2024-10-16-16-49-51-41_5c5979e609b9ed4a43e94260d67cf51e.webp",
-      "Screenshot_2024-10-16-16-50-00-99_5c5979e609b9ed4a43e94260d67cf51e.webp"
-    ]
-  },
-  {
     "gpName": "中创环保",
     "formerDate": "2024-10-15",
     "mode": 98,
     "lastPrice": 0,
     "bigPrice": -1.81,
-    "failureReason": [1,2,32],
-    "resultPoint": -6.3,
+    "failureReason": [
+      1,
+      2,
+      32
+    ],
+    "resultPoint": -6.84,
     "sellTiming": -1,
     "phase": 1,
     "buyReason": "除了快速拉升，没有其他任何优势。晚上被3倍做空的15个点吓跑。发现如果竞价强势，好像都能拿一拿",
@@ -330,11 +392,31 @@
     ]
   },
   {
+    "gpName": "华峰超纤",
+    "formerDate": "2024-10-15",
+    "mode": 98,
+    "lastPrice": 0,
+    "bigPrice": 3.65,
+    "failureReason": [
+      10,
+      31
+    ],
+    "resultPoint": -9.59,
+    "sellTiming": 0,
+    "phase": 1,
+    "buyReason": "这两天行情是高切低，华峰做为之前的后排，今天强势上板，但又杀指数，被带崩。晚上被3倍做空的15个点吓跑。",
+    "image_list": [
+      "Screenshot_2024-10-15-18-39-54-60_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-10-16-16-49-51-41_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-10-16-16-50-00-99_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
     "gpName": "中油资本",
     "formerDate": "2024-10-09",
     "mode": 99,
     "lastPrice": 0.78,
-    "bigPrice": 9.5,
+    "bigPrice": -14.57,
     "failureReason": [],
     "resultPoint": -2.98,
     "sellTiming": -1,
@@ -352,7 +434,9 @@
     "mode": 98,
     "lastPrice": 2.28,
     "bigPrice": 9.5,
-    "failureReason": [31],
+    "failureReason": [
+      31
+    ],
     "resultPoint": 18.82,
     "sellTiming": -1,
     "phase": 1,
@@ -369,7 +453,9 @@
     "mode": 98,
     "lastPrice": 2.52,
     "bigPrice": 3.9,
-    "failureReason": [33],
+    "failureReason": [
+      33
+    ],
     "resultPoint": -4.59,
     "sellTiming": -1,
     "phase": 7,
@@ -404,7 +490,11 @@
     "mode": 99,
     "lastPrice": 0,
     "bigPrice": -49.44,
-    "failureReason": [10,27,33],
+    "failureReason": [
+      10,
+      27,
+      33
+    ],
     "resultPoint": -12.38,
     "sellTiming": -1,
     "phase": 6,
@@ -422,7 +512,11 @@
     "mode": 98,
     "lastPrice": 0,
     "bigPrice": 1.21,
-    "failureReason": [10,20,31],
+    "failureReason": [
+      10,
+      20,
+      31
+    ],
     "resultPoint": -13.07,
     "sellTiming": 0,
     "phase": 6,
@@ -439,7 +533,9 @@
     "mode": 1,
     "lastPrice": 0.67,
     "bigPrice": 2.85,
-    "failureReason": [10],
+    "failureReason": [
+      10
+    ],
     "resultPoint": -11.72,
     "sellTiming": 1,
     "phase": 6,
@@ -456,7 +552,11 @@
     "mode": 98,
     "lastPrice": 0,
     "bigPrice": 0.8,
-    "failureReason": [10,20,31],
+    "failureReason": [
+      10,
+      20,
+      31
+    ],
     "resultPoint": -12.43,
     "sellTiming": 1,
     "phase": 6,
@@ -473,7 +573,10 @@
     "mode": 98,
     "lastPrice": 0,
     "bigPrice": 1.44,
-    "failureReason": [10,20],
+    "failureReason": [
+      10,
+      20
+    ],
     "resultPoint": -2.02,
     "sellTiming": 0,
     "phase": 6,
@@ -490,7 +593,9 @@
     "mode": -100,
     "lastPrice": 0,
     "bigPrice": 0.98,
-    "failureReason": [10],
+    "failureReason": [
+      10
+    ],
     "resultPoint": -3.86,
     "sellTiming": 0,
     "phase": 6,
@@ -507,7 +612,9 @@
     "mode": 99,
     "lastPrice": 2.96,
     "bigPrice": 0,
-    "failureReason": [10],
+    "failureReason": [
+      10
+    ],
     "resultPoint": -7.19,
     "sellTiming": 0,
     "phase": 6,
@@ -592,7 +699,6 @@
       "Screenshot_2024-09-30-15-58-18-65_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
-
   {
     "gpName": "宝塔实业",
     "formerDate": "2024-09-26",
