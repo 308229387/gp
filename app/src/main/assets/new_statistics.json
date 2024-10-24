@@ -1,62 +1,100 @@
 [
   {
-    "gpName": "钧达股份",
-    "formerDate": "2024-10-23",
+    "gpName": "中兴装备",
+    "formerDate": "2024-10-24",
     "mode": -1,
-    "lastPrice": 0.04,
-    "bigPrice": 2.53,
+    "lastPrice": 0,
+    "bigPrice": 3.65,
     "failureReason": [],
     "resultPoint": 0,
     "sellTiming": 0,
     "phase": 5,
-    "buyReason": "光伏算后排，和tcl对比，觉得过前高了，100多亿也好被游资掌控，就买了，后一看价格53，有点高，整体表现略差，封单太小。",
+    "buyReason": "看到的时候6个多亿，近5个点，这种千亿市值的，好像几亿的大单，并没有什么特别的。",
     "image_list": [
-      "Screenshot_2024-10-23-19-01-10-99_5c5979e609b9ed4a43e94260d67cf51e.webp"
+      "Screenshot_2024-10-24-17-56-00-23_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "东方财富",
+    "formerDate": "2024-10-24",
+    "mode": -1,
+    "lastPrice": 0,
+    "bigPrice": -14.49,
+    "failureReason": [],
+    "resultPoint": 0,
+    "sellTiming": 0,
+    "phase": 5,
+    "buyReason": "3分钟一个亿，位置也0轴，想博一博，结果微亏。等等看有没有拉升。",
+    "image_list": [
+      "Screenshot_2024-10-24-17-56-09-17_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "钧达股份",
+    "formerDate": "2024-10-23",
+    "mode": 1,
+    "lastPrice": 0.04,
+    "bigPrice": 2.53,
+    "failureReason": [],
+    "resultPoint": 0.06,
+    "sellTiming": -1,
+    "phase": 6,
+    "buyReason": "光伏算后排，和tcl对比，觉得过前高了，100多亿也好被游资掌控，就买了，后一看价格53，有点高，整体表现略差，封单太小。被吓走了，昨天封单表现太差了。竞价也很一般。",
+    "image_list": [
+      "Screenshot_2024-10-23-19-01-10-99_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-10-24-17-54-34-85_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-10-24-17-54-42-94_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
     "gpName": "天顺风能",
     "formerDate": "2024-10-23",
-    "mode": -1,
+    "mode": 1,
     "lastPrice": 0.47,
     "bigPrice": 1.14,
     "failureReason": [],
-    "resultPoint": 0,
+    "resultPoint": -2.7,
     "sellTiming": 0,
-    "phase": 5,
-    "buyReason": "当天热门版块前排算是，高度板，看放量过平台，就上车了，首板",
+    "phase": 6,
+    "buyReason": "当天热门版块前排算是，高度板，看放量过平台，就上车了，首板。环境差，开的太差了。低开离场",
     "image_list": [
-      "Screenshot_2024-10-23-19-02-11-15_5c5979e609b9ed4a43e94260d67cf51e.webp"
+      "Screenshot_2024-10-23-19-02-11-15_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-10-24-17-55-16-36_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-10-24-17-55-25-63_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
     "gpName": "保变电汽",
     "formerDate": "2024-10-23",
-    "mode": -1,
+    "mode": 80,
     "lastPrice": 0.1,
     "bigPrice": 5.61,
     "failureReason": [],
-    "resultPoint": 0,
     "sellTiming": 0,
-    "phase": 5,
-    "buyReason": "24分钟1.4亿大单，通道加速，有点像拓维，但尾盘竞价成交2.2亿，应该会影响明天。",
+    "resultPoint": 7.1,
+    "phase": 6,
+    "buyReason": "24分钟1.4亿大单，通道加速，有点像拓维，但尾盘竞价成交2.2亿，应该会影响明天。有利润就拿了拿，然后看冲了下走了，算高位了。",
     "image_list": [
-      "Screenshot_2024-10-23-19-01-56-99_5c5979e609b9ed4a43e94260d67cf51e.webp"
+      "Screenshot_2024-10-23-19-01-56-99_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-10-24-17-55-35-94_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-10-24-17-55-43-67_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
     "gpName": "光启技术",
     "formerDate": "2024-10-23",
-    "mode": -1,
+    "mode": 80,
     "lastPrice": 3.96,
     "bigPrice": 6.6,
     "failureReason": [],
-    "resultPoint": 0,
+    "resultPoint": -3.1,
     "sellTiming": 0,
-    "phase": 5,
-    "buyReason": "开盘10分钟2亿多大单，虽然位置有点高，还是上车了。封单略强，好像是小核心",
+    "phase": 6,
+    "buyReason": "开盘10分钟2亿多大单，虽然位置有点高，还是上车了。封单略强，好像是小核心，竞价低于预期，本来以为是平开，就想拿一下，结果最后水下开的，挂了卖也来不及了，被带下来一段。",
     "image_list": [
-      "Screenshot_2024-10-23-19-00-53-40_5c5979e609b9ed4a43e94260d67cf51e.webp"
+      "Screenshot_2024-10-23-19-00-53-40_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-10-24-17-54-58-48_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-10-24-17-55-06-28_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
@@ -133,7 +171,7 @@
     "gpName": "拓维信息",
     "formerDate": "2024-10-21",
     "mode": 80,
-    "lastPrice": 0,
+    "lastPrice": 5.13,
     "bigPrice": 14.94,
     "failureReason": [],
     "resultPoint": 9.49,
@@ -610,8 +648,8 @@
     "gpName": "中芯国际",
     "formerDate": "2024-10-09",
     "mode": 99,
-    "lastPrice": 2.96,
-    "bigPrice": 0,
+    "lastPrice": 0,
+    "bigPrice": 2.96,
     "failureReason": [
       10
     ],
