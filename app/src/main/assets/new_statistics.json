@@ -1,32 +1,96 @@
 [
   {
-    "gpName": "中兴装备",
-    "formerDate": "2024-10-24",
+    "gpName": "宗申动力",
+    "formerDate": "2024-10-25",
     "mode": -1,
-    "lastPrice": 0,
-    "bigPrice": 3.65,
+    "lastPrice": 2.97,
+    "bigPrice": 6.43,
     "failureReason": [],
     "resultPoint": 0,
     "sellTiming": 0,
-    "phase": 5,
-    "buyReason": "看到的时候6个多亿，近5个点，这种千亿市值的，好像几亿的大单，并没有什么特别的。",
+    "phase": 4,
+    "buyReason": "环境好，低空核心，反包无量上板，中途开板判断是放量，8个点上车。后回封，有肉",
     "image_list": [
-      "Screenshot_2024-10-24-17-56-00-23_5c5979e609b9ed4a43e94260d67cf51e.webp"
+      "Screenshot_2024-10-25-17-13-55-54_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "川润股份",
+    "formerDate": "2024-10-25",
+    "mode": -1,
+    "lastPrice": 0.87,
+    "bigPrice": -2.94,
+    "failureReason": [],
+    "resultPoint": 0,
+    "sellTiming": 0,
+    "phase": 4,
+    "buyReason": "昨天缩量，今天应该是兑现，昨天龙虎榜好多大佬 ，而且高度也是市场第二，主要今天行情好，稳住了没有炸。",
+    "image_list": [
+      "Screenshot_2024-10-25-17-13-38-49_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "通威股份",
+    "formerDate": "2024-10-25",
+    "mode": -1,
+    "lastPrice": 5.15,
+    "bigPrice": 11.07,
+    "failureReason": [],
+    "resultPoint": 0,
+    "sellTiming": 0,
+    "phase": 4,
+    "buyReason": "光伏强势，整体反包，本来想抢钧达的，没买到，这票也行可以，就是市值有点大，看大单和封单都挺强的。",
+    "image_list": [
+      "Screenshot_2024-10-25-17-13-29-67_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "太平洋",
+    "formerDate": "2024-10-25",
+    "mode": -1,
+    "lastPrice": 0,
+    "bigPrice": 2.13,
+    "failureReason": [],
+    "resultPoint": 0,
+    "sellTiming": 0,
+    "phase": 4,
+    "buyReason": "和昨天的中兴装备一模一样。买在分时高点，以后不玩这个大单半路了。",
+    "image_list": [
+      "Screenshot_2024-10-25-17-13-20-81_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "中兴装备",
+    "formerDate": "2024-10-24",
+    "mode": 80,
+    "lastPrice": 0,
+    "bigPrice": 3.65,
+    "failureReason": [],
+    "resultPoint": -2.3,
+    "sellTiming": 0,
+    "phase": 5,
+    "buyReason": "看到的时候6个多亿，近5个点，这种千亿市值的，好像几亿的大单，并没有什么特别的。微低开，不抱期望离场",
+    "image_list": [
+      "Screenshot_2024-10-24-17-56-00-23_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-10-25-17-14-16-02_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-10-25-17-14-26-85_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
     "gpName": "东方财富",
     "formerDate": "2024-10-24",
-    "mode": -1,
+    "mode": 80,
     "lastPrice": 0,
     "bigPrice": -14.49,
     "failureReason": [],
-    "resultPoint": 0,
-    "sellTiming": 0,
+    "resultPoint": -2.1,
+    "sellTiming": -1,
     "phase": 5,
-    "buyReason": "3分钟一个亿，位置也0轴，想博一博，结果微亏。等等看有没有拉升。",
+    "buyReason": "3分钟一个亿，位置也0轴，想博一博，结果微亏。等等看有没有拉升。盘中有高点，但早盘低走离场。",
     "image_list": [
-      "Screenshot_2024-10-24-17-56-09-17_5c5979e609b9ed4a43e94260d67cf51e.webp"
+      "Screenshot_2024-10-24-17-56-09-17_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-10-25-17-14-39-72_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-10-25-17-14-50-57_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
@@ -136,18 +200,20 @@
   {
     "gpName": "捷捷微电",
     "formerDate": "2024-10-22",
-    "mode": -1,
+    "mode": 98,
     "lastPrice": 0,
     "bigPrice": -5.15,
     "failureReason": [
       35
     ],
-    "resultPoint": 0,
+    "resultPoint": -2.1,
     "sellTiming": 0,
     "phase": 4,
-    "buyReason": "判断是上涨中继，5日均线与10日均线变宽，如果成功就是老鸭头，题材也是半导体，主线题材。热度排名靠前48。",
+    "buyReason": "判断是上涨中继，5日均线与10日均线变宽，如果成功就是老鸭头，题材也是半导体，主线题材。热度排名靠前48。拿了3天，有冲高机会没走，次日还低开低走，离场。",
     "image_list": [
-      "Screenshot_2024-10-22-15-49-09-11_5c5979e609b9ed4a43e94260d67cf51e.webp"
+      "Screenshot_2024-10-22-15-49-09-11_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-10-25-17-15-02-81_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-10-25-17-15-12-40_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
