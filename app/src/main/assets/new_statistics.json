@@ -1,62 +1,115 @@
 [
   {
-    "gpName": "宗申动力",
-    "formerDate": "2024-10-25",
+    "gpName": "银之杰",
+    "formerDate": "2024-10-28",
     "mode": -1,
-    "lastPrice": 2.97,
-    "bigPrice": 6.43,
+    "lastPrice": 2.42,
+    "bigPrice": 11.33,
     "failureReason": [],
     "resultPoint": 0,
     "sellTiming": 0,
-    "phase": 4,
-    "buyReason": "环境好，低空核心，反包无量上板，中途开板判断是放量，8个点上车。后回封，有肉",
+    "phase": 3,
+    "buyReason": "上午大单非常猛，上板有阻力，烂一天，尾盘才封，到平台顶部，明天选择方向。",
     "image_list": [
-      "Screenshot_2024-10-25-17-13-55-54_5c5979e609b9ed4a43e94260d67cf51e.webp"
+      "Screenshot_2024-10-28-17-32-31-40_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "四川长虹",
+    "formerDate": "2024-10-28",
+    "mode": -1,
+    "lastPrice": 12.2,
+    "bigPrice": 5.42,
+    "failureReason": [],
+    "resultPoint": 0,
+    "sellTiming": 0,
+    "phase": 3,
+    "buyReason": "有预期，霸榜，放量调整2天，重新选择方向，大单不断增加，前两天买半路怕了……，上板才上车",
+    "image_list": [
+      "Screenshot_2024-10-28-17-32-39-02_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "上海电汽",
+    "formerDate": "2024-10-28",
+    "mode": -1,
+    "lastPrice": 6.44,
+    "bigPrice": -4.24,
+    "failureReason": [],
+    "resultPoint": 0,
+    "sellTiming": 0,
+    "phase": 3,
+    "buyReason": "放量调整2天，高开选择向上，前几分高量比有40多。大单流出。4亿多，理解是有老庄抛，被合力顶上去。",
+    "image_list": [
+      "Screenshot_2024-10-28-17-32-48-25_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "宗申动力",
+    "formerDate": "2024-10-25",
+    "mode": 98,
+    "lastPrice": 2.97,
+    "bigPrice": 6.43,
+    "failureReason": [],
+    "resultPoint": 10.1,
+    "sellTiming": -1,
+    "phase": 3,
+    "buyReason": "环境好，低空核心，反包无量上板，中途开板判断是放量，8个点上车。后回封，有肉。开板被吓走",
+    "image_list": [
+      "Screenshot_2024-10-25-17-13-55-54_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-10-28-17-30-51-76_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-10-28-17-31-00-88_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
     "gpName": "川润股份",
     "formerDate": "2024-10-25",
-    "mode": -1,
+    "mode": 96,
     "lastPrice": 0.87,
     "bigPrice": -2.94,
     "failureReason": [],
-    "resultPoint": 0,
-    "sellTiming": 0,
-    "phase": 4,
-    "buyReason": "昨天缩量，今天应该是兑现，昨天龙虎榜好多大佬 ，而且高度也是市场第二，主要今天行情好，稳住了没有炸。",
+    "resultPoint": 7.2,
+    "sellTiming": -1,
+    "phase": 3,
+    "buyReason": "昨天缩量，今天应该是兑现，昨天龙虎榜好多大佬 ，而且高度也是市场第二，主要今天行情好，稳住了没有炸。开的太低，冲高就走了，回头看卖错了。",
     "image_list": [
-      "Screenshot_2024-10-25-17-13-38-49_5c5979e609b9ed4a43e94260d67cf51e.webp"
+      "Screenshot_2024-10-25-17-13-38-49_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-10-28-17-29-55-98_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-10-28-17-30-41-40_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
     "gpName": "通威股份",
     "formerDate": "2024-10-25",
-    "mode": -1,
+    "mode": 98,
     "lastPrice": 5.15,
     "bigPrice": 11.07,
     "failureReason": [],
-    "resultPoint": 0,
+    "resultPoint": 4.3,
     "sellTiming": 0,
-    "phase": 4,
-    "buyReason": "光伏强势，整体反包，本来想抢钧达的，没买到，这票也行可以，就是市值有点大，看大单和封单都挺强的。",
+    "phase": 3,
+    "buyReason": "光伏强势，整体反包，本来想抢钧达的，没买到，这票也行可以，就是市值有点大，看大单和封单都挺强的。没有预期那么强，拉高回落离场。",
     "image_list": [
-      "Screenshot_2024-10-25-17-13-29-67_5c5979e609b9ed4a43e94260d67cf51e.webp"
+      "Screenshot_2024-10-25-17-13-29-67_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-10-28-17-31-10-76_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-10-28-17-31-18-02_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
     "gpName": "太平洋",
     "formerDate": "2024-10-25",
-    "mode": -1,
+    "mode": 80,
     "lastPrice": 0,
     "bigPrice": 2.13,
     "failureReason": [],
-    "resultPoint": 0,
+    "resultPoint": -0.7,
     "sellTiming": 0,
-    "phase": 4,
-    "buyReason": "和昨天的中兴装备一模一样。买在分时高点，以后不玩这个大单半路了。",
+    "phase": 3,
+    "buyReason": "和昨天的中兴装备一模一样。买在分时高点，以后不玩这个大单半路了。直接割肉。",
     "image_list": [
-      "Screenshot_2024-10-25-17-13-20-81_5c5979e609b9ed4a43e94260d67cf51e.webp"
+      "Screenshot_2024-10-25-17-13-20-81_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-10-28-17-31-28-60_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-10-28-17-31-51-01_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {

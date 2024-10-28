@@ -575,6 +575,8 @@ public class NewSumUpListAdapter extends RecyclerView.Adapter<NewSumUpListAdapte
                             tmp = "大单热门";
                         } else if (data.getMode() == 60) {
                             tmp = "低吸";
+                        } else if (data.getMode() == 96) {
+                            tmp = "高标惯性";
                         } else {
                             tmp = "-";
                         }
