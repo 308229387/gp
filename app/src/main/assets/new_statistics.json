@@ -1,32 +1,51 @@
 [
   {
+    "gpName": "川发龙蟒",
+    "formerDate": "2024-10-29",
+    "mode": -1,
+    "lastPrice": 5.03,
+    "bigPrice": -2.25,
+    "failureReason": [],
+    "resultPoint": 0,
+    "sellTiming": 1,
+    "phase": 4,
+    "buyReason": "川普当选+蛇年概念，而且位置不算太高，选择方向后的缩量板，感觉概念能持续几天，毕竟离川普当选还有几天。",
+    "image_list": [
+      "Screenshot_2024-10-29-17-13-41-96_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
     "gpName": "银之杰",
     "formerDate": "2024-10-28",
-    "mode": -1,
+    "mode": 1,
     "lastPrice": 2.42,
     "bigPrice": 11.33,
     "failureReason": [],
-    "resultPoint": 0,
-    "sellTiming": 0,
+    "resultPoint": 7.2,
+    "sellTiming": 1,
     "phase": 3,
-    "buyReason": "上午大单非常猛，上板有阻力，烂一天，尾盘才封，到平台顶部，明天选择方向。",
+    "buyReason": "上午大单非常猛，上板有阻力，烂一天，尾盘才封，到平台顶部，明天选择方向。上冲回落破均线就跑了，后来有拉高，跑了个偏低的位置",
     "image_list": [
-      "Screenshot_2024-10-28-17-32-31-40_5c5979e609b9ed4a43e94260d67cf51e.webp"
+      "Screenshot_2024-10-28-17-32-31-40_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-10-29-17-13-18-19_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-10-29-17-13-30-32_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
     "gpName": "四川长虹",
     "formerDate": "2024-10-28",
-    "mode": -1,
+    "mode": 98,
     "lastPrice": 12.2,
     "bigPrice": 5.42,
     "failureReason": [],
-    "resultPoint": 0,
-    "sellTiming": 0,
+    "resultPoint": 9.8,
+    "sellTiming": -1,
     "phase": 3,
-    "buyReason": "有预期，霸榜，放量调整2天，重新选择方向，大单不断增加，前两天买半路怕了……，上板才上车",
+    "buyReason": "有预期，霸榜，放量调整2天，重新选择方向，大单不断增加，前两天买半路怕了……，上板才上车。第二天开板吓跑了，环境没变，个股没放量、没大幅下跌，应该再拿拿",
     "image_list": [
-      "Screenshot_2024-10-28-17-32-39-02_5c5979e609b9ed4a43e94260d67cf51e.webp"
+      "Screenshot_2024-10-28-17-32-39-02_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-10-29-17-12-57-32_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-10-29-17-13-07-24_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
@@ -51,7 +70,7 @@
     "lastPrice": 2.97,
     "bigPrice": 6.43,
     "failureReason": [],
-    "resultPoint": 10.1,
+    "resultPoint": 10.89,
     "sellTiming": -1,
     "phase": 3,
     "buyReason": "环境好，低空核心，反包无量上板，中途开板判断是放量，8个点上车。后回封，有肉。开板被吓走",
@@ -68,7 +87,7 @@
     "lastPrice": 0.87,
     "bigPrice": -2.94,
     "failureReason": [],
-    "resultPoint": 7.2,
+    "resultPoint": 7.08,
     "sellTiming": -1,
     "phase": 3,
     "buyReason": "昨天缩量，今天应该是兑现，昨天龙虎榜好多大佬 ，而且高度也是市场第二，主要今天行情好，稳住了没有炸。开的太低，冲高就走了，回头看卖错了。",
@@ -85,7 +104,7 @@
     "lastPrice": 5.15,
     "bigPrice": 11.07,
     "failureReason": [],
-    "resultPoint": 4.3,
+    "resultPoint": 3.99,
     "sellTiming": 0,
     "phase": 3,
     "buyReason": "光伏强势，整体反包，本来想抢钧达的，没买到，这票也行可以，就是市值有点大，看大单和封单都挺强的。没有预期那么强，拉高回落离场。",
@@ -102,7 +121,7 @@
     "lastPrice": 0,
     "bigPrice": 2.13,
     "failureReason": [],
-    "resultPoint": -0.7,
+    "resultPoint": -0.53,
     "sellTiming": 0,
     "phase": 3,
     "buyReason": "和昨天的中兴装备一模一样。买在分时高点，以后不玩这个大单半路了。直接割肉。",
@@ -113,13 +132,13 @@
     ]
   },
   {
-    "gpName": "中兴装备",
+    "gpName": "中兴通讯",
     "formerDate": "2024-10-24",
     "mode": 80,
     "lastPrice": 0,
     "bigPrice": 3.65,
     "failureReason": [],
-    "resultPoint": -2.3,
+    "resultPoint": -2.52,
     "sellTiming": 0,
     "phase": 5,
     "buyReason": "看到的时候6个多亿，近5个点，这种千亿市值的，好像几亿的大单，并没有什么特别的。微低开，不抱期望离场",
@@ -136,7 +155,7 @@
     "lastPrice": 0,
     "bigPrice": -14.49,
     "failureReason": [],
-    "resultPoint": -2.1,
+    "resultPoint": -2.51,
     "sellTiming": -1,
     "phase": 5,
     "buyReason": "3分钟一个亿，位置也0轴，想博一博，结果微亏。等等看有没有拉升。盘中有高点，但早盘低走离场。",
@@ -147,30 +166,13 @@
     ]
   },
   {
-    "gpName": "钧达股份",
-    "formerDate": "2024-10-23",
-    "mode": 1,
-    "lastPrice": 0.04,
-    "bigPrice": 2.53,
-    "failureReason": [],
-    "resultPoint": 0.06,
-    "sellTiming": -1,
-    "phase": 6,
-    "buyReason": "光伏算后排，和tcl对比，觉得过前高了，100多亿也好被游资掌控，就买了，后一看价格53，有点高，整体表现略差，封单太小。被吓走了，昨天封单表现太差了。竞价也很一般。",
-    "image_list": [
-      "Screenshot_2024-10-23-19-01-10-99_5c5979e609b9ed4a43e94260d67cf51e.webp",
-      "Screenshot_2024-10-24-17-54-34-85_5c5979e609b9ed4a43e94260d67cf51e.webp",
-      "Screenshot_2024-10-24-17-54-42-94_5c5979e609b9ed4a43e94260d67cf51e.webp"
-    ]
-  },
-  {
     "gpName": "天顺风能",
     "formerDate": "2024-10-23",
     "mode": 1,
     "lastPrice": 0.47,
     "bigPrice": 1.14,
     "failureReason": [],
-    "resultPoint": -2.7,
+    "resultPoint": -3.22,
     "sellTiming": 0,
     "phase": 6,
     "buyReason": "当天热门版块前排算是，高度板，看放量过平台，就上车了，首板。环境差，开的太差了。低开离场",
@@ -181,30 +183,13 @@
     ]
   },
   {
-    "gpName": "保变电汽",
-    "formerDate": "2024-10-23",
-    "mode": 80,
-    "lastPrice": 0.1,
-    "bigPrice": 5.61,
-    "failureReason": [],
-    "sellTiming": 0,
-    "resultPoint": 7.1,
-    "phase": 6,
-    "buyReason": "24分钟1.4亿大单，通道加速，有点像拓维，但尾盘竞价成交2.2亿，应该会影响明天。有利润就拿了拿，然后看冲了下走了，算高位了。",
-    "image_list": [
-      "Screenshot_2024-10-23-19-01-56-99_5c5979e609b9ed4a43e94260d67cf51e.webp",
-      "Screenshot_2024-10-24-17-55-35-94_5c5979e609b9ed4a43e94260d67cf51e.webp",
-      "Screenshot_2024-10-24-17-55-43-67_5c5979e609b9ed4a43e94260d67cf51e.webp"
-    ]
-  },
-  {
     "gpName": "光启技术",
     "formerDate": "2024-10-23",
     "mode": 80,
     "lastPrice": 3.96,
     "bigPrice": 6.6,
     "failureReason": [],
-    "resultPoint": -3.1,
+    "resultPoint": -4.19,
     "sellTiming": 0,
     "phase": 6,
     "buyReason": "开盘10分钟2亿多大单，虽然位置有点高，还是上车了。封单略强，好像是小核心，竞价低于预期，本来以为是平开，就想拿一下，结果最后水下开的，挂了卖也来不及了，被带下来一段。",
@@ -212,6 +197,40 @@
       "Screenshot_2024-10-23-19-00-53-40_5c5979e609b9ed4a43e94260d67cf51e.webp",
       "Screenshot_2024-10-24-17-54-58-48_5c5979e609b9ed4a43e94260d67cf51e.webp",
       "Screenshot_2024-10-24-17-55-06-28_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "钧达股份",
+    "formerDate": "2024-10-23",
+    "mode": 1,
+    "lastPrice": 0.04,
+    "bigPrice": 2.53,
+    "failureReason": [],
+    "resultPoint": 0.18,
+    "sellTiming": -1,
+    "phase": 6,
+    "buyReason": "光伏算后排，和tcl对比，觉得过前高了，100多亿也好被游资掌控，就买了，后一看价格53，有点高，整体表现略差，封单太小。被吓走了，昨天封单表现太差了。竞价也很一般。",
+    "image_list": [
+      "Screenshot_2024-10-23-19-01-10-99_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-10-24-17-54-34-85_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-10-24-17-54-42-94_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "保变电汽",
+    "formerDate": "2024-10-23",
+    "mode": 80,
+    "lastPrice": 0.1,
+    "bigPrice": 5.61,
+    "failureReason": [],
+    "sellTiming": 0,
+    "resultPoint": 6.72,
+    "phase": 6,
+    "buyReason": "24分钟1.4亿大单，通道加速，有点像拓维，但尾盘竞价成交2.2亿，应该会影响明天。有利润就拿了拿，然后看冲了下走了，算高位了。",
+    "image_list": [
+      "Screenshot_2024-10-23-19-01-56-99_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-10-24-17-55-35-94_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-10-24-17-55-43-67_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
@@ -223,7 +242,7 @@
     "failureReason": [
       35
     ],
-    "resultPoint": -3.6,
+    "resultPoint": -4.53,
     "sellTiming": 0,
     "phase": 4,
     "buyReason": "人气票跳水低吸，觉得问题不大，明后天就算有低点，拿一拿应该也能补回来。看龙虎榜呼家楼卖了5亿。第二天也有机会走，想踩5日线，感觉人气够，但杀尾盘，吓跑了，华为线兑现了。",
@@ -240,7 +259,7 @@
     "lastPrice": 0,
     "bigPrice": -5.15,
     "failureReason": [],
-    "resultPoint": -7.8,
+    "resultPoint": -8.09,
     "sellTiming": 0,
     "phase": 4,
     "buyReason": "反包找出来的，当时觉得能站在5日线上。看到时有4000万，又挂半山腰了，预判明天还有低点。后天可能有机会回本。感觉会去踩10日线，冲高离场",
@@ -259,7 +278,7 @@
     "failureReason": [
       35
     ],
-    "resultPoint": -2.1,
+    "resultPoint": -2.63,
     "sellTiming": 0,
     "phase": 4,
     "buyReason": "判断是上涨中继，5日均线与10日均线变宽，如果成功就是老鸭头，题材也是半导体，主线题材。热度排名靠前48。拿了3天，有冲高机会没走，次日还低开低走，离场。",
@@ -267,23 +286,6 @@
       "Screenshot_2024-10-22-15-49-09-11_5c5979e609b9ed4a43e94260d67cf51e.webp",
       "Screenshot_2024-10-25-17-15-02-81_5c5979e609b9ed4a43e94260d67cf51e.webp",
       "Screenshot_2024-10-25-17-15-12-40_5c5979e609b9ed4a43e94260d67cf51e.webp"
-    ]
-  },
-  {
-    "gpName": "青龙管业",
-    "formerDate": "2024-10-21",
-    "mode": 60,
-    "lastPrice": 0,
-    "bigPrice": -0.99,
-    "failureReason": [],
-    "resultPoint": 4.8,
-    "sellTiming": 0,
-    "phase": 3,
-    "buyReason": "西部大开发，单纯看形态，想着回踩10日线，站上5日线卖，今天上午行情还不错，但这票低开到8个点，感觉上这种买法是错误的。试下水。位置够低，开盘拉升到5日线附近离场",
-    "image_list": [
-      "Screenshot_2024-10-21-17-35-07-61_5c5979e609b9ed4a43e94260d67cf51e.webp",
-      "Screenshot_2024-10-22-15-52-05-15_5c5979e609b9ed4a43e94260d67cf51e.webp",
-      "Screenshot_2024-10-22-15-52-15-98_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
@@ -301,6 +303,23 @@
       "Screenshot_2024-10-21-16-36-35-39_5c5979e609b9ed4a43e94260d67cf51e.webp",
       "Screenshot_2024-10-22-15-52-39-94_5c5979e609b9ed4a43e94260d67cf51e.webp",
       "Screenshot_2024-10-22-15-52-50-60_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "青龙管业",
+    "formerDate": "2024-10-21",
+    "mode": 60,
+    "lastPrice": 0,
+    "bigPrice": -0.99,
+    "failureReason": [],
+    "resultPoint": 4.8,
+    "sellTiming": 0,
+    "phase": 3,
+    "buyReason": "西部大开发，单纯看形态，想着回踩10日线，站上5日线卖，今天上午行情还不错，但这票低开到8个点，感觉上这种买法是错误的。试下水。位置够低，开盘拉升到5日线附近离场",
+    "image_list": [
+      "Screenshot_2024-10-21-17-35-07-61_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-10-22-15-52-05-15_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-10-22-15-52-15-98_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
