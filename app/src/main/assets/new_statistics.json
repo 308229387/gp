@@ -1,5 +1,20 @@
 [
   {
+    "gpName": "大众公用",
+    "formerDate": "2024-10-29",
+    "mode": -1,
+    "lastPrice": 0.11,
+    "bigPrice": -0.15,
+    "failureReason": [],
+    "resultPoint": 0,
+    "sellTiming": 1,
+    "phase": 4,
+    "buyReason": "看一个大V提到了，开盘看量比有100多很强劲，当时还向上，就觉得有戏买了，断一字板当日，但后来就调整了，下午行情还行上板了，但不是太强劲。封单1千万才。",
+    "image_list": [
+      "Screenshot_2024-10-30-17-21-44-70_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
     "gpName": "川发龙蟒",
     "formerDate": "2024-10-29",
     "mode": -1,
@@ -9,9 +24,10 @@
     "resultPoint": 0,
     "sellTiming": 1,
     "phase": 4,
-    "buyReason": "川普当选+蛇年概念，而且位置不算太高，选择方向后的缩量板，感觉概念能持续几天，毕竟离川普当选还有几天。",
+    "buyReason": "川普当选+蛇年概念，而且位置不算太高，开盘第一分钟量比30多，选择方向后的缩量板，感觉概念能持续几天，毕竟离川普当选还有几天。次日继续板上放量，又加了些仓",
     "image_list": [
-      "Screenshot_2024-10-29-17-13-41-96_5c5979e609b9ed4a43e94260d67cf51e.webp"
+      "Screenshot_2024-10-29-17-13-41-96_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-10-30-17-21-37-06_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
@@ -51,16 +67,18 @@
   {
     "gpName": "上海电汽",
     "formerDate": "2024-10-28",
-    "mode": -1,
+    "mode": 98,
     "lastPrice": 6.44,
     "bigPrice": -4.24,
     "failureReason": [],
-    "resultPoint": 0,
+    "resultPoint": 14.3,
     "sellTiming": 0,
     "phase": 3,
-    "buyReason": "放量调整2天，高开选择向上，前几分高量比有40多。大单流出。4亿多，理解是有老庄抛，被合力顶上去。",
+    "buyReason": "放量调整2天，高开选择向上，前几分高量比有40多。大单流出。4亿多，理解是有老庄抛，被合力顶上去。预期退潮，开到2个多点，感觉有点低于预期，竞价走了。",
     "image_list": [
-      "Screenshot_2024-10-28-17-32-48-25_5c5979e609b9ed4a43e94260d67cf51e.webp"
+      "Screenshot_2024-10-28-17-32-48-25_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-10-30-17-21-07-49_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-10-30-17-21-19-57_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
