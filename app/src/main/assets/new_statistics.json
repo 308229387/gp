@@ -1,17 +1,49 @@
 [
   {
-    "gpName": "大众公用",
-    "formerDate": "2024-10-29",
+    "gpName": "上海电汽",
+    "formerDate": "2024-10-31",
     "mode": -1,
-    "lastPrice": 0.11,
-    "bigPrice": -0.15,
+    "lastPrice": 0,
+    "bigPrice": -9.59,
     "failureReason": [],
     "resultPoint": 0,
     "sellTiming": 1,
-    "phase": 4,
+    "phase": 5,
+    "buyReason": "强势上板上车，但尾盘分歧被炸开，二档标，不该上。",
+    "image_list": [
+      "Screenshot_2024-10-31-19-17-08-41_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "宗申动力",
+    "formerDate": "2024-10-31",
+    "mode": -1,
+    "lastPrice": 0,
+    "bigPrice": -10.97,
+    "failureReason": [],
+    "resultPoint": 0,
+    "sellTiming": 1,
+    "phase": 5,
+    "buyReason": "昨天加速，这两天行情很极端，觉得还能再涨，而且还是打板买非绝对核心龙头。错错错。碰到分歧，果然崩了。",
+    "image_list": [
+      "Screenshot_2024-10-31-19-17-18-06_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "大众公用",
+    "formerDate": "2024-10-30",
+    "mode": 66,
+    "lastPrice": 0.11,
+    "bigPrice": -0.15,
+    "failureReason": [],
+    "resultPoint": 10.7,
+    "sellTiming": 0,
+    "phase": 3,
     "buyReason": "看一个大V提到了，开盘看量比有100多很强劲，当时还向上，就觉得有戏买了，断一字板当日，但后来就调整了，下午行情还行上板了，但不是太强劲。封单1千万才。",
     "image_list": [
-      "Screenshot_2024-10-30-17-21-44-70_5c5979e609b9ed4a43e94260d67cf51e.webp"
+      "Screenshot_2024-10-30-17-21-44-70_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-10-31-19-17-57-10_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-10-31-19-18-06-52_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
@@ -21,13 +53,15 @@
     "lastPrice": 5.03,
     "bigPrice": -2.25,
     "failureReason": [],
-    "resultPoint": 0,
+    "resultPoint": 11.2,
     "sellTiming": 1,
-    "phase": 4,
+    "phase": 3,
     "buyReason": "川普当选+蛇年概念，而且位置不算太高，开盘第一分钟量比30多，选择方向后的缩量板，感觉概念能持续几天，毕竟离川普当选还有几天。次日继续板上放量，又加了些仓",
     "image_list": [
       "Screenshot_2024-10-29-17-13-41-96_5c5979e609b9ed4a43e94260d67cf51e.webp",
-      "Screenshot_2024-10-30-17-21-37-06_5c5979e609b9ed4a43e94260d67cf51e.webp"
+      "Screenshot_2024-10-30-17-21-37-06_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-10-31-19-18-16-74_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-10-31-19-18-25-72_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
