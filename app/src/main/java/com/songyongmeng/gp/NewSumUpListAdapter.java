@@ -556,7 +556,7 @@ public class NewSumUpListAdapter extends RecyclerView.Adapter<NewSumUpListAdapte
                         } else if (data.getMode() == 99) {
                             tmp = "龙头";
                         } else if (data.getMode() == 98) {
-                            tmp = "爆量新方向";
+                            tmp = "反包";
                         } else if (data.getMode() == 97) {
                             tmp = "版块回流";
                         } else if (data.getMode() == 0) {
@@ -572,15 +572,13 @@ public class NewSumUpListAdapter extends RecyclerView.Adapter<NewSumUpListAdapte
                         } else if (data.getMode() == 200) {
                             tmp = "ETF";
                         } else if (data.getMode() == 80) {
-                            tmp = "大单热门";
-                        } else if (data.getMode() == 60) {
-                            tmp = "低吸";
+                            tmp = "大单半路";
                         } else if (data.getMode() == 96) {
                             tmp = "高标惯性";
                         } else if (data.getMode() == 88) {
-                            tmp = "爆量";
+                            tmp = "爆量分歧";
                         } else if (data.getMode() == 66) {
-                            tmp = "爆量新高";
+                            tmp = "缩量一至";
                         } else {
                             tmp = "-";
                         }

@@ -2,11 +2,11 @@
   {
     "gpName": "上海电汽",
     "formerDate": "2024-10-31",
-    "mode": -1,
+    "mode": 66,
     "lastPrice": 0,
     "bigPrice": -9.59,
     "failureReason": [],
-    "resultPoint": 0,
+    "resultPoint": -7.45,
     "sellTiming": 1,
     "phase": 5,
     "buyReason": "强势上板上车，但尾盘分歧被炸开，二档标，当天小分歧，次日大分歧，冲高没走。",
@@ -19,11 +19,11 @@
   {
     "gpName": "宗申动力",
     "formerDate": "2024-10-31",
-    "mode": -1,
+    "mode": 66,
     "lastPrice": 0,
     "bigPrice": -10.97,
     "failureReason": [],
-    "resultPoint": 0,
+    "resultPoint": -6.68,
     "sellTiming": 0,
     "phase": 5,
     "buyReason": "昨天加速，这两天行情很极端，觉得还能再涨，而且还是打板买非绝对核心龙头。错错错。碰到分歧，果然崩了。",
@@ -36,7 +36,7 @@
   {
     "gpName": "大众公用",
     "formerDate": "2024-10-30",
-    "mode": 66,
+    "mode": 88,
     "lastPrice": 0.11,
     "bigPrice": -0.15,
     "failureReason": [],
@@ -53,7 +53,7 @@
   {
     "gpName": "川发龙蟒",
     "formerDate": "2024-10-29",
-    "mode": -1,
+    "mode": 66,
     "lastPrice": 5.03,
     "bigPrice": -2.25,
     "failureReason": [],
@@ -105,7 +105,7 @@
   {
     "gpName": "上海电汽",
     "formerDate": "2024-10-28",
-    "mode": 98,
+    "mode": 66,
     "lastPrice": 6.44,
     "bigPrice": -4.24,
     "failureReason": [],
@@ -139,7 +139,7 @@
   {
     "gpName": "川润股份",
     "formerDate": "2024-10-25",
-    "mode": 96,
+    "mode": 88,
     "lastPrice": 0.87,
     "bigPrice": -2.94,
     "failureReason": [],
@@ -241,7 +241,7 @@
   {
     "gpName": "光启技术",
     "formerDate": "2024-10-23",
-    "mode": 80,
+    "mode": 98,
     "lastPrice": 3.96,
     "bigPrice": 6.6,
     "failureReason": [],
@@ -328,7 +328,7 @@
   {
     "gpName": "捷捷微电",
     "formerDate": "2024-10-22",
-    "mode": 98,
+    "mode": 80,
     "lastPrice": 0,
     "bigPrice": -5.15,
     "failureReason": [
@@ -364,7 +364,7 @@
   {
     "gpName": "青龙管业",
     "formerDate": "2024-10-21",
-    "mode": 60,
+    "mode": -5,
     "lastPrice": 0,
     "bigPrice": -0.99,
     "failureReason": [],
@@ -381,11 +381,11 @@
   {
     "gpName": "半导体ETF",
     "formerDate": "2024-10-18",
-    "mode": -1,
+    "mode": -100,
     "lastPrice": 0,
     "bigPrice": -0.99,
     "failureReason": [],
-    "resultPoint": 0,
+    "resultPoint": -1.06,
     "sellTiming": 0,
     "phase": 1,
     "buyReason": "半导体K线形态好，周K更是反包形态，周五爆发没上去车，看好，但仓位又被蒙草占着，不太想分心。就选了ETF，有点偏离均线，如果分歧回落再加仓上车。",
@@ -413,7 +413,7 @@
   {
     "gpName": "蒙草生态",
     "formerDate": "2024-10-18",
-    "mode": 98,
+    "mode": 80,
     "lastPrice": 0,
     "bigPrice": -0.9,
     "failureReason": [],
@@ -447,7 +447,7 @@
   {
     "gpName": "中信证券",
     "formerDate": "2024-10-18",
-    "mode": 97,
+    "mode": 1,
     "lastPrice": 0,
     "bigPrice": 12.01,
     "failureReason": [],
@@ -464,7 +464,7 @@
   {
     "gpName": "吉电股份",
     "formerDate": "2024-10-17",
-    "mode": 98,
+    "mode": 80,
     "lastPrice": 0.11,
     "bigPrice": 0.54,
     "failureReason": [
@@ -502,7 +502,7 @@
   {
     "gpName": "苏交科",
     "formerDate": "2024-10-17",
-    "mode": 98,
+    "mode": 80,
     "lastPrice": 0,
     "bigPrice": -0.32,
     "failureReason": [
@@ -522,7 +522,7 @@
   {
     "gpName": "软通动力",
     "formerDate": "2024-10-17",
-    "mode": 98,
+    "mode": 80,
     "lastPrice": 0,
     "bigPrice": 17.92,
     "failureReason": [],
@@ -556,7 +556,7 @@
   {
     "gpName": "保变电汽",
     "formerDate": "2024-10-16",
-    "mode": 98,
+    "mode": 80,
     "lastPrice": 0,
     "bigPrice": -0.01,
     "failureReason": [],
@@ -573,11 +573,11 @@
   {
     "gpName": "300ETF",
     "formerDate": "2024-10-16",
-    "mode": -1,
+    "mode": -100,
     "lastPrice": 0,
     "bigPrice": 0,
     "failureReason": [],
-    "resultPoint": 0,
+    "resultPoint": 4.3,
     "sellTiming": 0,
     "phase": 1,
     "buyReason": "看好后市，感觉到4000问题不太大，低吸买了，被吓跑了一次，及时买回来了。",
@@ -618,7 +618,7 @@
     "phase": 1,
     "buyReason": "除了快速拉升，没有其他任何优势。晚上被3倍做空的15个点吓跑。发现如果竞价强势，好像都能拿一拿",
     "image_list": [
-      "Screenshot_2024-10-15-18-39-44-53_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "80",
       "Screenshot_2024-10-16-16-50-11-73_5c5979e609b9ed4a43e94260d67cf51e.webp",
       "Screenshot_2024-10-16-16-50-20-13_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
@@ -626,7 +626,7 @@
   {
     "gpName": "华峰超纤",
     "formerDate": "2024-10-15",
-    "mode": 98,
+    "mode": 80,
     "lastPrice": 0,
     "bigPrice": 3.65,
     "failureReason": [
