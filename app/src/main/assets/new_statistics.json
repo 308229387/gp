@@ -1,5 +1,65 @@
 [
   {
+    "gpName": "四川长虹",
+    "formerDate": "2024-11-05",
+    "mode": -1,
+    "lastPrice": 0,
+    "bigPrice": -14.26,
+    "failureReason": [],
+    "resultPoint": 0,
+    "sellTiming": 0,
+    "phase": 4,
+    "buyReason": "分析是二浪结束，箱体偏下买入。",
+    "image_list": [
+      "Screenshot_2024-11-05-16-34-45-96_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "中航电测",
+    "formerDate": "2024-11-05",
+    "mode": -1,
+    "lastPrice": 0,
+    "bigPrice": -1.23,
+    "failureReason": [],
+    "resultPoint": 0,
+    "sellTiming": 0,
+    "phase": 4,
+    "buyReason": "看军工涨的挺好，中航电测前几天也有过热点，在均线附近就追了，结果大盘涨了6个多点都没涨停，还好尾盘拉了下。",
+    "image_list": [
+      "Screenshot_2024-11-05-16-35-13-57_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "中国长城",
+    "formerDate": "2024-11-05",
+    "mode": -1,
+    "lastPrice": 0,
+    "bigPrice": 1.4,
+    "failureReason": [],
+    "resultPoint": 0,
+    "sellTiming": 0,
+    "phase": 4,
+    "buyReason": "竞价没上去，差1-2秒，然后看还上板了，封单十几亿，开板后回封上车，以为是补量，结果烂了，分歧没有突破。",
+    "image_list": [
+      "Screenshot_2024-11-05-16-34-58-82_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "豆神教育",
+    "formerDate": "2024-11-05",
+    "mode": -1,
+    "lastPrice": 0,
+    "bigPrice": 3.09,
+    "failureReason": [],
+    "resultPoint": 0,
+    "sellTiming": 0,
+    "phase": 4,
+    "buyReason": "环境挺好，大盘放量上攻，这个版块没有效应，这票只是分歧中，小放量。但没有能封住，尾盘还砸了，又要拿好几天了。难受。",
+    "image_list": [
+      "Screenshot_2024-11-05-16-34-32-49_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
     "gpName": "上海电汽",
     "formerDate": "2024-10-31",
     "mode": 66,
