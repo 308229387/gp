@@ -8,7 +8,7 @@
     "failureReason": [],
     "resultPoint": 0,
     "sellTiming": 0,
-    "phase": 4,
+    "phase": 1,
     "buyReason": "心态崩坏的一天，本来不打算买了，下午看证券起来了5-6个点，核心票是东方财富，就又买了一笔。尾盘看还是挺强的。",
     "image_list": [
       "Screenshot_2024-11-05-16-34-45-96_5c5979e609b9ed4a43e94260d67cf51e.webp",
@@ -24,7 +24,7 @@
     "failureReason": [],
     "resultPoint": -7.1,
     "sellTiming": 0,
-    "phase": 4,
+    "phase": 1,
     "buyReason": "有点像苏交科，上车后有点后悔，均线有点像老鸭头，变窄后的调整，临时起义。下跌加低开，离场。",
     "image_list": [
       "Screenshot_2024-11-05-16-34-45-96_5c5979e609b9ed4a43e94260d67cf51e.webp",
@@ -41,7 +41,7 @@
     "failureReason": [],
     "resultPoint": 0,
     "sellTiming": 0,
-    "phase": 4,
+    "phase": 1,
     "buyReason": "觉得是个加速，外加看连板指数好，就上车了，但因为提前量能不太足，量比才20多，力度不够，中途封住，尾盘崩盘。次日低开走了。卖之前其实想到有反包预期，没等。后涨停",
     "image_list": [
       "Screenshot_2024-11-06-19-42-54-32_5c5979e609b9ed4a43e94260d67cf51e.webp",
@@ -57,7 +57,7 @@
     "failureReason": [],
     "resultPoint": -6.81,
     "sellTiming": 0,
-    "phase": 4,
+    "phase": 1,
     "buyReason": "分析是二浪结束，箱体偏下买入。第二天下跌，觉得是箱体底部就等了等，结果和欧菲光那次很像，恐慌下跌，崩盘离场",
     "image_list": [
       "Screenshot_2024-11-05-16-34-45-96_5c5979e609b9ed4a43e94260d67cf51e.webp",
@@ -74,7 +74,7 @@
     "failureReason": [],
     "resultPoint": 2.89,
     "sellTiming": 0,
-    "phase": 4,
+    "phase": 1,
     "buyReason": "看军工涨的挺好，中航电测前几天也有过热点，在均线附近就追了，结果大盘涨了6个多点都没涨停，还好尾盘拉了下。开盘即高点，离场",
     "image_list": [
       "Screenshot_2024-11-05-16-35-13-57_5c5979e609b9ed4a43e94260d67cf51e.webp",
@@ -89,9 +89,9 @@
     "lastPrice": 0,
     "bigPrice": 1.4,
     "failureReason": [],
-    "resultPoint": 0,
-    "sellTiming": 7.09,
-    "phase": 4,
+    "resultPoint": -7.09,
+    "sellTiming": -1,
+    "phase": 1,
     "buyReason": "竞价没上去，差1-2秒，然后看还上板了，封单十几亿，开板后回封上车，以为是补量，结果烂了，分歧没有突破。拿了拿，均线上方离场，下午拉涨停",
     "image_list": [
       "Screenshot_2024-11-05-16-34-58-82_5c5979e609b9ed4a43e94260d67cf51e.webp",
@@ -108,7 +108,7 @@
     "failureReason": [],
     "resultPoint": 0,
     "sellTiming": 0,
-    "phase": 4,
+    "phase": 1,
     "buyReason": "环境挺好，大盘放量上攻，这个版块没有效应，这票只是分歧中，小放量。但没有能封住，尾盘还砸了，又要拿好几天了。难受。开盘等了一小会，离场。",
     "image_list": [
       "Screenshot_2024-11-05-16-34-32-49_5c5979e609b9ed4a43e94260d67cf51e.webp",
