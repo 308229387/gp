@@ -1,5 +1,20 @@
 [
   {
+    "gpName": "华映科技",
+    "formerDate": "2024-11-07",
+    "mode": -1,
+    "lastPrice": 0,
+    "bigPrice": -0.65,
+    "failureReason": [],
+    "resultPoint": 0,
+    "sellTiming": 0,
+    "phase": 1,
+    "buyReason": "华为线的一支票，头一天已经话题蓄势了，结果低开走弱不开进，想捡便宜上车被套。",
+    "image_list": [
+      "Screenshot_2024-11-08-19-35-50-85_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
     "gpName": "东方财富",
     "formerDate": "2024-11-07",
     "mode": -1,
@@ -11,8 +26,9 @@
     "phase": 1,
     "buyReason": "心态崩坏的一天，本来不打算买了，下午看证券起来了5-6个点，核心票是东方财富，就又买了一笔。尾盘看还是挺强的。",
     "image_list": [
-      "Screenshot_2024-11-05-16-34-45-96_5c5979e609b9ed4a43e94260d67cf51e.webp",
-      "Screenshot_2024-11-07-19-14-53-76_5c5979e609b9ed4a43e94260d67cf51e.webp"
+      "Screenshot_2024-11-07-19-14-53-76_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-11-08-19-34-54-82_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-11-08-19-35-14-89_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
@@ -42,10 +58,12 @@
     "resultPoint": 0,
     "sellTiming": 0,
     "phase": 1,
-    "buyReason": "觉得是个加速，外加看连板指数好，就上车了，但因为提前量能不太足，量比才20多，力度不够，中途封住，尾盘崩盘。次日低开走了。卖之前其实想到有反包预期，没等。后涨停",
+    "buyReason": "觉得是个加速，外加看连板指数好，就上车了，但因为提前量能不太足，量比才20多，力度不够，中途封住，尾盘崩盘。次日低开走了。卖之前其实想到有反包预期，没等。后涨停，次日开盘走，后再涨停，又追。。。。。。。无语",
     "image_list": [
       "Screenshot_2024-11-06-19-42-54-32_5c5979e609b9ed4a43e94260d67cf51e.webp",
-      "Screenshot_2024-11-07-19-14-44-92_5c5979e609b9ed4a43e94260d67cf51e.webp"
+      "Screenshot_2024-11-07-19-14-44-92_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-11-08-19-35-29-77_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-11-08-19-35-37-49_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
