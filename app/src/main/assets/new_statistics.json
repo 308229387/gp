@@ -1,34 +1,98 @@
 [
   {
-    "gpName": "华映科技",
-    "formerDate": "2024-11-07",
+    "gpName": "供销大集",
+    "formerDate": "2024-11-13",
     "mode": -1,
     "lastPrice": 0,
-    "bigPrice": -0.65,
+    "bigPrice": -0.4,
     "failureReason": [],
     "resultPoint": 0,
+    "sellTiming": 0,
+    "phase": 1,
+    "buyReason": "反包后创新高，消费热点版块，核心票，放量创新高的二板。下午排板上车。有呼家楼在里面。",
+    "image_list": [
+      "Screenshot_2024-11-13-17-20-19-54_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "中国卫通",
+    "formerDate": "2024-11-13",
+    "mode": -1,
+    "lastPrice": 0,
+    "bigPrice": 5.21,
+    "failureReason": [],
+    "resultPoint": 0,
+    "sellTiming": 0,
+    "phase": 1,
+    "buyReason": "上板后第一时间没有看到，炸板跌下均线上车，大单够强6亿多，且是反包，爆量调整后涨停。买入没问题。",
+    "image_list": [
+      "Screenshot_2024-11-13-17-20-49-22_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "蓝色光标",
+    "formerDate": "2024-11-13",
+    "mode": -1,
+    "lastPrice": 0,
+    "bigPrice": 2.59,
+    "failureReason": [],
+    "resultPoint": 0,
+    "sellTiming": 0,
+    "phase": 1,
+    "buyReason": "放量后，大单均线半路，首先没封板，再次辨识度不够。只是版块的二三流股票。",
+    "image_list": [
+      "Screenshot_2024-11-13-17-20-28-43_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "博士眼镜",
+    "formerDate": "2024-11-13",
+    "mode": 1,
+    "lastPrice": 0,
+    "bigPrice": 1.43,
+    "failureReason": [],
+    "resultPoint": 4.2,
+    "sellTiming": -1,
+    "phase": 1,
+    "buyReason": "涨停后抗跌调整4天，踩10日线过前高突破，次日第时间没卖，拿了会后冲前高走了。",
+    "image_list": [
+      "Screenshot_2024-11-12-19-31-34-81_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-11-13-17-20-57-54_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-11-13-17-21-05-96_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "富通微电",
+    "formerDate": "2024-11-13",
+    "mode": 98,
+    "lastPrice": 0,
+    "bigPrice": -21.06,
+    "failureReason": [32],
+    "resultPoint": -3.2,
+    "sellTiming": 0,
+    "phase": 1,
+    "buyReason": "断板两天，比较抗跌，上板反包。次日平开上车，不及预期竞价跑。",
+    "image_list": [
+      "Screenshot_2024-11-12-19-31-16-65_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-11-13-17-21-34-54_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-11-13-17-21-43-32_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "华映科技",
+    "formerDate": "2024-11-07",
+    "mode": -100,
+    "lastPrice": 0,
+    "bigPrice": -6.6,
+    "failureReason": [32,36],
+    "resultPoint": -27.3,
     "sellTiming": 0,
     "phase": 1,
     "buyReason": "华为线的一支票，头一天已经话题蓄势了，结果低开走弱不开进，想捡便宜上车被套。",
     "image_list": [
-      "Screenshot_2024-11-08-19-35-50-85_5c5979e609b9ed4a43e94260d67cf51e.webp"
-    ]
-  },
-  {
-    "gpName": "东方财富",
-    "formerDate": "2024-11-07",
-    "mode": -1,
-    "lastPrice": 0,
-    "bigPrice": -0.65,
-    "failureReason": [],
-    "resultPoint": 0,
-    "sellTiming": 0,
-    "phase": 1,
-    "buyReason": "心态崩坏的一天，本来不打算买了，下午看证券起来了5-6个点，核心票是东方财富，就又买了一笔。尾盘看还是挺强的。",
-    "image_list": [
-      "Screenshot_2024-11-07-19-14-53-76_5c5979e609b9ed4a43e94260d67cf51e.webp",
-      "Screenshot_2024-11-08-19-34-54-82_5c5979e609b9ed4a43e94260d67cf51e.webp",
-      "Screenshot_2024-11-08-19-35-14-89_5c5979e609b9ed4a43e94260d67cf51e.webp"
+      "Screenshot_2024-11-08-19-35-50-85_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-11-13-17-21-54-51_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-11-13-17-22-02-55_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
@@ -36,9 +100,9 @@
     "formerDate": "2024-11-06",
     "mode": -100,
     "lastPrice": 0,
-    "bigPrice": -0.65,
-    "failureReason": [],
-    "resultPoint": -7.1,
+    "bigPrice": -14.26,
+    "failureReason": [32],
+    "resultPoint": -7.76,
     "sellTiming": 0,
     "phase": 1,
     "buyReason": "有点像苏交科，上车后有点后悔，均线有点像老鸭头，变窄后的调整，临时起义。下跌加低开，离场。",
@@ -51,11 +115,11 @@
   {
     "gpName": "云南锗业",
     "formerDate": "2024-11-06",
-    "mode": -1,
+    "mode": 98,
     "lastPrice": 0,
     "bigPrice": -6.38,
-    "failureReason": [],
-    "resultPoint": 0,
+    "failureReason": [32,33],
+    "resultPoint": -12.81,
     "sellTiming": 0,
     "phase": 1,
     "buyReason": "觉得是个加速，外加看连板指数好，就上车了，但因为提前量能不太足，量比才20多，力度不够，中途封住，尾盘崩盘。次日低开走了。卖之前其实想到有反包预期，没等。后涨停，次日开盘走，后再涨停，又追。。。。。。。无语",
@@ -67,37 +131,20 @@
     ]
   },
   {
-    "gpName": "四川长虹",
-    "formerDate": "2024-11-05",
-    "mode": -5,
-    "lastPrice": 0,
-    "bigPrice": -14.26,
-    "failureReason": [],
-    "resultPoint": -6.81,
-    "sellTiming": 0,
-    "phase": 1,
-    "buyReason": "分析是二浪结束，箱体偏下买入。第二天下跌，觉得是箱体底部就等了等，结果和欧菲光那次很像，恐慌下跌，崩盘离场",
-    "image_list": [
-      "Screenshot_2024-11-05-16-34-45-96_5c5979e609b9ed4a43e94260d67cf51e.webp",
-      "Screenshot_2024-11-06-19-43-03-21_5c5979e609b9ed4a43e94260d67cf51e.webp",
-      "Screenshot_2024-11-06-19-43-11-03_5c5979e609b9ed4a43e94260d67cf51e.webp"
-    ]
-  },
-  {
-    "gpName": "中航电测",
-    "formerDate": "2024-11-05",
+    "gpName": "东方财富",
+    "formerDate": "2024-11-07",
     "mode": 1,
     "lastPrice": 0,
-    "bigPrice": -1.23,
+    "bigPrice": 26.78,
     "failureReason": [],
-    "resultPoint": 2.89,
+    "resultPoint": 0.86,
     "sellTiming": 0,
     "phase": 1,
-    "buyReason": "看军工涨的挺好，中航电测前几天也有过热点，在均线附近就追了，结果大盘涨了6个多点都没涨停，还好尾盘拉了下。开盘即高点，离场",
+    "buyReason": "心态崩坏的一天，本来不打算买了，下午看证券起来了5-6个点，核心票是东方财富，就又买了一笔。尾盘看还是挺强的。次日高开没卖，逻辑看下创神的",
     "image_list": [
-      "Screenshot_2024-11-05-16-35-13-57_5c5979e609b9ed4a43e94260d67cf51e.webp",
-      "Screenshot_2024-11-06-19-43-50-58_5c5979e609b9ed4a43e94260d67cf51e.webp",
-      "Screenshot_2024-11-06-19-43-58-21_5c5979e609b9ed4a43e94260d67cf51e.webp"
+      "Screenshot_2024-11-07-19-14-53-76_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-11-08-19-34-54-82_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-11-08-19-35-14-89_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
@@ -124,7 +171,7 @@
     "lastPrice": 0,
     "bigPrice": 3.09,
     "failureReason": [],
-    "resultPoint": 0,
+    "resultPoint": -6.03,
     "sellTiming": 0,
     "phase": 1,
     "buyReason": "环境挺好，大盘放量上攻，这个版块没有效应，这票只是分歧中，小放量。但没有能封住，尾盘还砸了，又要拿好几天了。难受。开盘等了一小会，离场。",
@@ -135,20 +182,37 @@
     ]
   },
   {
-    "gpName": "上海电汽",
-    "formerDate": "2024-10-31",
-    "mode": 66,
+    "gpName": "中航电测",
+    "formerDate": "2024-11-05",
+    "mode": 1,
     "lastPrice": 0,
-    "bigPrice": -9.59,
+    "bigPrice": -1.23,
     "failureReason": [],
-    "resultPoint": -7.45,
-    "sellTiming": 1,
-    "phase": 4,
-    "buyReason": "强势上板上车，但尾盘分歧被炸开，二档标，当天小分歧，次日大分歧，冲高没走。",
+    "resultPoint": 2.89,
+    "sellTiming": 0,
+    "phase": 1,
+    "buyReason": "看军工涨的挺好，中航电测前几天也有过热点，在均线附近就追了，结果大盘涨了6个多点都没涨停，还好尾盘拉了下。开盘即高点，离场",
     "image_list": [
-      "Screenshot_2024-10-31-19-17-08-41_5c5979e609b9ed4a43e94260d67cf51e.webp",
-      "Screenshot_2024-11-01-18-40-34-11_5c5979e609b9ed4a43e94260d67cf51e.webp",
-      "Screenshot_2024-11-01-18-40-42-47_5c5979e609b9ed4a43e94260d67cf51e.webp"
+      "Screenshot_2024-11-05-16-35-13-57_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-11-06-19-43-50-58_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-11-06-19-43-58-21_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "四川长虹",
+    "formerDate": "2024-11-05",
+    "mode": -5,
+    "lastPrice": 0,
+    "bigPrice": -14.26,
+    "failureReason": [32],
+    "resultPoint": -6.81,
+    "sellTiming": 0,
+    "phase": 1,
+    "buyReason": "分析是二浪结束，箱体偏下买入。第二天下跌，觉得是箱体底部就等了等，结果和欧菲光那次很像，恐慌下跌，崩盘离场",
+    "image_list": [
+      "Screenshot_2024-11-05-16-34-45-96_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-11-06-19-43-03-21_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-11-06-19-43-11-03_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
@@ -157,7 +221,7 @@
     "mode": 66,
     "lastPrice": 0,
     "bigPrice": -10.97,
-    "failureReason": [],
+    "failureReason": [32],
     "resultPoint": -6.68,
     "sellTiming": 0,
     "phase": 4,
@@ -166,6 +230,23 @@
       "Screenshot_2024-10-31-19-17-18-06_5c5979e609b9ed4a43e94260d67cf51e.webp",
       "Screenshot_2024-11-01-18-40-53-40_5c5979e609b9ed4a43e94260d67cf51e.webp",
       "Screenshot_2024-11-01-18-41-01-27_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "上海电汽",
+    "formerDate": "2024-10-31",
+    "mode": 66,
+    "lastPrice": 0,
+    "bigPrice": -9.59,
+    "failureReason": [32],
+    "resultPoint": -7.45,
+    "sellTiming": 1,
+    "phase": 4,
+    "buyReason": "强势上板上车，但尾盘分歧被炸开，二档标，当天小分歧，次日大分歧，冲高没走。",
+    "image_list": [
+      "Screenshot_2024-10-31-19-17-08-41_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-11-01-18-40-34-11_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-11-01-18-40-42-47_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
