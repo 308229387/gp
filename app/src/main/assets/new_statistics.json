@@ -1,47 +1,83 @@
 [
   {
-    "gpName": "供销大集",
-    "formerDate": "2024-11-13",
+    "gpName": "有研新材",
+    "formerDate": "2024-11-14",
     "mode": -1,
     "lastPrice": 0,
-    "bigPrice": -0.4,
+    "bigPrice": -7.33,
     "failureReason": [],
     "resultPoint": 0,
     "sellTiming": 0,
     "phase": 1,
-    "buyReason": "反包后创新高，消费热点版块，核心票，放量创新高的二板。下午排板上车。有呼家楼在里面。",
+    "buyReason": "爆量快速拉升向上，但环境差，爆开。这种方法不适用差环境。",
     "image_list": [
-      "Screenshot_2024-11-13-17-20-19-54_5c5979e609b9ed4a43e94260d67cf51e.webp"
+      "Screenshot_2024-11-14-19-23-25-31_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "中科金财",
+    "formerDate": "2024-11-14",
+    "mode": -1,
+    "lastPrice": 0,
+    "bigPrice": 1.36,
+    "failureReason": [],
+    "resultPoint": 0,
+    "sellTiming": 0,
+    "phase": 1,
+    "buyReason": "高位全死翘翘，1进二板上毛毛虫，不够强。",
+    "image_list": [
+      "Screenshot_2024-11-14-19-23-07-91_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "供销大集",
+    "formerDate": "2024-11-13",
+    "mode": 88,
+    "lastPrice": 1.6,
+    "bigPrice": -0.4,
+    "failureReason": [],
+    "resultPoint": -6.9,
+    "sellTiming": 0,
+    "phase": 1,
+    "buyReason": "反包后创新高，消费热点版块，核心票，放量创新高的二板。下午排板上车。有呼家楼在里面。开盘低开不及预期，环境不好，但没有果断卖，下跌后卖出",
+    "image_list": [
+      "Screenshot_2024-11-13-17-20-19-54_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-11-14-19-22-31-94_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-11-14-19-22-39-57_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
     "gpName": "中国卫通",
     "formerDate": "2024-11-13",
-    "mode": -1,
+    "mode": 98,
     "lastPrice": 0,
     "bigPrice": 5.21,
     "failureReason": [],
-    "resultPoint": 0,
+    "resultPoint": -5.2,
     "sellTiming": 0,
     "phase": 1,
-    "buyReason": "上板后第一时间没有看到，炸板跌下均线上车，大单够强6亿多，且是反包，爆量调整后涨停。买入没问题。",
+    "buyReason": "上板后第一时间没有看到，炸板跌下均线上车，大单够强6亿多，且是反包，爆量调整后涨停。买入没问题。开盘不及预期，下跌后反弹离场",
     "image_list": [
-      "Screenshot_2024-11-13-17-20-49-22_5c5979e609b9ed4a43e94260d67cf51e.webp"
+      "Screenshot_2024-11-13-17-20-49-22_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-11-14-19-22-12-76_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-11-14-19-22-21-58_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
     "gpName": "蓝色光标",
     "formerDate": "2024-11-13",
-    "mode": -1,
+    "mode": 97,
     "lastPrice": 0,
     "bigPrice": 2.59,
     "failureReason": [],
-    "resultPoint": 0,
+    "resultPoint": -3.2,
     "sellTiming": 0,
     "phase": 1,
-    "buyReason": "放量后，大单均线半路，首先没封板，再次辨识度不够。只是版块的二三流股票。",
+    "buyReason": "放量后，大单均线半路，首先没封板，再次辨识度不够。只是版块的二三流股票。开盘低开离场",
     "image_list": [
-      "Screenshot_2024-11-13-17-20-28-43_5c5979e609b9ed4a43e94260d67cf51e.webp"
+      "Screenshot_2024-11-13-17-20-28-43_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-11-14-19-22-48-93_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-11-14-19-22-57-76_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
