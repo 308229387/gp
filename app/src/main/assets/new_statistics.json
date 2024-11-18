@@ -6,12 +6,14 @@
     "lastPrice": 0,
     "bigPrice": -7.33,
     "failureReason": [],
-    "resultPoint": 0,
+    "resultPoint": -7.33,
     "sellTiming": 0,
     "phase": 1,
-    "buyReason": "爆量快速拉升向上，但环境差，爆开。这种方法不适用差环境。",
+    "buyReason": "爆量快速拉升向上，但环境差，爆开。这种方法不适用差环境。次日竞价跌停5亿压单，挂单后拉起修复涨停。",
     "image_list": [
-      "Screenshot_2024-11-14-19-23-25-31_5c5979e609b9ed4a43e94260d67cf51e.webp"
+      "Screenshot_2024-11-14-19-23-25-31_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-11-15-19-16-57-89_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-11-15-19-17-06-04_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
