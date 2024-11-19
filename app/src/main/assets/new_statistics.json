@@ -1,14 +1,129 @@
 [
   {
+    "gpName": "奥海科技",
+    "formerDate": "2024-11-19",
+    "mode": -1,
+    "lastPrice": 0.13,
+    "bigPrice": 0.82,
+    "failureReason": [],
+    "resultPoint": 0,
+    "sellTiming": 0,
+    "phase": 7,
+    "buyReason": "双响炮形态，排板上车，开盘快速拉升，不出意外开板，尾盘行情转好又加仓上车，AI+华为。",
+    "image_list": [
+      "Screenshot_2024-11-19-19-33-43-96_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "众源新材",
+    "formerDate": "2024-11-19",
+    "mode": -1,
+    "lastPrice": 0.23,
+    "bigPrice": 0.43,
+    "failureReason": [],
+    "resultPoint": 0,
+    "sellTiming": 0,
+    "phase": 7,
+    "buyReason": "尾盘行情转好上车，固态电池概念",
+    "image_list": [
+      "Screenshot_2024-11-19-19-33-28-90_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "中国铁建",
+    "formerDate": "2024-11-18",
+    "mode": 1,
+    "lastPrice": 0,
+    "bigPrice": 3.65,
+    "failureReason": [],
+    "resultPoint": -3.71,
+    "sellTiming": 0,
+    "phase": 6,
+    "buyReason": "首板破平台，环境恶劣，中午板上毛毛虫上车，后开板。次日低开离场。",
+    "image_list": [
+      "Screenshot_2024-11-18-17-06-22-39_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-11-19-19-33-09-56_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-11-19-19-33-19-17_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "豆神教育",
+    "formerDate": "2024-11-15",
+    "mode": 1,
+    "lastPrice": 0.54,
+    "bigPrice": 9.08,
+    "failureReason": [],
+    "resultPoint": -6.71,
+    "sellTiming": 0,
+    "phase": 6,
+    "buyReason": "尾盘上板，上车，龙虎榜还挺好，结果还是低开6个多点。",
+    "image_list": [
+      "Screenshot_2024-11-15-19-17-24-73_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-11-18-17-05-41-09_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-11-18-17-05-49-21_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "四川长虹",
+    "formerDate": "2024-11-15",
+    "mode": -5,
+    "lastPrice": 0,
+    "bigPrice": -9.05,
+    "failureReason": [],
+    "resultPoint": -14.64,
+    "sellTiming": 1,
+    "phase": 6,
+    "buyReason": "觉得能沿20日均线回踩结果当天不及预期，次日开盘还不及预期，最后呆了一会，最后割在跌停板了。",
+    "image_list": [
+      "Screenshot_2024-11-15-19-17-47-58_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-11-18-17-06-02-47_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-11-18-17-06-10-72_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "中证500",
+    "formerDate": "2024-11-15",
+    "mode": -1,
+    "lastPrice": 0,
+    "bigPrice": 0,
+    "failureReason": [],
+    "resultPoint": 0,
+    "sellTiming": 0,
+    "phase": 6,
+    "buyReason": "觉得能沿20日均线回踩结果当天不及预期，次日开盘还不及预期，最后呆了一会，最后割在跌停板了。",
+    "image_list": [
+      "Screenshot_2024-11-15-19-18-00-23_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-11-18-17-06-32-15_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-11-19-20-43-04-69_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "中广天择",
+    "formerDate": "2024-11-15",
+    "mode": 1,
+    "lastPrice": 0,
+    "bigPrice": 1.15,
+    "failureReason": [],
+    "resultPoint": -12.65,
+    "sellTiming": 1,
+    "phase": 6,
+    "buyReason": "踩着均线的一个首板，觉得有均线支撑就上车了。结果当天大跌5个多，次日又低开，秒崩大面",
+    "image_list": [
+      "Screenshot_2024-11-15-19-17-36-13_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-11-18-17-05-23-68_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-11-18-17-05-31-88_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
     "gpName": "有研新材",
     "formerDate": "2024-11-14",
-    "mode": -1,
+    "mode": 66,
     "lastPrice": 0,
     "bigPrice": -7.33,
     "failureReason": [],
     "resultPoint": -7.33,
-    "sellTiming": 0,
-    "phase": 1,
+    "sellTiming": -1,
+    "phase": 6,
     "buyReason": "爆量快速拉升向上，但环境差，爆开。这种方法不适用差环境。次日竞价跌停5亿压单，挂单后拉起修复涨停。",
     "image_list": [
       "Screenshot_2024-11-14-19-23-25-31_5c5979e609b9ed4a43e94260d67cf51e.webp",
@@ -19,16 +134,18 @@
   {
     "gpName": "中科金财",
     "formerDate": "2024-11-14",
-    "mode": -1,
-    "lastPrice": 0,
+    "mode": 2,
+    "lastPrice": 0.74,
     "bigPrice": 1.36,
     "failureReason": [],
-    "resultPoint": 0,
+    "resultPoint": 8.2,
     "sellTiming": 0,
-    "phase": 1,
-    "buyReason": "高位全死翘翘，1进二板上毛毛虫，不够强。",
+    "phase": 6,
+    "buyReason": "高位全死翘翘，1进二板上毛毛虫，不够强。次日涨停，再次日继续涨停，结果第三天跌停开，无语。",
     "image_list": [
-      "Screenshot_2024-11-14-19-23-07-91_5c5979e609b9ed4a43e94260d67cf51e.webp"
+      "Screenshot_2024-11-14-19-23-07-91_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-11-19-19-32-52-19_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-11-19-19-33-00-66_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
