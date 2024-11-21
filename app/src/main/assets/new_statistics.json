@@ -2,37 +2,41 @@
   {
     "gpName": "上海洗霸",
     "formerDate": "2024-11-20",
-    "mode": -1,
-    "lastPrice": 0.13,
-    "bigPrice": 0.82,
+    "mode": 1,
+    "lastPrice": 0.09,
+    "bigPrice": 0.35,
     "failureReason": [],
-    "resultPoint": 0,
+    "resultPoint": 1.2,
     "sellTiming": 0,
-    "phase": 7,
+    "phase": 2,
     "buyReason": "看高打低，粤桂没敢上，就买了低位的上海洗霸，前两天就上板，昨天回调。今天早上看到有发动就半路了。",
     "image_list": [
-      "Screenshot_2024-11-19-19-33-43-96_5c5979e609b9ed4a43e94260d67cf51e.webp"
+      "Screenshot_2024-11-20-16-40-51-95_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-11-21-16-25-40-95_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-11-21-16-25-49-24_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
     "gpName": "国光电器",
     "formerDate": "2024-11-20",
-    "mode": -1,
-    "lastPrice": 0.13,
-    "bigPrice": 0.82,
+    "mode": 99,
+    "lastPrice": 1.84,
+    "bigPrice": -2.9,
     "failureReason": [],
-    "resultPoint": 0,
+    "resultPoint": 7.1,
     "sellTiming": 0,
-    "phase": 7,
+    "phase": 2,
     "buyReason": "消费电子龙头，环境转暖，排板上车",
     "image_list": [
-      "Screenshot_2024-11-19-19-33-43-96_5c5979e609b9ed4a43e94260d67cf51e.webp"
+      "Screenshot_2024-11-20-16-41-21-48_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-11-21-16-26-02-42_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-11-21-16-26-10-36_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
     "gpName": "奥海科技",
     "formerDate": "2024-11-19",
-    "mode": -1,
+    "mode": 1,
     "lastPrice": 0.13,
     "bigPrice": 0.82,
     "failureReason": [],
@@ -41,7 +45,9 @@
     "phase": 7,
     "buyReason": "双响炮形态，排板上车，开盘快速拉升，不出意外开板，尾盘行情转好又加仓上车，AI+华为。板上就不强势，次日低开离场。",
     "image_list": [
-      "Screenshot_2024-11-19-19-33-43-96_5c5979e609b9ed4a43e94260d67cf51e.webp"
+      "Screenshot_2024-11-19-19-33-43-96_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-11-20-16-41-34-71_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-11-20-16-41-43-26_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
@@ -124,7 +130,9 @@
     "image_list": [
       "Screenshot_2024-11-15-19-18-00-23_5c5979e609b9ed4a43e94260d67cf51e.webp",
       "Screenshot_2024-11-18-17-06-32-15_5c5979e609b9ed4a43e94260d67cf51e.webp",
-      "Screenshot_2024-11-19-20-43-04-69_5c5979e609b9ed4a43e94260d67cf51e.webp"
+      "Screenshot_2024-11-19-20-43-04-69_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-11-20-16-40-37-69_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-11-21-16-26-23-16_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
