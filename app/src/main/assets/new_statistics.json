@@ -1,19 +1,88 @@
 [
   {
+    "gpName": "中证500",
+    "formerDate": "2024-11-15",
+    "mode": -1,
+    "lastPrice": 0,
+    "bigPrice": 0,
+    "failureReason": [],
+    "resultPoint": 0,
+    "sellTiming": 0,
+    "phase": 6,
+    "buyReason": "觉得能沿20日均线回踩结果当天不及预期，次日开盘还不及预期，最后呆了一会，最后割在跌停板了。",
+    "image_list": [
+      "Screenshot_2024-11-15-19-18-00-23_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-11-18-17-06-32-15_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-11-19-20-43-04-69_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-11-20-16-40-37-69_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-11-21-16-26-23-16_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-11-22-19-32-39-11_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-11-25-19-36-17-88_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-11-27-17-26-13-53_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "贝士达克",
+    "formerDate": "2024-11-27",
+    "mode": -1,
+    "lastPrice": 1.1,
+    "bigPrice": 0.58,
+    "failureReason": [],
+    "resultPoint": 0,
+    "sellTiming": 0,
+    "phase": 2,
+    "buyReason": "从etf和市场量能判断今天是底，深V后，从开盘啦选择热门版块。这票是目前20CM最高的，也是高辨识度的标的。",
+    "image_list": [
+      "Screenshot_2024-11-27-17-19-41-42_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "赢时胜",
+    "formerDate": "2024-11-27",
+    "mode": -1,
+    "lastPrice": 0,
+    "bigPrice": 1.84,
+    "failureReason": [],
+    "resultPoint": 0,
+    "sellTiming": 0,
+    "phase": 2,
+    "buyReason": "从etf和市场量能判断今天是底，深V后，从开盘啦选择热门版块找较强的20cm上车，但当天表现不及预期。",
+    "image_list": [
+      "Screenshot_2024-11-27-17-19-33-39_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "日出东方",
+    "formerDate": "2024-11-27",
+    "mode": -1,
+    "lastPrice": 5.16,
+    "bigPrice": 1.09,
+    "failureReason": [],
+    "resultPoint": 0,
+    "sellTiming": 0,
+    "phase": 2,
+    "buyReason": "模仿海能达形态，有辨识度、竞价地板拉红，上车。",
+    "image_list": [
+      "Screenshot_2024-11-27-17-19-49-57_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
     "gpName": "生意宝",
     "formerDate": "2024-11-20",
     "mode": 1,
-    "lastPrice": 0.09,
-    "bigPrice": 0.35,
-    "failureReason": [10],
-    "resultPoint": 1.2,
-    "sellTiming": 0,
-    "phase": 2,
+    "lastPrice": 0,
+    "bigPrice": -2.56,
+    "failureReason": [
+      10
+    ],
+    "resultPoint": -26.1,
+    "sellTiming": -1,
+    "phase": 6,
     "buyReason": "龙头倒了，退潮，结果又去排板中位，后来炸开，结果就是暴击，一次又一次",
     "image_list": [
-      "Screenshot_2024-11-25-19-36-40-42_5c5979e609b9ed4a43e94260d67cf51e.webp",
-      "Screenshot_2024-11-26-19-30-35-58_5c5979e609b9ed4a43e94260d67cf51e.webp",
-      "Screenshot_2024-11-26-19-30-43-38_5c5979e609b9ed4a43e94260d67cf51e.webp"
+      "Screenshot_2024-11-26-19-30-54-03_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-11-27-17-19-58-68_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-11-27-17-20-11-87_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
@@ -37,13 +106,13 @@
     "gpName": "粤桂股份",
     "formerDate": "2024-11-20",
     "mode": 1,
-    "lastPrice": 0.09,
-    "bigPrice": 0.35,
+    "lastPrice": 3.3,
+    "bigPrice": -1.93,
     "failureReason": [],
-    "resultPoint": 1.2,
-    "sellTiming": 0,
-    "phase": 2,
-    "buyReason": "固态电池核心题材，粤桂又是核心，前两天环境不好，不敢上。今天行情转好，才敢上。",
+    "resultPoint": -0.91,
+    "sellTiming": 1,
+    "phase": 4,
+    "buyReason": "固态电池核心题材，粤桂又是核心，前两天环境不好，不敢上。今天行情转好，才敢上。第二天退潮，冲高没走。",
     "image_list": [
       "Screenshot_2024-11-25-19-37-33-05_5c5979e609b9ed4a43e94260d67cf51e.webp",
       "Screenshot_2024-11-26-19-30-17-39_5c5979e609b9ed4a43e94260d67cf51e.webp",
@@ -54,12 +123,12 @@
     "gpName": "蔚蓝锂芯",
     "formerDate": "2024-11-20",
     "mode": 1,
-    "lastPrice": 0.09,
-    "bigPrice": 0.35,
+    "lastPrice": 0,
+    "bigPrice": 0.63,
     "failureReason": [],
-    "resultPoint": 1.2,
+    "resultPoint": -3.29,
     "sellTiming": 0,
-    "phase": 2,
+    "phase": 4,
     "buyReason": "卖了众源新材，买了同版块的这个，弃马骑驴，当时看这票分时挺强，就买了，但低位辨识度不够，还好没崩。",
     "image_list": [
       "Screenshot_2024-11-22-19-33-52-55_5c5979e609b9ed4a43e94260d67cf51e.webp",
@@ -187,27 +256,6 @@
     ]
   },
   {
-    "gpName": "中证500",
-    "formerDate": "2024-11-15",
-    "mode": -1,
-    "lastPrice": 0,
-    "bigPrice": 0,
-    "failureReason": [],
-    "resultPoint": 0,
-    "sellTiming": 0,
-    "phase": 6,
-    "buyReason": "觉得能沿20日均线回踩结果当天不及预期，次日开盘还不及预期，最后呆了一会，最后割在跌停板了。",
-    "image_list": [
-      "Screenshot_2024-11-15-19-18-00-23_5c5979e609b9ed4a43e94260d67cf51e.webp",
-      "Screenshot_2024-11-18-17-06-32-15_5c5979e609b9ed4a43e94260d67cf51e.webp",
-      "Screenshot_2024-11-19-20-43-04-69_5c5979e609b9ed4a43e94260d67cf51e.webp",
-      "Screenshot_2024-11-20-16-40-37-69_5c5979e609b9ed4a43e94260d67cf51e.webp",
-      "Screenshot_2024-11-21-16-26-23-16_5c5979e609b9ed4a43e94260d67cf51e.webp",
-      "Screenshot_2024-11-22-19-32-39-11_5c5979e609b9ed4a43e94260d67cf51e.webp",
-      "Screenshot_2024-11-25-19-36-17-88_5c5979e609b9ed4a43e94260d67cf51e.webp"
-    ]
-  },
-  {
     "gpName": "中广天择",
     "formerDate": "2024-11-15",
     "mode": 1,
@@ -332,7 +380,9 @@
     "mode": 98,
     "lastPrice": 0,
     "bigPrice": -21.06,
-    "failureReason": [32],
+    "failureReason": [
+      32
+    ],
     "resultPoint": -3.2,
     "sellTiming": 0,
     "phase": 1,
@@ -349,7 +399,10 @@
     "mode": -100,
     "lastPrice": 0,
     "bigPrice": -6.6,
-    "failureReason": [32,36],
+    "failureReason": [
+      32,
+      36
+    ],
     "resultPoint": -27.3,
     "sellTiming": 0,
     "phase": 1,
@@ -366,7 +419,9 @@
     "mode": -100,
     "lastPrice": 0,
     "bigPrice": -14.26,
-    "failureReason": [32],
+    "failureReason": [
+      32
+    ],
     "resultPoint": -7.76,
     "sellTiming": 0,
     "phase": 1,
@@ -383,7 +438,10 @@
     "mode": 98,
     "lastPrice": 0,
     "bigPrice": -6.38,
-    "failureReason": [32,33],
+    "failureReason": [
+      32,
+      33
+    ],
     "resultPoint": -12.81,
     "sellTiming": 0,
     "phase": 1,
@@ -469,7 +527,9 @@
     "mode": -5,
     "lastPrice": 0,
     "bigPrice": -14.26,
-    "failureReason": [32],
+    "failureReason": [
+      32
+    ],
     "resultPoint": -6.81,
     "sellTiming": 0,
     "phase": 1,
@@ -486,7 +546,9 @@
     "mode": 66,
     "lastPrice": 0,
     "bigPrice": -10.97,
-    "failureReason": [32],
+    "failureReason": [
+      32
+    ],
     "resultPoint": -6.68,
     "sellTiming": 0,
     "phase": 4,
@@ -503,7 +565,9 @@
     "mode": 66,
     "lastPrice": 0,
     "bigPrice": -9.59,
-    "failureReason": [32],
+    "failureReason": [
+      32
+    ],
     "resultPoint": -7.45,
     "sellTiming": 1,
     "phase": 4,
