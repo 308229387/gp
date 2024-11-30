@@ -259,13 +259,13 @@
   {
     "gpName": "众源新材",
     "formerDate": "2024-11-19",
-    "mode": -1,
+    "mode": 1,
     "lastPrice": 0.23,
     "bigPrice": 0.43,
     "failureReason": [],
-    "resultPoint": 0,
+    "resultPoint": 29.94,
     "sellTiming": 0,
-    "phase": 7,
+    "phase": 2,
     "buyReason": "尾盘行情转好上车，固态电池概念，固态电池走强，一字。主线。开盘调整离场，走早了。",
     "image_list": [
       "Screenshot_2024-11-19-19-33-28-90_5c5979e609b9ed4a43e94260d67cf51e.webp",
