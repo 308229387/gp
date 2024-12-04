@@ -1,15 +1,14 @@
 [
   {
     "gpName": "中证500",
-    "formerDate": "2024-11-15",
+    "formerDate": "2024-12-31",
     "mode": -1,
     "lastPrice": 0,
     "bigPrice": 0,
     "failureReason": [],
     "resultPoint": 0,
     "sellTiming": 0,
-    "phase": 6,
-    "buyReason": "觉得能沿20日均线回踩结果当天不及预期，次日开盘还不及预期，最后呆了一会，最后割在跌停板了。",
+    "buyReason": "在etf的滚动操作中，均线的多头或空头发散，只能做为卖点的参考，不能用来追涨，因为，发散后的高度，强度，并不确定。买入的唯一标准，就是能否降低成本。",
     "image_list": [
       "Screenshot_2024-11-15-19-18-00-23_5c5979e609b9ed4a43e94260d67cf51e.webp",
       "Screenshot_2024-11-18-17-06-32-15_5c5979e609b9ed4a43e94260d67cf51e.webp",
