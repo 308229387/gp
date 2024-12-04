@@ -38,6 +38,7 @@ public class ReasonForFailure {
     public static final String REASON_34 = "太短视，只关注分时";
     public static final String REASON_35 = "模式与周期不符";
     public static final String REASON_36 = "蓄势后选错方向";
+    public static final String REASON_37 = "吓跑了";
 
 
 

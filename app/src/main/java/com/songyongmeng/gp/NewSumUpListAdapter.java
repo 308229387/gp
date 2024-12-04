@@ -580,7 +580,7 @@ public class NewSumUpListAdapter extends RecyclerView.Adapter<NewSumUpListAdapte
                         } else if (data.getMode() == 66) {
                             tmp = "缩量一至";
                         } else {
-                            tmp = "-";
+                            tmp = "中位股";
                         }
                         textView.setText(tmp);
                         break;

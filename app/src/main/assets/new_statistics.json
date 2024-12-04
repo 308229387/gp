@@ -20,68 +20,116 @@
       "Screenshot_2024-11-25-19-36-17-88_5c5979e609b9ed4a43e94260d67cf51e.webp",
       "Screenshot_2024-11-27-17-26-13-53_5c5979e609b9ed4a43e94260d67cf51e.webp",
       "Screenshot_2024-11-28-19-51-34-73_5c5979e609b9ed4a43e94260d67cf51e.webp",
-      "Screenshot_2024-11-29-17-46-24-84_5c5979e609b9ed4a43e94260d67cf51e.webp"
+      "Screenshot_2024-11-29-17-46-24-84_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-12-02-17-31-54-99_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-12-03-15-53-20-36_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-12-04-15-19-09-45_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "利欧股份",
+    "formerDate": "2024-12-03",
+    "mode": 99,
+    "lastPrice": 4.68,
+    "bigPrice": 12.65,
+    "failureReason": [],
+    "resultPoint": 4.8,
+    "sellTiming": 0,
+    "phase": 4,
+    "buyReason": "见顶日，之前一直20几亿封单，消费龙头，开板上车后回封，因为环境比较差，次日开盘就走了。",
+    "image_list": [
+      "Screenshot_2024-12-03-15-53-50-24_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-12-04-15-19-18-76_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-12-04-15-19-31-60_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
     "gpName": "华胜天成",
     "formerDate": "2024-11-29",
-    "mode": -1,
+    "mode": 99,
     "lastPrice": 0.68,
     "bigPrice": 2.52,
     "failureReason": [],
-    "resultPoint": 0,
+    "resultPoint": 8.27,
     "sellTiming": 0,
-    "phase": 2,
-    "buyReason": "平台经济高标，封单递增，进监管，六一中路加持",
+    "phase": 3,
+    "buyReason": "平台经济高标，封单递增，进监管，六一中路加持，第二天涨停一直到尾盘，跳水跑慢了，侥幸想等回封，",
     "image_list": [
-      "Screenshot_2024-11-29-17-47-02-34_5c5979e609b9ed4a43e94260d67cf51e.webp"
+      "Screenshot_2024-11-29-17-47-02-34_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-12-03-15-53-31-56_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-12-03-15-53-40-26_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
     "gpName": "柯力传感",
     "formerDate": "2024-11-29",
-    "mode": -1,
+    "mode": 1,
     "lastPrice": 0.68,
     "bigPrice": 2.52,
     "failureReason": [],
-    "resultPoint": 0,
-    "sellTiming": 0,
+    "resultPoint": 2.88,
+    "sellTiming": -1,
     "phase": 2,
-    "buyReason": "根据中评走势判断今天是强势行情，找到开盘啦的热点板块，然后找快封板，比较有辨识度的票。",
+    "buyReason": "根据中评走势判断今天是强势行情，找到开盘啦的热点板块，然后找快封板，比较有辨识度的票。次日龙头日出东方大低开，吓跑了",
     "image_list": [
-      "Screenshot_2024-11-29-17-47-02-34_5c5979e609b9ed4a43e94260d67cf51e.webp"
+      "Screenshot_2024-11-29-17-47-02-34_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-12-02-17-34-55-20_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-12-02-17-32-35-96_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "苏州科达",
+    "formerDate": "2024-11-29",
+    "mode": 4,
+    "lastPrice": 0,
+    "failureReason": [
+      1,
+      2,
+      20
+    ],
+    "resultPoint": -15.34,
+    "buyReason": "",
+    "sellTiming": -1,
+    "phase": 2,
+    "image_list": [
+      "Screenshot_2024-11-29-17-47-32-31_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-12-02-17-32-14-17_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-12-02-17-32-22-84_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
     "gpName": "汇金科技",
     "formerDate": "2024-11-29",
-    "mode": -1,
+    "mode": 98,
     "lastPrice": 1.25,
     "bigPrice": 2.35,
-    "failureReason": [],
-    "resultPoint": 0,
-    "sellTiming": 0,
+    "failureReason": [37],
+    "resultPoint": -8.63,
+    "sellTiming": -1,
     "phase": 2,
-    "buyReason": "互联网金融概念前排，今天是一个反包，排板买入。",
+    "buyReason": "互联网金融概念前排，今天是一个反包，排板买入。次日互金大低开，吓跑了。",
     "image_list": [
-      "Screenshot_2024-11-29-17-46-51-89_5c5979e609b9ed4a43e94260d67cf51e.webp"
+      "Screenshot_2024-11-29-17-46-51-89_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-12-02-17-33-48-09_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-12-02-17-33-57-59_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
     "gpName": "汤姆猫",
     "formerDate": "2024-11-27",
-    "mode": -1,
+    "mode": 1,
     "lastPrice": 0,
     "bigPrice": -19.32,
     "failureReason": [],
-    "resultPoint": 0,
-    "sellTiming": 0,
+    "resultPoint": -1.4,
+    "sellTiming": -1,
     "phase": 2,
-    "buyReason": "谷子经济后排，前排买不到，昨天是高潮，次日买的，竞价后才买，买在高点，后回落，因为位置不算高，加上热度榜前5，就买了，后大幅回落，当天亏10个点，第二天做T成功",
+    "buyReason": "谷子经济后排，前排买不到，昨天是高潮，次日买的，竞价后才买，买在高点，后回落，因为位置不算高，加上热度榜前5，就买了，后大幅回落，当天亏10个点，第二天做T成功，卖早了",
     "image_list": [
       "Screenshot_2024-11-28-19-52-24-39_5c5979e609b9ed4a43e94260d67cf51e.webp",
-      "Screenshot_2024-11-29-17-46-38-87_5c5979e609b9ed4a43e94260d67cf51e.webp"
+      "Screenshot_2024-11-29-17-46-38-87_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-12-02-17-32-53-04_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-12-02-17-33-02-36_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
