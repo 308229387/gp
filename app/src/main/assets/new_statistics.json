@@ -8,7 +8,7 @@
     "failureReason": [],
     "resultPoint": 0,
     "sellTiming": 0,
-    "buyReason": "在etf的滚动操作中，均线的多头或空头发散，只能做为卖点的参考，不能用来追涨，因为，发散后的高度，强度，并不确定。买入的唯一标准，就是能否降低成本。",
+    "buyReason": "在etf的滚动操作中，均线的多头或空头发散，只能做为卖点的参考，不能用来追涨，因为，发散后的高度，强度，并不确定。买入的唯一标准，就是能否降低成本。\n做的越多，错的也就越多，滚动交易，每天最好只做一次最强确定性。\n忌讳贪多，大涨前一次高确定性卖出，但没有接回来，想着还能再跌点，结果拉起来了，得不偿失。",
     "image_list": [
       "Screenshot_2024-11-15-19-18-00-23_5c5979e609b9ed4a43e94260d67cf51e.webp",
       "Screenshot_2024-11-18-17-06-32-15_5c5979e609b9ed4a43e94260d67cf51e.webp",
@@ -22,7 +22,54 @@
       "Screenshot_2024-11-29-17-46-24-84_5c5979e609b9ed4a43e94260d67cf51e.webp",
       "Screenshot_2024-12-02-17-31-54-99_5c5979e609b9ed4a43e94260d67cf51e.webp",
       "Screenshot_2024-12-03-15-53-20-36_5c5979e609b9ed4a43e94260d67cf51e.webp",
-      "Screenshot_2024-12-04-15-19-09-45_5c5979e609b9ed4a43e94260d67cf51e.webp"
+      "Screenshot_2024-12-04-15-19-09-45_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-12-05-16-31-32-15_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "一鸣食品",
+    "formerDate": "2024-12-05",
+    "mode": -1,
+    "lastPrice": 0.72,
+    "bigPrice": 0.97,
+    "failureReason": [],
+    "resultPoint": 0,
+    "sellTiming": 0,
+    "phase": 2,
+    "buyReason": "指数在调整后首次放量上涨，这票是市场连板最高标，虽然消费题材调整，但做为最高板预计会有议价，0.9亿时排的单。",
+    "image_list": [
+      "Screenshot_2024-12-06-16-04-00-64_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "酷特智能",
+    "formerDate": "2024-12-05",
+    "mode": -1,
+    "lastPrice": 1.37,
+    "bigPrice": 2.24,
+    "failureReason": [],
+    "resultPoint": 0,
+    "sellTiming": 0,
+    "phase": 2,
+    "buyReason": "指数放量上涨，热点人工智能版块块。20cm后排，也是过前高平台，但是比预期的弱，中间没封住，形态上有点像豆神教育，但行情上比那天要强，周一如果不能高开就竞价走。",
+    "image_list": [
+      "Screenshot_2024-12-06-16-03-51-66_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "中公教育",
+    "formerDate": "2024-12-05",
+    "mode": -1,
+    "lastPrice": 1.18,
+    "bigPrice": 9.64,
+    "failureReason": [],
+    "resultPoint": 0,
+    "sellTiming": 0,
+    "phase": 2,
+    "buyReason": "冰点转暖节点买的，当天机器人题材延续强势，带动AI，当时看是AI的低位，过前方平台，次日高开，半分钟量比就到40了，大单正向4000多万。",
+    "image_list": [
+      "Screenshot_2024-12-05-16-31-22-98_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-12-06-16-04-09-80_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
@@ -32,10 +79,10 @@
     "lastPrice": 4.68,
     "bigPrice": 12.65,
     "failureReason": [],
-    "resultPoint": 4.8,
+    "resultPoint": 5.02,
     "sellTiming": 0,
     "phase": 4,
-    "buyReason": "见顶日，之前一直20几亿封单，消费龙头，开板上车后回封，因为环境比较差，次日开盘就走了。",
+    "buyReason": "见顶日，之前一直20几亿封单，消费龙头，开板上车后回封，尾盘还开了下板。因为环境比较差，次日开盘就走了。",
     "image_list": [
       "Screenshot_2024-12-03-15-53-50-24_5c5979e609b9ed4a43e94260d67cf51e.webp",
       "Screenshot_2024-12-04-15-19-18-76_5c5979e609b9ed4a43e94260d67cf51e.webp",
@@ -102,7 +149,9 @@
     "mode": 98,
     "lastPrice": 1.25,
     "bigPrice": 2.35,
-    "failureReason": [37],
+    "failureReason": [
+      37
+    ],
     "resultPoint": -8.63,
     "sellTiming": -1,
     "phase": 2,
