@@ -23,7 +23,23 @@
       "Screenshot_2024-12-02-17-31-54-99_5c5979e609b9ed4a43e94260d67cf51e.webp",
       "Screenshot_2024-12-03-15-53-20-36_5c5979e609b9ed4a43e94260d67cf51e.webp",
       "Screenshot_2024-12-04-15-19-09-45_5c5979e609b9ed4a43e94260d67cf51e.webp",
-      "Screenshot_2024-12-05-16-31-32-15_5c5979e609b9ed4a43e94260d67cf51e.webp"
+      "Screenshot_2024-12-05-16-31-32-15_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-12-09-15-33-21-82_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "五洲新春",
+    "formerDate": "2024-12-09",
+    "mode": -1,
+    "lastPrice": 0,
+    "bigPrice": -1.11,
+    "failureReason": [],
+    "resultPoint": 0,
+    "sellTiming": 0,
+    "phase": 2,
+    "buyReason": "已经看到机器人板块退潮，还想在其中折腾，做个次强票的弱转强，结果就是一地鸡毛，好在有大利好，不然又是一地鸡毛",
+    "image_list": [
+      "Screenshot_2024-12-09-15-32-21-20_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
@@ -38,38 +54,43 @@
     "phase": 2,
     "buyReason": "指数在调整后首次放量上涨，这票是市场连板最高标，虽然消费题材调整，但做为最高板预计会有议价，0.9亿时排的单。",
     "image_list": [
-      "Screenshot_2024-12-06-16-04-00-64_5c5979e609b9ed4a43e94260d67cf51e.webp"
+      "Screenshot_2024-12-06-16-04-00-64_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-12-09-15-32-50-93_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
     "gpName": "酷特智能",
     "formerDate": "2024-12-05",
-    "mode": -1,
+    "mode": 1,
     "lastPrice": 1.37,
     "bigPrice": 2.24,
     "failureReason": [],
-    "resultPoint": 0,
+    "resultPoint": 2.8,
     "sellTiming": 0,
     "phase": 2,
     "buyReason": "指数放量上涨，热点人工智能版块块。20cm后排，也是过前高平台，但是比预期的弱，中间没封住，形态上有点像豆神教育，但行情上比那天要强，周一如果不能高开就竞价走。",
     "image_list": [
-      "Screenshot_2024-12-06-16-03-51-66_5c5979e609b9ed4a43e94260d67cf51e.webp"
+      "Screenshot_2024-12-06-16-03-51-66_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-12-09-15-32-31-10_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-12-09-15-32-40-15_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
     "gpName": "中公教育",
     "formerDate": "2024-12-05",
-    "mode": -1,
+    "mode": 1,
     "lastPrice": 1.18,
     "bigPrice": 9.64,
     "failureReason": [],
-    "resultPoint": 0,
+    "resultPoint": 12.5,
     "sellTiming": 0,
     "phase": 2,
     "buyReason": "冰点转暖节点买的，当天机器人题材延续强势，带动AI，当时看是AI的低位，过前方平台，次日高开，半分钟量比就到40了，大单正向4000多万。",
     "image_list": [
       "Screenshot_2024-12-05-16-31-22-98_5c5979e609b9ed4a43e94260d67cf51e.webp",
-      "Screenshot_2024-12-06-16-04-09-80_5c5979e609b9ed4a43e94260d67cf51e.webp"
+      "Screenshot_2024-12-06-16-04-09-80_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-12-09-15-33-00-79_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-12-09-15-33-09-69_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
