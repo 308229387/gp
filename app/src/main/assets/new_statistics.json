@@ -24,7 +24,83 @@
       "Screenshot_2024-12-03-15-53-20-36_5c5979e609b9ed4a43e94260d67cf51e.webp",
       "Screenshot_2024-12-04-15-19-09-45_5c5979e609b9ed4a43e94260d67cf51e.webp",
       "Screenshot_2024-12-05-16-31-32-15_5c5979e609b9ed4a43e94260d67cf51e.webp",
-      "Screenshot_2024-12-09-15-33-21-82_5c5979e609b9ed4a43e94260d67cf51e.webp"
+      "Screenshot_2024-12-09-15-33-21-82_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-12-10-17-27-51-04_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "山子高科",
+    "formerDate": "2024-12-10",
+    "mode": -1,
+    "lastPrice": 1.77,
+    "bigPrice": -0.17,
+    "failureReason": [],
+    "resultPoint": 0,
+    "sellTiming": 0,
+    "phase": 5,
+    "buyReason": "热点板块热门中位票。",
+    "image_list": [
+      "Screenshot_2024-12-10-17-29-22-82_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "汇金科技",
+    "formerDate": "2024-12-10",
+    "mode": -1,
+    "lastPrice": 0,
+    "bigPrice": -1.84,
+    "failureReason": [],
+    "resultPoint": 0,
+    "sellTiming": 0,
+    "phase": 5,
+    "buyReason": "行情大高开，主观认为对互联网金融有利就，追高，结果一地鸡毛。",
+    "image_list": [
+      "Screenshot_2024-12-10-17-28-52-50_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "三支松鼠",
+    "formerDate": "2024-12-10",
+    "mode": -1,
+    "lastPrice": 0,
+    "bigPrice": 0.07,
+    "failureReason": [],
+    "resultPoint": 0,
+    "sellTiming": 0,
+    "phase": 5,
+    "buyReason": "大利好，觉得行情好，想上个半路，结果非核心，随行情高开低走。",
+    "image_list": [
+      "Screenshot_2024-12-10-17-28-44-29_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "福达股份",
+    "formerDate": "2024-12-10",
+    "mode": -1,
+    "lastPrice": 0.32,
+    "bigPrice": 0.62,
+    "failureReason": [],
+    "resultPoint": 0,
+    "sellTiming": 0,
+    "phase": 5,
+    "buyReason": "热点版块低位首板。套利",
+    "image_list": [
+      "Screenshot_2024-12-10-17-28-24-58_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "利欧股份",
+    "formerDate": "2024-12-10",
+    "mode": -1,
+    "lastPrice": 0,
+    "bigPrice": -4.83,
+    "failureReason": [],
+    "resultPoint": 0,
+    "sellTiming": 0,
+    "phase": 5,
+    "buyReason": "大利好，觉得水涨船高，调整中的老龙头肯定有反弹回调，结果不及预期，但等下十日线回踩再看。",
+    "image_list": [
+      "Screenshot_2024-12-10-17-28-13-40_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
@@ -33,13 +109,17 @@
     "mode": -1,
     "lastPrice": 0,
     "bigPrice": -1.11,
-    "failureReason": [],
-    "resultPoint": 0,
+    "failureReason": [
+      38
+    ],
+    "resultPoint": -11.56,
     "sellTiming": 0,
     "phase": 2,
-    "buyReason": "已经看到机器人板块退潮，还想在其中折腾，做个次强票的弱转强，结果就是一地鸡毛，好在有大利好，不然又是一地鸡毛",
+    "buyReason": "已经看到机器人板块退潮，还想在其中折腾，做个次强票的弱转强，结果就是一地鸡毛，好在有大利好，次日0轴卖了，不然又是一地鸡毛",
     "image_list": [
-      "Screenshot_2024-12-09-15-32-21-20_5c5979e609b9ed4a43e94260d67cf51e.webp"
+      "Screenshot_2024-12-09-15-32-21-20_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-12-10-17-29-31-92_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-12-10-17-29-40-91_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
@@ -55,7 +135,8 @@
     "buyReason": "指数在调整后首次放量上涨，这票是市场连板最高标，虽然消费题材调整，但做为最高板预计会有议价，0.9亿时排的单。",
     "image_list": [
       "Screenshot_2024-12-06-16-04-00-64_5c5979e609b9ed4a43e94260d67cf51e.webp",
-      "Screenshot_2024-12-09-15-32-50-93_5c5979e609b9ed4a43e94260d67cf51e.webp"
+      "Screenshot_2024-12-09-15-32-50-93_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-12-10-17-29-01-41_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
@@ -152,7 +233,8 @@
     "failureReason": [
       1,
       2,
-      20
+      20,
+      38
     ],
     "resultPoint": -15.34,
     "buyReason": "",
