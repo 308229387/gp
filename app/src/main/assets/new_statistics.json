@@ -8,7 +8,7 @@
     "failureReason": [],
     "resultPoint": 0,
     "sellTiming": 0,
-    "buyReason": "在etf的滚动操作中，均线的多头或空头发散，只能做为卖点的参考，不能用来追涨，因为，发散后的高度，强度，并不确定。买入的唯一标准，就是能否降低成本。\n做的越多，错的也就越多，滚动交易，每天最好只做一次最强确定性。\n忌讳贪多，大涨前一次高确定性卖出，但没有接回来，想着还能再跌点，结果拉起来了，得不偿失。",
+    "buyReason": "在etf的滚动操作中，均线的多头或空头发散，只能做为卖点的参考，不能用来追涨，因为，发散后的高度，强度，并不确定。买入的唯一标准，就是能否降低成本。\n做的越多，错的也就越多，滚动交易，每天最好只做一次最强确定性。\n忌讳贪多，大涨前一次高确定性卖出，但没有接回来，想着还能再跌点，结果拉起来了，得不偿失。\n情绪龙头见顶，指数也会有共振，要适当减仓，一鸣见顶后，指数也下跌近2个点。",
     "image_list": [
       "Screenshot_2024-11-15-19-18-00-23_5c5979e609b9ed4a43e94260d67cf51e.webp",
       "Screenshot_2024-11-18-17-06-32-15_5c5979e609b9ed4a43e94260d67cf51e.webp",
@@ -26,7 +26,9 @@
       "Screenshot_2024-12-05-16-31-32-15_5c5979e609b9ed4a43e94260d67cf51e.webp",
       "Screenshot_2024-12-09-15-33-21-82_5c5979e609b9ed4a43e94260d67cf51e.webp",
       "Screenshot_2024-12-10-17-27-51-04_5c5979e609b9ed4a43e94260d67cf51e.webp",
-      "Screenshot_2024-12-11-19-17-45-20_5c5979e609b9ed4a43e94260d67cf51e.webp"
+      "Screenshot_2024-12-11-19-17-45-20_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-12-12-19-36-28-67_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-12-13-16-51-01-27_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
@@ -35,11 +37,11 @@
     "mode": 5,
     "lastPrice": 1.77,
     "bigPrice": -0.17,
-    "failureReason": [],
-    "resultPoint": -10.1,
+    "failureReason": [38],
+    "resultPoint": -10.24,
     "sellTiming": -1,
-    "phase": 5,
-    "buyReason": "热点板块热门中位票。",
+    "phase": 6,
+    "buyReason": "热点板块热门中位票。本是退潮，只不过突发大利好高开，但阶段未改变。",
     "image_list": [
       "Screenshot_2024-12-10-17-29-22-82_5c5979e609b9ed4a43e94260d67cf51e.webp",
       "Screenshot_2024-12-11-19-18-29-75_5c5979e609b9ed4a43e94260d67cf51e.webp",
@@ -53,10 +55,10 @@
     "lastPrice": 0,
     "bigPrice": -1.84,
     "failureReason": [],
-    "resultPoint": -15.3,
+    "resultPoint": -7.97,
     "sellTiming": 0,
-    "phase": 5,
-    "buyReason": "行情大高开，主观认为对互联网金融有利就，追高，结果一地鸡毛。",
+    "phase": 6,
+    "buyReason": "行情大高开，主观认为对互联网金融有利就，追高，结果一地鸡毛。后行情修复反包，错过。",
     "image_list": [
       "Screenshot_2024-12-10-17-28-52-50_5c5979e609b9ed4a43e94260d67cf51e.webp",
       "Screenshot_2024-12-11-19-19-12-05_5c5979e609b9ed4a43e94260d67cf51e.webp",
@@ -70,10 +72,10 @@
     "lastPrice": 0,
     "bigPrice": 0.07,
     "failureReason": [2],
-    "resultPoint": -4.2,
+    "resultPoint": -4.35,
     "sellTiming": -1,
-    "phase": 5,
-    "buyReason": "大利好，觉得行情好，想上个半路，结果非核心，随行情高开低走。",
+    "phase": 6,
+    "buyReason": "大利好，觉得行情好，想上个半路，结果非核心，随行情高开低走。次日错过修复。",
     "image_list": [
       "Screenshot_2024-12-10-17-28-44-29_5c5979e609b9ed4a43e94260d67cf51e.webp",
       "Screenshot_2024-12-11-19-19-28-39_5c5979e609b9ed4a43e94260d67cf51e.webp",
@@ -87,9 +89,9 @@
     "lastPrice": 0.32,
     "bigPrice": 0.62,
     "failureReason": [],
-    "resultPoint": 4.9,
+    "resultPoint": 4.07,
     "sellTiming": 0,
-    "phase": 5,
+    "phase": 6,
     "buyReason": "热点版块低位首板。套利",
     "image_list": [
       "Screenshot_2024-12-10-17-28-24-58_5c5979e609b9ed4a43e94260d67cf51e.webp",
@@ -103,10 +105,10 @@
     "mode": -5,
     "lastPrice": 0,
     "bigPrice": -4.83,
-    "failureReason": [22],
-    "resultPoint": -14.2,
+    "failureReason": [10,22,28,33],
+    "resultPoint": -12.24,
     "sellTiming": 1,
-    "phase": 5,
+    "phase": 6,
     "buyReason": "大利好，觉得水涨船高，调整中的老龙头肯定有反弹回调，结果不及预期，但等下十日线回踩再看。模式外操作，重仓。亏损主要原因",
     "image_list": [
       "Screenshot_2024-12-10-17-28-13-40_5c5979e609b9ed4a43e94260d67cf51e.webp",
@@ -117,7 +119,7 @@
   {
     "gpName": "五洲新春",
     "formerDate": "2024-12-09",
-    "mode": -1,
+    "mode": 6,
     "lastPrice": 0,
     "bigPrice": -1.11,
     "failureReason": [
@@ -125,7 +127,7 @@
     ],
     "resultPoint": -11.56,
     "sellTiming": 0,
-    "phase": 2,
+    "phase": 6,
     "buyReason": "已经看到机器人板块退潮，还想在其中折腾，做个次强票的弱转强，结果就是一地鸡毛，好在有大利好，次日0轴卖了，不然又是一地鸡毛",
     "image_list": [
       "Screenshot_2024-12-09-15-32-21-20_5c5979e609b9ed4a43e94260d67cf51e.webp",
@@ -136,11 +138,11 @@
   {
     "gpName": "一鸣食品",
     "formerDate": "2024-12-05",
-    "mode": -1,
+    "mode": 99,
     "lastPrice": 0.72,
     "bigPrice": 0.97,
     "failureReason": [],
-    "resultPoint": 20.1,
+    "resultPoint": 20.8,
     "sellTiming": -1,
     "phase": 2,
     "buyReason": "指数在调整后首次放量上涨，这票是市场连板最高标，虽然消费题材调整，但做为最高板预计会有议价，0.9亿时排的单。",
