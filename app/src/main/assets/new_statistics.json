@@ -31,41 +31,38 @@
       "Screenshot_2024-12-13-16-51-01-27_5c5979e609b9ed4a43e94260d67cf51e.webp",
       "Screenshot_2024-12-16-19-31-09-26_5c5979e609b9ed4a43e94260d67cf51e.webp",
       "Screenshot_2024-12-17-19-42-34-44_5c5979e609b9ed4a43e94260d67cf51e.webp",
-      "Screenshot_2024-12-18-16-03-19-93_5c5979e609b9ed4a43e94260d67cf51e.webp"
+      "Screenshot_2024-12-18-16-03-19-93_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-12-19-19-36-46-43_5c5979e609b9ed4a43e94260d67cf51e.webp                                                                                                                   "
     ]
   },
   {
     "gpName": "浪潮信息",
     "formerDate": "2024-12-19",
     "mode": -1,
-    "lastPrice": 0,
-    "bigPrice": -7.92,
-    "failureReason": [38],
-    "resultPoint": -24.24,
-    "sellTiming": -1,
-    "phase": 6,
+    "lastPrice": 2.7,
+    "bigPrice": 22.86,
+    "failureReason": [],
+    "resultPoint": 0,
+    "sellTiming": 0,
+    "phase": 1,
     "buyReason": "当天冰点转弱修复，微放量，行情比预期好点，就小仓位选了一支，虽然上车封住，但却不是理论上好的买点，预计有肉。",
     "image_list": [
-      "Screenshot_2024-12-17-19-42-22-09_5c5979e609b9ed4a43e94260d67cf51e.webp",
-      "Screenshot_2024-12-18-16-03-32-11_5c5979e609b9ed4a43e94260d67cf51e.webp",
-      "Screenshot_2024-12-18-16-06-31-31_5c5979e609b9ed4a43e94260d67cf51e.webp"
+      "Screenshot_2024-12-19-19-36-29-90_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
     "gpName": "美丽云",
     "formerDate": "2024-12-18",
-    "mode": 98,
+    "mode": -1  ,
     "lastPrice": 0,
-    "bigPrice": -7.92,
-    "failureReason": [38],
-    "resultPoint": -24.24,
-    "sellTiming": -1,
-    "phase": 6,
-    "buyReason": "算力版块热点，辨识度感觉还行，但却没有封住，应该是行情不够强势。",
+    "bigPrice": 1.59,
+    "failureReason": [5],
+    "resultPoint": 0,
+    "sellTiming": 0,
+    "phase": 1,
+    "buyReason": "算力版块热点，辨识度感觉还行，但却没有封住，应该是行情不够强势,外加K线形态空头排列。",
     "image_list": [
-      "Screenshot_2024-12-17-19-42-22-09_5c5979e609b9ed4a43e94260d67cf51e.webp",
-      "Screenshot_2024-12-18-16-03-32-11_5c5979e609b9ed4a43e94260d67cf51e.webp",
-      "Screenshot_2024-12-18-16-06-31-31_5c5979e609b9ed4a43e94260d67cf51e.webp"
+      "Screenshot_2024-12-19-19-36-38-53_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
@@ -75,7 +72,7 @@
     "lastPrice": 0,
     "bigPrice": -7.92,
     "failureReason": [38],
-    "resultPoint": -24.24,
+    "resultPoint": -22.69,
     "sellTiming": -1,
     "phase": 6,
     "buyReason": "知道视觉中国是有辨识度的票，开盘看有反包，而且放大量，量比122，10亿封单，就挂单了，但退潮还没有结束，炸了大面。时机选择错误。",
@@ -337,7 +334,7 @@
   {
     "gpName": "汤姆猫",
     "formerDate": "2024-11-27",
-    "mode": 1,
+    "mode": 2,
     "lastPrice": 0,
     "bigPrice": -19.32,
     "failureReason": [],
@@ -406,7 +403,7 @@
   {
     "gpName": "生意宝",
     "formerDate": "2024-11-20",
-    "mode": 1,
+    "mode": 6,
     "lastPrice": 0,
     "bigPrice": -2.56,
     "failureReason": [
@@ -425,9 +422,9 @@
   {
     "gpName": "日出东方",
     "formerDate": "2024-11-20",
-    "mode": 1,
-    "lastPrice": 0.09,
-    "bigPrice": 0.35,
+    "mode": 99,
+    "lastPrice": 1.49,
+    "bigPrice": -0.64,
     "failureReason": [],
     "resultPoint": 1.82,
     "sellTiming": 0,
@@ -442,7 +439,7 @@
   {
     "gpName": "粤桂股份",
     "formerDate": "2024-11-20",
-    "mode": 1,
+    "mode": 99,
     "lastPrice": 3.3,
     "bigPrice": -1.93,
     "failureReason": [],
@@ -459,7 +456,7 @@
   {
     "gpName": "蔚蓝锂芯",
     "formerDate": "2024-11-20",
-    "mode": 1,
+    "mode": 2,
     "lastPrice": 0,
     "bigPrice": 0.63,
     "failureReason": [],
@@ -511,7 +508,7 @@
     "gpName": "奥海科技",
     "formerDate": "2024-11-19",
     "mode": 1,
-    "lastPrice": 0.13,
+    "lastPrice": -2.11,
     "bigPrice": 0.82,
     "failureReason": [],
     "resultPoint": 0,
@@ -612,7 +609,7 @@
   {
     "gpName": "有研新材",
     "formerDate": "2024-11-14",
-    "mode": 66,
+    "mode": 6,
     "lastPrice": 0,
     "bigPrice": -7.33,
     "failureReason": [],
@@ -646,7 +643,7 @@
   {
     "gpName": "供销大集",
     "formerDate": "2024-11-13",
-    "mode": 88,
+    "mode": 2,
     "lastPrice": 1.6,
     "bigPrice": -0.4,
     "failureReason": [],
@@ -680,7 +677,7 @@
   {
     "gpName": "蓝色光标",
     "formerDate": "2024-11-13",
-    "mode": 97,
+    "mode": 98,
     "lastPrice": 0,
     "bigPrice": 2.59,
     "failureReason": [],
@@ -772,7 +769,7 @@
   {
     "gpName": "云南锗业",
     "formerDate": "2024-11-06",
-    "mode": 98,
+    "mode": 5,
     "lastPrice": 0,
     "bigPrice": -6.38,
     "failureReason": [
