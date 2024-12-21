@@ -8,7 +8,7 @@
     "failureReason": [],
     "resultPoint": 0,
     "sellTiming": 0,
-    "buyReason": "\n成功次数：13\n失败次数：6\n胜率：72%\n\n如果限入下跌螺旋，就每天开盘减一点，有冲高再减一点，通过做减仓T，慢慢下车，千万不能下跌加仓，无动于衷，最后满仓被套\n\n在etf的滚动操作中，均线的多头或空头发散，只能做为卖点的参考，不能用来追涨，因为，发散后的高度，强度，并不确定。买入的唯一标准，就是能否降低成本。\n\n做的越多，错的也就越多，滚动交易，每天最好只做一次最强确定性。\n\n忌讳贪多，大涨前一次高确定性卖出，但没有接回来，想着还能再跌点，结果拉起来了，得不偿失。\n\n情绪龙头见顶，指数也会有共振，要适当减仓，一鸣见顶后，指数也下跌近2个点。\n\n下跌做T，就盯着大周期均线，每次触及压力位就先卖后买。",
+    "buyReason": "\n成功次数：14\n失败次数：6\n胜率：70%\n\n如果陷入下跌通道，做减仓T，慢慢下车，上升通道就做加仓T，慢慢再上车\n\n做的越多，错的也就越多，滚动交易，每天最好只做一次最强确定性。\n\n小聪明和贪是滚动做T的大忌讳，关键位置不空仓，不超配\n\n情绪龙头见顶，指数也会有共振，要适当减仓，一鸣见顶后，指数也下跌近2个点。\n\n大级别分析，小级别入手",
     "image_list": [
       "Screenshot_2024-11-15-19-18-00-23_5c5979e609b9ed4a43e94260d67cf51e.webp",
       "Screenshot_2024-11-18-17-06-32-15_5c5979e609b9ed4a43e94260d67cf51e.webp",
@@ -32,37 +32,87 @@
       "Screenshot_2024-12-16-19-31-09-26_5c5979e609b9ed4a43e94260d67cf51e.webp",
       "Screenshot_2024-12-17-19-42-34-44_5c5979e609b9ed4a43e94260d67cf51e.webp",
       "Screenshot_2024-12-18-16-03-19-93_5c5979e609b9ed4a43e94260d67cf51e.webp",
-      "Screenshot_2024-12-19-19-36-46-43_5c5979e609b9ed4a43e94260d67cf51e.webp                                                                                                                   "
+      "Screenshot_2024-12-19-19-36-46-43_5c5979e609b9ed4a43e94260d67cf51e.webp",                                                                                                                   ",
+      "Screenshot_2024-12-20-17-03-47-70_5c5979e609b9ed4a43e94260d67cf51e.webp                                                                                                                   "
+    ]
+  },
+  {
+    "gpName": "光迅科技",
+    "formerDate": "2024-12-20",
+    "mode": -1,
+    "lastPrice": 3.69,
+    "bigPrice": 2.06,
+    "failureReason": [],
+    "resultPoint": 0,
+    "sellTiming": 0,
+    "phase": 1,
+    "buyReason": "核心芯片光模组一进二，破U型平台新高，有量排板上车。",
+    "image_list": [
+      "Screenshot_2024-12-20-17-03-36-52_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "星星科技",
+    "formerDate": "2024-12-20",
+    "mode": -1,
+    "lastPrice": 0,
+    "bigPrice": 1.23,
+    "failureReason": [],
+    "resultPoint": 0,
+    "sellTiming": 0,
+    "phase": 1,
+    "buyReason": "开盘后消费电子算强势版块，知名度也有，想半路，却被挂到高位了，同时解锁了macd水下打半路板的技能。可以持有，等冲高。运气好可能会有一个板。",
+    "image_list": [
+      "Screenshot_2024-12-20-17-03-25-51_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "国光电器",
+    "formerDate": "2024-12-20",
+    "mode": -1,
+    "lastPrice": 0.37,
+    "bigPrice": 7.1,
+    "failureReason": [],
+    "resultPoint": 1.47,
+    "sellTiming": 0,
+    "phase": 1,
+    "buyReason": "开盘后消费电子算强势版块，国光知名度也有，大单也足，但量能不足，可以持有等高点卖出。",
+    "image_list": [
+      "Screenshot_2024-12-20-17-03-16-97_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
     "gpName": "浪潮信息",
     "formerDate": "2024-12-19",
-    "mode": -1,
+    "mode": 1,
     "lastPrice": 2.7,
     "bigPrice": 22.86,
     "failureReason": [],
-    "resultPoint": 0,
+    "resultPoint": 1.47,
     "sellTiming": 0,
     "phase": 1,
-    "buyReason": "当天冰点转弱修复，微放量，行情比预期好点，就小仓位选了一支，虽然上车封住，但却不是理论上好的买点，预计有肉。",
+    "buyReason": "当天冰点转弱修复，微放量，行情比预期好点，就小仓位选了一支，虽然上车封住，但却不是理论上好的买点，预计有肉。次日根据大盘macd强弱卖出，不算太高。",
     "image_list": [
-      "Screenshot_2024-12-19-19-36-29-90_5c5979e609b9ed4a43e94260d67cf51e.webp"
+      "Screenshot_2024-12-19-19-36-29-90_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "IMG_20241221_153643.webp",
+      "Screenshot_2024-12-21-15-31-59-35_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
     "gpName": "美丽云",
     "formerDate": "2024-12-18",
-    "mode": -1  ,
+    "mode": 1  ,
     "lastPrice": 0,
     "bigPrice": 1.59,
     "failureReason": [5],
-    "resultPoint": 0,
+    "resultPoint": -4.39,
     "sellTiming": 0,
     "phase": 1,
     "buyReason": "算力版块热点，辨识度感觉还行，但却没有封住，应该是行情不够强势,外加K线形态空头排列。",
     "image_list": [
-      "Screenshot_2024-12-19-19-36-38-53_5c5979e609b9ed4a43e94260d67cf51e.webp"
+      "Screenshot_2024-12-19-19-36-38-53_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "IMG_20241221_153403.webp",
+      "Screenshot_2024-12-21-15-32-27-14_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
