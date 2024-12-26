@@ -33,37 +33,77 @@
       "Screenshot_2024-12-17-19-42-34-44_5c5979e609b9ed4a43e94260d67cf51e.webp",
       "Screenshot_2024-12-18-16-03-19-93_5c5979e609b9ed4a43e94260d67cf51e.webp",
       "Screenshot_2024-12-19-19-36-46-43_5c5979e609b9ed4a43e94260d67cf51e.webp",
-      "Screenshot_2024-12-20-17-03-47-70_5c5979e609b9ed4a43e94260d67cf51e.webp"
+      "Screenshot_2024-12-20-17-03-47-70_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-12-23-19-31-55-97_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-12-24-16-17-46-06_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-12-25-16-48-39-23_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-12-26-19-24-13-40_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "韦尔股份",
+    "formerDate": "2024-12-25",
+    "mode": -1,
+    "lastPrice": 0,
+    "bigPrice": 1.91,
+    "failureReason": [],
+    "resultPoint": -1.08,
+    "sellTiming": 0,
+    "phase": 1,
+    "buyReason": "芯片版块次热，形态碗口，当天环境还行，只不过市场量能差点，冰点修复试错。",
+    "image_list": [
+      "Screenshot_2024-12-26-19-24-13-40_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "万丰奥威",
+    "formerDate": "2024-12-25",
+    "mode": 1,
+    "lastPrice": 0,
+    "bigPrice": 1.91,
+    "failureReason": [],
+    "resultPoint": -1.08,
+    "sellTiming": -1,
+    "phase": 1,
+    "buyReason": "有辨识度，当天版块不是热点，但形态好，次日走的太水了，前一天跌怕了，走早了。",
+    "image_list": [
+      "Screenshot_2024-12-24-16-17-57-22_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-12-25-16-48-02-62_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-12-25-16-48-21-32_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
     "gpName": "光迅科技",
     "formerDate": "2024-12-20",
-    "mode": -1,
+    "mode": 2,
     "lastPrice": 3.69,
     "bigPrice": 2.06,
     "failureReason": [],
-    "resultPoint": 0,
+    "resultPoint": 2.8,
     "sellTiming": 0,
     "phase": 1,
-    "buyReason": "核心芯片光模组一进二，破U型平台新高，有量排板上车。",
+    "buyReason": "核心芯片光模组一进二，破U型平台新高，有量排板上车。冲高离场。预期不高。",
     "image_list": [
-      "Screenshot_2024-12-20-17-03-36-52_5c5979e609b9ed4a43e94260d67cf51e.webp"
+      "Screenshot_2024-12-20-17-03-36-52_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-12-23-19-31-28-42_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-12-23-19-31-44-92_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
     "gpName": "星星科技",
     "formerDate": "2024-12-20",
-    "mode": -1,
+    "mode": 1,
     "lastPrice": 0,
     "bigPrice": 1.23,
     "failureReason": [],
     "resultPoint": 0,
-    "sellTiming": 0,
+    "sellTiming": 1,
     "phase": 1,
-    "buyReason": "开盘后消费电子算强势版块，知名度也有，想半路，却被挂到高位了，同时解锁了macd水下打半路板的技能。可以持有，等冲高。运气好可能会有一个板。",
+    "buyReason": "开盘后消费电子算强势版块，知名度也有，想半路，却被挂到高位了，同时解锁了macd水下打半路板的技能。可以持有，等冲高。运气好可能会有一个板。预期太高了，上午冲高没走，回落离场。",
     "image_list": [
-      "Screenshot_2024-12-20-17-03-25-51_5c5979e609b9ed4a43e94260d67cf51e.webp"
+      "Screenshot_2024-12-20-17-03-25-51_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-12-23-19-32-04-18_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-12-23-19-32-12-73_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
@@ -74,11 +114,13 @@
     "bigPrice": 7.1,
     "failureReason": [],
     "resultPoint": 1.47,
-    "sellTiming": 0,
+    "sellTiming": 1,
     "phase": 1,
-    "buyReason": "开盘后消费电子算强势版块，国光知名度也有，大单也足，但量能不足，可以持有等高点卖出。",
+    "buyReason": "开盘后消费电子算强势版块，国光知名度也有，大单也足，但量能不足，可以持有等高点卖出。深V，偏偏还是低点卖，真是F了，要设个止损点。",
     "image_list": [
-      "Screenshot_2024-12-20-17-03-16-97_5c5979e609b9ed4a43e94260d67cf51e.webp"
+      "Screenshot_2024-12-20-17-03-16-97_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-12-23-19-32-24-31_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-12-23-19-32-32-69_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
