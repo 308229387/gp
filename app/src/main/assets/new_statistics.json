@@ -37,7 +37,112 @@
       "Screenshot_2024-12-23-19-31-55-97_5c5979e609b9ed4a43e94260d67cf51e.webp",
       "Screenshot_2024-12-24-16-17-46-06_5c5979e609b9ed4a43e94260d67cf51e.webp",
       "Screenshot_2024-12-25-16-48-39-23_5c5979e609b9ed4a43e94260d67cf51e.webp",
-      "Screenshot_2024-12-26-19-24-13-40_5c5979e609b9ed4a43e94260d67cf51e.webp"
+      "Screenshot_2024-12-26-19-24-13-40_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-12-27-19-31-58-26_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-12-30-20-10-30-46_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-12-31-19-25-42-89_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2025-01-02-19-39-54-35_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2025-01-03-19-35-41-11_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2025-01-06-16-56-18-38_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2025-01-07-16-08-33-12_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "交大昂立",
+    "formerDate": "2025-01-03",
+    "mode": -1,
+    "lastPrice": 0.1,
+    "bigPrice": -1.03,
+    "failureReason": [10],
+    "resultPoint": 0,
+    "sellTiming": 0,
+    "phase": 1,
+    "buyReason": "以为行情会有反弹，做了个第三高度，次日跌停开。走后，再次日锁死流动性继续跌停。",
+    "image_list": [
+      "Screenshot_2025-01-03-19-35-59-25_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2025-01-06-16-56-00-52_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2025-01-06-16-56-09-38_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "亚世光电",
+    "formerDate": "2025-01-03",
+    "mode": -1,
+    "lastPrice": 0.78,
+    "bigPrice": 2.03,
+    "failureReason": [2,10],
+    "resultPoint": 0,
+    "sellTiming": 0,
+    "phase": 1,
+    "buyReason": "以为行情会有反弹，就上车打了个首板，结果就是被割",
+    "image_list": [
+      "Screenshot_2025-01-03-19-35-50-17_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2025-01-06-16-55-28-66_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2025-01-06-16-55-40-28_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "华灿光电",
+    "formerDate": "2024-12-27",
+    "mode": -1,
+    "lastPrice": 0,
+    "bigPrice": 2.52,
+    "failureReason": [],
+    "resultPoint": 0,
+    "sellTiming": 0,
+    "phase": 1,
+    "buyReason": "首板炸板，均线发散，后面行情有延续。",
+    "image_list": [
+      "Screenshot_2024-12-27-19-31-30-88_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-12-30-20-10-11-64_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-12-30-20-10-19-61_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "纵横通信",
+    "formerDate": "2024-12-27",
+    "mode": -1,
+    "lastPrice": 0,
+    "bigPrice": 0.17,
+    "failureReason": [],
+    "resultPoint": 0,
+    "sellTiming": 0,
+    "phase": 1,
+    "buyReason": "均线粘合上穿，看均线形态上车，但不是核心票，没有关注度。行情没有真正转好",
+    "image_list": [
+      "Screenshot_2024-12-27-19-31-30-88_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-12-31-19-25-14-26_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-12-31-19-25-24-34_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "纵横通信",
+    "formerDate": "2024-12-27",
+    "mode": -1,
+    "lastPrice": 0,
+    "bigPrice": 0.17,
+    "failureReason": [],
+    "resultPoint": 0,
+    "sellTiming": 0,
+    "phase": 1,
+    "buyReason": "均线粘合上穿，看均线形态上车，但不是核心票，没有关注度。",
+    "image_list": [
+      "Screenshot_2024-12-27-19-31-18-23_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "深康佳A",
+    "formerDate": "2024-12-27",
+    "mode": -1,
+    "lastPrice": 0,
+    "bigPrice": 3.55,
+    "failureReason": [],
+    "resultPoint": 0,
+    "sellTiming": 0,
+    "phase": 1,
+    "buyReason": "均线粘合首板，炸板后上车，后崩，遇到收构停牌",
+    "image_list": [
+      "Screenshot_2024-12-27-19-30-03-42_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
@@ -52,7 +157,9 @@
     "phase": 1,
     "buyReason": "芯片版块次热，形态碗口，当天环境还行，只不过市场量能差点，冰点修复试错。次日冲高微盈离场。",
     "image_list": [
-      "Screenshot_2024-12-26-19-24-13-40_5c5979e609b9ed4a43e94260d67cf51e.webp"
+      "Screenshot_2024-12-26-19-24-13-40_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-12-27-19-32-47-60_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-12-27-19-32-56-60_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
@@ -143,10 +250,12 @@
   {
     "gpName": "美丽云",
     "formerDate": "2024-12-18",
-    "mode": 1  ,
+    "mode": 1,
     "lastPrice": 0,
     "bigPrice": 1.59,
-    "failureReason": [5],
+    "failureReason": [
+      5
+    ],
     "resultPoint": -4.39,
     "sellTiming": 0,
     "phase": 1,
@@ -163,7 +272,9 @@
     "mode": 98,
     "lastPrice": 0,
     "bigPrice": -7.92,
-    "failureReason": [38],
+    "failureReason": [
+      38
+    ],
     "resultPoint": -22.69,
     "sellTiming": -1,
     "phase": 6,
@@ -180,7 +291,9 @@
     "mode": 5,
     "lastPrice": 1.77,
     "bigPrice": -0.17,
-    "failureReason": [38],
+    "failureReason": [
+      38
+    ],
     "resultPoint": -10.24,
     "sellTiming": -1,
     "phase": 6,
@@ -214,7 +327,9 @@
     "mode": 1,
     "lastPrice": 0,
     "bigPrice": 0.07,
-    "failureReason": [2],
+    "failureReason": [
+      2
+    ],
     "resultPoint": -4.35,
     "sellTiming": -1,
     "phase": 6,
@@ -248,7 +363,12 @@
     "mode": -5,
     "lastPrice": 0,
     "bigPrice": -4.83,
-    "failureReason": [10,22,28,33],
+    "failureReason": [
+      10,
+      22,
+      28,
+      33
+    ],
     "resultPoint": -12.24,
     "sellTiming": 1,
     "phase": 6,
