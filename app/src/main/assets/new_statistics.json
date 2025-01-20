@@ -1,14 +1,14 @@
 [
   {
     "gpName": "中证500",
-    "formerDate": "2024-12-31",
+    "formerDate": "2025-01-31",
     "mode": -1,
     "lastPrice": 0,
     "bigPrice": 0,
     "failureReason": [],
     "resultPoint": 0,
     "sellTiming": 0,
-    "buyReason": "\n成功次数：14\n失败次数：6\n胜率：70%\n\n如果陷入下跌通道，做减仓T，慢慢下车，上升通道就做加仓T，慢慢再上车\n\n做的越多，错的也就越多，滚动交易，每天最好只做一次最强确定性。\n\n小聪明和贪是滚动做T的大忌讳，关键位置不空仓，不超配\n\n情绪龙头见顶，指数也会有共振，要适当减仓，一鸣见顶后，指数也下跌近2个点。\n\n大级别分析，小级别入手",
+    "buyReason": "\n\n如果陷入下跌通道，做减仓T，慢慢下车，上升通道就做加仓T，慢慢再上车\n\n做的越多，错的也就越多，滚动交易，每天最好只做一次最强确定性。\n\n小聪明和贪是滚动做T的大忌讳，关键位置不空仓，不超配\n\n情绪龙头见顶，指数也会有共振，要适当减仓，一鸣见顶后，指数也下跌近2个点。\n\n大级别分析，小级别入手",
     "image_list": [
       "Screenshot_2024-11-15-19-18-00-23_5c5979e609b9ed4a43e94260d67cf51e.webp",
       "Screenshot_2024-11-18-17-06-32-15_5c5979e609b9ed4a43e94260d67cf51e.webp",
@@ -44,34 +44,86 @@
       "Screenshot_2025-01-02-19-39-54-35_5c5979e609b9ed4a43e94260d67cf51e.webp",
       "Screenshot_2025-01-03-19-35-41-11_5c5979e609b9ed4a43e94260d67cf51e.webp",
       "Screenshot_2025-01-06-16-56-18-38_5c5979e609b9ed4a43e94260d67cf51e.webp",
-      "Screenshot_2025-01-07-16-08-33-12_5c5979e609b9ed4a43e94260d67cf51e.webp"
+      "Screenshot_2025-01-07-16-08-33-12_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2025-01-09-07-13-35-21_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2025-01-09-16-04-11-73_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2025-01-10-19-04-12-78_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2025-01-13-20-00-04-77_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2025-01-14-15-24-13-85_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
-    "gpName": "交大昂立",
-    "formerDate": "2025-01-03",
+    "gpName": "鸣志电器",
+    "formerDate": "2025-01-14",
     "mode": -1,
-    "lastPrice": 0.1,
-    "bigPrice": -1.03,
-    "failureReason": [10],
+    "lastPrice": 0.59,
+    "bigPrice": 2.14,
+    "failureReason": [],
     "resultPoint": 0,
     "sellTiming": 0,
     "phase": 1,
-    "buyReason": "以为行情会有反弹，做了个第三高度，次日跌停开。走后，再次日锁死流动性继续跌停。",
+    "buyReason": "行情反转，大奇迹日，机器人题材，中后排，股性较好。烂一天，最后封上了。",
     "image_list": [
-      "Screenshot_2025-01-03-19-35-59-25_5c5979e609b9ed4a43e94260d67cf51e.webp",
-      "Screenshot_2025-01-06-16-56-00-52_5c5979e609b9ed4a43e94260d67cf51e.webp",
-      "Screenshot_2025-01-06-16-56-09-38_5c5979e609b9ed4a43e94260d67cf51e.webp"
+      "Screenshot_2025-01-14-15-23-16-80_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "凌云股份",
+    "formerDate": "2025-01-14",
+    "mode": -1,
+    "lastPrice": 0.79,
+    "bigPrice": 0.75,
+    "failureReason": [],
+    "resultPoint": 0,
+    "sellTiming": 0,
+    "phase": 1,
+    "buyReason": "行情反转，大奇迹日，机器人题材，中后排。",
+    "image_list": [
+      "Screenshot_2025-01-14-16-02-09-22_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "海得控制",
+    "formerDate": "2025-01-14",
+    "mode": 99,
+    "lastPrice": 0.82,
+    "bigPrice": 0.49,
+    "failureReason": [10],
+    "resultPoint": -10.01,
+    "sellTiming": 0,
+    "phase": 1,
+    "buyReason": "退潮没有起稳，打最高板，结果就是地板。",
+    "image_list": [
+      "Screenshot_2025-01-09-16-03-43-32_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2025-01-10-19-03-53-44_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2025-01-10-19-04-01-50_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "安培龙",
+    "formerDate": "2025-01-14",
+    "mode": 1,
+    "lastPrice": 0,
+    "bigPrice": 0.58,
+    "failureReason": [10],
+    "resultPoint": -9.7,
+    "sellTiming": 0,
+    "phase": 1,
+    "buyReason": "机器人模块碗型，当天炸板，次日竞价走，后急拉。",
+    "image_list": [
+      "Screenshot_2025-01-10-19-03-45-54_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2025-01-13-20-00-26-07_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2025-01-13-20-00-34-10_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
     "gpName": "亚世光电",
     "formerDate": "2025-01-03",
-    "mode": -1,
+    "mode": 1,
     "lastPrice": 0.78,
     "bigPrice": 2.03,
     "failureReason": [2,10],
-    "resultPoint": 0,
+    "resultPoint": -4.04,
     "sellTiming": 0,
     "phase": 1,
     "buyReason": "以为行情会有反弹，就上车打了个首板，结果就是被割",
@@ -82,13 +134,47 @@
     ]
   },
   {
+    "gpName": "交大昂立",
+    "formerDate": "2025-01-03",
+    "mode": 4,
+    "lastPrice": 0.1,
+    "bigPrice": -1.03,
+    "failureReason": [38],
+    "resultPoint": -9.73,
+    "sellTiming": 0,
+    "phase": 1,
+    "buyReason": "以为行情会有反弹，做了个第三高度，次日跌停开。走后，再次日锁死流动性继续跌停。",
+    "image_list": [
+      "Screenshot_2025-01-03-19-35-59-25_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2025-01-06-16-56-00-52_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2025-01-06-16-56-09-38_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "纵横通信",
+    "formerDate": "2024-12-27",
+    "mode": 1,
+    "lastPrice": 0,
+    "bigPrice": 0.17,
+    "failureReason": [],
+    "resultPoint": -4.15,
+    "sellTiming": 0,
+    "phase": 1,
+    "buyReason": "均线粘合上穿，看均线形态上车，但不是核心票，没有关注度。后面空头发散。",
+    "image_list": [
+      "Screenshot_2024-12-27-19-31-18-23_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-12-31-19-25-14-26_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2024-12-31-19-25-24-34_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
     "gpName": "华灿光电",
     "formerDate": "2024-12-27",
-    "mode": -1,
+    "mode": 1,
     "lastPrice": 0,
     "bigPrice": 2.52,
     "failureReason": [],
-    "resultPoint": 0,
+    "resultPoint": -6.84,
     "sellTiming": 0,
     "phase": 1,
     "buyReason": "首板炸板，均线发散，后面行情有延续。",
@@ -96,38 +182,6 @@
       "Screenshot_2024-12-27-19-31-30-88_5c5979e609b9ed4a43e94260d67cf51e.webp",
       "Screenshot_2024-12-30-20-10-11-64_5c5979e609b9ed4a43e94260d67cf51e.webp",
       "Screenshot_2024-12-30-20-10-19-61_5c5979e609b9ed4a43e94260d67cf51e.webp"
-    ]
-  },
-  {
-    "gpName": "纵横通信",
-    "formerDate": "2024-12-27",
-    "mode": -1,
-    "lastPrice": 0,
-    "bigPrice": 0.17,
-    "failureReason": [],
-    "resultPoint": 0,
-    "sellTiming": 0,
-    "phase": 1,
-    "buyReason": "均线粘合上穿，看均线形态上车，但不是核心票，没有关注度。行情没有真正转好",
-    "image_list": [
-      "Screenshot_2024-12-27-19-31-30-88_5c5979e609b9ed4a43e94260d67cf51e.webp",
-      "Screenshot_2024-12-31-19-25-14-26_5c5979e609b9ed4a43e94260d67cf51e.webp",
-      "Screenshot_2024-12-31-19-25-24-34_5c5979e609b9ed4a43e94260d67cf51e.webp"
-    ]
-  },
-  {
-    "gpName": "纵横通信",
-    "formerDate": "2024-12-27",
-    "mode": -1,
-    "lastPrice": 0,
-    "bigPrice": 0.17,
-    "failureReason": [],
-    "resultPoint": 0,
-    "sellTiming": 0,
-    "phase": 1,
-    "buyReason": "均线粘合上穿，看均线形态上车，但不是核心票，没有关注度。",
-    "image_list": [
-      "Screenshot_2024-12-27-19-31-18-23_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
@@ -148,11 +202,11 @@
   {
     "gpName": "韦尔股份",
     "formerDate": "2024-12-25",
-    "mode": -1,
+    "mode": 1,
     "lastPrice": 0,
     "bigPrice": 1.91,
     "failureReason": [],
-    "resultPoint": 0,
+    "resultPoint": 1.59,
     "sellTiming": 0,
     "phase": 1,
     "buyReason": "芯片版块次热，形态碗口，当天环境还行，只不过市场量能差点，冰点修复试错。次日冲高微盈离场。",
