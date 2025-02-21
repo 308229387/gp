@@ -53,15 +53,140 @@
     ]
   },
   {
-    "gpName": "鸣志电器",
-    "formerDate": "2025-01-14",
-    "mode": -1,
+    "gpName": "浙江东方",
+    "formerDate": "2025-01-22",
+    "mode": 1,
+    "lastPrice": 3.59,
+    "bigPrice": 2.14,
+    "failureReason": [],
+    "resultPoint": 0.37,
+    "sellTiming": 0,
+    "buyReason": "行情该弱不弱，这票分时烂而不弱，龙虎榜卖1卖了13亿，整体是流出了11.5亿。预期是有肉的，并且封单逐渐增加。次日平开，逐级拉升，后涨停。卖的太早了。这就是陈小群口中说的合力。",
+    "image_list": [
+      "Screenshot_2025-01-14-15-23-16-80_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "众信旅游",
+    "formerDate": "2025-01-22",
+    "mode": 1,
+    "lastPrice": 3.59,
+    "bigPrice": 2.14,
+    "failureReason": [],
+    "resultPoint": 0.37,
+    "sellTiming": 0,
+    "buyReason": "高处回落，等他回踩5日线。但好行情也没有大涨，微盈离场。",
+    "image_list": [
+      "Screenshot_2025-01-14-15-23-16-80_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "药明康德",
+    "formerDate": "2025-01-16",
+    "mode": 1,
+    "lastPrice": 3.59,
+    "bigPrice": 2.14,
+    "failureReason": [],
+    "resultPoint": -2.37,
+    "sellTiming": 0,
+    "buyReason": "好行情冲高买在高点，但形态不算太好，就没加仓，次日小亏离场。手里有票了。",
+    "image_list": [
+      "Screenshot_2025-01-14-15-23-16-80_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "正丹股份",
+    "formerDate": "2025-01-16",
+    "mode": 1,
+    "lastPrice": 3.59,
+    "bigPrice": 2.14,
+    "failureReason": [],
+    "resultPoint": 3.01,
+    "sellTiming": 0,
+    "buyReason": "利润增加，冲高回落，次日低位上车，有辨识度，",
+    "image_list": [
+      "Screenshot_2025-01-14-15-23-16-80_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "山子高科",
+    "formerDate": "2025-01-16",
+    "mode": 1,
     "lastPrice": 0.59,
     "bigPrice": 2.14,
     "failureReason": [],
-    "resultPoint": 0,
+    "resultPoint": -2.52,
     "sellTiming": 0,
-    "phase": 1,
+    "buyReason": "机器人热点，当天行情好，股性也比较强，可惜表现很差，不够核心。",
+    "image_list": [
+      "Screenshot_2025-01-14-15-23-16-80_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "美邦服饰",
+    "formerDate": "2025-01-14",
+    "mode": 1,
+    "lastPrice": 0.59,
+    "bigPrice": 2.14,
+    "failureReason": [],
+    "resultPoint": -6.58,
+    "sellTiming": 0,
+    "buyReason": "股性确实不错，但1+1，外加非核心热点。失败。",
+    "image_list": [
+      "Screenshot_2025-01-14-15-23-16-80_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "海信视像",
+    "formerDate": "2025-01-14",
+    "mode": 1,
+    "lastPrice": 0.59,
+    "bigPrice": 2.14,
+    "failureReason": [],
+    "resultPoint": -4.84,
+    "sellTiming": -1,
+    "buyReason": "均线粘合后分散首板，虽然当天炸了，但次日很强势上冲，竞价就走了可惜",
+    "image_list": [
+      "Screenshot_2025-01-14-15-23-16-80_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "海能达",
+    "formerDate": "2025-01-14",
+    "mode": 1,
+    "lastPrice": 0.59,
+    "bigPrice": 2.14,
+    "failureReason": [],
+    "resultPoint": 0.54,
+    "sellTiming": 0,
+    "buyReason": "好行情，老龙头低位首板，微盈即走。",
+    "image_list": [
+      "Screenshot_2025-01-14-15-23-16-80_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "实丰文化",
+    "formerDate": "2025-01-14",
+    "mode": 1,
+    "lastPrice": 0.59,
+    "bigPrice": 2.14,
+    "failureReason": [],
+    "resultPoint": 2.24,
+    "sellTiming": 0,
+    "buyReason": "行情反转，大奇迹日，机器人题材，中后排，均线粘合，炸板但因为行情好，题材正，没亏钱。",
+    "image_list": [
+      "Screenshot_2025-01-14-15-23-16-80_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "鸣志电器",
+    "formerDate": "2025-01-14",
+    "mode": 1,
+    "lastPrice": 0.59,
+    "bigPrice": 2.14,
+    "failureReason": [],
+    "resultPoint": 4.12,
+    "sellTiming": 0,
     "buyReason": "行情反转，大奇迹日，机器人题材，中后排，股性较好。烂一天，最后封上了。",
     "image_list": [
       "Screenshot_2025-01-14-15-23-16-80_5c5979e609b9ed4a43e94260d67cf51e.webp"
@@ -70,13 +195,12 @@
   {
     "gpName": "凌云股份",
     "formerDate": "2025-01-14",
-    "mode": -1,
+    "mode": 1,
     "lastPrice": 0.79,
     "bigPrice": 0.75,
     "failureReason": [],
-    "resultPoint": 0,
+    "resultPoint": 5.0,
     "sellTiming": 0,
-    "phase": 1,
     "buyReason": "行情反转，大奇迹日，机器人题材，中后排。",
     "image_list": [
       "Screenshot_2025-01-14-16-02-09-22_5c5979e609b9ed4a43e94260d67cf51e.webp"
@@ -91,7 +215,6 @@
     "failureReason": [10],
     "resultPoint": -10.01,
     "sellTiming": 0,
-    "phase": 1,
     "buyReason": "退潮没有起稳，打最高板，结果就是地板。",
     "image_list": [
       "Screenshot_2025-01-09-16-03-43-32_5c5979e609b9ed4a43e94260d67cf51e.webp",
@@ -108,7 +231,6 @@
     "failureReason": [10],
     "resultPoint": -9.7,
     "sellTiming": 0,
-    "phase": 1,
     "buyReason": "机器人模块碗型，当天炸板，次日竞价走，后急拉。",
     "image_list": [
       "Screenshot_2025-01-10-19-03-45-54_5c5979e609b9ed4a43e94260d67cf51e.webp",
@@ -125,7 +247,6 @@
     "failureReason": [2,10],
     "resultPoint": -4.04,
     "sellTiming": 0,
-    "phase": 1,
     "buyReason": "以为行情会有反弹，就上车打了个首板，结果就是被割",
     "image_list": [
       "Screenshot_2025-01-03-19-35-50-17_5c5979e609b9ed4a43e94260d67cf51e.webp",
@@ -142,7 +263,6 @@
     "failureReason": [38],
     "resultPoint": -9.73,
     "sellTiming": 0,
-    "phase": 1,
     "buyReason": "以为行情会有反弹，做了个第三高度，次日跌停开。走后，再次日锁死流动性继续跌停。",
     "image_list": [
       "Screenshot_2025-01-03-19-35-59-25_5c5979e609b9ed4a43e94260d67cf51e.webp",
@@ -159,7 +279,6 @@
     "failureReason": [],
     "resultPoint": -4.15,
     "sellTiming": 0,
-    "phase": 1,
     "buyReason": "均线粘合上穿，看均线形态上车，但不是核心票，没有关注度。后面空头发散。",
     "image_list": [
       "Screenshot_2024-12-27-19-31-18-23_5c5979e609b9ed4a43e94260d67cf51e.webp",
@@ -176,7 +295,6 @@
     "failureReason": [],
     "resultPoint": -6.84,
     "sellTiming": 0,
-    "phase": 1,
     "buyReason": "首板炸板，均线发散，后面行情有延续。",
     "image_list": [
       "Screenshot_2024-12-27-19-31-30-88_5c5979e609b9ed4a43e94260d67cf51e.webp",
@@ -187,13 +305,12 @@
   {
     "gpName": "深康佳A",
     "formerDate": "2024-12-27",
-    "mode": -1,
+    "mode": 1,
     "lastPrice": 0,
     "bigPrice": 3.55,
     "failureReason": [],
-    "resultPoint": 0,
+    "resultPoint": 11.64,
     "sellTiming": 0,
-    "phase": 1,
     "buyReason": "均线粘合首板，炸板后上车，后崩，遇到收构停牌",
     "image_list": [
       "Screenshot_2024-12-27-19-30-03-42_5c5979e609b9ed4a43e94260d67cf51e.webp"
@@ -208,7 +325,6 @@
     "failureReason": [],
     "resultPoint": 1.59,
     "sellTiming": 0,
-    "phase": 1,
     "buyReason": "芯片版块次热，形态碗口，当天环境还行，只不过市场量能差点，冰点修复试错。次日冲高微盈离场。",
     "image_list": [
       "Screenshot_2024-12-26-19-24-13-40_5c5979e609b9ed4a43e94260d67cf51e.webp",
@@ -225,7 +341,6 @@
     "failureReason": [],
     "resultPoint": -1.08,
     "sellTiming": -1,
-    "phase": 1,
     "buyReason": "有辨识度，当天版块不是热点，但形态好，次日走的太水了，前一天跌怕了，走早了。",
     "image_list": [
       "Screenshot_2024-12-24-16-17-57-22_5c5979e609b9ed4a43e94260d67cf51e.webp",
@@ -242,7 +357,6 @@
     "failureReason": [],
     "resultPoint": 2.8,
     "sellTiming": 0,
-    "phase": 1,
     "buyReason": "核心芯片光模组一进二，破U型平台新高，有量排板上车。冲高离场。预期不高。",
     "image_list": [
       "Screenshot_2024-12-20-17-03-36-52_5c5979e609b9ed4a43e94260d67cf51e.webp",
@@ -259,7 +373,6 @@
     "failureReason": [],
     "resultPoint": 0,
     "sellTiming": 1,
-    "phase": 1,
     "buyReason": "开盘后消费电子算强势版块，知名度也有，想半路，却被挂到高位了，同时解锁了macd水下打半路板的技能。可以持有，等冲高。运气好可能会有一个板。预期太高了，上午冲高没走，回落离场。",
     "image_list": [
       "Screenshot_2024-12-20-17-03-25-51_5c5979e609b9ed4a43e94260d67cf51e.webp",
@@ -276,7 +389,6 @@
     "failureReason": [],
     "resultPoint": -7.05,
     "sellTiming": 1,
-    "phase": 1,
     "buyReason": "开盘后消费电子算强势版块，国光知名度也有，大单也足，但量能不足，可以持有等高点卖出。深V，偏偏还是低点卖，真是F了，要设个止损点。",
     "image_list": [
       "Screenshot_2024-12-20-17-03-16-97_5c5979e609b9ed4a43e94260d67cf51e.webp",
@@ -293,7 +405,6 @@
     "failureReason": [],
     "resultPoint": 1.47,
     "sellTiming": 0,
-    "phase": 1,
     "buyReason": "当天冰点转弱修复，微放量，行情比预期好点，就小仓位选了一支，虽然上车封住，但却不是理论上好的买点，预计有肉。次日根据大盘macd强弱卖出，不算太高。",
     "image_list": [
       "Screenshot_2024-12-19-19-36-29-90_5c5979e609b9ed4a43e94260d67cf51e.webp",
@@ -312,7 +423,6 @@
     ],
     "resultPoint": -4.39,
     "sellTiming": 0,
-    "phase": 1,
     "buyReason": "算力版块热点，辨识度感觉还行，但却没有封住，应该是行情不够强势,外加K线形态空头排列。",
     "image_list": [
       "Screenshot_2024-12-19-19-36-38-53_5c5979e609b9ed4a43e94260d67cf51e.webp",
