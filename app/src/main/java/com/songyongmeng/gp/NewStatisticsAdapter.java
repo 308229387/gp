@@ -578,6 +578,10 @@ public class NewStatisticsAdapter extends RecyclerView.Adapter<NewStatisticsAdap
 //                        .collect(Collectors.toList());
             case "反包":
                 return dataList.stream()
+                        .filter(bean -> bean.getMode() == 97)
+                        .collect(Collectors.toList());
+            case "高标":
+                return dataList.stream()
                         .filter(bean -> bean.getMode() == 98)
                         .collect(Collectors.toList());
             case "龙头战法":

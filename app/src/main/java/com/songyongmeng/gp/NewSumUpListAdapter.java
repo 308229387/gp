@@ -556,9 +556,9 @@ public class NewSumUpListAdapter extends RecyclerView.Adapter<NewSumUpListAdapte
                         } else if (data.getMode() == 99) {
                             tmp = "龙头";
                         } else if (data.getMode() == 98) {
-                            tmp = "反包";
+                            tmp = "高标";
                         } else if (data.getMode() == 97) {
-                            tmp = "版块回流";
+                            tmp = "反包";
                         } else if (data.getMode() == 0) {
                             tmp = "新股";
                         } else if (data.getMode() == 18) {
