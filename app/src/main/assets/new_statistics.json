@@ -1,5 +1,89 @@
 [
   {
+    "gpName": "凤凰航运",
+    "formerDate": "2025-04-24",
+    "mode": 97,
+    "lastPrice": 3.59,
+    "bigPrice": 2.14,
+    "failureReason": [],
+    "resultPoint": 0.37,
+    "sellTiming": 0,
+    "buyReason": "版块指数强势，大涨微调，有逻辑，中美谈好，利好港口，二板后调整2天5日线上车，次日拉升离场。",
+    "image_list": [
+      "Screenshot_2025-01-14-15-23-16-80_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "拓思达",
+    "formerDate": "2025-04-24",
+    "mode": 97,
+    "lastPrice": 3.59,
+    "bigPrice": 2.14,
+    "failureReason": [],
+    "resultPoint": 0.37,
+    "sellTiming": 0,
+    "buyReason": "辨识度高，首板涨停次日，爆量50亿，次日缩量微跌，踩上新平台，调整第二天尾盘介入，第三天做T成功，利润放大。",
+    "image_list": [
+      "Screenshot_2025-01-14-15-23-16-80_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "华胜天成",
+    "formerDate": "2025-04-24",
+    "mode": 97,
+    "lastPrice": 3.59,
+    "bigPrice": 2.14,
+    "failureReason": [],
+    "resultPoint": 0.37,
+    "sellTiming": 0,
+    "buyReason": "辨识度高，首板涨停次日，爆量55亿，上新平台，调整下跌第二天尾盘介入，但后面一顿乱T，狗尾续貂，大肉变小肉",
+    "image_list": [
+      "Screenshot_2025-01-14-15-23-16-80_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "襄阳轴承",
+    "formerDate": "2025-04-24",
+    "mode": 97,
+    "lastPrice": 3.59,
+    "bigPrice": 2.14,
+    "failureReason": [],
+    "resultPoint": 0.37,
+    "sellTiming": 0,
+    "buyReason": "机器人有一定辨识度，开般近一小时，感觉还算稳健，昨天套牢筹码较多。想等反弹。",
+    "image_list": [
+      "Screenshot_2025-01-14-15-23-16-80_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "天保基建",
+    "formerDate": "2025-04-24",
+    "mode": 97,
+    "lastPrice": 3.59,
+    "bigPrice": 2.14,
+    "failureReason": [],
+    "resultPoint": 0.37,
+    "sellTiming": 0,
+    "buyReason": "开盘迅速反包，在涨停板附近震荡2分钟左右，未见崩，版块红盘，挂单上车。",
+    "image_list": [
+      "Screenshot_2025-01-14-15-23-16-80_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "步步高",
+    "formerDate": "2025-04-24",
+    "mode": 98,
+    "lastPrice": 3.59,
+    "bigPrice": 2.14,
+    "failureReason": [],
+    "resultPoint": 0.37,
+    "sellTiming": 0,
+    "buyReason": "消费龙头国方水下、安记跌停，但步步高做为次高标，前一天破一字，今天表现依旧强势，冲高回落后买入。尾盘被安记带动版块冲高上板。前两天章盟主在车上，有辨识度。",
+    "image_list": [
+      "Screenshot_2025-01-14-15-23-16-80_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
     "gpName": "尤夫股份",
     "formerDate": "2025-04-23",
     "mode": 97,
@@ -8,7 +92,21 @@
     "failureReason": [],
     "resultPoint": 0.37,
     "sellTiming": 0,
-    "buyReason": "高位退潮，但放量，环境也还行，半数以上上涨，从高到低选，而且没有加速，反包的票。分时上macd走弱，他未弱，一直在涨停板附近晃荡。辨识度前两天呼家楼上龙虎榜了，做海洋材料的。",
+    "buyReason": "高位退潮，但放量，环境也还行，半数以上上涨，从高到低选，而且没有加速，反包的票。分时上macd走弱，他未弱，一直在涨停板附近晃荡。辨识度前两天呼家楼上龙虎榜了，做海洋材料的。次日能顶住分歧，高抛低吸做了个T，但第三日开盘差，离场",
+    "image_list": [
+      "Screenshot_2025-01-14-15-23-16-80_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "尤夫股份",
+    "formerDate": "2025-04-23",
+    "mode": 97,
+    "lastPrice": 3.59,
+    "bigPrice": 2.14,
+    "failureReason": [],
+    "resultPoint": 0.37,
+    "sellTiming": 0,
+    "buyReason": "高位退潮，但放量，环境也还行，半数以上上涨，从高到低选，而且没有加速，反包的票。分时上macd走弱，他未弱，一直在涨停板附近晃荡。辨识度前两天呼家楼上龙虎榜了，做海洋材料的。次日能顶住分歧，高抛低吸做了个T，但第三日开盘差，离场",
     "image_list": [
       "Screenshot_2025-01-14-15-23-16-80_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
@@ -226,7 +324,9 @@
     "mode": 99,
     "lastPrice": 0.82,
     "bigPrice": 0.49,
-    "failureReason": [10],
+    "failureReason": [
+      10
+    ],
     "resultPoint": -10.01,
     "sellTiming": 0,
     "buyReason": "退潮没有起稳，打最高板，结果就是地板。",
@@ -242,7 +342,9 @@
     "mode": 1,
     "lastPrice": 0,
     "bigPrice": 0.58,
-    "failureReason": [10],
+    "failureReason": [
+      10
+    ],
     "resultPoint": -9.7,
     "sellTiming": 0,
     "buyReason": "机器人模块碗型，当天炸板，次日竞价走，后急拉。",
@@ -258,7 +360,10 @@
     "mode": 1,
     "lastPrice": 0.78,
     "bigPrice": 2.03,
-    "failureReason": [2,10],
+    "failureReason": [
+      2,
+      10
+    ],
     "resultPoint": -4.04,
     "sellTiming": 0,
     "buyReason": "以为行情会有反弹，就上车打了个首板，结果就是被割",
@@ -274,7 +379,9 @@
     "mode": 4,
     "lastPrice": 0.1,
     "bigPrice": -1.03,
-    "failureReason": [38],
+    "failureReason": [
+      38
+    ],
     "resultPoint": -9.73,
     "sellTiming": 0,
     "buyReason": "以为行情会有反弹，做了个第三高度，次日跌停开。走后，再次日锁死流动性继续跌停。",
