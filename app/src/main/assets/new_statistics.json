@@ -1,63 +1,116 @@
 [
   {
-    "gpName": "凤凰航运",
-    "formerDate": "2025-04-24",
-    "mode": 97,
-    "lastPrice": 3.59,
-    "bigPrice": 2.14,
-    "failureReason": [],
-    "resultPoint": 0.37,
+    "gpName": "贝因美",
+    "formerDate": "2025-05-22",
+    "mode": 77,
+    "lastPrice": 0,
+    "bigPrice": -1.09,
+    "failureReason": [5],
+    "resultPoint": -2.52,
     "sellTiming": 0,
-    "buyReason": "版块指数强势，大涨微调，有逻辑，中美谈好，利好港口，二板后调整2天5日线上车，次日拉升离场。",
+    "buyReason": "形态不是太好多头发散，但辨识度可以，正常亏损。",
     "image_list": [
       "Screenshot_2025-01-14-15-23-16-80_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
-    "gpName": "拓思达",
-    "formerDate": "2025-04-24",
-    "mode": 97,
-    "lastPrice": 3.59,
-    "bigPrice": 2.14,
-    "failureReason": [],
-    "resultPoint": 0.37,
+    "gpName": "光智科技",
+    "formerDate": "2025-05-21",
+    "mode": 77,
+    "lastPrice": 0,
+    "bigPrice": -0.42,
+    "failureReason": [5,20],
+    "resultPoint": -7.75,
     "sellTiming": 0,
-    "buyReason": "辨识度高，首板涨停次日，爆量50亿，次日缩量微跌，踩上新平台，调整第二天尾盘介入，第三天做T成功，利润放大。",
+    "buyReason": "瀑布大面，辨识度也不够，扫盲票",
+    "image_list": [
+      "Screenshot_2025-01-14-15-23-16-80_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "均胜电子",
+    "formerDate": "2025-05-20",
+    "mode": 77,
+    "lastPrice": 0,
+    "bigPrice": 0.4,
+    "failureReason": [],
+    "resultPoint": 3.97,
+    "sellTiming": -1,
+    "buyReason": "首板次日27.36亿，且略强，均线回踩",
+    "image_list": [
+      "Screenshot_2025-01-14-15-23-16-80_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "凤凰航运",
+    "formerDate": "2025-05-16",
+    "mode": 77,
+    "lastPrice": 0,
+    "bigPrice": 0.2,
+    "failureReason": [],
+    "resultPoint": 5.07,
+    "sellTiming": 0,
+    "buyReason": "版块指数强势，大涨微调，个股回踩10日线，有逻辑，中美谈好，利好港口，二板后调整2天5日线上车，次日拉升离场。",
+    "image_list": [
+      "Screenshot_2025-01-14-15-23-16-80_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "拓斯达",
+    "formerDate": "2025-05-14",
+    "mode": 77,
+    "lastPrice": 0,
+    "bigPrice": -0.22,
+    "failureReason": [],
+    "resultPoint": 10.4,
+    "sellTiming": 0,
+    "buyReason": "辨识度高，首板涨停次日，爆量50亿，次日缩量微跌，回踩5日线，调整第二天尾盘介入，第三天做T成功，利润放大。最后一个T做错，还好给跑路机会。",
     "image_list": [
       "Screenshot_2025-01-14-15-23-16-80_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
     "gpName": "华胜天成",
-    "formerDate": "2025-04-24",
-    "mode": 97,
-    "lastPrice": 3.59,
+    "formerDate": "2025-05-12",
+    "mode": 77,
+    "lastPrice": 0,
     "bigPrice": 2.14,
     "failureReason": [],
     "resultPoint": 0.37,
     "sellTiming": 0,
-    "buyReason": "辨识度高，首板涨停次日，爆量55亿，上新平台，调整下跌第二天尾盘介入，但后面一顿乱T，狗尾续貂，大肉变小肉",
+    "buyReason": "辨识度高，二板涨停次日，爆量55亿，10日线支撑，调整下跌第三天介入，卖太早大肉变小肉",
+    "image_list": [
+      "Screenshot_2025-01-14-15-23-16-80_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "深圳华强",
+    "formerDate": "2025-05-08",
+    "mode": 77,
+    "lastPrice": 0,
+    "bigPrice": -1.71,
+    "failureReason": [],
+    "resultPoint": 0.56,
+    "sellTiming": 0,
+    "buyReason": "辨识度高，首板涨停次日，爆量35亿，均线多头，5日线支撑微盈离场。",
     "image_list": [
       "Screenshot_2025-01-14-15-23-16-80_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
     "gpName": "襄阳轴承",
-    "formerDate": "2025-04-24",
-    "mode": 97,
-    "lastPrice": 3.59,
-    "bigPrice": 2.14,
+    "formerDate": "2025-04-25",
+    "mode": 77,
+    "lastPrice": 0,
+    "bigPrice": -0.41,
     "failureReason": [],
-    "resultPoint": 0.37,
-    "sellTiming": 0,
-    "buyReason": "机器人有一定辨识度，开般近一小时，感觉还算稳健，昨天套牢筹码较多。想等反弹。",
+    "resultPoint": 8.14,
+    "sellTiming": -1,
+    "buyReason": "机器人有一定辨识度，开般近一小时，感觉还算稳健，昨天套牢筹码较多。想等反弹。连续做T，但卖出太早，错过大肉",
     "image_list": [
       "Screenshot_2025-01-14-15-23-16-80_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
-
-
-
   {
     "gpName": "肇民科技",
     "formerDate": "2025-04-29",
@@ -72,8 +125,6 @@
       "Screenshot_2025-01-14-15-23-16-80_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
-
-
   {
     "gpName": "天保基建",
     "formerDate": "2025-04-24",
