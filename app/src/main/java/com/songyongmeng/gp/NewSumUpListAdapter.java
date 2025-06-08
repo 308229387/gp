@@ -565,6 +565,8 @@ public class NewSumUpListAdapter extends RecyclerView.Adapter<NewSumUpListAdapte
                             tmp = "低位分歧";
                         } else if (data.getMode() == 1) {
                             tmp = "首板";
+                        } else if (data.getMode() == 15) {
+                            tmp = "首板半路";
                         } else if (data.getMode() == 2) {
                             tmp = "一进二";
                         } else if (data.getMode() == -5) {
@@ -580,7 +582,7 @@ public class NewSumUpListAdapter extends RecyclerView.Adapter<NewSumUpListAdapte
                         } else if (data.getMode() == 66) {
                             tmp = "缩量一至";
                         } else if (data.getMode() == 77) {
-                            tmp = "上升回踩";
+                            tmp = "均线回踩";
                         } else {
                             tmp = "中位股";
                         }

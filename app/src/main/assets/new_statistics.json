@@ -1,4 +1,20 @@
 [
+
+  {
+    "gpName": "赛力斯",
+    "formerDate": "2025-05-23",
+    "mode": 15,
+    "lastPrice": 0.11,
+    "bigPrice": 21.54,
+    "failureReason": [],
+    "resultPoint": 3.1,
+    "sellTiming": 0,
+    "buyReason": "成交额前三，均线多头发散，版块较好，不到5个点上车。次日低开，直接走。后继续下跌。",
+    "image_list": [
+      "Screenshot_2025-01-14-15-23-16-80_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+
   {
     "gpName": "贝因美",
     "formerDate": "2025-05-22",
