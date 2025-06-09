@@ -1,5 +1,80 @@
 [
-
+  {
+    "gpName": "融发核电",
+    "formerDate": "2025-05-27",
+    "mode": 4,
+    "lastPrice": 0,
+    "bigPrice": -0.06,
+    "failureReason": [],
+    "resultPoint": 7.55,
+    "sellTiming": 0,
+    "buyReason": "5分钟市场最高成交额，板块龙头，4板打板，",
+    "image_list": [
+      "Screenshot_2025-06-01-10-51-07-70_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2025-06-01-10-51-25-44_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "富祥药业",
+    "formerDate": "2025-05-27",
+    "mode": 15,
+    "lastPrice": 0,
+    "bigPrice": -0.06,
+    "failureReason": [],
+    "resultPoint": 7.55,
+    "sellTiming": 0,
+    "buyReason": "形态好，多头刚刚发散，辨识度一般，版块大涨，这票是老相识，做对一次T，第三天大涨离场。",
+    "image_list": [
+      "Screenshot_2025-06-01-10-50-10-21_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2025-06-01-10-50-14-61_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2025-06-01-10-50-21-13_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "中国长城",
+    "formerDate": "2025-05-26",
+    "mode": 15,
+    "lastPrice": 0,
+    "bigPrice": 12.45,
+    "failureReason": [5],
+    "resultPoint": -2.16,
+    "sellTiming": 0,
+    "buyReason": "形态不好，成交额大，半路上车后，第二天低开太多，被60日线压的死死的，离场",
+    "image_list": [
+      "Screenshot_2025-06-01-10-49-31-70_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2025-06-01-10-49-38-98_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "胜宏科技",
+    "formerDate": "2025-05-26",
+    "mode": 15,
+    "lastPrice": 0,
+    "bigPrice": 1.04,
+    "failureReason": [],
+    "resultPoint": 0.06,
+    "sellTiming": -1,
+    "buyReason": "形态好，成交额大，半路上车后，但力度不够，第二天微盈离场，后面一波行情",
+    "image_list": [
+      "Screenshot_2025-06-01-10-48-38-80_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2025-06-01-10-48-55-42_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "上海电气",
+    "formerDate": "2025-05-26",
+    "mode": 15,
+    "lastPrice": 0,
+    "bigPrice": 4.71,
+    "failureReason": [5],
+    "resultPoint": -1.96,
+    "sellTiming": 0,
+    "buyReason": "成交额居前，犹豫了下，上车偏晚，形态不好，有一定辨识度",
+    "image_list": [
+      "Screenshot_2025-06-01-10-47-33-08_5c5979e609b9ed4a43e94260d67cf51e.jpg",
+      "Screenshot_2025-06-01-10-47-37-77_5c5979e609b9ed4a43e94260d67cf51e.jpg"
+    ]
+  },
   {
     "gpName": "赛力斯",
     "formerDate": "2025-05-23",
@@ -15,19 +90,21 @@
       "Screenshot_2025-06-01-10-47-37-77_5c5979e609b9ed4a43e94260d67cf51e.jpg"
     ]
   },
-
   {
     "gpName": "贝因美",
     "formerDate": "2025-05-22",
     "mode": 77,
     "lastPrice": 0,
     "bigPrice": -1.09,
-    "failureReason": [5],
+    "failureReason": [
+      5
+    ],
     "resultPoint": -2.52,
     "sellTiming": 0,
     "buyReason": "形态不是太好多头发散，但辨识度可以，正常亏损。",
     "image_list": [
-      "Screenshot_2025-01-14-15-23-16-80_5c5979e609b9ed4a43e94260d67cf51e.webp"
+      "Screenshot_2025-06-09-07-14-47-17_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2025-06-09-07-14-53-84_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
@@ -36,7 +113,10 @@
     "mode": 77,
     "lastPrice": 0,
     "bigPrice": -0.42,
-    "failureReason": [5,20],
+    "failureReason": [
+      5,
+      20
+    ],
     "resultPoint": -7.75,
     "sellTiming": 0,
     "buyReason": "瀑布大面，辨识度也不够，扫盲票",
