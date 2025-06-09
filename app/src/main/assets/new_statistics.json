@@ -1,15 +1,109 @@
 [
   {
+    "gpName": "山东矿机",
+    "formerDate": "2025-06-06",
+    "mode": 77,
+    "lastPrice": 0,
+    "bigPrice": -0.44,
+    "failureReason": [],
+    "resultPoint": 0.8,
+    "sellTiming": 0,
+    "buyReason": "感觉形态很好，辨识度差点意思，第二天收盘到5日线下，减半仓，第三天第四天，也都没有收复，离场",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "创新医疗",
+    "formerDate": "2025-06-04",
+    "mode": 77,
+    "lastPrice": 0,
+    "bigPrice": -0.41,
+    "failureReason": [20],
+    "resultPoint": -1.3,
+    "sellTiming": 0,
+    "buyReason": "感觉形态很好，辨识度差点意思，第二天收盘到5日线下，减半仓，第三天第四天，也都没有收复，离场",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "青岛双星",
+    "formerDate": "2025-06-05",
+    "mode": 77,
+    "lastPrice": 0,
+    "bigPrice": 0.11,
+    "failureReason": [],
+    "resultPoint": 0.5,
+    "sellTiming": 0,
+    "buyReason": "形态好，辨识度不算高，本来有正常仓位，开盘过5日线减仓了，下午拉到2个多点卖了，后涨停，经过这次后，彻底改成尾盘卖了。",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "湘佳股份",
+    "formerDate": "2025-06-04",
+    "mode": 77,
+    "lastPrice": 0,
+    "bigPrice": -0.25,
+    "failureReason": [
+      20
+    ],
+    "resultPoint": -1.14,
+    "sellTiming": 0,
+    "buyReason": "严格来说是二板炸板，形态还行，辨识度不够，第二天压着5日线减半仓，第三天小幅破位离场。",
+    "image_list": [
+      "Screenshot_2025-06-09-16-12-41-09_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2025-06-09-16-12-44-98_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2025-06-09-16-12-53-26_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "巨力索具",
+    "formerDate": "2025-05-30",
+    "mode": 77,
+    "lastPrice": 0,
+    "bigPrice": -0.02,
+    "failureReason": [],
+    "resultPoint": 2.27,
+    "sellTiming": -1,
+    "buyReason": "形态非常好，也有一定辨识度，买点也很好，但被第二天的低开吓走了，低开太多了点，卖出次日涨停。",
+    "image_list": [
+      "Screenshot_2025-06-09-14-46-30-63_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2025-06-09-14-46-35-30_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2025-06-09-14-46-41-06_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
+    "gpName": "西王食品",
+    "formerDate": "2025-05-29",
+    "mode": 77,
+    "lastPrice": 0,
+    "bigPrice": -0.18,
+    "failureReason": [],
+    "resultPoint": 0.51,
+    "sellTiming": -1,
+    "buyReason": "形态还凑合，但辨识度不高，入手次日还在5日线上，但微盈想走了。",
+    "image_list": [
+      "Screenshot_2025-06-09-14-45-54-51_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2025-06-09-14-46-02-50_5c5979e609b9ed4a43e94260d67cf51e.webp"
+    ]
+  },
+  {
     "gpName": "东方智造",
     "formerDate": "2025-05-29",
     "mode": 15,
     "lastPrice": 0,
     "bigPrice": 1.34,
-    "failureReason": [5,20,39],
+    "failureReason": [
+      5,
+      20,
+      39
+    ],
     "resultPoint": -4.09,
-    "sellTiming": 0,
+    "sellTiming": 1,
     "buyReason": "单纯是想博均线金叉，但客观来说，有60日线的压制，不算好形态，最最错误的是，居然连续的补仓，错误典型",
     "image_list": [
+      "Screenshot_2025-06-09-14-44-36-75_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2025-06-09-14-44-47-30_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
@@ -18,7 +112,10 @@
     "mode": 15,
     "lastPrice": 0,
     "bigPrice": 5.07,
-    "failureReason": [5,20],
+    "failureReason": [
+      5,
+      20
+    ],
     "resultPoint": -2.47,
     "sellTiming": 0,
     "buyReason": "成交额靠前，形态不好，辨识度也不怎么样，就是图便宜，图低，结果因为形态不好，怕空头发散割肉离场。",
@@ -65,7 +162,9 @@
     "mode": 15,
     "lastPrice": 0,
     "bigPrice": 12.45,
-    "failureReason": [5],
+    "failureReason": [
+      5
+    ],
     "resultPoint": -2.16,
     "sellTiming": 0,
     "buyReason": "形态不好，成交额大，半路上车后，第二天低开太多，被60日线压的死死的，离场",
@@ -95,7 +194,9 @@
     "mode": 15,
     "lastPrice": 0,
     "bigPrice": 4.71,
-    "failureReason": [5],
+    "failureReason": [
+      5
+    ],
     "resultPoint": -1.96,
     "sellTiming": 0,
     "buyReason": "成交额居前，犹豫了下，上车偏晚，形态不好，有一定辨识度",
