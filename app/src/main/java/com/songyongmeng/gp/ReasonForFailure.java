@@ -40,6 +40,7 @@ public class ReasonForFailure {
     public static final String REASON_36 = "蓄势后选错方向";
     public static final String REASON_37 = "吓跑了";
     public static final String REASON_38 = "退潮中位股";
+    public static final String REASON_39 = "持股补仓";
 
 
 
