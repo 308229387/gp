@@ -21,6 +21,7 @@ public class NewStatisticsBean implements Serializable {
     private int mode;
     private int sellTiming;
     private int phase;
+    private int hasDay;
     private double bigPrice;
     private double lastPrice;
     private boolean isBanBuy;
@@ -133,8 +134,15 @@ public class NewStatisticsBean implements Serializable {
         this.image_list = image_list;
     }
 
+    public int getHasDay() {
+        return hasDay;
+    }
 
-/*    mode购买类型解释
+    public void setHasDay(int hasDay) {
+        this.hasDay = hasDay;
+    }
+
+    /*    mode购买类型解释
     1: 首板
     2: 一进二
     3: 二进三
