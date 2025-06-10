@@ -2,6 +2,7 @@ package com.songyongmeng.gp;
 
 import android.annotation.SuppressLint;
 import android.graphics.Color;
+import android.util.Log;
 import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -26,6 +27,7 @@ public class NewSumUpListAdapter extends RecyclerView.Adapter<NewSumUpListAdapte
     private boolean formerAllValue;
     private boolean sellTiming;
     private boolean PhaseTag;
+    private boolean hasDayTag;
     private boolean mode;
     private boolean lastPrice;
     private boolean bigPrice;
@@ -202,6 +204,23 @@ public class NewSumUpListAdapter extends RecyclerView.Adapter<NewSumUpListAdapte
             }
         });
         PhaseTag = !PhaseTag;
+        notifyDataSetChanged();
+    }
+
+    public void changeHasDay() {
+        changeResultPoint();
+//        Comparator<NewStatisticsBean> comparator = new Comparator<NewStatisticsBean>() {
+        Collections.sort(mDataList, new Comparator<NewStatisticsBean>() {
+            @Override
+            public int compare(NewStatisticsBean bean1, NewStatisticsBean bean2) {
+                if (hasDayTag) {
+                    return bean2.getHasDay() - bean1.getHasDay();
+                } else {
+                    return bean1.getHasDay() - bean2.getHasDay();
+                }
+            }
+        });
+        hasDayTag = !hasDayTag;
         notifyDataSetChanged();
     }
 
@@ -599,25 +618,31 @@ public class NewSumUpListAdapter extends RecyclerView.Adapter<NewSumUpListAdapte
                         textView.setText(data.getBigPrice() + "亿");
                         break;
                     case 5:
-                        String tmpPhase = "";
-                        if (data.getPhase() == 0) {
-                            tmpPhase = "-";
-                        } else if (data.getPhase() == 1) {
-                            tmpPhase = "低位试错";
-                        } else if (data.getPhase() == 2) {
-                            tmpPhase = "起始";
-                        } else if (data.getPhase() == 3) {
-                            tmpPhase = "主升";
-                        } else if (data.getPhase() == 4) {
-                            tmpPhase = "见顶";
-                        } else if (data.getPhase() == 5) {
-                            tmpPhase = "高位震荡";
-                        } else if (data.getPhase() == 6) {
-                            tmpPhase = "主跌";
-                        } else if (data.getPhase() == 7) {
-                            tmpPhase = "见底";
+//                        String tmpPhase = "";
+//                        if (data.getPhase() == 0) {
+//                            tmpPhase = "-";
+//                        } else if (data.getPhase() == 1) {
+//                            tmpPhase = "低位试错";
+//                        } else if (data.getPhase() == 2) {
+//                            tmpPhase = "起始";
+//                        } else if (data.getPhase() == 3) {
+//                            tmpPhase = "主升";
+//                        } else if (data.getPhase() == 4) {
+//                            tmpPhase = "见顶";
+//                        } else if (data.getPhase() == 5) {
+//                            tmpPhase = "高位震荡";
+//                        } else if (data.getPhase() == 6) {
+//                            tmpPhase = "主跌";
+//                        } else if (data.getPhase() == 7) {
+//                            tmpPhase = "见底";
+//                        }
+//                        textView.setText(tmpPhase);
+//                        Log.i("song_test","持股天数为："+data.getHasDay());
+                        if(data.getHasDay() == 0){
+                            textView.setText("-");
+                        }else{
+                            textView.setText(String.valueOf(data.getHasDay()));
                         }
-                        textView.setText(tmpPhase);
                         break;
                     case 6:
                         String sellStr = "-";

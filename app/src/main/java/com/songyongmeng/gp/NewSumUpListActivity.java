@@ -115,11 +115,14 @@ public class NewSumUpListActivity extends AppCompatActivity {
                     });
                     break;
                 case 5:
-                    button.setText("阶段");
+                    button.setText("天数");
                     button.setOnClickListener(new View.OnClickListener() {
                         @Override
+//                        public void onClick(View view) {
+//                            adapter.changePhase();
+//                        }
                         public void onClick(View view) {
-                            adapter.changePhase();
+                            adapter.changeHasDay();
                         }
                     });
                     break;
