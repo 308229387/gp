@@ -1,5 +1,33 @@
 [
   {
+    "gpName": "剑桥科技",
+    "formerDate": "2025-06-10",
+    "mode": 77,
+    "lastPrice": 0,
+    "bigPrice": -1.55,
+    "hasDay": 1,
+    "failureReason": [],
+    "resultPoint": 0.4,
+    "sellTiming": 0,
+    "buyReason": "形态还行，一直没机会上车，市场调整才上车，第二天走势比较弱",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "沃尔核材",
+    "formerDate": "2025-06-10",
+    "mode": 77,
+    "lastPrice": 0,
+    "bigPrice": -1.23,
+    "hasDay": 1,
+    "failureReason": [],
+    "resultPoint": 0.8,
+    "sellTiming": 0,
+    "buyReason": "形态还行，一直没机会上车，市场调整才上车，但第二天走势比较弱",
+    "image_list": [
+    ]
+  },
+  {
     "gpName": "长华集团",
     "formerDate": "2025-06-09",
     "mode": 77,
@@ -7,10 +35,12 @@
     "bigPrice": 0.07,
     "hasDay": 1,
     "failureReason": [],
-    "resultPoint": 0.5,
+    "resultPoint": 0.69,
     "sellTiming": 1,
     "buyReason": "形态还行，当天行情太好，只有这票掉的多，早上冲高没卖。想着拿到尾盘，结果利润就一点点了。",
     "image_list": [
+      "Screenshot_2025-06-11-17-48-50-24_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2025-06-11-17-49-01-19_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
@@ -21,10 +51,13 @@
     "bigPrice": 0.13,
     "hasDay": 2,
     "failureReason": [],
-    "resultPoint": 4.67,
+    "resultPoint": 4.92,
     "sellTiming": 0,
     "buyReason": "形态好，第一天买高了，第二天开盘上涨卖掉，接回来，第三天又涨了些。",
     "image_list": [
+      "Screenshot_2025-06-11-17-49-28-29_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2025-06-11-17-49-32-30_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2025-06-11-17-49-38-08_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
@@ -41,6 +74,9 @@
     "sellTiming": 0,
     "buyReason": "感觉形态很好，辨识度差点意思，第二天收盘到5日线下，减半仓，第三天第四天，也都没有收复，离场",
     "image_list": [
+      "Screenshot_2025-06-11-17-48-19-68_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2025-06-11-17-48-24-22_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2025-06-11-17-48-31-88_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
@@ -55,6 +91,8 @@
     "sellTiming": 0,
     "buyReason": "感觉形态很好，辨识度差点意思，第二天收盘到5日线下，减半仓，第三天第四天，也都没有收复，离场",
     "image_list": [
+      "Screenshot_2025-06-11-17-47-39-46_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2025-06-11-17-47-45-80_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
@@ -69,6 +107,8 @@
     "sellTiming": 0,
     "buyReason": "形态好，辨识度不算高，本来有正常仓位，开盘过5日线减仓了，下午拉到2个多点卖了，后涨停，经过这次后，彻底改成尾盘卖了。",
     "image_list": [
+      "Screenshot_2025-06-11-17-47-15-14_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2025-06-11-17-47-18-67_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
