@@ -1,5 +1,160 @@
 [
   {
+    "gpName": "中油资本",
+    "formerDate": "2025-06-25",
+    "mode": 15,
+    "lastPrice": 0,
+    "bigPrice": 0,
+    "buyKEffect": 0,
+    "hasDay": 2,
+    "failureReason": [26],
+    "resultPoint": -2.59,
+    "sellTiming": 1,
+    "buyReason": "太看好一个标的，本来正常摩擦，或能回本的票，结果放大了亏损。",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "华软科技",
+    "formerDate": "2025-06-25",
+    "mode": 77,
+    "lastPrice": 0,
+    "bigPrice": 0,
+    "buyKEffect": 0,
+    "hasDay": 1,
+    "failureReason": [],
+    "resultPoint": 0.09,
+    "sellTiming": 0,
+    "buyReason": "买的不够低。股性又弱，拿了好久赚了24赶紧走。",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "中国瑞林",
+    "formerDate": "2025-06-26",
+    "mode": 77,
+    "lastPrice": 0,
+    "bigPrice": 0,
+    "buyKEffect": 2,
+    "hasDay": 2,
+    "failureReason": [],
+    "resultPoint": 1.9,
+    "sellTiming": 0,
+    "buyReason": "买当天行情太好，没有到位，拿一天继续调整，第三天才发动离场。",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "协鑫集成",
+    "formerDate": "2025-06-24",
+    "mode": 77,
+    "lastPrice": 0,
+    "bigPrice": 0,
+    "buyKEffect": 1,
+    "hasDay": 2,
+    "failureReason": [],
+    "resultPoint": -1.66,
+    "sellTiming": 0,
+    "buyReason": "弱，开盘就一小会离场机会，没跑，结果再无高点。未破5日线，拿了拿，实在不行离场，见顶",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "奥瑞德",
+    "formerDate": "2025-06-25",
+    "mode": 77,
+    "lastPrice": 0,
+    "bigPrice": 0,
+    "buyKEffect": 2,
+    "hasDay": 1,
+    "failureReason": [],
+    "resultPoint": 2.26,
+    "sellTiming": -1,
+    "buyReason": "双阳，K线比较好看，次日中午发动，已经离场了。解锁涨停后双阳新形态。",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "太平洋",
+    "formerDate": "2025-06-25",
+    "mode": 15,
+    "lastPrice": 0,
+    "bigPrice": 0,
+    "buyKEffect": 0,
+    "hasDay": 1,
+    "failureReason": [],
+    "resultPoint": 0.43,
+    "sellTiming": 0,
+    "buyReason": "买的晚，但还好第二天给机会走，但当天应该接回来。做个次日回踩。",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "石英股份",
+    "formerDate": "2025-06-24",
+    "mode": 77,
+    "lastPrice": 0,
+    "bigPrice": 0,
+    "buyKEffect": 0,
+    "hasDay": 2,
+    "failureReason": [],
+    "resultPoint": -1.77,
+    "sellTiming": 1,
+    "buyReason": "看均线挺陡，但上车后无反弹，见顶趋势。破5日线离场",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "强力新材",
+    "formerDate": "2025-06-24",
+    "mode": 77,
+    "lastPrice": 0,
+    "bigPrice": 0,
+    "buyKEffect": 0,
+    "hasDay": 1,
+    "failureReason": [],
+    "resultPoint": -1.63,
+    "sellTiming": 0,
+    "buyReason": "形态选股，题材一般吧，略弱。",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "创识科技",
+    "formerDate": "2025-06-19",
+    "mode": 77,
+    "lastPrice": 0,
+    "bigPrice": 0,
+    "buyKEffect": 2,
+    "hasDay": 1,
+    "failureReason": [
+      10
+    ],
+    "resultPoint": -9.39,
+    "sellTiming": 1,
+    "buyReason": "退潮，买太急了。大盘5均线也是向下的。K线形态也不好，哪哪都有问题，导致当月最大亏损",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "科力远",
+    "formerDate": "2025-06-19",
+    "mode": 77,
+    "lastPrice": 0,
+    "bigPrice": 0,
+    "buyKEffect": 2,
+    "hasDay": 1,
+    "failureReason": [
+      10,
+      26
+    ],
+    "resultPoint": -4.16,
+    "sellTiming": 1,
+    "buyReason": "退潮还尾盘卖，卖点不清晰",
+    "image_list": [
+    ]
+  },
+  {
     "gpName": "国新能源",
     "formerDate": "2025-06-19",
     "mode": 77,
@@ -8,7 +163,7 @@
     "buyKEffect": 0,
     "hasDay": 1,
     "failureReason": [],
-    "resultPoint": -2.67,
+    "resultPoint": 2.67,
     "sellTiming": 0,
     "buyReason": "买入当天拉起，次日退潮能正常离场。运气好。",
     "image_list": [
