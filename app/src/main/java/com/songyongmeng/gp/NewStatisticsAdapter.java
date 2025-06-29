@@ -156,6 +156,14 @@ public class NewStatisticsAdapter extends RecyclerView.Adapter<NewStatisticsAdap
         double firstBanAverageFai = 0;
 
 
+        int afterDayLineBan = 0;
+        int afterDayLineBanNum = 0;
+        int afterDayLineBanSuc = 0;
+        int afterDayLineBanFai = 0;
+        double afterDayLineBanAverageSuc = 0;
+        double afterDayLineBanAverageFai = 0;
+
+
         int lineBan = 0;
         int lineBanNum = 0;
         int lineBanSuc = 0;
@@ -433,6 +441,19 @@ public class NewStatisticsAdapter extends RecyclerView.Adapter<NewStatisticsAdap
                     fbBanAverageFai = fbBanAverageFai + tmp.getResultPoint();
                 }
             }
+            if (tmp.getMode() == 76) {
+                afterDayLineBan++;
+                if (tmp.getLastPrice() > 0) {
+                    afterDayLineBanNum++;
+                }
+                if (tmp.getResultPoint() > 0) {
+                    afterDayLineBanSuc++;
+                    afterDayLineBanAverageSuc = afterDayLineBanAverageSuc + tmp.getResultPoint();
+                } else {
+                    afterDayLineBanFai++;
+                    afterDayLineBanAverageFai = afterDayLineBanAverageFai + tmp.getResultPoint();
+                }
+            }
             if (tmp.getMode() == 77) {
                 lineBan++;
                 if (tmp.getLastPrice() > 0) {
@@ -529,6 +550,7 @@ public class NewStatisticsAdapter extends RecyclerView.Adapter<NewStatisticsAdap
 //        itemList.add(new ShowBean("20日线反弹", isRebound20, isRebound20Suc, getResult(isRebound20, isRebound20Suc), isRebound20Suc == 0 ? 0 : rebound20AverageSuc / isRebound20Suc, isRebound20Fai == 0 ? 0 : rebound20AverageFai / isRebound20Fai));
 //        itemList.add(new ShowBean("反包", fbBan, fbBanSuc, getResult(fbBan, fbBanSuc), getResult(fbBan, fbBanNum), fbBanSuc == 0 ? 0 : fbBanAverageSuc / fbBanSuc, fbBanFai == 0 ? 0 : fbBanAverageFai / fbBanFai));
         itemList.add(getShowBean("首板半路", halfBan, halfBanSuc, halfBanFai, halfBanNum, halfBanAverageSuc, halfBanAverageFai));
+        itemList.add(getShowBean("次日回踩", afterDayLineBan, afterDayLineBanSuc, afterDayLineBanFai, afterDayLineBanNum, afterDayLineBanAverageSuc, afterDayLineBanAverageFai));
         itemList.add(getShowBean("均线回踩", lineBan, lineBanSuc, lineBanFai, lineBanNum, lineBanAverageSuc, lineBanAverageFai));
         itemList.add(getShowBean("反包", fbBan, fbBanSuc, fbBanFai, fbBanNum, fbBanAverageSuc, fbBanAverageFai));
         itemList.add(getShowBean("龙头战法", longHeader, longHeaderSuc, longHeaderFai, longHeaderNum, longHeaderAverageSuc, longHeaderAverageFai));
@@ -622,6 +644,10 @@ public class NewStatisticsAdapter extends RecyclerView.Adapter<NewStatisticsAdap
             case "首板半路":
                 return dataList.stream()
                         .filter(bean -> bean.getMode() == 15)
+                        .collect(Collectors.toList());
+            case "次日回踩":
+                return dataList.stream()
+                        .filter(bean -> bean.getMode() == 76)
                         .collect(Collectors.toList());
             case "均线回踩":
                 return dataList.stream()

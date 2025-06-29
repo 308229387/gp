@@ -106,11 +106,11 @@ public class NewSumUpListActivity extends AppCompatActivity {
                     });
                     break;
                 case 4:
-                    button.setText("大单");
+                    button.setText("买K影响");
                     button.setOnClickListener(new View.OnClickListener() {
                         @Override
                         public void onClick(View view) {
-                            adapter.changeBigPriceData();
+                            adapter.changeBuyKEffect();
                         }
                     });
                     break;

@@ -22,6 +22,7 @@ public class NewStatisticsBean implements Serializable {
     private int sellTiming;
     private int phase;
     private int hasDay;
+    private int buyKEffect;
     private double bigPrice;
     private double lastPrice;
     private boolean isBanBuy;
@@ -29,6 +30,14 @@ public class NewStatisticsBean implements Serializable {
     private String buyReason;
     private List<Integer> failureReason;
     private List<String> image_list;
+
+    public int getBuyKEffect() {
+        return buyKEffect;
+    }
+
+    public void setBuyKEffect(int buyKEffect) {
+        this.buyKEffect = buyKEffect;
+    }
 
     public int getPhase() {
         return phase;

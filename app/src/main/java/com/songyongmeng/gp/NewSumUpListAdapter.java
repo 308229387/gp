@@ -31,6 +31,7 @@ public class NewSumUpListAdapter extends RecyclerView.Adapter<NewSumUpListAdapte
     private boolean mode;
     private boolean lastPrice;
     private boolean bigPrice;
+    private boolean buyKEffect;
     private boolean resultPoint;
     private boolean banScore;
     private boolean yesterdayEnvironmentScore;
@@ -238,6 +239,23 @@ public class NewSumUpListAdapter extends RecyclerView.Adapter<NewSumUpListAdapte
 
         Collections.sort(mDataList, comparator);
         lastPrice = !lastPrice;
+        notifyDataSetChanged();
+    }
+
+    public void changeBuyKEffect() {
+        comparator = new Comparator<NewStatisticsBean>() {
+            @Override
+            public int compare(NewStatisticsBean bean1, NewStatisticsBean bean2) {
+                if (buyKEffect) {
+                    return Double.compare(bean1.getBuyKEffect(), bean2.getBuyKEffect());
+                } else {
+                    return Double.compare(bean2.getBuyKEffect(), bean1.getBuyKEffect());
+                }
+            }
+        };
+
+        Collections.sort(mDataList, comparator);
+        buyKEffect = !buyKEffect;
         notifyDataSetChanged();
     }
 
@@ -602,6 +620,8 @@ public class NewSumUpListAdapter extends RecyclerView.Adapter<NewSumUpListAdapte
                             tmp = "缩量一至";
                         } else if (data.getMode() == 77) {
                             tmp = "均线回踩";
+                        } else if (data.getMode() == 76) {
+                            tmp = "次日回踩";
                         } else {
                             tmp = "中位股";
                         }
@@ -615,8 +635,22 @@ public class NewSumUpListAdapter extends RecyclerView.Adapter<NewSumUpListAdapte
                         }
                         break;
                     case 4:
-                        textView.setText(data.getBigPrice() + "亿");
+                        String tmpK = "-";
+                        int t = data.getBuyKEffect();
+                        if (t == 1) {
+                            tmpK = "偏准";
+                        } else if (t == 2) {
+                            tmpK = "准确";
+                        }else if (t == -1) {
+                            tmpK = "偏不准";
+                        }else if (t == -2) {
+                            tmpK = "不准";
+                        }
+                        textView.setText(tmpK);
                         break;
+//                    case 4:
+//                        textView.setText(data.getBigPrice() + "亿");
+//                        break;
                     case 5:
 //                        String tmpPhase = "";
 //                        if (data.getPhase() == 0) {

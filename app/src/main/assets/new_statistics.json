@@ -1,5 +1,100 @@
 [
   {
+    "gpName": "国新能源",
+    "formerDate": "2025-06-19",
+    "mode": 77,
+    "lastPrice": 0,
+    "bigPrice": 0,
+    "buyKEffect": 0,
+    "hasDay": 1,
+    "failureReason": [],
+    "resultPoint": -2.67,
+    "sellTiming": 0,
+    "buyReason": "买入当天拉起，次日退潮能正常离场。运气好。",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "海能达",
+    "formerDate": "2025-06-17",
+    "mode": 77,
+    "lastPrice": 0,
+    "bigPrice": 0,
+    "buyKEffect": 2,
+    "hasDay": 2,
+    "failureReason": [
+      10,26
+    ],
+    "resultPoint": -1.01,
+    "sellTiming": 1,
+    "buyReason": "买后当天做了个T，因为觉得辨识度高，想再拿拿，本来大肉的票，因为对市场行情忽视，大盘5日线下调整，第三天又错误的坚持了导致亏损",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "润都股份",
+    "formerDate": "2025-06-17",
+    "mode": 77,
+    "lastPrice": 0,
+    "bigPrice": 0,
+    "buyKEffect": 2,
+    "hasDay": 1,
+    "failureReason": [
+      10,
+      22
+    ],
+    "resultPoint": -3.36,
+    "sellTiming": 0,
+    "buyReason": "觉得10日线也能回踩一下，结果当天退潮，一根大阴线，这一天，应该尾盘看情况买。",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "欣锐科技",
+    "formerDate": "2025-06-17",
+    "mode": 77,
+    "lastPrice": 0,
+    "buyKEffect": 2,
+    "hasDay": 3,
+    "failureReason": [
+      10,
+      39
+    ],
+    "resultPoint": -6.78,
+    "sellTiming": 1,
+    "buyReason": "退潮跌破均线，还补仓妄图10日均线回踩，最后在差行情中离场。",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "北方长龙",
+    "formerDate": "2025-06-17",
+    "mode": 77,
+    "lastPrice": 0,
+    "buyKEffect": 2,
+    "hasDay": 1,
+    "failureReason": [],
+    "resultPoint": 7.2,
+    "sellTiming": -1,
+    "buyReason": "卖的太急，怎么也应该拿到10点左右。赌中了却放手太早，热门版块多拿拿",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "兴业股份",
+    "formerDate": "2025-06-17",
+    "mode": 77,
+    "lastPrice": 0,
+    "buyKEffect": 1,
+    "hasDay": 1,
+    "failureReason": [],
+    "resultPoint": -1.56,
+    "sellTiming": 0,
+    "buyReason": "二板炸板，5日线无支撑，回踩10日线后涨停，阳转阴，持续小幅下降",
+    "image_list": [
+    ]
+  },
+  {
     "gpName": "四川黄金",
     "formerDate": "2025-06-16",
     "mode": 77,
@@ -35,6 +130,7 @@
     "mode": 77,
     "lastPrice": 0,
     "bigPrice": 0,
+    "buyKEffect": -1,
     "hasDay": 1,
     "failureReason": [],
     "resultPoint": 0.27,
@@ -67,6 +163,7 @@
     "mode": 77,
     "lastPrice": 0,
     "bigPrice": 0.02,
+    "buyKEffect": 1,
     "hasDay": 1,
     "failureReason": [],
     "resultPoint": 1.3,
@@ -81,6 +178,7 @@
     "mode": 77,
     "lastPrice": 0,
     "bigPrice": 0.01,
+    "buyKEffect": 1,
     "hasDay": 2,
     "failureReason": [],
     "resultPoint": 0.01,
@@ -184,6 +282,7 @@
     "mode": 77,
     "lastPrice": 0,
     "bigPrice": -0.41,
+    "buyKEffect": 1,
     "hasDay": 3,
     "failureReason": [
       20
@@ -204,6 +303,7 @@
     "lastPrice": 0,
     "bigPrice": -0.44,
     "failureReason": [],
+    "buyKEffect": -1,
     "resultPoint": 0.94,
     "hasDay": 1,
     "sellTiming": 0,
@@ -256,6 +356,7 @@
     "bigPrice": -0.02,
     "failureReason": [],
     "hasDay": 1,
+    "buyKEffect": -1,
     "resultPoint": 2.27,
     "sellTiming": -1,
     "buyReason": "形态非常好，也有一定辨识度，买点也很好，但被第二天的低开吓走了，低开太多了点，卖出次日涨停。",
@@ -271,6 +372,7 @@
     "mode": 77,
     "lastPrice": 0,
     "bigPrice": -0.18,
+    "buyKEffect": 1,
     "hasDay": 1,
     "failureReason": [],
     "resultPoint": 0.51,
@@ -428,6 +530,7 @@
     "mode": 77,
     "hasDay": 1,
     "lastPrice": 0,
+    "buyKEffect": 2,
     "bigPrice": -1.09,
     "failureReason": [
       5
@@ -447,6 +550,7 @@
     "hasDay": 1,
     "lastPrice": 0,
     "bigPrice": -0.42,
+    "buyKEffect": 2,
     "failureReason": [
       5,
       20
@@ -481,6 +585,7 @@
     "mode": 77,
     "lastPrice": 0,
     "hasDay": 1,
+    "buyKEffect": -1,
     "bigPrice": 0.2,
     "failureReason": [],
     "resultPoint": 5.07,
@@ -548,9 +653,9 @@
   {
     "gpName": "中航沈飞",
     "formerDate": "2025-05-09",
-    "mode": 77,
+    "mode": 76,
     "hasDay": 1,
-    "lastPrice": 0,
+    "buyKEffect": -2,
     "bigPrice": -2.7,
     "failureReason": [],
     "resultPoint": 1.96,
