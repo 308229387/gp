@@ -1,5 +1,35 @@
 [
   {
+    "gpName": "深圳华强",
+    "formerDate": "2025-07-01",
+    "mode": 0,
+    "lastPrice": 0,
+    "bigPrice": 0,
+    "buyKEffect": 0,
+    "hasDay": 1,
+    "failureReason": [],
+    "resultPoint": 0,
+    "sellTiming": 0,
+    "buyReason": "大盘上升趋势中，现在处于小周期箱体顶部，微微缩量，但今天表现强过预期。有辨识度，K线较昨天有转好。均线多头",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "株冶集团",
+    "formerDate": "2025-07-01",
+    "mode": 0,
+    "lastPrice": 0,
+    "bigPrice": 0,
+    "buyKEffect": 0,
+    "hasDay": 1,
+    "failureReason": [],
+    "resultPoint": 0,
+    "sellTiming": 0,
+    "buyReason": "大盘上升趋势中，现在处于小周期箱体顶部，微微缩量，但今天表现强过预期。尾盘就找了个K线形态有下影线支撑的票上车，版块K线看较好。",
+    "image_list": [
+    ]
+  },
+  {
     "gpName": "国轩高科",
     "formerDate": "2025-06-27",
     "mode": 77,
@@ -12,6 +42,8 @@
     "sellTiming": 0,
     "buyReason": "电池核心，版块调整3天，今天表现一般，盘中被洗出去了，收盘看版块形态很好，光头下影小阳线，应该再拿一天。",
     "image_list": [
+      "Screenshot_2025-07-01-19-09-40-36_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2025-07-01-19-09-46-67_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
@@ -27,6 +59,9 @@
     "sellTiming": 0,
     "buyReason": "近期也是大涨的版块，K线形态较好，拿了2天，形态未破 ，仍在5日线上方，力度弱于版块加预判次日大盘要调整，离场。",
     "image_list": [
+      "Screenshot_2025-07-01-19-07-58-49_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2025-07-01-19-08-01-21_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2025-07-01-19-08-06-34_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
@@ -42,6 +77,8 @@
     "sellTiming": 0,
     "buyReason": "非核心版块，当天位置够低。就买了，但次日在大涨行情，还是萎靡的很，收盘在5日线下。离场",
     "image_list": [
+      "Screenshot_2025-07-01-19-08-27-96_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2025-07-01-19-08-32-31_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
@@ -57,6 +94,8 @@
     "sellTiming": 0,
     "buyReason": "当天市场退潮，军工是近期热点版块，上证微破均线，预期次日修复，光电又是军工票，上车后如期修复，股票涨6.8个点。上冲卖一半，然后预判后面还有调整，尾盘全卖。",
     "image_list": [
+      "Screenshot_2025-07-01-19-09-08-24_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2025-07-01-19-09-12-22_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
