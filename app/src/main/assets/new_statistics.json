@@ -1,5 +1,65 @@
 [
   {
+    "gpName": "国轩高科",
+    "formerDate": "2025-06-27",
+    "mode": 77,
+    "lastPrice": 0,
+    "bigPrice": 0,
+    "buyKEffect": 0,
+    "hasDay": 1,
+    "failureReason": [],
+    "resultPoint": 2.52,
+    "sellTiming": 0,
+    "buyReason": "电池核心，版块调整3天，今天表现一般，盘中被洗出去了，收盘看版块形态很好，光头下影小阳线，应该再拿一天。",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "光迅科技",
+    "formerDate": "2025-06-27",
+    "mode": 77,
+    "lastPrice": 0,
+    "bigPrice": 0,
+    "buyKEffect": 0,
+    "hasDay": 1,
+    "failureReason": [],
+    "resultPoint": 2.52,
+    "sellTiming": 0,
+    "buyReason": "近期也是大涨的版块，K线形态较好，拿了2天，形态未破 ，仍在5日线上方，力度弱于版块加预判次日大盘要调整，离场。",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "桂发祥",
+    "formerDate": "2025-06-27",
+    "mode": 77,
+    "lastPrice": 0,
+    "bigPrice": 0,
+    "buyKEffect": 0,
+    "hasDay": 1,
+    "failureReason": [],
+    "resultPoint": -0.51,
+    "sellTiming": 0,
+    "buyReason": "非核心版块，当天位置够低。就买了，但次日在大涨行情，还是萎靡的很，收盘在5日线下。离场",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "光电股份",
+    "formerDate": "2025-06-27",
+    "mode": 77,
+    "lastPrice": 0,
+    "bigPrice": 0,
+    "buyKEffect": -1,
+    "hasDay": 1,
+    "failureReason": [],
+    "resultPoint": 4.39,
+    "sellTiming": 0,
+    "buyReason": "当天市场退潮，军工是近期热点版块，上证微破均线，预期次日修复，光电又是军工票，上车后如期修复，股票涨6.8个点。上冲卖一半，然后预判后面还有调整，尾盘全卖。",
+    "image_list": [
+    ]
+  },
+  {
     "gpName": "中油资本",
     "formerDate": "2025-06-25",
     "mode": 15,
@@ -211,7 +271,6 @@
     "sellTiming": 0,
     "buyReason": "觉得10日线也能回踩一下，结果当天退潮，一根大阴线，这一天，应该尾盘看情况买。",
     "image_list": [
-      "Screenshot_2025-06-26-07-21-04-45_5c5979e609b9ed4a43e94260d67cf51e.webp",
       "Screenshot_2025-06-26-07-21-20-34_5c5979e609b9ed4a43e94260d67cf51e.webp",
       "Screenshot_2025-06-26-07-21-34-64_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
@@ -281,6 +340,8 @@
     "sellTiming": 0,
     "buyReason": "近期调整，就买了个防御票，结果真也是不赚钱。",
     "image_list": [
+      "Screenshot_2025-06-26-07-16-19-15_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2025-06-26-07-16-34-28_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
@@ -345,6 +406,8 @@
     "sellTiming": 0,
     "buyReason": "形态选股，第二天环境差，开盘1个多点分仓卖上午算强势，当天收在5日线上",
     "image_list": [
+      "Screenshot_2025-06-26-07-12-52-24_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2025-06-26-07-13-08-16_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
@@ -360,6 +423,9 @@
     "sellTiming": 0,
     "buyReason": "形态选股，感觉温吞吞的，结果第三天中午后发的力，和青岛一样，午后发力。",
     "image_list": [
+      "Screenshot_2025-06-26-07-11-51-22_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2025-06-26-07-12-07-28_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2025-06-26-07-12-20-59_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
@@ -374,6 +440,9 @@
     "sellTiming": 0,
     "buyReason": "当天追高买的，第二天做了个垃圾T，第三天找机会解套离场。第四天有快速拉升。",
     "image_list": [
+      "Screenshot_2025-06-26-07-10-30-58_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2025-06-26-07-11-08-99_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2025-06-26-07-11-24-53_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
@@ -388,6 +457,8 @@
     "sellTiming": -1,
     "buyReason": "看形态买的，卖点太差。分仓卖更好点",
     "image_list": [
+      "Screenshot_2025-06-26-07-09-37-80_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2025-06-26-07-09-56-28_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
@@ -402,6 +473,8 @@
     "sellTiming": 0,
     "buyReason": "形态还行，一直没机会上车，市场调整才上车，第二天走势比较弱",
     "image_list": [
+      "Screenshot_2025-06-26-07-08-20-85_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2025-06-26-07-08-34-14_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
@@ -416,6 +489,8 @@
     "sellTiming": 0,
     "buyReason": "形态还行，一直没机会上车，市场调整才上车，但第二天走势比较弱",
     "image_list": [
+      "Screenshot_2025-06-26-07-07-54-94_5c5979e609b9ed4a43e94260d67cf51e.webp",
+      "Screenshot_2025-06-26-07-08-04-68_5c5979e609b9ed4a43e94260d67cf51e.webp"
     ]
   },
   {
