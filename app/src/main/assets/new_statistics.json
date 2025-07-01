@@ -2,7 +2,7 @@
   {
     "gpName": "深圳华强",
     "formerDate": "2025-07-01",
-    "mode": 0,
+    "mode": -1,
     "lastPrice": 0,
     "bigPrice": 0,
     "buyKEffect": 0,
@@ -17,7 +17,7 @@
   {
     "gpName": "株冶集团",
     "formerDate": "2025-07-01",
-    "mode": 0,
+    "mode": -1,
     "lastPrice": 0,
     "bigPrice": 0,
     "buyKEffect": 0,
