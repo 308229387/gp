@@ -1,8 +1,8 @@
 [
   {
-    "gpName": "深圳华强",
-    "formerDate": "2025-07-01",
-    "mode": -1,
+    "gpName": "德福科技",
+    "formerDate": "2025-07-03",
+    "mode": 77,
     "lastPrice": 0,
     "bigPrice": 0,
     "buyKEffect": 0,
@@ -10,14 +10,59 @@
     "failureReason": [],
     "resultPoint": 0,
     "sellTiming": 0,
-    "buyReason": "大盘上升趋势中，现在处于小周期箱体顶部，微微缩量，但今天表现强过预期。有辨识度，K线较昨天有转好。均线多头",
+    "buyReason": "中高位，长下影线，买时还有些纠结，下影有点长，位置高。但版块还行，上车，次日高开略强。",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "景旺电子",
+    "formerDate": "2025-07-03",
+    "mode": 77,
+    "lastPrice": 0,
+    "bigPrice": 0,
+    "buyKEffect": 0,
+    "hasDay": 1,
+    "failureReason": [],
+    "resultPoint": 0,
+    "sellTiming": 0,
+    "buyReason": "元件版块今天大涨，版块较前排，中高涨幅，调整3天，版块光头大阳线，预计次日有冲高，次日高开较强。卖的有点早。",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "长城军工",
+    "formerDate": "2025-07-03",
+    "mode": 77,
+    "lastPrice": 0,
+    "bigPrice": 0,
+    "buyKEffect": 0,
+    "hasDay": 1,
+    "failureReason": [],
+    "resultPoint": 0,
+    "sellTiming": 0,
+    "buyReason": "军工龙头，辨识度高，调整一天回踩五日线，但版块形态不好，倒T，没想那么多就上了，次日跌到5个点才走，表现不强势。",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "深圳华强",
+    "formerDate": "2025-07-01",
+    "mode": 77,
+    "lastPrice": 0,
+    "bigPrice": 0,
+    "buyKEffect": 0,
+    "hasDay": 1,
+    "failureReason": [],
+    "resultPoint": 0,
+    "sellTiming": 0,
+    "buyReason": "大盘上升趋势中，现在处于小周期箱体顶部，微微缩量，但今天表现强过预期。有辨识度，K线较昨天有转好。均线多头，开盘就开到了均线下，大盘盈亏比很差。拿到7日线才走。",
     "image_list": [
     ]
   },
   {
     "gpName": "株冶集团",
     "formerDate": "2025-07-01",
-    "mode": -1,
+    "mode": 77,
     "lastPrice": 0,
     "bigPrice": 0,
     "buyKEffect": 0,
@@ -25,7 +70,7 @@
     "failureReason": [],
     "resultPoint": 0,
     "sellTiming": 0,
-    "buyReason": "大盘上升趋势中，现在处于小周期箱体顶部，微微缩量，但今天表现强过预期。尾盘就找了个K线形态有下影线支撑的票上车，版块K线看较好。",
+    "buyReason": "大盘上升趋势中，现在处于小周期箱体顶部，微微缩量，但今天表现强过预期。尾盘就找了个K线形态有下影线支撑的票上车，版块K线看较好。第二天行情不好，但个股略强，微红离场。",
     "image_list": [
     ]
   },
