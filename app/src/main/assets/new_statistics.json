@@ -1,5 +1,80 @@
 [
   {
+    "gpName": "南凌科技",
+    "formerDate": "2025-07-08",
+    "mode": 77,
+    "lastPrice": 0,
+    "bigPrice": 0,
+    "buyKEffect": 0,
+    "hasDay": 1,
+    "failureReason": [],
+    "resultPoint": 6.1,
+    "sellTiming": 0,
+    "buyReason": "版块光头中阳，过平台，个股下影光头中阳，尾盘有异动。第二天开盘水下调整，11点才拉长，1点见顶。后大盘调整，随着下跌。精准逃顶",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "奥赛康",
+    "formerDate": "2025-07-08",
+    "mode": 77,
+    "lastPrice": 0,
+    "bigPrice": 0,
+    "buyKEffect": 0,
+    "hasDay": 1,
+    "failureReason": [],
+    "resultPoint": 3.2,
+    "sellTiming": 0,
+    "buyReason": "化学制药，不算热点，但当天行情好，个股形态也好，长下影中阳，次日开盘就拉升了，早上冲高没跑，下午找机会走了。",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "天风证券",
+    "formerDate": "2025-07-08",
+    "mode": 15,
+    "lastPrice": 0,
+    "bigPrice": 0,
+    "buyKEffect": 0,
+    "hasDay": 1,
+    "failureReason": [],
+    "resultPoint": -2.2,
+    "sellTiming": 0,
+    "buyReason": "明显放量，7-3盈亏比，就找了个证券没大涨的、顺眼的上车了，结果全天下行，最后卖完给了个反弹。无语",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "长城军工",
+    "formerDate": "2025-07-07",
+    "mode": 77,
+    "lastPrice": 0,
+    "bigPrice": 0,
+    "buyKEffect": 0,
+    "hasDay": 1,
+    "failureReason": [],
+    "resultPoint": -2.11,
+    "sellTiming": 0,
+    "buyReason": "回踩10日均线光头小阳线，次日大涨，但大盘并不认可，开盘调整，自己开盘就卖了一半，然后快回踩清仓，因为环境好，后来就拉平了，再次日有小高点。",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "九州集团",
+    "formerDate": "2025-07-04",
+    "mode": 15,
+    "lastPrice": 0,
+    "bigPrice": 0,
+    "buyKEffect": 0,
+    "hasDay": 1,
+    "failureReason": [],
+    "resultPoint": 0.41,
+    "sellTiming": 0,
+    "buyReason": "电力版块开盘强势拉升，印象里九州挺强，但当天表现很差。第二天开盘还挺强，但回本就直接秒了。现在看走的有点早。",
+    "image_list": [
+    ]
+  },
+  {
     "gpName": "德福科技",
     "formerDate": "2025-07-03",
     "mode": 77,
@@ -8,24 +83,9 @@
     "buyKEffect": 0,
     "hasDay": 1,
     "failureReason": [],
-    "resultPoint": 0,
+    "resultPoint": 4.68,
     "sellTiming": 0,
     "buyReason": "中高位，长下影线，买时还有些纠结，下影有点长，位置高。但版块还行，上车，次日高开略强。",
-    "image_list": [
-    ]
-  },
-  {
-    "gpName": "景旺电子",
-    "formerDate": "2025-07-03",
-    "mode": 77,
-    "lastPrice": 0,
-    "bigPrice": 0,
-    "buyKEffect": 0,
-    "hasDay": 1,
-    "failureReason": [],
-    "resultPoint": 0,
-    "sellTiming": 0,
-    "buyReason": "元件版块今天大涨，版块较前排，中高涨幅，调整3天，版块光头大阳线，预计次日有冲高，次日高开较强。卖的有点早。",
     "image_list": [
     ]
   },
@@ -38,9 +98,24 @@
     "buyKEffect": 0,
     "hasDay": 1,
     "failureReason": [],
-    "resultPoint": 0,
+    "resultPoint": -5.07,
     "sellTiming": 0,
     "buyReason": "军工龙头，辨识度高，调整一天回踩五日线，但版块形态不好，倒T，没想那么多就上了，次日跌到5个点才走，表现不强势。",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "景旺电子",
+    "formerDate": "2025-07-03",
+    "mode": 77,
+    "lastPrice": 0,
+    "bigPrice": 0,
+    "buyKEffect": 0,
+    "hasDay": 1,
+    "failureReason": [],
+    "resultPoint": 3.04,
+    "sellTiming": 0,
+    "buyReason": "元件版块今天大涨，版块较前排，中高涨幅，调整3天，版块光头大阳线，预计次日有冲高，次日高开较强。卖的有点早。",
     "image_list": [
     ]
   },
@@ -53,7 +128,7 @@
     "buyKEffect": 0,
     "hasDay": 1,
     "failureReason": [],
-    "resultPoint": 0,
+    "resultPoint": -3.5,
     "sellTiming": 0,
     "buyReason": "大盘上升趋势中，现在处于小周期箱体顶部，微微缩量，但今天表现强过预期。有辨识度，K线较昨天有转好。均线多头，开盘就开到了均线下，大盘盈亏比很差。拿到7日线才走。",
     "image_list": [
@@ -68,7 +143,7 @@
     "buyKEffect": 0,
     "hasDay": 1,
     "failureReason": [],
-    "resultPoint": 0,
+    "resultPoint": 0.27,
     "sellTiming": 0,
     "buyReason": "大盘上升趋势中，现在处于小周期箱体顶部，微微缩量，但今天表现强过预期。尾盘就找了个K线形态有下影线支撑的票上车，版块K线看较好。第二天行情不好，但个股略强，微红离场。",
     "image_list": [
