@@ -1,6 +1,6 @@
 [
   {
-    "gpName": "新时达",
+    "gpName": "远望谷",
     "formerDate": "2025-07-08",
     "mode": 77,
     "lastPrice": 0,
@@ -8,9 +8,39 @@
     "buyKEffect": 0,
     "hasDay": 1,
     "failureReason": [],
-    "resultPoint": -1.01,
+    "resultPoint": -1.90,
     "sellTiming": 0,
-    "buyReason": "大千生态大肉没上车，受大千生态刺激，外加当天情绪回暖，就买了，次日行情略弱，全天无卖点。尾盘离场。",
+    "buyReason": "形态选股，但表现不好，没有版块效应，市场在涨什么自己也不清楚，还是要找主线。",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "远望谷",
+    "formerDate": "2025-07-08",
+    "mode": 77,
+    "lastPrice": 0,
+    "bigPrice": 0,
+    "buyKEffect": 0,
+    "hasDay": 1,
+    "failureReason": [],
+    "resultPoint": -1.90,
+    "sellTiming": 0,
+    "buyReason": "形态选股，但表现不好，没有版块效应，市场在涨什么自己也不清楚，还是要找主线。",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "神驰机电",
+    "formerDate": "2025-07-08",
+    "mode": 77,
+    "lastPrice": 0,
+    "bigPrice": 0,
+    "buyKEffect": 0,
+    "hasDay": 1,
+    "failureReason": [],
+    "resultPoint": -1.94,
+    "sellTiming": 0,
+    "buyReason": "形态选股，但表现不好，没有版块效应，市场在涨什么自己也不清楚，还是要找主线。",
     "image_list": [
     ]
   },
@@ -26,6 +56,21 @@
     "resultPoint": 0.59,
     "sellTiming": 0,
     "buyReason": "大千生态大肉没上车，受大千生态刺激，外加当天情绪回暖，就买了，次日行情略弱，冲高走一部分，尾盘走一部分",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "新时达",
+    "formerDate": "2025-07-08",
+    "mode": 77,
+    "lastPrice": 0,
+    "bigPrice": 0,
+    "buyKEffect": 0,
+    "hasDay": 1,
+    "failureReason": [],
+    "resultPoint": -1.01,
+    "sellTiming": 0,
+    "buyReason": "大千生态大肉没上车，受大千生态刺激，外加当天情绪回暖，就买了，次日行情略弱，全天无卖点。尾盘离场。",
     "image_list": [
     ]
   },
