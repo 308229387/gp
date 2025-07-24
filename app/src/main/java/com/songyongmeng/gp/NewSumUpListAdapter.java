@@ -587,7 +587,7 @@ public class NewSumUpListAdapter extends RecyclerView.Adapter<NewSumUpListAdapte
                         } else if (data.getMode() == 101) {
                             tmp = "连板大单套利";
                         } else if (data.getMode() == 100) {
-                            tmp = "市场核心";
+                            tmp = "题材热点";
                         } else if (data.getMode() == -100) {
                             tmp = "乱买";
                         } else if (data.getMode() == 99) {

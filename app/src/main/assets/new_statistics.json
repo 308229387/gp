@@ -1,16 +1,106 @@
 [
   {
-    "gpName": "远望谷",
-    "formerDate": "2025-07-08",
+    "gpName": "江南化工",
+    "formerDate": "2025-07-22",
+    "mode": -1,
+    "lastPrice": 0,
+    "bigPrice": 0,
+    "buyKEffect": 0,
+    "hasDay": 1,
+    "failureReason": [],
+    "resultPoint": 0,
+    "sellTiming": 0,
+    "buyReason": "题材爆发后，从网上看说这票是有当龙头的潜力，在第三天就上车了。一是久久未回封，二是分歧当天就开，弱鸡。",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "浙江建投",
+    "formerDate": "2025-07-22",
+    "mode": 100,
+    "lastPrice": 0,
+    "bigPrice": 0,
+    "buyKEffect": 0,
+    "hasDay": 1,
+    "failureReason": [],
+    "resultPoint": 7.39,
+    "sellTiming": 0,
+    "buyReason": "题材爆发当天，没有能买的标的，因为题材够大，次日有延续，当晚这票加入题材，而且辨识度也够，次日高开下探回升时上车。",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "世纪天鸿",
+    "formerDate": "2025-07-22",
+    "mode": 77,
+    "lastPrice": 0,
+    "bigPrice": 0,
+    "buyKEffect": 0,
+    "hasDay": 2,
+    "failureReason": [],
+    "resultPoint": -2.21,
+    "sellTiming": 0,
+    "buyReason": "大涨次日回踩买入，次日没有强度，但在5日线上，第三天开在5日线下，竞价走。",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "应流股份",
+    "formerDate": "2025-07-22",
     "mode": 77,
     "lastPrice": 0,
     "bigPrice": 0,
     "buyKEffect": 0,
     "hasDay": 1,
     "failureReason": [],
-    "resultPoint": -1.90,
+    "resultPoint": -3.42,
     "sellTiming": 0,
-    "buyReason": "形态选股，但表现不好，没有版块效应，市场在涨什么自己也不清楚，还是要找主线。",
+    "buyReason": "收盘没买 ，看形态很好，开盘就上了一半仓位，结果瓜落，事实证明，形态并不靠谱。",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "安泰科技",
+    "formerDate": "2025-07-21",
+    "mode": 77,
+    "lastPrice": 0,
+    "bigPrice": 0,
+    "buyKEffect": 0,
+    "hasDay": 1,
+    "failureReason": [],
+    "resultPoint": 9.42,
+    "sellTiming": 0,
+    "buyReason": "首板次日的均线回踩买入，当天直接拉起来，第二天兑现日，跑的慢了。",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "安泰科技",
+    "formerDate": "2025-07-21",
+    "mode": 77,
+    "lastPrice": 0,
+    "bigPrice": 0,
+    "buyKEffect": 0,
+    "hasDay": 1,
+    "failureReason": [],
+    "resultPoint": 0.57,
+    "sellTiming": 0,
+    "buyReason": "不沾个题材，次日放量，微盈，高开低走，好在最后拉红",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "建材ETF",
+    "formerDate": "2025-07-22",
+    "mode": 100,
+    "lastPrice": 0,
+    "bigPrice": 0,
+    "buyKEffect": 0,
+    "hasDay": 1,
+    "failureReason": [],
+    "resultPoint": 10.75,
+    "sellTiming": 0,
+    "buyReason": "雅下水电站题材爆发当天，知道前排买不进去，就挑选了ETF上车，基建ETF开盘8个点，没有利润，这个3个点，就选择了这个，判断正确。因为力度够强，当天直接涨停，次日较高跑，一般题材热个2天就够。 第三天回落。大肉",
     "image_list": [
     ]
   },
