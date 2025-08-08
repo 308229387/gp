@@ -1,5 +1,35 @@
 [
   {
+    "gpName": "亚星锚链",
+    "formerDate": "2025-07-22",
+    "mode": -1,
+    "lastPrice": 0,
+    "bigPrice": 0,
+    "buyKEffect": 0,
+    "hasDay": 1,
+    "failureReason": [],
+    "resultPoint": 0,
+    "sellTiming": 0,
+    "buyReason": "长城军工加速当天买的，但大盘已经涨了三天了，没注意看，结果第二天回踩5日线，但没破，好在第三天回流，macd死差离场。",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "长城军工",
+    "formerDate": "2025-07-22",
+    "mode": -1,
+    "lastPrice": 0,
+    "bigPrice": 0,
+    "buyKEffect": 0,
+    "hasDay": 1,
+    "failureReason": [],
+    "resultPoint": 0,
+    "sellTiming": 0,
+    "buyReason": "军工题材强势，之前龙头，外加成交额巨高。当天打二板上车，顶住压力后，三板加速，但想做T被洗下车。",
+    "image_list": [
+    ]
+  },
+  {
     "gpName": "江南化工",
     "formerDate": "2025-07-22",
     "mode": -1,
