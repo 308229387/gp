@@ -1,5 +1,51 @@
 [
   {
+    "gpName": "福日电子",
+    "formerDate": "2025-08-11",
+    "mode": -1,
+    "lastPrice": 0,
+    "bigPrice": 0,
+    "buyKEffect": 0,
+    "hasDay": 1,
+    "failureReason": [],
+    "resultPoint": 0,
+    "sellTiming": 0,
+    "buyReason": "机器人概念高标龙头，",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "长城军工",
+    "formerDate": "2025-08-11",
+    "mode": -1,
+    "lastPrice": 0,
+    "bigPrice": 0,
+    "buyKEffect": 0,
+    "hasDay": 1,
+    "failureReason": [],
+    "resultPoint": 0,
+    "sellTiming": 0,
+    "buyReason": "一波上涨后调整一天，次日继续上攻，半路上车。",
+    "image_list": [
+    ]
+  },
+  {
+    "gpName": "山河智能",
+    "formerDate": "2025-08-11",
+    "mode": -1,
+    "lastPrice": 0,
+    "bigPrice": 0,
+    "buyKEffect": 0,
+    "hasDay": 1,
+    "failureReason": [],
+    "resultPoint": 0,
+    "sellTiming": 0,
+    "buyReason": "龙头调整两天后的再次上板，但从成份股看套利居多。7个点走了。",
+    "image_list": [
+    ]
+  },
+
+  {
     "gpName": "亚星锚链",
     "formerDate": "2025-07-22",
     "mode": -1,
