@@ -1,5 +1,20 @@
 [
   {
+    "gpName": "长城军工",
+    "formerDate": "2025-08-11",
+    "mode": -1,
+    "lastPrice": 0,
+    "bigPrice": 0,
+    "buyKEffect": 0,
+    "hasDay": 1,
+    "failureReason": [],
+    "resultPoint": 0,
+    "sellTiming": 0,
+    "buyReason": "一波上涨后调整一天，次日继续上攻，半路上车。次日卖在低点",
+    "image_list": [
+    ]
+  },
+  {
     "gpName": "福日电子",
     "formerDate": "2025-08-11",
     "mode": -1,
