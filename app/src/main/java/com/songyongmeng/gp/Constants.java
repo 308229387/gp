@@ -5,5 +5,6 @@ public class Constants {
     public static final String BJCJ_IMG = "bjcj_img";
     public static final String YZB_IMG = "yzb_img";
     public static final String YESTODAY_IMG = "yestoday_img";
+    public static final String TOP_IMG = "top_img";
 
 }

@@ -19,6 +19,7 @@ public class BjcjImageActivity extends Activity {
 //    List<String> list;
 
     ViewPager viewPager;
+    int type = 0;
     private Handler autoScrollHandler = new Handler();
 
 
@@ -34,18 +35,20 @@ public class BjcjImageActivity extends Activity {
         Intent intent = getIntent();
         String tmp = intent.getStringExtra("path");
         List<String> images = AssetsUtils.getImageFileNamesFromAssets(this, tmp);
-        int type = intent.getIntExtra("random",99);
-        if(type == 0){
+        type = intent.getIntExtra("random", 99);
+        if (type == 0) {
             Collections.shuffle(images);
-        }else if(type == 1){
+        } else if (type == 1) {
             Collections.reverse(images);
         }
         viewPager = findViewById(R.id.viewPager);
         BjcjImagePagerAdapter adapter = new BjcjImagePagerAdapter(this); // 你需要创建一个适配器
-        adapter.setImageList(images,tmp);
+        adapter.setImageList(images, tmp);
         viewPager.setAdapter(adapter);
 
-        startAutoScroll();
+        if (type != -1) {
+            startAutoScroll();
+        }
     }
 
     private void startAutoScroll() {
@@ -74,6 +77,8 @@ public class BjcjImageActivity extends Activity {
     @Override
     protected void onRestart() {
         super.onRestart();
-        startAutoScroll();
+        if (type != -1) {
+            startAutoScroll();
+        }
     }
 }

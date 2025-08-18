@@ -136,6 +136,8 @@ public class MainActivity extends AppCompatActivity {
                     toSeeImage(Constants.BJCJ_IMG);
                 } else if (allData.get(groupPosition).getData().get(childPosition).getRichText().get(0).equals("title:一字板")) {
                     toSeeImage(Constants.YZB_IMG);
+                } else if (allData.get(groupPosition).getData().get(childPosition).getRichText().get(0).equals("title:龙头合集")) {
+                    toSeeImage(Constants.TOP_IMG);
                 } else if (allData.get(groupPosition).getData().get(childPosition).getRichText().get(0).equals("title:竞价抢筹成功")) {
                     toBigImage("jing_jia_qiang_chou_suc.json");
                 } else if (allData.get(groupPosition).getData().get(childPosition).getRichText().get(0).equals("title:竞价抢筹失败")) {
@@ -158,12 +160,15 @@ public class MainActivity extends AppCompatActivity {
         if(str.equals(Constants.YESTODAY_IMG)){
             intent.putExtra("path",Constants.YESTODAY_IMG);
             intent.putExtra("random",1);
-        }if(str.equals(Constants.BJCJ_IMG)){
+        }else if(str.equals(Constants.BJCJ_IMG)){
             intent.putExtra("path",Constants.BJCJ_IMG);
             intent.putExtra("random",0);
         }else if(str.equals(Constants.YZB_IMG)){
             intent.putExtra("path",Constants.YZB_IMG);
             intent.putExtra("random",0);
+        }else if(str.equals(Constants.TOP_IMG)){
+            intent.putExtra("path",Constants.TOP_IMG);
+            intent.putExtra("random",-1);
         }
         startActivity(intent);
     }
